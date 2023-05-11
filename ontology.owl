@@ -13,6 +13,25 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#fancyName -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#fancyName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -48,6 +67,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Additive">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Food"/>
+        <fancyName>Food Additive</fancyName>
     </owl:Class>
     
 
@@ -56,6 +76,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Alcoholic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Drink"/>
+        <fancyName>Alcoholic Drink</fancyName>
     </owl:Class>
     
 
@@ -64,6 +85,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Animal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Food"/>
+        <fancyName>Animal-derived Food</fancyName>
     </owl:Class>
     
 
@@ -72,6 +94,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Asian">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Asian Recipe</fancyName>
     </owl:Class>
     
 
@@ -88,6 +111,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Bread">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Bread Type</fancyName>
     </owl:Class>
     
 
@@ -104,6 +128,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Cereal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal"/>
+        <fancyName>Edible Cereal</fancyName>
     </owl:Class>
     
 
@@ -128,6 +153,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Crustaceans">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Seafood"/>
+        <fancyName>Edible Crustaceans</fancyName>
     </owl:Class>
     
 
@@ -136,6 +162,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Diary">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Animal"/>
+        <fancyName>Dairy Product</fancyName>
     </owl:Class>
     
 
@@ -144,6 +171,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Dressing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Additive"/>
+        <fancyName>Food Dressing</fancyName>
     </owl:Class>
     
 
@@ -166,14 +194,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Energy">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Drink"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Extract -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Extract">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Additive"/>
+        <fancyName>Energy Drink</fancyName>
     </owl:Class>
     
 
@@ -190,6 +211,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Flour">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Flour Type</fancyName>
     </owl:Class>
     
 
@@ -206,6 +228,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Fruit">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal"/>
+        <fancyName>Edible Fruit</fancyName>
     </owl:Class>
     
 
@@ -223,6 +246,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Infusion">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Drink"/>
+        <fancyName>Infusion Drink</fancyName>
     </owl:Class>
     
 
@@ -231,6 +255,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Insect">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Animal"/>
+        <fancyName>Insect-Derived Food</fancyName>
     </owl:Class>
     
 
@@ -239,6 +264,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Italian Recipe</fancyName>
     </owl:Class>
     
 
@@ -255,6 +281,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Latin recipe</fancyName>
     </owl:Class>
     
 
@@ -263,6 +290,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Liquid">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Edible"/>
+        <fancyName>Drinkable Liquid</fancyName>
     </owl:Class>
     
 
@@ -288,6 +316,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Molluscs">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Seafood"/>
+        <fancyName>Edible Molluscs</fancyName>
     </owl:Class>
     
 
@@ -296,6 +325,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Mushroom">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal"/>
+        <fancyName>Edible Mushrooms</fancyName>
     </owl:Class>
     
 
@@ -305,6 +335,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Oil">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Liquid"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal"/>
+        <fancyName>Edible Vegetal Oil</fancyName>
     </owl:Class>
     
 
@@ -313,6 +344,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pasta">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian"/>
+        <fancyName>Pasta-based Recipe</fancyName>
     </owl:Class>
     
 
@@ -321,6 +353,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pizza">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Pizza Recipe</fancyName>
     </owl:Class>
     
 
@@ -329,6 +362,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pork">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Meat"/>
+        <fancyName>Pork-derived Food</fancyName>
     </owl:Class>
     
 
@@ -337,6 +371,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Poultry">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Meat"/>
+        <fancyName>Poultry-derived Food</fancyName>
     </owl:Class>
     
 
@@ -369,6 +404,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Seasoning">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Additive"/>
+        <fancyName>Food Seasoning</fancyName>
     </owl:Class>
     
 
@@ -377,6 +413,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Seaweed">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal"/>
+        <fancyName>Edible Seaweed</fancyName>
     </owl:Class>
     
 
@@ -385,6 +422,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Seed">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal"/>
+        <fancyName>Edible Seeds</fancyName>
     </owl:Class>
     
 
@@ -393,6 +431,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Soup">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Soup Recipe</fancyName>
     </owl:Class>
     
 
@@ -409,6 +448,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Sushi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Asian"/>
+        <fancyName>Sushi Recipe</fancyName>
     </owl:Class>
     
 
@@ -433,6 +473,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Tortilla">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin"/>
+        <fancyName>Tortilla-based Recipe</fancyName>
     </owl:Class>
     
 
@@ -441,6 +482,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Food"/>
+        <fancyName>Vegetal-derived Food</fancyName>
     </owl:Class>
     
 
@@ -449,6 +491,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Water">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Drink"/>
+        <fancyName>Drinking Water</fancyName>
     </owl:Class>
     
 
@@ -485,5 +528,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
