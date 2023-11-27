@@ -119,7 +119,7 @@
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Butter -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Butter">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Diary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Dairy"/>
     </owl:Class>
     
 
@@ -136,7 +136,7 @@
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Cheese -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Cheese">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Diary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Dairy"/>
     </owl:Class>
     
 
@@ -158,9 +158,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Diary -->
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Dairy -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Diary">
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Dairy">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Animal"/>
         <fancyName>Dairy Product</fancyName>
     </owl:Class>
@@ -306,7 +306,7 @@
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Milk -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Milk">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Diary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Dairy"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Drink"/>
     </owl:Class>
     
@@ -499,7 +499,7 @@
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Yogurt -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Yogurt">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Diary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Dairy"/>
     </owl:Class>
     
 
