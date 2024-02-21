@@ -43,6 +43,7 @@
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#ingredientOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#ingredientOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#hasForIngredient"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
