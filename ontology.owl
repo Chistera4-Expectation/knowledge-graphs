@@ -49,7 +49,12 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Edible"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Edible"/>
     </owl:ObjectProperty>
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#hasForIngredient -->
     
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#hasForIngredient">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#ingredientOf"/>
+    </owl:ObjectProperty>
 
 
     <!-- 
