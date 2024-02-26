@@ -101,30 +101,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Asian -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Asian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Asian Recipe</fancyName>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Beef -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Beef">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Meat"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Bread -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Bread">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Bread Type</fancyName>
-    </owl:Class>
-    
 
 
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Butter -->
@@ -214,17 +195,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Fish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Seafood"/>
-    </owl:Class>
-    
+    </owl:Class>    
 
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Flour -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Flour">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Flour Type</fancyName>
-    </owl:Class>
-    
 
 
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Food -->
@@ -269,14 +241,6 @@
         <fancyName>Insect-Derived Food</fancyName>
     </owl:Class>
     
-
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Italian Recipe</fancyName>
-    </owl:Class>
     
 
 
@@ -284,15 +248,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Juice">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Drink"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Latin recipe</fancyName>
     </owl:Class>
     
 
@@ -351,24 +306,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pasta -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pasta">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian"/>
-        <fancyName>Pasta-based Recipe</fancyName>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pizza -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pizza">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Pizza Recipe</fancyName>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pork -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pork">
@@ -383,14 +320,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Poultry">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Meat"/>
         <fancyName>Poultry-derived Food</fancyName>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Food"/>
     </owl:Class>
     
 
@@ -438,28 +367,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Soup -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Soup">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Soup Recipe</fancyName>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Spice -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Spice">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Additive"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Sushi -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Sushi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Asian"/>
-        <fancyName>Sushi Recipe</fancyName>
     </owl:Class>
     
 
@@ -480,20 +391,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Tortilla -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Tortilla">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin"/>
-        <fancyName>Tortilla-based Recipe</fancyName>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Food"/>
         <fancyName>Vegetal-derived Food</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Vegetal"/>
+        <fancyName>Edible Vegetable</fancyName>
     </owl:Class>
     
 
@@ -515,6 +425,87 @@
     
 
 
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Food"/>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Italian Cuisine Recipe</fancyName>
+    </owl:Class>
+    
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Latin Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#African -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#African">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>African Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#American -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#American">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>American Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Carribean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Carribean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Carribean Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Japanese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Japanese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Japanese Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Chinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Chinese Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Indian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Indian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Indian Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Oceanic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Oceanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
+        <fancyName>Oceanic Cuisine Recipe</fancyName>
+    </owl:Class>
+
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -526,13 +517,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Asian"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Bread"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Flour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#African"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#American"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Carribean"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Chinese"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Indian"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Japanese"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Pizza"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Soup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Oceanic"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
