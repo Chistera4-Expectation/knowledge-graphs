@@ -528,14 +528,6 @@
     </owl:Class>
 
 
-    <!-- http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Oceanic -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Oceanic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Recipe"/>
-        <fancyName>Oceanic Cuisine Recipe</fancyName>
-    </owl:Class>
-
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -556,7 +548,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Italian"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Japanese"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Latin"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/gciatto/ontologies/2023/4/Expectation#Oceanic"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
