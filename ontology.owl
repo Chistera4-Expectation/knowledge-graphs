@@ -3680,11 +3680,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
 </Spice>
 
-<Edible rdf:about="#shrimp_dumplings">
+<Crustaceans rdf:about="#shrimp_dumplings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp dumplings</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#bbq_pork_buns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
