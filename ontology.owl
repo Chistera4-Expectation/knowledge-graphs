@@ -3032,11 +3032,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cayenne pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#kidney_beans">
+<Vegetable rdf:about="#kidney_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
