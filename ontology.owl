@@ -3779,11 +3779,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoisin sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#red_chili_peppers">
+<Spice rdf:about="#red_chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili peppers</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#rice_paper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
