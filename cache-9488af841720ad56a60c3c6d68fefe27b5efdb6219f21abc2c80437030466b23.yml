@@ -1,0 +1,18 @@
+# Cache for query: in the Cheese class, should the instances 'Cheese' and 'Fresh mozzarella cheese' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709071721
+id: chatcmpl-8wzurhxzwjhddAMp68YMKyQhTlCsB
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 1
+  prompt_tokens: 51
+  total_tokens: 52
