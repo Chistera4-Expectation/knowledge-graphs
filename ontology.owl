@@ -3377,12 +3377,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#fish">
+<Fish rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#feet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
