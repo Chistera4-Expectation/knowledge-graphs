@@ -383,6 +383,7 @@
   <ingredientOf rdf:resource="#oxtail"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <ingredientOf rdf:resource="#guava_duff"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -844,6 +845,7 @@
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#guava_duff"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1649,6 +1651,7 @@
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#sorrel_drink"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3191,6 +3194,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_duff"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava</fancyName>
+</Edible>
+
+<Edible rdf:about="#cornmeal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

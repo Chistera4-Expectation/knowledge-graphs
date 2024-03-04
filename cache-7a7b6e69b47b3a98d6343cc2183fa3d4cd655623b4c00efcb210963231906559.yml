@@ -1,0 +1,24 @@
+# Cache for query: ingredient list for Johnny Cakes, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cornmeal
+
+      2. Salt
+
+      3. Water
+
+      4. Butter'
+    role: assistant
+created: 1709069068
+id: chatcmpl-8wzE4iVCmV1ygEgLWdAlBOPzLMyab
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 16
+  prompt_tokens: 26
+  total_tokens: 42
