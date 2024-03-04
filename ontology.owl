@@ -385,6 +385,7 @@
   <ingredientOf rdf:resource="#guava_duff"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -537,6 +538,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Additive>
 
@@ -1296,6 +1298,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sesame oil</fancyName>
 </Oil>
@@ -2543,6 +2546,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -3177,6 +3181,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Edible>
@@ -3295,6 +3300,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -3523,6 +3529,7 @@
 <Edible rdf:about="#rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine</fancyName>
 </Edible>
 
@@ -3700,6 +3707,17 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thin dumpling wrappers</fancyName>
+</Edible>
+
+<Edible rdf:about="#fish_fillets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish fillets</fancyName>
+</Edible>
+
+<Edible rdf:about="#sherry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
 </Edible>
 
 <owl:AllDisjointClasses>

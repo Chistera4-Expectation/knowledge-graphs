@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Steamed Fish with Ginger and Scallions, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Fish fillets
+
+      2. Ginger
+
+      3. Scallions
+
+      4. Soy sauce
+
+      5. Sesame oil
+
+      6. Rice wine or sherry
+
+      7. Salt
+
+      8. Sugar'
+    role: assistant
+created: 1709069108
+id: chatcmpl-8wzEiJra18YAm6tbc5ZgB54Y7UakD
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 42
+  prompt_tokens: 32
+  total_tokens: 74
