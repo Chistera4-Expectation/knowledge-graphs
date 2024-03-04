@@ -3637,6 +3637,7 @@
 <Seasoning rdf:about="#fermented_black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fermented black beans</fancyName>
 </Seasoning>
 
@@ -3716,12 +3717,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot pot broth</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#various_condiments">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#hot_pot"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Various condiments</fancyName>
 </Seasoning>
 
 <Vegetable rdf:about="#chives">
