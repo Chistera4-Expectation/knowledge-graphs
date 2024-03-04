@@ -3926,11 +3926,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cauliflower</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ground_lamb">
+<Poultry rdf:about="#ground_lamb">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground lamb</fancyName>
-</Edible>
+</Poultry>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
