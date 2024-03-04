@@ -3809,10 +3809,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#gelatin">
+<Molluscs rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#thin_dumpling_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
