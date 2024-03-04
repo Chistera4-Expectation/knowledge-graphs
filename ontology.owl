@@ -2766,11 +2766,11 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
 </Crustaceans>
 
-<Edible rdf:about="#seasoning_cubes">
+<Seasoning rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasoning cubes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#stockfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
