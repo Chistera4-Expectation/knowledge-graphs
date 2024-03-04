@@ -461,6 +461,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -2132,6 +2133,7 @@
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black pepper</fancyName>
 </Edible>
@@ -2186,6 +2188,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2351,6 +2354,7 @@
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2450,6 +2454,7 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Edible>
@@ -2458,6 +2463,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scotch bonnet peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Edible>
@@ -2881,6 +2887,7 @@
 <Edible rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -2901,6 +2908,7 @@
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
@@ -3015,6 +3023,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Edible>
 
@@ -3099,6 +3108,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

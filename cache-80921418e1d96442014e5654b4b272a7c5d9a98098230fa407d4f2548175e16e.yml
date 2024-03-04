@@ -1,0 +1,36 @@
+# Cache for query: ingredient list for Escovitch Fish, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Fish (such as snapper)
+
+      - Vinegar
+
+      - Scotch bonnet peppers
+
+      - Carrots
+
+      - Bell peppers
+
+      - Onions
+
+      - Garlic
+
+      - Thyme
+
+      - Allspice
+
+      - Black pepper'
+    role: assistant
+created: 1709069059
+id: chatcmpl-8wzDv0nbQ3KUkhsqKYm6jP68bjOja
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 45
+  prompt_tokens: 27
+  total_tokens: 72
