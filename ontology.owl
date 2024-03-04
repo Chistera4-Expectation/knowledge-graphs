@@ -3384,10 +3384,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#feet">
+<Vegetable rdf:about="#feet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#souse"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
