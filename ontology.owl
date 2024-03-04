@@ -1430,6 +1430,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#tricolore_salad"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -2822,12 +2823,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dill pickle spear</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#tomato_slices">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato slices</fancyName>
 </Vegetable>
 
 <Spice rdf:about="#sport_peppers">
