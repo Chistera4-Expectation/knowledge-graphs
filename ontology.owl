@@ -3183,11 +3183,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#liquid_smoke">
+<Seasoning rdf:about="#liquid_smoke">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liquid smoke</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
