@@ -2821,12 +2821,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot water</fancyName>
 </Water>
 
-<Edible rdf:about="#ground_beef">
+<Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#burger_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
