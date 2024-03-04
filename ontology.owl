@@ -2865,12 +2865,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
 </Sauce>
 
-<Edible rdf:about="#mozzarella_cheese">
+<Cheese rdf:about="#mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_york_style_pizza"/>
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#bbq_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
