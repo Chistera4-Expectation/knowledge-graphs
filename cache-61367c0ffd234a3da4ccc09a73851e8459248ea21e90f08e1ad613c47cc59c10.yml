@@ -1,0 +1,28 @@
+# Cache for query: instances list for class Dairy Product, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- milk
+
+      - yogurt
+
+      - cheese
+
+      - butter
+
+      - sour cream
+
+      - ice cream'
+    role: assistant
+created: 1709068913
+id: chatcmpl-8wzBZf3AFle50VyJ9vjW8jUU6YuE8
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 19
+  prompt_tokens: 26
+  total_tokens: 45
