@@ -2530,11 +2530,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#flank_steak">
+<Beef rdf:about="#flank_steak">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chimichurri_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank steak</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
