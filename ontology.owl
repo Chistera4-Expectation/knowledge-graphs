@@ -3463,14 +3463,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bread rolls</fancyName>
 </Bread>
 
-<Edible rdf:about="#rice_vinegar">
+<Dressing rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice vinegar</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#wasabi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
