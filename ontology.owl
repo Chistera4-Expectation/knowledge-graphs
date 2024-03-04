@@ -2341,11 +2341,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone</fancyName>
 </Cheese>
 
-<Edible rdf:about="#cocoa_powder">
+<Seed rdf:about="#cocoa_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#marsala_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
