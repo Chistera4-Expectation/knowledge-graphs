@@ -1075,10 +1075,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Venison</fancyName>
 </Poultry>
 
-<Animal rdf:about="#bison">
+<Beef rdf:about="#bison">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bison</fancyName>
-</Animal>
+</Beef>
 
 <Animal rdf:about="#quail">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
