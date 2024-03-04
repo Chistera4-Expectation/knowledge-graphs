@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Soda' among: 'Alcoholic Drink', 'Coffee', 'Drink', 'Drinking Water', 'Energy Drink', 'Infusion Drink', 'Juice', 'Milk', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Soda'' would fall under the category of ''Drink''.'
+    role: assistant
+created: 1709069195
+id: chatcmpl-8wzG7wtBhPBwsgkGWsmUpPjbmghCh
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 12
+  prompt_tokens: 65
+  total_tokens: 77
