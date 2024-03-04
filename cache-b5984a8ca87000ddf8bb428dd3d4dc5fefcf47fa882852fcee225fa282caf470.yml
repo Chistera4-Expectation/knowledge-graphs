@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Sushi, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Nori (seaweed)
+
+      2. Sushi rice
+
+      3. Fish (such as tuna, salmon, or yellowtail)
+
+      4. Vegetables (such as cucumber, avocado, or carrot)
+
+      5. Rice vinegar
+
+      6. Soy sauce
+
+      7. Wasabi
+
+      8. Pickled ginger'
+    role: assistant
+created: 1709069073
+id: chatcmpl-8wzE9ZpFuZMhqMWeS8pTocryVCxej
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 63
+  prompt_tokens: 25
+  total_tokens: 88

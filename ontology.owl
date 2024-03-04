@@ -2518,6 +2518,8 @@
 <Edible rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Edible>
 
 <Edible rdf:about="#meat">
@@ -2731,6 +2733,7 @@
 <Edible rdf:about="#sushi_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#california_roll"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
 </Edible>
 
@@ -3086,6 +3089,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -3171,6 +3175,7 @@
 <Edible rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Edible>
 
@@ -3247,6 +3252,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bread rolls</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#wasabi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
+</Edible>
+
+<Edible rdf:about="#pickled_ginger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
