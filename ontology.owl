@@ -3654,13 +3654,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft tofu</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ground_pork">
+<Pork rdf:about="#ground_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#chili_bean_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
