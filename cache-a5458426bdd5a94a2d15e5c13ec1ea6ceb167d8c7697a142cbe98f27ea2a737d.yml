@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Tea, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Green Tea
+
+      2. Black Tea
+
+      3. Chamomile Tea
+
+      4. Earl Grey Tea
+
+      5. Oolong Tea
+
+      6. White Tea
+
+      7. Peppermint Tea
+
+      8. Chai Tea
+
+      9. Rooibos Tea
+
+      10. Herbal Tea'
+    role: assistant
+created: 1709068948
+id: chatcmpl-8wzC8xVO9bcb4CrZW1RQdp9Lj7zsi
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 59
+  prompt_tokens: 25
+  total_tokens: 84
