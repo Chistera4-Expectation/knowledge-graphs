@@ -2975,11 +2975,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweetened condensed milk</fancyName>
 </Milk>
 
-<Edible rdf:about="#key_lime_juice">
+<Juice rdf:about="#key_lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key lime juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
