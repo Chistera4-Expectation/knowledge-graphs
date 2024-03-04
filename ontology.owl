@@ -3638,6 +3638,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fermented black beans</fancyName>
 </Seasoning>
 
@@ -3817,12 +3818,6 @@
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese five spice powder</fancyName>
 </Spice>
-
-<Seasoning rdf:about="#red_fermented_bean_curd">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red fermented bean curd</fancyName>
-</Seasoning>
 
 <Dairy rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
