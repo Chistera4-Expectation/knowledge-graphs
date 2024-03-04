@@ -1,0 +1,32 @@
+# Cache for query: instances list for class Infusion Drink, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Green Glow
+
+      - Berry Blast
+
+      - Citrus Splash
+
+      - Tropical Twist
+
+      - Lemon Zest
+
+      - Watermelon Wave
+
+      - Pomegranate Punch
+
+      - Peach Paradise'
+    role: assistant
+created: 1709068951
+id: chatcmpl-8wzCBWtIcQvSffLkeMTAxeeZUXtE2
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 37
+  prompt_tokens: 27
+  total_tokens: 64
