@@ -387,6 +387,7 @@
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -404,6 +405,7 @@
   <ingredientOf rdf:resource="#oxtail"/>
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -502,6 +504,7 @@
   <ingredientOf rdf:resource="#aloo_pie"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
 </Spice>
 
@@ -1725,6 +1728,7 @@
   <ingredientOf rdf:resource="#soba_noodles"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2307,6 +2311,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2487,6 +2492,7 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2605,6 +2611,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -2771,6 +2778,7 @@
   <ingredientOf rdf:resource="#aloo_pie"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3079,6 +3087,7 @@
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#aloo_pie"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -3257,6 +3266,7 @@
 <Edible rdf:about="#peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#samosa"/>
 </Edible>
 
 <Edible rdf:about="#coconut_milk">
@@ -3870,6 +3880,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
+</Edible>
+
+<Edible rdf:about="#cumin_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cumin seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#coriander_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coriander powder</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

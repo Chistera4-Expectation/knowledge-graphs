@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Samosa, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Potatoes, peas, onions, cumin seeds, coriander powder, turmeric, ginger,
+      garlic, green chilies, garam masala, salt, pepper, flour, water
+    role: assistant
+created: 1709069122
+id: chatcmpl-8wzEwsn3r9lwUwq1W3IS6u2GSJY9F
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 39
+  prompt_tokens: 25
+  total_tokens: 64
