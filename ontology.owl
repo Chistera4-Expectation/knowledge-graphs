@@ -3874,11 +3874,11 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
 </Dairy>
 
-<Edible rdf:about="#mint">
+<Spice rdf:about="#mint">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
