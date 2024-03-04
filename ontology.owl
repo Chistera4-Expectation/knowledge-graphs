@@ -605,6 +605,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1257,6 +1258,7 @@
 
 <Vegetal rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Vegetal>
 
@@ -2069,6 +2071,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <ingredientOf rdf:resource="#chimichurri_steak"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2105,6 +2108,7 @@
 <Edible rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -2211,6 +2215,8 @@
 <Edible rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
 <Edible rdf:about="#walnuts">
@@ -2245,6 +2251,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chimichurri_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red pepper flakes</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#cilantro">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
+</Edible>
+
+<Edible rdf:about="#lime">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
+</Edible>
+
+<Edible rdf:about="#tortilla_strips">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla strips</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

@@ -1,0 +1,34 @@
+# Cache for query: ingredient list for Sopa de Lima, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken broth
+
+      2. Chicken
+
+      3. Tomatoes
+
+      4. Onions
+
+      5. Garlic
+
+      6. Cilantro
+
+      7. Lime
+
+      8. Avocado
+
+      9. Tortilla strips'
+    role: assistant
+created: 1709069005
+id: chatcmpl-8wzD3YG9Q0OHLue0SxaJUSRsOPePq
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 43
+  prompt_tokens: 27
+  total_tokens: 70
