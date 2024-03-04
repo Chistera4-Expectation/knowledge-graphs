@@ -2761,10 +2761,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assorted meats</fancyName>
 </Pork>
 
-<Edible rdf:about="#crayfish">
+<Crustaceans rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
