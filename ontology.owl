@@ -3888,11 +3888,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom</fancyName>
 </Spice>
 
-<Edible rdf:about="#ghee">
+<Oil rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#kashmiri_chili">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
