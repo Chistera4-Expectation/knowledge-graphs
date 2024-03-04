@@ -2777,11 +2777,11 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
 </Fish>
 
-<Edible rdf:about="#egg">
+<Poultry rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#white_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
