@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Coffee' among: 'Alcoholic Drink', 'Coffee', 'Drinking Water', 'Energy Drink', 'Juice', 'Milk', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: The most adequate class for "Coffee" is "Coffee."
+    role: assistant
+created: 1709069192
+id: chatcmpl-8wzG4AooOYp3zBiUyTRG6gEFX22s9
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 12
+  prompt_tokens: 56
+  total_tokens: 68
