@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Katsu Curry, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken cutlet
+
+      2. Curry roux
+
+      3. Onion
+
+      4. Carrot
+
+      5. Potatoes
+
+      6. Rice
+
+      7. Flour
+
+      8. Eggs
+
+      9. Panko breadcrumbs
+
+      10. Oil
+
+      11. Water'
+    role: assistant
+created: 1709069081
+id: chatcmpl-8wzEHIhZYI3NkqDWob8VR6lFM9tTL
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 51
+  prompt_tokens: 26
+  total_tokens: 77
