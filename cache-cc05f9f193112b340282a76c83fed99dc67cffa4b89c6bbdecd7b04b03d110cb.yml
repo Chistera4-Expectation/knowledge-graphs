@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Texas Chili, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Ground beef
+
+      - Tomato sauce
+
+      - Bell peppers
+
+      - Onions
+
+      - Garlic
+
+      - Chili powder
+
+      - Cumin
+
+      - Paprika
+
+      - Cayenne pepper
+
+      - Kidney beans
+
+      - Beef broth'
+    role: assistant
+created: 1709069034
+id: chatcmpl-8wzDWRMhmMBtDC0QkUUhBgZMebSpV
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 44
+  prompt_tokens: 25
+  total_tokens: 69
