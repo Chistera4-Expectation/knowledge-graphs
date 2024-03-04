@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Edible Vegetable, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Carrot
+
+      2. Spinach
+
+      3. Tomato
+
+      4. Broccoli
+
+      5. Bell pepper'
+    role: assistant
+created: 1709068940
+id: chatcmpl-8wzC09VOVs4HdknyOAKywN381eZfE
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 23
+  prompt_tokens: 27
+  total_tokens: 50
