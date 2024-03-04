@@ -486,6 +486,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -3874,12 +3875,6 @@
   <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Spice>
-
-<Seasoning rdf:about="#cumin_seeds">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#samosa"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cumin seeds</fancyName>
-</Seasoning>
 
 <Seasoning rdf:about="#coriander_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
