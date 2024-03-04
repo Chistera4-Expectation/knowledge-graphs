@@ -2701,11 +2701,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri piri sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#lemon">
+<Fruit rdf:about="#lemon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#peanut_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
