@@ -3826,10 +3826,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish fillets</fancyName>
 </Fish>
 
-<Edible rdf:about="#sherry">
+<Alcoholic rdf:about="#sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#tea_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
