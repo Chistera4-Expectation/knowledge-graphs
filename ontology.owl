@@ -1666,6 +1666,7 @@
   <ingredientOf rdf:resource="#sorrel_drink"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3390,6 +3391,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panko breadcrumbs</fancyName>
+</Edible>
+
+<Edible rdf:about="#buckwheat_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#wheat_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat flour</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

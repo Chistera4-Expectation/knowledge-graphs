@@ -1,0 +1,22 @@
+# Cache for query: ingredient list for Soba Noodles, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Buckwheat flour
+
+      - Wheat flour
+
+      - Water'
+    role: assistant
+created: 1709069083
+id: chatcmpl-8wzEJSmsSH7J89jxZe60UlgGjRbh0
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 12
+  prompt_tokens: 27
+  total_tokens: 39
