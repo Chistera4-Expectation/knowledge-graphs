@@ -3339,12 +3339,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#baking_powder">
+<Seasoning rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#guava_duff"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
