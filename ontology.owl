@@ -1831,6 +1831,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aloo Pie</fancyName>
 </Carribean>
 
+<Japanese rdf:about="#sushi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#sashimi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sashimi</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#tempura">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#miso_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso Soup</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#shabu_shabu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shabu Shabu</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#katsu_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katsu Curry</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#soba_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soba Noodles</fancyName>
+</Japanese>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
