@@ -1,0 +1,30 @@
+# Cache for query: instances list for class Insect-Derived Food, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cricket flour
+
+      2. Bee larvae
+
+      3. Mealworms
+
+      4. Black soldier fly larvae
+
+      5. Grasshoppers
+
+      6. Silkworm pupae
+
+      7. Ant eggs'
+    role: assistant
+created: 1709068921
+id: chatcmpl-8wzBhCguMIckbPFqrBpThtbD9oqUB
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 41
+  prompt_tokens: 30
+  total_tokens: 71
