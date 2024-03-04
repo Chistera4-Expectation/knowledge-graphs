@@ -3570,12 +3570,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dipping sauces</fancyName>
 </Sauce>
 
-<Edible rdf:about="#broth">
+<Sauce rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#chicken_cutlet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
