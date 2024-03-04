@@ -3583,11 +3583,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken cutlet</fancyName>
 </Poultry>
 
-<Edible rdf:about="#curry_roux">
+<Seasoning rdf:about="#curry_roux">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry roux</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#panko_breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
