@@ -1,0 +1,19 @@
+# Cache for query: most adequate class for 'Berry Blast' among: 'Coffee', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Among "Coffee" and "Tea," the most suitable class for "Berry Blast" would
+      be "Tea."
+    role: assistant
+created: 1709069183
+id: chatcmpl-8wzFvDAMJi9gxezT7vlOZIjjhwdOE
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 24
+  prompt_tokens: 35
+  total_tokens: 59
