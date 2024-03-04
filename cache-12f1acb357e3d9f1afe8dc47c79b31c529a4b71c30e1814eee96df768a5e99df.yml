@@ -1,0 +1,19 @@
+# Cache for query: most adequate class for 'Juice' among: 'Alcoholic Drink', 'Coffee', 'Drinking Water', 'Energy Drink', 'Juice', 'Milk', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: The most appropriate class for "Juice" would be under the category of
+      "Juice".
+    role: assistant
+created: 1709069196
+id: chatcmpl-8wzG8FA8dNHdZy5GzT1juYtqkZ8ic
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 19
+  prompt_tokens: 57
+  total_tokens: 76
