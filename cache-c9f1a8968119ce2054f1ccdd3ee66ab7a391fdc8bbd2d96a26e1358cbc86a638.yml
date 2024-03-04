@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Shrimp with Lobster Sauce, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Shrimp, lobster, garlic, ginger, soy sauce, chicken broth, cornstarch,
+      eggs, oil
+    role: assistant
+created: 1709069114
+id: chatcmpl-8wzEo3u2SnpT2mpGkA7ZeIf590GGA
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 22
+  prompt_tokens: 29
+  total_tokens: 51
