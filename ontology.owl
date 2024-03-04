@@ -3851,11 +3851,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rock sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#chinese_five_spice_powder">
+<Spice rdf:about="#chinese_five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese five spice powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#red_fermented_bean_curd">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
