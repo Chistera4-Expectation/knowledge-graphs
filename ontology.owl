@@ -3758,11 +3758,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Various condiments</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chives">
+<Vegetable rdf:about="#chives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chives</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#red_chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
