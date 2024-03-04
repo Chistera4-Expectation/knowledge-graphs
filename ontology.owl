@@ -3022,7 +3022,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Food>
 
-<Edible rdf:about="#cayenne_pepper">
+<Spice rdf:about="#cayenne_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#texas_chili"/>
@@ -3030,7 +3030,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cayenne pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#kidney_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
