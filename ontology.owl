@@ -2659,6 +2659,7 @@
 <Pork rdf:about="#meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
 </Pork>
 
 <Vegetable rdf:about="#plantain">
@@ -2740,12 +2741,6 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egusi seeds</fancyName>
 </Seed>
-
-<Pork rdf:about="#assorted_meats">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assorted meats</fancyName>
-</Pork>
 
 <Crustaceans rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
