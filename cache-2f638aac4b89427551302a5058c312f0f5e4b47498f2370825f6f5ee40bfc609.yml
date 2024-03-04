@@ -1,0 +1,28 @@
+# Cache for query: ingredient list for California Roll, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Nori (seaweed)
+
+      - Sushi rice
+
+      - Crab meat
+
+      - Cucumber
+
+      - Avocado
+
+      - Sesame seeds'
+    role: assistant
+created: 1709069027
+id: chatcmpl-8wzDPW8pJqdAHjXgFMKZL9hDj73rm
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 29
+  prompt_tokens: 25
+  total_tokens: 54
