@@ -3543,11 +3543,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miso soup garnish</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#thinly_sliced_beef">
+<Beef rdf:about="#thinly_sliced_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#assorted_vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
