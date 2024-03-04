@@ -3202,10 +3202,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Dressing>
 
-<Edible rdf:about="#yeast">
+<Mushroom rdf:about="#yeast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#malt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
