@@ -836,6 +836,8 @@
 
 <Cheese rdf:about="#mozzarella">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella</fancyName>
 </Cheese>
 
@@ -2296,14 +2298,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato sauce</fancyName>
 </Sauce>
-
-<Cheese rdf:about="#fresh_mozzarella_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#margherita_pizza"/>
-  <ingredientOf rdf:resource="#caprese_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh mozzarella cheese</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh mozzarella cheese</fancyName>
-</Cheese>
 
 <Vegetable rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
