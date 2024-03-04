@@ -586,10 +586,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guar Gum</fancyName>
 </Dressing>
 
-<Additive rdf:about="#carrageenan">
+<Dressing rdf:about="#carrageenan">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrageenan</fancyName>
-</Additive>
+</Dressing>
 
 <Additive rdf:about="#sodium_nitrate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

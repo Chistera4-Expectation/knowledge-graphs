@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Carrageenan' among: 'Food Dressing', 'Food Seasoning', 'Sauce', 'Spice', 'Sweetener'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Food Dressing'''
+    role: assistant
+created: 1709069131
+id: chatcmpl-8wzF5tytGmtmdwQS6VODk1jZeN0Fa
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 5
+  prompt_tokens: 52
+  total_tokens: 57
