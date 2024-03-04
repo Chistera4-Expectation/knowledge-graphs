@@ -781,6 +781,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Poultry>
 
@@ -3487,12 +3488,6 @@
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Sauce>
-
-<Poultry rdf:about="#chicken_cutlet">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#katsu_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken cutlet</fancyName>
-</Poultry>
 
 <Bread rdf:about="#panko_breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
