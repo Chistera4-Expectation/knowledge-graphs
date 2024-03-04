@@ -474,6 +474,21 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Nitrate</fancyName>
 </Additive>
 
+<Beef rdf:about="#sirloin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sirloin</fancyName>
+</Beef>
+
+<Beef rdf:about="#flank">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank</fancyName>
+</Beef>
+
+<Beef rdf:about="#new_york_strip">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York Strip</fancyName>
+</Beef>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
