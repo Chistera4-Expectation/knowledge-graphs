@@ -2591,14 +2591,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla strips</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#rice">
+<Seed rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
