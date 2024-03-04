@@ -426,13 +426,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">garlic powder</fancyName>
 </Seasoning>
 
-<Seasoning rdf:about="#onion_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#southern_fried_chicken"/>
-  <ingredientOf rdf:resource="#texas_bbq_brisket"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion powder</fancyName>
-</Seasoning>
-
 <Seasoning rdf:about="#paprika">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
