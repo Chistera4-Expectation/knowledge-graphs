@@ -377,6 +377,7 @@
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -390,6 +391,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -2101,6 +2103,7 @@
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Edible>
 
@@ -2351,6 +2354,8 @@
 <Edible rdf:about="#parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chimichurri_steak"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
 </Edible>
 
 <Edible rdf:about="#red_wine_vinegar">
@@ -2611,6 +2616,7 @@
 <Edible rdf:about="#mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
 </Edible>
 
@@ -2644,6 +2650,7 @@
 <Edible rdf:about="#crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#california_roll"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab meat</fancyName>
 </Edible>
 
@@ -2819,7 +2826,9 @@
 <Edible rdf:about="#lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Edible>
 
 <Edible rdf:about="#pie_crust">
@@ -2902,6 +2911,7 @@
 <Edible rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Edible>
 
@@ -2919,6 +2929,24 @@
 <Edible rdf:about="#malt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
+</Edible>
+
+<Edible rdf:about="#bread_crumbs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread crumbs</fancyName>
+</Edible>
+
+<Edible rdf:about="#mayonnaise">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
+</Edible>
+
+<Edible rdf:about="#old_bay_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#maryland_crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Bay seasoning</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

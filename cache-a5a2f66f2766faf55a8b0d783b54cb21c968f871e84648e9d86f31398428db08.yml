@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Maryland Crab Cakes, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Crab meat
+
+      - Bread crumbs
+
+      - Mayonnaise
+
+      - Eggs
+
+      - Mustard
+
+      - Worcestershire sauce
+
+      - Old Bay seasoning
+
+      - Salt
+
+      - Pepper
+
+      - Parsley
+
+      - Lemon juice'
+    role: assistant
+created: 1709069047
+id: chatcmpl-8wzDjNUqx72YvcjAkgSGX1OwDvo7w
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 44
+  prompt_tokens: 27
+  total_tokens: 71
