@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Lemon Juice' among: 'Alcoholic Drink', 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Coffee', 'Drinking Water', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Energy Drink', 'Food Dressing', 'Food Seasoning', 'Honey', 'Juice', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Tea', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: The most adequate class for Lemon Juice would be 'Juice.'
+    role: assistant
+created: 1709553335
+id: chatcmpl-8z1CpJJElDamBPhFQjdcsRM2BI5wz
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_2b778c6b35
+usage:
+  completion_tokens: 13
+  prompt_tokens: 188
+  total_tokens: 201
