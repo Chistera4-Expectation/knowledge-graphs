@@ -3415,11 +3415,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#sorrel_leaves">
+<Vegetable rdf:about="#sorrel_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sorrel_drink"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorrel leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#guava">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
