@@ -1,0 +1,19 @@
+# Cache for query: most adequate class for 'Red wine vinaigrette dressing' among: 'Alcoholic Drink', 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Coffee', 'Drinking Water', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Energy Drink', 'Food Dressing', 'Food Seasoning', 'Honey', 'Juice', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Tea', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Food Dressing'' would be the most adequate class for ''Red wine vinaigrette
+      dressing''.'
+    role: assistant
+created: 1709553346
+id: chatcmpl-8z1D0QNdu7HwiPSG06kJKhM7cVerv
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_2b778c6b35
+usage:
+  completion_tokens: 21
+  prompt_tokens: 192
+  total_tokens: 213

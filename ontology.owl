@@ -3153,11 +3153,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_wine_vinaigrette_dressing">
+<Dressing rdf:about="#red_wine_vinaigrette_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine vinaigrette dressing</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#yellow_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
