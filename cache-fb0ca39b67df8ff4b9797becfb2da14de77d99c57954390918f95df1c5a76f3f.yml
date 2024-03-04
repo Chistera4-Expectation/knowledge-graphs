@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Spice, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cinnamon
+
+      2. Turmeric
+
+      3. Paprika
+
+      4. Nutmeg
+
+      5. Cloves'
+    role: assistant
+created: 1709068897
+id: chatcmpl-8wzBJXwBf4HARlmAzJrYlj2pmFqac
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 24
+  prompt_tokens: 25
+  total_tokens: 49

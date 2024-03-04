@@ -375,6 +375,7 @@
 
 <Seasoning rdf:about="#paprika">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Spice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -402,6 +403,26 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
+
+<Spice rdf:about="#cinnamon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
+</Spice>
+
+<Spice rdf:about="#turmeric">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
+</Spice>
+
+<Spice rdf:about="#nutmeg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutmeg</fancyName>
+</Spice>
+
+<Spice rdf:about="#cloves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
+</Spice>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
