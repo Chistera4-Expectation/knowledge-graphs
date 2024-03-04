@@ -3409,11 +3409,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lime_juice">
+<Juice rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#sorrel_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
