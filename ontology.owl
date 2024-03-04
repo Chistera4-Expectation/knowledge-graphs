@@ -793,6 +793,14 @@
 
 <Butter rdf:about="#unsalted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#malva_pudding"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#guava_duff"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted Butter</fancyName>
 </Butter>
 
@@ -931,19 +939,6 @@
   <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Cheese>
-
-<Butter rdf:about="#butter">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
-  <ingredientOf rdf:resource="#malva_pudding"/>
-  <ingredientOf rdf:resource="#apple_pie"/>
-  <ingredientOf rdf:resource="#buffalo_wings"/>
-  <ingredientOf rdf:resource="#guava_duff"/>
-  <ingredientOf rdf:resource="#johnny_cakes"/>
-  <ingredientOf rdf:resource="#cuban_sandwich"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
-</Butter>
 
 <Dairy rdf:about="#sour_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
