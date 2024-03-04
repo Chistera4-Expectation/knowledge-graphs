@@ -2469,11 +2469,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn masa</fancyName>
 </Pasta>
 
-<Edible rdf:about="#pork_shoulder">
+<Pork rdf:about="#pork_shoulder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork shoulder</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#dried_corn_husks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
