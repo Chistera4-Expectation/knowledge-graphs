@@ -1435,10 +1435,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#sweet_potatoes">
+<Vegetable rdf:about="#sweet_potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet potatoes</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
