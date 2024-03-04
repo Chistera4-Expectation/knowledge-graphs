@@ -3068,7 +3068,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">file powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#bay_leaves">
+<Seasoning rdf:about="#bay_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
@@ -3079,7 +3079,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bay leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#apples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
