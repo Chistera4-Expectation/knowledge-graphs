@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Peach Paradise' among: 'Coffee', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Tea
+    role: assistant
+created: 1709069190
+id: chatcmpl-8wzG2RicWPQuyxS2A4KC6QlMAj4AS
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 2
+  prompt_tokens: 36
+  total_tokens: 38
