@@ -3716,11 +3716,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef balls</fancyName>
 </Beef>
 
-<Edible rdf:about="#pan_fried_pork_dumplings">
+<Pork rdf:about="#pan_fried_pork_dumplings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan-fried pork dumplings</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#bean_curd_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
