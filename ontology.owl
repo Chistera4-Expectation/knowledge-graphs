@@ -3189,12 +3189,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liquid smoke</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#worcestershire_sauce">
+<Seasoning rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#apple_cider_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
