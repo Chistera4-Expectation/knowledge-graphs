@@ -1429,6 +1429,7 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#tricolore_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -2392,12 +2393,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tricolore_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endive</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#cherry_tomatoes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tricolore_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry tomatoes</fancyName>
 </Vegetable>
 
 <Pasta rdf:about="#corn_masa">
