@@ -3537,11 +3537,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dashi stock</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#miso_soup_garnish">
+<Seaweed rdf:about="#miso_soup_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miso soup garnish</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#thinly_sliced_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
