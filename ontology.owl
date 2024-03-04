@@ -2600,12 +2600,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Seed>
 
-<Edible rdf:about="#tomato_paste">
+<Sauce rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato paste</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
