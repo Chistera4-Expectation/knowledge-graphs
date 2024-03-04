@@ -3011,7 +3011,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Seed>
 
-<Edible rdf:about="#cornstarch">
+<Food rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
@@ -3020,7 +3020,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#shrimp_with_lobster_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
-</Edible>
+</Food>
 
 <Edible rdf:about="#cayenne_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
