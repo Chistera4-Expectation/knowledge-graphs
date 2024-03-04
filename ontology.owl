@@ -1497,6 +1497,7 @@
 
 <Alcoholic rdf:about="#wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
 </Alcoholic>
 
@@ -2391,12 +2392,6 @@
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
-
-<Alcoholic rdf:about="#white_wine">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
-</Alcoholic>
 
 <Seasoning rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
