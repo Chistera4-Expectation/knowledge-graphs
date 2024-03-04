@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Edible Molluscs, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Clams
+
+      2. Mussels
+
+      3. Oysters
+
+      4. Scallops
+
+      5. Octopus'
+    role: assistant
+created: 1709068917
+id: chatcmpl-8wzBd1bxtiC9I4QZJ57NNUplynAJ8
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 25
+  prompt_tokens: 30
+  total_tokens: 55

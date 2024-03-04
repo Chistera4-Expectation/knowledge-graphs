@@ -801,6 +801,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haddock</fancyName>
 </Fish>
 
+<Molluscs rdf:about="#clams">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#mussels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussels</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#oysters">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#scallops">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallops</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#octopus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octopus</fancyName>
+</Molluscs>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
