@@ -3785,11 +3785,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili peppers</fancyName>
 </Spice>
 
-<Edible rdf:about="#rice_paper">
+<Vegetable rdf:about="#rice_paper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#vermicelli_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
