@@ -1163,6 +1163,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Lettuce</fancyName>
 </Seaweed>
 
+<Seed rdf:about="#sunflower_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunflower seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#pumpkin_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#chia_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chia seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#flaxseeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaxseeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#sesame_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
+</Seed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
