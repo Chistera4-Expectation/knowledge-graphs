@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Shanghai Soup Dumplings, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Ground pork, garlic, ginger, soy sauce, sesame oil, sugar, gelatin, chicken
+      broth, green onions, thin dumpling wrappers
+    role: assistant
+created: 1709069107
+id: chatcmpl-8wzEhbsMeVHw8ZVvBxJ5vnvG1410A
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 28
+  prompt_tokens: 27
+  total_tokens: 55
