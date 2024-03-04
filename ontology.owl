@@ -2387,6 +2387,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -2797,12 +2798,6 @@
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow mustard</fancyName>
 </Dressing>
-
-<Vegetable rdf:about="#diced_onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diced onions</fancyName>
-</Vegetable>
 
 <Sauce rdf:about="#sweet_relish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
