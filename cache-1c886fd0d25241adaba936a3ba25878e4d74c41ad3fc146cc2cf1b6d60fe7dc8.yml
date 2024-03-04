@@ -1,0 +1,18 @@
+# Cache for query: in the Edible Vegetal Oil class, should the instances 'Peanut oil' and 'vegetable oil' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709071929
+id: chatcmpl-8wzyDtX0pA09J3furPB6zb9HBbgaX
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 1
+  prompt_tokens: 56
+  total_tokens: 57
