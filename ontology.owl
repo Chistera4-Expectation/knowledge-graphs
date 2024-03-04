@@ -2909,11 +2909,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#beef_hot_dog">
+<Beef rdf:about="#beef_hot_dog">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef hot dog</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#poppy_seed_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
