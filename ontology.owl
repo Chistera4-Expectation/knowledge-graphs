@@ -3837,13 +3837,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tea leaves</fancyName>
 </Tea>
 
-<Edible rdf:about="#star_anise">
+<Spice rdf:about="#star_anise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tea_eggs"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">star anise</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star anise</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#rock_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
