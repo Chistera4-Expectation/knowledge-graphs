@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Smoothie' among: 'Alcoholic Drink', 'Coffee', 'Drinking Water', 'Edible Vegetal Oil', 'Energy Drink', 'Honey', 'Juice', 'Milk', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Juice'''
+    role: assistant
+created: 1709069199
+id: chatcmpl-8wzGBZ40olnUSRZsuH5xB2itPlh7R
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 4
+  prompt_tokens: 68
+  total_tokens: 72

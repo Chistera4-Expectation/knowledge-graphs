@@ -1767,10 +1767,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemonade</fancyName>
 </Juice>
 
-<Liquid rdf:about="#smoothie">
+<Juice rdf:about="#smoothie">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothie</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#iced_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
