@@ -2933,11 +2933,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diced onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#sweet_relish">
+<Sauce rdf:about="#sweet_relish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweet relish</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#dill_pickle_spear">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
