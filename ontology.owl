@@ -3908,11 +3908,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Spice>
 
-<Edible rdf:about="#cumin_seeds">
+<Seasoning rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cumin seeds</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#coriander_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
