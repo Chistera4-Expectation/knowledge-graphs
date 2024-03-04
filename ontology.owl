@@ -1078,6 +1078,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach</fancyName>
 </Fruit>
 
+<Mushroom rdf:about="#shiitake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#chanterelle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chanterelle</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#morel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morel</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#oyster">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#truffle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Truffle</fancyName>
+</Mushroom>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

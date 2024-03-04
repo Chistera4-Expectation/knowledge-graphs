@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Edible Mushrooms, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Portobello
+
+      2. Shiitake
+
+      3. Chanterelle
+
+      4. Morel
+
+      5. Cremini
+
+      6. Enoki
+
+      7. Oyster
+
+      8. Maitake
+
+      9. Truffle
+
+      10. Matsutake'
+    role: assistant
+created: 1709068933
+id: chatcmpl-8wzBtLmYr2Xk9dyjvRBsEdbmD0Jh5
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 54
+  prompt_tokens: 28
+  total_tokens: 82
