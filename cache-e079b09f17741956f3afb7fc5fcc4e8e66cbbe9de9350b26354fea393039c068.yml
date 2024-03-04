@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Kofta Curry, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Ground lamb, onions, garlic, ginger, coriander, cumin, cinnamon, cloves,
+      cardamom, yogurt, tomato sauce, cilantro, salt, pepper
+    role: assistant
+created: 1709069126
+id: chatcmpl-8wzF0nru4kGePkEIAlQ57FEItWxTt
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 35
+  prompt_tokens: 27
+  total_tokens: 62

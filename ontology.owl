@@ -389,6 +389,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -407,6 +408,7 @@
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -447,6 +449,7 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -499,6 +502,7 @@
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Spice>
 
@@ -527,6 +531,7 @@
   <ingredientOf rdf:resource="#tea_eggs"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Spice>
 
@@ -882,6 +887,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
 </Dairy>
 
@@ -2261,7 +2267,9 @@
   <ingredientOf rdf:resource="#new_york_style_pizza"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato sauce</fancyName>
 </Edible>
 
 <Edible rdf:about="#fresh_mozzarella_cheese">
@@ -2317,6 +2325,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2500,6 +2509,7 @@
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2564,6 +2574,7 @@
   <ingredientOf rdf:resource="#pepe_soup"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
@@ -2621,6 +2632,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -3872,6 +3884,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom</fancyName>
 </Edible>
 
@@ -3891,6 +3904,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Edible>
 
@@ -3910,6 +3924,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cauliflower</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_lamb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground lamb</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
