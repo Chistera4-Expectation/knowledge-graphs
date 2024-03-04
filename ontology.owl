@@ -3171,11 +3171,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry cream</fancyName>
 </Milk>
 
-<Edible rdf:about="#beef_brisket">
+<Beef rdf:about="#beef_brisket">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef brisket</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#mustard_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
