@@ -295,6 +295,8 @@
 
 <Dressing rdf:about="#balsamic_vinaigrette">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#tricolore_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic Vinaigrette</fancyName>
 </Dressing>
 
@@ -2378,14 +2380,6 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basil leaves</fancyName>
 </Spice>
-
-<Dressing rdf:about="#balsamic_vinegar">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#caprese_salad"/>
-  <ingredientOf rdf:resource="#tricolore_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balsamic vinegar</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
-</Dressing>
 
 <Spice rdf:about="#saffron">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
