@@ -1,0 +1,18 @@
+# Cache for query: in the Pork-derived Food class, should the instances 'Pork shoulder' and 'Roast pork' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709071596
+id: chatcmpl-8wzsq03jQNxrNWDh07F4RM6w9QiDC
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 1
+  prompt_tokens: 53
+  total_tokens: 54
