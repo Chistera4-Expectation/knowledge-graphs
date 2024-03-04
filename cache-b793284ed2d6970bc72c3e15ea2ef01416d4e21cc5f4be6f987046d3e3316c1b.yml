@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Milk' among: 'Butter', 'Cheese', 'Dairy Product', 'Milk', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Dairy Product'''
+    role: assistant
+created: 1709069143
+id: chatcmpl-8wzFHZgFFBFRJ0xcFOdw7WnKMzTJw
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 4
+  prompt_tokens: 50
+  total_tokens: 54
