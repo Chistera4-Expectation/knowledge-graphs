@@ -2550,11 +2550,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red wine vinegar</fancyName>
 </Dressing>
 
-<Edible rdf:about="#red_pepper_flakes">
+<Seasoning rdf:about="#red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chimichurri_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red pepper flakes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
