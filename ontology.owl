@@ -1725,7 +1725,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring water</fancyName>
 </Water>
 
-<Drink rdf:about="#water">
+<Water rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
@@ -1740,7 +1740,7 @@
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
-</Drink>
+</Water>
 
 <Drink rdf:about="#coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
