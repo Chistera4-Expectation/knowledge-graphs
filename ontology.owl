@@ -1787,10 +1787,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond</fancyName>
 </Seed>
 
-<Edible rdf:about="#blueberry">
+<Fruit rdf:about="#blueberry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueberry</fancyName>
-</Edible>
+</Fruit>
 
 <Italian rdf:about="#spaghetti_carbonara">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
