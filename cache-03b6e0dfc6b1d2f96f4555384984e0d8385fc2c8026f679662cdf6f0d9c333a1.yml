@@ -1,0 +1,28 @@
+# Cache for query: instances list for class Edible Seaweed, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Nori
+
+      2. Kombu
+
+      3. Wakame
+
+      4. Dulse
+
+      5. Sea Lettuce
+
+      6. Hijiki'
+    role: assistant
+created: 1709068937
+id: chatcmpl-8wzBxsletbLVSQmdjkG7VvV6hnTKv
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 32
+  prompt_tokens: 29
+  total_tokens: 61
