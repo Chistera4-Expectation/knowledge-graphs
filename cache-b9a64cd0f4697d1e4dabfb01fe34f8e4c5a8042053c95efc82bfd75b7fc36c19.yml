@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Oats' among: 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Dressing', 'Food Seasoning', 'Honey', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: The most adequate class for 'Oats' would be 'Breakfast Cereal'.
+    role: assistant
+created: 1709553139
+id: chatcmpl-8z19fulzenCpsEuhLvnSHhjJx3vGE
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_2b778c6b35
+usage:
+  completion_tokens: 17
+  prompt_tokens: 162
+  total_tokens: 179
