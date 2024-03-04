@@ -2695,11 +2695,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#piri_piri_sauce">
+<Sauce rdf:about="#piri_piri_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri piri sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#lemon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
