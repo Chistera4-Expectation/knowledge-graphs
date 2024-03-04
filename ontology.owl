@@ -2834,14 +2834,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burger bun</fancyName>
 </Bread>
 
-<Edible rdf:about="#lettuce">
+<Vegetable rdf:about="#lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
