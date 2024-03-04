@@ -3062,11 +3062,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#file_powder">
+<Seasoning rdf:about="#file_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">file powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#bay_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
