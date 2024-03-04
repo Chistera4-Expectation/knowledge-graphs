@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Hot Pot, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '- Thinly sliced meats (such as beef, lamb, pork)
+
+      - Seafood (such as shrimp, fish balls)
+
+      - Tofu
+
+      - Vegetables (such as Napa cabbage, bok choy, mushrooms)
+
+      - Noodles (such as glass noodles, udon)
+
+      - Hot pot broth (various flavors like spicy, mild, and tomato)
+
+      - Dipping sauces (such as soy sauce, sesame oil, chili oil)
+
+      - Various condiments (such as garlic,'
+    role: assistant
+created: 1709069092
+id: chatcmpl-8wzESv8oTB2oGrrYqeJLPQuMaPjY8
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
