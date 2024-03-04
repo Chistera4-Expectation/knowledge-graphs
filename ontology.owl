@@ -3083,6 +3083,24 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
+<Edible rdf:about="#mango_chutney">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#doubles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango chutney</fancyName>
+</Edible>
+
+<Edible rdf:about="#tamarind_chutney">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#doubles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind chutney</fancyName>
+</Edible>
+
+<Edible rdf:about="#pepper_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#doubles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper sauce</fancyName>
+</Edible>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

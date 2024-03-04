@@ -1,0 +1,28 @@
+# Cache for query: ingredient list for Doubles, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Bara (fried bread)
+
+      2. Channa (curried chickpeas)
+
+      3. Mango chutney
+
+      4. Tamarind chutney
+
+      5. Shadow beni (culantro)
+
+      6. Pepper sauce'
+    role: assistant
+created: 1709069057
+id: chatcmpl-8wzDtSff92HpVkHUWoMaXhzOM3BTM
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 48
+  prompt_tokens: 25
+  total_tokens: 73
