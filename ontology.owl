@@ -2585,11 +2585,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
 </Fruit>
 
-<Edible rdf:about="#tortilla_strips">
+<Vegetable rdf:about="#tortilla_strips">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla strips</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
