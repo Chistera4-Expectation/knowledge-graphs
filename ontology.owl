@@ -424,6 +424,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Spice>
 
+<Sweetener rdf:about="#stevia">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stevia</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#aspartame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspartame</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#saccharin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharin</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#monk_fruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monk fruit</fancyName>
+</Sweetener>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

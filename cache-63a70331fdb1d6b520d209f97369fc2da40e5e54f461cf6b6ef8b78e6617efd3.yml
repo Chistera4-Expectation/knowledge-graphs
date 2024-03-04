@@ -1,0 +1,28 @@
+# Cache for query: instances list for class Sweetener, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Stevia
+
+      - Sucralose
+
+      - Aspartame
+
+      - Saccharin
+
+      - Monk fruit
+
+      - Erythritol'
+    role: assistant
+created: 1709068898
+id: chatcmpl-8wzBKSWx1JfV6AjEUNsuuKYpdZNRm
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 29
+  prompt_tokens: 26
+  total_tokens: 55
