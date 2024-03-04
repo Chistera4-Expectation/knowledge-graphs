@@ -1,0 +1,18 @@
+# Cache for query: ingredient list for BBQ Ribs, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Pork ribs, BBQ sauce, brown sugar, garlic, onion, paprika, salt, pepper
+    role: assistant
+created: 1709069026
+id: chatcmpl-8wzDOK9wIVBkIiqznx0YazqycFt7Q
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 20
+  prompt_tokens: 26
+  total_tokens: 46
