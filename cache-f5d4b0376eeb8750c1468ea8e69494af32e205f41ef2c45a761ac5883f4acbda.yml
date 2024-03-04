@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Black soldier fly larvae' among: 'Honey', 'Insect-Derived Food'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '"Insect-Derived Food"'
+    role: assistant
+created: 1709069162
+id: chatcmpl-8wzFavDiS0UiGhRNUrmdvoiC9U1Au
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 7
+  prompt_tokens: 42
+  total_tokens: 49
