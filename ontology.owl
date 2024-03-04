@@ -3791,11 +3791,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#vermicelli_noodles">
+<Pasta rdf:about="#vermicelli_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermicelli noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
