@@ -3555,13 +3555,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assorted vegetables</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#noodles">
+<Pasta rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#dipping_sauces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
