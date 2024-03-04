@@ -883,11 +883,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond Milk Yogurt</fancyName>
 </Yogurt>
 
-<Yogurt rdf:about="#cashew_milk_yogurt">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashew Milk Yogurt</fancyName>
-</Yogurt>
-
 <Yogurt rdf:about="#dairy_free_yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy-Free Yogurt</fancyName>
