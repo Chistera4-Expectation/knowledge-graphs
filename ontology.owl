@@ -2704,6 +2704,10 @@
 <Spice rdf:about="#hot_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
+  <ingredientOf rdf:resource="#texas_chili"/>
+  <ingredientOf rdf:resource="#louisiana_gumbo"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot pepper</fancyName>
 </Spice>
 
@@ -3003,16 +3007,6 @@
   <ingredientOf rdf:resource="#shrimp_with_lobster_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Food>
-
-<Spice rdf:about="#cayenne_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#southern_fried_chicken"/>
-  <ingredientOf rdf:resource="#texas_chili"/>
-  <ingredientOf rdf:resource="#louisiana_gumbo"/>
-  <ingredientOf rdf:resource="#conch_fritters"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cayenne pepper</fancyName>
-</Spice>
 
 <Vegetable rdf:about="#kidney_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
