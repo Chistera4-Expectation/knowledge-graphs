@@ -933,6 +933,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Froot Loops</fancyName>
 </Breakfast>
 
+<Bread rdf:about="#whole_wheat_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#white_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#multigrain_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multigrain bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#sourdough_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sourdough bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#rye_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye bread</fancyName>
+</Bread>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

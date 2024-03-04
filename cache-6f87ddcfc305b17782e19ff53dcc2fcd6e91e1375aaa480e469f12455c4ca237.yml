@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Bread, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Whole wheat bread
+
+      2. White bread
+
+      3. Multigrain bread
+
+      4. Sourdough bread
+
+      5. Rye bread'
+    role: assistant
+created: 1709068925
+id: chatcmpl-8wzBlWGcxRIu5czak09vSn4dIjWY2
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 30
+  prompt_tokens: 25
+  total_tokens: 55
