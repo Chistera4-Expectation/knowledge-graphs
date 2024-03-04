@@ -2650,7 +2650,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#scotch_bonnet_peppers">
+<Spice rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
@@ -2658,7 +2658,7 @@
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scotch bonnet peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#curry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
