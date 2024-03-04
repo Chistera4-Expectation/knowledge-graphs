@@ -3400,14 +3400,14 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
 </Seasoning>
 
-<Edible rdf:about="#scallions">
+<Vegetable rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
