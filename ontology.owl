@@ -571,10 +571,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
-<Additive rdf:about="#msg">
+<Seasoning rdf:about="#msg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSG</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#citric_acid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
