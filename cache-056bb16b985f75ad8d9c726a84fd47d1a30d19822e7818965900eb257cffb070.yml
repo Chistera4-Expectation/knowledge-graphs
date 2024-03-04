@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Duck' among: 'Beef', 'Butter', 'Cheese', 'Edible Crustaceans', 'Edible Fish', 'Edible Molluscs', 'Honey', 'Milk', 'Pork-derived Food', 'Poultry-derived Food', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Poultry-derived Food'''
+    role: assistant
+created: 1709553122
+id: chatcmpl-8z19OB6OnpHIjYhH45aONUseqlcRD
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_2b778c6b35
+usage:
+  completion_tokens: 6
+  prompt_tokens: 86
+  total_tokens: 92

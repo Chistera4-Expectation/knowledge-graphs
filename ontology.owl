@@ -1059,11 +1059,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ant eggs</fancyName>
 </Insect>
 
-<Animal rdf:about="#duck">
+<Poultry rdf:about="#duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#rabbit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
