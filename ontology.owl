@@ -1866,6 +1866,96 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soba Noodles</fancyName>
 </Japanese>
 
+<Chinese rdf:about="#kung_pao_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kung Pao Chicken</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#peking_duck">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peking Duck</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#ma_po_tofu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma Po Tofu</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#dim_sum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dim Sum</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#hot_pot">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Pot</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#dumplings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dumplings</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#szechuan_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szechuan Beef</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#general_tso_s_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Tso's Chicken</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#sweet_and_sour_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet and Sour Pork</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#fried_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Rice</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#beef_noodle_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef Noodle Soup</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#spring_rolls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Rolls</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#shanghai_soup_dumplings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shanghai Soup Dumplings</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#steamed_fish_with_ginger_and_scallions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed Fish with Ginger and Scallions</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#tea_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tea Eggs</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#dongpo_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dongpo Pork</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#cantonese_bbq_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantonese BBQ Pork</fancyName>
+</Chinese>
+
+<Chinese rdf:about="#shrimp_with_lobster_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp with Lobster Sauce</fancyName>
+</Chinese>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous Chinese Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Kung Pao Chicken
+
+      2. Peking Duck
+
+      3. Ma Po Tofu
+
+      4. Dim Sum
+
+      5. Hot Pot
+
+      6. Mapo Doufu
+
+      7. Chow Mein
+
+      8. Dumplings
+
+      9. Szechuan Beef
+
+      10. General Tso''s Chicken
+
+      11. Sweet and Sour Pork
+
+      12. Fried Rice
+
+      13. Beef Noodle Soup
+
+      14. Spring Rolls
+
+      15. Shanghai Soup Dumplings
+
+      16. Steamed Fish with Ginger and Scallions
+
+      17. Tea Eggs
+
+      18. Dongpo Pork
+
+      19. Cantonese BBQ Pork
+
+      20. Shrimp with Lobster Sauce'
+    role: assistant
+created: 1709068984
+id: chatcmpl-8wzCilMuY1hh2ilZ2PEa5JfkYCxL4
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 133
+  prompt_tokens: 29
+  total_tokens: 162
