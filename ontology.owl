@@ -915,10 +915,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sour cream</fancyName>
 </Dairy>
 
-<Dairy rdf:about="#ice_cream">
+<Milk rdf:about="#ice_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ice cream</fancyName>
-</Dairy>
+</Milk>
 
 <Crustaceans rdf:about="#lobster">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
