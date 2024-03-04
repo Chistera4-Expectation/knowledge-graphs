@@ -2732,10 +2732,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken breast</fancyName>
 </Poultry>
 
-<Edible rdf:about="#corn">
+<Vegetable rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#whole_wheat_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
