@@ -1,0 +1,22 @@
+# Cache for query: list of 20 famous African Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Jollof rice   \n2. Bobotie   \n3. Injera   \n4. Bunny chow   \n5.\
+      \ Dibi   \n6. Tagine    \n7. Dodo   \n8. Suya   \n9. Fufu   \n10. Piri piri\
+      \ chicken   \n11. Ugali   \n12. Moambe chicken   \n13. Akara   \n14. Pepe soup\
+      \   \n15. Chapati   \n16. Nyama Choma   \n17. Mafe   \n18. Plantain chips  \
+      \ \n19. Egusi soup   \n20. Malva pudding"
+    role: assistant
+created: 1709068971
+id: chatcmpl-8wzCVcG6aBMxy1YSm9mZ4FEgIOXoC
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 116
+  prompt_tokens: 29
+  total_tokens: 145
