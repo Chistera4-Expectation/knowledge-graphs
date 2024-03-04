@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Edible Vegetal Oil, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Olive oil
+
+      2. Canola oil
+
+      3. Soybean oil
+
+      4. Sunflower oil
+
+      5. Coconut oil
+
+      6. Corn oil
+
+      7. Peanut oil
+
+      8. Avocado oil
+
+      9. Sesame oil
+
+      10. Flaxseed oil'
+    role: assistant
+created: 1709068935
+id: chatcmpl-8wzBvshoQoSV3nb5U3wtn2dmwVY1c
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 56
+  prompt_tokens: 29
+  total_tokens: 85
