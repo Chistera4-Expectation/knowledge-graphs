@@ -2945,11 +2945,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dill pickle spear</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#tomato_slices">
+<Vegetable rdf:about="#tomato_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato slices</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#sport_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
