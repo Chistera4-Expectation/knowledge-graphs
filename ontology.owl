@@ -3831,11 +3831,11 @@
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
 </Alcoholic>
 
-<Edible rdf:about="#tea_leaves">
+<Tea rdf:about="#tea_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tea leaves</fancyName>
-</Edible>
+</Tea>
 
 <Edible rdf:about="#star_anise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
