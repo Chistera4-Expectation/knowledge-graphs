@@ -3103,7 +3103,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie crust</fancyName>
 </Bread>
 
-<Edible rdf:about="#potatoes">
+<Vegetable rdf:about="#potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#aloo_pie"/>
@@ -3111,7 +3111,7 @@
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
