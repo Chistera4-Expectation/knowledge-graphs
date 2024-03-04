@@ -1451,6 +1451,7 @@
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell pepper</fancyName>
 </Vegetable>
@@ -3060,12 +3061,6 @@
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepperoni</fancyName>
 </Pork>
-
-<Vegetable rdf:about="#green_bell_peppers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell peppers</fancyName>
-</Vegetable>
 
 <Mushroom rdf:about="#mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
