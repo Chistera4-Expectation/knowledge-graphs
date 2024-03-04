@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for Texas BBQ Brisket, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Beef brisket
+
+      - Salt
+
+      - Pepper
+
+      - Paprika
+
+      - Garlic powder
+
+      - Onion powder
+
+      - Brown sugar
+
+      - Chili powder
+
+      - Mustard powder
+
+      - Cumin
+
+      - Liquid smoke
+
+      - Worcestershire sauce
+
+      - Apple cider vinegar
+
+      - Beef broth'
+    role: assistant
+created: 1709069044
+id: chatcmpl-8wzDgc2BhWVuEgyQnhuzt1vaCLkTb
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 58
+  prompt_tokens: 28
+  total_tokens: 86
