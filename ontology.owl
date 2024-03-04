@@ -3820,11 +3820,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thin dumpling wrappers</fancyName>
 </Pasta>
 
-<Edible rdf:about="#fish_fillets">
+<Fish rdf:about="#fish_fillets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish fillets</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
