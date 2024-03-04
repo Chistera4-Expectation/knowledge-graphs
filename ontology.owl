@@ -3698,11 +3698,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turnip cakes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#sticky_rice_in_lotus_leaf">
+<Rice rdf:about="#sticky_rice_in_lotus_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sticky rice in lotus leaf</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#egg_custard_tarts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
