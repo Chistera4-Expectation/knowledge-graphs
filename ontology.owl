@@ -2981,11 +2981,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key lime juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#egg_yolks">
+<Poultry rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egg yolks</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#whipped_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
