@@ -2568,7 +2568,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken broth</fancyName>
 </Poultry>
 
-<Edible rdf:about="#cilantro">
+<Spice rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
@@ -2576,7 +2576,7 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#lime">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
