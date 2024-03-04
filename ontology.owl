@@ -2265,6 +2265,10 @@
 <Cheese rdf:about="#pecorino_romano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#tricolore_salad"/>
+  <ingredientOf rdf:resource="#aji_de_gallina"/>
+  <ingredientOf rdf:resource="#new_york_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pecorino Romano cheese</fancyName>
 </Cheese>
 
@@ -2393,15 +2397,6 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
 </Alcoholic>
-
-<Cheese rdf:about="#parmesan_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
-  <ingredientOf rdf:resource="#tricolore_salad"/>
-  <ingredientOf rdf:resource="#aji_de_gallina"/>
-  <ingredientOf rdf:resource="#new_york_style_pizza"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
-</Cheese>
 
 <Seasoning rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
