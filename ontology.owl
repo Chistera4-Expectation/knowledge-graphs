@@ -3236,11 +3236,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#pepperoni">
+<Pork rdf:about="#pepperoni">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepperoni</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#green_bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
