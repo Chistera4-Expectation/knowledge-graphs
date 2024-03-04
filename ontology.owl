@@ -2772,10 +2772,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasoning cubes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#stockfish">
+<Fish rdf:about="#stockfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
