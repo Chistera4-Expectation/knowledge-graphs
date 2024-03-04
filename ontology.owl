@@ -444,6 +444,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monk fruit</fancyName>
 </Sweetener>
 
+<Additive rdf:about="#sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
+</Additive>
+
+<Additive rdf:about="#msg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSG</fancyName>
+</Additive>
+
+<Additive rdf:about="#citric_acid">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric Acid</fancyName>
+</Additive>
+
+<Additive rdf:about="#guar_gum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guar Gum</fancyName>
+</Additive>
+
+<Additive rdf:about="#carrageenan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrageenan</fancyName>
+</Additive>
+
+<Additive rdf:about="#sodium_nitrate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Nitrate</fancyName>
+</Additive>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

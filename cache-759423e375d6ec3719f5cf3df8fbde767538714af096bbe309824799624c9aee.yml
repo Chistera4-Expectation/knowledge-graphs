@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Food Additive, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Salt
+
+      2. Sugar
+
+      3. MSG (Monosodium glutamate)
+
+      4. Aspartame
+
+      5. Citric Acid
+
+      6. Guar Gum
+
+      7. Carrageenan
+
+      8. BHA (Butylated Hydroxyanisole)
+
+      9. BHT (Butylated Hydroxytoluene)
+
+      10. Sodium Nitrate'
+    role: assistant
+created: 1709068899
+id: chatcmpl-8wzBLElcD9tF3obuti4nf0Kahyaj0
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 74
+  prompt_tokens: 27
+  total_tokens: 101
