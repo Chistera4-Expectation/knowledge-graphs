@@ -838,6 +838,8 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#new_york_style_pizza"/>
+  <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella</fancyName>
 </Cheese>
 
@@ -2804,13 +2806,6 @@
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
 </Sauce>
-
-<Cheese rdf:about="#mozzarella_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#new_york_style_pizza"/>
-  <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
-</Cheese>
 
 <Sauce rdf:about="#bbq_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
