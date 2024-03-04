@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Tandoori Chicken, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Chicken, yogurt, lemon juice, garlic, ginger, garam masala, cumin, paprika,
+      turmeric, chili powder
+    role: assistant
+created: 1709069119
+id: chatcmpl-8wzEtQNSjuuylIW32WxeQjFQrfSQ8
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 27
+  prompt_tokens: 27
+  total_tokens: 54
