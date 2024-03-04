@@ -1293,6 +1293,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cider</fancyName>
 </Alcoholic>
 
+<Coffee rdf:about="#latte">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latte</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#cappuccino">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cappuccino</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#espresso">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espresso</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#mocha">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mocha</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#flat_white">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flat White</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#turkish_coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish Coffee</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#irish_coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Coffee</fancyName>
+</Coffee>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
