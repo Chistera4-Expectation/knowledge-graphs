@@ -1,0 +1,40 @@
+# Cache for query: ingredient list for Jerk Chicken, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Chicken
+
+      - Scotch bonnet peppers
+
+      - Allspice
+
+      - Thyme
+
+      - Garlic
+
+      - Onions
+
+      - Brown sugar
+
+      - Soy sauce
+
+      - Vinegar
+
+      - Ginger
+
+      - Cinnamon
+
+      - Nutmeg'
+    role: assistant
+created: 1709069051
+id: chatcmpl-8wzDnCdcin49TIN1bQH3Va4uOsAcK
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 47
+  prompt_tokens: 26
+  total_tokens: 73

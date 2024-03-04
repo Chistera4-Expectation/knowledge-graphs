@@ -456,12 +456,14 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
 <Spice rdf:about="#cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Spice>
 
@@ -473,6 +475,7 @@
 <Spice rdf:about="#nutmeg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutmeg</fancyName>
 </Spice>
 
@@ -662,6 +665,7 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -2169,6 +2173,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2330,6 +2335,7 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2416,6 +2422,8 @@
 <Edible rdf:about="#ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
 <Edible rdf:about="#bell_peppers">
@@ -2431,7 +2439,9 @@
 <Edible rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scotch bonnet peppers</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Edible>
 
 <Edible rdf:about="#curry">
@@ -2641,6 +2651,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown sugar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
 </Edible>
@@ -2868,6 +2879,8 @@
 <Edible rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
 <Edible rdf:about="#red_onion">
@@ -2975,6 +2988,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
+</Edible>
+
+<Edible rdf:about="#allspice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
+</Edible>
+
+<Edible rdf:about="#soy_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
