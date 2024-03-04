@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Yogurt, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Greek Yogurt
+
+      2. Icelandic Skyr
+
+      3. Almond Milk Yogurt
+
+      4. Coconut Milk Yogurt
+
+      5. Soy Yogurt
+
+      6. Cashew Milk Yogurt
+
+      7. Dairy-Free Yogurt
+
+      8. Low-Fat Yogurt
+
+      9. Full-Fat Yogurt
+
+      10. Probiotic Yogurt'
+    role: assistant
+created: 1709068911
+id: chatcmpl-8wzBXTcocqHDLLRKh05dARMLPZKGu
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 71
+  prompt_tokens: 26
+  total_tokens: 97

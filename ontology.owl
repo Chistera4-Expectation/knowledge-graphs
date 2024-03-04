@@ -680,6 +680,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy milk</fancyName>
 </Milk>
 
+<Yogurt rdf:about="#greek_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#almond_milk_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond Milk Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#coconut_milk_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Milk Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#soy_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#cashew_milk_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashew Milk Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#dairy_free_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy-Free Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#low_fat_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-Fat Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#full_fat_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full-Fat Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#probiotic_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probiotic Yogurt</fancyName>
+</Yogurt>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
