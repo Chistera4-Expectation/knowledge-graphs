@@ -1028,6 +1028,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermicelli</fancyName>
 </Pasta>
 
+<Fruit rdf:about="#apple">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#banana">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#orange">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#strawberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#grape">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grape</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#watermelon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watermelon</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#pineapple">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#kiwi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kiwi</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#mango">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#peach">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach</fancyName>
+</Fruit>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

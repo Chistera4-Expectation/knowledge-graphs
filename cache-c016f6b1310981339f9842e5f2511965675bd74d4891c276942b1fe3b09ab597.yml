@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Edible Fruit, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Apple
+
+      2. Banana
+
+      3. Orange
+
+      4. Strawberry
+
+      5. Grape
+
+      6. Watermelon
+
+      7. Pineapple
+
+      8. Kiwi
+
+      9. Mango
+
+      10. Peach'
+    role: assistant
+created: 1709068932
+id: chatcmpl-8wzBs7XO6LKbfUeded250nEzx7Uxe
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 42
+  prompt_tokens: 27
+  total_tokens: 69
