@@ -1,0 +1,18 @@
+# Cache for query: instances list for class Edible Crustaceans, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Lobster  \n2. Shrimp  \n3. Crab  \n4. Crawfish  \n5. Prawn"
+    role: assistant
+created: 1709068914
+id: chatcmpl-8wzBaWZK82kCb5qiOSL3OGuGOsF2s
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 23
+  prompt_tokens: 30
+  total_tokens: 53

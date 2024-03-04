@@ -751,6 +751,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ice cream</fancyName>
 </Dairy>
 
+<Crustaceans rdf:about="#lobster">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobster</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#shrimp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#crab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#crawfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crawfish</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#prawn">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prawn</fancyName>
+</Crustaceans>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
