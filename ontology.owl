@@ -2494,7 +2494,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow chili peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#onions">
+<Vegetable rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
@@ -2511,7 +2511,7 @@
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#walnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
