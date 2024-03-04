@@ -584,6 +584,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Club Sandwich</fancyName>
 </Poultry>
 
+<Meat rdf:about="#beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
+</Meat>
+
+<Meat rdf:about="#chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
+</Meat>
+
+<Meat rdf:about="#pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
+</Meat>
+
+<Meat rdf:about="#lamb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamb</fancyName>
+</Meat>
+
+<Meat rdf:about="#turkey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</fancyName>
+</Meat>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
