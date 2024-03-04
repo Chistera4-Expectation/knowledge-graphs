@@ -434,6 +434,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -442,7 +443,9 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chili powder</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#oregano">
@@ -483,6 +486,7 @@
 
 <Spice rdf:about="#turmeric">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
 </Spice>
 
@@ -2217,6 +2221,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#oxtail"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2296,6 +2301,7 @@
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2478,6 +2484,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#sorrel_drink"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -2634,6 +2641,7 @@
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#guava_duff"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2924,6 +2932,7 @@
 <Edible rdf:about="#potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -3118,6 +3127,7 @@
 <Edible rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#aloo_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
