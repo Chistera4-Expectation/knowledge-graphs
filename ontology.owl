@@ -3531,11 +3531,11 @@
   <ingredientOf rdf:resource="#miso_soup"/>
 </Seaweed>
 
-<Edible rdf:about="#dashi_stock">
+<Seasoning rdf:about="#dashi_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dashi stock</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#miso_soup_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
