@@ -2272,13 +2272,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#fresh_mozzarella_cheese">
+<Cheese rdf:about="#fresh_mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh mozzarella cheese</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh mozzarella cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
