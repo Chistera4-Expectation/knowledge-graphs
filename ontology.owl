@@ -2591,6 +2591,60 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Edible>
 
+<Edible rdf:about="#beef_hot_dog">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef hot dog</fancyName>
+</Edible>
+
+<Edible rdf:about="#poppy_seed_bun">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poppy seed bun</fancyName>
+</Edible>
+
+<Edible rdf:about="#yellow_mustard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow mustard</fancyName>
+</Edible>
+
+<Edible rdf:about="#diced_onions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diced onions</fancyName>
+</Edible>
+
+<Edible rdf:about="#sweet_relish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweet relish</fancyName>
+</Edible>
+
+<Edible rdf:about="#dill_pickle_spear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dill pickle spear</fancyName>
+</Edible>
+
+<Edible rdf:about="#tomato_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato slices</fancyName>
+</Edible>
+
+<Edible rdf:about="#sport_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sport peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#celery_salt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">celery salt</fancyName>
+</Edible>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
