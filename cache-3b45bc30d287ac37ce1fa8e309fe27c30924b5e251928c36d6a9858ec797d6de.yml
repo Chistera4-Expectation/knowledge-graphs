@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Piri piri chicken, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "- Chicken\n- Piri piri sauce \n- Olive oil\n- Garlic\n- Lemon \n- Paprika\
+      \ \n- Salt \n- Pepper"
+    role: assistant
+created: 1709069012
+id: chatcmpl-8wzDAZiEn1lxvIJosSsy0zk3O3cle
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 29
+  prompt_tokens: 28
+  total_tokens: 57

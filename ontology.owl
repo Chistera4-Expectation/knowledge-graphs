@@ -363,6 +363,7 @@
   <ingredientOf rdf:resource="#chimichurri_steak"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#dodo"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -371,6 +372,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <ingredientOf rdf:resource="#dodo"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -387,6 +389,7 @@
 <Seasoning rdf:about="#paprika">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -610,6 +613,7 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1136,6 +1140,7 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#tricolore_salad"/>
   <ingredientOf rdf:resource="#chimichurri_steak"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
 </Oil>
@@ -2079,6 +2084,7 @@
   <ingredientOf rdf:resource="#chimichurri_steak"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2342,6 +2348,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dodo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#piri_piri_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri piri sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#lemon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
