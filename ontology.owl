@@ -1508,6 +1508,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring water</fancyName>
 </Water>
 
+<Drink rdf:about="#water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
+</Drink>
+
+<Drink rdf:about="#coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee</fancyName>
+</Drink>
+
+<Drink rdf:about="#tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tea</fancyName>
+</Drink>
+
+<Drink rdf:about="#soda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
+</Drink>
+
+<Drink rdf:about="#juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice</fancyName>
+</Drink>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
