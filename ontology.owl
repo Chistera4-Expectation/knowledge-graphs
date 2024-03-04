@@ -3625,12 +3625,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fivespice powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#honey">
+<Sweetener rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
