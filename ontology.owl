@@ -2815,11 +2815,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apricot jam</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#hot_water">
+<Water rdf:about="#hot_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot water</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
