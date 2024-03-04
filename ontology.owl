@@ -3451,11 +3451,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#flying_fish">
+<Fish rdf:about="#flying_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#bread_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
