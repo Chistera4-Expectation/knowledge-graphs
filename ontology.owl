@@ -1399,6 +1399,11 @@
 <Vegetable rdf:about="#carrot">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot</fancyName>
 </Vegetable>
 
@@ -2967,16 +2972,6 @@
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#carrots">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
-  <ingredientOf rdf:resource="#escovitch_fish"/>
-  <ingredientOf rdf:resource="#oxtail"/>
-  <ingredientOf rdf:resource="#beef_noodle_soup"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Vegetable>
 
 <Poultry rdf:about="#chicken_wings">
