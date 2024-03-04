@@ -3336,6 +3336,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miso soup garnish</fancyName>
 </Edible>
 
+<Edible rdf:about="#thinly_sliced_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
+</Edible>
+
+<Edible rdf:about="#assorted_vegetables">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assorted vegetables</fancyName>
+</Edible>
+
+<Edible rdf:about="#noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#dipping_sauces">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dipping sauces</fancyName>
+</Edible>
+
+<Edible rdf:about="#broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
+</Edible>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

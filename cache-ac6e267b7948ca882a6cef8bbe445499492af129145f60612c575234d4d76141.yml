@@ -1,0 +1,20 @@
+# Cache for query: ingredient list for Shabu Shabu, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "- Thinly sliced beef\n- Assorted vegetables (such as Napa cabbage, bok\
+      \ choy, mushrooms, and tofu)\n- Noodles\n- Dipping sauces (such as ponzu sauce\
+      \ and sesame sauce) \n- Broth (usually a clear kombu or meat-based broth)"
+    role: assistant
+created: 1709069079
+id: chatcmpl-8wzEFfL2f4EJAktSu69LRPpSgx6mP
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 60
+  prompt_tokens: 29
+  total_tokens: 89
