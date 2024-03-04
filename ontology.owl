@@ -3389,10 +3389,10 @@
   <ingredientOf rdf:resource="#souse"/>
 </Vegetable>
 
-<Edible rdf:about="#peppers">
+<Vegetable rdf:about="#peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#souse"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
