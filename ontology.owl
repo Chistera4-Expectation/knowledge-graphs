@@ -3394,11 +3394,11 @@
   <ingredientOf rdf:resource="#souse"/>
 </Vegetable>
 
-<Edible rdf:about="#spices">
+<Seasoning rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#souse"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
