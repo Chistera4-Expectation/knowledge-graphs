@@ -3914,11 +3914,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cumin seeds</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#coriander_powder">
+<Seasoning rdf:about="#coriander_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coriander powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cauliflower">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
