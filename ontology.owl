@@ -1425,10 +1425,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell pepper</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#lentils">
+<Seed rdf:about="#lentils">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentils</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

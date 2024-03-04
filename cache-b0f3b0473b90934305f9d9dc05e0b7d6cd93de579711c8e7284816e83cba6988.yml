@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Lentils' among: 'Bread', 'Breakfast Cereal', 'Edible Fruit', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Pasta Types', 'Rice'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Edible Seeds'''
+    role: assistant
+created: 1709069176
+id: chatcmpl-8wzFoo5cnIpli9cS9OPHEPJG4h7GX
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 5
+  prompt_tokens: 83
+  total_tokens: 88
