@@ -381,6 +381,7 @@
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -465,6 +466,7 @@
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -854,6 +856,7 @@
 <Crustaceans rdf:about="#shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -2139,6 +2142,7 @@
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black pepper</fancyName>
 </Edible>
@@ -2195,6 +2199,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2273,6 +2278,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2464,6 +2470,7 @@
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Edible>
@@ -2473,6 +2480,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scotch bonnet peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Edible>
@@ -3045,6 +3053,7 @@
 <Edible rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -3144,6 +3153,18 @@
 <Edible rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#souse"/>
+</Edible>
+
+<Edible rdf:about="#scallions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
+</Edible>
+
+<Edible rdf:about="#lime_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

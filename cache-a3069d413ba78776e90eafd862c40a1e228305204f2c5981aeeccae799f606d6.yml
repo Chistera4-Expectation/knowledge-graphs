@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Trinidadian Pepper Shrimp, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Shrimp
+
+      - Garlic
+
+      - Scotch bonnet peppers
+
+      - Onion
+
+      - Bell peppers
+
+      - Scallions
+
+      - Thyme
+
+      - Soy sauce
+
+      - Lime juice
+
+      - Black pepper
+
+      - Salt'
+    role: assistant
+created: 1709069064
+id: chatcmpl-8wzE0ndUq2IOYPWFVYofG3MMvjv1E
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 43
+  prompt_tokens: 28
+  total_tokens: 71
