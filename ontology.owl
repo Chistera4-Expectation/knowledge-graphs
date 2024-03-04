@@ -3371,11 +3371,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind chutney</fancyName>
 </Sauce>
 
-<Edible rdf:about="#pepper_sauce">
+<Sauce rdf:about="#pepper_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
