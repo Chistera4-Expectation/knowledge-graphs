@@ -1596,6 +1596,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tricolore Salad</fancyName>
 </Italian>
 
+<Latin rdf:about="#tamales">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamales</fancyName>
+</Latin>
+
+<Latin rdf:about="#aji_de_gallina">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aji de Gallina</fancyName>
+</Latin>
+
+<Latin rdf:about="#chimichurri_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chimichurri Steak</fancyName>
+</Latin>
+
+<Latin rdf:about="#sopa_de_lima">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sopa de Lima</fancyName>
+</Latin>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

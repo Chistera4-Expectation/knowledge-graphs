@@ -1,0 +1,22 @@
+# Cache for query: list of 20 famous Latin Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Tamales\n2. Empanadas\n3. Ceviche\n4. Arepas\n5. Ropa Vieja\n6. Chiles\
+      \ Rellenos\n7. Pastel de Choclo\n8. Feijoada\n9. Aji de Gallina\n10. Mole Poblano\n\
+      11. Pupusas\n12. Arroz con Pollo\n13. P\xE3o de Queijo\n14. Chimichurri Steak\n\
+      15. Lomo Saltado\n16. Asado\n17. Pescado a la Veracruzana\n18. Cachapa\n19.\
+      \ Picadillo\n20. Sopa de Lima"
+    role: assistant
+created: 1709068968
+id: chatcmpl-8wzCSD4Ff6FhvqrwVUq88mJGhJUbi
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 142
+  prompt_tokens: 29
+  total_tokens: 171
