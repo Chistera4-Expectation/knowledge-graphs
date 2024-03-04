@@ -1756,6 +1756,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicago Deep Dish Pizza</fancyName>
 </American>
 
+<Carribean rdf:about="#jerk_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jerk Chicken</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#rice_and_peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice and Peas</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#curried_goat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curried Goat</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#conch_fritters">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch Fritters</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#doubles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doubles</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#escovitch_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escovitch Fish</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#souse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Souse</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#oxtail">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtail</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#trinidadian_pepper_shrimp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trinidadian Pepper Shrimp</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#sorrel_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorrel Drink</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#guava_duff">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava Duff</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#johnny_cakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnny Cakes</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#cuban_sandwich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban Sandwich</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#barbados_flying_fish_cutter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbados Flying Fish Cutter</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#aloo_pie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aloo Pie</fancyName>
+</Carribean>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

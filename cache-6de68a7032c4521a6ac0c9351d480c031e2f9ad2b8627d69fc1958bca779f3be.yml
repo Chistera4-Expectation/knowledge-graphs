@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous Carribean Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Jerk Chicken
+
+      2. Ackee and Saltfish
+
+      3. Roti
+
+      4. Callaloo
+
+      5. Rice and Peas
+
+      6. Curried Goat
+
+      7. Conch Fritters
+
+      8. Doubles
+
+      9. Escovitch Fish
+
+      10. Souse
+
+      11. Pelau
+
+      12. Oxtail
+
+      13. Trinidadian Pepper Shrimp
+
+      14. Mofongo
+
+      15. Sorrel Drink
+
+      16. Guava Duff
+
+      17. Johnny Cakes
+
+      18. Cuban Sandwich
+
+      19. Barbados Flying Fish Cutter
+
+      20. Aloo Pie'
+    role: assistant
+created: 1709068977
+id: chatcmpl-8wzCb2xPeSCNCzCFC5PFXxxlqQ1mY
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 125
+  prompt_tokens: 31
+  total_tokens: 156
