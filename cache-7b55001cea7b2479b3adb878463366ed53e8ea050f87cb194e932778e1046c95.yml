@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Edible Fish, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Salmon
+
+      2. Tuna
+
+      3. Cod
+
+      4. Trout
+
+      5. Haddock'
+    role: assistant
+created: 1709553060
+id: chatcmpl-8z18OzeAk64ZQ5gS3qh4Lw4LrGewO
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_2b778c6b35
+usage:
+  completion_tokens: 21
+  prompt_tokens: 27
+  total_tokens: 48

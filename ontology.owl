@@ -776,6 +776,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prawn</fancyName>
 </Crustaceans>
 
+<Fish rdf:about="#salmon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon</fancyName>
+</Fish>
+
+<Fish rdf:about="#tuna">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuna</fancyName>
+</Fish>
+
+<Fish rdf:about="#cod">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cod</fancyName>
+</Fish>
+
+<Fish rdf:about="#trout">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trout</fancyName>
+</Fish>
+
+<Fish rdf:about="#haddock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haddock</fancyName>
+</Fish>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
