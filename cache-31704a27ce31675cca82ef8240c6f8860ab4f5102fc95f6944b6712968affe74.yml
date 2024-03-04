@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Alcoholic Drink, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Beer
+
+      2. Wine
+
+      3. Vodka
+
+      4. Rum
+
+      5. Whiskey
+
+      6. Tequila
+
+      7. Gin
+
+      8. Champagne
+
+      9. Sake
+
+      10. Cider'
+    role: assistant
+created: 1709068945
+id: chatcmpl-8wzC5Bvf96IDh8V09PJCCv6RTL5Q7
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 44
+  prompt_tokens: 27
+  total_tokens: 71

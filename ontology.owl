@@ -1243,6 +1243,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
 </Food>
 
+<Alcoholic rdf:about="#beer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beer</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#vodka">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vodka</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#rum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rum</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#whiskey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whiskey</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#tequila">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tequila</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#gin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gin</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#champagne">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Champagne</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#sake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sake</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#cider">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cider</fancyName>
+</Alcoholic>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
