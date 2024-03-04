@@ -2921,11 +2921,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poppy seed bun</fancyName>
 </Bread>
 
-<Edible rdf:about="#yellow_mustard">
+<Dressing rdf:about="#yellow_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow mustard</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#diced_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
