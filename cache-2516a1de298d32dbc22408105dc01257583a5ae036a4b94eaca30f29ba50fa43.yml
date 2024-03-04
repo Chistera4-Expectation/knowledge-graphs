@@ -1,0 +1,18 @@
+# Cache for query: ingredient list for Fried Rice, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: rice, eggs, vegetables, soy sauce, onion, garlic, oil
+    role: assistant
+created: 1709069102
+id: chatcmpl-8wzEcUWqpmt98ScconRqT6kZuTdQW
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 14
+  prompt_tokens: 25
+  total_tokens: 39
