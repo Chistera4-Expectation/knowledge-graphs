@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Edible Cereal, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cornflakes
+
+      2. Cheerios
+
+      3. Rice Krispies
+
+      4. Frosted Flakes
+
+      5. Lucky Charms'
+    role: assistant
+created: 1709068930
+id: chatcmpl-8wzBqga6gJ4gobr6oxYE9Qmtq1Emj
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 29
+  prompt_tokens: 28
+  total_tokens: 57
