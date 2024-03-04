@@ -2809,11 +2809,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#apricot_jam">
+<Sweetener rdf:about="#apricot_jam">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apricot jam</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#hot_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
