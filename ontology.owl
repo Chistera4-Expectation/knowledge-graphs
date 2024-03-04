@@ -353,6 +353,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hollandaise</fancyName>
 </Sauce>
 
+<Seasoning rdf:about="#salt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#garlic_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#onion_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#paprika">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#cumin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#chili_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#oregano">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregano</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#basil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#thyme">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
+</Seasoning>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
