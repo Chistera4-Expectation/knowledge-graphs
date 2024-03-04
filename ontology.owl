@@ -2719,12 +2719,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#okra">
+<Vegetable rdf:about="#okra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
