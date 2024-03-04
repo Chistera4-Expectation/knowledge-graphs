@@ -3692,11 +3692,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BBQ pork buns</fancyName>
 </Pork>
 
-<Edible rdf:about="#turnip_cakes">
+<Vegetable rdf:about="#turnip_cakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turnip cakes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#sticky_rice_in_lotus_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
