@@ -1452,6 +1452,7 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
+  <ingredientOf rdf:resource="#souse"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell pepper</fancyName>
 </Vegetable>
@@ -3196,11 +3197,6 @@
 </Fish>
 
 <Vegetable rdf:about="#feet">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#souse"/>
-</Vegetable>
-
-<Vegetable rdf:about="#peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#souse"/>
 </Vegetable>
