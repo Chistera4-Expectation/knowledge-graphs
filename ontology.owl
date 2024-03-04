@@ -1612,11 +1612,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppermint Tea</fancyName>
 </Tea>
 
-<Tea rdf:about="#chai_tea">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chai Tea</fancyName>
-</Tea>
-
 <Tea rdf:about="#rooibos_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rooibos Tea</fancyName>
