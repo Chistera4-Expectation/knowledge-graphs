@@ -3845,11 +3845,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star anise</fancyName>
 </Spice>
 
-<Edible rdf:about="#rock_sugar">
+<Sweetener rdf:about="#rock_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rock sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#chinese_five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
