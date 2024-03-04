@@ -2218,7 +2218,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kofta Curry</fancyName>
 </Indian>
 
-<Edible rdf:about="#eggs">
+<Poultry rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#tiramisu"/>
@@ -2231,7 +2231,7 @@
   <ingredientOf rdf:resource="#tea_eggs"/>
   <ingredientOf rdf:resource="#shrimp_with_lobster_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#pecorino_romano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
