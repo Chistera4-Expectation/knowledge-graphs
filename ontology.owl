@@ -3489,10 +3489,10 @@
   <ingredientOf rdf:resource="#sashimi"/>
 </Fish>
 
-<Edible rdf:about="#mackerel">
+<Fish rdf:about="#mackerel">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#sea_urchin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
