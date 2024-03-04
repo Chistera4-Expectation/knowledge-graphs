@@ -2280,11 +2280,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh mozzarella cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#fresh_basil_leaves">
+<Vegetable rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#garlic">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
