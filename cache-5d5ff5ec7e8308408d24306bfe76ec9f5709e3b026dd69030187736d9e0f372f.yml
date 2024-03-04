@@ -1,0 +1,34 @@
+# Cache for query: ingredient list for Cobb Salad, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Lettuce
+
+      2. Chicken
+
+      3. Bacon
+
+      4. Eggs
+
+      5. Avocado
+
+      6. Tomatoes
+
+      7. Blue cheese
+
+      8. Red onion
+
+      9. Red wine vinaigrette dressing'
+    role: assistant
+created: 1709069041
+id: chatcmpl-8wzDdNq4dbcxJOwHdrpGTC9w5BrUm
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 47
+  prompt_tokens: 25
+  total_tokens: 72
