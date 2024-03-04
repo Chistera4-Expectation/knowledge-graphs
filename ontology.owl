@@ -2957,11 +2957,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sport peppers</fancyName>
 </Spice>
 
-<Edible rdf:about="#celery_salt">
+<Seasoning rdf:about="#celery_salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">celery salt</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#graham_cracker_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
