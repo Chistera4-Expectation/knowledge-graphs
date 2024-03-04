@@ -2488,11 +2488,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#yellow_chili_peppers">
+<Vegetable rdf:about="#yellow_chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow chili peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
