@@ -1666,6 +1666,96 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malva pudding</fancyName>
 </African>
 
+<American rdf:about="#cheeseburger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheeseburger</fancyName>
+</American>
+
+<American rdf:about="#new_york_style_pizza">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York Style Pizza</fancyName>
+</American>
+
+<American rdf:about="#bbq_ribs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BBQ Ribs</fancyName>
+</American>
+
+<American rdf:about="#california_roll">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California Roll</fancyName>
+</American>
+
+<American rdf:about="#chicago_style_hot_dog">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicago-style Hot Dog</fancyName>
+</American>
+
+<American rdf:about="#key_lime_pie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Key Lime Pie</fancyName>
+</American>
+
+<American rdf:about="#southern_fried_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Fried Chicken</fancyName>
+</American>
+
+<American rdf:about="#texas_chili">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texas Chili</fancyName>
+</American>
+
+<American rdf:about="#louisiana_gumbo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Louisiana Gumbo</fancyName>
+</American>
+
+<American rdf:about="#apple_pie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Pie</fancyName>
+</American>
+
+<American rdf:about="#manhattan_clam_chowder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manhattan Clam Chowder</fancyName>
+</American>
+
+<American rdf:about="#buffalo_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffalo Wings</fancyName>
+</American>
+
+<American rdf:about="#cobb_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cobb Salad</fancyName>
+</American>
+
+<American rdf:about="#boston_cream_pie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boston Cream Pie</fancyName>
+</American>
+
+<American rdf:about="#texas_bbq_brisket">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texas BBQ Brisket</fancyName>
+</American>
+
+<American rdf:about="#philly_soft_pretzel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philly Soft Pretzel</fancyName>
+</American>
+
+<American rdf:about="#maryland_crab_cakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maryland Crab Cakes</fancyName>
+</American>
+
+<American rdf:about="#chicago_deep_dish_pizza">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicago Deep Dish Pizza</fancyName>
+</American>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

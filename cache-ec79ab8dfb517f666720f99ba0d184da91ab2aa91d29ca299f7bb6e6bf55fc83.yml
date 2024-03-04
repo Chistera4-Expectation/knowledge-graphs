@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous American Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cheeseburger
+
+      2. New York Style Pizza
+
+      3. BBQ Ribs
+
+      4. Philly Cheesesteak
+
+      5. California Roll
+
+      6. Chicago-style Hot Dog
+
+      7. Key Lime Pie
+
+      8. Southern Fried Chicken
+
+      9. Texas Chili
+
+      10. Louisiana Gumbo
+
+      11. Apple Pie
+
+      12. Manhattan Clam Chowder
+
+      13. Buffalo Wings
+
+      14. Cobb Salad
+
+      15. Kansas City BBQ
+
+      16. Boston Cream Pie
+
+      17. Texas BBQ Brisket
+
+      18. Philly Soft Pretzel
+
+      19. Maryland Crab Cakes
+
+      20. Chicago Deep Dish Pizza'
+    role: assistant
+created: 1709068974
+id: chatcmpl-8wzCYXAAZIfjRZgvy9KJ5r8Htguzj
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 124
+  prompt_tokens: 29
+  total_tokens: 153
