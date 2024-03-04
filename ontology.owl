@@ -555,7 +555,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monk fruit</fancyName>
 </Sweetener>
 
-<Additive rdf:about="#sugar">
+<Sweetener rdf:about="#sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
@@ -569,7 +569,7 @@
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
-</Additive>
+</Sweetener>
 
 <Additive rdf:about="#msg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
