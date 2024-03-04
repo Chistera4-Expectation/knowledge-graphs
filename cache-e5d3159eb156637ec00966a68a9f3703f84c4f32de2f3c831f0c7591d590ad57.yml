@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Pomegranate Punch' among: 'Coffee', 'Infusion Drink', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Infusion Drink'''
+    role: assistant
+created: 1709069190
+id: chatcmpl-8wzG2whk49p7YZ3FeDxudnijllCu9
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 5
+  prompt_tokens: 43
+  total_tokens: 48
