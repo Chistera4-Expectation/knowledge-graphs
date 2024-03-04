@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Rice, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Basmati Rice
+
+      2. Jasmine Rice
+
+      3. Arborio Rice
+
+      4. Brown Rice
+
+      5. Wild Rice'
+    role: assistant
+created: 1709068926
+id: chatcmpl-8wzBmv3DqJat2mxUsgAr2yBvoRFWi
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 27
+  prompt_tokens: 25
+  total_tokens: 52
