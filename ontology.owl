@@ -2987,11 +2987,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egg yolks</fancyName>
 </Poultry>
 
-<Edible rdf:about="#whipped_cream">
+<Dressing rdf:about="#whipped_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whipped cream</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
