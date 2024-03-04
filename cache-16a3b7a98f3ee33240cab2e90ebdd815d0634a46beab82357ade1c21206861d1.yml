@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Food Dressing, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Ranch
+
+      2. Italian
+
+      3. Balsamic Vinaigrette
+
+      4. Honey Mustard
+
+      5. Caesar
+
+      6. Thousand Island
+
+      7. Blue Cheese
+
+      8. French Dressing
+
+      9. Raspberry Vinaigrette
+
+      10. Sesame Ginger'
+    role: assistant
+created: 1709068884
+id: chatcmpl-8wzB677oxGvCzth3QCxdG1hU6ow12
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 57
+  prompt_tokens: 27
+  total_tokens: 84
