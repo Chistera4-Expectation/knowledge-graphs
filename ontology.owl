@@ -3619,11 +3619,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szechuan peppercorns</fancyName>
 </Spice>
 
-<Edible rdf:about="#fivespice_powder">
+<Seasoning rdf:about="#fivespice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fivespice powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
