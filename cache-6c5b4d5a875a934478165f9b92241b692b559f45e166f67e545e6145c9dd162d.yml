@@ -1,0 +1,18 @@
+# Cache for query: ingredient list for Sorrel Drink, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: sorrel leaves, ginger, cloves, cinnamon, sugar, water
+    role: assistant
+created: 1709069066
+id: chatcmpl-8wzE2x35LMbxHpd32zEs2GyOO5yYI
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 14
+  prompt_tokens: 26
+  total_tokens: 40
