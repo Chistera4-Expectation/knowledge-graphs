@@ -676,6 +676,7 @@
 
 <Meat rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -2241,6 +2242,7 @@
   <ingredientOf rdf:resource="#aloo_pie"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2412,6 +2414,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#souse"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2426,6 +2429,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#plantain_chips"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
@@ -2511,6 +2515,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -2522,6 +2527,7 @@
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Edible>
@@ -3127,6 +3133,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Edible>
@@ -3193,6 +3200,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
 </Edible>
@@ -3446,6 +3454,7 @@
 <Edible rdf:about="#szechuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szechuan peppercorns</fancyName>
 </Edible>
 
@@ -3586,6 +3595,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chives</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_chili_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red chili flakes</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

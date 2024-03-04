@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Szechuan Beef, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Beef, soy sauce, ginger, garlic, red chili flakes, Szechuan peppercorns,
+      bell peppers, onions, green onions, vegetable oil
+    role: assistant
+created: 1709069097
+id: chatcmpl-8wzEXBI2hKeE0LKXgtANAipuVsOY7
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 31
+  prompt_tokens: 27
+  total_tokens: 58
