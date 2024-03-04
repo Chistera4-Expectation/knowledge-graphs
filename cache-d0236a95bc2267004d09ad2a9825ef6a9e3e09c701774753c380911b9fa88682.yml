@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Jollof rice, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: rice, tomatoes, tomato paste, onion, garlic, ginger, bell peppers, scotch
+      bonnet peppers, vegetable oil, salt, black pepper, thyme
+    role: assistant
+created: 1709069008
+id: chatcmpl-8wzD6nKTnNOxqfj0mlBswM6niZfid
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 32
+  prompt_tokens: 27
+  total_tokens: 59
