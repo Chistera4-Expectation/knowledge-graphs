@@ -751,10 +751,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamb</fancyName>
 </Pork>
 
-<Meat rdf:about="#turkey">
+<Poultry rdf:about="#turkey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</fancyName>
-</Meat>
+</Poultry>
 
 <Butter rdf:about="#unsalted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
