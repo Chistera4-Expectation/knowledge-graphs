@@ -3863,11 +3863,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red fermented bean curd</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#white_pepper">
+<Seasoning rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white pepper</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
