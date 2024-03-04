@@ -2373,6 +2373,20 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#aji_de_gallina"/>
+  <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#texas_chili"/>
+  <ingredientOf rdf:resource="#louisiana_gumbo"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#souse"/>
+  <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -2435,25 +2449,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow chili peppers</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#aji_de_gallina"/>
-  <ingredientOf rdf:resource="#sopa_de_lima"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <ingredientOf rdf:resource="#texas_chili"/>
-  <ingredientOf rdf:resource="#louisiana_gumbo"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <ingredientOf rdf:resource="#escovitch_fish"/>
-  <ingredientOf rdf:resource="#souse"/>
-  <ingredientOf rdf:resource="#oxtail"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <ingredientOf rdf:resource="#beef_noodle_soup"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <ingredientOf rdf:resource="#samosa"/>
-  <ingredientOf rdf:resource="#kofta_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
 <Seed rdf:about="#walnuts">
