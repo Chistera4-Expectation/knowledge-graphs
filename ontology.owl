@@ -360,6 +360,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1129,6 +1130,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#tricolore_salad"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
 </Oil>
@@ -2066,6 +2068,7 @@
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2219,6 +2222,29 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#flank_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank steak</fancyName>
+</Edible>
+
+<Edible rdf:about="#parsley">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
+</Edible>
+
+<Edible rdf:about="#red_wine_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red wine vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_pepper_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red pepper flakes</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
