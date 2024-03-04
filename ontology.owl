@@ -3500,11 +3500,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea urchin</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#tempura_batter_mix">
+<Vegetable rdf:about="#tempura_batter_mix">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura batter mix</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
