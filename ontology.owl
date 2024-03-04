@@ -2726,11 +2726,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chicken_breast">
+<Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken breast</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
