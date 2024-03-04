@@ -3484,10 +3484,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#yellowtail">
+<Fish rdf:about="#yellowtail">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#mackerel">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
