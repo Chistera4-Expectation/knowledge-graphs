@@ -1,0 +1,42 @@
+# Cache for query: ingredient list for Curried Goat, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Goat meat
+
+      - Curry powder
+
+      - Onion
+
+      - Garlic
+
+      - Ginger
+
+      - Scotch bonnet pepper
+
+      - Thyme
+
+      - Allspice
+
+      - Black pepper
+
+      - Salt
+
+      - Oil
+
+      - Vinegar
+
+      - Water'
+    role: assistant
+created: 1709069054
+id: chatcmpl-8wzDq07EzWOw7O6gIiz8xV97sjNAr
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 48
+  prompt_tokens: 26
+  total_tokens: 74
