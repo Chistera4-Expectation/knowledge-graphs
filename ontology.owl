@@ -1080,10 +1080,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bison</fancyName>
 </Beef>
 
-<Animal rdf:about="#quail">
+<Poultry rdf:about="#quail">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail</fancyName>
-</Animal>
+</Poultry>
 
 <Breakfast rdf:about="#frosted_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
