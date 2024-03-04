@@ -3900,13 +3900,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri chili</fancyName>
 </Spice>
 
-<Edible rdf:about="#coriander">
+<Spice rdf:about="#coriander">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
