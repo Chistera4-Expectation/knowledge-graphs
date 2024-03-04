@@ -581,10 +581,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric Acid</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#guar_gum">
+<Dressing rdf:about="#guar_gum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guar Gum</fancyName>
-</Additive>
+</Dressing>
 
 <Additive rdf:about="#carrageenan">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
