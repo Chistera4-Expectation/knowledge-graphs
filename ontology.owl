@@ -2642,6 +2642,8 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#curried_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scotch bonnet peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Spice>
@@ -3277,13 +3279,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
 </Vegetable>
-
-<Spice rdf:about="#scotch_bonnet_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <ingredientOf rdf:resource="#curried_goat"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
-</Spice>
 
 <Poultry rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
