@@ -826,6 +826,23 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octopus</fancyName>
 </Molluscs>
 
+<Honey rdf:about="#clover">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Honey>
+
+<Honey rdf:about="#wildflower">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Honey>
+
+<Honey rdf:about="#orange_blossom">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orange blossom</fancyName>
+</Honey>
+
+<Honey rdf:about="#acacia">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Honey>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

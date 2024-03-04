@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Honey, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. clover
+
+      2. wildflower
+
+      3. orange blossom
+
+      4. manuka
+
+      5. acacia'
+    role: assistant
+created: 1709068920
+id: chatcmpl-8wzBgzcipU1hHRqjB3I0nAS633aYA
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 24
+  prompt_tokens: 25
+  total_tokens: 49
