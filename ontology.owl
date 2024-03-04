@@ -3113,7 +3113,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#carrots">
+<Vegetable rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
@@ -3121,7 +3121,7 @@
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chicken_wings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
