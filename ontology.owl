@@ -707,6 +707,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -854,6 +855,7 @@
 
 <Dairy rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
 </Dairy>
 
 <Dairy rdf:about="#cheese">
@@ -871,6 +873,7 @@
   <ingredientOf rdf:resource="#guava_duff"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -2277,6 +2280,7 @@
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <ingredientOf rdf:resource="#shrimp_with_lobster_sauce"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2318,6 +2322,7 @@
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -2360,6 +2365,7 @@
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2565,6 +2571,7 @@
   <ingredientOf rdf:resource="#tea_eggs"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <ingredientOf rdf:resource="#shrimp_with_lobster_sauce"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -3319,6 +3326,7 @@
 <Edible rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#souse"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
 </Edible>
 
 <Edible rdf:about="#scallions">
@@ -3788,6 +3796,11 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
 </Edible>
 
 <owl:AllDisjointClasses>
