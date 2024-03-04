@@ -413,6 +413,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -3845,12 +3846,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red fermented bean curd</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#white_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white pepper</fancyName>
 </Seasoning>
 
 <Dairy rdf:about="#cream">
