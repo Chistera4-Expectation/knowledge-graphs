@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Risotto Alla Milanese, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Arborio rice
+
+      - Saffron
+
+      - Onion
+
+      - White wine
+
+      - Parmesan cheese
+
+      - Chicken or vegetable broth
+
+      - Butter
+
+      - Olive oil'
+    role: assistant
+created: 1709068998
+id: chatcmpl-8wzCwLpes0BKjZaqiXOtKlmBHzlVU
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 34
+  prompt_tokens: 28
+  total_tokens: 62
