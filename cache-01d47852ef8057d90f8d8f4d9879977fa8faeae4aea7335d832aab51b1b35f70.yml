@@ -1,0 +1,20 @@
+# Cache for query: ingredient list for Aloo Gobi, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "- Potatoes \n- Cauliflower \n- Onion \n- Tomatoes \n- Garlic \n- Ginger\
+      \ \n- Turmeric \n- Cumin \n- Coriander \n- Garam masala \n- Chili powder \n\
+      - Oil \n- Salt \n- Cilantro (optional)"
+    role: assistant
+created: 1709069124
+id: chatcmpl-8wzEyfsvXdeyZwbtHYiHTg184B5Yx
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 57
+  prompt_tokens: 27
+  total_tokens: 84
