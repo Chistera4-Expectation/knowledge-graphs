@@ -2680,11 +2680,11 @@
   <ingredientOf rdf:resource="#bunny_chow"/>
 </Pork>
 
-<Edible rdf:about="#plantain">
+<Vegetable rdf:about="#plantain">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dodo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#palm_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
