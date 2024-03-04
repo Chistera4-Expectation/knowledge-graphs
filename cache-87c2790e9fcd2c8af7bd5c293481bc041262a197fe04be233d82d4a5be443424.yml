@@ -1,0 +1,34 @@
+# Cache for query: ingredient list for Spring Rolls, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Rice paper
+
+      - Vermicelli noodles
+
+      - Carrots
+
+      - Cucumber
+
+      - Lettuce
+
+      - Mint leaves
+
+      - Shrimp or tofu
+
+      - Hoisin sauce
+
+      - Peanut sauce'
+    role: assistant
+created: 1709069105
+id: chatcmpl-8wzEfYoek8nOPG63xdJIPD4OXXBLK
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 41
+  prompt_tokens: 25
+  total_tokens: 66
