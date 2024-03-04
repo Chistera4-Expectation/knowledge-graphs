@@ -1216,6 +1216,7 @@
 
 <Pasta rdf:about="#vermicelli">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermicelli</fancyName>
 </Pasta>
 
@@ -3597,12 +3598,6 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper</fancyName>
 </Vegetable>
-
-<Pasta rdf:about="#vermicelli_noodles">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermicelli noodles</fancyName>
-</Pasta>
 
 <Spice rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
