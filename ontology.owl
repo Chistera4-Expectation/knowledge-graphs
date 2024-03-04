@@ -2951,11 +2951,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato slices</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#sport_peppers">
+<Spice rdf:about="#sport_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sport peppers</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#celery_salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
