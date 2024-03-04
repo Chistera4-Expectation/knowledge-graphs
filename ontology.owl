@@ -3239,6 +3239,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Fish>
 
@@ -3646,12 +3647,6 @@
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thin dumpling wrappers</fancyName>
 </Pasta>
-
-<Fish rdf:about="#fish_fillets">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish fillets</fancyName>
-</Fish>
 
 <Alcoholic rdf:about="#sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
