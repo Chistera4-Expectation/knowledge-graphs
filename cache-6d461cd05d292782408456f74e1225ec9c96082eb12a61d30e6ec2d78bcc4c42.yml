@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Food, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Apple
+
+      2. Banana
+
+      3. Chicken
+
+      4. Spinach
+
+      5. Oats'
+    role: assistant
+created: 1709068943
+id: chatcmpl-8wzC3QOrPrO7i2CjJ8HLnP3v0vEdd
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 21
+  prompt_tokens: 25
+  total_tokens: 46
