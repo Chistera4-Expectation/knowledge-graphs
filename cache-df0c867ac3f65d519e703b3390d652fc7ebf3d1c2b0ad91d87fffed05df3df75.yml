@@ -1,0 +1,18 @@
+# Cache for query: in the Beef class, should the instances 'Beef balls' and 'Beef broth' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709553739
+id: chatcmpl-8z1JLhkzqn0y7PZ8WnaV2aPv6Q3t9
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_2b778c6b35
+usage:
+  completion_tokens: 1
+  prompt_tokens: 51
+  total_tokens: 52
