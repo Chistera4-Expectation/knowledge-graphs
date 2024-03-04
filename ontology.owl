@@ -3212,11 +3212,11 @@
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
 </Breakfast>
 
-<Edible rdf:about="#bread_crumbs">
+<Bread rdf:about="#bread_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread crumbs</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#mayonnaise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
