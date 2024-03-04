@@ -1120,6 +1120,7 @@
 <Bread rdf:about="#whole_wheat_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chapati"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat bread</fancyName>
 </Bread>
 
@@ -3431,12 +3432,6 @@
   <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat flour</fancyName>
 </Seed>
-
-<Bread rdf:about="#wheat_flour">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#soba_noodles"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat flour</fancyName>
-</Bread>
 
 <Seed rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
