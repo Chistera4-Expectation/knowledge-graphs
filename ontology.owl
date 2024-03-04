@@ -2755,11 +2755,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egusi seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#assorted_meats">
+<Pork rdf:about="#assorted_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assorted meats</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
