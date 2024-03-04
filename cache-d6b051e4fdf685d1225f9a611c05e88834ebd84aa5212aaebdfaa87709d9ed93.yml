@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Tropical Twist' among: 'Coffee', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: I would recommend the class of 'Tea' for 'Tropical Twist'.
+    role: assistant
+created: 1709069185
+id: chatcmpl-8wzFxuSwNTVHjyDNgX15EKoXsk1cP
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 16
+  prompt_tokens: 36
+  total_tokens: 52
