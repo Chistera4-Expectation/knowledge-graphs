@@ -1,0 +1,26 @@
+# Cache for query: ingredient list for Spaghetti Carbonara, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Spaghetti
+
+      2. Pancetta
+
+      3. Eggs
+
+      4. Pecorino Romano cheese
+
+      5. Black pepper'
+    role: assistant
+created: 1709068991
+id: chatcmpl-8wzCpM5VqdPmxCzDOfPLjGAAOsBMM
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 28
+  prompt_tokens: 27
+  total_tokens: 55
