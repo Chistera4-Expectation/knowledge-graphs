@@ -484,6 +484,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#sorrel_drink"/>
   <ingredientOf rdf:resource="#guava_duff"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Spice>
 
@@ -504,6 +505,7 @@
 <Spice rdf:about="#cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sorrel_drink"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Spice>
 
@@ -539,6 +541,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Additive>
 
@@ -2179,6 +2182,7 @@
   <ingredientOf rdf:resource="#guava_duff"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Edible>
 
@@ -2197,6 +2201,7 @@
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black pepper</fancyName>
 </Edible>
@@ -2547,6 +2552,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -3182,6 +3188,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Edible>
@@ -3718,6 +3725,18 @@
 <Edible rdf:about="#sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
+</Edible>
+
+<Edible rdf:about="#tea_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tea leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#star_anise">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tea_eggs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">star anise</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
