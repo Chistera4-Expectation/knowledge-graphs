@@ -3642,11 +3642,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#maltose">
+<Sweetener rdf:about="#maltose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#soft_tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
