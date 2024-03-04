@@ -3648,11 +3648,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#soft_tofu">
+<Vegetable rdf:about="#soft_tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft tofu</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ground_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
