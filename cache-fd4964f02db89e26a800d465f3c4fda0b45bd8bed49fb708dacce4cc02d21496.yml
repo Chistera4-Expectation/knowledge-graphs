@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Poultry-derived Food, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Roast Chicken
+
+      2. Turkey Burger
+
+      3. Chicken Salad
+
+      4. Grilled Chicken Breast
+
+      5. Chicken Soup
+
+      6. Turkey Sausage
+
+      7. Duck Confit
+
+      8. Rotisserie Chicken
+
+      9. Chicken Parmesan
+
+      10. Turkey Club Sandwich'
+    role: assistant
+created: 1709068904
+id: chatcmpl-8wzBQ07ZwulufLX9qvFP0iD2Dwpha
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 59
+  prompt_tokens: 28
+  total_tokens: 87

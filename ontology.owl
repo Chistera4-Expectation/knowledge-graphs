@@ -534,6 +534,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork tenderloin</fancyName>
 </Pork>
 
+<Poultry rdf:about="#roast_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roast Chicken</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_burger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Burger</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Salad</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#grilled_chicken_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled Chicken Breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_confit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Confit</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#rotisserie_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rotisserie Chicken</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_parmesan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Parmesan</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_club_sandwich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Club Sandwich</fancyName>
+</Poultry>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
