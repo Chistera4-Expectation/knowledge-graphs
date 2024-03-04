@@ -1,0 +1,18 @@
+# Cache for query: in the Tea class, should the instances 'Herbal Tea' and 'Peppermint Tea' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709072194
+id: chatcmpl-8x02U7SYkdqpHWtmEIKTLJtRe9PgN
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 1
+  prompt_tokens: 52
+  total_tokens: 53
