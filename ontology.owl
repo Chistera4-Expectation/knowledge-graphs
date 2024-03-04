@@ -712,12 +712,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Club Sandwich</fancyName>
 </Poultry>
 
-<Meat rdf:about="#beef">
+<Beef rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
-</Meat>
+</Beef>
 
 <Meat rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
