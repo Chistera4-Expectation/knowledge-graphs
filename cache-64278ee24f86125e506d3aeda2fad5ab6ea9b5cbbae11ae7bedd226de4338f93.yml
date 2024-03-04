@@ -1,0 +1,52 @@
+# Cache for query: ingredient list for Biryani, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Basmati rice
+
+      - Chicken
+
+      - Onions
+
+      - Tomatoes
+
+      - Yogurt
+
+      - Ginger
+
+      - Garlic
+
+      - Green chilies
+
+      - Cilantro
+
+      - Mint
+
+      - Garam masala
+
+      - Turmeric
+
+      - Cardamom
+
+      - Cinnamon
+
+      - Cloves
+
+      - Bay leaves
+
+      - Oil
+
+      - Ghee'
+    role: assistant
+created: 1709069117
+id: chatcmpl-8wzErwrkNM54BmR06zLUB07Jq3LTc
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 73
+  prompt_tokens: 26
+  total_tokens: 99
