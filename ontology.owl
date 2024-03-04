@@ -2743,11 +2743,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#plantains">
+<Fruit rdf:about="#plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain_chips"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantains</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#egusi_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
