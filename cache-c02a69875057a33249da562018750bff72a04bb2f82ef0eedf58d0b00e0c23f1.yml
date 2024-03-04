@@ -1,0 +1,30 @@
+# Cache for query: instances list for class Breakfast Cereal, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Frosted Flakes
+
+      2. Cheerios
+
+      3. Lucky Charms
+
+      4. Cocoa Puffs
+
+      5. Corn Flakes
+
+      6. Rice Krispies
+
+      7. Froot Loops'
+    role: assistant
+created: 1709068924
+id: chatcmpl-8wzBkMQuk10OQuBTdjucZBgwYWy7q
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 42
+  prompt_tokens: 27
+  total_tokens: 69
