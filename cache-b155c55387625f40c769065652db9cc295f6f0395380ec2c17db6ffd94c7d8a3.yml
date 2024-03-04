@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Seafood, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Salmon
+
+      2. Shrimp
+
+      3. Tuna
+
+      4. Cod
+
+      5. Lobster
+
+      6. Crab
+
+      7. Mussels
+
+      8. Oysters
+
+      9. Clams
+
+      10. Scallops'
+    role: assistant
+created: 1709068919
+id: chatcmpl-8wzBfG94fQgdCv8BrBrRvmpnVjOYC
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 47
+  prompt_tokens: 26
+  total_tokens: 73
