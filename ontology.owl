@@ -2665,7 +2665,7 @@
   <ingredientOf rdf:resource="#bunny_chow"/>
 </Sauce>
 
-<Edible rdf:about="#vegetables">
+<Vegetable rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#sushi"/>
@@ -2673,7 +2673,7 @@
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
