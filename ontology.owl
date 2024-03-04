@@ -3300,6 +3300,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
 </Vegetable>
 
@@ -3396,12 +3397,6 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose</fancyName>
 </Sweetener>
-
-<Vegetable rdf:about="#soft_tofu">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft tofu</fancyName>
-</Vegetable>
 
 <Pork rdf:about="#ground_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
