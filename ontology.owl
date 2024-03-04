@@ -333,6 +333,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Ginger</fancyName>
 </Dressing>
 
+<Sauce rdf:about="#marinara">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marinara</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#pesto">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesto</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#bechamel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bechamel</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#hollandaise">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hollandaise</fancyName>
+</Sauce>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
