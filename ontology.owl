@@ -1483,6 +1483,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple Juice</fancyName>
 </Juice>
 
+<Water rdf:about="#bottled_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottled water</fancyName>
+</Water>
+
+<Water rdf:about="#tap_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tap water</fancyName>
+</Water>
+
+<Water rdf:about="#mineral_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mineral water</fancyName>
+</Water>
+
+<Water rdf:about="#sparkling_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling water</fancyName>
+</Water>
+
+<Water rdf:about="#spring_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring water</fancyName>
+</Water>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

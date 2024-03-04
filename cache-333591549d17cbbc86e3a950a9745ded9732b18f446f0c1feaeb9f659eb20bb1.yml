@@ -1,0 +1,26 @@
+# Cache for query: instances list for class Drinking Water, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Bottled water
+
+      2. Tap water
+
+      3. Mineral water
+
+      4. Sparkling water
+
+      5. Spring water'
+    role: assistant
+created: 1709068956
+id: chatcmpl-8wzCGQtf8AckVYSZJdz9lg9dw07a6
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 26
+  prompt_tokens: 26
+  total_tokens: 52
