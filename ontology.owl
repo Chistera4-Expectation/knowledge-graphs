@@ -2388,6 +2388,7 @@
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -2968,12 +2969,6 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Seasoning>
-
-<Vegetable rdf:about="#red_onion">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cobb_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
-</Vegetable>
 
 <Sweetener rdf:about="#yellow_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
