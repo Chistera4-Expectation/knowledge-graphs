@@ -3920,11 +3920,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coriander powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cauliflower">
+<Vegetable rdf:about="#cauliflower">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cauliflower</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ground_lamb">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
