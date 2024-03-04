@@ -2963,11 +2963,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">celery salt</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#graham_cracker_crust">
+<Crustaceans rdf:about="#graham_cracker_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crust</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#sweetened_condensed_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
