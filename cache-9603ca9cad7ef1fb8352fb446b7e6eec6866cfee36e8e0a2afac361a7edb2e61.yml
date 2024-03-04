@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Grasshoppers' among: 'Honey'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Grasshoppers'' belong to the class Insecta.'
+    role: assistant
+created: 1709069163
+id: chatcmpl-8wzFbbZlpLEZ1CpYC7OXPqEmxZN2y
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 14
+  prompt_tokens: 34
+  total_tokens: 48
