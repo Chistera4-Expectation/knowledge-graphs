@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Animal-derived Food, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Beef
+
+      2. Chicken
+
+      3. Pork
+
+      4. Lamb
+
+      5. Turkey
+
+      6. Duck
+
+      7. Rabbit
+
+      8. Venison
+
+      9. Bison
+
+      10. Quail'
+    role: assistant
+created: 1709068922
+id: chatcmpl-8wzBil8LYKz7yrQ1ONTQv1lbbvHpo
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 41
+  prompt_tokens: 27
+  total_tokens: 68
