@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Tiramisu, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Ladyfingers \n2. Espresso \n3. Mascarpone \n4. Eggs \n5. Sugar \n\
+      6. Cocoa powder \n7. Marsala wine (optional) \n8. Vanilla extract"
+    role: assistant
+created: 1709068994
+id: chatcmpl-8wzCsiq6pRopWiVrLxvysylyfDbTy
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 42
+  prompt_tokens: 26
+  total_tokens: 68
