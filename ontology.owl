@@ -2895,12 +2895,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#crab_meat">
+<Crustaceans rdf:about="#crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#california_roll"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab meat</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#cucumber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
