@@ -2915,11 +2915,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef hot dog</fancyName>
 </Beef>
 
-<Edible rdf:about="#poppy_seed_bun">
+<Bread rdf:about="#poppy_seed_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poppy seed bun</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#yellow_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
