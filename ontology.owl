@@ -3297,10 +3297,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coconut milk</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#scallion">
+<Vegetable rdf:about="#scallion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#scotch_bonnet_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
