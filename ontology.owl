@@ -2675,10 +2675,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#meat">
+<Pork rdf:about="#meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#plantain">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
