@@ -2735,6 +2735,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
 </Vegetable>
 
@@ -2806,12 +2807,6 @@
   <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweet relish</fancyName>
 </Sauce>
-
-<Vegetable rdf:about="#dill_pickle_spear">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicago_style_hot_dog"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dill pickle spear</fancyName>
-</Vegetable>
 
 <Spice rdf:about="#sport_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
