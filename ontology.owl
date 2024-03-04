@@ -3074,6 +3074,7 @@
 <Bread rdf:about="#bread_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread crumbs</fancyName>
 </Bread>
 
@@ -3420,12 +3421,6 @@
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Sauce>
-
-<Bread rdf:about="#panko_breadcrumbs">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#katsu_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panko breadcrumbs</fancyName>
-</Bread>
 
 <Seed rdf:about="#buckwheat_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
