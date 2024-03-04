@@ -1,0 +1,30 @@
+# Cache for query: ingredient list for Tricolore Salad, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Arugula
+
+      2. Radicchio
+
+      3. Endive
+
+      4. Cherry tomatoes
+
+      5. Parmesan cheese
+
+      6. Balsamic vinegar
+
+      7. Olive oil'
+    role: assistant
+created: 1709068999
+id: chatcmpl-8wzCx1DeNMFz75jlwx5z3x1A4Frau
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 39
+  prompt_tokens: 27
+  total_tokens: 66
