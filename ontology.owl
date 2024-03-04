@@ -298,6 +298,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#tricolore_salad"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic Vinaigrette</fancyName>
 </Dressing>
 
@@ -3141,12 +3142,6 @@
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
 </Vegetable>
-
-<Dressing rdf:about="#red_wine_vinaigrette_dressing">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cobb_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine vinaigrette dressing</fancyName>
-</Dressing>
 
 <Sweetener rdf:about="#yellow_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
