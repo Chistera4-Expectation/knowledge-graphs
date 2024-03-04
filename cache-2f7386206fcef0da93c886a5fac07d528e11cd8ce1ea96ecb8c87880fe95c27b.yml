@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Dumplings, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Flour
+
+      - Water
+
+      - Ground pork
+
+      - Shrimp
+
+      - Chives
+
+      - Ginger
+
+      - Soy sauce
+
+      - Sesame oil'
+    role: assistant
+created: 1709069095
+id: chatcmpl-8wzEVKvC2F9RlXKfuMOgOV9lOsWiM
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 29
+  prompt_tokens: 25
+  total_tokens: 54
