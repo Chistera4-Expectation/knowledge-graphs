@@ -3262,7 +3262,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#soy_sauce">
+<Seasoning rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
@@ -3283,7 +3283,7 @@
   <ingredientOf rdf:resource="#shrimp_with_lobster_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
