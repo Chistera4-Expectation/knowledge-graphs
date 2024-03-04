@@ -1,0 +1,22 @@
+# Cache for query: ingredient list for Boston Cream Pie, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Yellow cake
+
+      2. Pastry cream
+
+      3. Chocolate ganache'
+    role: assistant
+created: 1709069043
+id: chatcmpl-8wzDfmhXs6Lb4JXKkm18WBMMx0T5e
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 16
+  prompt_tokens: 26
+  total_tokens: 42
