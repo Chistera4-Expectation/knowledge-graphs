@@ -1119,6 +1119,7 @@
 
 <Bread rdf:about="#whole_wheat_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chapati"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat bread</fancyName>
 </Bread>
 
@@ -2658,12 +2659,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
 </Vegetable>
-
-<Bread rdf:about="#whole_wheat_flour">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chapati"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat flour</fancyName>
-</Bread>
 
 <Fruit rdf:about="#plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
