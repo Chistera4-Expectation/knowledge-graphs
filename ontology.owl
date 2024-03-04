@@ -2872,11 +2872,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#bbq_sauce">
+<Sauce rdf:about="#bbq_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BBQ sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
