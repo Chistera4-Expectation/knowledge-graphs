@@ -379,6 +379,7 @@
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -807,6 +808,7 @@
   <rdf:type rdf:resource="#Liquid"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1317,6 +1319,7 @@
 <Vegetable rdf:about="#bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell pepper</fancyName>
 </Vegetable>
@@ -2112,6 +2115,7 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Edible>
 
@@ -2181,6 +2185,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2258,6 +2263,7 @@
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curried_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2585,6 +2591,7 @@
   <ingredientOf rdf:resource="#malva_pudding"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2800,6 +2807,7 @@
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cayenne pepper</fancyName>
 </Edible>
@@ -3055,6 +3063,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curried_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#conch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch</fancyName>
+</Edible>
+
+<Edible rdf:about="#baking_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_onions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
