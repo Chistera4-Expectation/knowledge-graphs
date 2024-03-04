@@ -1329,6 +1329,7 @@
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
+  <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -2671,6 +2672,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
 </Edible>
 
@@ -2942,6 +2944,7 @@
 <Edible rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hot sauce</fancyName>
 </Edible>
 
@@ -3222,6 +3225,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#flying_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#bread_rolls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#barbados_flying_fish_cutter"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bread rolls</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
