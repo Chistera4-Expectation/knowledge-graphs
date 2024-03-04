@@ -2783,11 +2783,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Poultry>
 
-<Edible rdf:about="#white_vinegar">
+<Dressing rdf:about="#white_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White vinegar</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
