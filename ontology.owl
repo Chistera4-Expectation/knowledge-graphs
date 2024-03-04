@@ -2582,6 +2582,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetable>
 
@@ -3334,12 +3335,6 @@
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
 </Beef>
-
-<Vegetable rdf:about="#assorted_vegetables">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#shabu_shabu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assorted vegetables</fancyName>
-</Vegetable>
 
 <Pasta rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
