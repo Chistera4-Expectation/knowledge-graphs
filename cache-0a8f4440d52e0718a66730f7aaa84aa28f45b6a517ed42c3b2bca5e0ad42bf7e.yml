@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Oxtail, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Oxtail, onions, carrots, celery, garlic, thyme, bay leaves, tomato paste,
+      beef broth, salt, pepper
+    role: assistant
+created: 1709069063
+id: chatcmpl-8wzDzFRVKb5TcGBVk7t7CxLKaxbZw
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 27
+  prompt_tokens: 26
+  total_tokens: 53
