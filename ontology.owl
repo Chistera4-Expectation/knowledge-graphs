@@ -1782,10 +1782,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drink</fancyName>
 </Energy>
 
-<Edible rdf:about="#almond">
+<Seed rdf:about="#almond">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#blueberry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
