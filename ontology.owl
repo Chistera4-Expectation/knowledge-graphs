@@ -457,6 +457,7 @@
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -2174,6 +2175,7 @@
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2249,6 +2251,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2411,6 +2414,8 @@
 <Edible rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Edible>
 
 <Edible rdf:about="#tomato_paste">
@@ -3000,6 +3005,28 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+</Edible>
+
+<Edible rdf:about="#coconut_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coconut milk</fancyName>
+</Edible>
+
+<Edible rdf:about="#scallion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+</Edible>
+
+<Edible rdf:about="#scotch_bonnet_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

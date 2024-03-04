@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Rice and Peas, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Rice, peas, coconut milk, onion, garlic, thyme, scallion, Scotch bonnet
+      pepper
+    role: assistant
+created: 1709069053
+id: chatcmpl-8wzDp3HhmnD7zI80Y8jHwepVDkqlz
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 23
+  prompt_tokens: 27
+  total_tokens: 50
