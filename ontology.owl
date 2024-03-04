@@ -2645,6 +2645,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">celery salt</fancyName>
 </Edible>
 
+<Edible rdf:about="#graham_cracker_crust">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crust</fancyName>
+</Edible>
+
+<Edible rdf:about="#sweetened_condensed_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweetened condensed milk</fancyName>
+</Edible>
+
+<Edible rdf:about="#key_lime_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key lime juice</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg_yolks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egg yolks</fancyName>
+</Edible>
+
+<Edible rdf:about="#whipped_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whipped cream</fancyName>
+</Edible>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
