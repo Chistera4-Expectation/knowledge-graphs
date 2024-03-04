@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Energy Drink, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Red Bull
+
+      2. Monster
+
+      3. Rockstar
+
+      4. 5-hour Energy
+
+      5. Bang
+
+      6. Mountain Dew Kickstart
+
+      7. Celsius
+
+      8. NOS
+
+      9. Full Throttle
+
+      10. Amp'
+    role: assistant
+created: 1709068952
+id: chatcmpl-8wzCCIsPsKaLghFU8vsZQUoB1j0WB
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 50
+  prompt_tokens: 26
+  total_tokens: 76

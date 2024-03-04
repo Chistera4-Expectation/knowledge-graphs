@@ -1418,6 +1418,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach Paradise</fancyName>
 </Infusion>
 
+<Energy rdf:about="#red_bull">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Bull</fancyName>
+</Energy>
+
+<Energy rdf:about="#monster">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster</fancyName>
+</Energy>
+
+<Energy rdf:about="#5_hour_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-hour Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#bang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bang</fancyName>
+</Energy>
+
+<Energy rdf:about="#celsius">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celsius</fancyName>
+</Energy>
+
+<Energy rdf:about="#nos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOS</fancyName>
+</Energy>
+
+<Energy rdf:about="#full_throttle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full Throttle</fancyName>
+</Energy>
+
+<Energy rdf:about="#amp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amp</fancyName>
+</Energy>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
