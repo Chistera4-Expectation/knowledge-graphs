@@ -3710,11 +3710,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg custard tarts</fancyName>
 </Edible>
 
-<Edible rdf:about="#beef_balls">
+<Beef rdf:about="#beef_balls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef balls</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#pan_fried_pork_dumplings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
