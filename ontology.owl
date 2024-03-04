@@ -1743,11 +1743,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling water</fancyName>
 </Water>
 
-<Water rdf:about="#spring_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring water</fancyName>
-</Water>
-
 <Water rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
