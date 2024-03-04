@@ -2481,12 +2481,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried corn husks</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#bread">
+<Vegetable rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#yellow_chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
