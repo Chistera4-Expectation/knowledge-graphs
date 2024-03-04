@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Sweet and Sour Pork, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Pork, bell peppers, pineapple, onion, vinegar, soy sauce, ketchup, sugar,
+      cornstarch, garlic, ginger, vegetable oil
+    role: assistant
+created: 1709069100
+id: chatcmpl-8wzEahOVodF6xyK5hIlW76bIGSsvt
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 30
+  prompt_tokens: 27
+  total_tokens: 57

@@ -533,6 +533,7 @@
   <ingredientOf rdf:resource="#guava_duff"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Additive>
 
@@ -700,6 +701,7 @@
 <Meat rdf:about="#pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#souse"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
 </Meat>
 
@@ -1192,6 +1194,7 @@
 
 <Fruit rdf:about="#pineapple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
 </Fruit>
 
@@ -2246,6 +2249,7 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2327,6 +2331,7 @@
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <ingredientOf rdf:resource="#aloo_pie"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2433,6 +2438,7 @@
   <ingredientOf rdf:resource="#plantain_chips"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
@@ -2520,6 +2526,7 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -2532,6 +2539,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Edible>
@@ -2736,6 +2744,7 @@
 <Edible rdf:about="#ketchup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketchup</fancyName>
 </Edible>
 
@@ -2898,6 +2907,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -3011,6 +3021,7 @@
   <ingredientOf rdf:resource="#curried_goat"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#souse"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
@@ -3140,6 +3151,7 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Edible>
