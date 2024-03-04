@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Southern Fried Chicken, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken pieces
+
+      2. Buttermilk
+
+      3. All-purpose flour
+
+      4. Cornstarch
+
+      5. Salt
+
+      6. Black pepper
+
+      7. Paprika
+
+      8. Garlic powder
+
+      9. Onion powder
+
+      10. Cayenne pepper
+
+      11. Vegetable oil'
+    role: assistant
+created: 1709069032
+id: chatcmpl-8wzDUoP1KhTrAdZXPHzjXL71TM6aG
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 57
+  prompt_tokens: 26
+  total_tokens: 83
