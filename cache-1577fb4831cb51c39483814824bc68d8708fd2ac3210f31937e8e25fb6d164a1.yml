@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Beef Noodle Soup, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Beef
+
+      - Noodles
+
+      - Broth
+
+      - Carrots
+
+      - Onions
+
+      - Celery
+
+      - Garlic
+
+      - Bay leaves
+
+      - Parsley
+
+      - Salt
+
+      - Pepper'
+    role: assistant
+created: 1709069103
+id: chatcmpl-8wzEdTBfhcrTCf70yIPiW66wnSR0U
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 39
+  prompt_tokens: 27
+  total_tokens: 66

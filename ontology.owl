@@ -384,6 +384,7 @@
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
   <ingredientOf rdf:resource="#guava_duff"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -399,6 +400,7 @@
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -679,6 +681,7 @@
 <Meat rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -2252,6 +2255,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2426,6 +2430,7 @@
   <ingredientOf rdf:resource="#souse"/>
   <ingredientOf rdf:resource="#oxtail"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2456,6 +2461,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chimichurri_steak"/>
   <ingredientOf rdf:resource="#maryland_crab_cakes"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
 </Edible>
 
@@ -2952,6 +2958,7 @@
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Edible>
 
@@ -2966,6 +2973,7 @@
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bay leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
 </Edible>
@@ -3003,6 +3011,7 @@
   <ingredientOf rdf:resource="#manhattan_clam_chowder"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#oxtail"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -3427,6 +3436,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
 </Edible>
 
@@ -3440,6 +3450,7 @@
 <Edible rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
+  <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Edible>
 
