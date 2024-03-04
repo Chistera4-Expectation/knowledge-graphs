@@ -3038,14 +3038,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#beef_broth">
+<Beef rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#texas_chili"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <ingredientOf rdf:resource="#oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beef broth</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#andouille_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
