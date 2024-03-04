@@ -3741,6 +3741,7 @@
 <Spice rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint leaves</fancyName>
 </Spice>
 
@@ -3802,12 +3803,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
 </Dairy>
-
-<Spice rdf:about="#mint">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint</fancyName>
-</Spice>
 
 <Spice rdf:about="#cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
