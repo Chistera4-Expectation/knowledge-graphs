@@ -2556,7 +2556,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red pepper flakes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chicken_broth">
+<Poultry rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
@@ -2566,7 +2566,7 @@
   <ingredientOf rdf:resource="#shrimp_with_lobster_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken broth</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
