@@ -1,0 +1,18 @@
+# Cache for query: ingredient list for Souse, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Pork (head, feet, or tail), onions, peppers, vinegar, spices
+    role: assistant
+created: 1709069061
+id: chatcmpl-8wzDxGiL3h1x3ahbK1Y34YIDJwm3N
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 17
+  prompt_tokens: 25
+  total_tokens: 42
