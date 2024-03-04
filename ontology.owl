@@ -3230,11 +3230,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Bay seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#italian_sausage">
+<Pork rdf:about="#italian_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian sausage</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#pepperoni">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
