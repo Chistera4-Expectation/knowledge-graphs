@@ -3734,11 +3734,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken feet</fancyName>
 </Poultry>
 
-<Edible rdf:about="#thinly_sliced_meats">
+<Poultry rdf:about="#thinly_sliced_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced meats</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
