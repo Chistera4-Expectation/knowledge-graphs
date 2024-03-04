@@ -3207,10 +3207,10 @@
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
 </Mushroom>
 
-<Edible rdf:about="#malt">
+<Breakfast rdf:about="#malt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#philly_soft_pretzel"/>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#bread_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
