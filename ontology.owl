@@ -3147,11 +3147,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#red_onion">
+<Vegetable rdf:about="#red_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#red_wine_vinaigrette_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
