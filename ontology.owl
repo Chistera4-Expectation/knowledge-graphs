@@ -641,6 +641,7 @@
 
 <Beef rdf:about="#flank">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chimichurri_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank</fancyName>
 </Beef>
 
@@ -2516,12 +2517,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Oil>
-
-<Beef rdf:about="#flank_steak">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chimichurri_steak"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank steak</fancyName>
-</Beef>
 
 <Edible rdf:about="#parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
