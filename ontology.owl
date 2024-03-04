@@ -2347,11 +2347,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
 </Seed>
 
-<Edible rdf:about="#marsala_wine">
+<Sauce rdf:about="#marsala_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marsala wine</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#vanilla_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
