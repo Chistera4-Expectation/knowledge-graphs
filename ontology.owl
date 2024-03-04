@@ -2607,7 +2607,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#ginger">
+<Spice rdf:about="#ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
@@ -2634,7 +2634,7 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#kofta_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
