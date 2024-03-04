@@ -740,11 +740,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Confit</fancyName>
 </Poultry>
 
-<Poultry rdf:about="#rotisserie_chicken">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rotisserie Chicken</fancyName>
-</Poultry>
-
 <Poultry rdf:about="#chicken_parmesan">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Parmesan</fancyName>
