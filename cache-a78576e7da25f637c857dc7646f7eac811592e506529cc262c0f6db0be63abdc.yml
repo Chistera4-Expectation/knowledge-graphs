@@ -1,0 +1,18 @@
+# Cache for query: in the Edible Vegetable class, should the instances 'Bell pepper' and 'bell peppers' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'Yes'
+    role: assistant
+created: 1709072093
+id: chatcmpl-8x00rfsUu1HsYtFguVBZ6w92Kf0yC
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 1
+  prompt_tokens: 51
+  total_tokens: 52
