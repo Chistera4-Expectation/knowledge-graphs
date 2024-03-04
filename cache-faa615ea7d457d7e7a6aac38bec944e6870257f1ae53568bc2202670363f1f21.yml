@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Citrus Splash' among: 'Coffee', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Neither Coffee nor Tea would be the most adequate class for "Citrus Splash."
+    role: assistant
+created: 1709069184
+id: chatcmpl-8wzFwFFWvAeYMMcj4Xu94phyegHPr
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 16
+  prompt_tokens: 36
+  total_tokens: 52
