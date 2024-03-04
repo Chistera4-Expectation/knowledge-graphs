@@ -2737,11 +2737,11 @@
   <ingredientOf rdf:resource="#pepe_soup"/>
 </Vegetable>
 
-<Edible rdf:about="#whole_wheat_flour">
+<Bread rdf:about="#whole_wheat_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chapati"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
