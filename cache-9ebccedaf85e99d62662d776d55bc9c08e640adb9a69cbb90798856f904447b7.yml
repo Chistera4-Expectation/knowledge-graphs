@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Louisiana Gumbo, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Andouille sausage, chicken, celery, bell peppers, onions, garlic, okra,
+      tomatoes, shrimp, chicken broth, file powder, bay leaves, thyme, cayenne pepper
+    role: assistant
+created: 1709069036
+id: chatcmpl-8wzDYEu2Vm8Ctuhnxtf8Hqe8xsULP
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 39
+  prompt_tokens: 26
+  total_tokens: 65
