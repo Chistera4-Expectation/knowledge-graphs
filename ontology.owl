@@ -1440,13 +1440,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet potatoes</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#avocado">
+<Fruit rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
   <ingredientOf rdf:resource="#california_roll"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
-</Vegetal>
+</Fruit>
 
 <Vegetal rdf:about="#kale">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
