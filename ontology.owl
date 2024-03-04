@@ -3869,10 +3869,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white pepper</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cream">
+<Dairy rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
-</Edible>
+</Dairy>
 
 <Edible rdf:about="#mint">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
