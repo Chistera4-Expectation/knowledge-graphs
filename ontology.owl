@@ -3177,11 +3177,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef brisket</fancyName>
 </Beef>
 
-<Edible rdf:about="#mustard_powder">
+<Seasoning rdf:about="#mustard_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#texas_bbq_brisket"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#liquid_smoke">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
