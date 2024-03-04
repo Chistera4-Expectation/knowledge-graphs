@@ -623,6 +623,7 @@
 <Pork rdf:about="#pork_belly">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork belly</fancyName>
 </Pork>
 
@@ -2271,6 +2272,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#beef_noodle_soup"/>
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3195,6 +3197,7 @@
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <ingredientOf rdf:resource="#tea_eggs"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Edible>
@@ -3537,6 +3540,7 @@
 <Edible rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Edible>
 
@@ -3545,7 +3549,9 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice wine</fancyName>
 </Edible>
 
 <Edible rdf:about="#maltose">
@@ -3680,7 +3686,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoisin sauce</fancyName>
 </Edible>
 
 <Edible rdf:about="#red_chili_peppers">
@@ -3753,6 +3761,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rock sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#chinese_five_spice_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese five spice powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_fermented_bean_curd">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red fermented bean curd</fancyName>
+</Edible>
+
+<Edible rdf:about="#white_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white pepper</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

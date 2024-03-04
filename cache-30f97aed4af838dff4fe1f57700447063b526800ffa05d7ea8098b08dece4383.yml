@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Cantonese BBQ Pork, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Pork belly, soy sauce, hoisin sauce, honey, garlic, Chinese five spice
+      powder, rice wine, red fermented bean curd, white pepper
+    role: assistant
+created: 1709069113
+id: chatcmpl-8wzEnXNfPobp6A2KDjqFnTMZzljcN
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 31
+  prompt_tokens: 27
+  total_tokens: 58
