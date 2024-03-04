@@ -874,6 +874,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <ingredientOf rdf:resource="#trinidadian_pepper_shrimp"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -2523,6 +2524,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Edible>
 
@@ -3290,6 +3292,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea urchin</fancyName>
+</Edible>
+
+<Edible rdf:about="#tempura_batter_mix">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura batter mix</fancyName>
+</Edible>
+
+<Edible rdf:about="#oil_for_frying">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil for frying</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

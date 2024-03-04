@@ -1,0 +1,24 @@
+# Cache for query: ingredient list for Tempura, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Shrimp
+
+      - Vegetables (such as sweet potato, bell pepper, zucchini)
+
+      - Tempura batter mix (flour, cornstarch, baking powder, water)
+
+      - Oil for frying'
+    role: assistant
+created: 1709069076
+id: chatcmpl-8wzECOnstnYdYvibHhDkriqJPtvbY
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 41
+  prompt_tokens: 25
+  total_tokens: 66
