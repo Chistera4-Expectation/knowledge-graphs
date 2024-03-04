@@ -2578,12 +2578,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Spice>
 
-<Edible rdf:about="#lime">
+<Fruit rdf:about="#lime">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#tortilla_strips">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
