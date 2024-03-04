@@ -576,10 +576,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSG</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#citric_acid">
+<Seasoning rdf:about="#citric_acid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric Acid</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#guar_gum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
