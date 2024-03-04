@@ -605,6 +605,7 @@
   <ingredientOf rdf:resource="#shanghai_soup_dumplings"/>
   <ingredientOf rdf:resource="#steamed_fish_with_ginger_and_scallions"/>
   <ingredientOf rdf:resource="#tea_eggs"/>
+  <ingredientOf rdf:resource="#dongpo_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
@@ -3786,12 +3787,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">star anise</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star anise</fancyName>
 </Spice>
-
-<Sweetener rdf:about="#rock_sugar">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#dongpo_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rock sugar</fancyName>
-</Sweetener>
 
 <Spice rdf:about="#chinese_five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
