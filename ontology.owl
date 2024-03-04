@@ -2439,11 +2439,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#arugula">
+<Vegetable rdf:about="#arugula">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tricolore_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arugula</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#radicchio">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
