@@ -315,6 +315,7 @@
 
 <Dressing rdf:about="#blue_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue Cheese</fancyName>
 </Dressing>
 
@@ -633,6 +634,26 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cultured Butter</fancyName>
 </Butter>
+
+<Cheese rdf:about="#cheddar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheddar</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#brie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brie</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#gouda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gouda</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#mozzarella">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella</fancyName>
+</Cheese>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
