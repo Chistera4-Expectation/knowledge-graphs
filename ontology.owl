@@ -3740,11 +3740,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced meats</fancyName>
 </Poultry>
 
-<Edible rdf:about="#seafood">
+<Fish rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#hot_pot_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
