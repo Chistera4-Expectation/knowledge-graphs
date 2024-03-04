@@ -1,0 +1,36 @@
+# Cache for query: ingredient list for Dim Sum, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Shrimp dumplings
+
+      2. Pork siu mai
+
+      3. BBQ pork buns
+
+      4. Turnip cakes
+
+      5. Sticky rice in lotus leaf
+
+      6. Egg custard tarts
+
+      7. Beef balls
+
+      8. Pan-fried pork dumplings
+
+      9. Bean curd rolls
+
+      10. Chicken feet'
+    role: assistant
+created: 1709069090
+id: chatcmpl-8wzEQ1Gwc2rRJ5nIikHIRmPWywdHF
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 69
+  prompt_tokens: 25
+  total_tokens: 94
