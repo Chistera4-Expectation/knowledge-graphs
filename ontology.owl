@@ -722,6 +722,7 @@
 
 <Poultry rdf:about="#grilled_chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pepe_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled Chicken Breast</fancyName>
 </Poultry>
 
@@ -2702,12 +2703,6 @@
   <ingredientOf rdf:resource="#louisiana_gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
 </Vegetable>
-
-<Poultry rdf:about="#chicken_breast">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#pepe_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken breast</fancyName>
-</Poultry>
 
 <Vegetable rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
