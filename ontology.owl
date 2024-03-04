@@ -1777,10 +1777,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iced tea</fancyName>
 </Tea>
 
-<Liquid rdf:about="#sports_drink">
+<Energy rdf:about="#sports_drink">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drink</fancyName>
-</Liquid>
+</Energy>
 
 <Edible rdf:about="#almond">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
