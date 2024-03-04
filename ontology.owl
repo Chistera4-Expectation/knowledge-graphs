@@ -3427,11 +3427,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava</fancyName>
 </Fruit>
 
-<Edible rdf:about="#cornmeal">
+<Pasta rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#cuban_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
