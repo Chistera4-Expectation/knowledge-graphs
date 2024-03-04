@@ -1,0 +1,50 @@
+# Cache for query: ingredient list for Rogan Josh, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Lamb
+
+      - Tomato
+
+      - Onion
+
+      - Garlic
+
+      - Ginger
+
+      - Yogurt
+
+      - Kashmiri chili
+
+      - Cumin
+
+      - Coriander
+
+      - Cardamom
+
+      - Cinnamon
+
+      - Cloves
+
+      - Nutmeg
+
+      - Bay leaves
+
+      - Ghee/oil
+
+      - Salt
+
+      - Pepper'
+    role: assistant
+created: 1709069120
+id: chatcmpl-8wzEuJgjM1gOynBpc2lRCTMw8pOL9
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 65
+  prompt_tokens: 26
+  total_tokens: 91
