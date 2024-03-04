@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Caprese Salad, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Tomatoes, fresh mozzarella cheese, basil leaves, balsamic vinegar, olive
+      oil, salt, pepper
+    role: assistant
+created: 1709068996
+id: chatcmpl-8wzCuAWXblt1uQNtJGTMjKvqqwjPe
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 22
+  prompt_tokens: 26
+  total_tokens: 48
