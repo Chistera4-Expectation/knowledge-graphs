@@ -1065,10 +1065,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
 </Poultry>
 
-<Animal rdf:about="#rabbit">
+<Poultry rdf:about="#rabbit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabbit</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#venison">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
