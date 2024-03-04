@@ -1,0 +1,36 @@
+# Cache for query: ingredient list for Cheeseburger, names only
+# (api: OpenAiQuery, model: gpt-3.5-turbo, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Ground beef
+
+      2. Cheese
+
+      3. Burger bun
+
+      4. Lettuce
+
+      5. Tomato
+
+      6. Onion
+
+      7. Pickles
+
+      8. Ketchup
+
+      9. Mustard
+
+      10. Salt and pepper'
+    role: assistant
+created: 1709069022
+id: chatcmpl-8wzDKOWheCR5iVvULjsRc6KsNHiYB
+model: gpt-3.5-turbo-0125
+object: chat.completion
+system_fingerprint: fp_86156a94a0
+usage:
+  completion_tokens: 48
+  prompt_tokens: 25
+  total_tokens: 73

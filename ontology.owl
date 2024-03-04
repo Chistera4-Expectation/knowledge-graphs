@@ -369,6 +369,7 @@
   <ingredientOf rdf:resource="#plantain_chips"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -378,6 +379,7 @@
   <ingredientOf rdf:resource="#aji_de_gallina"/>
   <ingredientOf rdf:resource="#dodo"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -769,6 +771,8 @@
 
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
 <Dairy rdf:about="#butter">
@@ -1250,6 +1254,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -2172,6 +2177,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#pepe_soup"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2496,6 +2502,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#malva_pudding"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot water</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
+</Edible>
+
+<Edible rdf:about="#burger_bun">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burger bun</fancyName>
+</Edible>
+
+<Edible rdf:about="#lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
+</Edible>
+
+<Edible rdf:about="#pickles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
+</Edible>
+
+<Edible rdf:about="#ketchup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketchup</fancyName>
+</Edible>
+
+<Edible rdf:about="#mustard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cheeseburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
