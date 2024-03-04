@@ -894,11 +894,13 @@
 
 <Fish rdf:about="#salmon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon</fancyName>
 </Fish>
 
 <Fish rdf:about="#tuna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuna</fancyName>
 </Fish>
 
@@ -935,11 +937,13 @@
 
 <Molluscs rdf:about="#scallops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallops</fancyName>
 </Molluscs>
 
 <Molluscs rdf:about="#octopus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octopus</fancyName>
 </Molluscs>
 
@@ -3270,6 +3274,22 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
+</Edible>
+
+<Edible rdf:about="#yellowtail">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+</Edible>
+
+<Edible rdf:about="#mackerel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+</Edible>
+
+<Edible rdf:about="#sea_urchin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea urchin</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
