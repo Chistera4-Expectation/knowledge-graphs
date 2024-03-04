@@ -3359,11 +3359,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#mango_chutney">
+<Sauce rdf:about="#mango_chutney">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango chutney</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#tamarind_chutney">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
