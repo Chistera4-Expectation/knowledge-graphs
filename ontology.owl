@@ -1730,21 +1730,6 @@
 
 <Water rdf:about="#bottled_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottled water</fancyName>
-</Water>
-
-<Water rdf:about="#tap_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tap water</fancyName>
-</Water>
-
-<Water rdf:about="#sparkling_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling water</fancyName>
-</Water>
-
-<Water rdf:about="#water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#chapati"/>
@@ -1757,7 +1742,17 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#dongpo_pork"/>
   <ingredientOf rdf:resource="#samosa"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottled water</fancyName>
+</Water>
+
+<Water rdf:about="#tap_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tap water</fancyName>
+</Water>
+
+<Water rdf:about="#sparkling_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling water</fancyName>
 </Water>
 
 <Coffee rdf:about="#coffee">
