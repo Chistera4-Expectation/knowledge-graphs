@@ -3857,11 +3857,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese five spice powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#red_fermented_bean_curd">
+<Seasoning rdf:about="#red_fermented_bean_curd">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cantonese_bbq_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red fermented bean curd</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
