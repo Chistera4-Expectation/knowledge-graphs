@@ -7042,11 +7042,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Beans</fancyName>
 </Spice>
 
-<Edible rdf:about="#maotai_liquor">
+<Alcoholic rdf:about="#maotai_liquor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maotai Liquor</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
