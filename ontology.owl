@@ -6868,11 +6868,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Large eggs</fancyName>
 </Oil>
 
-<Edible rdf:about="#powdered_sugar">
+<Sweetener rdf:about="#powdered_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
