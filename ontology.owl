@@ -4872,10 +4872,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggnog</fancyName>
 </Milk>
 
-<Liquid rdf:about="#juice_blends">
+<Juice rdf:about="#juice_blends">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice blends</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
