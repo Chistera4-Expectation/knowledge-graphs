@@ -1434,7 +1434,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon wrapped emu fillet</fancyName>
 </Poultry>
 
-<Meat rdf:about="#beef">
+<Beef rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
@@ -1442,7 +1442,7 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
-</Meat>
+</Beef>
 
 <Meat rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
