@@ -1713,11 +1713,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian yogurt</fancyName>
 </Yogurt>
 
-<Yogurt rdf:about="#balkan_style_yogurt">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balkan style yogurt</fancyName>
-</Yogurt>
-
 <Yogurt rdf:about="#american_style_yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American-style yogurt</fancyName>
