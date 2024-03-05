@@ -6745,12 +6745,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papayas</fancyName>
 </Fruit>
 
-<Edible rdf:about="#guavas">
+<Fruit rdf:about="#guavas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guavas</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#pineapples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
