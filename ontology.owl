@@ -6846,11 +6846,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted Seaweed Snacks</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#spicy_pickled_cabbage">
+<Spice rdf:about="#spicy_pickled_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spicy Pickled Cabbage</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
