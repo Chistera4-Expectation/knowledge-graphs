@@ -2210,6 +2210,7 @@
 
 <Animal rdf:about="#hot_dogs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog_with_chili_and_mustard"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot dogs</fancyName>
 </Animal>
 
