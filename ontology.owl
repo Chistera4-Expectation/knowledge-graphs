@@ -3357,6 +3357,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold Brew Coffee</fancyName>
 </Coffee>
 
+<Tea rdf:about="#green_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#black_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#herbal_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#white_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#oolong_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oolong Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#matcha_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#chai_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chai Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#rooibos_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rooibos Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#pu_erh_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pu-erh Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#yellow_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Tea</fancyName>
+</Tea>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
