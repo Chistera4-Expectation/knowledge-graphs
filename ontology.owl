@@ -873,6 +873,7 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Powder</fancyName>
 </Seasoning>
@@ -7139,12 +7140,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemongrass</fancyName>
-</Spice>
-
-<Spice rdf:about="#thai_chili_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tofu_dishes"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai chili pepper</fancyName>
 </Spice>
 
 <Sauce rdf:about="#hoisin_sauce">
