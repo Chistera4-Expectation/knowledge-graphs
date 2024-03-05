@@ -1506,10 +1506,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffalo</fancyName>
 </Poultry>
 
-<Meat rdf:about="#emus">
+<Poultry rdf:about="#emus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emus</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#rabbit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
