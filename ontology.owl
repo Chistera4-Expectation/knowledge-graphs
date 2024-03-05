@@ -1470,10 +1470,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Meat>
 
-<Meat rdf:about="#venison">
+<Poultry rdf:about="#venison">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Venison</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
