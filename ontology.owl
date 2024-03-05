@@ -7299,11 +7299,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron strands soaked in milk</fancyName>
 </Milk>
 
-<Edible rdf:about="#kewra_water">
+<Water rdf:about="#kewra_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kewra water</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#water_for_cooking_the_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
