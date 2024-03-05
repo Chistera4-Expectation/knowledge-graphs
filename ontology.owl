@@ -1655,11 +1655,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skim milk</fancyName>
 </Milk>
 
-<Milk rdf:about="#almond_milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond milk</fancyName>
-</Milk>
-
 <Milk rdf:about="#soy_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
