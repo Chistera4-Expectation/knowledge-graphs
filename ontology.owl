@@ -6343,11 +6343,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned corn</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#dried">
+<Vegetable rdf:about="#dried">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#canned_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
