@@ -1817,9 +1817,8 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American-style yogurt</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#milk">
+<Milk rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Drink"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#cornbread"/>
@@ -1839,7 +1838,7 @@
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
