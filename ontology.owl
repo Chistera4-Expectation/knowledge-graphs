@@ -7548,11 +7548,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried shallots</fancyName>
 </Oil>
 
-<Edible rdf:about="#soft_boiled_egg">
+<Breakfast rdf:about="#soft_boiled_egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft boiled egg</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#optional_add_ins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
