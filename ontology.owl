@@ -6938,7 +6938,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#turmeric_powder">
+<Spice rdf:about="#turmeric_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
@@ -6947,7 +6947,7 @@
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric Powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#red_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
