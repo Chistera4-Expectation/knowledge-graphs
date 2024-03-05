@@ -7378,10 +7378,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raspberries</fancyName>
 </Fruit>
 
-<Edible rdf:about="#strawberries">
+<Fruit rdf:about="#strawberries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#almond_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
