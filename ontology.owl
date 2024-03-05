@@ -6430,11 +6430,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#live_lobsters">
+<Crustaceans rdf:about="#live_lobsters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live lobsters</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#pineapple_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
