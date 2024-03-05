@@ -3616,10 +3616,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Vegetarian</fancyName>
 </Bread>
 
-<Vegetal rdf:about="#vegan_foods">
+<Bread rdf:about="#vegan_foods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegan foods</fancyName>
-</Vegetal>
+</Bread>
 
 <Food rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
