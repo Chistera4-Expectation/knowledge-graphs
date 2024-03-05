@@ -6448,11 +6448,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground red pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#seasoned_salt">
+<Seasoning rdf:about="#seasoned_salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoned salt</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#fresh_clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
