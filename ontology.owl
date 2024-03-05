@@ -6154,12 +6154,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Little neck</fancyName>
 </Edible>
 
-<Molluscs rdf:about="#cherrystone_clams">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#new_england_clam_bake"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cherrystone clams</fancyName>
-</Molluscs>
-
 <Seaweed rdf:about="#sea_salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
