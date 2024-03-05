@@ -5497,7 +5497,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolks</fancyName>
 </Oil>
 
-<Edible rdf:about="#sugar">
+<Juice rdf:about="#sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#flan"/>
@@ -5525,7 +5525,7 @@
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#ladyfingers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
