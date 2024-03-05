@@ -7097,11 +7097,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seafood of choice</fancyName>
 </Fish>
 
-<Edible rdf:about="#rice_wine_vinegar">
+<Rice rdf:about="#rice_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine vinegar</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#ice_cold_soda_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
