@@ -6862,11 +6862,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
 </Seed>
 
-<Edible rdf:about="#large_eggs">
+<Oil rdf:about="#large_eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Large eggs</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#powdered_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
