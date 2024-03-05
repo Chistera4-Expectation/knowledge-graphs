@@ -7073,11 +7073,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roe</fancyName>
 </Fish>
 
-<Edible rdf:about="#kewpie_mayonnaise">
+<Sauce rdf:about="#kewpie_mayonnaise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kewpie mayonnaise</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#tempura_batter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
