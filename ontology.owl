@@ -5178,12 +5178,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flour tortillas</fancyName>
 </Pasta>
 
-<Edible rdf:about="#cooked_shredded_chicken">
+<Poultry rdf:about="#cooked_shredded_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shredded chicken</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
