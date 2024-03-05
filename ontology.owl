@@ -6571,11 +6571,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#oxtails">
+<Beef rdf:about="#oxtails">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtails</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#canned_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
