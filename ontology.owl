@@ -5941,11 +5941,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breading Mix</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#11_herbs___spices_blend">
+<Spice rdf:about="#11_herbs___spices_blend">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 Herbs &amp; Spices Blend</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
