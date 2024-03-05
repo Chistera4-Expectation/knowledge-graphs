@@ -6526,11 +6526,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaporated milk</fancyName>
 </Milk>
 
-<Edible rdf:about="#graham_cracker_crust">
+<Bread rdf:about="#graham_cracker_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">graham cracker crust</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#chicken_breasts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
