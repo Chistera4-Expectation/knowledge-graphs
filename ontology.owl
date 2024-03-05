@@ -424,6 +424,7 @@
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
@@ -571,6 +572,7 @@
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -677,6 +679,7 @@
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -735,6 +738,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
 </Seasoning>
@@ -789,6 +793,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Spice>
 
@@ -817,13 +822,16 @@
 <Spice rdf:about="#fennel_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Seed"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel Seeds</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel seeds</fancyName>
 </Spice>
 
 <Spice rdf:about="#star_anise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star Anise</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star anise</fancyName>
 </Spice>
 
 <Spice rdf:about="#saffron">
@@ -1362,6 +1370,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#bento_box"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -3329,6 +3338,7 @@
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3359,6 +3369,7 @@
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4835,6 +4846,7 @@
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4983,6 +4995,7 @@
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Edible>
@@ -5079,6 +5092,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
@@ -5619,6 +5633,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -6738,6 +6753,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan Peppercorns</fancyName>
 </Edible>
@@ -6784,7 +6800,9 @@
 <Edible rdf:about="#bean_sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean Sprouts</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
 </Edible>
 
 <Edible rdf:about="#chinese_black_vinegar">
@@ -6871,6 +6889,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch slurry</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#chili_oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#cinnamon_sticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon sticks</fancyName>
+</Edible>
+
+<Edible rdf:about="#bamboo_shoots">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo shoots</fancyName>
+</Edible>
+
+<Edible rdf:about="#wood_ear_fungus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood ear fungus</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
