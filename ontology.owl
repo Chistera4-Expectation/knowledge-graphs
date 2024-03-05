@@ -6052,7 +6052,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ugu leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#all_purpose_flour">
+<Bread rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#apple_pie"/>
@@ -6070,7 +6070,7 @@
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all-purpose flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
