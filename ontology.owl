@@ -1564,10 +1564,14 @@
 
 <Dairy rdf:about="#fruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Breakfast"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit</fancyName>
 </Dairy>
 
 <Dairy rdf:about="#granola">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Breakfast"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granola</fancyName>
 </Dairy>
 
 <Crustaceans rdf:about="#lobster">
@@ -2152,6 +2156,216 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shellac</fancyName>
 </Animal>
+
+<Breakfast rdf:about="#corn_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Flakes</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cheerios">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheerios</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#frosted_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frosted Flakes</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#raisin_bran">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisin Bran</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#froot_loops">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Froot Loops</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#special_k">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special K</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#shredded_wheat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded Wheat</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#puffed_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puffed Rice</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#muesli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muesli</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#instant_oatmeal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instant Oatmeal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cocoa_puffs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa Puffs</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#honey_nut_cheerios">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey Nut Cheerios</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#golden_grahams">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golden Grahams</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#life_cereal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life Cereal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#apple_jacks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Jacks</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#chex_mix">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chex Mix</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cookie_crisp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cookie Crisp</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#fiber_one">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiber One</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#smart_start">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smart Start</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#multigrain_cheerios">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multigrain Cheerios</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cinnamon_toast_crunch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon Toast Crunch</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#peanut_butter_cereal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut Butter Cereal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#yogurt_cereal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt Cereal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#chocolate_lucky_charms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate Lucky Charms</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#banana_nut_bread_cereal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana Nut Bread Cereal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#strawberry_shortcake_cereal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry Shortcake Cereal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cocoa_pebbles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa Pebbles</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#honey_bunches_of_oats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey Bunches of Oats</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cap_n_crunch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cap’n Crunch</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#sugar_smacks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar Smacks</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#fruity_pebbles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruity Pebbles</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#marshmallows">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marshmallows</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#fruit_loop_twists">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit Loop Twists</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cocoa_puff_balls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa Puff Balls</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#quaker_oats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quaker Oats</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#nutri_grain_cereals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutri-Grain Cereals</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#cascadian_farm_organic_cereals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cascadian Farm Organic Cereals</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#barbara_s_bakery_cereals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbara’s Bakery Cereals</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#nature_valley_morning_sunshine_cereal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nature Valley Morning Sunshine Cereal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#bear_naked_hearty_grains_cereal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bear Naked Hearty Grains Cereal</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#bob_s_red_mill_gluten_free_cereals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bob’s Red Mill Gluten Free Cereals</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#ezekiel_4_9_sprouted_whole_grain_cereals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ezekiel 4:9 Sprouted Whole Grain Cereals</fancyName>
+</Breakfast>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
