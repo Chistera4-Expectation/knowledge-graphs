@@ -6898,11 +6898,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe mangoes</fancyName>
 </Fruit>
 
-<Edible rdf:about="#white_vinegar">
+<Seasoning rdf:about="#white_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#green_chillies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
