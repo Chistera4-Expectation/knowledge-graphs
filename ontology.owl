@@ -2551,6 +2551,7 @@
 
 <Bread rdf:about="#white_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Bread</fancyName>
 </Bread>
 
@@ -3965,12 +3966,6 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Spice>
-
-<Bread rdf:about="#bread">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#gazpacho"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
-</Bread>
 
 <Bread rdf:about="#bakery_items">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
