@@ -6460,12 +6460,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club soda</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#ice_cubes">
+<Water rdf:about="#ice_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cubes</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#maraschino_cherries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
