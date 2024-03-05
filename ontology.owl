@@ -7163,11 +7163,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut dipping sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#duck">
+<Fish rdf:about="#duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
