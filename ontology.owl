@@ -7209,11 +7209,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soba noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#chili_garlic_sauce">
+<Sauce rdf:about="#chili_garlic_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili garlic sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#crushed_peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
