@@ -4108,10 +4108,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothies</fancyName>
 </Drink>
 
-<Vegetal rdf:about="#soups">
+<Vegetable rdf:about="#soups">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soups</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#salads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
