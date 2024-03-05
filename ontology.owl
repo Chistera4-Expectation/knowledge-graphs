@@ -6175,12 +6175,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasoned flour mix</fancyName>
 </Bread>
 
-<Edible rdf:about="#vegetable_oil_for_frying">
+<Oil rdf:about="#vegetable_oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil for frying</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#elbow_macaroni">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
