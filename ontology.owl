@@ -4820,10 +4820,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
 </Energy>
 
-<Drink rdf:about="#coconut_water">
+<Energy rdf:about="#coconut_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
-</Drink>
+</Energy>
 
 <Drink rdf:about="#protein_shakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
