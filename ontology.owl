@@ -5914,11 +5914,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#other_condiments">
+<Sauce rdf:about="#other_condiments">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other condiments</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
