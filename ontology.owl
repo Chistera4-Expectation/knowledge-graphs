@@ -6525,11 +6525,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab meat</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#imitation_crab">
+<Molluscs rdf:about="#imitation_crab">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imitation crab</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#pickled_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
