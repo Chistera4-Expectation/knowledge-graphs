@@ -4322,10 +4322,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit punch</fancyName>
 </Juice>
 
-<Liquid rdf:about="#lemonade">
+<Juice rdf:about="#lemonade">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemonade</fancyName>
-</Liquid>
+</Juice>
 
 <Edible rdf:about="#fruit__apple__banana__orange__mango__pineapple__kiwi__berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
