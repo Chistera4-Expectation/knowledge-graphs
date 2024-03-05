@@ -6293,11 +6293,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#liquid_smoke">
+<Seasoning rdf:about="#liquid_smoke">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liquid smoke</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#canned_clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
