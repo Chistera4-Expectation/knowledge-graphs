@@ -6641,11 +6641,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi stock</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#japanese_rice_wine">
+<Alcoholic rdf:about="#japanese_rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japanese rice wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#green_tea_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
