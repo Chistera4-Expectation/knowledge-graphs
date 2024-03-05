@@ -5676,13 +5676,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other preferred seasonings</fancyName>
 </Spice>
 
-<Edible rdf:about="#baking_powder">
+<Seasoning rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#melted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
