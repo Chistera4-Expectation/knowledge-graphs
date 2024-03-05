@@ -5594,11 +5594,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt to taste</fancyName>
 </Energy>
 
-<Edible rdf:about="#maggi_seasoning_cubes">
+<Seasoning rdf:about="#maggi_seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi seasoning cubes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chili_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
