@@ -7184,12 +7184,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nappa cabbage</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fresh_ginger_root">
+<Spice rdf:about="#fresh_ginger_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger root</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#arrowroot_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
