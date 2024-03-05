@@ -5752,13 +5752,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#mustard">
+<Seasoning rdf:about="#mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#hickory_smoke">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
