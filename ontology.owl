@@ -5527,11 +5527,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Juice>
 
-<Edible rdf:about="#ladyfingers">
+<Oil rdf:about="#ladyfingers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ladyfingers</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#espresso_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
