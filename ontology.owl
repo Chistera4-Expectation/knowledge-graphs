@@ -3595,10 +3595,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant-based Proteins: Tofu, Tempeh, Edamame, Seitan, Textured vegetable protein</fancyName>
 </Vegetal>
 
-<Vegetal rdf:about="#plant_based_proteins">
+<Bread rdf:about="#plant_based_proteins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant-based Proteins</fancyName>
-</Vegetal>
+</Bread>
 
 <Vegetal rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
