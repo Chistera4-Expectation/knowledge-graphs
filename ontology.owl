@@ -493,6 +493,7 @@
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
+  <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1551,8 +1552,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sour cream</fancyName>
 </Dairy>
 
 <Dairy rdf:about="#ice_cream">
@@ -3775,6 +3778,7 @@
 <Liquid rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -4598,7 +4602,9 @@
 <Edible rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
 
 <Edible rdf:about="#corn_tortillas">
@@ -4657,6 +4663,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</fancyName>
 </Edible>
 
@@ -4753,6 +4760,66 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_husks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn husks</fancyName>
+</Edible>
+
+<Edible rdf:about="#banana_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banana leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#lard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lard</fancyName>
+</Edible>
+
+<Edible rdf:about="#filling_of_your_choice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling of your choice</fancyName>
+</Edible>
+
+<Edible rdf:about="#sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#seasonings_for_the_filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasonings for the filling</fancyName>
+</Edible>
+
+<Edible rdf:about="#raisins">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
+</Edible>
+
+<Edible rdf:about="#dried_fruits">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried fruits</fancyName>
+</Edible>
+
+<Edible rdf:about="#olives">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_garnishes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other garnishes</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
