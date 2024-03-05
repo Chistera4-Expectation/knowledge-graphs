@@ -6880,11 +6880,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#dry_roasted_sichuan_peppercorns">
+<Spice rdf:about="#dry_roasted_sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry roasted Sichuan peppercorns</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#green_onion_for_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
