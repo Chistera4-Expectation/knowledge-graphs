@@ -6245,11 +6245,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground meat</fancyName>
 </Beef>
 
-<Edible rdf:about="#catfish_fillets">
+<Fish rdf:about="#catfish_fillets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_catfish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catfish fillets</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#pork_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
