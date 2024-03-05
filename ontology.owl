@@ -6813,11 +6813,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moringa leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#nanny_berries">
+<Fruit rdf:about="#nanny_berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanny berries</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#annatto_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
