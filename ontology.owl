@@ -6349,11 +6349,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#canned_peas">
+<Vegetable rdf:about="#canned_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canned peas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
