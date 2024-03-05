@@ -5953,11 +5953,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium Glutamate</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#hydrolyzed_soy_protein">
+<Oil rdf:about="#hydrolyzed_soy_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrolyzed Soy Protein</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#buttermilk_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
