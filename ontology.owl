@@ -6478,11 +6478,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea salt</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#corn_on_the_cob">
+<Vegetable rdf:about="#corn_on_the_cob">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn on the cob</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#sweet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
