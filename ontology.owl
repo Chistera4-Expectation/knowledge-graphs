@@ -1809,6 +1809,7 @@
   <ingredientOf rdf:resource="#bento_boxes"/>
   <ingredientOf rdf:resource="#shrimp_fried_rice"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -7158,12 +7159,6 @@
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pork bones</fancyName>
 </Pork>
-
-<Crustaceans rdf:about="#cooked_shrimp">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#congee"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shrimp</fancyName>
-</Crustaceans>
 
 <Molluscs rdf:about="#other_seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
