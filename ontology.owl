@@ -5002,11 +5002,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh mozzarella cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#ripe_tomatoes">
+<Fruit rdf:about="#ripe_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe tomatoes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#extra_virgin_olive_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
