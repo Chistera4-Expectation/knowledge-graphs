@@ -1473,13 +1473,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamb</fancyName>
 </Poultry>
 
-<Meat rdf:about="#turkey">
+<Poultry rdf:about="#turkey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#venison">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
