@@ -4893,11 +4893,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
 </Spice>
 
-<Edible rdf:about="#italian_seasoning">
+<Seasoning rdf:about="#italian_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chicken_breasts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
