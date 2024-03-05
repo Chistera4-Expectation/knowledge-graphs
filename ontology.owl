@@ -3462,6 +3462,101 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albumin Infusion</fancyName>
 </Infusion>
 
+<Energy rdf:about="#red_bull">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Bull</fancyName>
+</Energy>
+
+<Energy rdf:about="#monster_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#rockstar_energy_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rockstar Energy Drink</fancyName>
+</Energy>
+
+<Energy rdf:about="#5_hour_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Hour Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#full_throttle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full Throttle</fancyName>
+</Energy>
+
+<Energy rdf:about="#nos_energy_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOS Energy Drink</fancyName>
+</Energy>
+
+<Energy rdf:about="#amp_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amp Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#xs_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XS Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#bang_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bang Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#g_fuel_energy_formula">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G Fuel Energy Formula</fancyName>
+</Energy>
+
+<Energy rdf:about="#coca_cola_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coca-Cola Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#pepsico_s_wings_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PepsiCo's Wings Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#sobe_adrenaline_rush">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sobe Adrenaline Rush</fancyName>
+</Energy>
+
+<Energy rdf:about="#sobe_no_fear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SoBe No Fear</fancyName>
+</Energy>
+
+<Energy rdf:about="#boost_energy_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boost Energy Drink</fancyName>
+</Energy>
+
+<Energy rdf:about="#funvit_energy_drinks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FunVit Energy Drinks</fancyName>
+</Energy>
+
+<Energy rdf:about="#rhino_energy_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhino Energy Drink</fancyName>
+</Energy>
+
+<Energy rdf:about="#crunk_energy_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crunk Energy Drink</fancyName>
+</Energy>
+
+<Energy rdf:about="#spike_shock_energy_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike Shock Energy Drink</fancyName>
+</Energy>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
