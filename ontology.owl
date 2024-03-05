@@ -4763,7 +4763,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grated Pecorino Romano cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#garlic__minced">
+<Spice rdf:about="#garlic__minced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
@@ -4772,7 +4772,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic, minced</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#black_pepper__freshly_ground">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
