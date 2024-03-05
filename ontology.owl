@@ -3096,6 +3096,7 @@
 <Vegetal rdf:about="#whole_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Grains</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grains</fancyName>
 </Vegetal>
 
 <Vegetal rdf:about="#plant_based_proteins__tofu__tempeh__edamame__seitan__textured_vegetable_protein">
@@ -3783,6 +3784,46 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemonade</fancyName>
 </Liquid>
+
+<Edible rdf:about="#fruit__apple__banana__orange__mango__pineapple__kiwi__berries">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit: Apple, Banana, Orange, Mango, Pineapple, Kiwi, Berries</fancyName>
+</Edible>
+
+<Edible rdf:about="#fruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit</fancyName>
+</Edible>
+
+<Edible rdf:about="#grains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grains</fancyName>
+</Edible>
+
+<Edible rdf:about="#proteins__chicken_breast__turkey_breast__lean_beef__fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins: Chicken Breast, Turkey Breast, Lean Beef, Fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#eggs__legumes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs, Legumes</fancyName>
+</Edible>
+
+<Edible rdf:about="#proteins">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins</fancyName>
+</Edible>
+
+<Edible rdf:about="#dairy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy</fancyName>
+</Edible>
+
+<Edible rdf:about="#healthy_fats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthy fats</fancyName>
+</Edible>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
