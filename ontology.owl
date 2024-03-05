@@ -7463,10 +7463,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enoki mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#paste">
+<Sauce rdf:about="#paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#cornstarch_slurry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
