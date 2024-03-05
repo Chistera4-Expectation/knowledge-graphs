@@ -7175,11 +7175,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#rice_paper_wrappers">
+<Rice rdf:about="#rice_paper_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper wrappers</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#mung_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
