@@ -6337,11 +6337,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapenos</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#canned_corn">
+<Vegetable rdf:about="#canned_corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned corn</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#dried">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
