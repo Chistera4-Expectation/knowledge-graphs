@@ -6211,11 +6211,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#panko_breadcrumbs">
+<Bread rdf:about="#panko_breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panko breadcrumbs</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#shortening">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
