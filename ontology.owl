@@ -5270,6 +5270,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
 </Cheese>
 
@@ -5484,12 +5485,6 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Bread>
-
-<Cheese rdf:about="#mozzarella_cheese_slices">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#eggplant_parmesan"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese slices</fancyName>
-</Cheese>
 
 <Spice rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
