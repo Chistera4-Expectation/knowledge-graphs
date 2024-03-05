@@ -6124,11 +6124,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolk</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#hamburger_bun">
+<Bread rdf:about="#hamburger_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger bun</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#american_cheese_slice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
