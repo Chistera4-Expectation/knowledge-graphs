@@ -5624,12 +5624,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yam</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#meat">
+<Poultry rdf:about="#meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#uziza_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
