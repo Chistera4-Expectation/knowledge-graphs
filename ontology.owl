@@ -6531,13 +6531,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imitation crab</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#pickled_ginger">
+<Oil rdf:about="#pickled_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled Ginger</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#wasabi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
