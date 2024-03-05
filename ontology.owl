@@ -5959,11 +5959,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrolyzed Soy Protein</fancyName>
 </Oil>
 
-<Edible rdf:about="#buttermilk_powder">
+<Milk rdf:about="#buttermilk_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buttermilk Powder</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#dextrose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
