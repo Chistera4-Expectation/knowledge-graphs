@@ -6496,11 +6496,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon wedges</fancyName>
 </Fruit>
 
-<Edible rdf:about="#hot_dog_rolls">
+<Bread rdf:about="#hot_dog_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot dog rolls</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#cold_beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
