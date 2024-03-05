@@ -7407,12 +7407,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green tea ice cream</fancyName>
 </Tea>
 
-<Edible rdf:about="#chinese_cooking_wine">
+<Alcoholic rdf:about="#chinese_cooking_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese cooking wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#water_chestnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
