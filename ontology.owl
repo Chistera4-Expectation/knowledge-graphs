@@ -5931,11 +5931,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein</fancyName>
 </Beef>
 
-<Edible rdf:about="#yam">
+<Vegetable rdf:about="#yam">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pounded_yam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yam</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#salt_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
