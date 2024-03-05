@@ -1868,10 +1868,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buttermilk</fancyName>
 </Milk>
 
-<Dairy rdf:about="#ice_cream">
+<Milk rdf:about="#ice_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cream</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#ricotta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
