@@ -5370,12 +5370,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg wash</fancyName>
 </Dressing>
 
-<Edible rdf:about="#pasta">
+<Pasta rdf:about="#pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#grated_parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
