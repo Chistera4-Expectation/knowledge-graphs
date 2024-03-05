@@ -6037,11 +6037,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Bell Peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#white_distilled_vinegar">
+<Seasoning rdf:about="#white_distilled_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Distilled Vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#sorghum_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
