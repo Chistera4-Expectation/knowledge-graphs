@@ -7085,11 +7085,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura batter</fancyName>
 </Oil>
 
-<Edible rdf:about="#dashi_broth">
+<Sauce rdf:about="#dashi_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi broth</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#seafood_of_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
