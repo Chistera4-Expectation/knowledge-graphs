@@ -571,6 +571,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -778,7 +779,9 @@
 
 <Spice rdf:about="#black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black pepper</fancyName>
 </Spice>
 
 <Spice rdf:about="#ginger">
@@ -2786,6 +2789,7 @@
 
 <Fruit rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Fruit>
 
@@ -2827,6 +2831,7 @@
 <Fruit rdf:about="#tomato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Vegetable"/>
+  <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Fruit>
 
@@ -3234,6 +3239,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3247,6 +3253,7 @@
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
+  <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4942,6 +4949,23 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese slices</fancyName>
+</Edible>
+
+<Edible rdf:about="#cilantro">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guacamole"/>
+</Edible>
+
+<Edible rdf:about="#lime_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guacamole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
+</Edible>
+
+<Edible rdf:about="#jalapeno_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guacamole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jalapeño pepper</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
