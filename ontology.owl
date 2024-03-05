@@ -6677,11 +6677,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bananas</fancyName>
 </Fruit>
 
-<Edible rdf:about="#taro_roots">
+<Vegetable rdf:about="#taro_roots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taro roots</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cassava">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
