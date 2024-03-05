@@ -5977,11 +5977,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modified Food Starch</fancyName>
 </Additive>
 
-<Edible rdf:about="#sodium_phosphates">
+<Additive rdf:about="#sodium_phosphates">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Phosphates</fancyName>
-</Edible>
+</Additive>
 
 <Edible rdf:about="#calcium_silicate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
