@@ -4802,12 +4802,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella Cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#basil_leaves">
+<Seasoning rdf:about="#basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil leaves</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
