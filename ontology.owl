@@ -3874,6 +3874,7 @@
 <Juice rdf:about="#orange_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
 </Juice>
 
@@ -5015,6 +5016,7 @@
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
 </Edible>
@@ -6098,6 +6100,48 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live lobsters</fancyName>
+</Edible>
+
+<Edible rdf:about="#pineapple_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple juice</fancyName>
+</Edible>
+
+<Edible rdf:about="#dark_rum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark rum</fancyName>
+</Edible>
+
+<Edible rdf:about="#grenadine_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grenadine syrup</fancyName>
+</Edible>
+
+<Edible rdf:about="#club_soda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club soda</fancyName>
+</Edible>
+
+<Edible rdf:about="#ice_cubes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cubes</fancyName>
+</Edible>
+
+<Edible rdf:about="#maraschino_cherries">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maraschino cherries</fancyName>
+</Edible>
+
+<Edible rdf:about="#orange_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rum_punch"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orange slices</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
