@@ -7026,10 +7026,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
 </Spice>
 
-<Edible rdf:about="#ball">
+<Meat rdf:about="#ball">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#pandemonium_hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
