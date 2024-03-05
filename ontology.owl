@@ -7585,14 +7585,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole duck</fancyName>
 </Poultry>
 
-<Edible rdf:about="#cinnamon_sticks">
+<Spice rdf:about="#cinnamon_sticks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon sticks</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon Sticks</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#peanut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
