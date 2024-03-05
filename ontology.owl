@@ -6328,11 +6328,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe plantains</fancyName>
 </Fruit>
 
-<Edible rdf:about="#salt_cod">
+<Fish rdf:about="#salt_cod">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt cod</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#short_grain_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
