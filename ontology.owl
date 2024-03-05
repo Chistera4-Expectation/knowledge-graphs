@@ -6513,11 +6513,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#raw_fish">
+<Fish rdf:about="#raw_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw Fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
