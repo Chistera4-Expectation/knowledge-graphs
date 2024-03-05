@@ -7323,11 +7323,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato puree</fancyName>
 </Sauce>
 
-<Edible rdf:about="#fresh_cilantro_leaves">
+<Vegetal rdf:about="#fresh_cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro leaves</fancyName>
-</Edible>
+</Vegetal>
 
 <Edible rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
