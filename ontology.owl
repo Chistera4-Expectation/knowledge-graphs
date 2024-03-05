@@ -5416,11 +5416,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red bell pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cherry_tomatoes">
+<Fruit rdf:about="#cherry_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry tomatoes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#red_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
