@@ -2620,6 +2620,12 @@
 <Bread rdf:about="#cornbread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#American"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#fried_catfish"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornbread</fancyName>
 </Bread>
 
@@ -5297,17 +5303,6 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
 </Sauce>
-
-<Bread rdf:about="#cornmeal">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#polenta"/>
-  <ingredientOf rdf:resource="#cornbread"/>
-  <ingredientOf rdf:resource="#fried_catfish"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <ingredientOf rdf:resource="#conch_fritters"/>
-  <ingredientOf rdf:resource="#plantain"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
-</Bread>
 
 <Pasta rdf:about="#polenta_cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
