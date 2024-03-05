@@ -3584,11 +3584,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seeds</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#whole_grains">
+<Rice rdf:about="#whole_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Grains</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grains</fancyName>
-</Vegetal>
+</Rice>
 
 <Vegetal rdf:about="#plant_based_proteins__tofu__tempeh__edamame__seitan__textured_vegetable_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
