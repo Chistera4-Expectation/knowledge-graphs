@@ -7019,12 +7019,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">split peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#tamarind_paste">
+<Spice rdf:about="#tamarind_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ball">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
