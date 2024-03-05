@@ -4064,7 +4064,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algae</fancyName>
 </Seaweed>
 
-<Vegetal rdf:about="#tofu">
+<Vegetable rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
@@ -4075,7 +4075,7 @@
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#veggie_burgers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
