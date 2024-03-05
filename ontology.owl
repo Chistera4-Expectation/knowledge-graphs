@@ -6689,11 +6689,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassava</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#yams">
+<Vegetable rdf:about="#yams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yams</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pumpkin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
