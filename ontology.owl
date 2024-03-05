@@ -4936,7 +4936,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#sugar">
+<Sweetener rdf:about="#sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
@@ -4962,7 +4962,7 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#savoiardi_biscuits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
