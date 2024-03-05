@@ -6730,11 +6730,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried bonito fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#other_protein_source">
+<Beef rdf:about="#other_protein_source">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other protein source</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#fenugreek_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
