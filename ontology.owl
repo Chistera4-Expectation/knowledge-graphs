@@ -1889,10 +1889,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dairy products</fancyName>
 </Butter>
 
-<Dairy rdf:about="#fermented_milk_beverages_like_buttermilk">
+<Milk rdf:about="#fermented_milk_beverages_like_buttermilk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fermented milk beverages like buttermilk</fancyName>
-</Dairy>
+</Milk>
 
 <Crustaceans rdf:about="#lobster">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
