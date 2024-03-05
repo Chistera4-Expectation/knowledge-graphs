@@ -6346,12 +6346,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabbit</fancyName>
 </Animal>
 
-<Edible rdf:about="#saffron_threads">
+<Spice rdf:about="#saffron_threads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron threads</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#green_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
