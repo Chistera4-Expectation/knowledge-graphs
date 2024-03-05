@@ -4092,10 +4092,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grain breads</fancyName>
 </Bread>
 
-<Vegetal rdf:about="#granola_bars">
+<Breakfast rdf:about="#granola_bars">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granola bars</fancyName>
-</Vegetal>
+</Breakfast>
 
 <Vegetal rdf:about="#energy_balls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
