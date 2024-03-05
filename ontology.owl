@@ -7799,11 +7799,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango powder</fancyName>
 </Oil>
 
-<Edible rdf:about="#green_chilies__finely_chopped">
+<Vegetable rdf:about="#green_chilies__finely_chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chilies, finely chopped</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fenugreek_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
