@@ -6248,11 +6248,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scootch bonnet peppers in brine</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#white_rice">
+<Pasta rdf:about="#white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#black_eyed_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
