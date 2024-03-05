@@ -6822,11 +6822,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daikon Radish Salad</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cucumber_rolls">
+<Vegetable rdf:about="#cucumber_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber Rolls</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#teriyaki_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
