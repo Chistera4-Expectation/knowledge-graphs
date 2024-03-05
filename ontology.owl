@@ -6798,11 +6798,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein source</fancyName>
 </Beef>
 
-<Edible rdf:about="#fresh_curry_leaves">
+<Vegetable rdf:about="#fresh_curry_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh curry leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#steamed_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
