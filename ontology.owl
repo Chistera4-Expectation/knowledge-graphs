@@ -6959,11 +6959,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#dark_rum">
+<Alcoholic rdf:about="#dark_rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark rum</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#white_rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
