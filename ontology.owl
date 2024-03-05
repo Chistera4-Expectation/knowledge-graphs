@@ -4082,10 +4082,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veggie burgers</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#plant_based_milk_alternatives">
+<Oil rdf:about="#plant_based_milk_alternatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant-based milk alternatives</fancyName>
-</Vegetal>
+</Oil>
 
 <Vegetal rdf:about="#whole_grain_breads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
