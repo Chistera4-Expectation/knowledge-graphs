@@ -5283,7 +5283,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped jalapeño peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lime_juice">
+<Juice rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
@@ -5292,7 +5292,7 @@
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#guacamole">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
