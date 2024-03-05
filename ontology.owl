@@ -6091,11 +6091,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharp Cheddar cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#other_ground_meats">
+<Poultry rdf:about="#other_ground_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other ground meats</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#rolled_oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
