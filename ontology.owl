@@ -1910,10 +1910,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#yogurt_drinks">
+<Yogurt rdf:about="#yogurt_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt drinks</fancyName>
-</Dairy>
+</Yogurt>
 
 <Dairy rdf:about="#fruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
