@@ -1330,11 +1330,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich meat</fancyName>
 </Poultry>
 
-<Poultry rdf:about="#emu_meat">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emu meat</fancyName>
-</Poultry>
-
 <Poultry rdf:about="#game_hens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game hens</fancyName>
