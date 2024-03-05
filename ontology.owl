@@ -7542,11 +7542,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other seafood</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#fried_shallots">
+<Oil rdf:about="#fried_shallots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried shallots</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#soft_boiled_egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
