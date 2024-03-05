@@ -5469,11 +5469,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Cider Vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#long_grain_rice">
+<Rice rdf:about="#long_grain_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long grain rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#green_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
