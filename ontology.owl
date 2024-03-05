@@ -6913,14 +6913,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed Red Peppers</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#white_pepper">
+<Spice rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#chili_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
