@@ -7758,11 +7758,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron Threads</fancyName>
 </Spice>
 
-<Edible rdf:about="#almond_flakes">
+<Breakfast rdf:about="#almond_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond Flakes</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#coriander_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
