@@ -7653,11 +7653,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#sweet_chili_sauce_for_dipping">
+<Sauce rdf:about="#sweet_chili_sauce_for_dipping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweet chili sauce for dipping</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#fish_sauce_for_dipping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
