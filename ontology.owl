@@ -6163,11 +6163,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
 </Oil>
 
-<Edible rdf:about="#chicken_pieces">
+<Poultry rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pieces</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#seasoned_flour_mix">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
