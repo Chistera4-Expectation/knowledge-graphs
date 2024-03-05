@@ -6930,14 +6930,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#shaoxing_wine">
+<Alcoholic rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing Wine</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#cooked_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
