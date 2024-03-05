@@ -5586,13 +5586,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterleaf</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#salt_to_taste">
+<Energy rdf:about="#salt_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt to taste</fancyName>
-</Edible>
+</Energy>
 
 <Edible rdf:about="#maggi_seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
