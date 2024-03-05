@@ -6695,11 +6695,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yams</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pumpkin">
+<Vegetable rdf:about="#pumpkin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chilli_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
