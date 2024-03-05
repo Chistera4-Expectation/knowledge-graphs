@@ -6379,11 +6379,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Oil>
 
-<Edible rdf:about="#semisweet_chocolate">
+<Sweetener rdf:about="#semisweet_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semisweet chocolate</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#grits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
