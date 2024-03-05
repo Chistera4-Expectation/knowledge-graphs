@@ -6072,7 +6072,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all-purpose flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#baking_powder">
+<Additive rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
@@ -6082,7 +6082,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
-</Edible>
+</Additive>
 
 <Edible rdf:about="#margarine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
