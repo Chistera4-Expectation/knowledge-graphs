@@ -3664,10 +3664,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
 </Seed>
 
-<Food rdf:about="#hummus">
+<Vegetable rdf:about="#hummus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hummus</fancyName>
-</Food>
+</Vegetable>
 
 <Food rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
