@@ -6210,12 +6210,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange zest</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#ground_cloves">
+<Spice rdf:about="#ground_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cloves</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cinnamon_stick">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
