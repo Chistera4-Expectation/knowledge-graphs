@@ -6665,11 +6665,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green plantains</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ripe_plantains">
+<Fruit rdf:about="#ripe_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe plantains</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
