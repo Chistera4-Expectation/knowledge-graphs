@@ -317,7 +317,9 @@
 
 <Dressing rdf:about="#thousand_island_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousand Island Dressing</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousand Island dressing</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#soy_sauce_dressing">
@@ -1641,6 +1643,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1683,6 +1686,7 @@
 
 <Dairy rdf:about="#swiss_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
 </Dairy>
 
@@ -2354,7 +2358,9 @@
 
 <Bread rdf:about="#rye_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye Bread</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye bread</fancyName>
 </Bread>
 
 <Bread rdf:about="#wheat_bread">
@@ -5701,6 +5707,30 @@
 <Edible rdf:about="#roll">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
+</Edible>
+
+<Edible rdf:about="#corned_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef</fancyName>
+</Edible>
+
+<Edible rdf:about="#sauerkraut">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauerkraut</fancyName>
+</Edible>
+
+<Edible rdf:about="#russian">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian</fancyName>
+</Edible>
+
+<Edible rdf:about="#thousands_island_dressing">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousands Island Dressing</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
