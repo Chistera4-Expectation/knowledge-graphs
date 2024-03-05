@@ -5995,11 +5995,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery Powder</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#natural">
+<Sauce rdf:about="#natural">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#artificial_flavors">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
