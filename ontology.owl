@@ -5089,11 +5089,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#canned_tomato_sauce">
+<Sauce rdf:about="#canned_tomato_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canned tomato sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
