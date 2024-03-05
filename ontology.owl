@@ -7231,11 +7231,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried Goji Berries</fancyName>
 </Fruit>
 
-<Edible rdf:about="#minced_pork">
+<Poultry rdf:about="#minced_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minced pork</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#pineapple_chunks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
