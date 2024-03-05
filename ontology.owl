@@ -7079,11 +7079,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kewpie mayonnaise</fancyName>
 </Sauce>
 
-<Edible rdf:about="#tempura_batter">
+<Oil rdf:about="#tempura_batter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura batter</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#dashi_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
