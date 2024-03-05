@@ -5615,11 +5615,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
 </Butter>
 
-<Edible rdf:about="#cannellini_beans">
+<Vegetable rdf:about="#cannellini_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cannellini beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#eggplants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
