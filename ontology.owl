@@ -4810,10 +4810,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low sugar content</fancyName>
 </Water>
 
-<Drink rdf:about="#herbal_teas">
+<Tea rdf:about="#herbal_teas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal teas</fancyName>
-</Drink>
+</Tea>
 
 <Drink rdf:about="#soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
