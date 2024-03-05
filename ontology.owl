@@ -738,6 +738,11 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#chili"/>
+  <ingredientOf rdf:resource="#festival"/>
+  <ingredientOf rdf:resource="#haitian_griot"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -930,18 +935,6 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#ground_cumin">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chili"/>
-  <ingredientOf rdf:resource="#festival"/>
-  <ingredientOf rdf:resource="#haitian_griot"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <ingredientOf rdf:resource="#rogan_josh"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground cumin</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Cumin</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#saffron">
