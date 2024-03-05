@@ -6419,10 +6419,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried plantains</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#bananas">
+<Fruit rdf:about="#bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#scotch_bonnet_pepper_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
