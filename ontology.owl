@@ -6371,13 +6371,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh peaches</fancyName>
 </Fruit>
 
-<Edible rdf:about="#egg">
+<Oil rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#fried_oysters"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#semisweet_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
