@@ -5387,11 +5387,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
 </Fruit>
 
-<Edible rdf:about="#dried_fruits">
+<Seed rdf:about="#dried_fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried fruits</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
