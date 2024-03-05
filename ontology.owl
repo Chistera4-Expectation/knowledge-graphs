@@ -5953,11 +5953,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meat can be added based on personal preference</fancyName>
 </Poultry>
 
-<Edible rdf:about="#boneless_chicken_breast">
+<Poultry rdf:about="#boneless_chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless chicken breast</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
