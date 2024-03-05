@@ -7004,12 +7004,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chinese_black_vinegar">
+<Sauce rdf:about="#chinese_black_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Black Vinegar</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#proteins__beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
