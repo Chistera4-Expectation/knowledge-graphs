@@ -5539,11 +5539,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espresso powder</fancyName>
 </Coffee>
 
-<Edible rdf:about="#instant_coffee_granules">
+<Drink rdf:about="#instant_coffee_granules">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instant coffee granules</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
