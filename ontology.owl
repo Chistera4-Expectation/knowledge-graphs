@@ -6127,11 +6127,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other herbs</fancyName>
 </Spice>
 
-<Edible rdf:about="#lobster_meat">
+<Crustaceans rdf:about="#lobster_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobster meat</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
