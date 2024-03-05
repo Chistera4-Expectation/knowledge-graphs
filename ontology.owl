@@ -6230,14 +6230,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#heavy_cream">
+<Butter rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
-</Edible>
+</Butter>
 
 <Edible rdf:about="#ground_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
