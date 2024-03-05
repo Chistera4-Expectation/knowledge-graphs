@@ -6789,11 +6789,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ackee fruit</fancyName>
 </Fruit>
 
-<Edible rdf:about="#plantain_flowers">
+<Oil rdf:about="#plantain_flowers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain flowers</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#callaloo_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
