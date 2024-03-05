@@ -5664,11 +5664,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat of choice</fancyName>
 </Poultry>
 
-<Edible rdf:about="#scotch_bonnet_pepper">
+<Spice rdf:about="#scotch_bonnet_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#other_preferred_seasonings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
