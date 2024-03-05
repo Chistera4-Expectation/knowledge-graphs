@@ -7573,11 +7573,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chopped_cilantro">
+<Vegetable rdf:about="#chopped_cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped cilantro</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#whole_duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
