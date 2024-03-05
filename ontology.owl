@@ -6230,10 +6230,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walnuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#pecans">
+<Seed rdf:about="#pecans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
