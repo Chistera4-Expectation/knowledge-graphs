@@ -4022,10 +4022,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Navy beans</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#lentils">
+<Vegetable rdf:about="#lentils">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentils</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#barley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
