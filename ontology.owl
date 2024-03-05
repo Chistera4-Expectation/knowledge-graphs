@@ -377,7 +377,9 @@
 
 <Dressing rdf:about="#sour_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Dairy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#onion_dip">
@@ -1488,6 +1490,84 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American-style yogurt</fancyName>
 </Yogurt>
+
+<Dairy rdf:about="#milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#cottage_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cottage cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#buttermilk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buttermilk</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#ice_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cream</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#ricotta_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#cream_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#mascarpone">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#quark">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quark</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#feta_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feta cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#swiss_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#goat_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#yogurt_drinks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt drinks</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#fruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dairy>
+
+<Dairy rdf:about="#granola">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dairy>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
