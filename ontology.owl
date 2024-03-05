@@ -5783,6 +5783,7 @@
 <Crustaceans rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crayfish</fancyName>
 </Crustaceans>
 
@@ -6708,12 +6709,6 @@
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Vegetable>
-
-<Crustaceans rdf:about="#shellfish">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sushi"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shellfish</fancyName>
-</Crustaceans>
 
 <Breakfast rdf:about="#omelette">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
