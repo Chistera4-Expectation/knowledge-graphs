@@ -6733,11 +6733,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocados</fancyName>
 </Fruit>
 
-<Edible rdf:about="#mangoes">
+<Fruit rdf:about="#mangoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mangoes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#papayas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
