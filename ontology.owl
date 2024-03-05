@@ -3853,7 +3853,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loose-leaf lettuce</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#carrots">
+<Vegetable rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -3868,7 +3868,7 @@
   <ingredientOf rdf:resource="#shrimp_fried_rice"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
