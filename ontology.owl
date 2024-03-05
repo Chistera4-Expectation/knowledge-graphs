@@ -7353,11 +7353,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein source</fancyName>
 </Beef>
 
-<Edible rdf:about="#matcha_green_tea_powder">
+<Tea rdf:about="#matcha_green_tea_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha green tea powder</fancyName>
-</Edible>
+</Tea>
 
 <Edible rdf:about="#baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
