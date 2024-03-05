@@ -7647,11 +7647,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean thread noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#peanut_sauce">
+<Sauce rdf:about="#peanut_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#sweet_chili_sauce_for_dipping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
