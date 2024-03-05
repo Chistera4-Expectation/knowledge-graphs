@@ -1467,6 +1467,9 @@
 
 <Butter rdf:about="#sweet_cream_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet Cream Butter</fancyName>
 </Butter>
 
@@ -5518,14 +5521,6 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
 </Spice>
-
-<Butter rdf:about="#cream">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#polenta"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
-</Butter>
 
 <Vegetable rdf:about="#cannellini_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
