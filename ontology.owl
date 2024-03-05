@@ -7311,11 +7311,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water for cooking the rice</fancyName>
 </Oil>
 
-<Edible rdf:about="#boneless_chicken_pieces">
+<Poultry rdf:about="#boneless_chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless chicken pieces</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#tomato_puree">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
