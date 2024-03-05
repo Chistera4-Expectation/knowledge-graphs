@@ -6103,11 +6103,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rolled oats</fancyName>
 </Breakfast>
 
-<Edible rdf:about="#onion__finely_chopped">
+<Vegetable rdf:about="#onion__finely_chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion, finely chopped</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_pepper__finely_chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
