@@ -2658,6 +2658,13 @@
 <Rice rdf:about="#basmati_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#albondigas_soup"/>
+  <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#festival"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati rice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati Rice</fancyName>
 </Rice>
@@ -5488,18 +5495,6 @@
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chiles</fancyName>
 </Vegetable>
-
-<Rice rdf:about="#rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#albondigas_soup"/>
-  <ingredientOf rdf:resource="#jambalaya"/>
-  <ingredientOf rdf:resource="#plantain"/>
-  <ingredientOf rdf:resource="#festival"/>
-  <ingredientOf rdf:resource="#sushi"/>
-  <ingredientOf rdf:resource="#curry_rice"/>
-  <ingredientOf rdf:resource="#congee"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
-</Rice>
 
 <Seasoning rdf:about="#vanilla_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
