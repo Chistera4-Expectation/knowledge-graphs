@@ -7390,13 +7390,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tamarind soaked in water</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#asafoetida">
+<Seasoning rdf:about="#asafoetida">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asafoetida</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#drumstick">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
