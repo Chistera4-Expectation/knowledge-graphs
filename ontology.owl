@@ -4292,10 +4292,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable juice</fancyName>
 </Juice>
 
-<Liquid rdf:about="#electrolyte_beverages">
+<Alcoholic rdf:about="#electrolyte_beverages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte beverages</fancyName>
-</Liquid>
+</Alcoholic>
 
 <Liquid rdf:about="#hot_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
