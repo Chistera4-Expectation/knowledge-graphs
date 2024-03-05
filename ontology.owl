@@ -4491,10 +4491,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longjing Tea</fancyName>
 </Tea>
 
-<Infusion rdf:about="#vitamin_c_boost">
+<Coffee rdf:about="#vitamin_c_boost">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin C Boost</fancyName>
-</Infusion>
+</Coffee>
 
 <Infusion rdf:about="#electrolyte_recharge">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
