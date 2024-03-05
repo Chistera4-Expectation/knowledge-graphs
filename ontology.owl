@@ -2373,10 +2373,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate covered ants</fancyName>
 </Insect>
 
-<Insect rdf:about="#silkworm_pupae">
+<Honey rdf:about="#silkworm_pupae">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silkworm pupae</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#mealworms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
