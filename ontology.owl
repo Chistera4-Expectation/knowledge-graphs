@@ -6049,11 +6049,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum Syrup</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#natural_smoke_flavor">
+<Seasoning rdf:about="#natural_smoke_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Smoke Flavor</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#natural_butter_type_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
