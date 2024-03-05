@@ -3644,10 +3644,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Vegetable>
 
-<Food rdf:about="#sweet_potato">
+<Vegetable rdf:about="#sweet_potato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet Potato</fancyName>
-</Food>
+</Vegetable>
 
 <Food rdf:about="#berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
