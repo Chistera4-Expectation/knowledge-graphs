@@ -6901,11 +6901,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#ginger_root">
+<Spice rdf:about="#ginger_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger root</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#crushed_red_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
