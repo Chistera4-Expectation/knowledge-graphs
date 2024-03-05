@@ -5803,11 +5803,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacon, diced</fancyName>
 </Pork>
 
-<Edible rdf:about="#onion__chopped">
+<Vegetable rdf:about="#onion__chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion, chopped</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#molasses">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
