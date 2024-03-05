@@ -5101,7 +5101,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Poultry>
 
-<Edible rdf:about="#green_onions">
+<Vegetable rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
@@ -5119,7 +5119,7 @@
   <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cooked_shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
