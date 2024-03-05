@@ -392,8 +392,10 @@
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#deep_dish_pizza"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#bbq_sauce">
@@ -428,6 +430,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Sauce>
@@ -436,6 +439,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketchup</fancyName>
 </Sauce>
 
@@ -526,6 +530,7 @@
   <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -570,6 +575,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -633,6 +639,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -876,6 +883,7 @@
 <Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger_with_fries"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
@@ -1608,6 +1616,7 @@
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -2199,6 +2208,7 @@
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3336,6 +3346,7 @@
 <Food rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Food>
 
@@ -4442,6 +4453,7 @@
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic, minced</fancyName>
 </Edible>
 
@@ -4516,6 +4528,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Edible>
 
@@ -4688,6 +4701,7 @@
 <Edible rdf:about="#crushed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
 </Edible>
 
 <Edible rdf:about="#andouille_sausage">
@@ -5106,6 +5120,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Edible>
@@ -5302,6 +5317,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown Sugar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
 </Edible>
@@ -5310,6 +5326,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
 </Edible>
 
@@ -5615,6 +5632,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharp Cheddar cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_ground_meats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other ground meats</fancyName>
+</Edible>
+
+<Edible rdf:about="#rolled_oats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rolled oats</fancyName>
+</Edible>
+
+<Edible rdf:about="#onion__finely_chopped">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion, finely chopped</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_pepper__finely_chopped">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green pepper, finely chopped</fancyName>
+</Edible>
+
+<Edible rdf:about="#celery__finely_chopped">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery, finely chopped</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_herbs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other herbs</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
