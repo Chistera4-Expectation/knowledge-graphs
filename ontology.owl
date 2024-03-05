@@ -691,6 +691,71 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharin</fancyName>
 </Sweetener>
 
+<Additive rdf:about="#artificial_sweeteners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Sweeteners</fancyName>
+</Additive>
+
+<Additive rdf:about="#colors">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colors</fancyName>
+</Additive>
+
+<Additive rdf:about="#emulsifiers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emulsifiers</fancyName>
+</Additive>
+
+<Additive rdf:about="#flavorings__vanillin__monosodium_glutamate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings: Vanillin, Monosodium Glutamate</fancyName>
+</Additive>
+
+<Additive rdf:about="#flavorings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings</fancyName>
+</Additive>
+
+<Additive rdf:about="#preservatives">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
+</Additive>
+
+<Additive rdf:about="#thickeners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thickeners</fancyName>
+</Additive>
+
+<Additive rdf:about="#antioxidants__tocopherols">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants: Tocopherols</fancyName>
+</Additive>
+
+<Additive rdf:about="#antioxidants">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
+</Additive>
+
+<Additive rdf:about="#nitrates">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrates</fancyName>
+</Additive>
+
+<Additive rdf:about="#nitrites">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrites</fancyName>
+</Additive>
+
+<Additive rdf:about="#enzymes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymes</fancyName>
+</Additive>
+
+<Additive rdf:about="#aluminum_salts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aluminum Salts</fancyName>
+</Additive>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
