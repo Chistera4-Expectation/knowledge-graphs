@@ -2407,10 +2407,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lean deli meats</fancyName>
 </Poultry>
 
-<Animal rdf:about="#gelatin">
+<Pork rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
-</Animal>
+</Pork>
 
 <Animal rdf:about="#whey_protein_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
