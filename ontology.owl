@@ -6977,11 +6977,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gold rum</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#fresh_lime_juice">
+<Juice rdf:about="#fresh_lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh lime juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#grenadine_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
