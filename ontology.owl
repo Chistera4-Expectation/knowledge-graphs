@@ -6674,11 +6674,11 @@
   <ingredientOf rdf:resource="#teriyaki"/>
 </Meat>
 
-<Edible rdf:about="#arrowroot_powder">
+<Seasoning rdf:about="#arrowroot_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrowroot Powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#green_onions__sliced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
