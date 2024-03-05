@@ -5172,11 +5172,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn tortillas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#flour_tortillas">
+<Pasta rdf:about="#flour_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flour tortillas</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#cooked_shredded_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
