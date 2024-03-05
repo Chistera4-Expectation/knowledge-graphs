@@ -2412,10 +2412,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
 </Pork>
 
-<Animal rdf:about="#whey_protein_powder">
+<Dairy rdf:about="#whey_protein_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whey protein powder</fancyName>
-</Animal>
+</Dairy>
 
 <Animal rdf:about="#casein_protein_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
