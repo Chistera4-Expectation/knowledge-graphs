@@ -6576,11 +6576,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi broth</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#rice_vinegar__salt__sugar">
+<Rice rdf:about="#rice_vinegar__salt__sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar, salt, sugar</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#carbonated_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
