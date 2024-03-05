@@ -6007,11 +6007,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Flavors</fancyName>
 </Additive>
 
-<Edible rdf:about="#vinegar__corn_syrup__water__salt__distilled_white_vinegar__tomato_concentrate__natural_flavorings__spice_extractives__potassium_sorbate__xanthan_gum__propylene_glycol_alginate__sodium_benzoate__color_added">
+<Seasoning rdf:about="#vinegar__corn_syrup__water__salt__distilled_white_vinegar__tomato_concentrate__natural_flavorings__spice_extractives__potassium_sorbate__xanthan_gum__propylene_glycol_alginate__sodium_benzoate__color_added">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar, Corn Syrup, Water, Salt, Distilled White Vinegar, Tomato Concentrate, Natural Flavorings, Spice Extractives, Potassium Sorbate, Xanthan Gum, Propylene Glycol Alginate, Sodium Benzoate, Color Added</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#edible_plankton_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
