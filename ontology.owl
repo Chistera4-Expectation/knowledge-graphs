@@ -5947,11 +5947,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt to taste</fancyName>
 </Spice>
 
-<Edible rdf:about="#meat_can_be_added_based_on_personal_preference">
+<Poultry rdf:about="#meat_can_be_added_based_on_personal_preference">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pounded_yam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meat can be added based on personal preference</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#boneless_chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
