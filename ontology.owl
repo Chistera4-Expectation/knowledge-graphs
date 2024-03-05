@@ -7378,11 +7378,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urad Dal</fancyName>
 </Seed>
 
-<Edible rdf:about="#tamarind_paste">
+<Sauce rdf:about="#tamarind_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#tamarind_soaked_in_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
