@@ -553,6 +553,174 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt Sauce</fancyName>
 </Sauce>
 
+<Seasoning rdf:about="#salt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#garlic_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#onion_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion Powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#paprika">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#cumin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#oregano">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregano</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#basil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#thyme">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#rosemary">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosemary</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#sage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sage</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#nutmeg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutmeg</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#cinnamon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#cloves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#cardamom">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#turmeric">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#curry_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#chili_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#cayenne_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#mustard_seed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seed</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#dill_weed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dill weed</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#bay_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#ground_ginger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground ginger</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#ground_coriander">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground coriander</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#fennel_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel seeds</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#celery_salt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery salt</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#lemon_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon pepper</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#old_bay_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old bay seasoning</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#five_spice_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#red_pepper_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#ground_cumin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground cumin</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#smoked_paprika">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoked paprika</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#saffron">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Seasoning>
+
+<Seasoning rdf:about="#sumac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Seasoning>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
