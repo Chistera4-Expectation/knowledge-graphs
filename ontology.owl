@@ -2382,6 +2382,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnocchi</fancyName>
 </Pasta>
 
+<Cereal rdf:about="#oatmeal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oatmeal</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#cream_of_wheat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream of Wheat</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#quaker_instant_oats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quaker Instant Oats</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#puffed_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puffed Rice</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#puffed_wheat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puffed Wheat</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#rice_puffs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Puffs</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#cooked_wheat_cereals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked Wheat Cereals</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#kashi_go_lean">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashi Go Lean</fancyName>
+</Cereal>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
