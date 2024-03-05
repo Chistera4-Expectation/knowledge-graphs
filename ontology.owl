@@ -5720,11 +5720,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Syrup</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#jalapeno_peppers">
+<Vegetable rdf:about="#jalapeno_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#other_add_ins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
