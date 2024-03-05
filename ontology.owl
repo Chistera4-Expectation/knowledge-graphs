@@ -3996,13 +3996,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chickpeas</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#black_beans">
+<Vegetable rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Beans</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#kidney_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
