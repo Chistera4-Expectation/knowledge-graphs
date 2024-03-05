@@ -343,6 +343,7 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -555,13 +556,6 @@
 <Sauce rdf:about="#cheese_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese Sauce</fancyName>
-</Sauce>
-
-<Sauce rdf:about="#curry_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#curry_rice"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Sauce</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#chimichurri_sauce">
