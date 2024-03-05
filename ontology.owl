@@ -2556,10 +2556,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isinglass</fancyName>
 </Fish>
 
-<Animal rdf:about="#shellac">
+<Molluscs rdf:about="#shellac">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shellac</fancyName>
-</Animal>
+</Molluscs>
 
 <Breakfast rdf:about="#corn_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
