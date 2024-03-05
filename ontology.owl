@@ -6588,11 +6588,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonated water</fancyName>
 </Water>
 
-<Edible rdf:about="#seafood_for_tempura">
+<Fish rdf:about="#seafood_for_tempura">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seafood for tempura</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#thinly_sliced_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
