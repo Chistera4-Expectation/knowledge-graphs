@@ -6310,11 +6310,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantains</fancyName>
 </Fruit>
 
-<Edible rdf:about="#other_fruits">
+<Fruit rdf:about="#other_fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fruits</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#conch_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
