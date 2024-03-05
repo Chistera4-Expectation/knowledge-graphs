@@ -4282,10 +4282,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
 </Juice>
 
-<Liquid rdf:about="#infused_waters">
+<Alcoholic rdf:about="#infused_waters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused waters</fancyName>
-</Liquid>
+</Alcoholic>
 
 <Liquid rdf:about="#vegetable_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
