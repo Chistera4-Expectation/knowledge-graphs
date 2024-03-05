@@ -7384,11 +7384,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#tamarind_soaked_in_water">
+<Seasoning rdf:about="#tamarind_soaked_in_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tamarind soaked in water</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#asafoetida">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
