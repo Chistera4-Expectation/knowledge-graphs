@@ -3557,6 +3557,71 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike Shock Energy Drink</fancyName>
 </Energy>
 
+<Juice rdf:about="#orange_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#__one_cup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">: One cup</fancyName>
+</Juice>
+
+<Juice rdf:about="#apple_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#grapefruit_juice__one_medium_sized_grapefruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapefruit juice: One medium-sized grapefruit</fancyName>
+</Juice>
+
+<Juice rdf:about="#grapefruit_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapefruit juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#cranberry_juice__one_cup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranberry juice: One cup</fancyName>
+</Juice>
+
+<Juice rdf:about="#cranberry_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranberry juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#pomegranate_juice__one_cup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate juice: One cup</fancyName>
+</Juice>
+
+<Juice rdf:about="#pomegranate_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#beetroot_juice__one_cup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beetroot juice: One cup</fancyName>
+</Juice>
+
+<Juice rdf:about="#beetroot_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beetroot juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#carrot_juice__one_cup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot juice: One cup</fancyName>
+</Juice>
+
+<Juice rdf:about="#carrot_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot juice</fancyName>
+</Juice>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
