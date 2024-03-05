@@ -7443,13 +7443,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silken tofu</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chili_oil">
+<Oil rdf:about="#chili_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#napa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
