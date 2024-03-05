@@ -1957,11 +1957,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tilapia</fancyName>
 </Fish>
 
-<Fish rdf:about="#striped_bass">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Striped bass</fancyName>
-</Fish>
-
 <Fish rdf:about="#lemon_sole">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon sole</fancyName>
