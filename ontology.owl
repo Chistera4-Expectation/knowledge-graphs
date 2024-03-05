@@ -323,6 +323,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -3236,6 +3237,7 @@
 <Oil rdf:about="#sesame_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -3814,6 +3816,7 @@
 
 <Vegetal rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
 </Vegetal>
 
@@ -5231,6 +5234,7 @@
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -6045,6 +6049,7 @@
   <ingredientOf rdf:resource="#haitian_griot"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -6724,6 +6729,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nori sheets</fancyName>
+</Edible>
+
+<Edible rdf:about="#miso_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#dashi_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi stock</fancyName>
+</Edible>
+
+<Edible rdf:about="#shiitake_mushrooms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake mushrooms</fancyName>
+</Edible>
+
+<Edible rdf:about="#seaweed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
