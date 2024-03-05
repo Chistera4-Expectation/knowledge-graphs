@@ -6133,7 +6133,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobster meat</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#scallions">
+<Vegetable rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
@@ -6144,7 +6144,7 @@
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lemons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
