@@ -6001,11 +6001,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural</fancyName>
 </Sauce>
 
-<Edible rdf:about="#artificial_flavors">
+<Additive rdf:about="#artificial_flavors">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Flavors</fancyName>
-</Edible>
+</Additive>
 
 <Edible rdf:about="#vinegar__corn_syrup__water__salt__distilled_white_vinegar__tomato_concentrate__natural_flavorings__spice_extractives__potassium_sorbate__xanthan_gum__propylene_glycol_alginate__sodium_benzoate__color_added">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
