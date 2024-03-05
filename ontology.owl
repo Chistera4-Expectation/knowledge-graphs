@@ -7080,11 +7080,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked chicken</fancyName>
 </Poultry>
 
-<Edible rdf:about="#snow_peas">
+<Vegetable rdf:about="#snow_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cornstarch_slurry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
