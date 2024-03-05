@@ -7733,11 +7733,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint Leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fresh_coriander">
+<Spice rdf:about="#fresh_coriander">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Coriander</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#mutton">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
