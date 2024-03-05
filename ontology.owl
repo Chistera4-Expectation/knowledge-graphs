@@ -6816,11 +6816,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled Fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#daikon_radish_salad">
+<Vegetable rdf:about="#daikon_radish_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daikon Radish Salad</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cucumber_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
