@@ -6263,7 +6263,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbecue sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#brown_sugar">
+<Sweetener rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
@@ -6276,7 +6276,7 @@
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#apple_cider_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
