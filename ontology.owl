@@ -3407,6 +3407,61 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Tea</fancyName>
 </Tea>
 
+<Infusion rdf:about="#electrolyte_solution">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte Solution</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#glucose_drip__a_solution_containing_glucose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose Drip: A solution containing glucose</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#glucose_drip">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose Drip</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#total_parenteral_nutrition">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total Parenteral Nutrition</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#rehydration_solution">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rehydration Solution</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#vitamin_c_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin C Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#iron_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iron Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#antibiotic_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibiotic Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#chemotherapy_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotherapy Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#diuretic_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diuretic Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#albumin_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albumin Infusion</fancyName>
+</Infusion>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
