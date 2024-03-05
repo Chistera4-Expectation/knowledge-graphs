@@ -5809,11 +5809,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refried Beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_onions">
+<Vegetable rdf:about="#red_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
