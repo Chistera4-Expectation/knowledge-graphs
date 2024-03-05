@@ -5836,11 +5836,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yeast</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#other_fillings">
+<Sauce rdf:about="#other_fillings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fillings</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#icing_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
