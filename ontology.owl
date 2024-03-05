@@ -7457,11 +7457,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Napa cabbage</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#enoki_mushrooms">
+<Mushroom rdf:about="#enoki_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enoki mushrooms</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
