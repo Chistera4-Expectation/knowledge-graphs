@@ -3027,10 +3027,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut Butter Crunch</fancyName>
 </Breakfast>
 
-<Cereal rdf:about="#rice_crisps">
+<Breakfast rdf:about="#rice_crisps">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Crisps</fancyName>
-</Cereal>
+</Breakfast>
 
 <Cereal rdf:about="#almond_breeze_cereal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
