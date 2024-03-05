@@ -6718,11 +6718,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shitake Mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#bonito_flakes">
+<Seaweed rdf:about="#bonito_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonito flakes</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#dried_bonito_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
