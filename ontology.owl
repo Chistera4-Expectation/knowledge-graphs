@@ -5687,11 +5687,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork shoulder</fancyName>
 </Pork>
 
-<Edible rdf:about="#marinated_chicken">
+<Poultry rdf:about="#marinated_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marinated chicken</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#pineapple_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
