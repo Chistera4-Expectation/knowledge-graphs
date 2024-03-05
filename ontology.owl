@@ -4353,11 +4353,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs, Legumes</fancyName>
 </Edible>
 
-<Edible rdf:about="#proteins">
+<Beef rdf:about="#proteins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#dairy">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
