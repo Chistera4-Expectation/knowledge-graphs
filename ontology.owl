@@ -6698,11 +6698,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#dried_seaweed">
+<Seaweed rdf:about="#dried_seaweed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried seaweed</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#soft_tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
