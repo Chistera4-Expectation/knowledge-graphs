@@ -5775,11 +5775,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana leaves</fancyName>
 </Dressing>
 
-<Edible rdf:about="#corn_husks">
+<Oil rdf:about="#corn_husks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corn husks</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#lard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
