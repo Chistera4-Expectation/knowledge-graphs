@@ -7689,11 +7689,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork mince</fancyName>
 </Pork>
 
-<Edible rdf:about="#potato_starch">
+<Bread rdf:about="#potato_starch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potato starch</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#garam_masala_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
