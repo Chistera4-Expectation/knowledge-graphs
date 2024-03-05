@@ -7279,12 +7279,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed salad</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#low_sodium_soy_sauce">
+<Sauce rdf:about="#low_sodium_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#poke_bowls"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-sodium soy sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#furikake_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
