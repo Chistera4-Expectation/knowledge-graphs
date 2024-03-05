@@ -5639,11 +5639,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Bread>
 
-<Edible rdf:about="#mozzarella_cheese_slices">
+<Cheese rdf:about="#mozzarella_cheese_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese slices</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
