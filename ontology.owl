@@ -1480,6 +1480,18 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <ingredientOf rdf:resource="#sweet_potato_pie"/>
+  <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted Butter</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted butter</fancyName>
 </Butter>
@@ -2387,23 +2399,6 @@
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Poultry>
-
-<Butter rdf:about="#butter">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
-  <ingredientOf rdf:resource="#polenta"/>
-  <ingredientOf rdf:resource="#cornbread"/>
-  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
-  <ingredientOf rdf:resource="#biscuits_and_gravy"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <ingredientOf rdf:resource="#shrimp_and_grits"/>
-  <ingredientOf rdf:resource="#new_england_clam_bake"/>
-  <ingredientOf rdf:resource="#sweet_potato_pie"/>
-  <ingredientOf rdf:resource="#patties"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <ingredientOf rdf:resource="#matcha_desserts"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
-</Butter>
 
 <Dairy rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
