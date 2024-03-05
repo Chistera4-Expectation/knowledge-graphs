@@ -4557,11 +4557,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydration Haven</fancyName>
 </Tea>
 
-<Infusion rdf:about="#mood_elevator">
+<Water rdf:about="#mood_elevator">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Water"/>
+  <rdf:type rdf:resource="#Coffee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Elevator</fancyName>
-</Infusion>
+</Water>
 
 <Infusion rdf:about="#antioxidant_ace">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
