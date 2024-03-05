@@ -2467,6 +2467,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciabatta Bread</fancyName>
 </Bread>
 
+<Rice rdf:about="#jasmine_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#basmati_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#brown_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#white_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#arborio_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arborio rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#sushi_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#wild_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wild rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#sticky_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sticky rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#red_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#black_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#forbidden_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forbidden rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#long_grain_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long-grain rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#medium_grain_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium-grain rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#short_grain_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-grain rice</fancyName>
+</Rice>
+
+<Rice rdf:about="#parboiled_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parboiled rice</fancyName>
+</Rice>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
