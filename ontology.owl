@@ -6097,11 +6097,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other ground meats</fancyName>
 </Poultry>
 
-<Edible rdf:about="#rolled_oats">
+<Breakfast rdf:about="#rolled_oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rolled oats</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#onion__finely_chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
