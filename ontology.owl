@@ -6298,11 +6298,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other hot peppers</fancyName>
 </Spice>
 
-<Edible rdf:about="#stock">
+<Sauce rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
