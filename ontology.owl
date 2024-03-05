@@ -7727,11 +7727,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Turmeric</fancyName>
 </Spice>
 
-<Edible rdf:about="#mint_leaves">
+<Vegetable rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint Leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_coriander">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
