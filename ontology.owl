@@ -6305,11 +6305,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned clams</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#their_juice">
+<Juice rdf:about="#their_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">their juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#bay_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
