@@ -7255,12 +7255,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional additions</fancyName>
 </Sauce>
 
-<Edible rdf:about="#ginger_garlic_paste">
+<Seasoning rdf:about="#ginger_garlic_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger-garlic paste</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#turmeric_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
