@@ -333,6 +333,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -447,6 +448,7 @@
 <Dressing rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
 </Dressing>
@@ -656,6 +658,7 @@
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1369,6 +1372,7 @@
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -3591,6 +3595,7 @@
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3763,6 +3768,7 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
@@ -4630,6 +4636,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5238,6 +5245,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Edible>
 
@@ -5284,6 +5292,7 @@
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#festival"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Cloves</fancyName>
 </Edible>
@@ -5351,6 +5360,7 @@
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -5573,6 +5583,7 @@
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -5684,6 +5695,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -5786,6 +5798,7 @@
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed red pepper flakes</fancyName>
 </Edible>
 
@@ -6212,6 +6225,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -6696,6 +6710,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger</fancyName>
 </Edible>
 
@@ -6894,6 +6909,7 @@
   <ingredientOf rdf:resource="#bento_boxes"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
 </Edible>
@@ -7012,6 +7028,7 @@
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
 </Edible>
 
@@ -7229,6 +7246,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#chili_bean_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili bean sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_sichuan_peppercorns">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Sichuan peppercorns</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
