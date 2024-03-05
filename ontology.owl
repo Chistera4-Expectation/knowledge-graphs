@@ -1348,6 +1348,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stilton</fancyName>
 </Cheese>
 
+<Milk rdf:about="#whole_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#skim_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skim Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#2__milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2% Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#almond_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#soy_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#oat_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oat Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#rice_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#hemp_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemp Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#coconut_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#lactose_free_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactose-Free Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#raw_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#organic_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#ultra_high_temperature">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultra-High Temperature</fancyName>
+</Milk>
+
+<Milk rdf:about="#evaporated_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaporated Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#condensed_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condensed Milk</fancyName>
+</Milk>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
