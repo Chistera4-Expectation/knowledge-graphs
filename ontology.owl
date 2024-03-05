@@ -1905,10 +1905,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#goat_cheese">
+<Cheese rdf:about="#goat_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#yogurt_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
