@@ -2562,6 +2562,12 @@
 
 <Bread rdf:about="#multigrain_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
+  <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multigrain Bread</fancyName>
 </Bread>
 
@@ -5332,17 +5338,6 @@
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplants</fancyName>
 </Vegetable>
-
-<Bread rdf:about="#breadcrumbs">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#eggplant_parmesan"/>
-  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <ingredientOf rdf:resource="#fried_oysters"/>
-  <ingredientOf rdf:resource="#patties"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
-</Bread>
 
 <Spice rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
