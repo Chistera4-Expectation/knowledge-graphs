@@ -6413,11 +6413,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fried_plantains">
+<Vegetable rdf:about="#fried_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried plantains</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
