@@ -6373,11 +6373,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon wedges</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#pimientos">
+<Vegetable rdf:about="#pimientos">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pimientos</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
