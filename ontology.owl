@@ -1190,6 +1190,7 @@
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
 
@@ -6170,12 +6171,6 @@
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Butter>
-
-<Beef rdf:about="#ground_meat">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground meat</fancyName>
-</Beef>
 
 <Fish rdf:about="#catfish_fillets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
