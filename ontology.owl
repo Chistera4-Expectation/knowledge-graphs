@@ -4317,10 +4317,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seltzer water</fancyName>
 </Alcoholic>
 
-<Liquid rdf:about="#fruit_punch">
+<Juice rdf:about="#fruit_punch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit punch</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#lemonade">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
