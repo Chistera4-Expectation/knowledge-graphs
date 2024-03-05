@@ -4256,11 +4256,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tea</fancyName>
 </Tea>
 
-<Liquid rdf:about="#coffee">
+<Coffee rdf:about="#coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee</fancyName>
-</Liquid>
+</Coffee>
 
 <Liquid rdf:about="#sports_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
