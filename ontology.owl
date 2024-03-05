@@ -7417,11 +7417,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chickpeas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chana_dal">
+<Seed rdf:about="#chana_dal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chana dal</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#maida_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
