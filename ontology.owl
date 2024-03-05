@@ -5815,13 +5815,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#vinegar">
+<Seasoning rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#green_chiles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
