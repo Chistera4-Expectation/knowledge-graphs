@@ -7630,11 +7630,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermicelli noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#fresh_vegetables">
+<Vegetable rdf:about="#fresh_vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh vegetables</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
