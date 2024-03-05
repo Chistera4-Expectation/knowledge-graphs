@@ -4229,10 +4229,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bakery Items</fancyName>
 </Bread>
 
-<Food rdf:about="#pastries">
+<Bread rdf:about="#pastries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastries</fancyName>
-</Food>
+</Bread>
 
 <Food rdf:about="#sweets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
