@@ -7343,11 +7343,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin Powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#fenugreek_leaves">
+<Vegetable rdf:about="#fenugreek_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#curry_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
