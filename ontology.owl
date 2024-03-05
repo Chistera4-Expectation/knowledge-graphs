@@ -4768,7 +4768,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mindfulness Moment</fancyName>
 </Water>
 
-<Drink rdf:about="#water">
+<Water rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#tamales"/>
@@ -4788,7 +4788,7 @@
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
-</Drink>
+</Water>
 
 <Drink rdf:about="#juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
