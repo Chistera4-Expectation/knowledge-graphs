@@ -910,6 +910,7 @@
 <Seasoning rdf:about="#ground_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground ginger</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Ginger</fancyName>
 </Seasoning>
@@ -7006,12 +7007,6 @@
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cold soda water</fancyName>
 </Drink>
-
-<Spice rdf:about="#ginger_root">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tempura"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger root</fancyName>
-</Spice>
 
 <Fish rdf:about="#fresh_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
