@@ -6340,11 +6340,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short grain rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#rabbit">
+<Animal rdf:about="#rabbit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabbit</fancyName>
-</Edible>
+</Animal>
 
 <Edible rdf:about="#saffron_threads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
