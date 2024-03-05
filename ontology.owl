@@ -6819,11 +6819,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanny berries</fancyName>
 </Fruit>
 
-<Edible rdf:about="#annatto_seeds">
+<Seed rdf:about="#annatto_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annatto seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#vanilla_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
