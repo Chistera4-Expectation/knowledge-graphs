@@ -5947,11 +5947,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 Herbs &amp; Spices Blend</fancyName>
 </Spice>
 
-<Edible rdf:about="#monosodium_glutamate">
+<Seasoning rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium Glutamate</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#hydrolyzed_soy_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
