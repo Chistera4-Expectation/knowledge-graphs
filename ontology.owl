@@ -5816,11 +5816,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molasses</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#hot_water">
+<Drink rdf:about="#hot_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot water</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
