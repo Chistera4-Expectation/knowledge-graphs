@@ -7505,11 +7505,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped green onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chinese_black_vinegar">
+<Sauce rdf:about="#chinese_black_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese black vinegar</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
