@@ -7524,11 +7524,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh red chillies</fancyName>
 </Spice>
 
-<Edible rdf:about="#pork_bones">
+<Pork rdf:about="#pork_bones">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pork bones</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#cooked_shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
