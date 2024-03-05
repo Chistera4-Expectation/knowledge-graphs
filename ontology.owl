@@ -7060,13 +7060,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked jasmine rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#cooking_wine">
+<Seasoning rdf:about="#cooking_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooking wine</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Wine</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cooked_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
