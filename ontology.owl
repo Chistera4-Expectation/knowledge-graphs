@@ -5726,11 +5726,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#other_add_ins">
+<Sauce rdf:about="#other_add_ins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other add-ins</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#pork_spare_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
