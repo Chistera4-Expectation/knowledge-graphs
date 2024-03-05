@@ -6962,13 +6962,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili beans in oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#potato_starch">
+<Oil rdf:about="#potato_starch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potato starch</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potato Starch</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#bamboo_basket">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
