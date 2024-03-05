@@ -4087,10 +4087,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant-based milk alternatives</fancyName>
 </Oil>
 
-<Vegetal rdf:about="#whole_grain_breads">
+<Bread rdf:about="#whole_grain_breads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grain breads</fancyName>
-</Vegetal>
+</Bread>
 
 <Vegetal rdf:about="#granola_bars">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
