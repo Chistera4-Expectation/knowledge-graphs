@@ -624,6 +624,7 @@
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <ingredientOf rdf:resource="#festival"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -644,6 +645,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#festival"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -782,6 +784,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Powder</fancyName>
 </Seasoning>
@@ -3716,6 +3719,7 @@
 
 <Vegetal rdf:about="#chickpeas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chickpeas</fancyName>
 </Vegetal>
 
@@ -4855,7 +4859,9 @@
 
 <Carribean rdf:about="#mango_chutney">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango Chutney</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango chutney</fancyName>
 </Carribean>
 
 <Carribean rdf:about="#rum_punch">
@@ -5408,6 +5414,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -6483,6 +6490,7 @@
 <Edible rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
 </Edible>
 
@@ -6550,6 +6558,35 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice</fancyName>
+</Edible>
+
+<Edible rdf:about="#dough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dough</fancyName>
+</Edible>
+
+<Edible rdf:about="#split_peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">split peas</fancyName>
+</Edible>
+
+<Edible rdf:about="#tamarind_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#ball">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
+</Edible>
+
+<Edible rdf:about="#pandemonium_hot_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandemonium hot sauce</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
