@@ -1423,6 +1423,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condensed Milk</fancyName>
 </Milk>
 
+<Yogurt rdf:about="#greek_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#plain_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plain Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#low_fat_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-Fat Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#non_dairy_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Dairy Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#flavored_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#probiotic_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probiotic Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#organic_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#sweetened_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweetened Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#drinkable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drinkable</fancyName>
+</Yogurt>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
