@@ -6508,11 +6508,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold beer</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#other_beverages">
+<Energy rdf:about="#other_beverages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other beverages</fancyName>
-</Edible>
+</Energy>
 
 <Edible rdf:about="#cajun_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
