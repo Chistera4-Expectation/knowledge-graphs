@@ -4016,6 +4016,7 @@
 
 <Fish rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Fish>
 
@@ -6715,12 +6716,6 @@
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi broth</fancyName>
 </Sauce>
-
-<Fish rdf:about="#seafood_of_choice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tempura"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seafood of choice</fancyName>
-</Fish>
 
 <Rice rdf:about="#rice_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
