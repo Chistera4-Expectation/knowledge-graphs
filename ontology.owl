@@ -4048,10 +4048,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried fruits</fancyName>
 </Fruit>
 
-<Vegetal rdf:about="#fresh_fruit_juice">
+<Fruit rdf:about="#fresh_fruit_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh fruit juice</fancyName>
-</Vegetal>
+</Fruit>
 
 <Vegetal rdf:about="#nutritional_yeast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
