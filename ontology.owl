@@ -7465,11 +7465,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gram Flour</fancyName>
 </Seed>
 
-<Edible rdf:about="#cornflour">
+<Seasoning rdf:about="#cornflour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornflour</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#for_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
