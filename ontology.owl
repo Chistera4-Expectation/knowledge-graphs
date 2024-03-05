@@ -6436,11 +6436,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live lobsters</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#pineapple_juice">
+<Juice rdf:about="#pineapple_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#dark_rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
