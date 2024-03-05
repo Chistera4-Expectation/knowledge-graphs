@@ -6157,11 +6157,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#mayonnaise">
+<Oil rdf:about="#mayonnaise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
