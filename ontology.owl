@@ -3876,6 +3876,7 @@
 
 <Infusion rdf:about="#skin_glow_enhancer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin Glow Enhancer</fancyName>
 </Infusion>
 
@@ -3886,6 +3887,7 @@
 
 <Infusion rdf:about="#mood_elevator">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Elevator</fancyName>
 </Infusion>
 
@@ -4013,6 +4015,86 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemonade</fancyName>
 </Juice>
+
+<Water rdf:about="#morning_hydration">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morning Hydration</fancyName>
+</Water>
+
+<Water rdf:about="#post_workout_refreshment">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-Workout Refreshment</fancyName>
+</Water>
+
+<Water rdf:about="#midday_recharge">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Midday Recharge</fancyName>
+</Water>
+
+<Water rdf:about="#nighttime_slumber_aid">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nighttime Slumber Aid</fancyName>
+</Water>
+
+<Water rdf:about="#stress_relief_sip">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stress Relief Sip</fancyName>
+</Water>
+
+<Water rdf:about="#concentration_booster">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concentration Booster</fancyName>
+</Water>
+
+<Water rdf:about="#travel_companion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Travel Companion</fancyName>
+</Water>
+
+<Water rdf:about="#social_gathering_essential">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Gathering Essential</fancyName>
+</Water>
+
+<Water rdf:about="#energy_lifter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy Lifter</fancyName>
+</Water>
+
+<Water rdf:about="#muscle_recovery_elixir">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle Recovery Elixir</fancyName>
+</Water>
+
+<Water rdf:about="#cold_weather_humidity_fighter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold Weather Humidity Fighter</fancyName>
+</Water>
+
+<Water rdf:about="#flavorful_infusions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorful Infusions</fancyName>
+</Water>
+
+<Water rdf:about="#hot_beverage_alternative">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Beverage Alternative</fancyName>
+</Water>
+
+<Water rdf:about="#weight_management_ally">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight Management Ally</fancyName>
+</Water>
+
+<Water rdf:about="#caffeine_substitute">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caffeine Substitute</fancyName>
+</Water>
+
+<Water rdf:about="#mindfulness_moment">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mindfulness Moment</fancyName>
+</Water>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
