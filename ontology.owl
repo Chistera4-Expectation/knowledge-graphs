@@ -7201,11 +7201,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#chinese_sausage">
+<Pork rdf:about="#chinese_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Sausage</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#green_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
