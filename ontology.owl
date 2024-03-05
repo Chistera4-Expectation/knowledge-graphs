@@ -403,8 +403,10 @@
 <Sauce rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#teriyaki_sauce">
@@ -501,6 +503,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -565,6 +568,7 @@
 <Seasoning rdf:about="#ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -586,6 +590,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -605,6 +610,7 @@
 <Seasoning rdf:about="#bay_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
 </Seasoning>
@@ -623,7 +629,9 @@
 <Seasoning rdf:about="#curry_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Powder</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curry powder</fancyName>
 </Seasoning>
 
 <Spice rdf:about="#chili_powder">
@@ -1209,6 +1217,7 @@
 
 <Meat rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1229,6 +1238,7 @@
 
 <Meat rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Meat>
 
@@ -2825,7 +2835,9 @@
 
 <Oil rdf:about="#palm_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm oil</fancyName>
 </Oil>
 
 <Oil rdf:about="#coconut_oil">
@@ -3065,6 +3077,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3075,6 +3088,7 @@
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3801,6 +3815,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -4588,6 +4603,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -4626,6 +4642,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -4855,6 +4872,7 @@
 <Edible rdf:about="#red_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper</fancyName>
 </Edible>
 
@@ -4898,6 +4916,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#long_grain_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long grain rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_bell_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#scotch_bonnet_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#stock_cubes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock cubes</fancyName>
+</Edible>
+
+<Edible rdf:about="#maggi_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi seasoning</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
