@@ -6158,10 +6158,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot dog bun</fancyName>
 </Bread>
 
-<Edible rdf:about="#roll">
+<Pasta rdf:about="#roll">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#corned_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
