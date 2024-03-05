@@ -329,6 +329,7 @@
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -647,6 +648,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -896,6 +898,7 @@
 
 <Seasoning rdf:about="#five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
 </Seasoning>
 
@@ -1256,6 +1259,7 @@
 
 <Poultry rdf:about="#duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
 </Poultry>
 
@@ -3464,6 +3468,7 @@
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <ingredientOf rdf:resource="#poke_bowls"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -3602,6 +3607,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -5644,6 +5650,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -6025,6 +6032,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown sugar</fancyName>
 </Edible>
@@ -6163,6 +6171,7 @@
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#poke_bowls"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -6339,7 +6348,9 @@
 <Edible rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oil for frying</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil for frying</fancyName>
 </Edible>
 
 <Edible rdf:about="#oil">
@@ -6641,6 +6652,7 @@
 <Edible rdf:about="#fresh_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger</fancyName>
 </Edible>
 
@@ -6951,6 +6963,7 @@
 <Edible rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
 </Edible>
 
@@ -7097,6 +7110,35 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green tea ice cream</fancyName>
+</Edible>
+
+<Edible rdf:about="#chinese_cooking_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese cooking wine</fancyName>
+</Edible>
+
+<Edible rdf:about="#water_chestnuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water chestnuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#spring_roll_wrappers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring roll wrappers</fancyName>
+</Edible>
+
+<Edible rdf:about="#toothpicks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toothpicks</fancyName>
+</Edible>
+
+<Edible rdf:about="#skewers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
 </Edible>
 
 <owl:AllDisjointClasses>
