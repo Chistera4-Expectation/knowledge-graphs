@@ -1110,10 +1110,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
 </Spice>
 
-<Additive rdf:about="#colorings">
+<Dressing rdf:about="#colorings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colorings</fancyName>
-</Additive>
+</Dressing>
 
 <Additive rdf:about="#thickeners">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
