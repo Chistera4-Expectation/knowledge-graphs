@@ -5259,11 +5259,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green enchilada sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#shredded_cheese">
+<Cheese rdf:about="#shredded_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#chopped_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
