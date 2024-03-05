@@ -4343,10 +4343,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grains</fancyName>
 </Pasta>
 
-<Edible rdf:about="#proteins__chicken_breast__turkey_breast__lean_beef__fish">
+<Fish rdf:about="#proteins__chicken_breast__turkey_breast__lean_beef__fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins: Chicken Breast, Turkey Breast, Lean Beef, Fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#eggs__legumes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
