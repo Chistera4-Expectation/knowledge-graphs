@@ -356,7 +356,9 @@
 <Dressing rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Sauce"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#sriracha_sauce">
@@ -572,6 +574,7 @@
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#guacamole"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2790,6 +2793,7 @@
 <Fruit rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Fruit>
 
@@ -3399,6 +3403,7 @@
 <Vegetal rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetal>
 
@@ -4763,6 +4768,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Edible>
 
@@ -4954,6 +4960,8 @@
 <Edible rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
 <Edible rdf:about="#lime_juice">
@@ -4966,6 +4974,48 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jalapeño pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#pork_shoulder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork shoulder</fancyName>
+</Edible>
+
+<Edible rdf:about="#marinated_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marinated chicken</fancyName>
+</Edible>
+
+<Edible rdf:about="#pineapple_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple slices</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_tortillas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn tortillas</fancyName>
+</Edible>
+
+<Edible rdf:about="#jalapeno_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#lime_wedges">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime wedges</fancyName>
+</Edible>
+
+<Edible rdf:about="#salsa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
