@@ -4043,10 +4043,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuts</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#dried_fruits">
+<Fruit rdf:about="#dried_fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried fruits</fancyName>
-</Vegetal>
+</Fruit>
 
 <Vegetal rdf:about="#fresh_fruit_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
