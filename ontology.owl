@@ -5376,7 +5376,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasonings for the filling</fancyName>
 </Sauce>
 
-<Edible rdf:about="#raisins">
+<Fruit rdf:about="#raisins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
@@ -5385,7 +5385,7 @@
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#dried_fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
