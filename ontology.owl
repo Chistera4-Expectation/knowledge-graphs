@@ -6040,11 +6040,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasoning powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chili_pepper">
+<Spice rdf:about="#chili_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ugu_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
