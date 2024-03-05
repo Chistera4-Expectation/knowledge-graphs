@@ -5912,11 +5912,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#spice_mix">
+<Seasoning rdf:about="#spice_mix">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spice mix</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
