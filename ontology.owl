@@ -6442,11 +6442,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#ground_red_pepper">
+<Spice rdf:about="#ground_red_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground red pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#seasoned_salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
