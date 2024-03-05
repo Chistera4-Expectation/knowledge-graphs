@@ -6136,11 +6136,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American cheese slice</fancyName>
 </Cheese>
 
-<Edible rdf:about="#pickles">
+<Vegetable rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ketchup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
