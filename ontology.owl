@@ -3028,6 +3028,66 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tangle weed</fancyName>
 </Seaweed>
 
+<Seed rdf:about="#flaxseeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaxseeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#chia_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chia seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#sunflower_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunflower seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#pumpkin_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#sesame_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#hemp_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemp seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#poppy_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poppy seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#quinoa_seed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinoa seed</fancyName>
+</Seed>
+
+<Seed rdf:about="#amaranth_seed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amaranth seed</fancyName>
+</Seed>
+
+<Seed rdf:about="#millet_seed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Millet seed</fancyName>
+</Seed>
+
+<Seed rdf:about="#buckwheat_groats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat groats</fancyName>
+</Seed>
+
+<Seed rdf:about="#wild_rice_seed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wild rice seed</fancyName>
+</Seed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
