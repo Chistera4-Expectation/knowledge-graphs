@@ -7805,11 +7805,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chilies, finely chopped</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fenugreek_seeds">
+<Seed rdf:about="#fenugreek_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#curry_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
