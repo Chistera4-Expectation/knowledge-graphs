@@ -2422,10 +2422,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casein protein powder</fancyName>
 </Milk>
 
-<Animal rdf:about="#sausages">
+<Pork rdf:about="#sausages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sausages</fancyName>
-</Animal>
+</Pork>
 
 <Animal rdf:about="#hot_dogs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
