@@ -5393,12 +5393,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried fruits</fancyName>
 </Seed>
 
-<Edible rdf:about="#olives">
+<Vegetal rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
-</Edible>
+</Vegetal>
 
 <Edible rdf:about="#other_garnishes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
