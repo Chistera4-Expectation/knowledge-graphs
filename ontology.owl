@@ -4867,10 +4867,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy drinks</fancyName>
 </Energy>
 
-<Liquid rdf:about="#eggnog">
+<Milk rdf:about="#eggnog">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggnog</fancyName>
-</Liquid>
+</Milk>
 
 <Liquid rdf:about="#juice_blends">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
