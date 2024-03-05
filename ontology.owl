@@ -5600,12 +5600,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
 </Spice>
 
-<Edible rdf:about="#ground_black_pepper">
+<Seasoning rdf:about="#ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground black pepper</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
