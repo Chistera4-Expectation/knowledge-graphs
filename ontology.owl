@@ -2458,12 +2458,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarantula pizza toppings</fancyName>
 </Honey>
 
-<Animal rdf:about="#fish">
+<Fish rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
-</Animal>
+</Fish>
 
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
