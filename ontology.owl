@@ -7031,11 +7031,11 @@
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
 </Meat>
 
-<Edible rdf:about="#pandemonium_hot_sauce">
+<Sauce rdf:about="#pandemonium_hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandemonium hot sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#wasabi_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
