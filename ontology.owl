@@ -4917,11 +4917,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#dried_basil">
+<Spice rdf:about="#dried_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried basil</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#crushed_red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
