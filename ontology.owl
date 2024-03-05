@@ -382,6 +382,7 @@
 <Dressing rdf:about="#sour_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Dairy"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
 </Dressing>
@@ -1076,6 +1077,7 @@
 
 <Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
 </Poultry>
 
@@ -1540,6 +1542,7 @@
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
@@ -2800,6 +2803,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Fruit>
 
@@ -2929,6 +2933,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
 </Oil>
@@ -3161,6 +3166,7 @@
 <Vegetable rdf:about="#spinach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
 </Vegetable>
 
@@ -3361,11 +3367,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetal>
 
 <Vegetal rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Vegetal>
 
@@ -3413,6 +3421,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetal>
 
@@ -3428,6 +3437,7 @@
 
 <Vegetal rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans</fancyName>
 </Vegetal>
 
@@ -4973,13 +4983,16 @@
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Edible>
 
 <Edible rdf:about="#jalapeno_pepper">
@@ -5062,6 +5075,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lard</fancyName>
+</Edible>
+
+<Edible rdf:about="#tortilla_shells">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla shells</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_kernels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn kernels</fancyName>
+</Edible>
+
+<Edible rdf:about="#refried_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refried beans</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
