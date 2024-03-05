@@ -5712,13 +5712,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#corn_syrup">
+<Sweetener rdf:about="#corn_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corn syrup</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Syrup</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#jalapeno_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
