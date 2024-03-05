@@ -7414,11 +7414,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese cooking wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#water_chestnuts">
+<Vegetable rdf:about="#water_chestnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water chestnuts</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#spring_roll_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
