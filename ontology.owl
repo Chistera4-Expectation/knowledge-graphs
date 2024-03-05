@@ -5896,11 +5896,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semolina flour</fancyName>
 </Pasta>
 
-<Edible rdf:about="#bun">
+<Bread rdf:about="#bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bun</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#bread_roll">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
