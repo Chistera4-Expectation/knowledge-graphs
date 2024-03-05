@@ -488,6 +488,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -618,6 +619,7 @@
 
 <Spice rdf:about="#nutmeg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutmeg</fancyName>
 </Spice>
 
@@ -1499,6 +1501,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1514,6 +1517,7 @@
 
 <Dairy rdf:about="#butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -4253,12 +4257,14 @@
 <Edible rdf:about="#garlic__minced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic, minced</fancyName>
 </Edible>
 
 <Edible rdf:about="#black_pepper__freshly_ground">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper, freshly ground</fancyName>
 </Edible>
 
@@ -4464,6 +4470,29 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
+</Edible>
+
+<Edible rdf:about="#ravioli_pasta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli pasta</fancyName>
+</Edible>
+
+<Edible rdf:about="#grated_parmesan_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grated Parmesan cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#parsley__freshly_chopped">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley, freshly chopped</fancyName>
+</Edible>
+
+<Edible rdf:about="#crushed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
 </Edible>
 
 <owl:AllDisjointClasses>
