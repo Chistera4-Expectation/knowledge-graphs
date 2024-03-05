@@ -2228,10 +2228,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anchovies</fancyName>
 </Fish>
 
-<Seafood rdf:about="#eel">
+<Fish rdf:about="#eel">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eel</fancyName>
-</Seafood>
+</Fish>
 
 <Seafood rdf:about="#langoustine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
