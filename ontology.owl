@@ -7335,13 +7335,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pieces</fancyName>
 </Poultry>
 
-<Edible rdf:about="#cumin_powder">
+<Spice rdf:about="#cumin_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin Powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fenugreek_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
