@@ -5637,11 +5637,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uziza Leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pili_nuts">
+<Seed rdf:about="#pili_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pili Nuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#red_chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
