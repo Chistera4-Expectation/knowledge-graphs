@@ -1514,11 +1514,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Oil Butter</fancyName>
 </Butter>
 
-<Butter rdf:about="#spreadable_butter">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spreadable Butter</fancyName>
-</Butter>
-
 <Butter rdf:about="#salted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
