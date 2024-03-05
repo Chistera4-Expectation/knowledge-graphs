@@ -4774,12 +4774,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic, minced</fancyName>
 </Spice>
 
-<Edible rdf:about="#black_pepper__freshly_ground">
+<Spice rdf:about="#black_pepper__freshly_ground">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper, freshly ground</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#parsley__chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
