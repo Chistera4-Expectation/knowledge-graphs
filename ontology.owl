@@ -6710,13 +6710,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft tofu</fancyName>
 </Dairy>
 
-<Edible rdf:about="#shitake_mushrooms">
+<Mushroom rdf:about="#shitake_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shitake mushrooms</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shitake Mushrooms</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#bonito_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
