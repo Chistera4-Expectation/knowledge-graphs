@@ -5454,14 +5454,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Cloves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#granulated_sugar">
+<Sweetener rdf:about="#granulated_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#blueberry_muffins"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#crushed_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
