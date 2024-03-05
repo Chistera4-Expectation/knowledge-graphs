@@ -6704,11 +6704,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried seaweed</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#soft_tofu">
+<Dairy rdf:about="#soft_tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft tofu</fancyName>
-</Edible>
+</Dairy>
 
 <Edible rdf:about="#shitake_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
