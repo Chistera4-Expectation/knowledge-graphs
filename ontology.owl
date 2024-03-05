@@ -7187,13 +7187,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mung beans</fancyName>
 </Seed>
 
-<Edible rdf:about="#mint_leaves">
+<Spice rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mint leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint leaves</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#peanut_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
