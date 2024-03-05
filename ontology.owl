@@ -5558,12 +5558,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egusi seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#stockfish">
+<Fish rdf:about="#stockfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stockfish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#smoked_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
