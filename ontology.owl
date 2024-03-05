@@ -6995,11 +6995,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple syrup</fancyName>
 </Dressing>
 
-<Edible rdf:about="#club_soda_seltzer_water">
+<Energy rdf:about="#club_soda_seltzer_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club soda/seltzer water</fancyName>
-</Edible>
+</Energy>
 
 <Edible rdf:about="#ice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
