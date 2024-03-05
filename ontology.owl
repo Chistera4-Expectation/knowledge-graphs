@@ -5766,7 +5766,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hickory Smoke</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cornstarch">
+<Seasoning rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
@@ -5782,7 +5782,7 @@
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#dry_navy_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
