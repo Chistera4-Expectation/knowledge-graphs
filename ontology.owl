@@ -4218,6 +4218,7 @@
 
 <Sweetener rdf:about="#sweets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweets</fancyName>
 </Sweetener>
 
@@ -6317,12 +6318,6 @@
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Oil>
-
-<Sweetener rdf:about="#semisweet_chocolate">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#boston_cream_pie"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semisweet chocolate</fancyName>
-</Sweetener>
 
 <Breakfast rdf:about="#grits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
