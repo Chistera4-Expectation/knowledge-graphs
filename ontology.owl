@@ -7499,11 +7499,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fermented bean curd paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#chopped_green_onions">
+<Vegetable rdf:about="#chopped_green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped green onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chinese_black_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
