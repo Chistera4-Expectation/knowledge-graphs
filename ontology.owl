@@ -4102,11 +4102,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy balls</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#smoothies">
+<Drink rdf:about="#smoothies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Drink"/>
+  <rdf:type rdf:resource="#Fruit"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothies</fancyName>
-</Vegetal>
+</Drink>
 
 <Vegetal rdf:about="#soups">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
