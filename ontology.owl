@@ -1516,11 +1516,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabbit</fancyName>
 </Poultry>
 
-<Meat rdf:about="#sausage">
+<Pork rdf:about="#sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sausage</fancyName>
-</Meat>
+</Pork>
 
 <Meat rdf:about="#salami">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
