@@ -6355,7 +6355,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canned peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fresh_parsley">
+<Vegetable rdf:about="#fresh_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
@@ -6363,7 +6363,7 @@
   <ingredientOf rdf:resource="#haitian_griot"/>
   <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_peaches">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
