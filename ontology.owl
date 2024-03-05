@@ -4187,10 +4187,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Fish>
 
-<Food rdf:about="#oils">
+<Oil rdf:about="#oils">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oils</fancyName>
-</Food>
+</Oil>
 
 <Food rdf:about="#fats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
