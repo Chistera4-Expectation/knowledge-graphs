@@ -4923,12 +4923,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried basil</fancyName>
 </Spice>
 
-<Edible rdf:about="#crushed_red_pepper_flakes">
+<Seasoning rdf:about="#crushed_red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed red pepper flakes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#mascarpone_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
