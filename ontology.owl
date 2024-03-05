@@ -1949,6 +1949,7 @@
 
 <Fish rdf:about="#catfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catfish</fancyName>
 </Fish>
 
@@ -5776,12 +5777,6 @@
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crayfish</fancyName>
 </Crustaceans>
-
-<Fish rdf:about="#stock_fish">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock fish</fancyName>
-</Fish>
 
 <Fish rdf:about="#dry_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
