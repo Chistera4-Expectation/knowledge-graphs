@@ -6634,12 +6634,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#green_bell_pepper">
+<Vegetable rdf:about="#green_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#white">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
