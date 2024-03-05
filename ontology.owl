@@ -518,6 +518,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -552,6 +553,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -612,6 +614,7 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -633,6 +636,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
 </Seasoning>
@@ -951,6 +955,7 @@
 
 <Pork rdf:about="#bacon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
 </Pork>
 
@@ -1578,6 +1583,7 @@
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1597,11 +1603,13 @@
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
 <Dairy rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
 </Dairy>
 
@@ -1716,6 +1724,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Fish"/>
   <rdf:type rdf:resource="#Molluscs"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
 </Crustaceans>
 
@@ -3034,6 +3043,7 @@
 <Vegetable rdf:about="#bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
@@ -3121,6 +3131,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3135,6 +3146,7 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3177,6 +3189,7 @@
 <Vegetable rdf:about="#celery">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
@@ -4976,6 +4989,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
 </Edible>
@@ -5047,6 +5061,7 @@
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Edible>
@@ -5273,6 +5288,7 @@
 <Edible rdf:about="#salt_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt pork</fancyName>
 </Edible>
 
@@ -5303,6 +5319,7 @@
 <Edible rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -5334,6 +5351,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
+</Edible>
+
+<Edible rdf:about="#potatoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
