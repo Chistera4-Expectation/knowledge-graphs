@@ -5880,11 +5880,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Bread>
 
-<Edible rdf:about="#caramel_sauce">
+<Sauce rdf:about="#caramel_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caramel sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#tomato_puree">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
