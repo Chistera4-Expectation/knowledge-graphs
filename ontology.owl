@@ -5305,11 +5305,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Plantains</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pork_cracklings">
+<Pork rdf:about="#pork_cracklings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Cracklings</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#optional__toppings_such_as_fried_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
