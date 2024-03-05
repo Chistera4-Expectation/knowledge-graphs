@@ -2542,6 +2542,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parboiled rice</fancyName>
 </Rice>
 
+<Pasta rdf:about="#spaghetti">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spaghetti</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#fettuccine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fettuccine</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#linguini">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linguini</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#penne">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penne</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#farfalle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farfalle</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#lasagna_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lasagna Noodles</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#ravioli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#ziti">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ziti</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#manicotti">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manicotti</fancyName>
+</Pasta>
+
+<Pasta rdf:about="#macaroni">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni</fancyName>
+</Pasta>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
