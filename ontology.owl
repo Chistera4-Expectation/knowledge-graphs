@@ -390,6 +390,7 @@
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
 </Sauce>
@@ -401,7 +402,9 @@
 
 <Sauce rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#teriyaki_sauce">
@@ -416,7 +419,9 @@
 
 <Sauce rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire Sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#ketchup">
@@ -495,12 +500,14 @@
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -524,6 +531,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -544,6 +552,7 @@
 <Seasoning rdf:about="#cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -569,6 +578,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregano</fancyName>
 </Seasoning>
 
@@ -686,7 +696,9 @@
 
 <Spice rdf:about="#bay_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaf</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
 </Spice>
 
 <Sweetener rdf:about="#sucrose">
@@ -2736,6 +2748,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
 </Oil>
@@ -2967,7 +2980,9 @@
 
 <Vegetable rdf:about="#bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#tomato">
@@ -3049,6 +3064,7 @@
 <Vegetable rdf:about="#onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3058,6 +3074,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4608,6 +4625,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -4724,7 +4742,9 @@
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
 </Edible>
 
 <Edible rdf:about="#guacamole">
@@ -4753,6 +4773,7 @@
 <Edible rdf:about="#capers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capers</fancyName>
 </Edible>
 
@@ -4808,6 +4829,7 @@
 <Edible rdf:about="#raisins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
 </Edible>
 
@@ -4820,6 +4842,7 @@
 <Edible rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
 </Edible>
 
@@ -4863,6 +4886,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_tomatoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh tomatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#apple_cider_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
