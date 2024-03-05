@@ -7441,11 +7441,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh coriander leaves for garnish</fancyName>
 </Spice>
 
-<Edible rdf:about="#kashmiri_chilli_powder">
+<Spice rdf:about="#kashmiri_chilli_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri chilli powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cauliflower">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
