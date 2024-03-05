@@ -6061,11 +6061,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Butter Type Flavor</fancyName>
 </Butter>
 
-<Edible rdf:about="#citric_acid">
+<Seasoning rdf:about="#citric_acid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric Acid</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#sodium_benzoate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
