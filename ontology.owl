@@ -5732,11 +5732,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other add-ins</fancyName>
 </Sauce>
 
-<Edible rdf:about="#pork_spare_ribs">
+<Pork rdf:about="#pork_spare_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Spare Ribs</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
