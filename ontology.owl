@@ -689,6 +689,9 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#egg_drop_soup"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -853,14 +856,6 @@
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Powder</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#cayenne_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fried_chicken"/>
-  <ingredientOf rdf:resource="#bbq_ribs"/>
-  <ingredientOf rdf:resource="#shrimp_and_grits"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#mustard_seed">
