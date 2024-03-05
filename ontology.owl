@@ -6353,12 +6353,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron threads</fancyName>
 </Spice>
 
-<Edible rdf:about="#green_beans">
+<Vegetable rdf:about="#green_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#artichoke_hearts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
