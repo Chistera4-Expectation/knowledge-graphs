@@ -1641,6 +1641,7 @@
 
 <Milk rdf:about="#whole_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sweet_potato_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole milk</fancyName>
 </Milk>
 
@@ -6276,12 +6277,6 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cajun seasoning</fancyName>
 </Seasoning>
-
-<Milk rdf:about="#evaporated_milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sweet_potato_pie"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaporated milk</fancyName>
-</Milk>
 
 <Bread rdf:about="#graham_cracker_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
