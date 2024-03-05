@@ -6771,11 +6771,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
 </Spice>
 
-<Edible rdf:about="#ground_cardamom">
+<Spice rdf:about="#ground_cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cardamom</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#vegetables_of_your_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
