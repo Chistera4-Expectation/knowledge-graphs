@@ -504,6 +504,7 @@
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1564,6 +1565,7 @@
 <Dairy rdf:about="#butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1577,6 +1579,7 @@
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sour cream</fancyName>
@@ -4946,6 +4949,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#dough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dough</fancyName>
+</Edible>
+
+<Edible rdf:about="#filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
+</Edible>
+
+<Edible rdf:about="#black_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#caraway_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caraway seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#oil_for_frying">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#njama_pirogi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil for frying</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
