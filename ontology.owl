@@ -6454,11 +6454,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grenadine syrup</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#club_soda">
+<Alcoholic rdf:about="#club_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club soda</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#ice_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
