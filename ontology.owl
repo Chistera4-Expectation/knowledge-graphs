@@ -1100,10 +1100,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emulsifiers</fancyName>
 </Sauce>
 
-<Additive rdf:about="#preservatives">
+<Seasoning rdf:about="#preservatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#antioxidants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
