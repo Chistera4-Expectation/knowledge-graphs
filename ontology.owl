@@ -4159,10 +4159,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cereals</fancyName>
 </Breakfast>
 
-<Food rdf:about="#legumes">
+<Vegetable rdf:about="#legumes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legumes</fancyName>
-</Food>
+</Vegetable>
 
 <Food rdf:about="#dairy_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
