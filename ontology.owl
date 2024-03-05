@@ -5364,11 +5364,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling of your choice</fancyName>
 </Beef>
 
-<Edible rdf:about="#sauce">
+<Sauce rdf:about="#sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#seasonings_for_the_filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
