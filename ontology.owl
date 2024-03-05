@@ -4118,10 +4118,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salads</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#grains_bowls">
+<Rice rdf:about="#grains_bowls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grains bowls</fancyName>
-</Vegetal>
+</Rice>
 
 <Vegetal rdf:about="#pastas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
