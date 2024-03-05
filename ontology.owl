@@ -7372,11 +7372,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander leaves</fancyName>
 </Spice>
 
-<Edible rdf:about="#urad_dal">
+<Seed rdf:about="#urad_dal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urad Dal</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#tamarind_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
