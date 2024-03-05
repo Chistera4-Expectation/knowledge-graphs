@@ -7272,13 +7272,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric Powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#red_chilli_powder">
+<Spice rdf:about="#red_chilli_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chilli powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cardamom_pods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
