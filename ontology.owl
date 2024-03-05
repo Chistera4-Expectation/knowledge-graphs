@@ -5204,11 +5204,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#canned_enchilada_sauce">
+<Sauce rdf:about="#canned_enchilada_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned enchilada sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#ground_cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
