@@ -6910,7 +6910,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chillies</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fresh_ginger">
+<Spice rdf:about="#fresh_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#peking_duck"/>
@@ -6919,7 +6919,7 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
