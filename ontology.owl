@@ -5406,7 +5406,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other garnishes</fancyName>
 </Sauce>
 
-<Edible rdf:about="#red_bell_pepper">
+<Vegetable rdf:about="#red_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -5414,7 +5414,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red bell pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cherry_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
