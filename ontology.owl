@@ -4277,10 +4277,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soup</fancyName>
 </Juice>
 
-<Liquid rdf:about="#coconut_water">
+<Juice rdf:about="#coconut_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#infused_waters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
