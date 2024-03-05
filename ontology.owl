@@ -4845,10 +4845,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alcoholic beverages in moderation</fancyName>
 </Alcoholic>
 
-<Drink rdf:about="#infused_waters">
+<Water rdf:about="#infused_waters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused waters</fancyName>
-</Drink>
+</Water>
 
 <Drink rdf:about="#iced_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
