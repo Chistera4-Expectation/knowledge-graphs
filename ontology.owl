@@ -733,6 +733,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutmeg</fancyName>
 </Seasoning>
 
@@ -742,6 +743,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Seasoning>
 
@@ -749,6 +751,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Seasoning>
 
@@ -3356,6 +3359,7 @@
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
 </Vegetable>
 
@@ -3492,6 +3496,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3518,6 +3523,7 @@
 <Vegetable rdf:about="#okra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
 </Vegetable>
 
@@ -3600,6 +3606,7 @@
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetal>
 
@@ -3610,6 +3617,7 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
 </Vegetal>
@@ -3617,6 +3625,7 @@
 <Vegetal rdf:about="#cucumbers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
 </Vegetal>
 
@@ -3628,6 +3637,7 @@
 <Vegetal rdf:about="#sweet_potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet potatoes</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweet potatoes</fancyName>
 </Vegetal>
@@ -3637,6 +3647,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Vegetal>
 
@@ -3670,6 +3681,7 @@
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetal>
 
@@ -5212,6 +5224,7 @@
   <ingredientOf rdf:resource="#fried_catfish"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Edible>
 
@@ -5248,6 +5261,7 @@
 <Edible rdf:about="#eggplants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplants</fancyName>
 </Edible>
 
@@ -5422,6 +5436,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Edible>
 
@@ -5863,6 +5878,7 @@
 <Edible rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
 </Edible>
 
@@ -6049,6 +6065,7 @@
 <Edible rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Edible>
 
@@ -6159,6 +6176,204 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_plantains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green plantains</fancyName>
+</Edible>
+
+<Edible rdf:about="#ripe_plantains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe plantains</fancyName>
+</Edible>
+
+<Edible rdf:about="#bananas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bananas</fancyName>
+</Edible>
+
+<Edible rdf:about="#taro_roots">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taro roots</fancyName>
+</Edible>
+
+<Edible rdf:about="#cassava">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassava</fancyName>
+</Edible>
+
+<Edible rdf:about="#yams">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yams</fancyName>
+</Edible>
+
+<Edible rdf:about="#pumpkin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin</fancyName>
+</Edible>
+
+<Edible rdf:about="#chilli_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilli peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#peanuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#soybeans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soybeans</fancyName>
+</Edible>
+
+<Edible rdf:about="#cowpeas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cowpeas</fancyName>
+</Edible>
+
+<Edible rdf:about="#avocados">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocados</fancyName>
+</Edible>
+
+<Edible rdf:about="#mangoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mangoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#papayas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papayas</fancyName>
+</Edible>
+
+<Edible rdf:about="#guavas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guavas</fancyName>
+</Edible>
+
+<Edible rdf:about="#pineapples">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapples</fancyName>
+</Edible>
+
+<Edible rdf:about="#lemons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemons</fancyName>
+</Edible>
+
+<Edible rdf:about="#limes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limes</fancyName>
+</Edible>
+
+<Edible rdf:about="#oranges">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oranges</fancyName>
+</Edible>
+
+<Edible rdf:about="#breadfruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadfruit</fancyName>
+</Edible>
+
+<Edible rdf:about="#ackee_fruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ackee fruit</fancyName>
+</Edible>
+
+<Edible rdf:about="#plantain_flowers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain flowers</fancyName>
+</Edible>
+
+<Edible rdf:about="#callaloo_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callaloo leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#dasheen_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dasheen leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#moringa_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moringa leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#nanny_berries">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanny berries</fancyName>
+</Edible>
+
+<Edible rdf:about="#annatto_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annatto seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#vanilla_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla beans</fancyName>
+</Edible>
+
+<Edible rdf:about="#coffee_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee beans</fancyName>
+</Edible>
+
+<Edible rdf:about="#cacao_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cacao beans</fancyName>
+</Edible>
+
+<Edible rdf:about="#cashew_nuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashew nuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#macadamia_nuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macadamia nuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#almonds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
