@@ -5330,7 +5330,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or Roasted Peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#optional">
+<Sauce rdf:about="#optional">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
@@ -5338,7 +5338,7 @@
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#corn_husks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
