@@ -5606,11 +5606,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili pepper</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#utazi_leaves">
+<Vegetable rdf:about="#utazi_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utazi leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cassava">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
