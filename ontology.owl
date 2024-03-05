@@ -7536,11 +7536,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shrimp</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#other_seafood">
+<Molluscs rdf:about="#other_seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other seafood</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#fried_shallots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
