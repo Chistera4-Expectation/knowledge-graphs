@@ -6466,11 +6466,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Little neck</fancyName>
 </Edible>
 
-<Edible rdf:about="#cherrystone_clams">
+<Molluscs rdf:about="#cherrystone_clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cherrystone clams</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#sea_salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
