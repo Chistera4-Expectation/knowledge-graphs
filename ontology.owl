@@ -5539,11 +5539,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#caraway_seeds">
+<Seed rdf:about="#caraway_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caraway seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
