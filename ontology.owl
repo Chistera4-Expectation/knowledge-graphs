@@ -6669,10 +6669,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger, grated</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#minced">
+<Meat rdf:about="#minced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#arrowroot_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
