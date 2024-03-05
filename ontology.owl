@@ -2258,10 +2258,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellowtail</fancyName>
 </Fish>
 
-<Seafood rdf:about="#sturgeon">
+<Fish rdf:about="#sturgeon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sturgeon</fancyName>
-</Seafood>
+</Fish>
 
 <Honey rdf:about="#raw_organic_honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
