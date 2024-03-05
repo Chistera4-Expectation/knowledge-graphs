@@ -7191,11 +7191,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger root</fancyName>
 </Spice>
 
-<Edible rdf:about="#arrowroot_powder">
+<Bread rdf:about="#arrowroot_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrowroot powder</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#fresh_cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
