@@ -929,13 +929,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
 </Seasoning>
 
-<Seasoning rdf:about="#red_pepper_flakes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Spice"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Pepper Flakes</fancyName>
-</Seasoning>
-
 <Seasoning rdf:about="#ground_cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
