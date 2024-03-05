@@ -420,6 +420,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
@@ -563,6 +564,7 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -665,6 +667,7 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -2305,6 +2308,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3015,6 +3019,7 @@
 <Oil rdf:about="#sesame_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil</fancyName>
 </Oil>
@@ -3249,6 +3254,7 @@
 <Vegetable rdf:about="#peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
@@ -3331,6 +3337,7 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4799,6 +4806,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4943,6 +4951,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Edible>
@@ -5321,6 +5330,7 @@
 <Edible rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
 </Edible>
 
@@ -5571,6 +5581,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -6276,6 +6287,7 @@
 <Edible rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Edible>
 
@@ -6394,6 +6406,7 @@
 <Edible rdf:about="#mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
 </Edible>
 
@@ -6692,6 +6705,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potato starch</fancyName>
+</Edible>
+
+<Edible rdf:about="#bamboo_basket">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo Basket</fancyName>
+</Edible>
+
+<Edible rdf:about="#wrappers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wrappers</fancyName>
+</Edible>
+
+<Edible rdf:about="#dipping_sauces">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dipping Sauces</fancyName>
+</Edible>
+
+<Edible rdf:about="#water_chestnuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water Chestnuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#bean_sprouts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean Sprouts</fancyName>
+</Edible>
+
+<Edible rdf:about="#chinese_black_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Black Vinegar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
