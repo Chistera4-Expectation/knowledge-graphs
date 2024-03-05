@@ -4809,7 +4809,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil leaves</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#red_pepper_flakes">
+<Seasoning rdf:about="#red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
@@ -4817,7 +4817,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Pepper Flakes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
