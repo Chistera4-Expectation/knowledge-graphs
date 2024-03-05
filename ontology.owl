@@ -933,6 +933,7 @@
 <Seasoning rdf:about="#old_bay_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old bay seasoning</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Bay Seasoning</fancyName>
 </Seasoning>
@@ -6586,12 +6587,6 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black-eyed peas</fancyName>
 </Vegetable>
-
-<Seasoning rdf:about="#fish_seasoning">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish seasoning</fancyName>
-</Seasoning>
 
 <Vegetable rdf:about="#green_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
