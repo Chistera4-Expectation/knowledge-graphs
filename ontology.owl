@@ -1282,6 +1282,7 @@
   <ingredientOf rdf:resource="#festival"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
 </Poultry>
@@ -5878,12 +5879,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pounded_yam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meat can be added based on personal preference</fancyName>
-</Poultry>
-
-<Poultry rdf:about="#boneless_chicken_breast">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless chicken breast</fancyName>
 </Poultry>
 
 <Vegetable rdf:about="#thighs">
