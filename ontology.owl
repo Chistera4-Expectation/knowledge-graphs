@@ -7244,11 +7244,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemongrass</fancyName>
 </Spice>
 
-<Edible rdf:about="#thai_chili_pepper">
+<Spice rdf:about="#thai_chili_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai chili pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
