@@ -1879,10 +1879,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothies</fancyName>
 </Liquid>
 
-<Dairy rdf:about="#dairy_ingredients">
+<Butter rdf:about="#dairy_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dairy ingredients</fancyName>
-</Dairy>
+</Butter>
 
 <Dairy rdf:about="#dairy_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
