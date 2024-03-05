@@ -7238,11 +7238,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lemongrass">
+<Spice rdf:about="#lemongrass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemongrass</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#thai_chili_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
