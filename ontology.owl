@@ -7773,13 +7773,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#fresh_coriander_leaves">
+<Vegetable rdf:about="#fresh_coriander_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh coriander leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
