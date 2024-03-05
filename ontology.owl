@@ -7404,11 +7404,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drumstick</fancyName>
 </Poultry>
 
-<Edible rdf:about="#brinjal">
+<Vegetable rdf:about="#brinjal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brinjal</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chickpeas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
