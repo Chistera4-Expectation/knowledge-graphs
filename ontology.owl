@@ -6874,11 +6874,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#cilantro_leaves">
+<Oil rdf:about="#cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro Leaves</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#tortilla_chips">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
