@@ -2329,10 +2329,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locusts</fancyName>
 </Honey>
 
-<Insect rdf:about="#tarantula">
+<Honey rdf:about="#tarantula">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarantula</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#scorpions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
