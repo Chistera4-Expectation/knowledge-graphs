@@ -1522,10 +1522,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sausage</fancyName>
 </Pork>
 
-<Meat rdf:about="#salami">
+<Pork rdf:about="#salami">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salami</fancyName>
-</Meat>
+</Pork>
 
 <Butter rdf:about="#sweet_cream_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
