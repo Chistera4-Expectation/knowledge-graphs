@@ -6956,11 +6956,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan Peppercorns</fancyName>
 </Spice>
 
-<Edible rdf:about="#chili_beans_in_oil">
+<Oil rdf:about="#chili_beans_in_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili beans in oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#potato_starch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
