@@ -7493,11 +7493,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Sichuan peppercorns</fancyName>
 </Spice>
 
-<Edible rdf:about="#fermented_bean_curd_paste">
+<Sauce rdf:about="#fermented_bean_curd_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fermented bean curd paste</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#chopped_green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
