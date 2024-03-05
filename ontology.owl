@@ -5014,10 +5014,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra virgin olive oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#glaze">
+<Sauce rdf:about="#glaze">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#pepper_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
