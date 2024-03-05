@@ -7574,12 +7574,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shallots</fancyName>
 </Oil>
 
-<Sauce rdf:about="#dark_soy_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark soy sauce</fancyName>
-</Sauce>
-
 <Oil rdf:about="#rice_paper_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
