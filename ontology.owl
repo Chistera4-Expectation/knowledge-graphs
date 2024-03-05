@@ -1847,10 +1847,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
 </Butter>
 
-<Dairy rdf:about="#cottage_cheese">
+<Butter rdf:about="#cottage_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cottage cheese</fancyName>
-</Dairy>
+</Butter>
 
 <Dairy rdf:about="#blue_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
