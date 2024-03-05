@@ -5475,12 +5475,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long grain rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#green_bell_pepper">
+<Vegetable rdf:about="#green_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
