@@ -3951,10 +3951,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squash</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#radishes">
+<Vegetable rdf:about="#radishes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radishes</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#leeks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
