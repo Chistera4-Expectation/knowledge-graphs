@@ -7215,12 +7215,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili garlic sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#crushed_peanuts">
+<Seed rdf:about="#crushed_peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed peanuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#cashews">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
