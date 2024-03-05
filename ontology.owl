@@ -3654,10 +3654,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berries</fancyName>
 </Fruit>
 
-<Food rdf:about="#oranges">
+<Fruit rdf:about="#oranges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oranges</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
