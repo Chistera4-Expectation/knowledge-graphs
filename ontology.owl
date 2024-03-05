@@ -4009,6 +4009,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alani Nu</fancyName>
 </Energy>
 
+<Juice rdf:about="#lemonade">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemonade</fancyName>
+</Juice>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
