@@ -979,10 +979,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings: Vanillin, Monosodium Glutamate</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#flavorings">
+<Sweetener rdf:about="#flavorings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings</fancyName>
-</Additive>
+</Sweetener>
 
 <Additive rdf:about="#preservatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
