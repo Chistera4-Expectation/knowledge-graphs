@@ -4234,10 +4234,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastries</fancyName>
 </Bread>
 
-<Food rdf:about="#sweets">
+<Sweetener rdf:about="#sweets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweets</fancyName>
-</Food>
+</Sweetener>
 
 <Food rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
