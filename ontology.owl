@@ -5317,12 +5317,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Toppings such as Fried Onions</fancyName>
 </Edible>
 
-<Edible rdf:about="#capers">
+<Seasoning rdf:about="#capers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capers</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#or_roasted_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
