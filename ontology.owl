@@ -7129,13 +7129,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandan leaves</fancyName>
 </Spice>
 
-<Edible rdf:about="#dark_soy_sauce">
+<Sauce rdf:about="#dark_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark Soy Sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#light_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
