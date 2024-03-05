@@ -7207,11 +7207,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#green_onion">
+<Vegetable rdf:about="#green_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onion</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#roasted_sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
