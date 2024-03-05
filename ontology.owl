@@ -6481,6 +6481,9 @@
 <Spice rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Spice>
 
@@ -6495,14 +6498,6 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh tomatoes</fancyName>
 </Vegetable>
-
-<Spice rdf:about="#scotch_bonnet_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
-</Spice>
 
 <Beef rdf:about="#oxtails">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
