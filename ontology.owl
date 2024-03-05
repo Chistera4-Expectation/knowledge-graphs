@@ -5983,11 +5983,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Phosphates</fancyName>
 </Additive>
 
-<Edible rdf:about="#calcium_silicate">
+<Additive rdf:about="#calcium_silicate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcium Silicate</fancyName>
-</Edible>
+</Additive>
 
 <Edible rdf:about="#celery_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
