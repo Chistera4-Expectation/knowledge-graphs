@@ -4781,11 +4781,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper, freshly ground</fancyName>
 </Spice>
 
-<Edible rdf:about="#parsley__chopped">
+<Vegetable rdf:about="#parsley__chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley, chopped</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_pizza_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
