@@ -2694,11 +2694,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sticky rice</fancyName>
 </Rice>
 
-<Rice rdf:about="#red_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red rice</fancyName>
-</Rice>
-
 <Rice rdf:about="#black_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black rice</fancyName>
