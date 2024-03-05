@@ -6982,12 +6982,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wrappers</fancyName>
 </Edible>
 
-<Edible rdf:about="#dipping_sauces">
+<Sauce rdf:about="#dipping_sauces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dipping Sauces</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#water_chestnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
