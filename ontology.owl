@@ -3171,6 +3171,141 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
 </Food>
 
+<Alcoholic rdf:about="#beer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beer</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#whiskey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whiskey</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#vodka">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vodka</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#gin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gin</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#rum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rum</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#tequila">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tequila</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#brandy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brandy</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#champagne">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Champagne</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#martini">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martini</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#margarita">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Margarita</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#cosmopolitan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cosmopolitan</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#sangria">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sangria</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#long_island_iced_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Island Iced Tea</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#bloody_mary">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bloody Mary</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#daiquiri">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daiquiri</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#old_fashioned">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Fashioned</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#manhattan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manhattan</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#screwdriver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Screwdriver</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#mai_tai">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mai Tai</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#irish_coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Coffee</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#moscow_mule">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moscow Mule</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#bellini">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellini</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#sazerac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sazerac</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#tom_collins">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom Collins</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#sidecar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sidecar</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#french_75">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French 75</fancyName>
+</Alcoholic>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
