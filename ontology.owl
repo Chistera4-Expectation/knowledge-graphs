@@ -7157,12 +7157,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#dashi_stock">
+<Seasoning rdf:about="#dashi_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi stock</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#shiitake_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
