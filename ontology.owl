@@ -1039,6 +1039,111 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cured Pork Loin Roast</fancyName>
 </Pork>
 
+<Poultry rdf:about="#chicken_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#goose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goose</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#cornish_hen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornish hen</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#poussin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poussin</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea fowl</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#emu_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emu meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#game_hens">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game hens</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#squab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squab</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pigeon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigeon</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#emmental_stuffed_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emmental-stuffed chicken</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#herb_crusted_turkey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herb-crusted turkey</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#orange_glazed_duck">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange glazed duck</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#spicy_roasted_quail">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spicy roasted quail</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#garlic_butter_grilled_poussin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic butter grilled poussin</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#mushroom_stuffed_guinea_fowl">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushroom stuffed guinea fowl</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#paprika_marinated_ostrich_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika marinated ostrich steak</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#bacon_wrapped_emu_fillet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon wrapped emu fillet</fancyName>
+</Poultry>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
