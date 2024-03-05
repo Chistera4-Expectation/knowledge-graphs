@@ -944,11 +944,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Cumin</fancyName>
 </Seasoning>
 
-<Seasoning rdf:about="#smoked_paprika">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoked paprika</fancyName>
-</Seasoning>
-
 <Seasoning rdf:about="#saffron">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
