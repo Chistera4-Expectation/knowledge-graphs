@@ -7432,10 +7432,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toothpicks</fancyName>
 </Dressing>
 
-<Edible rdf:about="#skewers">
+<Vegetable rdf:about="#skewers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#silken_tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
