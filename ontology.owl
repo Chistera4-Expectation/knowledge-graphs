@@ -7243,11 +7243,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple chunks</fancyName>
 </Fruit>
 
-<Edible rdf:about="#cooked_white_rice">
+<Rice rdf:about="#cooked_white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked white rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#optional_additions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
