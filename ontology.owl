@@ -5357,12 +5357,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta dough</fancyName>
 </Pasta>
 
-<Edible rdf:about="#filling">
+<Vegetable rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#egg_wash">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
