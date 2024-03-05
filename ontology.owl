@@ -6947,14 +6947,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#sichuan_peppercorns">
+<Spice rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan Peppercorns</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#chili_beans_in_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
