@@ -5294,10 +5294,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#guacamole">
+<Vegetable rdf:about="#guacamole">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
