@@ -5067,13 +5067,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long grain white rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#bell_peppers">
+<Vegetable rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
