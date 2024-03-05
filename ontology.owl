@@ -6198,11 +6198,11 @@
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
 </Poultry>
 
-<Edible rdf:about="#fresh_cranberries">
+<Fruit rdf:about="#fresh_cranberries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cranberries</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#orange_zest">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
