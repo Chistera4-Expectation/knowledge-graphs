@@ -5660,7 +5660,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Spice>
 
-<Edible rdf:about="#lime_juice">
+<Juice rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#quesadillas"/>
@@ -5673,7 +5673,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime Juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#jalapeno_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
