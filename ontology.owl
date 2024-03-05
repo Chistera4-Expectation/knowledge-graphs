@@ -2243,10 +2243,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geoduck</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#caviar">
+<Fish rdf:about="#caviar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caviar</fancyName>
-</Seafood>
+</Fish>
 
 <Seafood rdf:about="#bluefin_tuna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
