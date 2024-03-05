@@ -7429,11 +7429,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maida flour</fancyName>
 </Additive>
 
-<Edible rdf:about="#red_chili_peppers">
+<Spice rdf:about="#red_chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili peppers</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fresh_coriander_leaves_for_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
