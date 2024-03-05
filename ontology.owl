@@ -441,7 +441,9 @@
 
 <Sauce rdf:about="#balsamic_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic Vinegar</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#sesame_oil_sauce">
@@ -485,6 +487,7 @@
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -4281,6 +4284,7 @@
 <Edible rdf:about="#basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil leaves</fancyName>
 </Edible>
 
@@ -4431,6 +4435,35 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_mozzarella_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh mozzarella cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#ripe_tomatoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe tomatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#extra_virgin_olive_oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra virgin olive oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#glaze">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+</Edible>
+
+<Edible rdf:about="#pepper_to_taste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
