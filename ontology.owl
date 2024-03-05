@@ -2422,6 +2422,146 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashi Go Lean</fancyName>
 </Cereal>
 
+<Fruit rdf:about="#apple">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#banana">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#orange">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#mango">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#pineapple">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#strawberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#blueberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#raspberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raspberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#kiwi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kiwi</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#peach">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#pear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pear</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#cherry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#grapes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapes</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#plum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plum</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#fig">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fig</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#durian">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durian</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#papaya">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papaya</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#guava">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#persimmon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persimmon</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#lychee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lychee</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#quince">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quince</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#apricot">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apricot</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#elderberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elderberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#cranberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#blackberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blackberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#boysenberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boysenberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#loganberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loganberry</fancyName>
+</Fruit>
+
+<Fruit rdf:about="#mulberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mulberry</fancyName>
+</Fruit>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
