@@ -4364,10 +4364,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy</fancyName>
 </Milk>
 
-<Edible rdf:about="#healthy_fats">
+<Fish rdf:about="#healthy_fats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthy fats</fancyName>
-</Edible>
+</Fish>
 
 <Italian rdf:about="#spaghetti_carbonara">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
