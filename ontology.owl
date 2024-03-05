@@ -5509,11 +5509,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi Seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#dough">
+<Bread rdf:about="#dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dough</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
