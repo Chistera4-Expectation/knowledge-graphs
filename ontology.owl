@@ -1773,9 +1773,8 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drinkable</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#milk">
+<Liquid rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Liquid"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#tiramisu"/>
@@ -1787,8 +1786,9 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
+  <rdf:type rdf:resource="#Butter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
-</Dairy>
+</Liquid>
 
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
