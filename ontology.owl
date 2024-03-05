@@ -6514,11 +6514,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other beverages</fancyName>
 </Energy>
 
-<Edible rdf:about="#cajun_seasoning">
+<Seasoning rdf:about="#cajun_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cajun seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#evaporated_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
