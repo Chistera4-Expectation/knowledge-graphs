@@ -2573,6 +2573,7 @@
 
 <Bread rdf:about="#sourdough_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sourdough Bread</fancyName>
 </Bread>
 
@@ -6538,12 +6539,6 @@
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice</fancyName>
 </Energy>
-
-<Bread rdf:about="#dough">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#trinidadian_doubles"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dough</fancyName>
-</Bread>
 
 <Vegetable rdf:about="#split_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
