@@ -1915,11 +1915,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt drinks</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#fruit">
+<Breakfast rdf:about="#fruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Breakfast"/>
+  <rdf:type rdf:resource="#Yogurt"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit</fancyName>
-</Dairy>
+</Breakfast>
 
 <Dairy rdf:about="#granola">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
