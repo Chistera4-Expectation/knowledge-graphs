@@ -6783,14 +6783,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables of your choice</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#ghee">
+<Oil rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#protein_source">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
