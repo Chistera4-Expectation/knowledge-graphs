@@ -3825,6 +3825,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healthy fats</fancyName>
 </Edible>
 
+<Italian rdf:about="#spaghetti_carbonara">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spaghetti Carbonara</fancyName>
+</Italian>
+
+<Italian rdf:about="#margherita_pizza">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Margherita Pizza</fancyName>
+</Italian>
+
+<Italian rdf:about="#eggplant_parmesan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplant Parmesan</fancyName>
+</Italian>
+
+<Italian rdf:about="#chicken_parmesan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Parmesan</fancyName>
+</Italian>
+
+<Italian rdf:about="#tiramisu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiramisu</fancyName>
+</Italian>
+
+<Italian rdf:about="#caprese_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caprese Salad</fancyName>
+</Italian>
+
+<Italian rdf:about="#ravioli_al_burro_e_salsa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli al Burro e Salsa</fancyName>
+</Italian>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
