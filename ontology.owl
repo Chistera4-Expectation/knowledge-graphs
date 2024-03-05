@@ -1842,10 +1842,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cream</fancyName>
 </Dairy>
 
-<Dairy rdf:about="#ricotta_cheese">
+<Butter rdf:about="#ricotta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
-</Dairy>
+</Butter>
 
 <Dairy rdf:about="#cottage_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
