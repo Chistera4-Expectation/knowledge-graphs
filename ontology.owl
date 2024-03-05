@@ -4877,13 +4877,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice blends</fancyName>
 </Juice>
 
-<Liquid rdf:about="#vegetable_broth">
+<Juice rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#chocolate_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
