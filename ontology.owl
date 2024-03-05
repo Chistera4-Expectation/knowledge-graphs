@@ -7109,11 +7109,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cold soda water</fancyName>
 </Drink>
 
-<Edible rdf:about="#ginger_root">
+<Spice rdf:about="#ginger_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger root</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fresh_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
