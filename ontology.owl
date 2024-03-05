@@ -3961,7 +3961,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leeks</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#onions">
+<Vegetable rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
@@ -3981,7 +3981,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
