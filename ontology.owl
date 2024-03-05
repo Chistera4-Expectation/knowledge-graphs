@@ -7011,11 +7011,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Black Vinegar</fancyName>
 </Sauce>
 
-<Edible rdf:about="#proteins__beef">
+<Beef rdf:about="#proteins__beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins: Beef</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#seafood_ball">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
