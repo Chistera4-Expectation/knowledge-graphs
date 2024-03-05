@@ -391,6 +391,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
 </Sauce>
@@ -519,6 +520,7 @@
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2805,6 +2807,7 @@
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
 </Oil>
@@ -4433,7 +4436,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella Cheese</fancyName>
 </Edible>
 
 <Edible rdf:about="#basil_leaves">
@@ -4454,6 +4459,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Edible>
 
@@ -4888,6 +4894,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Edible>
 
@@ -5357,6 +5364,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#pizza_dough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza Dough</fancyName>
+</Edible>
+
+<Edible rdf:about="#pepperoni">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepperoni</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_preferred_toppings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other preferred toppings</fancyName>
+</Edible>
+
+<Edible rdf:about="#semolina_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#deep_dish_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semolina flour</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
