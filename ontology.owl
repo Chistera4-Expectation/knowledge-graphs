@@ -4885,10 +4885,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
 </Juice>
 
-<Liquid rdf:about="#chocolate_milk">
+<Milk rdf:about="#chocolate_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate milk</fancyName>
-</Liquid>
+</Milk>
 
 <Liquid rdf:about="#fruit_punch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
