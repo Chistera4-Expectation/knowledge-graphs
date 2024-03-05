@@ -5049,11 +5049,11 @@
   <ingredientOf rdf:resource="#meatloaf"/>
 </Animal>
 
-<Edible rdf:about="#andouille_sausage">
+<Pork rdf:about="#andouille_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andouille sausage</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#smoked_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
