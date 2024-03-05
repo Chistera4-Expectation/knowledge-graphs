@@ -5431,12 +5431,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#fresh_basil">
+<Oil rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#garlic_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
