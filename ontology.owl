@@ -6503,7 +6503,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#rice">
+<Rice rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <ingredientOf rdf:resource="#dim_sum"/>
@@ -6511,7 +6511,7 @@
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#raw_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
