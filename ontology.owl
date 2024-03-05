@@ -1827,6 +1827,7 @@
 <Crustaceans rdf:about="#crawfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Molluscs"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crawfish</fancyName>
 </Crustaceans>
 
@@ -5801,12 +5802,6 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry fish</fancyName>
 </Fish>
-
-<Crustaceans rdf:about="#ground_crayfish">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground crayfish</fancyName>
-</Crustaceans>
 
 <Seasoning rdf:about="#maggi_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
