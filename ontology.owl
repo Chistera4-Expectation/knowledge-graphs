@@ -7123,11 +7123,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood ear fungus</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#pandan_leaves">
+<Spice rdf:about="#pandan_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandan leaves</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#dark_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
