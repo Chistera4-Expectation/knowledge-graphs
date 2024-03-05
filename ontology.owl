@@ -1238,6 +1238,7 @@
 
 <Pork rdf:about="#sausages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sausages</fancyName>
 </Pork>
 
@@ -1473,12 +1474,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabbit</fancyName>
 </Poultry>
-
-<Pork rdf:about="#sausage">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jambalaya"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sausage</fancyName>
-</Pork>
 
 <Pork rdf:about="#salami">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
