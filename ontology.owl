@@ -6777,11 +6777,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oranges</fancyName>
 </Fruit>
 
-<Edible rdf:about="#breadfruit">
+<Vegetable rdf:about="#breadfruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadfruit</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ackee_fruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
