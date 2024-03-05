@@ -6736,12 +6736,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other protein source</fancyName>
 </Beef>
 
-<Edible rdf:about="#fenugreek_seeds">
+<Seed rdf:about="#fenugreek_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#red_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
