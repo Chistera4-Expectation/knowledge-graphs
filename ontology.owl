@@ -6892,14 +6892,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onion for garnish</fancyName>
 </Spice>
 
-<Edible rdf:about="#garlic_cloves">
+<Mushroom rdf:about="#garlic_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#ginger_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
