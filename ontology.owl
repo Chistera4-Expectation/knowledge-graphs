@@ -5971,11 +5971,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut butter</fancyName>
 </Oil>
 
-<Edible rdf:about="#black_pepper_to_taste">
+<Seasoning rdf:about="#black_pepper_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper to taste</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#crushed_red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
