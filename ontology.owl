@@ -889,6 +889,101 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulking Agents</fancyName>
 </Additive>
 
+<Beef rdf:about="#angus_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angus beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#wagyu_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wagyu beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#prime_rib">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prime rib</fancyName>
+</Beef>
+
+<Beef rdf:about="#ribeye_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ribeye steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#t_bone_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-bone steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#sirloin_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sirloin steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#chuck_roast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chuck roast</fancyName>
+</Beef>
+
+<Beef rdf:about="#short_ribs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short ribs</fancyName>
+</Beef>
+
+<Beef rdf:about="#ground_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#brisket">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brisket</fancyName>
+</Beef>
+
+<Beef rdf:about="#flank_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#hanger_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanger steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#skirt_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skirt steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#tri_tip_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tri-tip steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#round_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Round steak</fancyName>
+</Beef>
+
+<Beef rdf:about="#top_sirloin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Top sirloin</fancyName>
+</Beef>
+
+<Beef rdf:about="#bottom_sirloin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bottom sirloin</fancyName>
+</Beef>
+
+<Beef rdf:about="#eye_of_round">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eye of round</fancyName>
+</Beef>
+
+<Beef rdf:about="#coulotte_steak">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coulotte steak</fancyName>
+</Beef>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
