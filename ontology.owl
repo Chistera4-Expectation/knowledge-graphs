@@ -2314,10 +2314,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silkworms</fancyName>
 </Honey>
 
-<Insect rdf:about="#honeybees">
+<Honey rdf:about="#honeybees">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honeybees</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#honeybees__hive_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
