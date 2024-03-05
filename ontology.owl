@@ -7054,11 +7054,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#cooked_jasmine_rice">
+<Rice rdf:about="#cooked_jasmine_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked jasmine rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#cooking_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
