@@ -7099,11 +7099,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#chili_oil">
+<Oil rdf:about="#chili_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#cinnamon_sticks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
