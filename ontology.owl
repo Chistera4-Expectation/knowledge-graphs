@@ -7398,11 +7398,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asafoetida</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#drumstick">
+<Poultry rdf:about="#drumstick">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drumstick</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#brinjal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
