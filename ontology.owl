@@ -6752,11 +6752,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guavas</fancyName>
 </Fruit>
 
-<Edible rdf:about="#pineapples">
+<Fruit rdf:about="#pineapples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapples</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#lemons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
