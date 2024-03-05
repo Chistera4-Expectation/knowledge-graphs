@@ -984,6 +984,61 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coulotte steak</fancyName>
 </Beef>
 
+<Pork rdf:about="#bacon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
+</Pork>
+
+<Pork rdf:about="#ham">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ham</fancyName>
+</Pork>
+
+<Pork rdf:about="#sausages">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sausages</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_chops">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Chops</fancyName>
+</Pork>
+
+<Pork rdf:about="#pulled_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulled Pork</fancyName>
+</Pork>
+
+<Pork rdf:about="#ground_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Pork</fancyName>
+</Pork>
+
+<Pork rdf:about="#tenderloin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tenderloin</fancyName>
+</Pork>
+
+<Pork rdf:about="#spare_ribs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spare Ribs</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_belly">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Belly</fancyName>
+</Pork>
+
+<Pork rdf:about="#prosciutto">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prosciutto</fancyName>
+</Pork>
+
+<Pork rdf:about="#cured_pork_loin_roast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cured Pork Loin Roast</fancyName>
+</Pork>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
