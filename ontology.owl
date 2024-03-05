@@ -7707,13 +7707,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh coriander leaves for garnishing</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#green_cardamom_pods">
+<Spice rdf:about="#green_cardamom_pods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Cardamom Pods</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green cardamom pods</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#black_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
