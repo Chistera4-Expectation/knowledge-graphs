@@ -4751,11 +4751,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ragda Patties</fancyName>
 </Indian>
 
-<Edible rdf:about="#spaghetti_pasta">
+<Pasta rdf:about="#spaghetti_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spaghetti pasta</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#grated_pecorino_romano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
