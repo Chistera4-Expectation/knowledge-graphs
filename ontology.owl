@@ -2384,7 +2384,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earthworms</fancyName>
 </Honey>
 
-<Animal rdf:about="#eggs">
+<Poultry rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
@@ -2400,7 +2400,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#lean_deli_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
