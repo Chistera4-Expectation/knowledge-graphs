@@ -6251,11 +6251,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catfish fillets</fancyName>
 </Fish>
 
-<Edible rdf:about="#pork_ribs">
+<Pork rdf:about="#pork_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork ribs</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#barbecue_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
