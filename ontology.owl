@@ -4287,10 +4287,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused waters</fancyName>
 </Alcoholic>
 
-<Liquid rdf:about="#vegetable_juice">
+<Juice rdf:about="#vegetable_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable juice</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#electrolyte_beverages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
