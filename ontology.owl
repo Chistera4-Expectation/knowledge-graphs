@@ -413,6 +413,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
@@ -3084,6 +3085,7 @@
 
 <Seed rdf:about="#sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
 </Seed>
 
@@ -3184,6 +3186,7 @@
 <Vegetable rdf:about="#cucumber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -3220,6 +3223,7 @@
 
 <Vegetable rdf:about="#radish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radish</fancyName>
 </Vegetable>
 
@@ -3453,6 +3457,7 @@
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Food>
 
@@ -4729,6 +4734,7 @@
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4868,6 +4874,7 @@
 <Edible rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -6086,6 +6093,7 @@
 <Edible rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -6176,6 +6184,78 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#raw_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw Fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#crab_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#imitation_crab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imitation crab</fancyName>
+</Edible>
+
+<Edible rdf:about="#pickled_ginger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
+</Edible>
+
+<Edible rdf:about="#wasabi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
+</Edible>
+
+<Edible rdf:about="#sake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sake</fancyName>
+</Edible>
+
+<Edible rdf:about="#shiso_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiso leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#pickled_daikon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled daikon</fancyName>
+</Edible>
+
+<Edible rdf:about="#soybean_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soybean paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#dashi_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_vinegar__salt__sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi_roll"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar, salt, sugar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
