@@ -5657,12 +5657,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Bananas</fancyName>
 </Fruit>
 
-<Edible rdf:about="#meat_of_choice">
+<Poultry rdf:about="#meat_of_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat of choice</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#scotch_bonnet_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
