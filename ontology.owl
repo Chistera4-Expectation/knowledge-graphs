@@ -6886,11 +6886,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla Chips</fancyName>
 </Oil>
 
-<Edible rdf:about="#fresh_lemons">
+<Fruit rdf:about="#fresh_lemons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Lemons</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#ripe_mangoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
