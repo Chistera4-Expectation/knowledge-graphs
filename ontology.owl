@@ -6583,11 +6583,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canned tomatoes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#beef_broth">
+<Beef rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
