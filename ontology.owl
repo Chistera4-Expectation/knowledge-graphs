@@ -334,6 +334,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -449,6 +450,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
 </Dressing>
@@ -659,6 +661,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -969,6 +972,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Spice>
 
@@ -2402,6 +2406,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2804,6 +2809,7 @@
 
 <Rice rdf:about="#white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
 </Rice>
 
@@ -3255,7 +3261,9 @@
 
 <Oil rdf:about="#peanut_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peanut oil</fancyName>
 </Oil>
 
 <Oil rdf:about="#corn_oil">
@@ -3559,6 +3567,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
@@ -3635,6 +3644,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3735,6 +3745,7 @@
   <ingredientOf rdf:resource="#bento_boxes"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Vegetal>
 
@@ -5246,6 +5257,7 @@
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Edible>
 
@@ -5584,6 +5596,7 @@
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -6226,6 +6239,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
