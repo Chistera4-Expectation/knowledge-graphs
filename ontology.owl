@@ -425,6 +425,7 @@
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
@@ -491,7 +492,9 @@
 
 <Sauce rdf:about="#fish_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#hot_sauce">
@@ -573,6 +576,7 @@
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -680,6 +684,7 @@
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -1383,6 +1388,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -2559,7 +2565,9 @@
 
 <Rice rdf:about="#jasmine_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine Rice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine rice</fancyName>
 </Rice>
 
 <Rice rdf:about="#brown_rice">
@@ -3253,6 +3261,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -3370,6 +3379,7 @@
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4135,6 +4145,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -4847,6 +4858,7 @@
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4996,6 +5008,7 @@
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Edible>
@@ -6688,6 +6701,7 @@
 <Edible rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
 </Edible>
 
@@ -6919,6 +6933,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood ear fungus</fancyName>
+</Edible>
+
+<Edible rdf:about="#pandan_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandan leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#dark_soy_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark soy sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#light_soy_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light soy sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken stock</fancyName>
+</Edible>
+
+<Edible rdf:about="#ice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice</fancyName>
+</Edible>
+
+<Edible rdf:about="#peanut_dipping_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut dipping sauce</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
