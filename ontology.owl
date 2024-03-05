@@ -5714,13 +5714,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno Peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lime_wedges">
+<Alcoholic rdf:about="#lime_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime wedges</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#salsa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
