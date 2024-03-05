@@ -6121,11 +6121,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery, finely chopped</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#other_herbs">
+<Spice rdf:about="#other_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other herbs</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#lobster_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
