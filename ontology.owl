@@ -5793,13 +5793,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla shells</fancyName>
 </Bread>
 
-<Edible rdf:about="#corn_kernels">
+<Vegetable rdf:about="#corn_kernels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn kernels</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Kernels</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#refried_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
