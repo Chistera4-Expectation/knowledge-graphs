@@ -5787,11 +5787,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lard</fancyName>
 </Butter>
 
-<Edible rdf:about="#tortilla_shells">
+<Bread rdf:about="#tortilla_shells">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla shells</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#corn_kernels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
