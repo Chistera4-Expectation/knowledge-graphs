@@ -1873,11 +1873,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milkshakes</fancyName>
 </Butter>
 
-<Dairy rdf:about="#smoothies">
+<Liquid rdf:about="#smoothies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Liquid"/>
+  <rdf:type rdf:resource="#Yogurt"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothies</fancyName>
-</Dairy>
+</Liquid>
 
 <Dairy rdf:about="#dairy_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
