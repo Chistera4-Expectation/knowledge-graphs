@@ -5784,11 +5784,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#dry_navy_beans">
+<Vegetable rdf:about="#dry_navy_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry navy beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#salt_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
