@@ -7471,11 +7471,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornflour</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#for_garnish">
+<Sauce rdf:about="#for_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">for garnish</fancyName>
-</Edible>
+</Sauce>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
