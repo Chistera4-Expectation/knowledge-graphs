@@ -2650,6 +2650,8 @@
 <Rice rdf:about="#jasmine_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine rice</fancyName>
 </Rice>
 
@@ -2668,14 +2670,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown rice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown rice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown Rice</fancyName>
-</Rice>
-
-<Rice rdf:about="#white_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Rice</fancyName>
 </Rice>
 
 <Rice rdf:about="#arborio_rice">
