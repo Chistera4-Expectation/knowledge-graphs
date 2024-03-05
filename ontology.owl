@@ -7677,11 +7677,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon stick</fancyName>
 </Spice>
 
-<Edible rdf:about="#rock_sugar">
+<Sweetener rdf:about="#rock_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rock sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#pork_mince">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
