@@ -2248,10 +2248,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caviar</fancyName>
 </Fish>
 
-<Seafood rdf:about="#bluefin_tuna">
+<Fish rdf:about="#bluefin_tuna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluefin Tuna</fancyName>
-</Seafood>
+</Fish>
 
 <Seafood rdf:about="#yellowtail">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
