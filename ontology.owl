@@ -4207,10 +4207,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snacks</fancyName>
 </Fish>
 
-<Food rdf:about="#condiments">
+<Sauce rdf:about="#condiments">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
-</Food>
+</Sauce>
 
 <Food rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
