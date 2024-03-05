@@ -7560,11 +7560,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional add-ins</fancyName>
 </Dressing>
 
-<Edible rdf:about="#noodles">
+<Pasta rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
