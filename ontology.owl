@@ -2628,6 +2628,7 @@
   <ingredientOf rdf:resource="#plantain"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornbread</fancyName>
 </Bread>
 
@@ -7158,12 +7159,6 @@
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Vegetable>
-
-<Bread rdf:about="#corn_flour">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#samosa"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn flour</fancyName>
-</Bread>
 
 <Oil rdf:about="#mango_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
