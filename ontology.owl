@@ -7459,11 +7459,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
 </Vegetal>
 
-<Edible rdf:about="#gram_flour">
+<Seed rdf:about="#gram_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gram Flour</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#cornflour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
