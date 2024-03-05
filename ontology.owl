@@ -5696,11 +5696,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn kernels</fancyName>
 </Vegetal>
 
-<Edible rdf:about="#baking_soda">
+<Seasoning rdf:about="#baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
