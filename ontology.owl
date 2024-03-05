@@ -1679,11 +1679,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy milk</fancyName>
 </Milk>
 
-<Milk rdf:about="#oat_milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oat milk</fancyName>
-</Milk>
-
 <Milk rdf:about="#lactose_free_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactose-free milk</fancyName>
