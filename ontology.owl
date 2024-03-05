@@ -1417,6 +1417,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
 </Pork>
 
@@ -6124,12 +6125,6 @@
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortening</fancyName>
 </Vegetable>
-
-<Pork rdf:about="#ground_pork_sausage">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#biscuits_and_gravy"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork sausage</fancyName>
-</Pork>
 
 <Butter rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
