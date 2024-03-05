@@ -6031,11 +6031,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg Yolks</fancyName>
 </Edible>
 
-<Edible rdf:about="#red_bell_peppers">
+<Vegetable rdf:about="#red_bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Bell Peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#white_distilled_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
