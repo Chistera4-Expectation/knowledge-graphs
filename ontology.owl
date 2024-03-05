@@ -423,6 +423,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
@@ -569,6 +570,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -674,6 +676,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -2319,6 +2322,7 @@
   <ingredientOf rdf:resource="#guava_pastries"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3031,6 +3035,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil</fancyName>
 </Oil>
@@ -3266,6 +3271,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
@@ -3282,6 +3288,7 @@
 
 <Vegetable rdf:about="#cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cabbage</fancyName>
 </Vegetable>
 
@@ -3351,6 +3358,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4826,6 +4834,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4973,6 +4982,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Edible>
@@ -4980,6 +4990,7 @@
 <Edible rdf:about="#cooked_shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shrimp</fancyName>
 </Edible>
 
@@ -5009,6 +5020,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
@@ -5954,6 +5966,7 @@
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -6216,6 +6229,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -6433,6 +6447,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
 </Edible>
 
@@ -6695,6 +6710,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White pepper</fancyName>
 </Edible>
 
@@ -6707,7 +6723,9 @@
 <Edible rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing Wine</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Edible>
 
 <Edible rdf:about="#cooked_rice">
@@ -6817,6 +6835,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooked_jasmine_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked jasmine rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooking_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooking wine</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooked_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked pork</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooked_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked chicken</fancyName>
+</Edible>
+
+<Edible rdf:about="#snow_peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
+</Edible>
+
+<Edible rdf:about="#cornstarch_slurry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch slurry</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
