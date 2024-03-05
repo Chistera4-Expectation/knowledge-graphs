@@ -4835,10 +4835,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drinks</fancyName>
 </Energy>
 
-<Drink rdf:about="#hot_chocolate">
+<Milk rdf:about="#hot_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot chocolate</fancyName>
-</Drink>
+</Milk>
 
 <Drink rdf:about="#alcoholic_beverages_in_moderation">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
