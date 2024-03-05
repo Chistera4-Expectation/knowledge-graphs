@@ -6112,11 +6112,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#ground_cinnamon">
+<Seasoning rdf:about="#ground_cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#egg_yolk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
