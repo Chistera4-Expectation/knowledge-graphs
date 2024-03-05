@@ -6193,10 +6193,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole turkey</fancyName>
 </Poultry>
 
-<Edible rdf:about="#broth">
+<Poultry rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#fresh_cranberries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
