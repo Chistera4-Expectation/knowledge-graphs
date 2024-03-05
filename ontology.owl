@@ -7787,11 +7787,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#corn_flour">
+<Bread rdf:about="#corn_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#mango_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
