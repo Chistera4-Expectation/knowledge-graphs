@@ -1418,6 +1418,7 @@
   <ingredientOf rdf:resource="#haitian_griot"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
 </Pork>
 
@@ -7433,12 +7434,6 @@
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rock sugar</fancyName>
 </Sweetener>
-
-<Pork rdf:about="#pork_mince">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork mince</fancyName>
-</Pork>
 
 <Bread rdf:about="#potato_starch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
