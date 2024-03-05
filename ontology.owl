@@ -2785,10 +2785,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked Wheat Cereals</fancyName>
 </Breakfast>
 
-<Cereal rdf:about="#kashi_go_lean">
+<Breakfast rdf:about="#kashi_go_lean">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashi Go Lean</fancyName>
-</Cereal>
+</Breakfast>
 
 <Fruit rdf:about="#apple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
