@@ -4223,6 +4223,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#pounded_yam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5213,6 +5214,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein</fancyName>
+</Edible>
+
+<Edible rdf:about="#yam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pounded_yam"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yam</fancyName>
+</Edible>
+
+<Edible rdf:about="#salt_to_taste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pounded_yam"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt to taste</fancyName>
+</Edible>
+
+<Edible rdf:about="#meat_can_be_added_based_on_personal_preference">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pounded_yam"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meat can be added based on personal preference</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
