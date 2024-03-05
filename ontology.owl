@@ -6239,11 +6239,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Butter>
 
-<Edible rdf:about="#ground_meat">
+<Beef rdf:about="#ground_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground meat</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#catfish_fillets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
