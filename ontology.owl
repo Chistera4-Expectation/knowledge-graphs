@@ -6491,11 +6491,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puff pastry sheets</fancyName>
 </Edible>
 
-<Edible rdf:about="#lemon_zest">
+<Spice rdf:about="#lemon_zest">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon zest</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#powdered_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
