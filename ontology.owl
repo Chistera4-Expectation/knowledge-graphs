@@ -7426,11 +7426,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring roll wrappers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#toothpicks">
+<Dressing rdf:about="#toothpicks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toothpicks</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#skewers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
