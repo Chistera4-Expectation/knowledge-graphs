@@ -5121,13 +5121,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cooked_shrimp">
+<Crustaceans rdf:about="#cooked_shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shrimp</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#creole_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
