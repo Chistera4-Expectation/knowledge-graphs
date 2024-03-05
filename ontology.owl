@@ -618,6 +618,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1389,6 +1390,7 @@
   <ingredientOf rdf:resource="#blueberry_muffins"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted Butter</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted butter</fancyName>
 </Butter>
@@ -1723,6 +1725,7 @@
 
 <Dairy rdf:about="#cream_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream cheese</fancyName>
 </Dairy>
 
@@ -5118,6 +5121,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#blueberry_muffins"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
 </Edible>
 
@@ -5446,6 +5450,7 @@
   <ingredientOf rdf:resource="#blueberry_muffins"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vanilla extract</fancyName>
 </Edible>
@@ -5638,6 +5643,7 @@
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all-purpose flour</fancyName>
 </Edible>
@@ -5650,6 +5656,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
@@ -5826,6 +5833,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
 </Edible>
 
@@ -6265,6 +6273,7 @@
 <Edible rdf:about="#guavas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guavas</fancyName>
 </Edible>
 
@@ -6374,6 +6383,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
+</Edible>
+
+<Edible rdf:about="#large_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Large eggs</fancyName>
+</Edible>
+
+<Edible rdf:about="#powdered_sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_cheese_bread"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
