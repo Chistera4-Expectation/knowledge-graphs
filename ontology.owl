@@ -6783,11 +6783,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadfruit</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ackee_fruit">
+<Fruit rdf:about="#ackee_fruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ackee fruit</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#plantain_flowers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
