@@ -6163,11 +6163,11 @@
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
 </Pasta>
 
-<Edible rdf:about="#corned_beef">
+<Beef rdf:about="#corned_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#sauerkraut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
