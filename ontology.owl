@@ -5031,11 +5031,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli pasta</fancyName>
 </Pasta>
 
-<Edible rdf:about="#grated_parmesan_cheese">
+<Cheese rdf:about="#grated_parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grated Parmesan cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#parsley__freshly_chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
