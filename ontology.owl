@@ -551,6 +551,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2278,6 +2279,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3385,6 +3387,7 @@
 
 <Vegetal rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -3494,6 +3497,7 @@
 
 <Alcoholic rdf:about="#beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beer</fancyName>
 </Alcoholic>
 
@@ -4042,6 +4046,7 @@
   <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -4675,6 +4680,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_parmesan"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground black pepper</fancyName>
 </Edible>
 
@@ -5278,6 +5284,7 @@
 <Edible rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil for frying</fancyName>
 </Edible>
 
@@ -5404,6 +5411,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
@@ -5490,6 +5498,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#guava_pastries"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -5535,6 +5544,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -6147,6 +6157,7 @@
 <Edible rdf:about="#ice_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cubes</fancyName>
 </Edible>
 
@@ -6256,6 +6267,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar, salt, sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#carbonated_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonated water</fancyName>
+</Edible>
+
+<Edible rdf:about="#seafood_for_tempura">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seafood for tempura</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
