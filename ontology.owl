@@ -4205,10 +4205,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte waters</fancyName>
 </Water>
 
-<Drink rdf:about="#teacup">
+<Tea rdf:about="#teacup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TeaCup</fancyName>
-</Drink>
+</Tea>
 
 <Liquid rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
