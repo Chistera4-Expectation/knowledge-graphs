@@ -2848,6 +2848,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nectarine</fancyName>
 </Fruit>
 
+<Mushroom rdf:about="#hericium_erinaceus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hericium erinaceus</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#amanita_caesarea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amanita caesarea</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#pholiota_nameko">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pholiota nameko</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#schizophyllum_commune">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizophyllum commune</fancyName>
+</Mushroom>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
