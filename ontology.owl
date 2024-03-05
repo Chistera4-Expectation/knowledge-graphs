@@ -4133,10 +4133,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauces</fancyName>
 </Oil>
 
-<Vegetal rdf:about="#dressings">
+<Oil rdf:about="#dressings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressings</fancyName>
-</Vegetal>
+</Oil>
 
 <Food rdf:about="#fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
