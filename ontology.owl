@@ -5217,13 +5217,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
 </Spice>
 
-<Edible rdf:about="#cilantro">
+<Spice rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#salsa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
