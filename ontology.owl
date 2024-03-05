@@ -6073,11 +6073,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Benzoate</fancyName>
 </Additive>
 
-<Edible rdf:about="#potassium_sorbate">
+<Additive rdf:about="#potassium_sorbate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potassium Sorbate</fancyName>
-</Edible>
+</Additive>
 
 <Edible rdf:about="#elbow_macaroni">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
