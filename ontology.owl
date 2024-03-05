@@ -863,6 +863,10 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Powder</fancyName>
 </Seasoning>
@@ -6883,16 +6887,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric Powder</fancyName>
 </Spice>
-
-<Seasoning rdf:about="#red_chili_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#mango_chutney"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#aloo_gobi"/>
-  <ingredientOf rdf:resource="#goan_fish_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili powder</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Powder</fancyName>
-</Seasoning>
 
 <Alcoholic rdf:about="#dark_rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
