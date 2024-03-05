@@ -7329,11 +7329,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ponzu sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#chopsticks">
+<Pasta rdf:about="#chopsticks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopsticks</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#picks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
