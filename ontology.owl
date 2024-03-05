@@ -7266,11 +7266,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red curry paste</fancyName>
 </Spice>
 
-<Edible rdf:about="#fresh_salmon">
+<Fish rdf:about="#fresh_salmon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh salmon</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#seaweed_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
