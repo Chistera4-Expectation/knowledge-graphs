@@ -7222,14 +7222,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed peanuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#cashews">
+<Vegetal rdf:about="#cashews">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashews</fancyName>
-</Edible>
+</Vegetal>
 
 <Edible rdf:about="#bean_sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
