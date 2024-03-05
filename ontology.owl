@@ -4905,9 +4905,9 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit flavors</fancyName>
 </Juice>
 
-<Edible rdf:about="#seeds">
+<Seed rdf:about="#seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#whole_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
