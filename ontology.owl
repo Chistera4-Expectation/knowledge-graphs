@@ -6467,11 +6467,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cubes</fancyName>
 </Water>
 
-<Edible rdf:about="#maraschino_cherries">
+<Fruit rdf:about="#maraschino_cherries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maraschino cherries</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#orange_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
