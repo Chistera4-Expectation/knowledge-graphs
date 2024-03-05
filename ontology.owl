@@ -5247,11 +5247,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_enchilada_sauce">
+<Sauce rdf:about="#red_enchilada_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red enchilada sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#green_enchilada_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
