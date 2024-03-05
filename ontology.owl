@@ -7752,11 +7752,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
 </Fruit>
 
-<Edible rdf:about="#saffron_threads">
+<Spice rdf:about="#saffron_threads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron Threads</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#almond_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
