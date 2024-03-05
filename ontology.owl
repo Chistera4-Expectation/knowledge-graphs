@@ -4855,12 +4855,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iced tea</fancyName>
 </Tea>
 
-<Liquid rdf:about="#orange_juice">
+<Juice rdf:about="#orange_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#energy_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
