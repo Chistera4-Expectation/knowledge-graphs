@@ -2968,6 +2968,66 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCT oil</fancyName>
 </Oil>
 
+<Seaweed rdf:about="#dulse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dulse</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#arame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arame</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#laver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laver</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#kelp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kelp</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#sea_lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Lettuce</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#bladderwrack">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bladderwrack</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#irish_moss">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Moss</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#sea_spaghetti">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Spaghetti</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#ulva">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulva</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#porphyra">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porphyra</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#sargassum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sargassum</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#tangle_weed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tangle weed</fancyName>
+</Seaweed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
