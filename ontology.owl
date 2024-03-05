@@ -7157,11 +7157,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice</fancyName>
 </Water>
 
-<Edible rdf:about="#peanut_dipping_sauce">
+<Sauce rdf:about="#peanut_dipping_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut dipping sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
