@@ -4212,11 +4212,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
 </Sauce>
 
-<Food rdf:about="#spices">
+<Spice rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
-</Food>
+</Spice>
 
 <Food rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
