@@ -1420,14 +1420,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poultry Stock</fancyName>
 </Poultry>
 
-<Meat rdf:about="#beef">
+<Beef rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
-</Meat>
+</Beef>
 
 <Meat rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
