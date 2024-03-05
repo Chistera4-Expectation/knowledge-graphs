@@ -5441,7 +5441,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feta cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#lemon_juice">
+<Juice rdf:about="#lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
@@ -5452,7 +5452,7 @@
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#fresh_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
