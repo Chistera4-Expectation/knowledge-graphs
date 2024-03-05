@@ -5675,11 +5675,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime Juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#jalapeno_pepper">
+<Vegetable rdf:about="#jalapeno_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jalapeño pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pork_shoulder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
