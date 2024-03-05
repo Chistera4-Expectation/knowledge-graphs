@@ -4338,10 +4338,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit</fancyName>
 </Fruit>
 
-<Edible rdf:about="#grains">
+<Pasta rdf:about="#grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grains</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#proteins__chicken_breast__turkey_breast__lean_beef__fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
