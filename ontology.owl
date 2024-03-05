@@ -5842,11 +5842,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fillings</fancyName>
 </Sauce>
 
-<Edible rdf:about="#icing_sugar">
+<Sweetener rdf:about="#icing_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Icing sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#powdered_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
