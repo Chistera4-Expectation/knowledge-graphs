@@ -2530,12 +2530,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rennet</fancyName>
 </Cheese>
 
-<Animal rdf:about="#ghee">
+<Milk rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
-</Animal>
+</Milk>
 
 <Animal rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
