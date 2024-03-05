@@ -290,11 +290,13 @@
 
 <Dressing rdf:about="#ranch_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranch Dressing</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#thousand_island_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousand Island Dressing</fancyName>
 </Dressing>
 
@@ -315,11 +317,13 @@
 
 <Dressing rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#teriyaki_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki Sauce</fancyName>
 </Dressing>
 
@@ -330,6 +334,7 @@
 
 <Dressing rdf:about="#blue_cheese_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue Cheese Dressing</fancyName>
 </Dressing>
 
@@ -350,6 +355,7 @@
 
 <Dressing rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Sauce</fancyName>
 </Dressing>
 
@@ -365,6 +371,7 @@
 
 <Dressing rdf:about="#tzatziki_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tzatziki Sauce</fancyName>
 </Dressing>
 
@@ -390,6 +397,7 @@
 
 <Dressing rdf:about="#pesto_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesto Sauce</fancyName>
 </Dressing>
 
@@ -420,6 +428,7 @@
 
 <Dressing rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire Sauce</fancyName>
 </Dressing>
 
@@ -435,6 +444,7 @@
 
 <Dressing rdf:about="#hollandaise_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hollandaise Sauce</fancyName>
 </Dressing>
 
@@ -462,6 +472,86 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound Butter Variations</fancyName>
 </Dressing>
+
+<Sauce rdf:about="#tomato_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#alfredo_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfredo Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#marinara_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marinara Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#barbeque_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbeque Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#white_wine_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Wine Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#mushroom_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushroom Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#cheese_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#curry_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#chimichurri_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chimichurri Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#satay_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Satay Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#honey_mustard_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey Mustard Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#garlic_aioli_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Aioli Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#bechamel_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bechamel Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#sweet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#sour_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#yogurt_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt Sauce</fancyName>
+</Sauce>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
