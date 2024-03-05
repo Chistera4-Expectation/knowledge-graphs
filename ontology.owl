@@ -2515,10 +2515,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
 </Dairy>
 
-<Animal rdf:about="#whey_protein">
+<Milk rdf:about="#whey_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whey protein</fancyName>
-</Animal>
+</Milk>
 
 <Animal rdf:about="#casein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
