@@ -3719,6 +3719,106 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frappe</fancyName>
 </Coffee>
 
+<Tea rdf:about="#green_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#black_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#oolong_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oolong Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#white_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#pu_erh_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pu-erh Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#herbal_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#chai_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chai Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#rooibos_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rooibos Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#matcha_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#honeybush_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honeybush Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#earl_grey_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earl Grey Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#lapsang_souchong_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lapsang Souchong Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#assam_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assam Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#darjeeling_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darjeeling Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#nilgiri_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nilgiri Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#ceylon_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceylon Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#jasmine_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#genmaicha_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genmaicha Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#gunpowder_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gunpowder Tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#longjing_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longjing Tea</fancyName>
+</Tea>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
