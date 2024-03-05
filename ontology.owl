@@ -6318,11 +6318,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#fresh_blueberries">
+<Fruit rdf:about="#fresh_blueberries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#blueberry_muffins"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh blueberries</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
