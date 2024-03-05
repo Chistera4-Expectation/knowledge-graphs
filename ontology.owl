@@ -6834,11 +6834,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki Chicken</fancyName>
 </Sauce>
 
-<Edible rdf:about="#seaweed_salad">
+<Seaweed rdf:about="#seaweed_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed Salad</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#roasted_seaweed_snacks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
