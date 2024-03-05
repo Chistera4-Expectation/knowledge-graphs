@@ -5265,11 +5265,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#chopped_onion">
+<Vegetable rdf:about="#chopped_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped onion</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chopped_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
