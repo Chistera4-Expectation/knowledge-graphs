@@ -5185,13 +5185,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shredded chicken</fancyName>
 </Poultry>
 
-<Edible rdf:about="#chili_peppers">
+<Spice rdf:about="#chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Peppers</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
