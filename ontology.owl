@@ -6552,11 +6552,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sake</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#shiso_leaves">
+<Vegetable rdf:about="#shiso_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiso leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pickled_daikon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
