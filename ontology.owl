@@ -7197,11 +7197,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrowroot powder</fancyName>
 </Bread>
 
-<Edible rdf:about="#fresh_cilantro_leaves">
+<Oil rdf:about="#fresh_cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro leaves</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#soba_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
