@@ -7280,12 +7280,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chilli powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#cardamom_pods">
+<Spice rdf:about="#cardamom_pods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom pods</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#coriander_leaves_for_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
