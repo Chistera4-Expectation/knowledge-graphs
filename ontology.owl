@@ -6859,12 +6859,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#cashews">
+<Seed rdf:about="#cashews">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashews</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#soybeans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
