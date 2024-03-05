@@ -483,8 +483,10 @@
 <Sauce rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hot sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#aioli_sauce">
@@ -541,6 +543,7 @@
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -561,6 +564,7 @@
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
@@ -589,6 +593,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -1651,6 +1656,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -2247,6 +2253,7 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3130,6 +3137,7 @@
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
@@ -3225,6 +3233,7 @@
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3287,6 +3296,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
@@ -4573,6 +4583,7 @@
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Edible>
 
@@ -4588,6 +4599,7 @@
   <ingredientOf rdf:resource="#chicken_parmesan"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Edible>
 
@@ -4842,6 +4854,7 @@
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
@@ -4965,6 +4978,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
 </Edible>
@@ -5191,6 +5205,7 @@
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Edible>
@@ -5754,6 +5769,7 @@
 <Edible rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -5921,6 +5937,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fruits</fancyName>
+</Edible>
+
+<Edible rdf:about="#conch_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
