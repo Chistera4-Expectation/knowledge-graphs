@@ -5693,11 +5693,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marinated chicken</fancyName>
 </Poultry>
 
-<Edible rdf:about="#pineapple_slices">
+<Fruit rdf:about="#pineapple_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple slices</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#corn_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
