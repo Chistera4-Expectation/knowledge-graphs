@@ -6398,7 +6398,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery stalks</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#green_onions">
+<Vegetable rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <ingredientOf rdf:resource="#jambalaya"/>
@@ -6427,7 +6427,7 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
