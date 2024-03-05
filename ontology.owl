@@ -5643,13 +5643,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pili Nuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#red_chili_flakes">
+<Spice rdf:about="#red_chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Flakes</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili flakes</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cooking_bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
