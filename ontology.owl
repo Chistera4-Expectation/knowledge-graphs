@@ -1115,10 +1115,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colorings</fancyName>
 </Dressing>
 
-<Additive rdf:about="#thickeners">
+<Sauce rdf:about="#thickeners">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thickeners</fancyName>
-</Additive>
+</Sauce>
 
 <Additive rdf:about="#flavor_enhancers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
