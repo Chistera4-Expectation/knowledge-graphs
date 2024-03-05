@@ -4873,11 +4873,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese, grated</fancyName>
 </Cheese>
 
-<Edible rdf:about="#fresh_basil_leaves">
+<Vegetal rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil leaves</fancyName>
-</Edible>
+</Vegetal>
 
 <Edible rdf:about="#ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
