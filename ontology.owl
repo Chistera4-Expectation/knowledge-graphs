@@ -5545,12 +5545,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caraway seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#oil_for_frying">
+<Vegetable rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil for frying</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#egusi_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
