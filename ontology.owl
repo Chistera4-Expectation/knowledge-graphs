@@ -3819,6 +3819,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longjing Tea</fancyName>
 </Tea>
 
+<Infusion rdf:about="#vitamin_c_boost">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin C Boost</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#electrolyte_recharge">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte Recharge</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#protein_powerhouse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Powerhouse</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#immunity_elixir">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunity Elixir</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#energy_surge">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy Surge</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#detox_delight">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detox Delight</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#weight_loss_wonder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight Loss Wonder</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#muscle_recovery_fuel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle Recovery Fuel</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#bone_strength_builder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone Strength Builder</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#stress_relief_tonic">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stress Relief Tonic</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#digestive_ease">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive Ease</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#skin_glow_enhancer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin Glow Enhancer</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#hydration_haven">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydration Haven</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#mood_elevator">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Elevator</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#antioxidant_ace">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidant Ace</fancyName>
+</Infusion>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
