@@ -5628,7 +5628,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplants</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#breadcrumbs">
+<Bread rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
@@ -5637,7 +5637,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#mozzarella_cheese_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
