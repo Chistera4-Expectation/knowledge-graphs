@@ -7347,11 +7347,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cauliflower</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#protein_source">
+<Beef rdf:about="#protein_source">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein source</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#matcha_green_tea_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
