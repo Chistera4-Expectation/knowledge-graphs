@@ -4170,12 +4170,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy products</fancyName>
 </Milk>
 
-<Food rdf:about="#meat">
+<Beef rdf:about="#meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
-</Food>
+</Beef>
 
 <Food rdf:about="#poultry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
