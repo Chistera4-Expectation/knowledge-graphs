@@ -388,6 +388,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Dairy"/>
   <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
 </Dressing>
@@ -400,6 +401,7 @@
 <Dressing rdf:about="#guacamole">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Latin"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guacamole</fancyName>
 </Dressing>
 
@@ -494,6 +496,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
 </Sauce>
@@ -619,6 +622,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -638,6 +642,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -670,6 +675,7 @@
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -869,8 +875,10 @@
 <Seasoning rdf:about="#ground_cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground cumin</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Cumin</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#smoked_paprika">
@@ -1198,7 +1206,9 @@
 <Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
 </Poultry>
 
 <Poultry rdf:about="#turkey_meat">
@@ -1697,6 +1707,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
@@ -2989,6 +3000,7 @@
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Fruit>
 
@@ -3125,8 +3137,10 @@
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
 </Oil>
 
 <Oil rdf:about="#coconut_oil">
@@ -3621,8 +3635,10 @@
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
 </Vegetal>
 
 <Vegetal rdf:about="#cucumbers">
@@ -3685,6 +3701,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetal>
 
@@ -3701,7 +3718,9 @@
 <Vegetal rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Beans</fancyName>
 </Vegetal>
 
 <Vegetal rdf:about="#kidney_beans">
@@ -5114,7 +5133,9 @@
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Cloves</fancyName>
 </Edible>
 
 <Edible rdf:about="#granulated_sugar">
@@ -5304,8 +5325,10 @@
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime Juice</fancyName>
 </Edible>
 
 <Edible rdf:about="#jalapeno_pepper">
@@ -5342,7 +5365,9 @@
 <Edible rdf:about="#jalapeno_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno peppers</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno Peppers</fancyName>
 </Edible>
 
 <Edible rdf:about="#lime_wedges">
@@ -5356,6 +5381,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</fancyName>
 </Edible>
 
@@ -5410,13 +5436,17 @@
 <Edible rdf:about="#corn_kernels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn kernels</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Kernels</fancyName>
 </Edible>
 
 <Edible rdf:about="#refried_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refried beans</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refried Beans</fancyName>
 </Edible>
 
 <Edible rdf:about="#red_onions">
@@ -5441,6 +5471,7 @@
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Edible>
 
@@ -6292,6 +6323,7 @@
 <Edible rdf:about="#limes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limes</fancyName>
 </Edible>
 
@@ -6395,6 +6427,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#cilantro_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#festival"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro Leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#tortilla_chips">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#festival"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla Chips</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_lemons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#festival"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Lemons</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
