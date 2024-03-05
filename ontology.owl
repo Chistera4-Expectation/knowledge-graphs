@@ -3926,10 +3926,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose Drip: A solution containing glucose</fancyName>
 </Coffee>
 
-<Infusion rdf:about="#glucose_drip">
+<Coffee rdf:about="#glucose_drip">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose Drip</fancyName>
-</Infusion>
+</Coffee>
 
 <Infusion rdf:about="#total_parenteral_nutrition">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
