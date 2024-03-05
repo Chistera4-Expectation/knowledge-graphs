@@ -7530,11 +7530,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pork bones</fancyName>
 </Pork>
 
-<Edible rdf:about="#cooked_shrimp">
+<Crustaceans rdf:about="#cooked_shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shrimp</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#other_seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
