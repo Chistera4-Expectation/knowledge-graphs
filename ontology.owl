@@ -2253,10 +2253,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluefin Tuna</fancyName>
 </Fish>
 
-<Seafood rdf:about="#yellowtail">
+<Fish rdf:about="#yellowtail">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellowtail</fancyName>
-</Seafood>
+</Fish>
 
 <Seafood rdf:about="#sturgeon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
