@@ -6181,11 +6181,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian</fancyName>
 </Sauce>
 
-<Edible rdf:about="#thousands_island_dressing">
+<Dressing rdf:about="#thousands_island_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousands Island Dressing</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#whole_turkey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
