@@ -6626,6 +6626,7 @@
 <Spice rdf:about="#chilli_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilli peppers</fancyName>
 </Spice>
 
@@ -7367,12 +7368,6 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
-</Spice>
-
-<Spice rdf:about="#fresh_red_chillies">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh red chillies</fancyName>
 </Spice>
 
 <Pork rdf:about="#pork_bones">
