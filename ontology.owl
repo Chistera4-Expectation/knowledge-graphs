@@ -6764,12 +6764,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#ground_cinnamon">
+<Spice rdf:about="#ground_cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ground_cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
