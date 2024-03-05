@@ -6886,11 +6886,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry roasted Sichuan peppercorns</fancyName>
 </Spice>
 
-<Edible rdf:about="#green_onion_for_garnish">
+<Spice rdf:about="#green_onion_for_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onion for garnish</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#garlic_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
