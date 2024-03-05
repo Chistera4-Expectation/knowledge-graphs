@@ -603,6 +603,7 @@
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -616,6 +617,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#fried_catfish"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -1629,6 +1631,7 @@
   <ingredientOf rdf:resource="#blueberry_muffins"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1915,6 +1918,7 @@
 
 <Molluscs rdf:about="#oysters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
 </Molluscs>
 
@@ -5160,6 +5164,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Edible>
 
@@ -5247,6 +5252,7 @@
   <ingredientOf rdf:resource="#fried_catfish"/>
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -5334,6 +5340,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -5499,7 +5506,9 @@
   <ingredientOf rdf:resource="#blueberry_muffins"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all-purpose flour</fancyName>
 </Edible>
 
 <Edible rdf:about="#baking_powder">
@@ -5775,6 +5784,7 @@
 <Edible rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Edible>
 
