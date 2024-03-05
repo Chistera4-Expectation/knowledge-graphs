@@ -4526,10 +4526,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight Loss Wonder</fancyName>
 </Coffee>
 
-<Infusion rdf:about="#muscle_recovery_fuel">
+<Coffee rdf:about="#muscle_recovery_fuel">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle Recovery Fuel</fancyName>
-</Infusion>
+</Coffee>
 
 <Infusion rdf:about="#bone_strength_builder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
