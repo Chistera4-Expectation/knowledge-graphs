@@ -5061,11 +5061,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoked sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#long_grain_white_rice">
+<Rice rdf:about="#long_grain_white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long grain white rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
