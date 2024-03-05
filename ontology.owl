@@ -7219,11 +7219,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted Sesame Seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#fried_shallots">
+<Mushroom rdf:about="#fried_shallots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Shallots</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#dried_goji_berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
