@@ -1223,6 +1223,61 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant-based meat alternatives</fancyName>
 </Meat>
 
+<Butter rdf:about="#salted_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salted Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#unsalted_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#european_style_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European Style Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#organic_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#grass_fed_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grass-Fed Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#clarified_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clarified Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#cultured_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cultured Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#whipped_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#light_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#_i_can_t_believe_it_s_not_butter__spread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"I Can't Believe It's Not Butter" Spread</fancyName>
+</Butter>
+
+<Butter rdf:about="#vegan_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegan Butter</fancyName>
+</Butter>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
