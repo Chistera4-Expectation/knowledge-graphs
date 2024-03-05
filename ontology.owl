@@ -6520,11 +6520,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cajun seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#evaporated_milk">
+<Milk rdf:about="#evaporated_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaporated milk</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#graham_cracker_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
