@@ -6194,7 +6194,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharp cheddar cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#flour">
+<Bread rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
@@ -6203,7 +6203,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#mustard_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
