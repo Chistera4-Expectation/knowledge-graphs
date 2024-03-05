@@ -6284,14 +6284,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Oil>
 
-<Edible rdf:about="#tomato_paste">
+<Vegetable rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#liquid_smoke">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
