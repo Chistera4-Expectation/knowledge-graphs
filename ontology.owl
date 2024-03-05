@@ -5823,11 +5823,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#green_chiles">
+<Vegetable rdf:about="#green_chiles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chiles</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
