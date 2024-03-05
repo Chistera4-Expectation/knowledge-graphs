@@ -6334,11 +6334,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt cod</fancyName>
 </Fish>
 
-<Edible rdf:about="#short_grain_rice">
+<Rice rdf:about="#short_grain_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short grain rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#rabbit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
