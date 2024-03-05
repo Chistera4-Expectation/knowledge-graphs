@@ -4332,11 +4332,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit: Apple, Banana, Orange, Mango, Pineapple, Kiwi, Berries</fancyName>
 </Fruit>
 
-<Edible rdf:about="#fruit">
+<Fruit rdf:about="#fruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
