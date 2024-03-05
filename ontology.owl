@@ -337,6 +337,7 @@
   <rdf:type rdf:resource="#Sauce"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki sauce</fancyName>
 </Dressing>
@@ -1917,6 +1918,7 @@
 
 <Fish rdf:about="#tuna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuna</fancyName>
 </Fish>
 
@@ -2775,6 +2777,7 @@
 
 <Rice rdf:about="#sushi_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
 </Rice>
 
@@ -3040,6 +3043,7 @@
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#festival"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Fruit>
 
@@ -3366,6 +3370,7 @@
 <Seed rdf:about="#sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
 </Seed>
 
@@ -3435,6 +3440,7 @@
 <Vegetable rdf:about="#cucumber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -6107,6 +6113,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -6694,6 +6701,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi paste</fancyName>
 </Edible>
 
@@ -6701,6 +6709,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Edible>
 
@@ -6791,6 +6800,7 @@
 <Edible rdf:about="#nori_sheets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nori sheets</fancyName>
 </Edible>
 
@@ -6895,6 +6905,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red curry paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_salmon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh salmon</fancyName>
+</Edible>
+
+<Edible rdf:about="#seaweed_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed salad</fancyName>
+</Edible>
+
+<Edible rdf:about="#low_sodium_soy_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-sodium soy sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#furikake_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furikake seasoning</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
