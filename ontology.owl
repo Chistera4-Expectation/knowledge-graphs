@@ -5797,11 +5797,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt pork</fancyName>
 </Pork>
 
-<Edible rdf:about="#bacon__diced">
+<Pork rdf:about="#bacon__diced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacon, diced</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#onion__chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
