@@ -6366,12 +6366,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artichoke hearts</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lemon_wedges">
+<Seasoning rdf:about="#lemon_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon wedges</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#pimientos">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
