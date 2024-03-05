@@ -6429,11 +6429,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#monosodium_glutamate">
+<Seasoning rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium glutamate</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
