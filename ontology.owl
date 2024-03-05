@@ -6931,12 +6931,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin Seeds</fancyName>
 </Spice>
 
-<Edible rdf:about="#mustard_seeds">
+<Seed rdf:about="#mustard_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#turmeric_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
