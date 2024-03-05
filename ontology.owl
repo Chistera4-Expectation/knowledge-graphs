@@ -6448,11 +6448,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark rum</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#grenadine_syrup">
+<Seasoning rdf:about="#grenadine_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grenadine syrup</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#club_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
