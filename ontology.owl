@@ -2238,10 +2238,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langoustine</fancyName>
 </Crustaceans>
 
-<Seafood rdf:about="#geoduck">
+<Molluscs rdf:about="#geoduck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geoduck</fancyName>
-</Seafood>
+</Molluscs>
 
 <Seafood rdf:about="#caviar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
