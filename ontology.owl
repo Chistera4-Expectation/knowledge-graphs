@@ -7250,7 +7250,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai chili pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#hoisin_sauce">
+<Sauce rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#peking_duck"/>
@@ -7258,7 +7258,7 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#red_curry_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
