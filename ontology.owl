@@ -5670,11 +5670,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#other_preferred_seasonings">
+<Spice rdf:about="#other_preferred_seasonings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other preferred seasonings</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
