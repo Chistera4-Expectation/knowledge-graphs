@@ -1857,6 +1857,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shipworms</fancyName>
 </Molluscs>
 
+<Seafood rdf:about="#anchovies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anchovies</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#eel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eel</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#langoustine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langoustine</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#geoduck">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geoduck</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#caviar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caviar</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#bluefin_tuna">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluefin Tuna</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#yellowtail">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellowtail</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#sturgeon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sturgeon</fancyName>
+</Seafood>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
