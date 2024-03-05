@@ -4032,10 +4032,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barley</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#oats">
+<Breakfast rdf:about="#oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
-</Vegetal>
+</Breakfast>
 
 <Vegetal rdf:about="#nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
