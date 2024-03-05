@@ -7317,11 +7317,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black sesame seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#umeboshi_plums">
+<Fruit rdf:about="#umeboshi_plums">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umeboshi plums</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#ponzu_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
