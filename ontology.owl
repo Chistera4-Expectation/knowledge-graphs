@@ -7317,11 +7317,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless chicken pieces</fancyName>
 </Poultry>
 
-<Edible rdf:about="#tomato_puree">
+<Sauce rdf:about="#tomato_puree">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato puree</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#fresh_cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
