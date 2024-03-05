@@ -5043,11 +5043,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley, freshly chopped</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#crushed">
+<Animal rdf:about="#crushed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <ingredientOf rdf:resource="#meatloaf"/>
-</Edible>
+</Animal>
 
 <Edible rdf:about="#andouille_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
