@@ -5210,12 +5210,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned enchilada sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#ground_cumin">
+<Spice rdf:about="#ground_cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
