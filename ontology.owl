@@ -6217,12 +6217,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panko breadcrumbs</fancyName>
 </Bread>
 
-<Edible rdf:about="#shortening">
+<Vegetable rdf:about="#shortening">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortening</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ground_pork_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
