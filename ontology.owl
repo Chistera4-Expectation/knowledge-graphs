@@ -1105,10 +1105,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#antioxidants">
+<Spice rdf:about="#antioxidants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
-</Additive>
+</Spice>
 
 <Additive rdf:about="#colorings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
