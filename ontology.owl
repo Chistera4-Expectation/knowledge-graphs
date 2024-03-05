@@ -2304,10 +2304,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grasshoppers</fancyName>
 </Honey>
 
-<Insect rdf:about="#ant_larvae">
+<Honey rdf:about="#ant_larvae">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ant Larvae</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#silkworms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
