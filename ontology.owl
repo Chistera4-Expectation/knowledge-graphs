@@ -5730,7 +5730,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</fancyName>
 </Fruit>
 
-<Edible rdf:about="#vegetable_oil">
+<Vegetable rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sopa_de_lima"/>
   <ingredientOf rdf:resource="#tamales"/>
@@ -5761,7 +5761,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#corn_masa_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
