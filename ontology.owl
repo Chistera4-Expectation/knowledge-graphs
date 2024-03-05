@@ -1494,11 +1494,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grass-Fed Butter</fancyName>
 </Butter>
 
-<Butter rdf:about="#herb_butter">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herb Butter</fancyName>
-</Butter>
-
 <Butter rdf:about="#compound_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound Butter</fancyName>
