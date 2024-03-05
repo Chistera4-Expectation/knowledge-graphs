@@ -7335,10 +7335,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopsticks</fancyName>
 </Pasta>
 
-<Edible rdf:about="#picks">
+<Vegetable rdf:about="#picks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cauliflower">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
