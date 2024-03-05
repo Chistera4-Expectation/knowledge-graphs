@@ -7103,11 +7103,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine vinegar</fancyName>
 </Rice>
 
-<Edible rdf:about="#ice_cold_soda_water">
+<Drink rdf:about="#ice_cold_soda_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cold soda water</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#ginger_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
