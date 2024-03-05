@@ -6840,11 +6840,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed Salad</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#roasted_seaweed_snacks">
+<Seaweed rdf:about="#roasted_seaweed_snacks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted Seaweed Snacks</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#spicy_pickled_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
