@@ -7260,11 +7260,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#red_curry_paste">
+<Spice rdf:about="#red_curry_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red curry paste</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fresh_salmon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
