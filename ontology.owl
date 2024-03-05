@@ -5890,11 +5890,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other preferred toppings</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#semolina_flour">
+<Pasta rdf:about="#semolina_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semolina flour</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
