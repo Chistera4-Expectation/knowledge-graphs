@@ -6653,7 +6653,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green tea leaves</fancyName>
 </Tea>
 
-<Edible rdf:about="#rice_vinegar">
+<Rice rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
@@ -6661,7 +6661,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#ginger__grated">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
