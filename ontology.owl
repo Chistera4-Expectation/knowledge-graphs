@@ -1030,6 +1030,7 @@
 
 <Poultry rdf:about="#fried_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#American"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Chicken</fancyName>
 </Poultry>
 
@@ -2250,6 +2251,7 @@
 
 <Bread rdf:about="#cornbread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#American"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornbread</fancyName>
 </Bread>
 
@@ -3924,6 +3926,81 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenkey and Okra Stew</fancyName>
 </African>
+
+<American rdf:about="#apple_pie_a_la_mode">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Pie à la Mode</fancyName>
+</American>
+
+<American rdf:about="#bbq_ribs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BBQ Ribs</fancyName>
+</American>
+
+<American rdf:about="#boston_baked_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boston Baked Beans</fancyName>
+</American>
+
+<American rdf:about="#cinnamon_rolls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon Rolls</fancyName>
+</American>
+
+<American rdf:about="#clam_chowder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clam Chowder</fancyName>
+</American>
+
+<American rdf:about="#deep_dish_pizza">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep-Dish Pizza</fancyName>
+</American>
+
+<American rdf:about="#grilled_cheese_sandwich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled Cheese Sandwich</fancyName>
+</American>
+
+<American rdf:about="#hamburger_with_fries">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger with Fries</fancyName>
+</American>
+
+<American rdf:about="#hot_dog_with_chili_and_mustard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Dog with Chili and Mustard</fancyName>
+</American>
+
+<American rdf:about="#kentucky_fried_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kentucky Fried Chicken</fancyName>
+</American>
+
+<American rdf:about="#macaroni_and_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni and Cheese</fancyName>
+</American>
+
+<American rdf:about="#meatloaf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meatloaf</fancyName>
+</American>
+
+<American rdf:about="#new_england_lobster_roll">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New England Lobster Roll</fancyName>
+</American>
+
+<American rdf:about="#reuben_sandwich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reuben Sandwich</fancyName>
+</American>
+
+<American rdf:about="#thanksgiving_turkey_with_cranberry_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thanksgiving Turkey with Cranberry Sauce</fancyName>
+</American>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
