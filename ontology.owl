@@ -7715,11 +7715,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green cardamom pods</fancyName>
 </Spice>
 
-<Edible rdf:about="#black_peppercorns">
+<Seasoning rdf:about="#black_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Peppercorns</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#ground_turmeric">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
