@@ -4546,11 +4546,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive Ease</fancyName>
 </Coffee>
 
-<Infusion rdf:about="#skin_glow_enhancer">
+<Water rdf:about="#skin_glow_enhancer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Water"/>
+  <rdf:type rdf:resource="#Coffee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin Glow Enhancer</fancyName>
-</Infusion>
+</Water>
 
 <Infusion rdf:about="#hydration_haven">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
