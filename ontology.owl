@@ -5552,11 +5552,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil for frying</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#egusi_seeds">
+<Seed rdf:about="#egusi_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egusi seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#stockfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
