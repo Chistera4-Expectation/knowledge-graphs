@@ -3845,11 +3845,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant-based milk alternatives</fancyName>
 </Oil>
 
-<Bread rdf:about="#whole_grain_breads">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grain breads</fancyName>
-</Bread>
-
 <Seed rdf:about="#energy_balls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy balls</fancyName>
