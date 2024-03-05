@@ -5533,11 +5533,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ladyfingers</fancyName>
 </Oil>
 
-<Edible rdf:about="#espresso_powder">
+<Coffee rdf:about="#espresso_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espresso powder</fancyName>
-</Edible>
+</Coffee>
 
 <Edible rdf:about="#instant_coffee_granules">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
