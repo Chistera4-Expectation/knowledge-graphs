@@ -5570,11 +5570,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil leaves</fancyName>
 </Oil>
 
-<Edible rdf:about="#balsamic_vinegar">
+<Sauce rdf:about="#balsamic_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
