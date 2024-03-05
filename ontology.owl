@@ -6850,11 +6850,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashew nuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#macadamia_nuts">
+<Vegetal rdf:about="#macadamia_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macadamia nuts</fancyName>
-</Edible>
+</Vegetal>
 
 <Edible rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
