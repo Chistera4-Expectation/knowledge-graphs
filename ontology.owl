@@ -6385,11 +6385,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semisweet chocolate</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#grits">
+<Breakfast rdf:about="#grits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grits</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#celery_stalks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
