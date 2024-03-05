@@ -6949,7 +6949,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric Powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#red_chili_powder">
+<Seasoning rdf:about="#red_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
@@ -6957,7 +6957,7 @@
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#dark_rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
