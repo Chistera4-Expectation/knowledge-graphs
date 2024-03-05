@@ -6995,14 +6995,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water Chestnuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#bean_sprouts">
+<Vegetable rdf:about="#bean_sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean Sprouts</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chinese_black_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
