@@ -6152,11 +6152,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemons</fancyName>
 </Fruit>
 
-<Edible rdf:about="#hot_dog_bun">
+<Bread rdf:about="#hot_dog_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot dog bun</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#roll">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
