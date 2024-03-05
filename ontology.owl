@@ -837,6 +837,7 @@
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Seasoning>
 
@@ -1782,6 +1783,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
 </Milk>
 
@@ -2460,6 +2462,7 @@
 <Animal rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Animal>
 
@@ -3709,6 +3712,7 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3882,6 +3886,7 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetal>
 
@@ -5939,6 +5944,7 @@
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt to taste</fancyName>
 </Edible>
 
@@ -6929,6 +6935,7 @@
 <Edible rdf:about="#mustard_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seeds</fancyName>
 </Edible>
 
@@ -6938,6 +6945,7 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric Powder</fancyName>
 </Edible>
@@ -6947,6 +6955,7 @@
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Powder</fancyName>
 </Edible>
@@ -7014,6 +7023,7 @@
 <Edible rdf:about="#tamarind_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
 </Edible>
 
@@ -7580,6 +7590,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon sticks</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon Sticks</fancyName>
 </Edible>
@@ -7700,7 +7711,9 @@
 <Edible rdf:about="#green_cardamom_pods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Cardamom Pods</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green cardamom pods</fancyName>
 </Edible>
 
 <Edible rdf:about="#black_peppercorns">
@@ -7756,6 +7769,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander powder</fancyName>
 </Edible>
@@ -7764,6 +7778,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh coriander leaves</fancyName>
 </Edible>
 
@@ -7789,6 +7804,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chilies, finely chopped</fancyName>
+</Edible>
+
+<Edible rdf:about="#fenugreek_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#curry_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#goan_fish_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry leaves</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
