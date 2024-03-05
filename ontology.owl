@@ -936,11 +936,11 @@
 
 <Sweetener rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Animal"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <rdf:type rdf:resource="#Butter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
