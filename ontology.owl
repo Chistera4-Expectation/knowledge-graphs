@@ -6013,11 +6013,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar, Corn Syrup, Water, Salt, Distilled White Vinegar, Tomato Concentrate, Natural Flavorings, Spice Extractives, Potassium Sorbate, Xanthan Gum, Propylene Glycol Alginate, Sodium Benzoate, Color Added</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#edible_plankton_extract">
+<Seaweed rdf:about="#edible_plankton_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edible Plankton Extract</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#lemon_juice_concentrate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
