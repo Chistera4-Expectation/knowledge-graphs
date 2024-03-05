@@ -322,6 +322,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -3234,6 +3235,7 @@
 
 <Oil rdf:about="#sesame_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -6042,6 +6044,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -6628,12 +6631,14 @@
 <Edible rdf:about="#wasabi_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi paste</fancyName>
 </Edible>
 
 <Edible rdf:about="#pickled_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Edible>
 
@@ -6695,6 +6700,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger root</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#sake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sake</fancyName>
+</Edible>
+
+<Edible rdf:about="#nori_sheets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nori sheets</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
