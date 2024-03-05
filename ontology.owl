@@ -4210,7 +4210,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TeaCup</fancyName>
 </Tea>
 
-<Liquid rdf:about="#water">
+<Water rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#tamales"/>
@@ -4244,7 +4244,7 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
-</Liquid>
+</Water>
 
 <Liquid rdf:about="#juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
