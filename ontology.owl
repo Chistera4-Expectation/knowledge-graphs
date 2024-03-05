@@ -7151,11 +7151,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken stock</fancyName>
 </Poultry>
 
-<Edible rdf:about="#ice">
+<Water rdf:about="#ice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#peanut_dipping_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
