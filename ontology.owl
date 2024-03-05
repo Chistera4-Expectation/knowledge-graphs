@@ -5738,7 +5738,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Spare Ribs</fancyName>
 </Pork>
 
-<Edible rdf:about="#brown_sugar">
+<Sweetener rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
@@ -5750,7 +5750,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown Sugar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
