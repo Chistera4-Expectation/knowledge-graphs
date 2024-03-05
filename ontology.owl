@@ -5364,11 +5364,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#egg_wash">
+<Dressing rdf:about="#egg_wash">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg wash</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
