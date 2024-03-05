@@ -6852,12 +6852,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spicy Pickled Cabbage</fancyName>
 </Spice>
 
-<Edible rdf:about="#peanuts">
+<Seed rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#cashews">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
