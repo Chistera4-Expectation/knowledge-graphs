@@ -4682,11 +4682,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
 </Energy>
 
-<Milk rdf:about="#protein_shakes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein shakes</fancyName>
-</Milk>
-
 <Energy rdf:about="#sports_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drinks</fancyName>
