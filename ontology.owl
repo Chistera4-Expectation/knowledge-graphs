@@ -6777,11 +6777,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cardamom</fancyName>
 </Spice>
 
-<Edible rdf:about="#vegetables_of_your_choice">
+<Mushroom rdf:about="#vegetables_of_your_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables of your choice</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
