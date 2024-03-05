@@ -7036,11 +7036,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Ingredients</fancyName>
 </Edible>
 
-<Edible rdf:about="#red_chili_beans">
+<Spice rdf:about="#red_chili_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Beans</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#maotai_liquor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
