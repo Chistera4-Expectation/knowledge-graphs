@@ -1004,6 +1004,12 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Spice>
 
@@ -6824,17 +6830,6 @@
   <ingredientOf rdf:resource="#mango_chutney"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chillies</fancyName>
 </Vegetable>
-
-<Spice rdf:about="#fresh_ginger">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#mango_chutney"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#hot_pot"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <ingredientOf rdf:resource="#beijing_roast_duck"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger</fancyName>
-</Spice>
 
 <Spice rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
