@@ -4053,11 +4053,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh fruit juice</fancyName>
 </Fruit>
 
-<Vegetal rdf:about="#nutritional_yeast">
+<Seed rdf:about="#nutritional_yeast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutritional yeast</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#algae">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
