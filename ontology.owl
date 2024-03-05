@@ -7287,11 +7287,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom pods</fancyName>
 </Spice>
 
-<Edible rdf:about="#coriander_leaves_for_garnish">
+<Seasoning rdf:about="#coriander_leaves_for_garnish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coriander leaves for garnish</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#saffron_strands_soaked_in_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
