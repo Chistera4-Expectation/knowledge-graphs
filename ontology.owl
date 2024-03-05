@@ -6663,11 +6663,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Rice>
 
-<Edible rdf:about="#ginger__grated">
+<Seasoning rdf:about="#ginger__grated">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger, grated</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#minced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
