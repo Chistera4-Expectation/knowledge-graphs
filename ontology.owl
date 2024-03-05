@@ -4097,10 +4097,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granola bars</fancyName>
 </Breakfast>
 
-<Vegetal rdf:about="#energy_balls">
+<Seed rdf:about="#energy_balls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy balls</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#smoothies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
