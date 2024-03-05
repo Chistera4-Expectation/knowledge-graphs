@@ -6028,11 +6028,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground crayfish</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#maggi_cubes">
+<Seasoning rdf:about="#maggi_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi cubes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#seasoning_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
