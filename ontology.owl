@@ -6322,11 +6322,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#ripe_plantains">
+<Fruit rdf:about="#ripe_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe plantains</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#salt_cod">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
