@@ -7793,11 +7793,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#mango_powder">
+<Oil rdf:about="#mango_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango powder</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#green_chilies__finely_chopped">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
