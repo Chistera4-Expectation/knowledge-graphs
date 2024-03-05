@@ -4202,10 +4202,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beverages</fancyName>
 </Milk>
 
-<Food rdf:about="#snacks">
+<Fish rdf:about="#snacks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snacks</fancyName>
-</Food>
+</Fish>
 
 <Food rdf:about="#condiments">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
