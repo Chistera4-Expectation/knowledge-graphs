@@ -3879,11 +3879,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grain breads</fancyName>
 </Bread>
 
-<Breakfast rdf:about="#granola_bars">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granola bars</fancyName>
-</Breakfast>
-
 <Seed rdf:about="#energy_balls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy balls</fancyName>
