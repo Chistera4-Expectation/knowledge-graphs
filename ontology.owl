@@ -535,6 +535,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -554,6 +555,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
@@ -563,6 +565,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion powder</fancyName>
 </Seasoning>
@@ -580,6 +583,7 @@
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -644,12 +648,14 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#rosemary">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosemary</fancyName>
 </Seasoning>
 
@@ -674,6 +680,7 @@
 <Seasoning rdf:about="#sage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sage</fancyName>
 </Seasoning>
 
@@ -1644,6 +1651,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#new_england_lobster_roll"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -2601,6 +2609,7 @@
 
 <Fruit rdf:about="#apple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple</fancyName>
 </Fruit>
 
@@ -3789,6 +3798,7 @@
 
 <Juice rdf:about="#orange_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
 </Juice>
 
@@ -3940,6 +3950,7 @@
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -4658,6 +4669,7 @@
 <Edible rdf:about="#granulated_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
 </Edible>
 
@@ -5131,6 +5143,7 @@
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Edible>
@@ -5485,6 +5498,7 @@
 <Edible rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger_with_fries"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -5731,6 +5745,52 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousands Island Dressing</fancyName>
+</Edible>
+
+<Edible rdf:about="#whole_turkey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole turkey</fancyName>
+</Edible>
+
+<Edible rdf:about="#broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+</Edible>
+
+<Edible rdf:about="#fresh_cranberries">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cranberries</fancyName>
+</Edible>
+
+<Edible rdf:about="#orange_zest">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange zest</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_cloves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cloves</fancyName>
+</Edible>
+
+<Edible rdf:about="#cinnamon_stick">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon stick</fancyName>
+</Edible>
+
+<Edible rdf:about="#walnuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walnuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#pecans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
 </Edible>
 
 <owl:AllDisjointClasses>
