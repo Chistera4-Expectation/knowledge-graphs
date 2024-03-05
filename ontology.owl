@@ -4138,10 +4138,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressings</fancyName>
 </Oil>
 
-<Food rdf:about="#fruits">
+<Fruit rdf:about="#fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruits</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
