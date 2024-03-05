@@ -6764,12 +6764,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemons</fancyName>
 </Fruit>
 
-<Edible rdf:about="#limes">
+<Fruit rdf:about="#limes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#oranges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
