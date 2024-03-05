@@ -6085,11 +6085,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elbow macaroni</fancyName>
 </Pasta>
 
-<Edible rdf:about="#sharp_cheddar_cheese">
+<Cheese rdf:about="#sharp_cheddar_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharp Cheddar cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#other_ground_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
