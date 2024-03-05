@@ -4297,10 +4297,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte beverages</fancyName>
 </Alcoholic>
 
-<Liquid rdf:about="#hot_chocolate">
+<Alcoholic rdf:about="#hot_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot chocolate</fancyName>
-</Liquid>
+</Alcoholic>
 
 <Liquid rdf:about="#vitamin_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
