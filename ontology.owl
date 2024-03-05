@@ -6804,11 +6804,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh curry leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#steamed_rice">
+<Rice rdf:about="#steamed_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed Rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#grilled_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
