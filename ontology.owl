@@ -6279,11 +6279,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#other_preferred_herbs">
+<Spice rdf:about="#other_preferred_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other preferred herbs</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#hot_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
