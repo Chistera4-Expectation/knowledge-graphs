@@ -5019,11 +5019,11 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
 </Sauce>
 
-<Edible rdf:about="#pepper_to_taste">
+<Seasoning rdf:about="#pepper_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#ravioli_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
