@@ -6647,11 +6647,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japanese rice wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#green_tea_leaves">
+<Tea rdf:about="#green_tea_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green tea leaves</fancyName>
-</Edible>
+</Tea>
 
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
