@@ -7383,11 +7383,11 @@
   <ingredientOf rdf:resource="#matcha_desserts"/>
 </Fruit>
 
-<Edible rdf:about="#almond_flour">
+<Oil rdf:about="#almond_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond flour</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#chocolate_ganache_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
