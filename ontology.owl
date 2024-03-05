@@ -7293,11 +7293,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coriander leaves for garnish</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#saffron_strands_soaked_in_milk">
+<Milk rdf:about="#saffron_strands_soaked_in_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron strands soaked in milk</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#kewra_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
