@@ -1863,10 +1863,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
 </Butter>
 
-<Dairy rdf:about="#pudding">
+<Butter rdf:about="#pudding">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pudding</fancyName>
-</Dairy>
+</Butter>
 
 <Dairy rdf:about="#milkshakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
