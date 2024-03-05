@@ -544,6 +544,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -3138,6 +3139,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
@@ -3234,6 +3236,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3252,6 +3255,7 @@
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3999,6 +4003,7 @@
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -4584,6 +4589,7 @@
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Edible>
 
@@ -4855,6 +4861,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
@@ -5163,6 +5170,7 @@
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Peppers</fancyName>
 </Edible>
@@ -5344,6 +5352,7 @@
 <Edible rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
@@ -5943,6 +5952,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#ripe_plantains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe plantains</fancyName>
+</Edible>
+
+<Edible rdf:about="#salt_cod">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt cod</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
