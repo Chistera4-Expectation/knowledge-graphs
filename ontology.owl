@@ -1555,11 +1555,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melted butter</fancyName>
 </Butter>
 
-<Butter rdf:about="#softened_butter">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softened Butter</fancyName>
-</Butter>
-
 <Cheese rdf:about="#cheddar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheddar</fancyName>
