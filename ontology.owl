@@ -7111,11 +7111,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon sticks</fancyName>
 </Spice>
 
-<Edible rdf:about="#bamboo_shoots">
+<Vegetable rdf:about="#bamboo_shoots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo shoots</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#wood_ear_fungus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
