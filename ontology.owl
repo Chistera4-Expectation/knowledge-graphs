@@ -5025,11 +5025,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#ravioli_pasta">
+<Pasta rdf:about="#ravioli_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli_al_burro_e_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli pasta</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#grated_parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
