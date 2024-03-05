@@ -1523,11 +1523,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salted butter</fancyName>
 </Butter>
 
-<Butter rdf:about="#honey_butter">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey Butter</fancyName>
-</Butter>
-
 <Butter rdf:about="#melted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
