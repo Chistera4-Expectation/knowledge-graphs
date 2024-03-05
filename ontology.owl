@@ -7401,11 +7401,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped cream</fancyName>
 </Dressing>
 
-<Edible rdf:about="#green_tea_ice_cream">
+<Tea rdf:about="#green_tea_ice_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green tea ice cream</fancyName>
-</Edible>
+</Tea>
 
 <Edible rdf:about="#chinese_cooking_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
