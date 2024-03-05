@@ -321,6 +321,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -436,7 +437,9 @@
 
 <Dressing rdf:about="#fish_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#soy_sauce_variations">
@@ -629,6 +632,7 @@
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -650,6 +654,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#festival"/>
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -1808,6 +1813,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -2347,6 +2353,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3533,6 +3540,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#plantain"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4507,6 +4515,7 @@
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5219,6 +5228,7 @@
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#rum_punch"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -5532,6 +5542,7 @@
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <ingredientOf rdf:resource="#fried_oysters"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -5710,6 +5721,7 @@
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all-purpose flour</fancyName>
 </Edible>
@@ -5814,6 +5826,7 @@
 <Edible rdf:about="#vegetable_oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil for frying</fancyName>
 </Edible>
 
@@ -6028,6 +6041,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -6657,6 +6671,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#seafood_of_choice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seafood of choice</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_wine_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#ice_cold_soda_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cold soda water</fancyName>
+</Edible>
+
+<Edible rdf:about="#ginger_root">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger root</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
