@@ -506,6 +506,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -574,6 +575,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -2849,6 +2851,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm Oil</fancyName>
@@ -3093,6 +3096,7 @@
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3106,6 +3110,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3131,6 +3136,7 @@
 
 <Vegetable rdf:about="#okra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
 </Vegetable>
 
@@ -3834,6 +3840,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -4625,6 +4632,7 @@
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -4665,8 +4673,10 @@
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
 </Edible>
 
 <Edible rdf:about="#corn_tortillas">
@@ -4692,7 +4702,9 @@
 <Edible rdf:about="#chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili peppers</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Peppers</fancyName>
 </Edible>
 
 <Edible rdf:about="#onions">
@@ -4973,6 +4985,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi seasoning</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi Seasoning</fancyName>
 </Edible>
@@ -5018,6 +5031,7 @@
 <Edible rdf:about="#stockfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stockfish</fancyName>
 </Edible>
 
@@ -5025,6 +5039,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoked fish</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoked Fish</fancyName>
 </Edible>
@@ -5100,6 +5115,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Chili Flakes</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooking_bananas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Bananas</fancyName>
+</Edible>
+
+<Edible rdf:about="#meat_of_choice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat of choice</fancyName>
+</Edible>
+
+<Edible rdf:about="#scotch_bonnet_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_preferred_seasonings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other preferred seasonings</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
