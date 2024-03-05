@@ -6316,11 +6316,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fruits</fancyName>
 </Fruit>
 
-<Edible rdf:about="#conch_meat">
+<Molluscs rdf:about="#conch_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#ripe_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
