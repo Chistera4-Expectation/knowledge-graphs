@@ -2757,6 +2757,61 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macadamia nut oil</fancyName>
 </Oil>
 
+<Seaweed rdf:about="#arame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arame</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#dulse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dulse</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#kelp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kelp</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#agar_agar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agar-agar</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#laver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laver</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#irish_moss">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Moss</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#samphire">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samphire</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#sea_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Beans</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#ulva">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulva</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#sargassum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sargassum</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#fucus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fucus</fancyName>
+</Seaweed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
