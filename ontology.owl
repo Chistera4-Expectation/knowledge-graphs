@@ -4128,10 +4128,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastas</fancyName>
 </Pasta>
 
-<Vegetal rdf:about="#sauces">
+<Oil rdf:about="#sauces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauces</fancyName>
-</Vegetal>
+</Oil>
 
 <Vegetal rdf:about="#dressings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
