@@ -3579,6 +3579,76 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greens</fancyName>
 </Food>
 
+<Alcoholic rdf:about="#beer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beer</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#spirits">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirits</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#cocktails">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocktails</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#liqueurs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liqueurs</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#fortified_wines">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fortified wines</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#aperitifs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aperitifs</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#hard_seltzer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard Seltzer</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#malt_beverages">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malt Beverages</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#distilled_non_spirituous_beverages">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distilled Non-Spirituous Beverages</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#ready_to_drink_canned_cocktails">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ready-to-Drink Canned Cocktails</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#rice_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Wine</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#fruit_brandy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit Brandy</fancyName>
+</Alcoholic>
+
+<Alcoholic rdf:about="#cordials">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cordials</fancyName>
+</Alcoholic>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
