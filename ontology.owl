@@ -7329,11 +7329,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro leaves</fancyName>
 </Vegetal>
 
-<Edible rdf:about="#chicken_pieces">
+<Poultry rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pieces</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#cumin_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
