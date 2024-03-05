@@ -5277,11 +5277,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped bell pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chopped_jalapeno_peppers">
+<Vegetable rdf:about="#chopped_jalapeno_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped jalapeño peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
