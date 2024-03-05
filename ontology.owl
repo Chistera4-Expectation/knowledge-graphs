@@ -2402,10 +2402,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Poultry>
 
-<Animal rdf:about="#lean_deli_meats">
+<Poultry rdf:about="#lean_deli_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lean deli meats</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
