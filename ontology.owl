@@ -6831,11 +6831,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla beans</fancyName>
 </Oil>
 
-<Edible rdf:about="#coffee_beans">
+<Coffee rdf:about="#coffee_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee beans</fancyName>
-</Edible>
+</Coffee>
 
 <Edible rdf:about="#cacao_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
