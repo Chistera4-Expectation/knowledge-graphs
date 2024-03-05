@@ -4300,6 +4300,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flan</fancyName>
 </Latin>
 
+<African rdf:about="#jollof_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jollof Rice</fancyName>
+</African>
+
+<African rdf:about="#pounded_yam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pounded Yam</fancyName>
+</African>
+
+<African rdf:about="#chicken_and_groundnut_stew">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken and Groundnut Stew</fancyName>
+</African>
+
+<African rdf:about="#egusi_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egusi Soup</fancyName>
+</African>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
