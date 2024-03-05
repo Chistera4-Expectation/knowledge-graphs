@@ -5377,7 +5377,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
 </Pasta>
 
-<Edible rdf:about="#grated_parmesan_cheese">
+<Cheese rdf:about="#grated_parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
@@ -5385,7 +5385,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grated parmesan cheese</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grated Parmesan cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#pepper_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
