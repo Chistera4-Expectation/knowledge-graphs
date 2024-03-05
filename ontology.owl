@@ -4239,11 +4239,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweets</fancyName>
 </Sweetener>
 
-<Food rdf:about="#herbs">
+<Spice rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
-</Food>
+</Spice>
 
 <Food rdf:about="#greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
