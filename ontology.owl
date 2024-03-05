@@ -446,6 +446,9 @@
 <Dressing rdf:about="#pesto_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Sauce"/>
+  <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#albondigas_soup"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesto Sauce</fancyName>
 </Dressing>
 
@@ -519,15 +522,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound Butter Variations</fancyName>
 </Dressing>
-
-<Sauce rdf:about="#tomato_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#eggplant_parmesan"/>
-  <ingredientOf rdf:resource="#albondigas_soup"/>
-  <ingredientOf rdf:resource="#festival"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
-</Sauce>
 
 <Sauce rdf:about="#alfredo_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
