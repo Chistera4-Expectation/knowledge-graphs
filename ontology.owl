@@ -3669,11 +3669,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hummus</fancyName>
 </Vegetable>
 
-<Food rdf:about="#beans">
+<Vegetable rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas__corn_or_flour_tortillas_rolled_around_filling"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
-</Food>
+</Vegetable>
 
 <Alcoholic rdf:about="#beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
