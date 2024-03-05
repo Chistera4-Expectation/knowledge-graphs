@@ -4312,10 +4312,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy drinks</fancyName>
 </Energy>
 
-<Liquid rdf:about="#seltzer_water">
+<Alcoholic rdf:about="#seltzer_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seltzer water</fancyName>
-</Liquid>
+</Alcoholic>
 
 <Liquid rdf:about="#fruit_punch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
