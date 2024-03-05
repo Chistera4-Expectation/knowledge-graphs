@@ -6892,11 +6892,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Lemons</fancyName>
 </Fruit>
 
-<Edible rdf:about="#ripe_mangoes">
+<Fruit rdf:about="#ripe_mangoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_chutney"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe mangoes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#white_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
