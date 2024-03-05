@@ -5769,11 +5769,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn masa dough</fancyName>
 </Bread>
 
-<Edible rdf:about="#banana_leaves">
+<Dressing rdf:about="#banana_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana leaves</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#corn_husks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
