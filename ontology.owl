@@ -4805,10 +4805,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Tea>
 
-<Drink rdf:about="#low_sugar_content">
+<Water rdf:about="#low_sugar_content">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low sugar content</fancyName>
-</Drink>
+</Water>
 
 <Drink rdf:about="#herbal_teas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
