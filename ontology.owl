@@ -6589,10 +6589,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
 </Beef>
 
-<Edible rdf:about="#stock">
+<Vegetable rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#red_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
