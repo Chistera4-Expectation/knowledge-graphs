@@ -6187,11 +6187,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousands Island Dressing</fancyName>
 </Dressing>
 
-<Edible rdf:about="#whole_turkey">
+<Poultry rdf:about="#whole_turkey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole turkey</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
