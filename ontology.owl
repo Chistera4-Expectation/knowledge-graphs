@@ -6686,11 +6686,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions, sliced</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#sherry">
+<Sauce rdf:about="#sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sherry</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#miso_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
