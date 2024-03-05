@@ -1246,6 +1246,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
+  <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Chops</fancyName>
 </Pork>
 
@@ -1262,13 +1263,6 @@
 <Pork rdf:about="#spare_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spare Ribs</fancyName>
-</Pork>
-
-<Pork rdf:about="#pork_belly">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#red_braised_pork_belly"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Belly</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork belly</fancyName>
 </Pork>
 
 <Pork rdf:about="#prosciutto">
