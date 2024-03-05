@@ -6989,11 +6989,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dipping Sauces</fancyName>
 </Sauce>
 
-<Edible rdf:about="#water_chestnuts">
+<Seed rdf:about="#water_chestnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water Chestnuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#bean_sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
