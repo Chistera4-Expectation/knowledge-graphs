@@ -477,6 +477,7 @@
 
 <Seasoning rdf:about="#salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2051,6 +2052,7 @@
 
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2672,6 +2674,7 @@
 
 <Oil rdf:about="#olive_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
 
@@ -4207,6 +4210,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ragda Patties</fancyName>
 </Indian>
+
+<Edible rdf:about="#spaghetti_pasta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spaghetti pasta</fancyName>
+</Edible>
+
+<Edible rdf:about="#grated_pecorino_romano_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grated Pecorino Romano cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#garlic__minced">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic, minced</fancyName>
+</Edible>
+
+<Edible rdf:about="#black_pepper__freshly_ground">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper, freshly ground</fancyName>
+</Edible>
+
+<Edible rdf:about="#parsley__chopped">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley, chopped</fancyName>
+</Edible>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
