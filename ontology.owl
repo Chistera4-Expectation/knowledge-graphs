@@ -5902,11 +5902,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bun</fancyName>
 </Bread>
 
-<Edible rdf:about="#bread_roll">
+<Bread rdf:about="#bread_roll">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bread roll</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
