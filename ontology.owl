@@ -6707,13 +6707,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilli peppers</fancyName>
 </Spice>
 
-<Edible rdf:about="#peanuts">
+<Seed rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#soybeans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
