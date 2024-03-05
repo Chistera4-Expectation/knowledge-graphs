@@ -7423,11 +7423,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chana dal</fancyName>
 </Seed>
 
-<Edible rdf:about="#maida_flour">
+<Additive rdf:about="#maida_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maida flour</fancyName>
-</Edible>
+</Additive>
 
 <Edible rdf:about="#red_chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
