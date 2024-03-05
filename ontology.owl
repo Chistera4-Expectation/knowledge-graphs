@@ -1475,11 +1475,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Venison</fancyName>
 </Poultry>
 
-<Meat rdf:about="#goat_meat">
+<Poultry rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#veal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
