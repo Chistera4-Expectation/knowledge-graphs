@@ -7468,11 +7468,11 @@
   <ingredientOf rdf:resource="#hot_pot"/>
 </Sauce>
 
-<Edible rdf:about="#cornstarch_slurry">
+<Dressing rdf:about="#cornstarch_slurry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch slurry</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#cooked_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
