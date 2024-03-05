@@ -3889,7 +3889,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#bell_peppers">
+<Vegetable rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#gazpacho"/>
@@ -3907,7 +3907,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#cucumbers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
