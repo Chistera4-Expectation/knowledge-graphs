@@ -4862,10 +4862,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
 </Juice>
 
-<Liquid rdf:about="#energy_drinks">
+<Energy rdf:about="#energy_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy drinks</fancyName>
-</Liquid>
+</Energy>
 
 <Liquid rdf:about="#eggnog">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
