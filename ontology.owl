@@ -7091,11 +7091,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dashi broth</fancyName>
 </Sauce>
 
-<Edible rdf:about="#seafood_of_choice">
+<Fish rdf:about="#seafood_of_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seafood of choice</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#rice_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
