@@ -5565,14 +5565,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stockfish</fancyName>
 </Fish>
 
-<Edible rdf:about="#smoked_fish">
+<Fish rdf:about="#smoked_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoked fish</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoked Fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
