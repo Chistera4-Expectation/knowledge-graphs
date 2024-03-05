@@ -1868,10 +1868,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pudding</fancyName>
 </Butter>
 
-<Dairy rdf:about="#milkshakes">
+<Butter rdf:about="#milkshakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milkshakes</fancyName>
-</Dairy>
+</Butter>
 
 <Dairy rdf:about="#smoothies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
