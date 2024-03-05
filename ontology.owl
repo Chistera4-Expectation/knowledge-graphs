@@ -6424,11 +6424,11 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
 </Fruit>
 
-<Edible rdf:about="#scotch_bonnet_pepper_sauce">
+<Sauce rdf:about="#scotch_bonnet_pepper_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#live_lobsters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
