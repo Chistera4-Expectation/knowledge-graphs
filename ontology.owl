@@ -5651,11 +5651,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili flakes</fancyName>
 </Spice>
 
-<Edible rdf:about="#cooking_bananas">
+<Fruit rdf:about="#cooking_bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Bananas</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#meat_of_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
