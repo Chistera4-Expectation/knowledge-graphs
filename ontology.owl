@@ -6257,11 +6257,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork ribs</fancyName>
 </Pork>
 
-<Edible rdf:about="#barbecue_sauce">
+<Sauce rdf:about="#barbecue_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbecue sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
