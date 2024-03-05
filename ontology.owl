@@ -5859,7 +5859,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon zest</fancyName>
 </Spice>
 
-<Edible rdf:about="#cornstarch">
+<Bread rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
@@ -5878,7 +5878,7 @@
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#caramel_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
