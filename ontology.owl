@@ -7203,11 +7203,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro leaves</fancyName>
 </Oil>
 
-<Edible rdf:about="#soba_noodles">
+<Pasta rdf:about="#soba_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soba noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#chili_garlic_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
