@@ -7487,11 +7487,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili bean sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#ground_sichuan_peppercorns">
+<Spice rdf:about="#ground_sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Sichuan peppercorns</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fermented_bean_curd_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
