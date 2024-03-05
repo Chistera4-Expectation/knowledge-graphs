@@ -1851,11 +1851,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">King crabs</fancyName>
 </Crustaceans>
 
-<Crustaceans rdf:about="#snow_crabs">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow crabs</fancyName>
-</Crustaceans>
-
 <Crustaceans rdf:about="#ghost_crabs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghost crabs</fancyName>
