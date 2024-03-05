@@ -6843,12 +6843,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cacao beans</fancyName>
 </Oil>
 
-<Edible rdf:about="#cashew_nuts">
+<Seed rdf:about="#cashew_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashew nuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#macadamia_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
