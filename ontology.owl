@@ -6724,11 +6724,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonito flakes</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#dried_bonito_fish">
+<Fish rdf:about="#dried_bonito_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried bonito fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#other_protein_source">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
