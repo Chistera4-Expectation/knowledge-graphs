@@ -1135,10 +1135,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humectants</fancyName>
 </Dressing>
 
-<Additive rdf:about="#leavening_agents">
+<Seasoning rdf:about="#leavening_agents">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leavening Agents</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#acidity_regulators">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
