@@ -3921,10 +3921,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte Solution</fancyName>
 </Infusion>
 
-<Infusion rdf:about="#glucose_drip__a_solution_containing_glucose">
+<Coffee rdf:about="#glucose_drip__a_solution_containing_glucose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose Drip: A solution containing glucose</fancyName>
-</Infusion>
+</Coffee>
 
 <Infusion rdf:about="#glucose_drip">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
