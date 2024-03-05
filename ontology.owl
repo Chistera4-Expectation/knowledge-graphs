@@ -3936,10 +3936,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total Parenteral Nutrition</fancyName>
 </Infusion>
 
-<Infusion rdf:about="#rehydration_solution">
+<Coffee rdf:about="#rehydration_solution">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rehydration Solution</fancyName>
-</Infusion>
+</Coffee>
 
 <Infusion rdf:about="#vitamin_c_infusion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
