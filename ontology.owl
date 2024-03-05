@@ -7225,11 +7225,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Shallots</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#dried_goji_berries">
+<Fruit rdf:about="#dried_goji_berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried Goji Berries</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#minced_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
