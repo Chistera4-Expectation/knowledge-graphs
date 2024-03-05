@@ -7395,11 +7395,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate ganache ingredients</fancyName>
 </Milk>
 
-<Edible rdf:about="#whipped_cream">
+<Dressing rdf:about="#whipped_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped cream</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#green_tea_ice_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
