@@ -6582,11 +6582,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar, salt, sugar</fancyName>
 </Rice>
 
-<Edible rdf:about="#carbonated_water">
+<Water rdf:about="#carbonated_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonated water</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#seafood_for_tempura">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
