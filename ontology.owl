@@ -5918,12 +5918,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spice mix</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cooking_oil">
+<Oil rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
