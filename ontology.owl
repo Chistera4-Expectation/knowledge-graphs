@@ -7372,11 +7372,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White chocolate chips</fancyName>
 </Breakfast>
 
-<Edible rdf:about="#raspberries">
+<Fruit rdf:about="#raspberries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raspberries</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#strawberries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
