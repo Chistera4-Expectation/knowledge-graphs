@@ -6019,11 +6019,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edible Plankton Extract</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#lemon_juice_concentrate">
+<Juice rdf:about="#lemon_juice_concentrate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice Concentrate</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
