@@ -5576,7 +5576,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
 </Sauce>
 
-<Edible rdf:about="#cornmeal">
+<Bread rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#cornbread"/>
@@ -5585,7 +5585,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#polenta_cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
