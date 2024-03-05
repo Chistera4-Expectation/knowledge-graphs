@@ -6242,11 +6242,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Spice>
 
-<Edible rdf:about="#scootch_bonnet_peppers_in_brine">
+<Seasoning rdf:about="#scootch_bonnet_peppers_in_brine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken_or_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scootch bonnet peppers in brine</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
