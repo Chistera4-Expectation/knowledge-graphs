@@ -7115,11 +7115,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger root</fancyName>
 </Spice>
 
-<Edible rdf:about="#fresh_fish">
+<Fish rdf:about="#fresh_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
