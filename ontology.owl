@@ -4964,11 +4964,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#savoiardi_biscuits">
+<Vegetal rdf:about="#savoiardi_biscuits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savoiardi biscuits</fancyName>
-</Edible>
+</Vegetal>
 
 <Edible rdf:about="#marsala_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
