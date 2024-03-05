@@ -6558,11 +6558,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiso leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pickled_daikon">
+<Vegetable rdf:about="#pickled_daikon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi_roll"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled daikon</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#soybean_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
