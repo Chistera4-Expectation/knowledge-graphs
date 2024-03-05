@@ -2602,11 +2602,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naan Bread</fancyName>
 </Bread>
 
-<Bread rdf:about="#bagel_bread">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bagel Bread</fancyName>
-</Bread>
-
 <Bread rdf:about="#english_muffin_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English Muffin Bread</fancyName>
