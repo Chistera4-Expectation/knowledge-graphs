@@ -7811,11 +7811,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#curry_leaves">
+<Spice rdf:about="#curry_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry leaves</fancyName>
-</Edible>
+</Spice>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
