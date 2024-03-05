@@ -6391,12 +6391,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grits</fancyName>
 </Breakfast>
 
-<Edible rdf:about="#celery_stalks">
+<Vegetable rdf:about="#celery_stalks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery stalks</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
