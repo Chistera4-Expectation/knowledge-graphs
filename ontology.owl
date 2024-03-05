@@ -4359,10 +4359,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins</fancyName>
 </Beef>
 
-<Edible rdf:about="#dairy">
+<Milk rdf:about="#dairy">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#healthy_fats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
