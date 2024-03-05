@@ -4900,10 +4900,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling water</fancyName>
 </Energy>
 
-<Liquid rdf:about="#fruit_flavors">
+<Juice rdf:about="#fruit_flavors">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit flavors</fancyName>
-</Liquid>
+</Juice>
 
 <Edible rdf:about="#seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
