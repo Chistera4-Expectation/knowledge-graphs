@@ -2589,11 +2589,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Focaccia Bread</fancyName>
 </Bread>
 
-<Bread rdf:about="#pita_bread">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pita Bread</fancyName>
-</Bread>
-
 <Bread rdf:about="#naan_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naan Bread</fancyName>
