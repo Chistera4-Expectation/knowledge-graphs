@@ -7305,11 +7305,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kewra water</fancyName>
 </Water>
 
-<Edible rdf:about="#water_for_cooking_the_rice">
+<Oil rdf:about="#water_for_cooking_the_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water for cooking the rice</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#boneless_chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
