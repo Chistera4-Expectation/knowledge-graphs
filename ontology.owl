@@ -819,6 +819,76 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mannitol</fancyName>
 </Sweetener>
 
+<Additive rdf:about="#artificial_sweeteners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Sweeteners</fancyName>
+</Additive>
+
+<Additive rdf:about="#emulsifiers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emulsifiers</fancyName>
+</Additive>
+
+<Additive rdf:about="#preservatives">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
+</Additive>
+
+<Additive rdf:about="#antioxidants">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
+</Additive>
+
+<Additive rdf:about="#colorings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colorings</fancyName>
+</Additive>
+
+<Additive rdf:about="#thickeners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thickeners</fancyName>
+</Additive>
+
+<Additive rdf:about="#flavor_enhancers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavor Enhancers</fancyName>
+</Additive>
+
+<Additive rdf:about="#stabilizers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stabilizers</fancyName>
+</Additive>
+
+<Additive rdf:about="#humectants">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humectants</fancyName>
+</Additive>
+
+<Additive rdf:about="#leavening_agents">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leavening Agents</fancyName>
+</Additive>
+
+<Additive rdf:about="#acidity_regulators">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidity Regulators</fancyName>
+</Additive>
+
+<Additive rdf:about="#anti_caking_agents">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-caking Agents</fancyName>
+</Additive>
+
+<Additive rdf:about="#texturizing_agents">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texturizing Agents</fancyName>
+</Additive>
+
+<Additive rdf:about="#bulking_agents">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulking Agents</fancyName>
+</Additive>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
