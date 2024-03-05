@@ -6608,13 +6608,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil for frying</fancyName>
 </Oil>
 
-<Edible rdf:about="#oil">
+<Oil rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#flying_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
