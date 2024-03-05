@@ -7135,13 +7135,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
 </Rice>
 
-<Edible rdf:about="#sake">
+<Alcoholic rdf:about="#sake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sake</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#nori_sheets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
