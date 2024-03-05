@@ -7068,11 +7068,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Wine</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cooked_pork">
+<Pork rdf:about="#cooked_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked pork</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#cooked_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
