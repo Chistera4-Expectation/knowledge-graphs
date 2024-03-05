@@ -5515,12 +5515,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dough</fancyName>
 </Bread>
 
-<Edible rdf:about="#filling">
+<Beef rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
