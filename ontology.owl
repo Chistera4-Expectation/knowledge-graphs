@@ -7017,11 +7017,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins: Beef</fancyName>
 </Beef>
 
-<Edible rdf:about="#seafood_ball">
+<Crustaceans rdf:about="#seafood_ball">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood Ball</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
