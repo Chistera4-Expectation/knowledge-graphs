@@ -5587,11 +5587,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Bread>
 
-<Edible rdf:about="#polenta_cornmeal">
+<Pasta rdf:about="#polenta_cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polenta cornmeal</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#fresh_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
