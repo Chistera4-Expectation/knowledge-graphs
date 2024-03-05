@@ -5522,7 +5522,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
 </Beef>
 
-<Edible rdf:about="#black_pepper">
+<Spice rdf:about="#black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#njama_pirogi"/>
   <ingredientOf rdf:resource="#pili_pili_shrimp"/>
@@ -5537,7 +5537,7 @@
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#caraway_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
