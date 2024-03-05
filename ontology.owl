@@ -4661,6 +4661,24 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goan Fish Curry</fancyName>
 </Indian>
 
+<Edible rdf:about="#pasta_dough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta dough</fancyName>
+</Edible>
+
+<Edible rdf:about="#filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg_wash">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg wash</fancyName>
+</Edible>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
