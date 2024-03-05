@@ -4982,12 +4982,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#heavy_cream">
+<Oil rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#granulated_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
