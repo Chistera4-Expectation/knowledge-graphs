@@ -344,6 +344,8 @@
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
+  <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
@@ -7256,13 +7258,6 @@
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed salad</fancyName>
 </Seaweed>
-
-<Sauce rdf:about="#low_sodium_soy_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#poke_bowls"/>
-  <ingredientOf rdf:resource="#bento_boxes"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-sodium soy sauce</fancyName>
-</Sauce>
 
 <Seasoning rdf:about="#furikake_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
