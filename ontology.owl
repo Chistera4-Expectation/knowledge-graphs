@@ -389,6 +389,7 @@
 
 <Dressing rdf:about="#guacamole">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Latin"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guacamole</fancyName>
 </Dressing>
 
@@ -4263,6 +4264,41 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplant Parmesan</fancyName>
 </Italian>
+
+<Latin rdf:about="#tacos_al_pastor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tacos al Pastor</fancyName>
+</Latin>
+
+<Latin rdf:about="#sopa_de_lima">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sopa de Lima</fancyName>
+</Latin>
+
+<Latin rdf:about="#tamales">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamales</fancyName>
+</Latin>
+
+<Latin rdf:about="#quesadillas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quesadillas</fancyName>
+</Latin>
+
+<Latin rdf:about="#gazpacho">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gazpacho</fancyName>
+</Latin>
+
+<Latin rdf:about="#albondigas_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albondigas Soup</fancyName>
+</Latin>
+
+<Latin rdf:about="#flan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flan</fancyName>
+</Latin>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
