@@ -7067,11 +7067,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omelette</fancyName>
 </Breakfast>
 
-<Edible rdf:about="#roe">
+<Fish rdf:about="#roe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roe</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#kewpie_mayonnaise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
