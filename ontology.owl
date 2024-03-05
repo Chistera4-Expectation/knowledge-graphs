@@ -6324,12 +6324,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh blueberries</fancyName>
 </Fruit>
 
-<Edible rdf:about="#beans">
+<Vegetable rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#jalapenos">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
