@@ -7665,11 +7665,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish sauce for dipping</fancyName>
 </Sauce>
 
-<Edible rdf:about="#shaoxing_wine">
+<Alcoholic rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#cinnamon_stick">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
