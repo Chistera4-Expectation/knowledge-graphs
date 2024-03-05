@@ -4830,10 +4830,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein shakes</fancyName>
 </Milk>
 
-<Drink rdf:about="#sports_drinks">
+<Energy rdf:about="#sports_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drinks</fancyName>
-</Drink>
+</Energy>
 
 <Drink rdf:about="#hot_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
