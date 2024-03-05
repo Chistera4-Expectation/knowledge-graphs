@@ -7086,11 +7086,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cornstarch_slurry">
+<Sauce rdf:about="#cornstarch_slurry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch slurry</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#rice_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
