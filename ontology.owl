@@ -684,6 +684,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -743,6 +744,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#festival"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -750,6 +752,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -847,6 +850,7 @@
 <Seasoning rdf:about="#turmeric">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
 </Seasoning>
 
@@ -918,6 +922,7 @@
   <ingredientOf rdf:resource="#mango_chutney"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground coriander</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Coriander</fancyName>
 </Seasoning>
@@ -1021,6 +1026,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Spice>
 
@@ -1449,6 +1455,7 @@
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1836,6 +1843,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
 </Dairy>
 
@@ -3752,6 +3760,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -5744,6 +5753,7 @@
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
@@ -5979,6 +5989,7 @@
   <ingredientOf rdf:resource="#soba_noodle_salad"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
 </Edible>
 
@@ -6090,6 +6101,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
