@@ -7213,11 +7213,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onion</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#roasted_sesame_seeds">
+<Seed rdf:about="#roasted_sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted Sesame Seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#fried_shallots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
