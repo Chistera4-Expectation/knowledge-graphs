@@ -7048,11 +7048,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maotai Liquor</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#rice_wine">
+<Alcoholic rdf:about="#rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#maotai_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#cooked_jasmine_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
