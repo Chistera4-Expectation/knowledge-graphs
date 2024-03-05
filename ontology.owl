@@ -4059,10 +4059,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutritional yeast</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#algae">
+<Seaweed rdf:about="#algae">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algae</fancyName>
-</Vegetal>
+</Seaweed>
 
 <Vegetal rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
