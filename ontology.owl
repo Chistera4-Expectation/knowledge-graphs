@@ -3724,6 +3724,7 @@
 <Tea rdf:about="#green_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Tea</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green tea</fancyName>
 </Tea>
 
 <Tea rdf:about="#black_tea">
@@ -4166,6 +4167,51 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iced tea</fancyName>
 </Drink>
+
+<Liquid rdf:about="#orange_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#energy_drinks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy drinks</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#eggnog">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggnog</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#juice_blends">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice blends</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#vegetable_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#chocolate_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate milk</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#fruit_punch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit punch</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#sparkling_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling water</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#fruit_flavors">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit flavors</fancyName>
+</Liquid>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
