@@ -6130,11 +6130,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger bun</fancyName>
 </Bread>
 
-<Edible rdf:about="#american_cheese_slice">
+<Cheese rdf:about="#american_cheese_slice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cheeseburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American cheese slice</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
