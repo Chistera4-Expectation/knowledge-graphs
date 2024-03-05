@@ -4123,10 +4123,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grains bowls</fancyName>
 </Rice>
 
-<Vegetal rdf:about="#pastas">
+<Pasta rdf:about="#pastas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastas</fancyName>
-</Vegetal>
+</Pasta>
 
 <Vegetal rdf:about="#sauces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
