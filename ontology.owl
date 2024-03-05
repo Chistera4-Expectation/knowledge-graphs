@@ -4262,10 +4262,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee</fancyName>
 </Coffee>
 
-<Liquid rdf:about="#sports_drinks">
+<Energy rdf:about="#sports_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drinks</fancyName>
-</Liquid>
+</Energy>
 
 <Liquid rdf:about="#protein_shakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
