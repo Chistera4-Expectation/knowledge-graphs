@@ -4197,10 +4197,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fats</fancyName>
 </Vegetable>
 
-<Food rdf:about="#beverages">
+<Milk rdf:about="#beverages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beverages</fancyName>
-</Food>
+</Milk>
 
 <Food rdf:about="#snacks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
