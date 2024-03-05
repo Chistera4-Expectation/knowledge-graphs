@@ -703,6 +703,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
@@ -5989,12 +5990,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi cubes</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#seasoning_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seasoning powder</fancyName>
 </Seasoning>
 
 <Spice rdf:about="#chili_pepper">
