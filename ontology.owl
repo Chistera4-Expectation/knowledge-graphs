@@ -6473,11 +6473,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maraschino cherries</fancyName>
 </Fruit>
 
-<Edible rdf:about="#orange_slices">
+<Fruit rdf:about="#orange_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orange slices</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#guavas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
