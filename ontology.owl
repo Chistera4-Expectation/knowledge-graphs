@@ -5684,11 +5684,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#melted_butter">
+<Butter rdf:about="#melted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melted butter</fancyName>
-</Edible>
+</Butter>
 
 <Edible rdf:about="#corn_kernels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
