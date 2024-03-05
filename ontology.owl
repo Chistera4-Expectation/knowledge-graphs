@@ -1150,10 +1150,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-caking Agents</fancyName>
 </Dressing>
 
-<Additive rdf:about="#texturizing_agents">
+<Dressing rdf:about="#texturizing_agents">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texturizing Agents</fancyName>
-</Additive>
+</Dressing>
 
 <Additive rdf:about="#bulking_agents">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
