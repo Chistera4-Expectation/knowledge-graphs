@@ -646,6 +646,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaf</fancyName>
 </Spice>
 
+<Sweetener rdf:about="#sucrose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sucrose</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#fructose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fructose</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#glucose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#high_fructose_corn_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-Fructose Corn Syrup</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#agave_nectar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agave Nectar</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#stevia">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stevia</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#aspartame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspartame</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#saccharin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharin</fancyName>
+</Sweetener>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
