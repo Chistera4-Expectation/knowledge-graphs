@@ -5884,11 +5884,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepperoni</fancyName>
 </Pork>
 
-<Edible rdf:about="#other_preferred_toppings">
+<Alcoholic rdf:about="#other_preferred_toppings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other preferred toppings</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#semolina_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
