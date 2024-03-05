@@ -2478,11 +2478,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry Shortcake Cereal</fancyName>
 </Breakfast>
 
-<Breakfast rdf:about="#cocoa_pebbles">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa Pebbles</fancyName>
-</Breakfast>
-
 <Breakfast rdf:about="#honey_bunches_of_oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey Bunches of Oats</fancyName>
