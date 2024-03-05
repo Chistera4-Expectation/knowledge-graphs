@@ -7145,11 +7145,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Soy Sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#chicken_stock">
+<Poultry rdf:about="#chicken_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken stock</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#ice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
