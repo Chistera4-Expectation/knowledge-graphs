@@ -414,9 +414,9 @@
 
 <Dressing rdf:about="#sour_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Dairy"/>
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#festival"/>
+  <rdf:type rdf:resource="#Yogurt"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
 </Dressing>
