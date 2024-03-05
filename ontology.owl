@@ -5899,7 +5899,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable stock</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#parsley">
+<Vegetable rdf:about="#parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#meatloaf"/>
@@ -5910,7 +5910,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#spice_mix">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
