@@ -7410,12 +7410,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brinjal</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chickpeas">
+<Vegetable rdf:about="#chickpeas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <ingredientOf rdf:resource="#ragda_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chickpeas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chana_dal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
