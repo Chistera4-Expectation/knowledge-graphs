@@ -6502,11 +6502,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot dog rolls</fancyName>
 </Bread>
 
-<Edible rdf:about="#cold_beer">
+<Alcoholic rdf:about="#cold_beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold beer</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#other_beverages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
