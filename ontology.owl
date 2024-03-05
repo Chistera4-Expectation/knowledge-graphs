@@ -2367,6 +2367,106 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ezekiel 4:9 Sprouted Whole Grain Cereals</fancyName>
 </Breakfast>
 
+<Bread rdf:about="#white_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#whole_wheat_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Wheat Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#multigrain_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multigrain Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#sourdough_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sourdough Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#rye_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#french_baguette">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French Baguette</fancyName>
+</Bread>
+
+<Bread rdf:about="#italian_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#focaccia_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Focaccia Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#pita_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pita Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#naan_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naan Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#challah_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Challah Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#brioche_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brioche Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#bagel_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bagel Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#english_muffin_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English Muffin Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#banana_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#zucchini_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zucchini Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#cornbread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornbread</fancyName>
+</Bread>
+
+<Bread rdf:about="#irish_soda_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Soda Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#damper_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damper Bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#ciabatta_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciabatta Bread</fancyName>
+</Bread>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
