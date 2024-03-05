@@ -419,6 +419,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
@@ -663,6 +664,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -1070,7 +1072,9 @@
 
 <Pork rdf:about="#ground_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Pork</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
 </Pork>
 
 <Pork rdf:about="#pork_chops">
@@ -3326,6 +3330,7 @@
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4793,6 +4798,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4936,6 +4942,7 @@
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Edible>
@@ -4969,6 +4976,7 @@
   <ingredientOf rdf:resource="#plantains_in_salt_cod_fritters"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
@@ -5384,6 +5392,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt to taste</fancyName>
 </Edible>
 
@@ -5561,6 +5570,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -6359,6 +6369,7 @@
 <Edible rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
 </Edible>
 
@@ -6409,6 +6420,7 @@
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Edible>
@@ -6662,6 +6674,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked Rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#sichuan_peppercorns">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
+</Edible>
+
+<Edible rdf:about="#chili_beans_in_oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili beans in oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#potato_starch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potato starch</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
