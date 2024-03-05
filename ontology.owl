@@ -1921,11 +1921,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit</fancyName>
 </Breakfast>
 
-<Dairy rdf:about="#granola">
+<Breakfast rdf:about="#granola">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Breakfast"/>
+  <rdf:type rdf:resource="#Yogurt"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granola</fancyName>
-</Dairy>
+</Breakfast>
 
 <Crustaceans rdf:about="#lobster">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
