@@ -4302,10 +4302,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot chocolate</fancyName>
 </Alcoholic>
 
-<Liquid rdf:about="#vitamin_water">
+<Alcoholic rdf:about="#vitamin_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin water</fancyName>
-</Liquid>
+</Alcoholic>
 
 <Liquid rdf:about="#energy_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
