@@ -2775,10 +2775,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puffed Wheat</fancyName>
 </Breakfast>
 
-<Cereal rdf:about="#rice_puffs">
+<Rice rdf:about="#rice_puffs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Puffs</fancyName>
-</Cereal>
+</Rice>
 
 <Cereal rdf:about="#cooked_wheat_cereals">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
