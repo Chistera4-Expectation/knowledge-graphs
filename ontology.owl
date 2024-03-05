@@ -669,6 +669,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#shrimp_fried_rice"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -693,6 +694,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -1397,6 +1399,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -2420,6 +2423,7 @@
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#shrimp_fried_rice"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -4767,7 +4771,9 @@
 <Liquid rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
 </Liquid>
 
 <Liquid rdf:about="#chocolate_milk">
@@ -5742,6 +5748,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -6216,6 +6223,7 @@
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Edible>
 
@@ -6275,6 +6283,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#shrimp_fried_rice"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -7371,6 +7380,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft boiled egg</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional_add_ins">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional add-ins</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
