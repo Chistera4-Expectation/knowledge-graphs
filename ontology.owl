@@ -7001,11 +7001,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club soda/seltzer water</fancyName>
 </Energy>
 
-<Edible rdf:about="#ice">
+<Energy rdf:about="#ice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice</fancyName>
-</Edible>
+</Energy>
 
 <Edible rdf:about="#dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
