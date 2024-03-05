@@ -601,6 +601,7 @@
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -745,6 +746,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
 </Seasoning>
 
@@ -848,6 +850,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
@@ -1086,6 +1089,7 @@
 <Pork rdf:about="#bacon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
 </Pork>
 
@@ -1613,6 +1617,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#blueberry_muffins"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1705,6 +1710,7 @@
 
 <Crustaceans rdf:about="#shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -2248,6 +2254,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Animal>
 
@@ -3033,6 +3040,7 @@
   <ingredientOf rdf:resource="#quesadillas"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <ingredientOf rdf:resource="#chili"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
 </Oil>
@@ -3261,6 +3269,7 @@
 <Vegetable rdf:about="#bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
 
@@ -3368,6 +3377,7 @@
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3388,6 +3398,7 @@
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#chili"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4996,6 +5007,7 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Edible>
@@ -5494,6 +5506,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Edible>
 
@@ -5613,6 +5626,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Edible>
 
@@ -5679,6 +5693,7 @@
 <Edible rdf:about="#bay_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
 </Edible>
 
@@ -5721,6 +5736,7 @@
 <Edible rdf:about="#fresh_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Edible>
 
@@ -5740,6 +5756,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semisweet chocolate</fancyName>
+</Edible>
+
+<Edible rdf:about="#grits">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grits</fancyName>
+</Edible>
+
+<Edible rdf:about="#celery_stalks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery stalks</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_onions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
