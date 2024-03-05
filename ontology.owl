@@ -2417,10 +2417,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whey protein powder</fancyName>
 </Dairy>
 
-<Animal rdf:about="#casein_protein_powder">
+<Milk rdf:about="#casein_protein_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casein protein powder</fancyName>
-</Animal>
+</Milk>
 
 <Animal rdf:about="#sausages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
