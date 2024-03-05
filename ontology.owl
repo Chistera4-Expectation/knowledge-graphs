@@ -1647,6 +1647,24 @@
 
 <Milk rdf:about="#low_fat_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#flan"/>
+  <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#fried_catfish"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#blueberry_muffins"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <ingredientOf rdf:resource="#fried_oysters"/>
+  <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-fat milk</fancyName>
 </Milk>
 
@@ -1709,29 +1727,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American-style yogurt</fancyName>
 </Yogurt>
-
-<Milk rdf:about="#milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#polenta"/>
-  <ingredientOf rdf:resource="#flan"/>
-  <ingredientOf rdf:resource="#cornbread"/>
-  <ingredientOf rdf:resource="#fried_chicken"/>
-  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
-  <ingredientOf rdf:resource="#biscuits_and_gravy"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <ingredientOf rdf:resource="#fried_catfish"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <ingredientOf rdf:resource="#blueberry_muffins"/>
-  <ingredientOf rdf:resource="#boston_cream_pie"/>
-  <ingredientOf rdf:resource="#shrimp_and_grits"/>
-  <ingredientOf rdf:resource="#fried_oysters"/>
-  <ingredientOf rdf:resource="#patties"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <ingredientOf rdf:resource="#conch_fritters"/>
-  <ingredientOf rdf:resource="#matcha_desserts"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
-</Milk>
 
 <Yogurt rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
