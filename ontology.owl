@@ -7721,11 +7721,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Peppercorns</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#ground_turmeric">
+<Spice rdf:about="#ground_turmeric">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Turmeric</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
