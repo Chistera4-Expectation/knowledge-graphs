@@ -1590,23 +1590,27 @@
 <Crustaceans rdf:about="#mussels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Fish"/>
+  <rdf:type rdf:resource="#Molluscs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussels</fancyName>
 </Crustaceans>
 
 <Crustaceans rdf:about="#clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Fish"/>
+  <rdf:type rdf:resource="#Molluscs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
 </Crustaceans>
 
 <Crustaceans rdf:about="#oysters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Fish"/>
+  <rdf:type rdf:resource="#Molluscs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
 </Crustaceans>
 
 <Crustaceans rdf:about="#scallops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Molluscs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallops</fancyName>
 </Crustaceans>
 
@@ -1807,8 +1811,39 @@
 
 <Fish rdf:about="#squid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Molluscs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squid</fancyName>
 </Fish>
+
+<Molluscs rdf:about="#abalone">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abalone</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#cockles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cockles</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#periwinkles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periwinkles</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#whelks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whelks</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#conch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#octopus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octopus</fancyName>
+</Molluscs>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
