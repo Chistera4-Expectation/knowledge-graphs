@@ -5631,11 +5631,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
 </Poultry>
 
-<Edible rdf:about="#uziza_leaves">
+<Vegetable rdf:about="#uziza_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uziza Leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pili_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
