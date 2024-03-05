@@ -429,6 +429,7 @@
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
@@ -585,6 +586,7 @@
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -697,6 +699,7 @@
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -2360,6 +2363,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3409,6 +3413,7 @@
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3507,6 +3512,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -5044,6 +5050,7 @@
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Edible>
@@ -5837,6 +5844,7 @@
   <ingredientOf rdf:resource="#thanksgiving_turkey_with_cranberry_sauce"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -6824,7 +6832,9 @@
 <Edible rdf:about="#cooked_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked Rice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked rice</fancyName>
 </Edible>
 
 <Edible rdf:about="#sichuan_peppercorns">
@@ -7125,6 +7135,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked white rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional_additions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional additions</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
