@@ -521,6 +521,7 @@
   <ingredientOf rdf:resource="#cinnamon_rolls"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#deep_dish_pizza"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -528,6 +529,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#picadillo__ground_meat"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -857,7 +859,9 @@
 
 <Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
 
 <Beef rdf:about="#sirloin_steak">
@@ -3053,11 +3057,13 @@
 
 <Vegetable rdf:about="#tomato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
 </Vegetable>
 
@@ -3135,6 +3141,7 @@
   <ingredientOf rdf:resource="#fufu_and_palaver_sauce"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -4729,6 +4736,7 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#kenkey_and_okra_stew"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Oil</fancyName>
@@ -5363,6 +5371,7 @@
 <Edible rdf:about="#potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -5388,6 +5397,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#deep_dish_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semolina flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#bun">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bun</fancyName>
+</Edible>
+
+<Edible rdf:about="#bread_roll">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bread roll</fancyName>
+</Edible>
+
+<Edible rdf:about="#pickles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_condiments">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other condiments</fancyName>
+</Edible>
+
+<Edible rdf:about="#oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger_with_fries"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
