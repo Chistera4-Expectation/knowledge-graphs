@@ -6577,11 +6577,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtails</fancyName>
 </Beef>
 
-<Edible rdf:about="#canned_tomatoes">
+<Vegetable rdf:about="#canned_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canned tomatoes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
