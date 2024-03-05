@@ -6454,11 +6454,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoned salt</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#fresh_clams">
+<Molluscs rdf:about="#fresh_clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh clams</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#little_neck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
