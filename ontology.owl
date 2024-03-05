@@ -2113,6 +2113,10 @@
 
 <Honey rdf:about="#manuka_honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#soba_noodle_salad"/>
+  <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manuka Honey</fancyName>
 </Honey>
 
@@ -2353,15 +2357,6 @@
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
 </Milk>
-
-<Honey rdf:about="#honey">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cornbread"/>
-  <ingredientOf rdf:resource="#teriyaki"/>
-  <ingredientOf rdf:resource="#soba_noodle_salad"/>
-  <ingredientOf rdf:resource="#matcha_desserts"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
-</Honey>
 
 <Beef rdf:about="#collagen">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
