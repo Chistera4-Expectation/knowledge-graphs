@@ -4027,10 +4027,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentils</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#barley">
+<Vegetable rdf:about="#barley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barley</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
