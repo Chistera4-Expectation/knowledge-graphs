@@ -2223,10 +2223,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shipworms</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#anchovies">
+<Fish rdf:about="#anchovies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anchovies</fancyName>
-</Seafood>
+</Fish>
 
 <Seafood rdf:about="#eel">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
