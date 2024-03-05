@@ -6397,11 +6397,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground allspice</fancyName>
 </Spice>
 
-<Edible rdf:about="#pimento_peppers">
+<Vegetable rdf:about="#pimento_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pimento peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
