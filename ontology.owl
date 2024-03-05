@@ -3860,6 +3860,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli al Burro e Salsa</fancyName>
 </Italian>
 
+<Latin rdf:about="#jambalaya">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jambalaya</fancyName>
+</Latin>
+
+<Latin rdf:about="#enchiladas__corn_or_flour_tortillas_rolled_around_filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enchiladas: Corn or flour tortillas rolled around filling</fancyName>
+</Latin>
+
+<Latin rdf:about="#enchiladas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enchiladas</fancyName>
+</Latin>
+
+<Latin rdf:about="#mofongo__puerto_rican_mashed_plantain_dish_mixed_with_garlic__olive_oil__and_pork_cracklings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mofongo: Puerto Rican mashed plantain dish mixed with garlic, olive oil, and pork cracklings</fancyName>
+</Latin>
+
+<Latin rdf:about="#tamales">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamales</fancyName>
+</Latin>
+
+<Latin rdf:about="#quinoa_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinoa Salad</fancyName>
+</Latin>
+
+<Latin rdf:about="#picadillo__ground_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Picadillo: Ground meat</fancyName>
+</Latin>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
