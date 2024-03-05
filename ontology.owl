@@ -5809,12 +5809,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion, chopped</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#molasses">
+<Sweetener rdf:about="#molasses">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_baked_beans"/>
   <ingredientOf rdf:resource="#kentucky_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molasses</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#hot_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
