@@ -5463,11 +5463,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#crushed_tomatoes">
+<Vegetable rdf:about="#crushed_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed tomatoes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
