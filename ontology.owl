@@ -585,6 +585,7 @@
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1277,7 +1278,9 @@
 
 <Butter rdf:about="#unsalted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted Butter</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted butter</fancyName>
 </Butter>
 
 <Butter rdf:about="#whipped_butter">
@@ -4240,6 +4243,7 @@
   <ingredientOf rdf:resource="#gazpacho"/>
   <ingredientOf rdf:resource="#pounded_yam"/>
   <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -4929,6 +4933,7 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -5351,6 +5356,7 @@
 <Edible rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Edible>
 
@@ -5363,6 +5369,30 @@
 <Edible rdf:about="#margarine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
+</Edible>
+
+<Edible rdf:about="#apples">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
+</Edible>
+
+<Edible rdf:about="#lemon_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_cinnamon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg_yolk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolk</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
