@@ -7023,12 +7023,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood Ball</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#noodles">
+<Pasta rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#szechuan_fish_in_chili_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#other_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
