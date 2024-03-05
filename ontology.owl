@@ -1491,10 +1491,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bison</fancyName>
 </Beef>
 
-<Meat rdf:about="#goat">
+<Beef rdf:about="#goat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat</fancyName>
-</Meat>
+</Beef>
 
 <Meat rdf:about="#ostrich">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
