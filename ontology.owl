@@ -4272,10 +4272,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein shakes</fancyName>
 </Alcoholic>
 
-<Liquid rdf:about="#soup">
+<Juice rdf:about="#soup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soup</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#coconut_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
