@@ -4861,11 +4861,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves, minced</fancyName>
 </Spice>
 
-<Edible rdf:about="#mozzarella_cheese__sliced">
+<Cheese rdf:about="#mozzarella_cheese__sliced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese, sliced</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#parmesan_cheese__grated">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
