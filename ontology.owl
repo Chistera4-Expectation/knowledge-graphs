@@ -4909,10 +4909,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Seed>
 
-<Edible rdf:about="#whole_grains">
+<Pasta rdf:about="#whole_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grains</fancyName>
-</Edible>
+</Pasta>
 
 <Italian rdf:about="#spaghetti_carbonara">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
