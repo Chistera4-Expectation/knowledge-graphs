@@ -6659,11 +6659,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fish seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#green_plantains">
+<Vegetable rdf:about="#green_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green plantains</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ripe_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
