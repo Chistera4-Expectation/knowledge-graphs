@@ -6880,11 +6880,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro Leaves</fancyName>
 </Oil>
 
-<Edible rdf:about="#tortilla_chips">
+<Oil rdf:about="#tortilla_chips">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortilla Chips</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#fresh_lemons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
