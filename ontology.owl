@@ -7055,11 +7055,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#shellfish">
+<Crustaceans rdf:about="#shellfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shellfish</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#omelette">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
