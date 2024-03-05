@@ -7178,11 +7178,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#nappa_cabbage">
+<Vegetable rdf:about="#nappa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nappa cabbage</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_ginger_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
