@@ -6907,11 +6907,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger root</fancyName>
 </Spice>
 
-<Edible rdf:about="#crushed_red_peppers">
+<Seasoning rdf:about="#crushed_red_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed Red Peppers</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
