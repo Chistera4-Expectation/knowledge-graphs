@@ -383,6 +383,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi Dressing</fancyName>
 </Dressing>
 
+<Sauce rdf:about="#__the_base_ingredient_of_the_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">: The base ingredient of the sauce</fancyName>
+</Sauce>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
