@@ -4312,11 +4312,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh dill</fancyName>
 </Edible>
 
-<Edible rdf:about="#saltine_crackers">
+<Bread rdf:about="#saltine_crackers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saltine crackers</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#salt_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
