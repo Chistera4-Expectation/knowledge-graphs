@@ -828,11 +828,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thickeners</fancyName>
 </Sauce>
 
-<Additive rdf:about="#antioxidants">
+<Tea rdf:about="#antioxidants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Tea"/>
+  <rdf:type rdf:resource="#Spice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
-</Additive>
+</Tea>
 
 <Additive rdf:about="#acids">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
