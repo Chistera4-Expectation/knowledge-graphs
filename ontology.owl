@@ -5025,11 +5025,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh raw fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#seaweed_salad">
+<Seaweed rdf:about="#seaweed_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed salad</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#daikon_radish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
