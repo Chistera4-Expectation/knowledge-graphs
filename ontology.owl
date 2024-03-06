@@ -2677,11 +2677,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMP Energy</fancyName>
 </Energy>
 
-<Energy rdf:about="#5_hour_energy">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Hour Energy</fancyName>
-</Energy>
-
 <Energy rdf:about="#nos_energy_drink">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOS Energy Drink</fancyName>
