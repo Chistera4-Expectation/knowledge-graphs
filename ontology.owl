@@ -4599,11 +4599,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded mozzarella cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#chopped_onions">
+<Vegetable rdf:about="#chopped_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
