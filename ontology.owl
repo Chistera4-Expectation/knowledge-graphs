@@ -839,10 +839,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acids</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#bases">
+<Seasoning rdf:about="#bases">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bases</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#enzymes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
