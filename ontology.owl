@@ -3434,6 +3434,8 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#beef_madras"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
@@ -4159,13 +4161,6 @@
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diced tomatoes</fancyName>
 </Vegetable>
-
-<Edible rdf:about="#fresh_cilantro">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#beef_madras"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
-</Edible>
 
 <Molluscs rdf:about="#conch_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
