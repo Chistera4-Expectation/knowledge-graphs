@@ -2250,6 +2250,21 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato juice</fancyName>
 </Juice>
 
+<Water rdf:about="#fiji">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiji</fancyName>
+</Water>
+
+<Water rdf:about="#nestle_pure_life">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nestle Pure Life</fancyName>
+</Water>
+
+<Water rdf:about="#poland_spring">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poland Spring</fancyName>
+</Water>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
