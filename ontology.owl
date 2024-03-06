@@ -1360,10 +1360,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond milk</fancyName>
 </Milk>
 
-<Dairy rdf:about="#other_plant_based_milks_such_as_oat_milk">
+<Milk rdf:about="#other_plant_based_milks_such_as_oat_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other plant-based milks such as oat milk</fancyName>
-</Dairy>
+</Milk>
 
 <Crustaceans rdf:about="#shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
