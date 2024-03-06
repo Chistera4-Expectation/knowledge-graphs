@@ -4792,11 +4792,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sliced shiitake mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#wakame_seaweed">
+<Seaweed rdf:about="#wakame_seaweed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wakame seaweed</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#tofu_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
