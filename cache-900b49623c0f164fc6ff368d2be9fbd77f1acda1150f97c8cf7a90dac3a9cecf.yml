@@ -1,0 +1,32 @@
+# Cache for query: instances list for class Coffee, names only
+# (api: HuggingAiQuery, model: mistralai/Mixtral-8x7B-Instruct-v0.1, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: ' Here are some instance variables that could be used in a `Coffee` class:
+
+
+  * `brand`: The brand of the coffee (e.g. "Starbucks", "Dunkin Donuts")
+
+  * `roast`: The roast level of the coffee (e.g. "light", "medium", "dark")
+
+  * `origin`: The country or region where the coffee beans were grown
+
+  * `flavor_notes`: A list or array of flavor notes associated with the coffee (e.g.
+  ["nutty", "chocolatey", "fruity"])
+
+  * `caffeine_content`: The amount of caffeine in the coffee, measured in milligrams
+  per serving
+
+  * `size`: The size of the coffee drink, such as small, medium, large
+
+  * `milk`: Whether or not milk is included and if so what kind (e.g. whole, skim,
+  almond)
+
+  * `sweetener`: Whether or not sweetener is added and if so what type (e.g. sugar,
+  honey, artificial sweetener)
+
+  * `quantity` : number of servings or package quantity
+
+
+  Note: This is just an example set, you can add more variable which fit to your use
+  case.'

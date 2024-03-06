@@ -2388,6 +2388,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Fashioned</fancyName>
 </Alcoholic>
 
+<Coffee rdf:about="#_brand___the_brand_of_the_coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`brand`: The brand of the coffee</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#_roast___the_roast_level_of_the_coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`roast`: The roast level of the coffee</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#_flavor_notes___a_list">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`flavor_notes`: A list</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#array_of_flavor_notes_associated">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">array of flavor notes associated</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#the_coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the coffee</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#not_milk_is_included">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not milk is included</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#if_so_what_kind">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if so what kind</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#not_sweetener_is_added">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not sweetener is added</fancyName>
+</Coffee>
+
+<Coffee rdf:about="#if_so_what_type">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if so what type</fancyName>
+</Coffee>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
