@@ -4869,11 +4869,11 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
 </Bread>
 
-<Edible rdf:about="#celery__sliced">
+<Vegetable rdf:about="#celery__sliced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery, sliced</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
