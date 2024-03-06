@@ -2816,6 +2816,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab cakes</fancyName>
 </American>
 
+<Carribean rdf:about="#jerk_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jerk Chicken</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#rice_and_peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice and Peas</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#fried_plantains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Plantains</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#curry_goat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Goat</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#oxtail_stew">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtail Stew</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#callaloo_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callaloo Soup</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patties</fancyName>
+</Carribean>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
