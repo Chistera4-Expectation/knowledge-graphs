@@ -4157,11 +4157,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Navy beans</fancyName>
 </Edible>
 
-<Edible rdf:about="#molasses">
+<Sweetener rdf:about="#molasses">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molasses</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#acidity_regulator">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
