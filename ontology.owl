@@ -5538,11 +5538,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#fresh_herbs_such_as_cilantro">
+<Seasoning rdf:about="#fresh_herbs_such_as_cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs such as cilantro</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#thai_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
