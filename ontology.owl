@@ -4768,11 +4768,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon fillets</fancyName>
 </Fish>
 
-<Edible rdf:about="#dried_thyme">
+<Spice rdf:about="#dried_thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_salmon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried thyme</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#miso_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
