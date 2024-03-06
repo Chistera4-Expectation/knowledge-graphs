@@ -3429,11 +3429,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espresso coffee</fancyName>
 </Drink>
 
-<Edible rdf:about="#rum">
+<Alcoholic rdf:about="#rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rum</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#veal_scallops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
