@@ -5389,11 +5389,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salted fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#or_meat">
+<Beef rdf:about="#or_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or meat</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#optional_ingredients__fried_onions__boiled_eggs__nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
