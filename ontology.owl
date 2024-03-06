@@ -407,6 +407,7 @@
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -418,6 +419,7 @@
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -502,6 +504,7 @@
   <rdf:type rdf:resource="#Spice"/>
   <rdf:type rdf:resource="#Vegetable"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -562,6 +565,7 @@
   <ingredientOf rdf:resource="#gazpacho"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -864,6 +868,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Poultry>
 
@@ -2114,6 +2119,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
 </Vegetable>
 
@@ -3322,6 +3328,7 @@
 <Edible rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Edible>
 
@@ -3605,6 +3612,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -3759,6 +3767,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm oil</fancyName>
 </Edible>
@@ -3814,6 +3823,35 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground crayfish</fancyName>
+</Edible>
+
+<Edible rdf:about="#palm_nut_soup_base">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm nut soup base</fancyName>
+</Edible>
+
+<Edible rdf:about="#hot_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_leafy_greens">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other leafy greens</fancyName>
+</Edible>
+
+<Edible rdf:about="#peanuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#groundnuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#moambe_chicken"/>
 </Edible>
 
 <owl:AllDisjointClasses>
