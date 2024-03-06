@@ -3794,11 +3794,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Fruit>
 
-<Edible rdf:about="#red_pepper_flakes">
+<Spice rdf:about="#red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#other_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
