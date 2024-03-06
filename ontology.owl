@@ -5069,11 +5069,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#dry_sherry">
+<Alcoholic rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry sherry</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#chili_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
