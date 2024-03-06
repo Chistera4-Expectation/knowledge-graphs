@@ -4282,11 +4282,11 @@
   <ingredientOf rdf:resource="#moambe_chicken"/>
 </Seed>
 
-<Edible rdf:about="#coriander">
+<Spice rdf:about="#coriander">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#mustard_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
