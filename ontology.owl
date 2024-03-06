@@ -3741,13 +3741,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato puree</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fresh_tomatoes">
+<Fruit rdf:about="#fresh_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh tomatoes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
