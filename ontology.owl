@@ -4250,11 +4250,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground crayfish</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#palm_nut_soup_base">
+<Oil rdf:about="#palm_nut_soup_base">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm nut soup base</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#hot_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
