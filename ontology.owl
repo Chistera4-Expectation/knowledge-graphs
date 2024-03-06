@@ -3435,11 +3435,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rum</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#veal_scallops">
+<Molluscs rdf:about="#veal_scallops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veal scallops</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
