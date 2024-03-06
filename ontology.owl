@@ -2866,6 +2866,7 @@
 
 <Fruit rdf:about="#papaya">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papaya</fancyName>
 </Fruit>
 
@@ -6217,12 +6218,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mangoes</fancyName>
-</Fruit>
-
-<Fruit rdf:about="#papayas">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#plantain"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papayas</fancyName>
 </Fruit>
 
 <Fruit rdf:about="#guavas">
