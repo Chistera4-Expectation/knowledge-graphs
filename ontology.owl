@@ -1642,10 +1642,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
 </Milk>
 
-<Animal rdf:about="#bone_broth">
+<Meat rdf:about="#bone_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone broth</fancyName>
-</Animal>
+</Meat>
 
 <Animal rdf:about="#marshmallows">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
