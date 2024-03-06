@@ -422,6 +422,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -3402,6 +3403,7 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Edible>
 
@@ -3669,6 +3671,7 @@
 <Edible rdf:about="#mayonnaise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
 </Edible>
 
@@ -4140,6 +4143,7 @@
 <Edible rdf:about="#lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
 </Edible>
 
@@ -4336,6 +4340,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_fried_catfish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shortening for frying</fancyName>
+</Edible>
+
+<Edible rdf:about="#canned_tuna">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned tuna</fancyName>
+</Edible>
+
+<Edible rdf:about="#diced_celery">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced celery</fancyName>
+</Edible>
+
+<Edible rdf:about="#diced_onion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced onion</fancyName>
+</Edible>
+
+<Edible rdf:about="#diced_hard_boiled_egg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced hard-boiled egg</fancyName>
+</Edible>
+
+<Edible rdf:about="#bread_for_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bread for serving</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
