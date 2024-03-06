@@ -3835,7 +3835,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
 </Edible>
 
-<Edible rdf:about="#vinegar">
+<Sauce rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
@@ -3844,7 +3844,7 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#flavorings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
