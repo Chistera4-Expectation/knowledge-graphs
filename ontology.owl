@@ -2668,9 +2668,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Fruit>
 
-<Food rdf:about="#fiber">
+<Fruit rdf:about="#fiber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Food>
+</Fruit>
 
 <Food rdf:about="#sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
