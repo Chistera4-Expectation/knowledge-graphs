@@ -4101,11 +4101,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-grain rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#saffron">
+<Spice rdf:about="#saffron">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#seafood_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
