@@ -390,6 +390,7 @@
 
 <Seasoning rdf:about="#salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1089,6 +1090,7 @@
 <Dairy rdf:about="#ricotta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
 </Dairy>
 
@@ -1466,6 +1468,7 @@
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2035,6 +2038,7 @@
 
 <Vegetable rdf:about="#spinach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
 </Vegetable>
 
@@ -2255,11 +2259,13 @@
 
 <Vegetal rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
 </Vegetal>
 
 <Vegetal rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
 </Vegetal>
 
 <Food rdf:about="#name___the_common_name_of_the_food_item">
@@ -3034,6 +3040,7 @@
 <Edible rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Edible>
 
@@ -3047,6 +3054,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dried oregano</fancyName>
+</Edible>
+
+<Edible rdf:about="#potatoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_vegetables">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other vegetables</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
