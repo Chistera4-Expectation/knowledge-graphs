@@ -4708,11 +4708,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank's RedHot Sauce</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#french_bread">
+<Bread rdf:about="#french_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French bread</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#baguette">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
