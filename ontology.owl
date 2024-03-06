@@ -2620,7 +2620,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#spices">
+<Vegetable rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#polenta"/>
@@ -2634,7 +2634,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Food rdf:about="#name___the_common_name_of_the_food_item">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
