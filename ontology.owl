@@ -3696,7 +3696,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small pasta</fancyName>
 </Seed>
 
-<Edible rdf:about="#fresh_herbs">
+<Seasoning rdf:about="#fresh_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
@@ -3706,7 +3706,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#grated_parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
