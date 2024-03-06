@@ -2818,6 +2818,7 @@
 
 <Fruit rdf:about="#pineapple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
 </Fruit>
 
@@ -5329,12 +5330,6 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marinated chicken</fancyName>
 </Poultry>
-
-<Fruit rdf:about="#pineapple_slices">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tacos_al_pastor"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple slices</fancyName>
-</Fruit>
 
 <Vegetable rdf:about="#jalapeno_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
