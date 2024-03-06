@@ -4022,11 +4022,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other nuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#raisins">
+<Fruit rdf:about="#raisins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
