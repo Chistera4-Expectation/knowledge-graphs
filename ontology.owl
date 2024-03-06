@@ -3257,7 +3257,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#pepper">
+<Spice rdf:about="#pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
@@ -3294,7 +3294,7 @@
   <ingredientOf rdf:resource="#beef_madras"/>
   <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
