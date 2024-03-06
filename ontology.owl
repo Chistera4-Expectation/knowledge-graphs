@@ -1821,6 +1821,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zucchini</fancyName>
 </Fruit>
 
+<Mushroom rdf:about="#hericium_erinaceus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hericium erinaceus</fancyName>
+</Mushroom>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
