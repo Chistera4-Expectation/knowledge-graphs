@@ -5168,11 +5168,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood ear mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#thinly_sliced_meat">
+<Poultry rdf:about="#thinly_sliced_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced meat</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
