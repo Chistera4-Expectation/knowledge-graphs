@@ -903,6 +903,16 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processed meats</fancyName>
 </Meat>
 
+<Butter rdf:about="#_is_healthier_than_other_butter____compares_the_nutrition_info_of_this_instance_of_butter_to_another_instance_of_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`is_healthier_than(other_butter)`: compares the nutrition info of this instance of butter to another instance of butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#returns_a_boolean_indicating_whether_this_instance_is_healthier">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">returns a boolean indicating whether this instance is healthier</fancyName>
+</Butter>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
