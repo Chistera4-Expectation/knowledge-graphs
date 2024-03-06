@@ -4479,11 +4479,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically separated meat</fancyName>
 </Poultry>
 
-<Edible rdf:about="#pork_fat">
+<Pork rdf:about="#pork_fat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork fat</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#dextrose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
