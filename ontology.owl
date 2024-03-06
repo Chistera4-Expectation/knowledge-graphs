@@ -395,6 +395,7 @@
 
 <Seasoning rdf:about="#salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -664,6 +665,7 @@
 
 <Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
 
@@ -1033,6 +1035,7 @@
 
 <Dairy rdf:about="#ricotta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
 </Dairy>
 
@@ -1277,6 +1280,7 @@
 
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -1672,6 +1676,7 @@
 
 <Oil rdf:about="#olive_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
 
@@ -1822,6 +1827,7 @@
 
 <Vegetable rdf:about="#spinach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
 </Vegetable>
 
@@ -1842,6 +1848,7 @@
 
 <Vegetable rdf:about="#onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -1887,6 +1894,7 @@
 
 <Vegetal rdf:about="#garlic">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetal>
 
@@ -2720,6 +2728,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Fry</fancyName>
 </Indian>
+
+<Edible rdf:about="#pasta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
+</Edible>
+
+<Edible rdf:about="#tomato_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#mozzarella_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#parmesan_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_basil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
+</Edible>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
