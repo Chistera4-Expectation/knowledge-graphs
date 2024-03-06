@@ -3872,13 +3872,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groundnuts</fancyName>
 </Edible>
 
-<Edible rdf:about="#tomato_paste">
+<Vegetable rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#other_spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
