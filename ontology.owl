@@ -6086,12 +6086,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callaloo leaves</fancyName>
 </Vegetable>
 
-<Vegetable rdf:about="#moringa_leaves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#plantain"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moringa leaves</fancyName>
-</Vegetable>
-
 <Seed rdf:about="#annatto_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain"/>
