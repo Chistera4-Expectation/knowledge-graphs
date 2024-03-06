@@ -582,6 +582,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -666,6 +667,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -908,6 +910,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
 </Pork>
 
@@ -2610,6 +2613,7 @@
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Food>
 
@@ -4167,6 +4171,7 @@
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
 </Edible>
 
@@ -4268,6 +4273,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -4652,6 +4658,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -4793,6 +4800,7 @@
 <Edible rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
@@ -5044,6 +5052,7 @@
 <Edible rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
 </Edible>
 
@@ -5074,6 +5083,7 @@
 <Edible rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
 </Edible>
 
@@ -5111,6 +5121,47 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional protein</fancyName>
+</Edible>
+
+<Edible rdf:about="#chili_oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#chili_bean_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chili bean paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#sesame_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#tahini">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
+</Edible>
+
+<Edible rdf:about="#black_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#peanut_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peanut butter</fancyName>
+</Edible>
+
+<Edible rdf:about="#baby_spinach">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baby spinach</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
