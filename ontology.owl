@@ -3397,11 +3397,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ladyfingers</fancyName>
 </Bread>
 
-<Edible rdf:about="#mascarpone_cheese">
+<Cheese rdf:about="#mascarpone_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#whipping_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
