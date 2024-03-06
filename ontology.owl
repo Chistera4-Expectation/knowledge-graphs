@@ -3014,10 +3014,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamburger</fancyName>
 </Edible>
 
-<Edible rdf:about="#hotdog">
+<Pork rdf:about="#hotdog">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hotdog</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#icecream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
