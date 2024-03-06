@@ -477,6 +477,7 @@
   <ingredientOf rdf:resource="#egg_rolls"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#lemon_chicken"/>
+  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -507,6 +508,7 @@
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <ingredientOf rdf:resource="#grilled_salmon"/>
+  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
 
@@ -744,6 +746,7 @@
 
 <Sweetener rdf:about="#maple_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maple syrup</fancyName>
 </Sweetener>
 
@@ -1980,6 +1983,7 @@
   <ingredientOf rdf:resource="#baked_sweet_potato"/>
   <ingredientOf rdf:resource="#grilled_salmon"/>
   <ingredientOf rdf:resource="#lemon_chicken"/>
+  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
 
@@ -3202,6 +3206,7 @@
   <ingredientOf rdf:resource="#egg_rolls"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#lemon_chicken"/>
+  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -4806,6 +4811,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frozen peas</fancyName>
+</Edible>
+
+<Edible rdf:about="#pork_chops">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork chops</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
