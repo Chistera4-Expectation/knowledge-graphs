@@ -4743,11 +4743,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato slices</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#roux">
+<Seasoning rdf:about="#roux">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roux</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
