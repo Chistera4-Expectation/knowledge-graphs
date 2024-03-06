@@ -3061,6 +3061,8 @@
 <Oil rdf:about="#coconut_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coconut oil</fancyName>
 </Oil>
@@ -5528,13 +5530,6 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
 </Vegetable>
-
-<Oil rdf:about="#cooking_oil">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
-</Oil>
 
 <Beef rdf:about="#protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
