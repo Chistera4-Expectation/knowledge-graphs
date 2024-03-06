@@ -3555,11 +3555,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#queso_fresco">
+<Cheese rdf:about="#queso_fresco">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Queso fresco</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#shredded_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
