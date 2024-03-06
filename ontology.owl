@@ -846,10 +846,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium glutamate</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#acesulfame_potassium">
+<Sweetener rdf:about="#acesulfame_potassium">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acesulfame potassium</fancyName>
-</Additive>
+</Sweetener>
 
 <Additive rdf:about="#potassium_sorbate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
