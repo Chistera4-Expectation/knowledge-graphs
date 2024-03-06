@@ -3667,11 +3667,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime wedges</fancyName>
 </Fruit>
 
-<Edible rdf:about="#mole_sauce">
+<Sauce rdf:about="#mole_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mole sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#corn_husks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
