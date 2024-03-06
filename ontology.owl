@@ -1035,6 +1035,8 @@
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#lemon_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
 </Poultry>
 
@@ -4648,13 +4650,6 @@
   <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat flour</fancyName>
 </Bread>
-
-<Poultry rdf:about="#boneless__skinless_chicken_breasts">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#teriyaki_chicken"/>
-  <ingredientOf rdf:resource="#lemon_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless, skinless chicken breasts</fancyName>
-</Poultry>
 
 <Vegetable rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
