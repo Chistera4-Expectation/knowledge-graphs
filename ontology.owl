@@ -4581,11 +4581,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meatballs</fancyName>
 </Beef>
 
-<Edible rdf:about="#sub_roll">
+<Bread rdf:about="#sub_roll">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sub roll</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#hoagie_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
