@@ -4131,12 +4131,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long-grain rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#canned_diced_tomatoes">
+<Sauce rdf:about="#canned_diced_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canned diced tomatoes</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
