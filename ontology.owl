@@ -1395,6 +1395,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">puffed wheat</fancyName>
 </Breakfast>
 
+<Bread rdf:about="#whole_wheat_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#white_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#rye_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#sourdough_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sourdough bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#gluten_free_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluten-free bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#focaccia_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Focaccia bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#ciabatta_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciabatta bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#pita_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pita bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#naan_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naan bread</fancyName>
+</Bread>
+
+<Bread rdf:about="#croissant">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croissant</fancyName>
+</Bread>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
