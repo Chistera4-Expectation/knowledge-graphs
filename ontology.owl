@@ -4447,11 +4447,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shortening, for frying</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#buns">
+<Bread rdf:about="#buns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buns</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
