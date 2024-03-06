@@ -2812,6 +2812,7 @@
 <Fruit rdf:about="#mango">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
+  <ingredientOf rdf:resource="#mango_chutney"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
 </Fruit>
 
@@ -6378,12 +6379,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Lemons</fancyName>
-</Fruit>
-
-<Fruit rdf:about="#ripe_mangoes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#mango_chutney"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe mangoes</fancyName>
 </Fruit>
 
 <Vegetable rdf:about="#green_chillies">
