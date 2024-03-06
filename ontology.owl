@@ -2448,10 +2448,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi</fancyName>
 </Food>
 
-<Food rdf:about="#tacos">
+<Vegetable rdf:about="#tacos">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tacos</fancyName>
-</Food>
+</Vegetable>
 
 <Alcoholic rdf:about="#beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
