@@ -2636,10 +2636,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Vegetable>
 
-<Food rdf:about="#name___the_common_name_of_the_food_item">
+<Fruit rdf:about="#name___the_common_name_of_the_food_item">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name - the common name of the food item</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#serving__size___the_amount_of_food_being_considered_for_one_serving">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

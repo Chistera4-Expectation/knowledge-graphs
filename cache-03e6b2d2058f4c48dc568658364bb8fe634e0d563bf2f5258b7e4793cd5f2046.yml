@@ -1,0 +1,22 @@
+# Cache for query: most adequate class for 'name - the common name of the food item' among: 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Dressing', 'Food Seasoning', 'Honey', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Yogurt'. Concise class name only
+# (api: HuggingAiQuery, model: mistralai/Mixtral-8x7B-Instruct-v0.1, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: ' Here are some concise class names for the given food items:
+
+
+  * Beef, Pork-derived Food, Poultry-derived Food: "Meat"
+
+  * Bread, Breakfast Cereal, Pasta Types, Rice: "Grains"
+
+  * Butter, Cheese, Milk, Yogurt: "Dairy"
+
+  * Edible Crustaceans, Edible Fish, Edible Molluscs, Edible Seaweed: "Seafood"
+
+  * Edible Fruit, Edible Vegetables, Edible Vegetal Oil, Edible Seeds, Honey: "Plants"
+
+  * Food Dressing, Sauce: "Condiment"
+
+  * Food Seasoning, Spice: "Spices and Herbs"
+
+  * Sweetener: "Sugars"'
