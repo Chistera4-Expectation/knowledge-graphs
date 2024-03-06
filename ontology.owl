@@ -4725,11 +4725,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep-fried shrimp</fancyName>
 </Poultry>
 
-<Edible rdf:about="#remoulade_sauce">
+<Dressing rdf:about="#remoulade_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remoulade sauce</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#shredded_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
