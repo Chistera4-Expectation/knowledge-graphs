@@ -2465,6 +2465,31 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Energy>
 
+<Juice rdf:about="#__the_type_of_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- the type of juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#__the_quantity_of_juice_in_the_container">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- the quantity of juice in the container</fancyName>
+</Juice>
+
+<Juice rdf:about="#__the_amount_of_sugar_in_the_juice_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- the amount of sugar in the juice per serving</fancyName>
+</Juice>
+
+<Juice rdf:about="#__the_amount_of_fat_in_the_juice_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- the amount of fat in the juice per serving</fancyName>
+</Juice>
+
+<Juice rdf:about="#__the_amount_of_protein_in_the_juice_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- the amount of protein in the juice per serving</fancyName>
+</Juice>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

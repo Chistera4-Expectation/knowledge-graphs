@@ -1,0 +1,30 @@
+# Cache for query: instances list for class Juice, names only
+# (api: HuggingAiQuery, model: mistralai/Mixtral-8x7B-Instruct-v0.1, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: ' Here are some instance variables that could be used in a `Juice` class:
+
+
+  * `name` (string) - the name of the juice
+
+  * `brand` (string) - the brand of the juice
+
+  * `type` (string) - the type of juice (e.g. orange, apple, etc.)
+
+  * `quantity` (integer) - the quantity of juice in the container (in fluid ounces
+  or milliliters)
+
+  * `ingredients` (array of strings) - an array containing the ingredients in the
+  juice
+
+  * `calories` (integer) - the number of calories in the juice per serving
+
+  * `sugar` (integer) - the amount of sugar in the juice per serving (in grams)
+
+  * `fat` (integer) - the amount of fat in the juice per serving (in grams)
+
+  * `protein` (integer) - the amount of protein in the juice per serving (in grams)
+
+  * `is_organic` (boolean) - whether or not the juice is organic
+
+  * `expiration_date` (Date object) - the date on which the juice expires'
