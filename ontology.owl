@@ -373,6 +373,7 @@
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Sauce>
 
@@ -470,6 +471,7 @@
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -720,6 +722,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
@@ -987,6 +990,7 @@
 <Meat rdf:about="#pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
 </Meat>
 
@@ -1553,6 +1557,7 @@
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2671,6 +2676,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3172,6 +3178,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -3327,6 +3334,7 @@
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3403,6 +3411,7 @@
 <Edible rdf:about="#red_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper</fancyName>
 </Edible>
 
@@ -3496,6 +3505,7 @@
   <ingredientOf rdf:resource="#udon_noodles"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
 
@@ -3679,6 +3689,7 @@
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
@@ -3761,6 +3772,7 @@
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -3800,6 +3812,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketchup</fancyName>
 </Edible>
 
@@ -4539,6 +4552,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
