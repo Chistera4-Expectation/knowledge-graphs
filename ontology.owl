@@ -998,6 +998,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcium content per serving</fancyName>
 </Cheese>
 
+<Milk rdf:about="#_pasteurization_method___how_the_milk_was_pasteurized__if_at_all">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`pasteurization_method`: how the milk was pasteurized, if at all</fancyName>
+</Milk>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
