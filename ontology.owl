@@ -335,6 +335,8 @@
 
 <Sauce rdf:about="#marinara_sauce___low_in_calories__high_in_vitamins_a">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
+  <ingredientOf rdf:resource="#wonton_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marinara sauce - low in calories, high in vitamins A</fancyName>
 </Sauce>
 
@@ -4060,13 +4062,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
-</Sauce>
-
-<Sauce rdf:about="#sauces">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#hot_dogs"/>
-  <ingredientOf rdf:resource="#wonton_noodles"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauces</fancyName>
 </Sauce>
 
 <Seasoning rdf:about="#seasonings">
