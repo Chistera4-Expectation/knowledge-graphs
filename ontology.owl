@@ -3582,11 +3582,11 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
 </Meat>
 
-<Edible rdf:about="#raisins">
+<Fruit rdf:about="#raisins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
