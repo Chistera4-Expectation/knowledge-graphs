@@ -3662,6 +3662,28 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#soba_noodle_salad"/>
+  <ingredientOf rdf:resource="#tofu_dishes"/>
+  <ingredientOf rdf:resource="#poke_bowls"/>
+  <ingredientOf rdf:resource="#bento_boxes"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#egg_drop_soup"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#red_braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
@@ -5804,37 +5826,6 @@
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grits</fancyName>
 </Breakfast>
-
-<Vegetable rdf:about="#green_onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#shrimp_and_grits"/>
-  <ingredientOf rdf:resource="#jambalaya"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#haitian_griot"/>
-  <ingredientOf rdf:resource="#tempura"/>
-  <ingredientOf rdf:resource="#sashimi"/>
-  <ingredientOf rdf:resource="#miso_soup"/>
-  <ingredientOf rdf:resource="#sukiyaki"/>
-  <ingredientOf rdf:resource="#teriyaki"/>
-  <ingredientOf rdf:resource="#soba_noodle_salad"/>
-  <ingredientOf rdf:resource="#tofu_dishes"/>
-  <ingredientOf rdf:resource="#poke_bowls"/>
-  <ingredientOf rdf:resource="#bento_boxes"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#mapo_tofu"/>
-  <ingredientOf rdf:resource="#hot_pot"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#shrimp_fried_rice"/>
-  <ingredientOf rdf:resource="#congee"/>
-  <ingredientOf rdf:resource="#egg_drop_soup"/>
-  <ingredientOf rdf:resource="#beijing_roast_duck"/>
-  <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <ingredientOf rdf:resource="#red_braised_pork_belly"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
-</Vegetable>
 
 <Seasoning rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
