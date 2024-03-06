@@ -3561,11 +3561,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ladyfingers</fancyName>
 </Bread>
 
-<Edible rdf:about="#espresso">
+<Coffee rdf:about="#espresso">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espresso</fancyName>
-</Edible>
+</Coffee>
 
 <Edible rdf:about="#strong_coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
