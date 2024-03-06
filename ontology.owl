@@ -2416,11 +2416,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplant</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#okra">
+<Vegetable rdf:about="#okra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Food rdf:about="#chocolate_bar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
