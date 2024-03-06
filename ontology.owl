@@ -4875,13 +4875,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery, sliced</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#shaoxing_wine">
+<Alcoholic rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#scallion_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
