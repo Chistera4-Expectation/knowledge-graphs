@@ -4146,6 +4146,9 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#fufu_and_light_soup"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#callaloo_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Spice>
 
@@ -4411,14 +4414,6 @@
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beef bones</fancyName>
 </Poultry>
-
-<Spice rdf:about="#scotch_bonnet_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fufu_and_light_soup"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <ingredientOf rdf:resource="#callaloo_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
-</Spice>
 
 <Spice rdf:about="#habanero_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
