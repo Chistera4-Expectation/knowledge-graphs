@@ -4628,10 +4628,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef</fancyName>
 </Beef>
 
-<Edible rdf:about="#pastrami">
+<Poultry rdf:about="#pastrami">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#sauerkraut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
