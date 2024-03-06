@@ -2490,6 +2490,16 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- the amount of protein in the juice per serving</fancyName>
 </Juice>
 
+<Water rdf:about="#__the_type_of_water_being_consumed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">: the type of water being consumed</fancyName>
+</Water>
+
+<Water rdf:about="#__how_often_the_individual_is_drinking_water_throughout_the_day">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">: how often the individual is drinking water throughout the day</fancyName>
+</Water>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
