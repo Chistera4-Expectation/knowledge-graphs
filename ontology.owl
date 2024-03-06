@@ -2289,13 +2289,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#avocado">
+<Fruit rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#doubles"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
-</Vegetal>
+</Fruit>
 
 <Vegetal rdf:about="#beets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
