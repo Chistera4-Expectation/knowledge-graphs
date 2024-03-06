@@ -370,6 +370,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Sauce>
 
@@ -568,6 +569,7 @@
   <ingredientOf rdf:resource="#curried_lamb"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -1282,6 +1284,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -1998,6 +2001,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2238,6 +2242,7 @@
   <ingredientOf rdf:resource="#curried_lamb"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetal>
 
@@ -3199,6 +3204,8 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Edible>
 
 <Edible rdf:about="#optional">
@@ -3349,6 +3356,7 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
@@ -3535,6 +3543,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Edible>
 
@@ -4500,6 +4509,7 @@
 <Edible rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -4651,6 +4661,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other nuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#thinly_sliced_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
+</Edible>
+
+<Edible rdf:about="#tofu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
+</Edible>
+
+<Edible rdf:about="#chili_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili flakes</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
