@@ -4487,11 +4487,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtail</fancyName>
 </Meat>
 
-<Edible rdf:about="#red_wine">
+<Drink rdf:about="#red_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#lamb_shoulder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
