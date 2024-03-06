@@ -4429,11 +4429,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi seasoning cubes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#bouillon_powder">
+<Seasoning rdf:about="#bouillon_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bouillon powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
