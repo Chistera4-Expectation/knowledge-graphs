@@ -1582,10 +1582,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beetles</fancyName>
 </Insect>
 
-<Insect rdf:about="#wasps">
+<Honey rdf:about="#wasps">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasps</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#hornets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
