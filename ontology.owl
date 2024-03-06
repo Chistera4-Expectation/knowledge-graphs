@@ -3846,6 +3846,8 @@
 
 <Pasta rdf:about="#pastas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#minestrone_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastas</fancyName>
 </Pasta>
 
@@ -5071,13 +5073,6 @@
   <ingredientOf rdf:resource="#ravioli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg wash</fancyName>
 </Dressing>
-
-<Pasta rdf:about="#pasta">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#spaghetti_carbonara"/>
-  <ingredientOf rdf:resource="#minestrone_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
-</Pasta>
 
 <Sauce rdf:about="#pepper_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
