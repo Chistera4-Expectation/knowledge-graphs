@@ -4719,11 +4719,11 @@
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
 </Bread>
 
-<Edible rdf:about="#deep_fried_shrimp">
+<Poultry rdf:about="#deep_fried_shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep-fried shrimp</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#remoulade_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
