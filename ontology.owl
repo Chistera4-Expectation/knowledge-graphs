@@ -4217,7 +4217,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoked prawns</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#bell_peppers">
+<Vegetable rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
@@ -4225,7 +4225,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
