@@ -2432,10 +2432,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza</fancyName>
 </Bread>
 
-<Food rdf:about="#salad">
+<Vegetable rdf:about="#salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salad</fancyName>
-</Food>
+</Vegetable>
 
 <Food rdf:about="#steak">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
