@@ -4731,11 +4731,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remoulade sauce</fancyName>
 </Dressing>
 
-<Edible rdf:about="#shredded_lettuce">
+<Vegetable rdf:about="#shredded_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded lettuce</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#tomato_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
