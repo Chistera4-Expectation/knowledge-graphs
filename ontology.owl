@@ -1647,10 +1647,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone broth</fancyName>
 </Meat>
 
-<Animal rdf:about="#marshmallows">
+<Honey rdf:about="#marshmallows">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marshmallows</fancyName>
-</Animal>
+</Honey>
 
 <Animal rdf:about="#jell_o">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
