@@ -4907,11 +4907,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#cassia_bark">
+<Spice rdf:about="#cassia_bark">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassia bark</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#other_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
