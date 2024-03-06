@@ -5435,11 +5435,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon stick</fancyName>
 </Spice>
 
-<Edible rdf:about="#garlic_paste">
+<Seasoning rdf:about="#garlic_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic paste</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#ginger_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
