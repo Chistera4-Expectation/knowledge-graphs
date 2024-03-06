@@ -3757,11 +3757,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#dry_marsala_wine">
+<Alcoholic rdf:about="#dry_marsala_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_marsala"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry marsala wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#low_sodium_chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
