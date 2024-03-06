@@ -1270,11 +1270,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skim milk</fancyName>
 </Milk>
 
-<Milk rdf:about="#low_fat_milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-fat milk</fancyName>
-</Milk>
-
 <Milk rdf:about="#non_dairy_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-dairy milk</fancyName>
