@@ -4233,10 +4233,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#powder">
+<Seed rdf:about="#powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#bitter_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
