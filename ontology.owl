@@ -2993,6 +2993,7 @@
 
 <Fruit rdf:about="#boysenberry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#blueberry_muffins"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boysenberry</fancyName>
 </Fruit>
 
@@ -5848,12 +5849,6 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">their juice</fancyName>
 </Juice>
-
-<Fruit rdf:about="#fresh_blueberries">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#blueberry_muffins"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh blueberries</fancyName>
-</Fruit>
 
 <Vegetable rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
