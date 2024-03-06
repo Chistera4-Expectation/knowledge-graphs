@@ -3883,12 +3883,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#bread">
+<Bread rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#roasted_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
