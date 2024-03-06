@@ -841,10 +841,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrite</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#monosodium_glutamate">
+<Seasoning rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium glutamate</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#acesulfame_potassium">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
