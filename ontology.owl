@@ -2297,6 +2297,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
+  <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
@@ -4316,12 +4317,6 @@
   <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spicy mango salsa</fancyName>
 </Fruit>
-
-<Vegetable rdf:about="#peppers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#doubles"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
-</Vegetable>
 
 <Meat rdf:about="#oxtail">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
