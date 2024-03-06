@@ -4175,11 +4175,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut butter</fancyName>
 </Edible>
 
-<Edible rdf:about="#jelly">
+<Fruit rdf:about="#jelly">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jelly</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#jam">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
