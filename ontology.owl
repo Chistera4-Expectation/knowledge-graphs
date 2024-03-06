@@ -4610,11 +4610,11 @@
   <ingredientOf rdf:resource="#meatball_sub"/>
 </Vegetable>
 
-<Edible rdf:about="#minced_garlic">
+<Seasoning rdf:about="#minced_garlic">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minced garlic</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#rye_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
