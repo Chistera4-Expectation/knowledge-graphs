@@ -438,6 +438,7 @@
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -586,6 +587,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -672,6 +674,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -1693,6 +1696,7 @@
 <Animal rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Animal>
 
@@ -2155,6 +2159,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2851,6 +2856,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -4287,6 +4293,7 @@
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -4674,6 +4681,7 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -4959,6 +4967,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Edible>
 
@@ -5211,6 +5220,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#whole_duck">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole duck</fancyName>
+</Edible>
+
+<Edible rdf:about="#white_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#five_spice_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#maltose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice wine</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
