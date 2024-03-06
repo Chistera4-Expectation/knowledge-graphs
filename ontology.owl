@@ -4534,13 +4534,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketchup</fancyName>
 </Sauce>
 
-<Edible rdf:about="#worcestershire_sauce">
+<Seasoning rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#pork_spare_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
