@@ -4417,11 +4417,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#habanero_pepper">
+<Spice rdf:about="#habanero_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habanero pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#maggi_seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
