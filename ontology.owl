@@ -4954,11 +4954,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ice_water">
+<Water rdf:about="#ice_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice water</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
