@@ -5453,12 +5453,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri chili powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#turmeric_powder">
+<Spice rdf:about="#turmeric_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fresh_cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
