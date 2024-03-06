@@ -711,6 +711,7 @@
   <ingredientOf rdf:resource="#jamaican_patties"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
+  <ingredientOf rdf:resource="#grilled_salmon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -4685,12 +4686,6 @@
   <ingredientOf rdf:resource="#grilled_salmon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon fillets</fancyName>
 </Fish>
-
-<Spice rdf:about="#dried_thyme">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#grilled_salmon"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried thyme</fancyName>
-</Spice>
 
 <Sauce rdf:about="#miso_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
