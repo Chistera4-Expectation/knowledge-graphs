@@ -1597,14 +1597,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flies</fancyName>
 </Insect>
 
-<Animal rdf:about="#meat">
+<Meat rdf:about="#meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
-</Animal>
+</Meat>
 
 <Animal rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
