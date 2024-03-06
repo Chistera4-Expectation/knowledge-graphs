@@ -3509,11 +3509,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
-<Edible rdf:about="#jalapeno_peppers">
+<Vegetable rdf:about="#jalapeno_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeño peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#corn_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
