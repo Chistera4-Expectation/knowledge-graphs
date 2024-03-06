@@ -4262,11 +4262,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot peppers</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#other_leafy_greens">
+<Vegetable rdf:about="#other_leafy_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other leafy greens</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
