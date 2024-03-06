@@ -4089,11 +4089,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red wine vinegar</fancyName>
 </Sauce>
 
-<Edible rdf:about="#tomato_juice_as_needed">
+<Juice rdf:about="#tomato_juice_as_needed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato juice as needed</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#short_grain_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
