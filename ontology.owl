@@ -1789,11 +1789,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisin Bran</fancyName>
 </Breakfast>
 
-<Breakfast rdf:about="#bran_flakes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bran flakes</fancyName>
-</Breakfast>
-
 <Breakfast rdf:about="#oat_bran">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oat bran</fancyName>
