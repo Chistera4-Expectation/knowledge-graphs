@@ -3607,6 +3607,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
@@ -6498,12 +6499,6 @@
   <ingredientOf rdf:resource="#bento_boxes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled chicken</fancyName>
 </Poultry>
-
-<Vegetable rdf:about="#red_bell_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bento_boxes"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper</fancyName>
-</Vegetable>
 
 <Seed rdf:about="#black_sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
