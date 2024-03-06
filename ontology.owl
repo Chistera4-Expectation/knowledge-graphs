@@ -4499,6 +4499,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rum_punch"/>
   <ingredientOf rdf:resource="#haitian_griot"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
 </Juice>
 
@@ -5697,12 +5698,6 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned clams</fancyName>
 </Molluscs>
-
-<Juice rdf:about="#their_juice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">their juice</fancyName>
-</Juice>
 
 <Vegetable rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
