@@ -3854,11 +3854,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adobo seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#corn_tortillas">
+<Vegetable rdf:about="#corn_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn tortillas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lime_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
