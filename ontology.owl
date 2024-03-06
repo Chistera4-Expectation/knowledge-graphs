@@ -4145,11 +4145,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Animal>
 
-<Edible rdf:about="#oats">
+<Cereal rdf:about="#oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
-</Edible>
+</Cereal>
 
 <Edible rdf:about="#navy_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
