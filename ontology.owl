@@ -1556,6 +1556,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold cereals</fancyName>
 </Breakfast>
 
+<Bread rdf:about="#sourdough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sourdough</fancyName>
+</Bread>
+
+<Bread rdf:about="#rye">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye</fancyName>
+</Bread>
+
+<Bread rdf:about="#bagel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bagel</fancyName>
+</Bread>
+
+<Bread rdf:about="#naan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naan</fancyName>
+</Bread>
+
+<Bread rdf:about="#pita">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pita</fancyName>
+</Bread>
+
+<Bread rdf:about="#french">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</fancyName>
+</Bread>
+
+<Bread rdf:about="#italian">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian</fancyName>
+</Bread>
+
+<Bread rdf:about="#challah">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Challah</fancyName>
+</Bread>
+
+<Bread rdf:about="#cornbread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornbread</fancyName>
+</Bread>
+
+<Bread rdf:about="#flaxseed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaxseed</fancyName>
+</Bread>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
