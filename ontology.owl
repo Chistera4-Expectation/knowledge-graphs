@@ -3573,13 +3573,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strong coffee</fancyName>
 </Coffee>
 
-<Edible rdf:about="#cocoa_powder">
+<Vegetable rdf:about="#cocoa_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocoa powder</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#dark_chocolate_shavings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
