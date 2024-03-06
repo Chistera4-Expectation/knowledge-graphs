@@ -494,6 +494,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#beef_madras"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1068,6 +1069,7 @@
 <Meat rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Seafood"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Meat>
 
@@ -1282,6 +1284,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#flying_fish"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1328,6 +1331,7 @@
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1625,6 +1629,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#egg_rolls"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3288,6 +3293,7 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#beef_madras"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -3455,6 +3461,7 @@
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Edible>
 
@@ -3605,6 +3612,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Edible>
 
@@ -3923,6 +3931,7 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -4094,6 +4103,7 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Edible>
 
@@ -5047,6 +5057,12 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garam masala powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#oil_for_frying">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oil for frying</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
