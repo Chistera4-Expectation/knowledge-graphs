@@ -2185,6 +2185,7 @@
 
 <Seed rdf:about="#chia_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chia seeds</fancyName>
 </Seed>
 
@@ -4105,12 +4106,6 @@
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fruit slices</fancyName>
 </Fruit>
-
-<Seed rdf:about="#chia_seeds_for_added_crunch">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chia seeds for added crunch</fancyName>
-</Seed>
 
 <Vegetable rdf:about="#fiber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
