@@ -4076,11 +4076,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasonings</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#fillers">
+<Vegetable rdf:about="#fillers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lobster_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
