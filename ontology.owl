@@ -366,6 +366,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Sauce>
 
@@ -455,6 +456,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -553,6 +555,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#doubles"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -687,6 +690,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
@@ -1972,6 +1976,7 @@
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2032,6 +2037,7 @@
 
 <Seed rdf:about="#sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
 </Seed>
 
@@ -2208,6 +2214,7 @@
   <ingredientOf rdf:resource="#doubles"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetal>
 
@@ -3110,6 +3117,7 @@
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#baked_sweet_potato"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -4376,6 +4384,7 @@
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Edible>
 
@@ -4437,6 +4446,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#boneless__skinless_chicken_breasts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless, skinless chicken breasts</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_onions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
