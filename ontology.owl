@@ -3806,13 +3806,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other pasta</fancyName>
 </Pasta>
 
-<Edible rdf:about="#cornmeal">
+<Breakfast rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#southern_fried_catfish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
