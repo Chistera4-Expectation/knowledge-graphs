@@ -2406,10 +2406,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squashes</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#zucchini">
+<Vegetable rdf:about="#zucchini">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zucchini</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#eggplant">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
