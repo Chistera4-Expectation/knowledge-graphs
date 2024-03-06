@@ -4593,11 +4593,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoagie bun</fancyName>
 </Bread>
 
-<Edible rdf:about="#shredded_mozzarella_cheese">
+<Cheese rdf:about="#shredded_mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded mozzarella cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#chopped_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
