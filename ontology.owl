@@ -4684,11 +4684,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Sauce>
 
-<Edible rdf:about="#fresh_raw_fish">
+<Fish rdf:about="#fresh_raw_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh raw fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#sushi_rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
