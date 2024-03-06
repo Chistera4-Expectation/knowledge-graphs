@@ -4365,7 +4365,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chili flakes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#soy_sauce">
+<Seasoning rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
@@ -4386,7 +4386,7 @@
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
