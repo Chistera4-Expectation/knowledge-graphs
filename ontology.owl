@@ -3648,11 +3648,11 @@
   <ingredientOf rdf:resource="#enchiladas_mole"/>
 </Water>
 
-<Edible rdf:about="#roasted_red_bell_peppers__diced">
+<Vegetable rdf:about="#roasted_red_bell_peppers__diced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted red bell peppers, diced</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_cilantro_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
