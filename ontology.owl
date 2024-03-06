@@ -4713,11 +4713,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#fresh_wasabi_root">
+<Vegetable rdf:about="#fresh_wasabi_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh wasabi root</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ice_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
