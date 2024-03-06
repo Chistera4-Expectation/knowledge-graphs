@@ -356,6 +356,7 @@
 
 <Sauce rdf:about="#bbq_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BBQ sauce</fancyName>
 </Sauce>
 
@@ -4024,12 +4025,6 @@
   <ingredientOf rdf:resource="#guava_pastry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry dough</fancyName>
 </Bread>
-
-<Sauce rdf:about="#barbecue_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bbq_ribs"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbecue sauce</fancyName>
-</Sauce>
 
 <Sweetener rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
