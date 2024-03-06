@@ -4534,13 +4534,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finely chopped scallions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#garlic__minced">
+<Seasoning rdf:about="#garlic__minced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic, minced</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#ginger__grated">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
