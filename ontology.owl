@@ -4889,11 +4889,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallion oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#peking_duck">
+<Poultry rdf:about="#peking_duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peking duck</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#pancakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
