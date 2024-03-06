@@ -2606,10 +2606,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocados</fancyName>
 </Fruit>
 
-<Vegetal rdf:about="#olives">
+<Fruit rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
-</Vegetal>
+</Fruit>
 
 <Vegetal rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
