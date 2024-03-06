@@ -5081,11 +5081,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili paste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#white">
+<Fish rdf:about="#white">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#yellow_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
