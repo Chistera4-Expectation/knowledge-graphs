@@ -403,6 +403,7 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -412,6 +413,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_marsala"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -427,6 +429,7 @@
 
 <Seasoning rdf:about="#paprika">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -548,6 +551,7 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#mole"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -802,6 +806,7 @@
 
 <Pork rdf:about="#chorizo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chorizo</fancyName>
 </Pork>
 
@@ -847,6 +852,7 @@
 
 <Poultry rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Poultry>
 
@@ -1163,6 +1169,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Fish"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -1293,11 +1300,13 @@
 
 <Molluscs rdf:about="#clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
 </Molluscs>
 
 <Molluscs rdf:about="#mussels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussels</fancyName>
 </Molluscs>
 
@@ -1897,6 +1906,7 @@
   <ingredientOf rdf:resource="#chicken_marsala"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
@@ -2112,6 +2122,7 @@
 
 <Vegetable rdf:about="#peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
@@ -2131,6 +2142,7 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3227,6 +3239,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
 </Edible>
 
@@ -3256,6 +3269,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#mole"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -3618,6 +3632,7 @@
 <Edible rdf:about="#bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Edible>
 
@@ -3643,6 +3658,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato juice as needed</fancyName>
+</Edible>
+
+<Edible rdf:about="#short_grain_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-grain rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#saffron">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron</fancyName>
+</Edible>
+
+<Edible rdf:about="#seafood_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood stock</fancyName>
+</Edible>
+
+<Edible rdf:about="#lemon_wedges">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon wedges</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
