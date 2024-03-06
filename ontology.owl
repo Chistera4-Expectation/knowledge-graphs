@@ -1931,6 +1931,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Spaghetti</fancyName>
 </Seaweed>
 
+<Seed rdf:about="#pumpkin_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#sunflower_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunflower seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#sesame_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#flaxseeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaxseeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#chia_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chia seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#hemp_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemp seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#poppy_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poppy seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#quinoa_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinoa seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#corn_kernels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn kernels</fancyName>
+</Seed>
+
+<Seed rdf:about="#watermelon_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watermelon seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#cantaloupe_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantaloupe seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#kiwi_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kiwi seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#pomegranate_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#grape_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grape seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#apple_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple seeds</fancyName>
+</Seed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
