@@ -2587,14 +2587,14 @@
   <ingredientOf rdf:resource="#tofu_dishes"/>
 </Vegetable>
 
-<Vegetal rdf:about="#tofu">
+<Vegetable rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#plant_based_milks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
