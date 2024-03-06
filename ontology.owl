@@ -1226,6 +1226,7 @@
 
 <Cheese rdf:about="#mozzarella">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella</fancyName>
 </Cheese>
 
@@ -3308,12 +3309,6 @@
   <ingredientOf rdf:resource="#chili_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
 </Sauce>
-
-<Cheese rdf:about="#mozzarella_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
-</Cheese>
 
 <Cheese rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
