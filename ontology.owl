@@ -3592,11 +3592,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
 </Vegetable>
 
-<Vegetable rdf:about="#beets">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beets</fancyName>
-</Vegetable>
-
 <Vegetable rdf:about="#sweet_potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_potato_pie"/>
