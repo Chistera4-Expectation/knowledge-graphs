@@ -443,6 +443,7 @@
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
+  <ingredientOf rdf:resource="#baked_sweet_potato"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1893,6 +1894,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
+  <ingredientOf rdf:resource="#baked_sweet_potato"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
 
@@ -2196,6 +2198,7 @@
 
 <Vegetal rdf:about="#sweet_potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#baked_sweet_potato"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet potatoes</fancyName>
 </Vegetal>
 
@@ -3066,6 +3069,7 @@
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
+  <ingredientOf rdf:resource="#baked_sweet_potato"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
