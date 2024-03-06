@@ -4567,11 +4567,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil for frying</fancyName>
 </Oil>
 
-<Edible rdf:about="#guava_paste">
+<Fruit rdf:about="#guava_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_pastry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava paste</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#guava_jam">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
