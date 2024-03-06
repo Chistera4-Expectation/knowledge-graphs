@@ -5544,11 +5544,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs such as cilantro</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#thai_basil">
+<Seasoning rdf:about="#thai_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai basil</fancyName>
-</Edible>
+</Seasoning>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
