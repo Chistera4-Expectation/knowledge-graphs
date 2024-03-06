@@ -844,10 +844,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bases</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#enzymes">
+<Spice rdf:about="#enzymes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymes</fancyName>
-</Additive>
+</Spice>
 
 <Additive rdf:about="#humectants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
