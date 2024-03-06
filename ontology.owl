@@ -1316,10 +1316,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pudding</fancyName>
 </Dairy>
 
-<Dairy rdf:about="#cottage_cheese">
+<Milk rdf:about="#cottage_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cottage cheese</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#ricotta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
