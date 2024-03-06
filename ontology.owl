@@ -3104,11 +3104,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice bran oil</fancyName>
 </Oil>
 
-<Oil rdf:about="#flaxseed_oil">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaxseed oil</fancyName>
-</Oil>
-
 <Oil rdf:about="#safflower_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Safflower oil</fancyName>
