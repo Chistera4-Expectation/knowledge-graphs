@@ -2200,6 +2200,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bang Energy</fancyName>
 </Energy>
 
+<Juice rdf:about="#orange_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#apple_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#grapefruit_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapefruit juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#cranberry_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranberry juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#pineapple_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#mango_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#carrot_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#beetroot_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beetroot juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#spinach_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach juice</fancyName>
+</Juice>
+
+<Juice rdf:about="#tomato_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato juice</fancyName>
+</Juice>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
