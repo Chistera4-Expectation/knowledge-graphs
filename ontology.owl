@@ -3935,6 +3935,7 @@
 <Alcoholic rdf:about="#wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
 </Alcoholic>
 
@@ -5172,12 +5173,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rum</fancyName>
-</Alcoholic>
-
-<Alcoholic rdf:about="#marsala_wine">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tiramisu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marsala wine</fancyName>
 </Alcoholic>
 
 <Edible rdf:about="#cocoa_powder">
