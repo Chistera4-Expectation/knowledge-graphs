@@ -411,6 +411,7 @@
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#plantain_soup"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -427,11 +428,13 @@
 
 <Seasoning rdf:about="#garlic_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#onion_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion powder</fancyName>
 </Seasoning>
 
@@ -442,6 +445,7 @@
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#tibs"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -1334,6 +1338,7 @@
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2849,6 +2854,7 @@
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -2989,6 +2995,7 @@
 <Edible rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Edible>
 
@@ -3068,6 +3075,7 @@
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#tibs"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
 </Edible>
 
@@ -3115,6 +3123,7 @@
 <Edible rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Edible>
 
@@ -3124,6 +3133,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#tibs"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
 
@@ -3338,6 +3348,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#plantain_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_pieces">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pieces</fancyName>
+</Edible>
+
+<Edible rdf:about="#cornstarch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
+</Edible>
+
+<Edible rdf:about="#buttermilk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buttermilk</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
