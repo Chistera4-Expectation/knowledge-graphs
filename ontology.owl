@@ -4209,11 +4209,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sprinkle of cinnamon</fancyName>
 </Spice>
 
-<Edible rdf:about="#other_spices_for_extra_flavor">
+<Spice rdf:about="#other_spices_for_extra_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other spices for extra flavor</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
