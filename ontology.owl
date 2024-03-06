@@ -4814,11 +4814,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice berries</fancyName>
 </Spice>
 
-<Edible rdf:about="#ground_cinnamon">
+<Seasoning rdf:about="#ground_cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#ground_nutmeg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
