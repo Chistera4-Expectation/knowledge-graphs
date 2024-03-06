@@ -5130,12 +5130,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried scallops</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#oyster_sauce">
+<Sauce rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#rice_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
