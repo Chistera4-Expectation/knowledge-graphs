@@ -415,6 +415,7 @@
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1087,6 +1088,7 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1961,6 +1963,7 @@
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetal>
 
@@ -1991,6 +1994,7 @@
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetal>
 
@@ -2882,6 +2886,7 @@
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -2896,6 +2901,7 @@
   <ingredientOf rdf:resource="#pasta_carbonara"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Edible>
 
@@ -3404,18 +3410,21 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
 </Edible>
 
 <Edible rdf:about="#lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
 </Edible>
 
 <Edible rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
 </Edible>
 
@@ -3428,6 +3437,7 @@
 <Edible rdf:about="#mayonnaise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
 </Edible>
 
@@ -3513,6 +3523,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillers</fancyName>
+</Edible>
+
+<Edible rdf:about="#lobster_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobster meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#lemon_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
