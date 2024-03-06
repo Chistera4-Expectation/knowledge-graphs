@@ -1652,10 +1652,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marshmallows</fancyName>
 </Honey>
 
-<Animal rdf:about="#jell_o">
+<Dairy rdf:about="#jell_o">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jell-O</fancyName>
-</Animal>
+</Dairy>
 
 <Animal rdf:about="#candy_made">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
