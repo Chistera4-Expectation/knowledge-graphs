@@ -4961,11 +4961,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#garnishes">
+<Dressing rdf:about="#garnishes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#wonton_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garnishes</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
