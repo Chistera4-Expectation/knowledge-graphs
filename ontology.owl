@@ -2818,10 +2818,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothies</fancyName>
 </Juice>
 
-<Edible rdf:about="#chocolate_cake">
+<Oil rdf:about="#chocolate_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate cake</fancyName>
-</Edible>
+</Oil>
 
 <Italian rdf:about="#pasta_carbonara">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
