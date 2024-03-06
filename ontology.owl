@@ -4892,11 +4892,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coconut milk</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#oxtails">
+<Pork rdf:about="#oxtails">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtails</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#red_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
