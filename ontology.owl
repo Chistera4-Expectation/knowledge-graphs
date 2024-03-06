@@ -1314,7 +1314,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cream</fancyName>
 </Milk>
 
-<Dairy rdf:about="#butter">
+<Milk rdf:about="#butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
@@ -1332,7 +1332,7 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
