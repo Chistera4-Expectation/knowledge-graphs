@@ -680,6 +680,7 @@
 <Additive rdf:about="#preservatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
 </Additive>
 
@@ -1072,6 +1073,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#hamburgers"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
@@ -1344,6 +1346,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
 </Animal>
 
@@ -3227,6 +3230,7 @@
 <Edible rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Edible>
 
@@ -3399,6 +3403,7 @@
 <Edible rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
 </Edible>
 
@@ -3484,6 +3489,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#condiments">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
+</Edible>
+
+<Edible rdf:about="#sauces">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauces</fancyName>
+</Edible>
+
+<Edible rdf:about="#seasonings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasonings</fancyName>
+</Edible>
+
+<Edible rdf:about="#fillers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dogs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillers</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
