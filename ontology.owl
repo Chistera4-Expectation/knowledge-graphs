@@ -3993,7 +3993,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional seasonings</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#onions">
+<Vegetable rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
@@ -4008,7 +4008,7 @@
   <ingredientOf rdf:resource="#samosas"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
