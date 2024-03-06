@@ -3638,12 +3638,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fresh_basil_leaves">
+<Vegetable rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#extra_virgin_olive_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
