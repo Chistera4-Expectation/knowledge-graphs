@@ -4438,12 +4438,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced beef</fancyName>
 </Meat>
 
-<Edible rdf:about="#celery">
+<Vegetable rdf:about="#celery">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
