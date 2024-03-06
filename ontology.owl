@@ -5060,14 +5060,14 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
 </Seed>
 
-<Edible rdf:about="#shaoxing_wine">
+<Alcoholic rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
