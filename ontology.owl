@@ -5286,11 +5286,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peanut butter</fancyName>
 </Seed>
 
-<Edible rdf:about="#baby_spinach">
+<Vegetable rdf:about="#baby_spinach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baby spinach</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#white_pepper_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
