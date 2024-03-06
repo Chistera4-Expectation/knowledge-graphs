@@ -4780,11 +4780,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#sliced_green_onions">
+<Vegetable rdf:about="#sliced_green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sliced green onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#sliced_shiitake_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
