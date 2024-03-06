@@ -4954,12 +4954,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wontons</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#noodles">
+<Pasta rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#wonton_noodles"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#garnishes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
