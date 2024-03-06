@@ -4852,11 +4852,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper, sliced</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#zucchini__sliced">
+<Vegetable rdf:about="#zucchini__sliced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zucchini, sliced</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#carrots__peeled">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
