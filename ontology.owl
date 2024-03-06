@@ -2963,14 +2963,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soup</fancyName>
 </Drink>
 
-<Liquid rdf:about="#broth">
+<Water rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
-</Liquid>
+</Water>
 
 <Liquid rdf:about="#iced_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
