@@ -1711,10 +1711,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beetles</fancyName>
 </Honey>
 
-<Insect rdf:about="#cicadas">
+<Honey rdf:about="#cicadas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cicadas</fancyName>
-</Insect>
+</Honey>
 
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
