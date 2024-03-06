@@ -2798,10 +2798,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tea</fancyName>
 </Drink>
 
-<Drink rdf:about="#coffee">
+<Coffee rdf:about="#coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee</fancyName>
-</Drink>
+</Coffee>
 
 <Drink rdf:about="#sports_drinks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
