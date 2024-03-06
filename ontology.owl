@@ -4802,11 +4802,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">butter for cooking</fancyName>
 </Dressing>
 
-<Edible rdf:about="#fresh_ginger">
+<Vegetable rdf:about="#fresh_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#allspice_berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
