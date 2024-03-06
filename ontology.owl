@@ -5007,11 +5007,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oils</fancyName>
 </Oil>
 
-<Edible rdf:about="#sauces">
+<Sauce rdf:about="#sauces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauces</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
