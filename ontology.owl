@@ -4796,11 +4796,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Bay seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#butter_for_cooking">
+<Dressing rdf:about="#butter_for_cooking">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">butter for cooking</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#fresh_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
