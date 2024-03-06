@@ -3993,11 +3993,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relish</fancyName>
 </Sauce>
 
-<Edible rdf:about="#apples">
+<Fruit rdf:about="#apples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#cold_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
