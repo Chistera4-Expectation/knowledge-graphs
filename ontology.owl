@@ -4615,13 +4615,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigeon peas</fancyName>
 </Edible>
 
-<Edible rdf:about="#cumin_seeds">
+<Seed rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
