@@ -4241,11 +4241,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rockstar Energy</fancyName>
 </Energy>
 
-<Energy rdf:about="#bang_energy">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bang Energy</fancyName>
-</Energy>
-
 <Energy rdf:about="#vpx_spark">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VPX SPARK</fancyName>
