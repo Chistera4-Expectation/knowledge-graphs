@@ -5002,11 +5002,11 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
 </Pork>
 
-<Edible rdf:about="#peanut_sauce">
+<Sauce rdf:about="#peanut_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#boneless__skinless_chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
