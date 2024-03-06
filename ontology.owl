@@ -3328,14 +3328,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron threads</fancyName>
 </Spice>
 
-<Edible rdf:about="#white_wine">
+<Drink rdf:about="#white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
