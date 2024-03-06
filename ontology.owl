@@ -4466,11 +4466,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low sugar content</fancyName>
 </Water>
 
-<Tea rdf:about="#herbal_teas">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal teas</fancyName>
-</Tea>
-
 <Energy rdf:about="#soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
