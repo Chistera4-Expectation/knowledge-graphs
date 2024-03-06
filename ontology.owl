@@ -4587,11 +4587,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sub roll</fancyName>
 </Bread>
 
-<Edible rdf:about="#hoagie_bun">
+<Bread rdf:about="#hoagie_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoagie bun</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#shredded_mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
