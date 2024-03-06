@@ -3842,11 +3842,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guajillo chiles</fancyName>
 </Spice>
 
-<Edible rdf:about="#pineapple">
+<Fruit rdf:about="#pineapple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#adobo_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
