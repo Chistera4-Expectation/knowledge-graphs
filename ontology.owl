@@ -4388,14 +4388,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#rice_vinegar">
+<Seasoning rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cassava">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
