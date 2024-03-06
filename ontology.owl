@@ -3019,10 +3019,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hotdog</fancyName>
 </Pork>
 
-<Edible rdf:about="#icecream">
+<Dairy rdf:about="#icecream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IceCream</fancyName>
-</Edible>
+</Dairy>
 
 <Edible rdf:about="#lemon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
