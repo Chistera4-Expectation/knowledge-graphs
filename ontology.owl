@@ -4967,11 +4967,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garnishes</fancyName>
 </Dressing>
 
-<Edible rdf:about="#cabbage">
+<Vegetable rdf:about="#cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egg_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cabbage</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cooked_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
