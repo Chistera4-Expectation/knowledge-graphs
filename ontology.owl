@@ -4272,11 +4272,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: sausage</fancyName>
 </Meat>
 
-<Edible rdf:about="#bacon_bits__diced_vegetables">
+<Vegetable rdf:about="#bacon_bits__diced_vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacon bits, diced vegetables</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
