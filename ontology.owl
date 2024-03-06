@@ -4163,11 +4163,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molasses</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#acidity_regulator">
+<Food rdf:about="#acidity_regulator">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidity regulator</fancyName>
-</Edible>
+</Food>
 
 <Edible rdf:about="#peanut_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
