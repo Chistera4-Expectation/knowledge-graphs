@@ -3448,14 +3448,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced tomatoes</fancyName>
 </Sauce>
 
-<Edible rdf:about="#mozzarella_cheese">
+<Cheese rdf:about="#mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella Cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
