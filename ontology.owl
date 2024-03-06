@@ -4050,11 +4050,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate</fancyName>
 </Edible>
 
-<Edible rdf:about="#tortillas">
+<Vegetable rdf:about="#tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortillas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#optional_toppings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
