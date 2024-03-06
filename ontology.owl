@@ -2613,6 +2613,7 @@
 
 <Tea rdf:about="#matcha_green_tea_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha green tea powder</fancyName>
 </Tea>
 
@@ -4581,12 +4582,6 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu cubes</fancyName>
 </Vegetable>
-
-<Tea rdf:about="#matcha_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#matcha_ice_cream"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha powder</fancyName>
-</Tea>
 
 <Oil rdf:about="#tapioca_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
