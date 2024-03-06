@@ -5496,11 +5496,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#fresh_tamarind">
+<Fruit rdf:about="#fresh_tamarind">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh tamarind</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#drumstick">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
