@@ -1211,6 +1211,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado honey</fancyName>
 </Honey>
 
+<Insect rdf:about="#crickets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crickets</fancyName>
+</Insect>
+
+<Insect rdf:about="#mealworms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mealworms</fancyName>
+</Insect>
+
+<Insect rdf:about="#grasshoppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grasshoppers</fancyName>
+</Insect>
+
+<Insect rdf:about="#ants">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ants</fancyName>
+</Insect>
+
+<Insect rdf:about="#silkworms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silkworms</fancyName>
+</Insect>
+
+<Insect rdf:about="#locusts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locusts</fancyName>
+</Insect>
+
+<Insect rdf:about="#beetles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beetles</fancyName>
+</Insect>
+
+<Insect rdf:about="#wasps">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasps</fancyName>
+</Insect>
+
+<Insect rdf:about="#hornets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hornets</fancyName>
+</Insect>
+
+<Insect rdf:about="#flies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flies</fancyName>
+</Insect>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
