@@ -4651,14 +4651,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catfish fillets</fancyName>
 </Fish>
 
-<Edible rdf:about="#hot_sauce">
+<Sauce rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_fried_catfish"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hot sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#shortening_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
