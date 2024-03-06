@@ -2183,11 +2183,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea spaghetti</fancyName>
 </Seaweed>
 
-<Seaweed rdf:about="#sea_vegetable">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea vegetable</fancyName>
-</Seaweed>
-
 <Seed rdf:about="#chia_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chia seeds</fancyName>
