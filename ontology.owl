@@ -3934,6 +3934,7 @@
 
 <Alcoholic rdf:about="#wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
 </Alcoholic>
 
@@ -5106,12 +5107,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Poultry>
-
-<Alcoholic rdf:about="#white_wine">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white wine</fancyName>
-</Alcoholic>
 
 <Cheese rdf:about="#mascarpone_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
