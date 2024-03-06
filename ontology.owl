@@ -2693,9 +2693,9 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein</fancyName>
 </Beef>
 
-<Food rdf:about="#vitamins">
+<Fruit rdf:about="#vitamins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Food>
+</Fruit>
 
 <Food rdf:about="#minerals">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
