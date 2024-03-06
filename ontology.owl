@@ -5051,12 +5051,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caraway seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#garam_masala_powder">
+<Spice rdf:about="#garam_masala_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garam masala powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
