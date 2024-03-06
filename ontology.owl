@@ -4910,11 +4910,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#rolled_oats">
+<Breakfast rdf:about="#rolled_oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolled oats</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
