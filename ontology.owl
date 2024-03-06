@@ -4672,11 +4672,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned tuna</fancyName>
 </Fish>
 
-<Edible rdf:about="#diced_celery">
+<Vegetable rdf:about="#diced_celery">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced celery</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#diced_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
