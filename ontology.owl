@@ -3784,7 +3784,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lemon_juice">
+<Fruit rdf:about="#lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
@@ -3792,7 +3792,7 @@
   <ingredientOf rdf:resource="#samosas"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
