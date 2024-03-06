@@ -5249,11 +5249,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional protein</fancyName>
 </Beef>
 
-<Edible rdf:about="#chili_oil">
+<Oil rdf:about="#chili_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#chili_bean_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
