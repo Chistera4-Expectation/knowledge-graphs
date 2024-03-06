@@ -4331,13 +4331,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Spice>
 
-<Edible rdf:about="#goat_meat">
+<Meat rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">goat meat</fancyName>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#red_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
