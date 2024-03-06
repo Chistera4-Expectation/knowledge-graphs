@@ -1296,10 +1296,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#half">
+<Milk rdf:about="#half">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Half</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#evaporated_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
