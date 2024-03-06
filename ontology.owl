@@ -791,10 +791,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Sweetener>
 
-<Additive rdf:about="#artificial_flavors">
+<Seasoning rdf:about="#artificial_flavors">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial flavors</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#artificial_colors">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
