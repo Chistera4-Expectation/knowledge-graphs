@@ -4203,11 +4203,11 @@
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
 </Vegetable>
 
-<Edible rdf:about="#a_sprinkle_of_cinnamon">
+<Spice rdf:about="#a_sprinkle_of_cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sprinkle of cinnamon</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#other_spices_for_extra_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
