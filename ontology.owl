@@ -5395,11 +5395,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or meat</fancyName>
 </Beef>
 
-<Edible rdf:about="#optional_ingredients__fried_onions__boiled_eggs__nuts">
+<Vegetable rdf:about="#optional_ingredients__fried_onions__boiled_eggs__nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional ingredients: fried onions, boiled eggs, nuts</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
