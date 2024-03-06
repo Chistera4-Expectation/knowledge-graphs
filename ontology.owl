@@ -4491,11 +4491,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextrose</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#corn_syrup">
+<Sweetener rdf:about="#corn_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn syrup</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#sodium_phosphates">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
