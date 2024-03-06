@@ -4285,12 +4285,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lemons">
+<Fruit rdf:about="#lemons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#lemon_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemons</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#dijon_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
