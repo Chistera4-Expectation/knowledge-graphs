@@ -5387,6 +5387,7 @@
 <Vegetable rdf:about="#green_chiles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#albondigas_soup"/>
+  <ingredientOf rdf:resource="#mango_chutney"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chiles</fancyName>
 </Vegetable>
 
@@ -6173,12 +6174,6 @@
   <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Lemons</fancyName>
 </Fruit>
-
-<Vegetable rdf:about="#green_chillies">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#mango_chutney"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chillies</fancyName>
-</Vegetable>
 
 <Spice rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
