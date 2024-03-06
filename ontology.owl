@@ -4238,11 +4238,11 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
 </Seed>
 
-<Edible rdf:about="#bitter_leaf">
+<Vegetable rdf:about="#bitter_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bitter leaf</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ground_crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
