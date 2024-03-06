@@ -4804,11 +4804,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu cubes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#granulated_sugar">
+<Sweetener rdf:about="#granulated_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#matcha_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
