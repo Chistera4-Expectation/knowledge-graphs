@@ -4083,11 +4083,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Tea</fancyName>
 </Tea>
 
-<Tea rdf:about="#oolong_tea">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oolong Tea</fancyName>
-</Tea>
-
 <Tea rdf:about="#white_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Tea</fancyName>
