@@ -3715,11 +3715,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grated Parmesan cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#eggplants">
+<Vegetable rdf:about="#eggplants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplants</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
