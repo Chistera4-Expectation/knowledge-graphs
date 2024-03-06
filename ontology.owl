@@ -2713,6 +2713,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinoa Salad</fancyName>
 </Latin>
 
+<African rdf:about="#jollof_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jollof Rice</fancyName>
+</African>
+
+<African rdf:about="#egusi_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egusi Soup</fancyName>
+</African>
+
+<African rdf:about="#moambe_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moambe Chicken</fancyName>
+</African>
+
+<African rdf:about="#cape_malay_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cape Malay Curry</fancyName>
+</African>
+
+<African rdf:about="#piri_piri_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri Piri Chicken</fancyName>
+</African>
+
+<African rdf:about="#shrimp_with_spicy_peanut_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp with Spicy Peanut Sauce</fancyName>
+</African>
+
+<African rdf:about="#fufu_and_light_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fufu and Light Soup</fancyName>
+</African>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
