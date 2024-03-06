@@ -4460,12 +4460,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#condiments">
+<Sauce rdf:about="#condiments">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#toppings_of_your_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
