@@ -3987,11 +3987,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</fancyName>
 </Sauce>
 
-<Edible rdf:about="#relish">
+<Sauce rdf:about="#relish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relish</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#apples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
