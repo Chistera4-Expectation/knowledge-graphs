@@ -1990,10 +1990,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnocchi</fancyName>
 </Pasta>
 
-<Cereal rdf:about="#_name____a_string_representing_the_name_of_the_cereal">
+<Pasta rdf:about="#_name____a_string_representing_the_name_of_the_cereal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`name` - A string representing the name of the cereal</fancyName>
-</Cereal>
+</Pasta>
 
 <Cereal rdf:about="#_brand____a_string_representing_the_brand">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
