@@ -397,6 +397,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
+  <ingredientOf rdf:resource="#polenta"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2292,6 +2293,7 @@
 
 <Drink rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#polenta"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2801,6 +2803,23 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
+</Edible>
+
+<Edible rdf:about="#cornmeal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
+</Edible>
+
+<Edible rdf:about="#broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#polenta"/>
+</Edible>
+
+<Edible rdf:about="#optional">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
