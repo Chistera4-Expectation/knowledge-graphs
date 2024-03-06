@@ -5269,10 +5269,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame paste</fancyName>
 </Seed>
 
-<Edible rdf:about="#tahini">
+<Seed rdf:about="#tahini">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#black_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
