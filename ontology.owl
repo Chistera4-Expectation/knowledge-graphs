@@ -1287,6 +1287,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squids</fancyName>
 </Molluscs>
 
+<Seafood rdf:about="#crab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#haddock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haddock</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#swordfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swordfish</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#anchovies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anchovies</fancyName>
+</Seafood>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
