@@ -4186,11 +4186,11 @@
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
 </Fruit>
 
-<Edible rdf:about="#other_fruit_slices">
+<Fruit rdf:about="#other_fruit_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fruit slices</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#chia_seeds_for_added_crunch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
