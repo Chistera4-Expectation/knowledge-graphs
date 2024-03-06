@@ -615,6 +615,10 @@
   <ingredientOf rdf:resource="#beef_madras"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#chili_chicken"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -3757,15 +3761,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scotch bonnet peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Vegetable>
-
-<Spice rdf:about="#cumin_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#chili_chicken"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#tandoori_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin powder</fancyName>
-</Spice>
 
 <Spice rdf:about="#coriander_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
