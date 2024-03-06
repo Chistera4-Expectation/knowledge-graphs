@@ -4702,11 +4702,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken wings</fancyName>
 </Poultry>
 
-<Edible rdf:about="#frank_s_redhot_sauce">
+<Seasoning rdf:about="#frank_s_redhot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank's RedHot Sauce</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#french_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
