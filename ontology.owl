@@ -2958,10 +2958,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drink</fancyName>
 </Water>
 
-<Liquid rdf:about="#soup">
+<Drink rdf:about="#soup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soup</fancyName>
-</Liquid>
+</Drink>
 
 <Liquid rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
