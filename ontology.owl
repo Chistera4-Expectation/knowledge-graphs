@@ -440,6 +440,7 @@
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#crossing_bridge_rice_noodle_soup"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -591,6 +592,7 @@
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#crossing_bridge_rice_noodle_soup"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -679,6 +681,7 @@
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -1232,6 +1235,7 @@
 
 <Dairy rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
 </Dairy>
 
@@ -1303,6 +1307,7 @@
 <Dairy rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
 </Dairy>
 
@@ -1868,6 +1873,7 @@
 
 <Rice rdf:about="#basmati_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati rice</fancyName>
 </Rice>
 
@@ -2517,6 +2523,7 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -2587,6 +2594,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Vegetal>
 
@@ -2867,6 +2875,7 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3580,6 +3589,7 @@
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <ingredientOf rdf:resource="#gumbo"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -3646,6 +3656,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
 </Edible>
 
@@ -3757,6 +3768,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -3937,6 +3949,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -3971,6 +3984,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#biryani"/>
 </Edible>
 
 <Edible rdf:about="#chocolate">
@@ -4493,6 +4507,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional ingredients</fancyName>
 </Edible>
 
@@ -5305,6 +5320,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salted fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#or_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional_ingredients__fried_onions__boiled_eggs__nuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional ingredients: fried onions, boiled eggs, nuts</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
