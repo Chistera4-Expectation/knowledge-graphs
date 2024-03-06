@@ -1,0 +1,8 @@
+# Cache for query: most adequate class for 'serving\_size - the amount of food being considered for one serving' among: 'Animal-derived Food', 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Dairy Product', 'Edible Cereal', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Additive', 'Food Dressing', 'Food Seasoning', 'Food', 'Honey', 'Insect-Derived Food', 'Meat', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Seafood', 'Spice', 'Sweetener', 'Vegetal-derived Food', 'Yogurt'. Concise class name only
+# (api: HuggingAiQuery, model: mistralai/Mixtral-8x7B-Instruct-v0.1, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: ' ''Food'' or ''Edible Item'' would be the most adequate classes for ''serving\_size''.
+  These categories are broad enough to encompass all the other specific types of foods
+  listed, and they allow for a standardized measurement of serving size that can apply
+  across different types of food.'
