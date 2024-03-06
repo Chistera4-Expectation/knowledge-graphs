@@ -460,6 +460,7 @@
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#grilled_salmon"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1099,6 +1100,7 @@
 
 <Milk rdf:about="#whole_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole milk</fancyName>
 </Milk>
 
@@ -2629,6 +2631,7 @@
   <ingredientOf rdf:resource="#udon_noodles"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3244,6 +3247,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolks</fancyName>
 </Edible>
 
@@ -3701,6 +3705,7 @@
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -3779,6 +3784,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#flying_fish"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Edible>
 
@@ -3889,6 +3895,7 @@
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Edible>
 
@@ -4513,6 +4520,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu cubes</fancyName>
+</Edible>
+
+<Edible rdf:about="#granulated_sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#matcha_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#tapioca_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tapioca flour</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
