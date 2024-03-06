@@ -4244,11 +4244,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bitter leaf</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ground_crayfish">
+<Crustaceans rdf:about="#ground_crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground crayfish</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#palm_nut_soup_base">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
