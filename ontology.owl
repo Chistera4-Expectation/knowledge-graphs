@@ -828,11 +828,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Partially hydrogenated oils</fancyName>
 </Sauce>
 
-<Additive rdf:about="#sodium_nitrate">
+<Seasoning rdf:about="#sodium_nitrate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrate</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#sodium_nitrite">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
