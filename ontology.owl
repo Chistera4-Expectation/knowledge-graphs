@@ -4288,12 +4288,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Spice>
 
-<Edible rdf:about="#mustard_seeds">
+<Seed rdf:about="#mustard_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#fenugreek_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
