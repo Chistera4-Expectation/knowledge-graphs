@@ -4397,11 +4397,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cassava">
+<Vegetable rdf:about="#cassava">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassava</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#beef_bones">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
