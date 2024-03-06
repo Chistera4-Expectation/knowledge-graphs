@@ -3417,11 +3417,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolks</fancyName>
 </Dairy>
 
-<Edible rdf:about="#cocoa_powder">
+<Oil rdf:about="#cocoa_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#espresso_coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
