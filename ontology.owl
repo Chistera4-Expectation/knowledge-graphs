@@ -5567,6 +5567,7 @@
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#festival"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
 </Oil>
 
@@ -6283,12 +6284,6 @@
   <ingredientOf rdf:resource="#guava_cheese_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
 </Sweetener>
-
-<Oil rdf:about="#cilantro_leaves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#festival"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro Leaves</fancyName>
-</Oil>
 
 <Oil rdf:about="#tortilla_chips">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
