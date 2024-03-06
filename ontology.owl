@@ -2601,10 +2601,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant-based milks</fancyName>
 </Vegetal>
 
-<Vegetal rdf:about="#avocados">
+<Fruit rdf:about="#avocados">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocados</fancyName>
-</Vegetal>
+</Fruit>
 
 <Vegetal rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
