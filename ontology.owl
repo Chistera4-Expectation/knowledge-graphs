@@ -2346,6 +2346,7 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#doubles"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#guacamole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Fruit>
 
@@ -3472,12 +3473,6 @@
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capers</fancyName>
 </Vegetable>
-
-<Fruit rdf:about="#avocados">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#guacamole"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocados</fancyName>
-</Fruit>
 
 <Juice rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
