@@ -2376,11 +2376,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
 </Mushroom>
 
-<Vegetal rdf:about="#corn">
+<Vegetable rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#corn_on_the_cob"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
