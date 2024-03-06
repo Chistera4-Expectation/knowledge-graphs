@@ -5292,12 +5292,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baby spinach</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#white_pepper_powder">
+<Spice rdf:about="#white_pepper_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White pepper powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#dark_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
