@@ -5058,11 +5058,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garam masala powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#oil_for_frying">
+<Oil rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oil for frying</fancyName>
-</Edible>
+</Oil>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
