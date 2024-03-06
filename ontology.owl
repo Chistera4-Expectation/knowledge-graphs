@@ -5045,11 +5045,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom pods</fancyName>
 </Spice>
 
-<Edible rdf:about="#caraway_seeds">
+<Seed rdf:about="#caraway_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caraway seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#garam_masala_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
