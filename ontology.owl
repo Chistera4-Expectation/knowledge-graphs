@@ -3858,6 +3858,7 @@
   <ingredientOf rdf:resource="#udon_noodles"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <ingredientOf rdf:resource="#wonton_noodles"/>
+  <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings</fancyName>
 </Seasoning>
 
@@ -4233,12 +4234,6 @@
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-stick cooking spray</fancyName>
 </Dressing>
-
-<Seasoning rdf:about="#smoke_flavor">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#breakfast_bacon"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoke flavor</fancyName>
-</Seasoning>
 
 <Food rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
