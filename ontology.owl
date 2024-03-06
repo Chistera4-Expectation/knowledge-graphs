@@ -537,6 +537,7 @@
 
 <Sweetener rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Animal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
@@ -1260,6 +1261,55 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flies</fancyName>
 </Insect>
+
+<Animal rdf:about="#meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
+</Animal>
+
+<Animal rdf:about="#seafood">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Animal>
+
+<Animal rdf:about="#eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
+</Animal>
+
+<Animal rdf:about="#dairy_products">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy products</fancyName>
+</Animal>
+
+<Animal rdf:about="#gelatin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
+</Animal>
+
+<Animal rdf:about="#bone_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone broth</fancyName>
+</Animal>
+
+<Animal rdf:about="#marshmallows">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marshmallows</fancyName>
+</Animal>
+
+<Animal rdf:about="#jell_o">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jell-O</fancyName>
+</Animal>
+
+<Animal rdf:about="#candy_made">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candy made</fancyName>
+</Animal>
+
+<Animal rdf:about="#animal_derived_ingredients">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal-derived ingredients</fancyName>
+</Animal>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
