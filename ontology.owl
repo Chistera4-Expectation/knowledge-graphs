@@ -1111,6 +1111,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other plant-based milks such as oat milk</fancyName>
 </Dairy>
 
+<Crustaceans rdf:about="#shrimp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#prawns">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prawns</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#lobsters">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobsters</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#crabs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crabs</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#crayfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crayfish</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#krill">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krill</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#barnacles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barnacles</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#shrimp_like_creatures">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp-like creatures</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#squat_lobsters">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squat lobsters</fancyName>
+</Crustaceans>
+
+<Crustaceans rdf:about="#slipper_lobsters">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slipper lobsters</fancyName>
+</Crustaceans>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
