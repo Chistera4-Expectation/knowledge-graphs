@@ -4816,11 +4816,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha powder</fancyName>
 </Tea>
 
-<Edible rdf:about="#tapioca_flour">
+<Oil rdf:about="#tapioca_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tapioca flour</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#chicken_breast__cut_into_bite_sized_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
