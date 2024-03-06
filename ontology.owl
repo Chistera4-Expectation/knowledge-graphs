@@ -4763,7 +4763,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasonings</fancyName>
 </Spice>
 
-<Edible rdf:about="#green_onions">
+<Vegetable rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#miso_soup"/>
@@ -4776,7 +4776,7 @@
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lump_crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
