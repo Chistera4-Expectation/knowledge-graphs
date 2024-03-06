@@ -3624,6 +3624,7 @@
 <Vegetable rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn</fancyName>
 </Vegetable>
 
@@ -5766,12 +5767,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapenos</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#canned_corn">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chili"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned corn</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#dried">
