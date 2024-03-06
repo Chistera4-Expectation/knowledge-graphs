@@ -3683,12 +3683,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cannellini beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#green_beans">
+<Vegetable rdf:about="#green_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#small_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
