@@ -3530,6 +3530,8 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <ingredientOf rdf:resource="#oxtail_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
@@ -5814,13 +5816,6 @@
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grits</fancyName>
 </Breakfast>
-
-<Vegetable rdf:about="#celery_stalks">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#shrimp_and_grits"/>
-  <ingredientOf rdf:resource="#oxtail_stew"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery stalks</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
