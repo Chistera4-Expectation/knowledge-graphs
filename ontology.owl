@@ -4499,11 +4499,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamb shoulder</fancyName>
 </Meat>
 
-<Edible rdf:about="#leg__cut_into_bite_sized_pieces">
+<Meat rdf:about="#leg__cut_into_bite_sized_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leg, cut into bite-sized pieces</fancyName>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#wonton_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
