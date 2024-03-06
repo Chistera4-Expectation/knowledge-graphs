@@ -4033,7 +4033,7 @@
   <ingredientOf rdf:resource="#mole"/>
 </Fruit>
 
-<Edible rdf:about="#stock">
+<Vegetable rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
@@ -4042,7 +4042,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#biryani"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
