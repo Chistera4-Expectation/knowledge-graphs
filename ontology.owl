@@ -402,6 +402,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -546,6 +547,7 @@
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#mole"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -1894,6 +1896,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#chicken_marsala"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
@@ -2093,6 +2096,7 @@
 
 <Vegetable rdf:about="#cucumber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -2581,6 +2585,7 @@
 <Drink rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3242,6 +3247,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Edible>
 
@@ -3249,6 +3255,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#mole"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -3459,6 +3466,7 @@
 <Edible rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
 </Edible>
 
@@ -3605,6 +3613,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional toppings</fancyName>
+</Edible>
+
+<Edible rdf:about="#bell_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_onion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
+</Edible>
+
+<Edible rdf:about="#sherry_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sherry vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_wine_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red wine vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#tomato_juice_as_needed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato juice as needed</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
