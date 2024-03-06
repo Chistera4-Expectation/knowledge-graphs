@@ -4820,11 +4820,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#ground_nutmeg">
+<Spice rdf:about="#ground_nutmeg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground nutmeg</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ground_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
