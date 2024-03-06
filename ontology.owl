@@ -3567,6 +3567,7 @@
 
 <Vegetable rdf:about="#loose_leaf_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loose-leaf lettuce</fancyName>
 </Vegetable>
 
@@ -6824,12 +6825,6 @@
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Peppercorns</fancyName>
 </Seasoning>
-
-<Vegetable rdf:about="#mint_leaves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint Leaves</fancyName>
-</Vegetable>
 
 <Beef rdf:about="#mutton">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
