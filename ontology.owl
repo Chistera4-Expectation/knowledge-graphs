@@ -3351,7 +3351,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Drink>
 
-<Edible rdf:about="#optional">
+<Vegetable rdf:about="#optional">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
@@ -3359,7 +3359,7 @@
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
