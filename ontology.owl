@@ -5116,6 +5116,7 @@
 <Pasta rdf:about="#egg_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg noodles</fancyName>
 </Pasta>
 
@@ -6936,12 +6937,6 @@
   <ingredientOf rdf:resource="#egg_drop_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional add-ins</fancyName>
 </Dressing>
-
-<Pasta rdf:about="#noodles">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#dan_dan_noodles"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
-</Pasta>
 
 <Vegetable rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
