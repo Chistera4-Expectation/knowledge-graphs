@@ -4575,11 +4575,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional ingredients</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#meatballs">
+<Beef rdf:about="#meatballs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meatballs</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#sub_roll">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
