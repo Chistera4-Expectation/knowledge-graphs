@@ -5323,11 +5323,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked meat</fancyName>
 </Beef>
 
-<Edible rdf:about="#whole_duck">
+<Poultry rdf:about="#whole_duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole duck</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
