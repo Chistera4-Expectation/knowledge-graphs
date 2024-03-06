@@ -4353,11 +4353,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh chili peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chili_pepper">
+<Spice rdf:about="#chili_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
