@@ -2673,6 +2673,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polenta</fancyName>
 </Italian>
 
+<Latin rdf:about="#tacos_al_pastor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tacos al Pastor</fancyName>
+</Latin>
+
+<Latin rdf:about="#cuban_sandwich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban Sandwich</fancyName>
+</Latin>
+
+<Latin rdf:about="#tamales">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamales</fancyName>
+</Latin>
+
+<Latin rdf:about="#mole">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mole</fancyName>
+</Latin>
+
+<Latin rdf:about="#enchiladas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enchiladas</fancyName>
+</Latin>
+
+<Latin rdf:about="#gazpacho">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gazpacho</fancyName>
+</Latin>
+
+<Latin rdf:about="#paella">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paella</fancyName>
+</Latin>
+
+<Latin rdf:about="#quinoa_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quinoa Salad</fancyName>
+</Latin>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
