@@ -1439,6 +1439,7 @@
 
 <Crustaceans rdf:about="#lobster">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#grilled_lobster"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobster</fancyName>
 </Crustaceans>
 
@@ -4312,12 +4313,6 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped fresh herbs like parsley</fancyName>
 </Edible>
-
-<Crustaceans rdf:about="#lobsters">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#grilled_lobster"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobsters</fancyName>
-</Crustaceans>
 
 <Bread rdf:about="#panko_breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
