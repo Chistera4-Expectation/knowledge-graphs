@@ -3441,7 +3441,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veal scallops</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#flour">
+<Oil rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
@@ -3453,7 +3453,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#egg_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
