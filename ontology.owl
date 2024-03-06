@@ -2997,10 +2997,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein shake</fancyName>
 </Milk>
 
-<Liquid rdf:about="#infused_water">
+<Water rdf:about="#infused_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused water</fancyName>
-</Liquid>
+</Water>
 
 <Edible rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
