@@ -2041,6 +2041,8 @@
 
 <Mushroom rdf:about="#portobello_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portobello mushrooms</fancyName>
 </Mushroom>
 
@@ -2421,13 +2423,6 @@
   <ingredientOf rdf:resource="#beef_madras"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
-
-<Mushroom rdf:about="#mushrooms">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
-  <ingredientOf rdf:resource="#sushi"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
-</Mushroom>
 
 <Vegetable rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
