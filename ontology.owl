@@ -3705,6 +3705,7 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
 </Seasoning>
 
@@ -5537,12 +5538,6 @@
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Juice>
-
-<Seasoning rdf:about="#fresh_herbs_such_as_cilantro">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fish_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs such as cilantro</fancyName>
-</Seasoning>
 
 <Seasoning rdf:about="#thai_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
