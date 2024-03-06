@@ -1612,7 +1612,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Fish>
 
-<Animal rdf:about="#eggs">
+<Poultry rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
@@ -1630,7 +1630,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#dairy_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
