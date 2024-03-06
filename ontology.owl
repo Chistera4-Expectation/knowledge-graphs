@@ -4113,11 +4113,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood stock</fancyName>
 </Edible>
 
-<Edible rdf:about="#lemon_wedges">
+<Fruit rdf:about="#lemon_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon wedges</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#feta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
