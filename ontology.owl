@@ -4895,11 +4895,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peking duck</fancyName>
 </Poultry>
 
-<Edible rdf:about="#pancakes">
+<Vegetable rdf:about="#pancakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancakes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
