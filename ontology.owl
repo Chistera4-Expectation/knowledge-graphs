@@ -4473,11 +4473,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toppings of your choice</fancyName>
 </Sauce>
 
-<Edible rdf:about="#mechanically_separated_meat">
+<Poultry rdf:about="#mechanically_separated_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically separated meat</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#pork_fat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
