@@ -4360,6 +4360,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#egg_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finely chopped cabbage</fancyName>
 </Vegetable>
 
@@ -4710,12 +4711,6 @@
   <ingredientOf rdf:resource="#wonton_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garnishes</fancyName>
 </Dressing>
-
-<Vegetable rdf:about="#cabbage">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#egg_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cabbage</fancyName>
-</Vegetable>
 
 <Rice rdf:about="#cooked_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
