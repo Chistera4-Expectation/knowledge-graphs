@@ -5269,6 +5269,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#festival"/>
+  <ingredientOf rdf:resource="#chili"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapeno Peppers</fancyName>
 </Vegetable>
@@ -5775,12 +5776,6 @@
   <ingredientOf rdf:resource="#chili"/>
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#jalapenos">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chili"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jalapenos</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#dried">
