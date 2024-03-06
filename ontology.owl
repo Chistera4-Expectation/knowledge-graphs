@@ -4707,11 +4707,11 @@
   <ingredientOf rdf:resource="#sashimi"/>
 </Alcoholic>
 
-<Edible rdf:about="#wasabi_paste">
+<Sauce rdf:about="#wasabi_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi paste</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#fresh_wasabi_root">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
