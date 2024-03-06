@@ -3002,11 +3002,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused water</fancyName>
 </Water>
 
-<Edible rdf:about="#egg">
+<Vegetable rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#hamburger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
