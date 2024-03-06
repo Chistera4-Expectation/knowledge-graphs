@@ -5205,13 +5205,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried red pepper flakes</fancyName>
 </Spice>
 
-<Edible rdf:about="#sichuan_peppercorns">
+<Seasoning rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#napa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
