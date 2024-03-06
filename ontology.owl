@@ -369,6 +369,7 @@
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Sauce>
 
@@ -463,6 +464,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -565,6 +567,7 @@
   <ingredientOf rdf:resource="#doubles"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -639,12 +642,14 @@
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
   <ingredientOf rdf:resource="#guava_pastry"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#star_anise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star anise</fancyName>
 </Seasoning>
 
@@ -701,6 +706,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
@@ -1991,6 +1997,7 @@
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2169,6 +2176,7 @@
 
 <Vegetal rdf:about="#cucumbers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
 </Vegetal>
 
@@ -2229,6 +2237,7 @@
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetal>
 
@@ -3136,6 +3145,7 @@
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#grilled_salmon"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -3419,6 +3429,7 @@
 <Edible rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
 </Edible>
 
@@ -3633,6 +3644,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
@@ -4566,6 +4578,7 @@
 <Edible rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -4608,6 +4621,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallion oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#peking_duck">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peking duck</fancyName>
+</Edible>
+
+<Edible rdf:about="#pancakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancakes</fancyName>
+</Edible>
+
+<Edible rdf:about="#hoisin_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#cassia_bark">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassia bark</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_nuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other nuts</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
