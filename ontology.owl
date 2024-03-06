@@ -434,6 +434,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -458,6 +459,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -572,6 +574,7 @@
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -585,6 +588,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
 </Seasoning>
@@ -649,6 +653,7 @@
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
   <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -2447,6 +2452,7 @@
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -2509,6 +2515,7 @@
   <ingredientOf rdf:resource="#hot_dog"/>
   <ingredientOf rdf:resource="#southern_fried_catfish"/>
   <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Vegetal>
 
@@ -2829,6 +2836,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#gumbo"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Liquid>
 
@@ -2899,6 +2907,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Edible>
 
@@ -3547,6 +3556,7 @@
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#patties"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
 </Edible>
 
@@ -3697,6 +3707,7 @@
 <Edible rdf:about="#lime_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime wedges</fancyName>
 </Edible>
 
@@ -4661,6 +4672,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
 </Edible>
 
@@ -4752,6 +4764,17 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wakame seaweed</fancyName>
+</Edible>
+
+<Edible rdf:about="#protein_source">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein source</fancyName>
+</Edible>
+
+<Edible rdf:about="#paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
 </Edible>
 
 <owl:AllDisjointClasses>
