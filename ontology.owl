@@ -817,11 +817,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stabilizers</fancyName>
 </Sauce>
 
-<Additive rdf:about="#sweeteners">
+<Infusion rdf:about="#sweeteners">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Infusion"/>
+  <rdf:type rdf:resource="#Sweetener"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweeteners</fancyName>
-</Additive>
+</Infusion>
 
 <Additive rdf:about="#thickeners">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
