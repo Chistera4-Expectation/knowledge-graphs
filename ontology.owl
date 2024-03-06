@@ -3615,7 +3615,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#vegetable_oil">
+<Oil rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -3635,7 +3635,7 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#black_beans__cooked">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
