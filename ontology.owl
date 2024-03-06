@@ -4582,6 +4582,8 @@
 <Vegetable rdf:about="#tofu_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu cubes</fancyName>
 </Vegetable>
 
@@ -4663,13 +4665,6 @@
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
 </Beef>
-
-<Vegetable rdf:about="#tofu">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#hot_pot"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
-</Vegetable>
 
 <Spice rdf:about="#chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
