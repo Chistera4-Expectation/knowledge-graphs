@@ -3651,11 +3651,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra virgin olive oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#balsamic_vinegar">
+<Seasoning rdf:about="#balsamic_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
