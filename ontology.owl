@@ -4302,12 +4302,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#cardamom_pods">
+<Spice rdf:about="#cardamom_pods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom pods</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cinnamon_sticks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
