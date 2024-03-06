@@ -4644,11 +4644,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellowtail</fancyName>
 </Fish>
 
-<Edible rdf:about="#eel">
+<Fish rdf:about="#eel">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eel</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#radishes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
