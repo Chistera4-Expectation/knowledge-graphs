@@ -6992,12 +6992,6 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
 </Vegetable>
 
-<Pasta rdf:about="#bean_thread_noodles">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean thread noodles</fancyName>
-</Pasta>
-
 <Sauce rdf:about="#sweet_chili_sauce_for_dipping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
