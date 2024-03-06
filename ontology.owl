@@ -1118,10 +1118,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Poultry>
 
-<Meat rdf:about="#game_meats">
+<Poultry rdf:about="#game_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game meats</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#processed_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
