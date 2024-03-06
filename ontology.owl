@@ -3256,6 +3256,18 @@
 <Vegetable rdf:about="#carrot">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#minestrone_soup"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#oxtail_stew"/>
+  <ingredientOf rdf:resource="#soba_noodle_salad"/>
+  <ingredientOf rdf:resource="#tofu_dishes"/>
+  <ingredientOf rdf:resource="#bento_boxes"/>
+  <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#shrimp_fried_rice"/>
+  <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot</fancyName>
 </Vegetable>
 
@@ -3544,23 +3556,6 @@
 <Vegetable rdf:about="#loose_leaf_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loose-leaf lettuce</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#carrots">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#minestrone_soup"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#oxtail_stew"/>
-  <ingredientOf rdf:resource="#soba_noodle_salad"/>
-  <ingredientOf rdf:resource="#tofu_dishes"/>
-  <ingredientOf rdf:resource="#bento_boxes"/>
-  <ingredientOf rdf:resource="#curry_rice"/>
-  <ingredientOf rdf:resource="#hot_pot"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#shrimp_fried_rice"/>
-  <ingredientOf rdf:resource="#congee"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#tomatoes">
