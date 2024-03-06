@@ -4979,11 +4979,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#frozen_peas">
+<Vegetable rdf:about="#frozen_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frozen peas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pork_chops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
