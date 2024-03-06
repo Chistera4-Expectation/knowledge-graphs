@@ -4616,11 +4616,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minced garlic</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#rye_bread">
+<Bread rdf:about="#rye_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye bread</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#corned_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
