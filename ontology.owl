@@ -2992,10 +2992,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
 </Juice>
 
-<Liquid rdf:about="#protein_shake">
+<Milk rdf:about="#protein_shake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein shake</fancyName>
-</Liquid>
+</Milk>
 
 <Liquid rdf:about="#infused_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
