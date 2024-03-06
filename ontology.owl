@@ -4883,11 +4883,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#scallion_oil">
+<Oil rdf:about="#scallion_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallion oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#peking_duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
