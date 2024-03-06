@@ -2422,10 +2422,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
 </Vegetable>
 
-<Food rdf:about="#chocolate_bar">
+<Fruit rdf:about="#chocolate_bar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate bar</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#pizza">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
