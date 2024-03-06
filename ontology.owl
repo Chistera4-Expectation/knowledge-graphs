@@ -3623,7 +3623,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#tomatoes">
+<Vegetable rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#mole"/>
@@ -3636,7 +3636,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
