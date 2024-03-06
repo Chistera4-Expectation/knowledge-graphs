@@ -849,10 +849,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymes</fancyName>
 </Spice>
 
-<Additive rdf:about="#humectants">
+<Sweetener rdf:about="#humectants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humectants</fancyName>
-</Additive>
+</Sweetener>
 
 <Additive rdf:about="#bulking_agents">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
