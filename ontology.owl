@@ -1452,6 +1452,16 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cicadas</fancyName>
 </Insect>
 
+<Animal rdf:about="#eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
+</Animal>
+
+<Animal rdf:about="#honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
+</Animal>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
