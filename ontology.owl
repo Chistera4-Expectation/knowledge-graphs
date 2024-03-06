@@ -4347,11 +4347,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri piri sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#fresh_chili_peppers">
+<Vegetable rdf:about="#fresh_chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh chili peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chili_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
