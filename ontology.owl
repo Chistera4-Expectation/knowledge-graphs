@@ -784,6 +784,7 @@
   <ingredientOf rdf:resource="#pumpkin_pie"/>
   <ingredientOf rdf:resource="#guava_pastry"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Spice>
 
@@ -4171,12 +4172,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
 </Vegetable>
-
-<Spice rdf:about="#a_sprinkle_of_cinnamon">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sprinkle of cinnamon</fancyName>
-</Spice>
 
 <Spice rdf:about="#other_spices_for_extra_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
