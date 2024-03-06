@@ -4050,11 +4050,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#apple_cider_vinegar">
+<Drink rdf:about="#apple_cider_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#condiments">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
