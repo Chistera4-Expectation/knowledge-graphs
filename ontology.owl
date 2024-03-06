@@ -4666,11 +4666,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shortening for frying</fancyName>
 </Oil>
 
-<Edible rdf:about="#canned_tuna">
+<Fish rdf:about="#canned_tuna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned tuna</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#diced_celery">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
