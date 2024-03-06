@@ -2611,14 +2611,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
 </Fruit>
 
-<Vegetal rdf:about="#herbs">
+<Vegetable rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
