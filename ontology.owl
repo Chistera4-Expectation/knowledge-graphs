@@ -668,6 +668,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propellants</fancyName>
 </Additive>
 
+<Beef rdf:about="#grass_fed_beef___this_instance_would_describe_beef_that_has_been_raised_on_a_grass_based_diet__rather_than_being_finished_on_grains__it_is_often_praised_for_its_higher_levels_of_healthy_fats_like_omega_3_fatty_acids">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grass-fed beef - This instance would describe beef that has been raised on a grass-based diet, rather than being finished on grains. It is often praised for its higher levels of healthy fats like omega-3 fatty acids</fancyName>
+</Beef>
+
+<Beef rdf:about="#conjugated_linoleic_acid">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjugated linoleic acid</fancyName>
+</Beef>
+
+<Beef rdf:about="#grass_fed_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grass-fed beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#grain_finished_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grain-finished beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#lean_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lean beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#organic_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#pasture_raised_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasture-raised beef</fancyName>
+</Beef>
+
+<Beef rdf:about="#ground_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
+</Beef>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
