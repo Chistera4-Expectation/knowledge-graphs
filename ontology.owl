@@ -419,6 +419,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -438,6 +439,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -1998,6 +2000,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#pizza"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
@@ -3223,6 +3226,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#pizza"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomato sauce</fancyName>
@@ -3410,6 +3414,7 @@
 <Edible rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil leaves</fancyName>
 </Edible>
 
@@ -4234,6 +4239,47 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional ingredients</fancyName>
+</Edible>
+
+<Edible rdf:about="#meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meatballs</fancyName>
+</Edible>
+
+<Edible rdf:about="#sub_roll">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sub roll</fancyName>
+</Edible>
+
+<Edible rdf:about="#hoagie_bun">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoagie bun</fancyName>
+</Edible>
+
+<Edible rdf:about="#shredded_mozzarella_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded mozzarella cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#chopped_onions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped onions</fancyName>
+</Edible>
+
+<Edible rdf:about="#peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
+</Edible>
+
+<Edible rdf:about="#minced_garlic">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#meatball_sub"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minced garlic</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
