@@ -4996,10 +4996,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein source</fancyName>
 </Beef>
 
-<Edible rdf:about="#paste">
+<Sauce rdf:about="#paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_rice"/>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#oils">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
