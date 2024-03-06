@@ -2700,11 +2700,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black rice</fancyName>
 </Rice>
 
-<Rice rdf:about="#short_grain_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-grain rice</fancyName>
-</Rice>
-
 <Rice rdf:about="#parboiled_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parboiled rice</fancyName>
