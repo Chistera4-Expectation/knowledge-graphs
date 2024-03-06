@@ -4505,13 +4505,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leg, cut into bite-sized pieces</fancyName>
 </Meat>
 
-<Edible rdf:about="#wonton_wrappers">
+<Oil rdf:about="#wonton_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#egg_rolls"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wonton wrappers</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#ground_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
