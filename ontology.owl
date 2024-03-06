@@ -4211,11 +4211,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoked turkey</fancyName>
 </Poultry>
 
-<Edible rdf:about="#smoked_prawns">
+<Crustaceans rdf:about="#smoked_prawns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoked prawns</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
