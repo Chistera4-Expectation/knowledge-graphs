@@ -3733,6 +3733,9 @@
 <Seed rdf:about="#nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuts</fancyName>
 </Seed>
 
@@ -6115,14 +6118,6 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilli peppers</fancyName>
 </Spice>
-
-<Seed rdf:about="#peanuts">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#plantain"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#congee"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
-</Seed>
 
 <Vegetable rdf:about="#soybeans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
