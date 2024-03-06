@@ -4503,11 +4503,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium phosphates</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#sodium_nitrite">
+<Seasoning rdf:about="#sodium_nitrite">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrite</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#food_coloring">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
