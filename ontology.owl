@@ -4838,11 +4838,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark brown sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#apple_cider_vinegar">
+<Sauce rdf:about="#apple_cider_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#long_grain_white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
