@@ -2646,11 +2646,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serving\_size - the amount of food being considered for one serving</fancyName>
 </Food>
 
-<Food rdf:about="#calories">
+<Tea rdf:about="#calories">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Tea"/>
   <rdf:type rdf:resource="#Energy"/>
-</Food>
+  <rdf:type rdf:resource="#Fruit"/>
+</Tea>
 
 <Food rdf:about="#fat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

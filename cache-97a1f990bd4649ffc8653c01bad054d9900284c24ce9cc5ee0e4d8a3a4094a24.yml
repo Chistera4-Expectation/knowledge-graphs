@@ -1,0 +1,46 @@
+# Cache for query: most adequate class for 'calories' among: 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Dressing', 'Food Seasoning', 'Honey', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Yogurt'. Concise class name only
+# (api: HuggingAiQuery, model: mistralai/Mixtral-8x7B-Instruct-v0.1, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: ' Among the options you provided, "Edible" is implied for all of them as they
+  are all edible foods. So I will not consider that part. Also, I will group similar
+  types of food together to make it more concise. Here are the approximate calorie
+  ranges per 100g serving for each category:
+
+
+  * Beef, Pork-derived Food, Poultry-derived Food: ~235 calories (for an average mix)
+
+  * Cheese: ~408 calories
+
+  * Butter: ~717 calories
+
+  * Bread, Pasta Types, Rice: ~269 calories (for an average mix)
+
+  * Breakfast Cereal: ~364 calories (for an average mix)
+
+  * Edible Fish, Edible Crustaceans, Edible Mussels: ~113 calories (for an average
+  mix)
+
+  * Honey: ~304 calories
+
+  * Milk, Yogurt: ~76 calories (for an average mix)
+
+  * Food Dressing, Sauce, Food Seasoning, Spice, Sweetener: ~100 calories (for an
+  average mix)
+
+  * Edible Vegetables, Edible Fruits, Edible Mushrooms, Edible Seeds, Edible Seaweed,
+  Edible Vegetable Oils: ~150 calories (for an average mix)
+
+
+  Based on this analysis, here''s my recommendation for the most adequate class in
+  terms of calories:
+
+
+  * High Calorie: Butter, Cheese
+
+  * Average Calorie: Meats (Beef, Pork-derived Food, and Poultry-derived Food), Grains
+  (Bread, Pasta Types, and Rice), Breakfast Cereals, Honey
+
+  * Low Calorie: Edible Fish, Edible Crustaceans, Edible Mussels, Milk, Yogurts, Food
+  Dressings, Sauces, Food Seasonings, Spices, Sweeeteners, Edible Vegetables, Edible
+  Fruits, Edible Mushrooms, Edible Seeds, Edible Seaweed, Edible Vegetable Oils'
