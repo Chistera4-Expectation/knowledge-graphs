@@ -4245,11 +4245,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-stick cooking spray</fancyName>
 </Dressing>
 
-<Edible rdf:about="#smoke_flavor">
+<Seasoning rdf:about="#smoke_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoke flavor</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
