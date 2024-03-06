@@ -834,12 +834,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrate</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#sodium_nitrite">
+<Seasoning rdf:about="#sodium_nitrite">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium nitrite</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrite</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
