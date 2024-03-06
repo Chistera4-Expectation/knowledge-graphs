@@ -4940,12 +4940,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili flakes</fancyName>
 </Spice>
 
-<Edible rdf:about="#sichuan_peppercorns">
+<Spice rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#wontons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
