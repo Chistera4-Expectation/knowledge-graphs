@@ -3555,6 +3555,7 @@
 <Edible rdf:about="#black_beans__cooked">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
+  <ingredientOf rdf:resource="#baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans, cooked</fancyName>
 </Edible>
 
@@ -3990,12 +3991,6 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
 </Cereal>
-
-<Edible rdf:about="#navy_beans">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#baked_beans"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Navy beans</fancyName>
-</Edible>
 
 <Sweetener rdf:about="#molasses">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
