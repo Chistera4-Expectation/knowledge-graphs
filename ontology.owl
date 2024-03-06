@@ -4372,7 +4372,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#oil">
+<Oil rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#doubles"/>
@@ -4383,7 +4383,7 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#beef_madras"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#chopped_fresh_herbs_like_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
