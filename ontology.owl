@@ -3643,10 +3643,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans, cooked</fancyName>
 </Edible>
 
-<Edible rdf:about="#drained">
+<Water rdf:about="#drained">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
-</Edible>
+</Water>
 
 <Edible rdf:about="#roasted_red_bell_peppers__diced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
