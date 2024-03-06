@@ -4299,11 +4299,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dijon mustard</fancyName>
 </Sauce>
 
-<Edible rdf:about="#old_bay_seasoning">
+<Seasoning rdf:about="#old_bay_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Bay seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#fresh_dill">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
