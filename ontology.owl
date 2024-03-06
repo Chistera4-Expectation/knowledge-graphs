@@ -5371,11 +5371,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thigh meat</fancyName>
 </Poultry>
 
-<Edible rdf:about="#chinese_sausage">
+<Pork rdf:about="#chinese_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese sausage</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#shiitake_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
