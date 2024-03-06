@@ -5299,11 +5299,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White pepper powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#dark_soy_sauce">
+<Sauce rdf:about="#dark_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark soy sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#cornstarch_slurry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
