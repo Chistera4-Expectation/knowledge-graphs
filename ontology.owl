@@ -3800,11 +3800,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
 </Spice>
 
-<Edible rdf:about="#other_pasta">
+<Pasta rdf:about="#other_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other pasta</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
