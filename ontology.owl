@@ -1060,6 +1060,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prawns</fancyName>
 </Crustaceans>
 
+<Fish rdf:about="#salmon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon</fancyName>
+</Fish>
+
+<Fish rdf:about="#tuna">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuna</fancyName>
+</Fish>
+
+<Fish rdf:about="#sardines">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sardines</fancyName>
+</Fish>
+
+<Fish rdf:about="#anchovies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anchovies</fancyName>
+</Fish>
+
+<Fish rdf:about="#trout">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trout</fancyName>
+</Fish>
+
+<Fish rdf:about="#mackerel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mackerel</fancyName>
+</Fish>
+
+<Fish rdf:about="#herring">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herring</fancyName>
+</Fish>
+
+<Fish rdf:about="#halibut">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halibut</fancyName>
+</Fish>
+
+<Fish rdf:about="#snapper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snapper</fancyName>
+</Fish>
+
+<Fish rdf:about="#bass">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bass</fancyName>
+</Fish>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
