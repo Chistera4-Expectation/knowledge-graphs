@@ -3684,6 +3684,7 @@
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#red_braised_pork_belly"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
@@ -6649,12 +6650,6 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fermented bean curd paste</fancyName>
 </Sauce>
-
-<Vegetable rdf:about="#chopped_green_onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped green onions</fancyName>
-</Vegetable>
 
 <Sauce rdf:about="#chinese_black_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
