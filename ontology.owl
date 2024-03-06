@@ -1681,10 +1681,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grasshoppers</fancyName>
 </Honey>
 
-<Insect rdf:about="#ants">
+<Honey rdf:about="#ants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ants</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#termites">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
