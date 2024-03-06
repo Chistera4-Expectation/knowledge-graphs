@@ -4260,11 +4260,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Food>
 
-<Edible rdf:about="#pan_drippings">
+<Sauce rdf:about="#pan_drippings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan drippings</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#optional__sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
