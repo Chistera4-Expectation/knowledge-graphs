@@ -427,6 +427,7 @@
   <ingredientOf rdf:resource="#crab_cakes"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#fried_plantains"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -3941,6 +3942,7 @@
   <ingredientOf rdf:resource="#southern_fried_catfish"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#crab_cakes"/>
+  <ingredientOf rdf:resource="#fried_plantains"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -4574,6 +4576,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#ripe_plantains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_plantains"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripe plantains</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
