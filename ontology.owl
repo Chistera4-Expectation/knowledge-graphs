@@ -4083,11 +4083,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sherry vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#red_wine_vinegar">
+<Sauce rdf:about="#red_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red wine vinegar</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#tomato_juice_as_needed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
