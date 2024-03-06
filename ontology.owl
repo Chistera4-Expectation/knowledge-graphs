@@ -413,6 +413,7 @@
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -427,6 +428,7 @@
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -472,11 +474,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregano</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil</fancyName>
 </Seasoning>
 
@@ -592,6 +596,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -1964,6 +1969,7 @@
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
@@ -3180,6 +3186,7 @@
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
 </Edible>
@@ -3195,7 +3202,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella Cheese</fancyName>
 </Edible>
 
 <Edible rdf:about="#parmesan_cheese">
@@ -3242,6 +3251,7 @@
 <Edible rdf:about="#pizza_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
+  <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza Dough</fancyName>
 </Edible>
 
@@ -4078,6 +4088,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
+</Edible>
+
+<Edible rdf:about="#toppings_of_your_choice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toppings of your choice</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
