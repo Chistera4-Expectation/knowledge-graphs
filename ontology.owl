@@ -3087,6 +3087,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peanut oil</fancyName>
 </Oil>
@@ -6872,12 +6873,6 @@
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole duck</fancyName>
 </Poultry>
-
-<Oil rdf:about="#peanut">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#beijing_roast_duck"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut</fancyName>
-</Oil>
 
 <Oil rdf:about="#shallots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
