@@ -4431,6 +4431,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil for frying</fancyName>
 </Oil>
 
@@ -4865,12 +4866,6 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garam masala powder</fancyName>
 </Spice>
-
-<Oil rdf:about="#oil_for_frying">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fish_fry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oil for frying</fancyName>
-</Oil>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
