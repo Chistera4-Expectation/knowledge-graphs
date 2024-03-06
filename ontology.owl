@@ -744,6 +744,7 @@
 
 <Poultry rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Poultry>
 
@@ -1018,6 +1019,7 @@
 
 <Dairy rdf:about="#butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1484,6 +1486,7 @@
 
 <Rice rdf:about="#arborio_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arborio rice</fancyName>
 </Rice>
 
@@ -1854,6 +1857,7 @@
 <Vegetable rdf:about="#onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -1901,6 +1905,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetal>
 
@@ -2757,6 +2762,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Edible>
 
@@ -2775,7 +2781,26 @@
 <Edible rdf:about="#fresh_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
+</Edible>
+
+<Edible rdf:about="#veal_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">veal broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#saffron_threads">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron threads</fancyName>
+</Edible>
+
+<Edible rdf:about="#white_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
