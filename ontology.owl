@@ -2254,7 +2254,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushroom</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#carrots">
+<Vegetable rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
@@ -2262,7 +2262,7 @@
   <ingredientOf rdf:resource="#egg_rolls"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
