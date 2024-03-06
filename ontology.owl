@@ -2105,6 +2105,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kombucha tea</fancyName>
 </Tea>
 
+<Infusion rdf:about="#lemon_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon water</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#cucumber_mint_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber mint water</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#berry_bliss_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berry bliss tea</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#citrus_sunrise_smoothie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrus sunrise smoothie</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#spicy_mango_margarita">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spicy mango margarita</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#pineapple_ginger_fizz">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple ginger fizz</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#peach_passionfruit_refresher">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach passionfruit refresher</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#minty_watermelon_cooler">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minty watermelon cooler</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#lavender_honey_lemonade">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lavender honey lemonade</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#ginger_peach_spritzer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger peach spritzer</fancyName>
+</Infusion>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
