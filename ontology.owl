@@ -2692,11 +2692,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G Fuel</fancyName>
 </Energy>
 
-<Energy rdf:about="#bang_energy">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bang Energy</fancyName>
-</Energy>
-
 <Juice rdf:about="#orange_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange juice</fancyName>
