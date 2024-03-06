@@ -4714,10 +4714,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French bread</fancyName>
 </Bread>
 
-<Edible rdf:about="#baguette">
+<Bread rdf:about="#baguette">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#deep_fried_shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
