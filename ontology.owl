@@ -553,6 +553,8 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#beef_madras"/>
   <ingredientOf rdf:resource="#fish_fry"/>
+  <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
 
@@ -3476,13 +3478,6 @@
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capers</fancyName>
 </Vegetable>
-
-<Spice rdf:about="#pepper_to_taste">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
-  <ingredientOf rdf:resource="#stewed_oxtail"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepper to taste</fancyName>
-</Spice>
 
 <Fruit rdf:about="#avocados">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
