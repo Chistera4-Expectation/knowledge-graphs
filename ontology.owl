@@ -4778,11 +4778,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lump_crab_meat">
+<Crustaceans rdf:about="#lump_crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lump crab meat</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#dijon_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
