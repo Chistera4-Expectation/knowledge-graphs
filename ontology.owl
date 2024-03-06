@@ -5008,12 +5008,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#boneless__skinless_chicken_breast">
+<Poultry rdf:about="#boneless__skinless_chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless, skinless chicken breast</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#garlic_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
