@@ -2248,6 +2248,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#egg_rolls"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot</fancyName>
 </Vegetable>
 
@@ -4663,12 +4664,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zucchini, sliced</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#carrots__peeled">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots, peeled</fancyName>
 </Vegetable>
 
 <Bread rdf:about="#sliced">
