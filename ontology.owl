@@ -913,6 +913,91 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">returns a boolean indicating whether this instance is healthier</fancyName>
 </Butter>
 
+<Cheese rdf:about="#name_of_the_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the cheese</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#type">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#category_of_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">category of cheese</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#weight">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#serving_size_of_the_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serving size of the cheese</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#calories_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calories per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#total_fat_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total fat per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#saturated_fat_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saturated fat per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#trans_fat_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trans fat per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#cholesterol_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholesterol per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#sodium_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#carbohydrates_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbohydrates per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#fiber_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiber per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#sugar_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#protein_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#vitamin_a_content_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin A content per serving</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#calcium_content_per_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcium content per serving</fancyName>
+</Cheese>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
