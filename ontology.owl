@@ -2506,11 +2506,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirits</fancyName>
 </Alcoholic>
 
-<Alcoholic rdf:about="#liqueurs">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liqueurs</fancyName>
-</Alcoholic>
-
 <Alcoholic rdf:about="#sparkling_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling wine</fancyName>
