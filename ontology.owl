@@ -2298,6 +2298,7 @@
   <ingredientOf rdf:resource="#chili_chicken"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
@@ -4621,12 +4622,6 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#red_bell_pepper__sliced">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper, sliced</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#zucchini__sliced">
