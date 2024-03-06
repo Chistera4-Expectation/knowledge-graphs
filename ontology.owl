@@ -5001,11 +5001,11 @@
   <ingredientOf rdf:resource="#curry_rice"/>
 </Sauce>
 
-<Edible rdf:about="#oils">
+<Oil rdf:about="#oils">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oils</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#sauces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
