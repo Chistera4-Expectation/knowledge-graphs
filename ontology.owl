@@ -4485,11 +4485,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork fat</fancyName>
 </Pork>
 
-<Edible rdf:about="#dextrose">
+<Sweetener rdf:about="#dextrose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextrose</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#corn_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
