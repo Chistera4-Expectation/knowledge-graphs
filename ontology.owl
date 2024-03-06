@@ -2759,7 +2759,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poland Spring</fancyName>
 </Water>
 
-<Drink rdf:about="#water">
+<Water rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -2781,7 +2781,7 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
-</Drink>
+</Water>
 
 <Drink rdf:about="#soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
