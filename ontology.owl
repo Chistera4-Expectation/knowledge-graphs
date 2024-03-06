@@ -3836,11 +3836,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achiote paste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#guajillo_chiles">
+<Spice rdf:about="#guajillo_chiles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guajillo chiles</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#pineapple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
