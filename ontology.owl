@@ -3743,6 +3743,7 @@
 <Edible rdf:about="#groundnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groundnuts</fancyName>
 </Edible>
 
@@ -4519,12 +4520,6 @@
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tapioca flour</fancyName>
 </Oil>
-
-<Edible rdf:about="#peanuts">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
-</Edible>
 
 <Bread rdf:about="#sliced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
