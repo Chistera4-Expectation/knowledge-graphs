@@ -1334,14 +1334,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#ghee">
+<Butter rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
-</Dairy>
+</Butter>
 
 <Dairy rdf:about="#buttermilk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
