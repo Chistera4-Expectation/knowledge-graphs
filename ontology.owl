@@ -2271,6 +2271,13 @@
 
 <Vegetable rdf:about="#tomato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guacamole"/>
+  <ingredientOf rdf:resource="#tibs"/>
+  <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
+  <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#curried_lamb"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -2309,18 +2316,6 @@
 <Vegetable rdf:about="#mushroom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushroom</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#tomatoes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#guacamole"/>
-  <ingredientOf rdf:resource="#tibs"/>
-  <ingredientOf rdf:resource="#hamburgers"/>
-  <ingredientOf rdf:resource="#lobster_rolls"/>
-  <ingredientOf rdf:resource="#doubles"/>
-  <ingredientOf rdf:resource="#curried_lamb"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#bell_peppers">
