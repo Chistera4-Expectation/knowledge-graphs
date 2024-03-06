@@ -3370,6 +3370,8 @@
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
+  <ingredientOf rdf:resource="#tofu_dishes"/>
+  <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
 </Vegetable>
 
@@ -6481,13 +6483,6 @@
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashews</fancyName>
 </Vegetal>
-
-<Vegetable rdf:about="#bean_sprouts">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tofu_dishes"/>
-  <ingredientOf rdf:resource="#dan_dan_noodles"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
-</Vegetable>
 
 <Spice rdf:about="#lemongrass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
