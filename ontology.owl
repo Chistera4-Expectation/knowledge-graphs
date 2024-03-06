@@ -4334,12 +4334,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#white_vinegar">
+<Seasoning rdf:about="#white_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#piri_piri_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
