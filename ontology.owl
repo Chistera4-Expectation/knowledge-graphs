@@ -3384,6 +3384,7 @@
   <ingredientOf rdf:resource="#shrimp_fried_rice"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#trinidadian_doubles"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
@@ -6887,12 +6888,6 @@
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#goan_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh coriander leaves</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#green_peas">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#samosa"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Vegetable>
 
 <Oil rdf:about="#mango_powder">
