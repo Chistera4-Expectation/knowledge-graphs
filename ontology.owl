@@ -3082,11 +3082,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunflower oil</fancyName>
 </Oil>
 
-<Oil rdf:about="#rapeseed_oil">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapeseed oil</fancyName>
-</Oil>
-
 <Oil rdf:about="#peanut_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_rice"/>
