@@ -5383,11 +5383,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#salted_fish">
+<Fish rdf:about="#salted_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salted fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#or_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
