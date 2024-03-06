@@ -3573,14 +3573,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortillas</fancyName>
 </Bread>
 
-<Edible rdf:about="#thighs">
+<Meat rdf:about="#thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#raisins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
