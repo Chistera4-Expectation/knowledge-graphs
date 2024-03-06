@@ -3543,7 +3543,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
 </Spice>
 
-<Edible rdf:about="#cayenne_pepper">
+<Spice rdf:about="#cayenne_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
@@ -3553,7 +3553,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#queso_fresco">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
