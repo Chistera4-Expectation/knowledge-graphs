@@ -3700,7 +3700,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
 </Sauce>
 
-<Edible rdf:about="#vegetables">
+<Vegetable rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
@@ -3710,7 +3710,7 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
