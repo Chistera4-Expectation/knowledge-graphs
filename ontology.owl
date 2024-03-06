@@ -4696,11 +4696,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice vinegar</fancyName>
 </Sauce>
 
-<Edible rdf:about="#rice_wine">
+<Rice rdf:about="#rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#sake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
