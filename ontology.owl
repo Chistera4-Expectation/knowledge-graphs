@@ -424,6 +424,7 @@
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
+  <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -614,6 +615,7 @@
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#baked_beans"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
+  <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
@@ -668,12 +670,15 @@
 
 <Additive rdf:about="#sodium_nitrate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrate</fancyName>
 </Additive>
 
 <Additive rdf:about="#sodium_nitrite">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium nitrite</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrite</fancyName>
 </Additive>
 
 <Additive rdf:about="#monosodium_glutamate">
@@ -791,6 +796,7 @@
 
 <Pork rdf:about="#pork_belly">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#breakfast_bacon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork belly</fancyName>
 </Pork>
 
@@ -3748,6 +3754,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-stick cooking spray</fancyName>
+</Edible>
+
+<Edible rdf:about="#smoke_flavor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#breakfast_bacon"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoke flavor</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
