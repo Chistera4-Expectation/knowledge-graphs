@@ -4082,11 +4082,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lobster_meat">
+<Crustaceans rdf:about="#lobster_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lobster_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobster meat</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
