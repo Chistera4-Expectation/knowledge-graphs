@@ -1237,6 +1237,9 @@
 
 <Cheese rdf:about="#parmesan">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#pasta_carbonara"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan</fancyName>
 </Cheese>
 
@@ -3309,14 +3312,6 @@
   <ingredientOf rdf:resource="#chili_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
 </Sauce>
-
-<Cheese rdf:about="#parmesan_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <ingredientOf rdf:resource="#pasta_carbonara"/>
-  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
-</Cheese>
 
 <Edible rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
