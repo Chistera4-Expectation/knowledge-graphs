@@ -2977,10 +2977,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iced tea</fancyName>
 </Tea>
 
-<Liquid rdf:about="#hot_chocolate">
+<Milk rdf:about="#hot_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot chocolate</fancyName>
-</Liquid>
+</Milk>
 
 <Liquid rdf:about="#energy_drink">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
