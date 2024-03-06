@@ -384,6 +384,7 @@
 
 <Sauce rdf:about="#guacamole">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Latin"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guacamole</fancyName>
 </Sauce>
 
@@ -2341,6 +2342,21 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scaloppine al Marsala</fancyName>
 </Italian>
+
+<Latin rdf:about="#tacos_al_pastor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tacos al pastor</fancyName>
+</Latin>
+
+<Latin rdf:about="#enchiladas_mole">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enchiladas mole</fancyName>
+</Latin>
+
+<Latin rdf:about="#tamales">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamales</fancyName>
+</Latin>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
