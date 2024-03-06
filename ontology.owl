@@ -4266,11 +4266,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan drippings</fancyName>
 </Sauce>
 
-<Edible rdf:about="#optional__sausage">
+<Meat rdf:about="#optional__sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: sausage</fancyName>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#bacon_bits__diced_vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
