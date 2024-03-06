@@ -412,6 +412,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -425,6 +426,7 @@
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -784,6 +786,7 @@
 
 <Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
 
@@ -1117,6 +1120,7 @@
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
@@ -2167,6 +2171,7 @@
 
 <Vegetable rdf:about="#tomato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -2201,6 +2206,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
+  <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -4054,6 +4060,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shortening, for frying</fancyName>
+</Edible>
+
+<Edible rdf:about="#buns">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buns</fancyName>
+</Edible>
+
+<Edible rdf:about="#lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
+</Edible>
+
+<Edible rdf:about="#condiments">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hamburger"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
