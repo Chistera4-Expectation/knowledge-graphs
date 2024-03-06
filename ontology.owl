@@ -3470,11 +3470,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marsala wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#capers">
+<Vegetable rdf:about="#capers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pepper_to_taste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
