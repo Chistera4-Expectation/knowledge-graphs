@@ -2790,6 +2790,7 @@
 
 <Fruit rdf:about="#strawberry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry</fancyName>
 </Fruit>
 
@@ -6785,11 +6786,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raspberries</fancyName>
-</Fruit>
-
-<Fruit rdf:about="#strawberries">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#matcha_desserts"/>
 </Fruit>
 
 <Oil rdf:about="#almond_flour">
