@@ -3936,6 +3936,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#oxtail_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
 </Alcoholic>
 
@@ -5925,12 +5926,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#oxtail_stew"/>
 </Vegetable>
-
-<Alcoholic rdf:about="#red_wine">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#oxtail_stew"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine</fancyName>
-</Alcoholic>
 
 <Oil rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
