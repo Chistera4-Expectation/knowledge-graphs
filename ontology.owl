@@ -4463,11 +4463,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chickpeas</fancyName>
 </Edible>
 
-<Edible rdf:about="#mango_chutney">
+<Fruit rdf:about="#mango_chutney">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango chutney</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#spicy_mango_salsa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
