@@ -3601,7 +3601,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate</fancyName>
 </Fruit>
 
-<Edible rdf:about="#all_purpose_flour">
+<Bread rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
@@ -3613,7 +3613,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
