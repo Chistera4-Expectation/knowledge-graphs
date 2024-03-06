@@ -3429,6 +3429,8 @@
   <ingredientOf rdf:resource="#curried_lamb"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#enchiladas_mole"/>
+  <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
@@ -3549,13 +3551,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
 </Water>
-
-<Edible rdf:about="#fresh_cilantro_leaves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#enchiladas_mole"/>
-  <ingredientOf rdf:resource="#aloo_gobi"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro leaves</fancyName>
-</Edible>
 
 <Fruit rdf:about="#lime_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
