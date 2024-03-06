@@ -4198,10 +4198,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chia seeds for added crunch</fancyName>
 </Seed>
 
-<Edible rdf:about="#fiber">
+<Vegetable rdf:about="#fiber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#a_sprinkle_of_cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
