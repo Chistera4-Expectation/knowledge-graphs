@@ -1084,12 +1084,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef - This instance could include various cuts of beef</fancyName>
 </Poultry>
 
-<Meat rdf:about="#beef">
+<Beef rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
-</Meat>
+</Beef>
 
 <Meat rdf:about="#pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
