@@ -4451,11 +4451,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#flour_tortillas">
+<Bread rdf:about="#flour_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour tortillas</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#chickpeas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
