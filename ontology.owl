@@ -1123,10 +1123,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game meats</fancyName>
 </Poultry>
 
-<Meat rdf:about="#processed_meats">
+<Poultry rdf:about="#processed_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processed meats</fancyName>
-</Meat>
+</Poultry>
 
 <Butter rdf:about="#_is_healthier_than_other_butter____compares_the_nutrition_info_of_this_instance_of_butter_to_another_instance_of_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
