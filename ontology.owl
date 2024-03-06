@@ -1307,6 +1307,101 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anchovies</fancyName>
 </Seafood>
 
+<Honey rdf:about="#organic_clover_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Clover Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#raw_wildflower_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw Wildflower Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#buckwheat_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#alfalfa_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfalfa Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#orange_blossom_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Blossom Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#blueberry_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueberry Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#eucalyptus_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucalyptus Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#sage_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sage Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#acacia_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acacia Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#fireweed_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fireweed Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#tupelo_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tupelo Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#linden_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linden Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#heather_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heather Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#creamed_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creamed Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#comb_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comb Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#strawberry_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#raspberry_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raspberry Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#blackberry_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blackberry Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#cherry_blossom_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry Blossom Honey</fancyName>
+</Honey>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
