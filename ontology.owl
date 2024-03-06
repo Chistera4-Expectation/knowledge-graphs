@@ -519,6 +519,40 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
+  <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#grilled_lobster"/>
+  <ingredientOf rdf:resource="#coconut_shrimp"/>
+  <ingredientOf rdf:resource="#pepper_pot_soup"/>
+  <ingredientOf rdf:resource="#fried_dumplings"/>
+  <ingredientOf rdf:resource="#baked_sweet_potato"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#grilled_salmon"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#egg_rolls"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#lemon_chicken"/>
+  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
+  <ingredientOf rdf:resource="#beef_with_broccoli"/>
+  <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#beef_madras"/>
+  <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
 
@@ -3262,45 +3296,6 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Cheese>
-
-<Spice rdf:about="#pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <ingredientOf rdf:resource="#caprese_salad"/>
-  <ingredientOf rdf:resource="#groundnut_soup"/>
-  <ingredientOf rdf:resource="#fried_chicken"/>
-  <ingredientOf rdf:resource="#mac_and_cheese"/>
-  <ingredientOf rdf:resource="#lobster_rolls"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
-  <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
-  <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
-  <ingredientOf rdf:resource="#new_england_clam_bake"/>
-  <ingredientOf rdf:resource="#conch_fritters"/>
-  <ingredientOf rdf:resource="#grilled_lobster"/>
-  <ingredientOf rdf:resource="#coconut_shrimp"/>
-  <ingredientOf rdf:resource="#pepper_pot_soup"/>
-  <ingredientOf rdf:resource="#fried_dumplings"/>
-  <ingredientOf rdf:resource="#baked_sweet_potato"/>
-  <ingredientOf rdf:resource="#teriyaki_chicken"/>
-  <ingredientOf rdf:resource="#grilled_salmon"/>
-  <ingredientOf rdf:resource="#miso_soup"/>
-  <ingredientOf rdf:resource="#beijing_roast_duck"/>
-  <ingredientOf rdf:resource="#egg_foo_young"/>
-  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
-  <ingredientOf rdf:resource="#egg_rolls"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#lemon_chicken"/>
-  <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
-  <ingredientOf rdf:resource="#beef_with_broccoli"/>
-  <ingredientOf rdf:resource="#dumplings"/>
-  <ingredientOf rdf:resource="#wonton_soup"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#beef_madras"/>
-  <ingredientOf rdf:resource="#fish_fry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
-</Spice>
 
 <Edible rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
