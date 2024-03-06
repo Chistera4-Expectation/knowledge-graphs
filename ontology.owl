@@ -2933,10 +2933,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice</fancyName>
 </Juice>
 
-<Drink rdf:about="#soda">
+<Infusion rdf:about="#soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
-</Drink>
+</Infusion>
 
 <Drink rdf:about="#smoothie">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
