@@ -5143,11 +5143,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
 </Rice>
 
-<Edible rdf:about="#snow_peas">
+<Vegetable rdf:about="#snow_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#water_chestnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
