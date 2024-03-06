@@ -4239,11 +4239,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin puree</fancyName>
 </Fruit>
 
-<Edible rdf:about="#non_stick_cooking_spray">
+<Dressing rdf:about="#non_stick_cooking_spray">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-stick cooking spray</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#smoke_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
