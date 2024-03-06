@@ -5043,11 +5043,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#sashimi_grade_fish">
+<Fish rdf:about="#sashimi_grade_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sashimi-grade fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#imitation_crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
