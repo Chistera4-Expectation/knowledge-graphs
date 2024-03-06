@@ -4844,11 +4844,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Sauce>
 
-<Edible rdf:about="#long_grain_white_rice">
+<Rice rdf:about="#long_grain_white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long grain white rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#black_eyed_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
