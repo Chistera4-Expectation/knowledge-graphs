@@ -1355,10 +1355,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy milk</fancyName>
 </Dairy>
 
-<Dairy rdf:about="#almond_milk">
+<Milk rdf:about="#almond_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond milk</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#other_plant_based_milks_such_as_oat_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
