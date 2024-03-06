@@ -5472,11 +5472,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Beef>
 
-<Edible rdf:about="#idli_rice">
+<Rice rdf:about="#idli_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idli rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#urad_dal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
