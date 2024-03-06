@@ -1301,10 +1301,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Half</fancyName>
 </Milk>
 
-<Dairy rdf:about="#evaporated_milk">
+<Milk rdf:about="#evaporated_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaporated milk</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#condensed_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
