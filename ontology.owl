@@ -3423,11 +3423,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
 </Oil>
 
-<Edible rdf:about="#espresso_coffee">
+<Drink rdf:about="#espresso_coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espresso coffee</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
