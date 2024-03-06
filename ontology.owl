@@ -3846,13 +3846,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Sauce>
 
-<Edible rdf:about="#flavorings">
+<Seasoning rdf:about="#flavorings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#baked_beans"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#acidic_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
