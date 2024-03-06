@@ -4277,10 +4277,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#groundnuts">
+<Seed rdf:about="#groundnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#moambe_chicken"/>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#coriander">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
