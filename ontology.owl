@@ -2564,10 +2564,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Fruit>
 
-<Vegetal rdf:about="#whole_grains">
+<Pasta rdf:about="#whole_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grains</fancyName>
-</Vegetal>
+</Pasta>
 
 <Vegetal rdf:about="#legumes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
