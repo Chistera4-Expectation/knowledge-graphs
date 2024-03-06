@@ -4181,10 +4181,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jelly</fancyName>
 </Fruit>
 
-<Edible rdf:about="#jam">
+<Fruit rdf:about="#jam">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#other_fruit_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
