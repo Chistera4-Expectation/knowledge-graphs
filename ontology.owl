@@ -4591,11 +4591,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#butter__melted">
+<Butter rdf:about="#butter__melted">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_pastry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter, melted</fancyName>
-</Edible>
+</Butter>
 
 <Edible rdf:about="#fresh_guava_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
