@@ -5193,11 +5193,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional seasonings</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chinkiang_vinegar">
+<Seasoning rdf:about="#chinkiang_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinkiang vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#dried_red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
