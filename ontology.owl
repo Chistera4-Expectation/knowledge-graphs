@@ -446,6 +446,7 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#raita"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1334,6 +1335,7 @@
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
 </Dairy>
 
@@ -2351,6 +2353,7 @@
 <Vegetable rdf:about="#tomato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -2394,6 +2397,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3655,6 +3659,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -3675,6 +3680,7 @@
 <Edible rdf:about="#green_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
 </Edible>
 
@@ -3808,6 +3814,7 @@
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -3860,6 +3867,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#raita"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
 </Edible>
 
@@ -4277,12 +4285,14 @@
 <Edible rdf:about="#mustard_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seeds</fancyName>
 </Edible>
 
 <Edible rdf:about="#fenugreek_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
 </Edible>
 
@@ -5393,6 +5403,7 @@
 <Edible rdf:about="#red_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili powder</fancyName>
 </Edible>
 
@@ -5438,6 +5449,7 @@
 <Edible rdf:about="#turmeric_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric powder</fancyName>
 </Edible>
 
@@ -5451,6 +5463,54 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
+</Edible>
+
+<Edible rdf:about="#idli_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idli rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#urad_dal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urad dal</fancyName>
+</Edible>
+
+<Edible rdf:about="#tuvar_dal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuvar dal</fancyName>
+</Edible>
+
+<Edible rdf:about="#tamarind_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_tamarind">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh tamarind</fancyName>
+</Edible>
+
+<Edible rdf:about="#drumstick">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drumstick</fancyName>
+</Edible>
+
+<Edible rdf:about="#asafoetida">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asafoetida</fancyName>
+</Edible>
+
+<Edible rdf:about="#curry_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#idli_sambar"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry leaves</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
