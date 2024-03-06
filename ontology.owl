@@ -445,6 +445,7 @@
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#baked_sweet_potato"/>
   <ingredientOf rdf:resource="#guava_pastry"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -529,6 +530,7 @@
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
 </Seasoning>
 
@@ -2579,6 +2581,7 @@
   <ingredientOf rdf:resource="#baked_beans"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3470,6 +3473,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Edible>
 
@@ -4024,6 +4028,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#curried_lamb"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili powder</fancyName>
 </Edible>
 
@@ -4050,6 +4055,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -4093,6 +4099,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped cilantro</fancyName>
 </Edible>
 
@@ -4257,6 +4264,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_pastry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diced guava</fancyName>
+</Edible>
+
+<Edible rdf:about="#pigeon_peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigeon peas</fancyName>
+</Edible>
+
+<Edible rdf:about="#cumin_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#ghee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
