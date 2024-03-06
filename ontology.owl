@@ -414,6 +414,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#pizza"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -694,6 +695,7 @@
 
 <Additive rdf:about="#preservatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
 </Additive>
 
@@ -2415,6 +2417,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#mole"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Vegetal>
 
@@ -2620,6 +2623,8 @@
 
 <Infusion rdf:about="#flavorings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings</fancyName>
 </Infusion>
 
 <Infusion rdf:about="#quantity">
@@ -2677,6 +2682,7 @@
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -4094,6 +4100,48 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toppings of your choice</fancyName>
+</Edible>
+
+<Edible rdf:about="#mechanically_separated_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically separated meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#pork_fat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork fat</fancyName>
+</Edible>
+
+<Edible rdf:about="#dextrose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextrose</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn syrup</fancyName>
+</Edible>
+
+<Edible rdf:about="#sodium_phosphates">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium phosphates</fancyName>
+</Edible>
+
+<Edible rdf:about="#sodium_nitrite">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium nitrite</fancyName>
+</Edible>
+
+<Edible rdf:about="#food_coloring">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food coloring</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
