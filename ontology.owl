@@ -2972,10 +2972,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Water>
 
-<Liquid rdf:about="#iced_tea">
+<Tea rdf:about="#iced_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iced tea</fancyName>
-</Liquid>
+</Tea>
 
 <Liquid rdf:about="#hot_chocolate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
