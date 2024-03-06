@@ -4749,13 +4749,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roux</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#seafood">
+<Fish rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#seasonings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
