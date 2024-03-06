@@ -3011,11 +3011,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranberry</fancyName>
 </Fruit>
 
-<Fruit rdf:about="#loganberry">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loganberry</fancyName>
-</Fruit>
-
 <Fruit rdf:about="#nectarine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nectarine</fancyName>
