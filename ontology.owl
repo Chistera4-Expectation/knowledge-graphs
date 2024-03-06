@@ -4916,12 +4916,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolled oats</fancyName>
 </Breakfast>
 
-<Edible rdf:about="#vinegar">
+<Fruit rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#raw_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
