@@ -5789,6 +5789,7 @@
 <Vegetable rdf:about="#canned_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chili"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">canned peas</fancyName>
 </Vegetable>
 
@@ -5972,12 +5973,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#black_eyed_peas">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black-eyed peas</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#green_plantains">
