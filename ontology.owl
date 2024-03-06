@@ -3854,11 +3854,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavorings</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#acidic_ingredients">
+<Dressing rdf:about="#acidic_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidic ingredients</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#marinating_agents">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
