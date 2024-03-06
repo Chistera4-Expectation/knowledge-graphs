@@ -2323,7 +2323,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#garlic">
+<Vegetable rdf:about="#garlic">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
@@ -2367,7 +2367,7 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#beef_madras"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
