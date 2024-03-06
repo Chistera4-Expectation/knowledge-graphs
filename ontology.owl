@@ -3035,14 +3035,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza</fancyName>
 </Edible>
 
-<Edible rdf:about="#rice">
+<Rice rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
-</Edible>
+</Rice>
 
 <Italian rdf:about="#margherita_pizza">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
