@@ -2581,11 +2581,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuts</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#seeds">
+<Vegetable rdf:about="#seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
