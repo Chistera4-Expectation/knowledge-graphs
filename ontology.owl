@@ -1388,6 +1388,7 @@
 
 <Molluscs rdf:about="#oysters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
 </Molluscs>
 
@@ -3663,6 +3664,7 @@
 <Edible rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
 </Edible>
 
@@ -3677,6 +3679,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <ingredientOf rdf:resource="#tuna_salad"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
 </Edible>
 
@@ -4341,6 +4344,7 @@
 <Edible rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_fried_catfish"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
 </Edible>
 
@@ -4390,6 +4394,41 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank's RedHot Sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#french_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French bread</fancyName>
+</Edible>
+
+<Edible rdf:about="#baguette">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
+</Edible>
+
+<Edible rdf:about="#deep_fried_shrimp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep-fried shrimp</fancyName>
+</Edible>
+
+<Edible rdf:about="#remoulade_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remoulade sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#shredded_lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded lettuce</fancyName>
+</Edible>
+
+<Edible rdf:about="#tomato_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#po_boy_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato slices</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
