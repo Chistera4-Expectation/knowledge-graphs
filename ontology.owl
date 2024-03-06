@@ -573,6 +573,7 @@
 
 <Sweetener rdf:about="#name">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Infusion"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name</fancyName>
 </Sweetener>
 
@@ -627,6 +628,7 @@
 
 <Additive rdf:about="#sweeteners">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Infusion"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweeteners</fancyName>
 </Additive>
 
@@ -2443,6 +2445,14 @@
 <Tea rdf:about="#flavonoids">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Tea>
+
+<Infusion rdf:about="#flavorings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Infusion>
+
+<Infusion rdf:about="#quantity">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Infusion>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
