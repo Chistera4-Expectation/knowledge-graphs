@@ -5199,11 +5199,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinkiang vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#dried_red_pepper_flakes">
+<Spice rdf:about="#dried_red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried red pepper flakes</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
