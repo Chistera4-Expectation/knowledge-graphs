@@ -545,6 +545,7 @@
   <ingredientOf rdf:resource="#chicken_marsala"/>
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -2009,6 +2010,7 @@
 
 <Seed rdf:about="#sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
 </Seed>
 
@@ -2321,6 +2323,8 @@
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#mole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Vegetal>
 
 <Food rdf:about="#name___the_common_name_of_the_food_item">
@@ -3202,7 +3206,9 @@
 <Edible rdf:about="#cocoa_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocoa powder</fancyName>
 </Edible>
 
 <Edible rdf:about="#dark_chocolate_shavings">
@@ -3241,6 +3247,7 @@
 <Edible rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -3511,6 +3518,7 @@
 <Edible rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Edible>
 
@@ -3542,6 +3550,46 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional seasonings</fancyName>
+</Edible>
+
+<Edible rdf:about="#onions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
+</Edible>
+
+<Edible rdf:about="#almonds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_nuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other nuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#raisins">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
+</Edible>
+
+<Edible rdf:about="#plantains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
+</Edible>
+
+<Edible rdf:about="#stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
+</Edible>
+
+<Edible rdf:about="#chocolate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mole"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
