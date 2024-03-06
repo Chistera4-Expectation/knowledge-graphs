@@ -5532,11 +5532,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#lime_juice">
+<Juice rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#fresh_herbs_such_as_cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
