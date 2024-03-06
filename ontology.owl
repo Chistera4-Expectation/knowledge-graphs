@@ -2318,6 +2318,22 @@
   <ingredientOf rdf:resource="#curried_lamb"/>
   <ingredientOf rdf:resource="#lemon_chicken"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
+  <ingredientOf rdf:resource="#tibs"/>
+  <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#lobster_rolls"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#callaloo_soup"/>
+  <ingredientOf rdf:resource="#jamaican_patties"/>
+  <ingredientOf rdf:resource="#pepper_pot_soup"/>
+  <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#stewed_oxtail"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#beef_madras"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -2338,27 +2354,6 @@
 <Vegetable rdf:about="#beets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beets</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tacos_al_pastor"/>
-  <ingredientOf rdf:resource="#groundnut_soup"/>
-  <ingredientOf rdf:resource="#tibs"/>
-  <ingredientOf rdf:resource="#hamburgers"/>
-  <ingredientOf rdf:resource="#lobster_rolls"/>
-  <ingredientOf rdf:resource="#new_england_clam_bake"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#callaloo_soup"/>
-  <ingredientOf rdf:resource="#jamaican_patties"/>
-  <ingredientOf rdf:resource="#pepper_pot_soup"/>
-  <ingredientOf rdf:resource="#doubles"/>
-  <ingredientOf rdf:resource="#stewed_oxtail"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <ingredientOf rdf:resource="#rogan_josh"/>
-  <ingredientOf rdf:resource="#beef_madras"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#garlic">
