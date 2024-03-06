@@ -4231,6 +4231,7 @@
 <Seasoning rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Seasoning>
 
@@ -4423,12 +4424,6 @@
   <ingredientOf rdf:resource="#fufu_and_light_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habanero pepper</fancyName>
 </Spice>
-
-<Seasoning rdf:about="#maggi_seasoning_cubes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fufu_and_light_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maggi seasoning cubes</fancyName>
-</Seasoning>
 
 <Seasoning rdf:about="#bouillon_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
