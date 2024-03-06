@@ -5490,11 +5490,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuvar dal</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#tamarind_paste">
+<Seasoning rdf:about="#tamarind_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#idli_sambar"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#fresh_tamarind">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
