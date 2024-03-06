@@ -3501,11 +3501,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
-<Edible rdf:about="#other_vegetables">
+<Vegetable rdf:about="#other_vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other vegetables</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pizza_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
