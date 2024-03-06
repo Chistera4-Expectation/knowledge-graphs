@@ -3567,6 +3567,7 @@
   <ingredientOf rdf:resource="#hot_dogs"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#wonton_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Edible>
 
@@ -3893,12 +3894,14 @@
 <Edible rdf:about="#sauces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
+  <ingredientOf rdf:resource="#wonton_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauces</fancyName>
 </Edible>
 
 <Edible rdf:about="#seasonings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
+  <ingredientOf rdf:resource="#wonton_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasonings</fancyName>
 </Edible>
 
@@ -4715,6 +4718,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
+</Edible>
+
+<Edible rdf:about="#wontons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#wonton_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wontons</fancyName>
+</Edible>
+
+<Edible rdf:about="#noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#wonton_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#garnishes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#wonton_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garnishes</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
