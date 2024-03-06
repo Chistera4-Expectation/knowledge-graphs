@@ -985,6 +985,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-dairy yogurt</fancyName>
 </Yogurt>
 
+<Dairy rdf:about="#milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#ice_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cream</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#sour_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#cottage_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cottage cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#ricotta_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
+</Dairy>
+
+<Dairy rdf:about="#whey_protein_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whey protein powder</fancyName>
+</Dairy>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
