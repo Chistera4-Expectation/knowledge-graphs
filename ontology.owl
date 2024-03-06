@@ -3850,6 +3850,7 @@
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Sauce>
 
@@ -4674,12 +4675,6 @@
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh raw fish</fancyName>
 </Fish>
-
-<Sauce rdf:about="#sushi_rice_vinegar">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sashimi"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice vinegar</fancyName>
-</Sauce>
 
 <Rice rdf:about="#rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
