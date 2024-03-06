@@ -4432,11 +4432,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped cilantro</fancyName>
 </Edible>
 
-<Edible rdf:about="#diced_beef">
+<Meat rdf:about="#diced_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced beef</fancyName>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#celery">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
