@@ -1716,7 +1716,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cicadas</fancyName>
 </Honey>
 
-<Animal rdf:about="#eggs">
+<Poultry rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#gnocchi"/>
@@ -1734,7 +1734,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
