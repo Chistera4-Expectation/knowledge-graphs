@@ -435,6 +435,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -582,6 +583,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
 </Seasoning>
 
@@ -1300,6 +1302,7 @@
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -1654,6 +1657,7 @@
   <ingredientOf rdf:resource="#crab_cakes"/>
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2258,6 +2262,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gazpacho"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -2287,6 +2292,7 @@
 <Vegetable rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Vegetable>
 
@@ -2570,6 +2576,7 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Food>
 
@@ -4204,12 +4211,14 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Edible>
 
@@ -4735,6 +4744,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Edible>
 
@@ -4825,6 +4835,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daikon radish</fancyName>
+</Edible>
+
+<Edible rdf:about="#sushi_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#sashimi_grade_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sashimi-grade fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#imitation_crab_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imitation crab meat</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
