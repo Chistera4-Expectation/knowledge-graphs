@@ -3749,13 +3749,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh tomatoes</fancyName>
 </Fruit>
 
-<Edible rdf:about="#chili_peppers">
+<Vegetable rdf:about="#chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
