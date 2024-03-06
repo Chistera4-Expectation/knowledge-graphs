@@ -823,10 +823,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monk fruit sweetener</fancyName>
 </Sweetener>
 
-<Additive rdf:about="#partially_hydrogenated_oils">
+<Sauce rdf:about="#partially_hydrogenated_oils">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Partially hydrogenated oils</fancyName>
-</Additive>
+</Sauce>
 
 <Additive rdf:about="#sodium_nitrate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
