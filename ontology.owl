@@ -2574,12 +2574,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legumes</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#nuts">
+<Seed rdf:about="#nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quinoa_salad"/>
   <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuts</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
