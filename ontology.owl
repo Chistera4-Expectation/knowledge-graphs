@@ -408,6 +408,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -461,6 +462,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -1943,6 +1945,7 @@
 <Vegetal rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetal>
 
@@ -1957,6 +1960,7 @@
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetal>
 
@@ -2346,6 +2350,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2824,6 +2829,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -2868,6 +2874,7 @@
 <Edible rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
 </Edible>
 
 <Edible rdf:about="#optional">
@@ -3040,6 +3047,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
 </Edible>
 
@@ -3094,6 +3102,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
 
@@ -3184,6 +3193,7 @@
 <Edible rdf:about="#fresh_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh tomatoes</fancyName>
 </Edible>
 
@@ -3268,6 +3278,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marinating agents</fancyName>
+</Edible>
+
+<Edible rdf:about="#groundnuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groundnuts</fancyName>
+</Edible>
+
+<Edible rdf:about="#tomato_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_spices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other spices</fancyName>
+</Edible>
+
+<Edible rdf:about="#collard_greens">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#groundnut_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collard greens</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
