@@ -4497,11 +4497,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn syrup</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#sodium_phosphates">
+<Seasoning rdf:about="#sodium_phosphates">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium phosphates</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#sodium_nitrite">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
