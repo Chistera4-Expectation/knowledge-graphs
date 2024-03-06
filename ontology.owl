@@ -1662,10 +1662,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candy made</fancyName>
 </Honey>
 
-<Animal rdf:about="#animal_derived_ingredients">
+<Dairy rdf:about="#animal_derived_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal-derived ingredients</fancyName>
-</Animal>
+</Dairy>
 
 <Breakfast rdf:about="#corn_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
