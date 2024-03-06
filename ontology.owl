@@ -823,10 +823,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweeteners</fancyName>
 </Infusion>
 
-<Additive rdf:about="#thickeners">
+<Sauce rdf:about="#thickeners">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thickeners</fancyName>
-</Additive>
+</Sauce>
 
 <Additive rdf:about="#antioxidants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
