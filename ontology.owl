@@ -5231,11 +5231,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vermicelli noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#optional_dipping_sauce">
+<Sauce rdf:about="#optional_dipping_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional dipping sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#cooked_white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
