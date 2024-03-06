@@ -1015,10 +1015,12 @@
 
 <Yogurt rdf:about="#flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Energy"/>
 </Yogurt>
 
 <Yogurt rdf:about="#ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Energy"/>
 </Yogurt>
 
 <Dairy rdf:about="#milk">
@@ -2264,6 +2266,7 @@
 <Food rdf:about="#calories">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Tea"/>
+  <rdf:type rdf:resource="#Energy"/>
 </Food>
 
 <Food rdf:about="#fat">
@@ -2453,6 +2456,14 @@
 <Infusion rdf:about="#quantity">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Infusion>
+
+<Energy rdf:about="#price">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Energy>
+
+<Energy rdf:about="#manufacturer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Energy>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
