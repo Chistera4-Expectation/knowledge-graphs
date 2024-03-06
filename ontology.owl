@@ -4292,12 +4292,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemons</fancyName>
 </Fruit>
 
-<Edible rdf:about="#dijon_mustard">
+<Sauce rdf:about="#dijon_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <ingredientOf rdf:resource="#lemon_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dijon mustard</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#old_bay_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
