@@ -4737,11 +4737,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded lettuce</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#tomato_slices">
+<Vegetable rdf:about="#tomato_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato slices</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#roux">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
