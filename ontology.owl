@@ -4467,11 +4467,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
 </Sauce>
 
-<Edible rdf:about="#toppings_of_your_choice">
+<Sauce rdf:about="#toppings_of_your_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toppings of your choice</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#mechanically_separated_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
