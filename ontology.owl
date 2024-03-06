@@ -5049,11 +5049,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sashimi-grade fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#imitation_crab_meat">
+<Crustaceans rdf:about="#imitation_crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imitation crab meat</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#cashews">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
