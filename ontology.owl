@@ -603,6 +603,7 @@
 <Sweetener rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Animal"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
@@ -613,7 +614,9 @@
 
 <Sweetener rdf:about="#agave_nectar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agave nectar</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agave nectar</fancyName>
 </Sweetener>
 
 <Sweetener rdf:about="#high_fructose_corn_syrup">
@@ -1433,6 +1436,7 @@
 
 <Breakfast rdf:about="#granola">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granola</fancyName>
 </Breakfast>
 
@@ -1680,6 +1684,7 @@
 
 <Fruit rdf:about="#banana">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana</fancyName>
 </Fruit>
 
@@ -3439,6 +3444,7 @@
   <ingredientOf rdf:resource="#hamburgers"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <ingredientOf rdf:resource="#lobster_rolls"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
 </Edible>
 
@@ -3626,6 +3632,52 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidity regulator</fancyName>
+</Edible>
+
+<Edible rdf:about="#peanut_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut butter</fancyName>
+</Edible>
+
+<Edible rdf:about="#jelly">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jelly</fancyName>
+</Edible>
+
+<Edible rdf:about="#jam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+</Edible>
+
+<Edible rdf:about="#other_fruit_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other fruit slices</fancyName>
+</Edible>
+
+<Edible rdf:about="#chia_seeds_for_added_crunch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chia seeds for added crunch</fancyName>
+</Edible>
+
+<Edible rdf:about="#fiber">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+</Edible>
+
+<Edible rdf:about="#a_sprinkle_of_cinnamon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sprinkle of cinnamon</fancyName>
+</Edible>
+
+<Edible rdf:about="#other_spices_for_extra_flavor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other spices for extra flavor</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
