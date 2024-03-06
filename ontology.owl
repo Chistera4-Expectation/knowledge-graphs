@@ -801,11 +801,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial colors</fancyName>
 </Additive>
 
-<Additive rdf:about="#preservatives">
+<Sauce rdf:about="#preservatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
-</Additive>
+</Sauce>
 
 <Additive rdf:about="#emulsifiers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
