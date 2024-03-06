@@ -5021,11 +5021,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#ginger_paste">
+<Sauce rdf:about="#ginger_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger paste</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#lamb_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
