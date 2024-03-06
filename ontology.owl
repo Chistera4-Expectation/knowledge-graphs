@@ -1066,12 +1066,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</fancyName>
 </Poultry>
 
-<Meat rdf:about="#fish">
+<Seafood rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Seafood"/>
   <ingredientOf rdf:resource="#fish_fry"/>
+  <rdf:type rdf:resource="#Poultry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
-</Meat>
+</Seafood>
 
 <Meat rdf:about="#venison">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
