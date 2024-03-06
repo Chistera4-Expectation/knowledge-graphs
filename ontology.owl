@@ -2248,6 +2248,56 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Vegetal>
 
+<Food rdf:about="#name___the_common_name_of_the_food_item">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name - the common name of the food item</fancyName>
+</Food>
+
+<Food rdf:about="#serving__size___the_amount_of_food_being_considered_for_one_serving">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serving\_size - the amount of food being considered for one serving</fancyName>
+</Food>
+
+<Food rdf:about="#calories">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#fat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#cholesterol">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#sodium">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#carbohydrates">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#fiber">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#protein">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#vitamins">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#minerals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
