@@ -5547,6 +5547,7 @@
 <Vegetable rdf:about="#ugu_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ugu leaves</fancyName>
 </Vegetable>
 
@@ -6746,12 +6747,6 @@
   <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potato starch</fancyName>
 </Bread>
-
-<Vegetable rdf:about="#fresh_coriander_leaves_for_garnishing">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh coriander leaves for garnishing</fancyName>
-</Vegetable>
 
 <Spice rdf:about="#green_cardamom_pods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
