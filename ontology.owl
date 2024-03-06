@@ -540,6 +540,64 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel seeds</fancyName>
 </Spice>
 
+<Sweetener rdf:about="#natural_sweeteners__such_as_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural sweeteners, such as honey</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#maple_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maple syrup</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#artificial_sweeteners__such_as_saccharin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial sweeteners, such as saccharin</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#aspartame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sweetener>
+
+<Sweetener rdf:about="#stevia__a_natural_low_calorie_sweetener_derived_from_the_leaves_of_the_stevia_plant">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stevia, a natural low-calorie sweetener derived from the leaves of the stevia plant</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#monk_fruit_extract__another_natural_low_calorie_sweetener">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monk fruit extract, another natural low-calorie sweetener</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#name">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#calories_per_teaspoon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calories per teaspoon</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#glycemic_index">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycemic index</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#any_potential_health_benefits">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any potential health benefits</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#risks_associated">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risks associated</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#consumption">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sweetener>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
