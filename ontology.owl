@@ -4233,11 +4233,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh thyme</fancyName>
 </Edible>
 
-<Edible rdf:about="#pumpkin_puree">
+<Fruit rdf:about="#pumpkin_puree">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin puree</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#non_stick_cooking_spray">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
