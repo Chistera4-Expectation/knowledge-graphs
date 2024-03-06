@@ -4409,11 +4409,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panko breadcrumbs</fancyName>
 </Bread>
 
-<Edible rdf:about="#unsweetened_coconut_flakes">
+<Vegetable rdf:about="#unsweetened_coconut_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsweetened coconut flakes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#egg_white">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
