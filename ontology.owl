@@ -3880,11 +3880,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#other_spices">
+<Spice rdf:about="#other_spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other spices</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#collard_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
