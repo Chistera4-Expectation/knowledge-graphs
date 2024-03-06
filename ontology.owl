@@ -834,10 +834,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
 </Tea>
 
-<Additive rdf:about="#acids">
+<Seasoning rdf:about="#acids">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acids</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#bases">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
