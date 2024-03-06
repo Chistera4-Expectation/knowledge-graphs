@@ -4997,10 +4997,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper wrappers</fancyName>
 </Rice>
 
-<Edible rdf:about="#protein">
+<Pork rdf:about="#protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#peanut_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
