@@ -3810,7 +3810,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bouillon cubes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#vegetable_broth">
+<Vegetable rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
@@ -3820,7 +3820,7 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chopped_fresh_cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
