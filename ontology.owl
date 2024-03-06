@@ -3322,11 +3322,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">veal broth</fancyName>
 </Sauce>
 
-<Edible rdf:about="#saffron_threads">
+<Spice rdf:about="#saffron_threads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron threads</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
