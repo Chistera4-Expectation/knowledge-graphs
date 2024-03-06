@@ -3661,11 +3661,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro leaves</fancyName>
 </Edible>
 
-<Edible rdf:about="#lime_wedges">
+<Fruit rdf:about="#lime_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas_mole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime wedges</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#mole_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
