@@ -4579,11 +4579,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guava jam</fancyName>
 </Fruit>
 
-<Edible rdf:about="#egg_wash">
+<Sauce rdf:about="#egg_wash">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_pastry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg wash</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#powdered_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
