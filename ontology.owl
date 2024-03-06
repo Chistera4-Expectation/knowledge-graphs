@@ -675,6 +675,9 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#beef_madras"/>
+  <ingredientOf rdf:resource="#fried_dumplings"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -4484,14 +4487,6 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finely chopped scallions</fancyName>
 </Vegetable>
-
-<Spice rdf:about="#ginger__grated">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fried_dumplings"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#dumplings"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger, grated</fancyName>
-</Spice>
 
 <Sauce rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
