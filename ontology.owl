@@ -4732,11 +4732,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#tapioca_starch">
+<Food rdf:about="#tapioca_starch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tapioca starch</fancyName>
-</Edible>
+</Food>
 
 <Edible rdf:about="#buckwheat_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
