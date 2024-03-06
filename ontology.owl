@@ -3407,6 +3407,10 @@
 <Dairy rdf:about="#whipping_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <ingredientOf rdf:resource="#pumpkin_pie"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipping cream</fancyName>
 </Dairy>
 
@@ -4075,15 +4079,6 @@
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condensed milk</fancyName>
 </Milk>
-
-<Dairy rdf:about="#heavy_cream">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#key_lime_pie"/>
-  <ingredientOf rdf:resource="#pumpkin_pie"/>
-  <ingredientOf rdf:resource="#new_england_clam_bake"/>
-  <ingredientOf rdf:resource="#matcha_ice_cream"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
-</Dairy>
 
 <Fruit rdf:about="#lime_zest">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
