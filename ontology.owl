@@ -3436,6 +3436,12 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#beef_madras"/>
+  <ingredientOf rdf:resource="#coconut_shrimp"/>
+  <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
@@ -4197,17 +4203,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg white</fancyName>
-</Edible>
-
-<Edible rdf:about="#chopped_cilantro">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#coconut_shrimp"/>
-  <ingredientOf rdf:resource="#doubles"/>
-  <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#tandoori_chicken"/>
-  <ingredientOf rdf:resource="#rogan_josh"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped cilantro</fancyName>
 </Edible>
 
 <Meat rdf:about="#diced_beef">
