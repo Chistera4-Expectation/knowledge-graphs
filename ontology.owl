@@ -4966,11 +4966,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#seafood_for_frying">
+<Fish rdf:about="#seafood_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seafood for frying</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
