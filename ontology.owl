@@ -4145,6 +4145,7 @@
 
 <Tea rdf:about="#gunpowder_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#matcha_desserts"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gunpowder Tea</fancyName>
 </Tea>
 
@@ -6439,12 +6440,6 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein source</fancyName>
 </Beef>
-
-<Tea rdf:about="#matcha_green_tea_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#matcha_desserts"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha green tea powder</fancyName>
-</Tea>
 
 <Additive rdf:about="#baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
