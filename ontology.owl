@@ -4985,11 +4985,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frozen peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pork_chops">
+<Meat rdf:about="#pork_chops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#maple_syrup_pork_chops"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork chops</fancyName>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#rice_paper_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
