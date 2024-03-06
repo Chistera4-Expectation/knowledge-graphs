@@ -4552,6 +4552,12 @@
   <ingredientOf rdf:resource="#egg_rolls"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#egg_foo_young"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Vegetable>
 
@@ -4596,18 +4602,6 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
 </Edible>
-
-<Vegetable rdf:about="#scallions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#beijing_roast_duck"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <ingredientOf rdf:resource="#egg_foo_young"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#wonton_soup"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
-</Vegetable>
 
 <Bread rdf:about="#sliced">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
