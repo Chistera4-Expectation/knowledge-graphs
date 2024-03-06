@@ -1274,9 +1274,8 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-dairy yogurt</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#milk">
+<Milk rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Drink"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
@@ -1286,7 +1285,7 @@
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#fish_fry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
