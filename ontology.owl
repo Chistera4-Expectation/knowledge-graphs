@@ -4650,11 +4650,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eel</fancyName>
 </Fish>
 
-<Edible rdf:about="#radishes">
+<Vegetable rdf:about="#radishes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radishes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
