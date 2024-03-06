@@ -5526,11 +5526,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#fish_sauce">
+<Sauce rdf:about="#fish_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
