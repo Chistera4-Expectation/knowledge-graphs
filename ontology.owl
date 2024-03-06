@@ -4278,12 +4278,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacon bits, diced vegetables</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#herbs">
+<Vegetable rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lemons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
