@@ -3414,11 +3414,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Curry</fancyName>
 </Indian>
 
-<Edible rdf:about="#lasagna_noodles">
+<Pasta rdf:about="#lasagna_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lasagna noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#ground_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
