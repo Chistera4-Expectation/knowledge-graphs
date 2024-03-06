@@ -4856,11 +4856,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black-eyed peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#coconut_oil">
+<Oil rdf:about="#coconut_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#ripe_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
