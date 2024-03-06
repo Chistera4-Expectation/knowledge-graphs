@@ -401,6 +401,7 @@
   <ingredientOf rdf:resource="#shrimp_scampi"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2319,6 +2320,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#tamales"/>
 </Vegetal>
 
 <Food rdf:about="#name___the_common_name_of_the_food_item">
@@ -3480,6 +3482,66 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_masa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn masa</fancyName>
+</Edible>
+
+<Edible rdf:about="#lard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lard</fancyName>
+</Edible>
+
+<Edible rdf:about="#vegetable_shortening">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable shortening</fancyName>
+</Edible>
+
+<Edible rdf:about="#baking_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#beef_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beef broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
+</Edible>
+
+<Edible rdf:about="#sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_husks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn husks</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional_seasonings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional seasonings</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
