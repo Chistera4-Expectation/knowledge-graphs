@@ -3206,6 +3206,7 @@
 
 <Seaweed rdf:about="#tangle_weed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tangle weed</fancyName>
 </Seaweed>
 
@@ -6503,12 +6504,6 @@
   <ingredientOf rdf:resource="#hot_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake mushrooms</fancyName>
 </Mushroom>
-
-<Seaweed rdf:about="#seaweed">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#miso_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed</fancyName>
-</Seaweed>
 
 <Vegetable rdf:about="#nappa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
