@@ -4656,11 +4656,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radishes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#sprouts">
+<Vegetable rdf:about="#sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprouts</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#wasabi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
