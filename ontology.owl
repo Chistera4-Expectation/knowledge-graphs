@@ -5447,11 +5447,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger paste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#kashmiri_chili_powder">
+<Spice rdf:about="#kashmiri_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri chili powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#turmeric_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
