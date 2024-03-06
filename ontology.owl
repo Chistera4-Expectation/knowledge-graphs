@@ -4935,13 +4935,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked seafood</fancyName>
 </Fish>
 
-<Edible rdf:about="#pickled_ginger">
+<Seasoning rdf:about="#pickled_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
