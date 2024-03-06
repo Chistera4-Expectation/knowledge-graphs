@@ -3236,12 +3236,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
 </Pasta>
 
-<Edible rdf:about="#tomato_sauce">
+<Sauce rdf:about="#tomato_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#chili_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
