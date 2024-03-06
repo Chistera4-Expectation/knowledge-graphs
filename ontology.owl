@@ -4913,11 +4913,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassia bark</fancyName>
 </Spice>
 
-<Edible rdf:about="#other_nuts">
+<Seed rdf:about="#other_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other nuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#thinly_sliced_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
