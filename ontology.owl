@@ -4205,11 +4205,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#smoked_turkey">
+<Poultry rdf:about="#smoked_turkey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoked turkey</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#smoked_prawns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
