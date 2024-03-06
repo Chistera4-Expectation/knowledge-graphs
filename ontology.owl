@@ -859,10 +859,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulking agents</fancyName>
 </Sauce>
 
-<Additive rdf:about="#propellants">
+<Sauce rdf:about="#propellants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propellants</fancyName>
-</Additive>
+</Sauce>
 
 <Beef rdf:about="#grass_fed_beef___this_instance_would_describe_beef_that_has_been_raised_on_a_grass_based_diet__rather_than_being_finished_on_grains__it_is_often_praised_for_its_higher_levels_of_healthy_fats_like_omega_3_fatty_acids">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
