@@ -3763,11 +3763,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry marsala wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#low_sodium_chicken_broth">
+<Poultry rdf:about="#low_sodium_chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_marsala"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-sodium chicken broth</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
