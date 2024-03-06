@@ -436,6 +436,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#chirashi_sushi"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -461,6 +462,7 @@
   <ingredientOf rdf:resource="#oxtail_stew"/>
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#curry_rice"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -905,6 +907,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
 </Pork>
 
@@ -1316,6 +1319,7 @@
   <ingredientOf rdf:resource="#shrimp_with_spicy_peanut_sauce"/>
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -2139,6 +2143,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2826,6 +2831,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3845,6 +3851,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#mole"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Edible>
 
@@ -3926,6 +3933,7 @@
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
 </Edible>
 
 <Edible rdf:about="#chocolate">
@@ -4251,6 +4259,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -4634,6 +4643,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -5007,6 +5017,7 @@
 <Edible rdf:about="#wonton_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wonton wrappers</fancyName>
 </Edible>
 
@@ -5056,6 +5067,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
+</Edible>
+
+<Edible rdf:about="#napa_cabbage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Napa cabbage</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
