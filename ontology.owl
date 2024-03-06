@@ -950,6 +950,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel's milk</fancyName>
 </Milk>
 
+<Yogurt rdf:about="#greek_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#natural_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#flavored_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#frozen_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frozen yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#probiotic_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probiotic yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#low_fat_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-fat yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#non_dairy_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-dairy yogurt</fancyName>
+</Yogurt>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
