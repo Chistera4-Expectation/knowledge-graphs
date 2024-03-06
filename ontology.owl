@@ -454,6 +454,7 @@
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2612,6 +2613,7 @@
   <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -4421,6 +4423,7 @@
 <Edible rdf:about="#wheat_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat flour</fancyName>
 </Edible>
 
@@ -4428,6 +4431,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#udon_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tapioca starch</fancyName>
+</Edible>
+
+<Edible rdf:about="#buckwheat_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#soba_noodles"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat flour</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
