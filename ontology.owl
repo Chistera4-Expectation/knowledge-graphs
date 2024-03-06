@@ -4363,13 +4363,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finely chopped cabbage</fancyName>
 </Vegetable>
 
-<Vegetable rdf:about="#finely_chopped_scallions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fried_dumplings"/>
-  <ingredientOf rdf:resource="#dumplings"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finely chopped scallions</fancyName>
-</Vegetable>
-
 <Sauce rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
