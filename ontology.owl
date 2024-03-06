@@ -5162,11 +5162,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wonton wrappers</fancyName>
 </Pasta>
 
-<Edible rdf:about="#wood_ear_mushrooms">
+<Mushroom rdf:about="#wood_ear_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood ear mushrooms</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#thinly_sliced_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
