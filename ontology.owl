@@ -4391,11 +4391,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopped fresh herbs like parsley</fancyName>
 </Edible>
 
-<Edible rdf:about="#lobsters">
+<Crustaceans rdf:about="#lobsters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_lobster"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobsters</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#herbs_like_thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
