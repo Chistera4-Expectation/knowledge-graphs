@@ -4548,11 +4548,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork spare ribs</fancyName>
 </Pork>
 
-<Edible rdf:about="#beef_back_ribs">
+<Beef rdf:about="#beef_back_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beef back ribs</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#barbecue_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
