@@ -900,6 +900,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta</fancyName>
 </Cheese>
 
+<Milk rdf:about="#whole_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#skim_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skim milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#low_fat_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-fat milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#non_dairy_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-dairy milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#lactose_free_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactose-free milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#flavored_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#fortified_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fortified milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#goat_s_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat's milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#sheep_s_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheep's milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#camel_s_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel's milk</fancyName>
+</Milk>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
