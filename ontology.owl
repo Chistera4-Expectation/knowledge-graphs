@@ -363,6 +363,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#jamaican_patties"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Sauce>
 
@@ -447,6 +448,7 @@
   <ingredientOf rdf:resource="#guava_pastry"/>
   <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
   <ingredientOf rdf:resource="#flying_fish"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -676,6 +678,7 @@
   <ingredientOf rdf:resource="#breakfast_bacon"/>
   <ingredientOf rdf:resource="#doubles"/>
   <ingredientOf rdf:resource="#flying_fish"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
@@ -1249,6 +1252,7 @@
 <Crustaceans rdf:about="#shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shrimp</fancyName>
 </Crustaceans>
 
@@ -1274,11 +1278,13 @@
 
 <Fish rdf:about="#salmon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon</fancyName>
 </Fish>
 
 <Fish rdf:about="#tuna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuna</fancyName>
 </Fish>
 
@@ -1351,6 +1357,7 @@
 
 <Molluscs rdf:about="#octopus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octopus</fancyName>
 </Molluscs>
 
@@ -1952,6 +1959,7 @@
 <Oil rdf:about="#sesame_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2069,6 +2077,7 @@
 <Vegetable rdf:about="#cucumber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -2104,6 +2113,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepper_pot_soup"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Vegetal>
 
@@ -2134,6 +2144,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#doubles"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Vegetal>
 
@@ -2191,6 +2202,7 @@
 <Vegetal rdf:about="#mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
 </Vegetal>
 
@@ -3481,6 +3493,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
   <ingredientOf rdf:resource="#pigeon_peas_and_rice"/>
+  <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Edible>
 
@@ -4299,6 +4312,48 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#yellowtail">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellowtail</fancyName>
+</Edible>
+
+<Edible rdf:about="#eel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eel</fancyName>
+</Edible>
+
+<Edible rdf:about="#radishes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radishes</fancyName>
+</Edible>
+
+<Edible rdf:about="#sprouts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprouts</fancyName>
+</Edible>
+
+<Edible rdf:about="#wasabi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
+</Edible>
+
+<Edible rdf:about="#pickled_ginger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
