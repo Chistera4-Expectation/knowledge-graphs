@@ -3581,11 +3581,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocoa powder</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#dark_chocolate_shavings">
+<Vegetable rdf:about="#dark_chocolate_shavings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark chocolate shavings</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
