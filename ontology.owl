@@ -414,6 +414,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1057,6 +1058,7 @@
 <Dairy rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Drink"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1069,6 +1071,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
@@ -1081,6 +1084,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -2844,6 +2848,7 @@
 <Edible rdf:about="#pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
 </Edible>
 
@@ -2873,6 +2878,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#groundnut_soup"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -2923,6 +2929,7 @@
 <Edible rdf:about="#optional">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Edible>
 
@@ -3007,6 +3014,7 @@
 <Edible rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
