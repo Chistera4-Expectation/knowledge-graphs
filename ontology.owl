@@ -773,6 +773,91 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salami</fancyName>
 </Pork>
 
+<Poultry rdf:about="#chicken_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#grilled_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled chicken</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#rotisserie_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rotisserie chicken</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#roasted_turkey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted turkey</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey slices</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken salad</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#vegetable_skewers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable skewers</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_chili">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey chili</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken curry</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_tacos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken tacos</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#fried_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried chicken</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_pot_pie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pot pie</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_caesar_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Caesar salad</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_parmesan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken parmesan</fancyName>
+</Poultry>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
