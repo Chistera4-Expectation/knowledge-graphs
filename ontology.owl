@@ -3396,6 +3396,12 @@
 <Vegetable rdf:about="#potato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#plantain"/>
+  <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potato</fancyName>
 </Vegetable>
 
@@ -3602,17 +3608,6 @@
   <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet potatoes</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweet potatoes</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#potatoes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <ingredientOf rdf:resource="#new_england_clam_bake"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#plantain"/>
-  <ingredientOf rdf:resource="#aloo_gobi"/>
-  <ingredientOf rdf:resource="#samosa"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#corn">
