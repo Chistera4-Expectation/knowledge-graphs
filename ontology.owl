@@ -3275,6 +3275,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#shrimp_and_grits"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
 
@@ -5923,12 +5924,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn on the cob</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#sweet_peppers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#new_england_clam_bake"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet peppers</fancyName>
 </Vegetable>
 
 <Bread rdf:about="#hot_dog_rolls">
