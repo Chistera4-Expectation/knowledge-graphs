@@ -3769,13 +3769,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-sodium chicken broth</fancyName>
 </Poultry>
 
-<Edible rdf:about="#heavy_cream">
+<Oil rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_marsala"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#fresh_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
