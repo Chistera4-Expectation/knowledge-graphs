@@ -5305,11 +5305,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark soy sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#cornstarch_slurry">
+<Sauce rdf:about="#cornstarch_slurry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch slurry</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#cooked_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
