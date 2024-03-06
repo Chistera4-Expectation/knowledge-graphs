@@ -1706,10 +1706,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scorpions</fancyName>
 </Insect>
 
-<Insect rdf:about="#beetles">
+<Honey rdf:about="#beetles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beetles</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#cicadas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
