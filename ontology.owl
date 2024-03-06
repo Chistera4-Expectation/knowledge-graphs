@@ -590,6 +590,7 @@
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#crossing_bridge_rice_noodle_soup"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -677,6 +678,7 @@
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Spice>
 
@@ -955,6 +957,7 @@
 <Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
 </Poultry>
 
@@ -1859,6 +1862,7 @@
 
 <Rice rdf:about="#jasmine_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine rice</fancyName>
 </Rice>
 
@@ -2164,6 +2168,7 @@
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#crossing_bridge_rice_noodle_soup"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2632,6 +2637,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Food>
 
@@ -4299,6 +4305,7 @@
   <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
   <ingredientOf rdf:resource="#crossing_bridge_rice_noodle_soup"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy sauce</fancyName>
 </Edible>
@@ -4688,6 +4695,7 @@
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -4860,6 +4868,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -4974,6 +4983,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#cantonese_roast_duck"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Edible>
 
@@ -5034,12 +5044,14 @@
 <Edible rdf:about="#dried_scallops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried scallops</fancyName>
 </Edible>
 
 <Edible rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
 </Edible>
 
@@ -5201,6 +5213,7 @@
 <Edible rdf:about="#white_pepper_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White pepper powder</fancyName>
 </Edible>
 
@@ -5268,6 +5281,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#crossing_bridge_rice_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
+</Edible>
+
+<Edible rdf:about="#thigh_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thigh meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#chinese_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese sausage</fancyName>
+</Edible>
+
+<Edible rdf:about="#shiitake_mushrooms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake mushrooms</fancyName>
+</Edible>
+
+<Edible rdf:about="#salted_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yuanyang_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salted fish</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
