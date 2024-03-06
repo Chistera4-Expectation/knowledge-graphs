@@ -424,6 +424,7 @@
   <ingredientOf rdf:resource="#meatball_sub"/>
   <ingredientOf rdf:resource="#tuna_salad"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -444,6 +445,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#meatball_sub"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -1615,6 +1617,7 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3504,6 +3507,7 @@
 <Edible rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Edible>
 
@@ -3555,6 +3559,7 @@
 <Edible rdf:about="#fresh_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_marsala"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Edible>
 
@@ -3687,6 +3692,7 @@
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <ingredientOf rdf:resource="#tuna_salad"/>
   <ingredientOf rdf:resource="#po_boy_sandwich"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
 </Edible>
 
@@ -3917,6 +3923,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#southern_fried_catfish"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -4243,6 +4250,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Edible>
 
@@ -4463,6 +4471,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
+</Edible>
+
+<Edible rdf:about="#lump_crab_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lump crab meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#dijon_mustard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dijon mustard</fancyName>
+</Edible>
+
+<Edible rdf:about="#old_bay_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Bay seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#butter_for_cooking">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#crab_cakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">butter for cooking</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
