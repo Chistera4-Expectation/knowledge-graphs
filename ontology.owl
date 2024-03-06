@@ -3484,6 +3484,16 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#eggplant_parmesan"/>
+  <ingredientOf rdf:resource="#albondigas_soup"/>
+  <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
+  <ingredientOf rdf:resource="#oxtail_stew"/>
+  <ingredientOf rdf:resource="#festival"/>
+  <ingredientOf rdf:resource="#mango_chutney"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -5066,22 +5076,6 @@
   <ingredientOf rdf:resource="#eggplant_parmesan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
 </Oil>
-
-<Vegetable rdf:about="#garlic_cloves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <ingredientOf rdf:resource="#polenta"/>
-  <ingredientOf rdf:resource="#eggplant_parmesan"/>
-  <ingredientOf rdf:resource="#albondigas_soup"/>
-  <ingredientOf rdf:resource="#chicken_and_groundnut_stew"/>
-  <ingredientOf rdf:resource="#oxtail_stew"/>
-  <ingredientOf rdf:resource="#festival"/>
-  <ingredientOf rdf:resource="#mango_chutney"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <ingredientOf rdf:resource="#stir_fried_green_beans_with_minced_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Cloves</fancyName>
-</Vegetable>
 
 <Sweetener rdf:about="#granulated_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
