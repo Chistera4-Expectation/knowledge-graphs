@@ -4106,11 +4106,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#graham_cracker_crust">
+<Bread rdf:about="#graham_cracker_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crust</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#freshly_squeezed_key_lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
