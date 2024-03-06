@@ -871,13 +871,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavor enhancers</fancyName>
 </Sauce>
 
-<Additive rdf:about="#preservatives">
+<Sauce rdf:about="#preservatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
   <ingredientOf rdf:resource="#baked_beans"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
-</Additive>
+</Sauce>
 
 <Beef rdf:about="#sirloin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
