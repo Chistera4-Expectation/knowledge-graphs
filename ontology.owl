@@ -437,6 +437,7 @@
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#chirashi_sushi"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -463,6 +464,7 @@
   <ingredientOf rdf:resource="#patties"/>
   <ingredientOf rdf:resource="#curry_rice"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -1684,6 +1686,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2151,6 +2154,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
@@ -2498,6 +2502,7 @@
   <ingredientOf rdf:resource="#hot_pot"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -4281,6 +4286,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#dan_dan_noodles"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -4648,6 +4654,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#hot_pot"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Edible>
 
@@ -5192,6 +5199,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch slurry</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooked_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooked_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#yangzhou_fried_rice"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked meat</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
