@@ -3409,13 +3409,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipping cream</fancyName>
 </Dairy>
 
-<Edible rdf:about="#egg_yolks">
+<Dairy rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolks</fancyName>
-</Edible>
+</Dairy>
 
 <Edible rdf:about="#cocoa_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
