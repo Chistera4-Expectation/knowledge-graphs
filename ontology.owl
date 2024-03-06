@@ -1297,7 +1297,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
 </Milk>
 
-<Dairy rdf:about="#cheese">
+<Cheese rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#hamburgers"/>
@@ -1307,7 +1307,7 @@
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
   <ingredientOf rdf:resource="#doubles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#ice_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
