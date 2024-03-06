@@ -3810,12 +3810,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock cubes</fancyName>
 </Seasoning>
 
-<Seasoning rdf:about="#bouillon_cubes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bouillon cubes</fancyName>
-</Seasoning>
-
 <Vegetable rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
