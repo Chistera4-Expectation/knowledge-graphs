@@ -3941,7 +3941,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buttermilk</fancyName>
 </Milk>
 
-<Edible rdf:about="#bread">
+<Bread rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburgers"/>
   <ingredientOf rdf:resource="#hot_dogs"/>
@@ -3950,7 +3950,7 @@
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
   <ingredientOf rdf:resource="#callaloo_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
