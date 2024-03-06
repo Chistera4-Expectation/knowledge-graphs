@@ -359,6 +359,7 @@
 
 <Sauce rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Sauce>
 
@@ -420,6 +421,7 @@
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#baked_beans"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -439,6 +441,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
 
@@ -446,6 +449,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion powder</fancyName>
 </Seasoning>
 
@@ -458,6 +462,7 @@
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -467,6 +472,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#plantain_soup"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -474,6 +480,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#tibs"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Seasoning>
 
@@ -516,17 +523,20 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#plantain_soup"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#rosemary">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosemary</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#sage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sage</fancyName>
 </Seasoning>
 
@@ -861,6 +871,7 @@
 
 <Meat rdf:about="#turkey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</fancyName>
 </Meat>
 
@@ -1105,6 +1116,7 @@
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <ingredientOf rdf:resource="#lobster_rolls"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1785,6 +1797,7 @@
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#plantain_soup"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
 
@@ -2916,6 +2929,7 @@
   <ingredientOf rdf:resource="#lobster_rolls"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -2931,6 +2945,7 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <ingredientOf rdf:resource="#lobster_rolls"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Edible>
 
@@ -2949,6 +2964,7 @@
 <Edible rdf:about="#white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
 </Edible>
 
@@ -3054,6 +3070,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3345,7 +3362,9 @@
 <Edible rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
 </Edible>
 
 <Edible rdf:about="#chopped_fresh_cilantro">
@@ -3522,6 +3541,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#baked_beans"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
 </Edible>
 
@@ -3529,6 +3549,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Edible>
 
@@ -3571,6 +3592,7 @@
 <Edible rdf:about="#lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lobster_rolls"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Edible>
 
@@ -3678,6 +3700,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peanut_butter_and_jelly_sandwiches"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other spices for extra flavor</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_sage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh sage</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_thyme">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh thyme</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
