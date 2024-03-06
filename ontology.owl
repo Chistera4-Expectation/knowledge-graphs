@@ -5365,11 +5365,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#thigh_meat">
+<Poultry rdf:about="#thigh_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#yuanyang_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thigh meat</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#chinese_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
