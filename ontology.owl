@@ -3306,6 +3306,8 @@
   <ingredientOf rdf:resource="#poke_bowls"/>
   <ingredientOf rdf:resource="#bento_boxes"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#gazpacho"/>
+  <ingredientOf rdf:resource="#plantain"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -3598,13 +3600,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#cucumbers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#gazpacho"/>
-  <ingredientOf rdf:resource="#plantain"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#beets">
