@@ -4440,6 +4440,14 @@
 
 <Juice rdf:about="#juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guacamole"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#festival"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#soba_noodle_salad"/>
+  <ingredientOf rdf:resource="#tofu_dishes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice</fancyName>
 </Juice>
 
@@ -5175,21 +5183,6 @@
   <ingredientOf rdf:resource="#hainanese_chicken_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Spice>
-
-<Juice rdf:about="#lime_juice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#guacamole"/>
-  <ingredientOf rdf:resource="#quesadillas"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <ingredientOf rdf:resource="#festival"/>
-  <ingredientOf rdf:resource="#teriyaki"/>
-  <ingredientOf rdf:resource="#soba_noodle_salad"/>
-  <ingredientOf rdf:resource="#tofu_dishes"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime juice</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime Juice</fancyName>
-</Juice>
 
 <Vegetable rdf:about="#jalapeno_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
