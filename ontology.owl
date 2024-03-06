@@ -426,6 +426,7 @@
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
   <ingredientOf rdf:resource="#breakfast_bacon"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -766,6 +767,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pasta_carbonara"/>
   <ingredientOf rdf:resource="#hamburgers"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
 </Pork>
 
@@ -1136,12 +1138,14 @@
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
 <Dairy rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
 </Dairy>
 
@@ -1245,6 +1249,7 @@
 <Molluscs rdf:about="#clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
 </Molluscs>
 
@@ -2050,6 +2055,7 @@
   <ingredientOf rdf:resource="#tibs"/>
   <ingredientOf rdf:resource="#hamburgers"/>
   <ingredientOf rdf:resource="#lobster_rolls"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetal>
 
@@ -2069,6 +2075,7 @@
   <ingredientOf rdf:resource="#plantain_soup"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetal>
 
@@ -2153,6 +2160,7 @@
 
 <Alcoholic rdf:about="#beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beer</fancyName>
 </Alcoholic>
 
@@ -2464,6 +2472,7 @@
   <ingredientOf rdf:resource="#plantain_soup"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#baked_beans"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2952,6 +2961,7 @@
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwiches"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -2968,6 +2978,7 @@
   <ingredientOf rdf:resource="#scaloppine_al_marsala"/>
   <ingredientOf rdf:resource="#lobster_rolls"/>
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Edible>
 
@@ -2987,6 +2998,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
 </Edible>
 
@@ -3096,6 +3108,7 @@
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3477,6 +3490,7 @@
 <Edible rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -3582,6 +3596,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#turkey_at_thanksgiving"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Edible>
 
@@ -3650,6 +3665,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#pumpkin_pie"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Edible>
 
@@ -3798,6 +3814,42 @@
 <Edible rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
+</Edible>
+
+<Edible rdf:about="#lemons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemons</fancyName>
+</Edible>
+
+<Edible rdf:about="#dijon_mustard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dijon mustard</fancyName>
+</Edible>
+
+<Edible rdf:about="#old_bay_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Bay seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_dill">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh dill</fancyName>
+</Edible>
+
+<Edible rdf:about="#saltine_crackers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saltine crackers</fancyName>
+</Edible>
+
+<Edible rdf:about="#salt_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#new_england_clam_bake"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salt pork</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
