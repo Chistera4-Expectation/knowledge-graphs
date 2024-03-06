@@ -4251,14 +4251,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoke flavor</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#baking_powder">
+<Food rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_style_biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
-</Edible>
+</Food>
 
 <Edible rdf:about="#pan_drippings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
