@@ -4520,12 +4520,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
 </Pork>
 
-<Edible rdf:about="#finely_chopped_cabbage">
+<Vegetable rdf:about="#finely_chopped_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_dumplings"/>
   <ingredientOf rdf:resource="#dumplings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finely chopped cabbage</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#finely_chopped_scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
