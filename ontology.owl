@@ -2688,20 +2688,14 @@
 <Rice rdf:about="#sushi_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#poke_bowls"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
 </Rice>
 
 <Rice rdf:about="#black_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black rice</fancyName>
-</Rice>
-
-<Rice rdf:about="#long_grain_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long-grain rice</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Grain Rice</fancyName>
 </Rice>
 
 <Rice rdf:about="#short_grain_rice">
