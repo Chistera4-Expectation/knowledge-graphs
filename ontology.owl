@@ -1359,10 +1359,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#whey_protein_powder">
+<Milk rdf:about="#whey_protein_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whey protein powder</fancyName>
-</Dairy>
+</Milk>
 
 <Crustaceans rdf:about="#shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
