@@ -4690,11 +4690,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced hard-boiled egg</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#bread_for_serving">
+<Bread rdf:about="#bread_for_serving">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bread for serving</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#chicken_wings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
