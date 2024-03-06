@@ -1657,10 +1657,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jell-O</fancyName>
 </Dairy>
 
-<Animal rdf:about="#candy_made">
+<Honey rdf:about="#candy_made">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candy made</fancyName>
-</Animal>
+</Honey>
 
 <Animal rdf:about="#animal_derived_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
