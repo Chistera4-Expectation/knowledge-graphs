@@ -1668,6 +1668,7 @@
 
 <Carribean rdf:about="#curry_goat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Indian"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Goat</fancyName>
 </Carribean>
 
@@ -1865,6 +1866,41 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Blossom Tea</fancyName>
 </Chinese>
+
+<Indian rdf:about="#butter_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter Chicken</fancyName>
+</Indian>
+
+<Indian rdf:about="#tandoori_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tandoori Chicken</fancyName>
+</Indian>
+
+<Indian rdf:about="#biryani">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biryani</fancyName>
+</Indian>
+
+<Indian rdf:about="#samudra_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samudra Soup</fancyName>
+</Indian>
+
+<Indian rdf:about="#kebabs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kebabs</fancyName>
+</Indian>
+
+<Indian rdf:about="#samosas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samosas</fancyName>
+</Indian>
+
+<Indian rdf:about="#raita">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raita</fancyName>
+</Indian>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
