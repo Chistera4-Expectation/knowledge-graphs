@@ -1076,10 +1076,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">**Crickets:** Crick</fancyName>
 </Honey>
 
-<Insect rdf:about="#__grasshoppers____grass">
+<Honey rdf:about="#__grasshoppers____grass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">**Grasshoppers:** Grass</fancyName>
-</Insect>
+</Honey>
 
 <Animal rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
