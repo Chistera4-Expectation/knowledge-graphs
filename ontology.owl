@@ -2984,12 +2984,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#poultry_seasoning">
+<Poultry rdf:about="#poultry_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poultry seasoning</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
