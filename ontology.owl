@@ -2341,10 +2341,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bananas</fancyName>
 </Fruit>
 
-<Vegetal rdf:about="#blueberries">
+<Fruit rdf:about="#blueberries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueberries</fancyName>
-</Vegetal>
+</Fruit>
 
 <Food rdf:about="#creating_instances_for_a_class_named__food__essentially_involves_defining_specific_food_items_based_on_that_class">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
