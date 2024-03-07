@@ -1558,7 +1558,9 @@
 
 <Bread rdf:about="#rye_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye Bread</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye bread</fancyName>
 </Bread>
 
 <Bread rdf:about="#whole_wheat_bread">
@@ -4051,6 +4053,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croutons</fancyName>
+</Edible>
+
+<Edible rdf:about="#corned_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef</fancyName>
+</Edible>
+
+<Edible rdf:about="#swiss_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#sauerkraut">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauerkraut</fancyName>
+</Edible>
+
+<Edible rdf:about="#russian_dressing">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian dressing</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

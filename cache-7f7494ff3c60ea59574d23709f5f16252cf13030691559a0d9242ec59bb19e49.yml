@@ -1,0 +1,26 @@
+# Cache for query: ingredient list for Reuben Sandwich, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Rye bread
+
+      2. Corned beef
+
+      3. Swiss cheese
+
+      4. Sauerkraut
+
+      5. Russian dressing'
+    role: assistant
+created: 1709799990
+id: chatcmpl-903N8etiBfoNxgX2wzeFiNWaYB2KQ
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 28
+  prompt_tokens: 26
+  total_tokens: 54
