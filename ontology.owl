@@ -296,6 +296,7 @@
   <rdf:type rdf:resource="#Oil"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Dressing>
 
@@ -358,6 +359,7 @@
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -370,6 +372,7 @@
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -629,6 +632,7 @@
 
 <Meat rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1110,6 +1114,8 @@
 
 <Vegetable rdf:about="#peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#pumpkin">
@@ -1127,6 +1133,7 @@
 
 <Vegetal rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -1163,6 +1170,7 @@
 <Food rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Food>
 
@@ -2062,6 +2070,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2128,7 +2137,14 @@
 <Edible rdf:about="#lemon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon</fancyName>
+</Edible>
+
+<Edible rdf:about="#seafood">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
