@@ -501,6 +501,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek</fancyName>
 </Spice>
 
+<Sweetener rdf:about="#sucrose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sucrose</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#fructose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fructose</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#glucose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
+</Sweetener>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
