@@ -1,0 +1,36 @@
+# Cache for query: ingredient list for Saltfish Fritters, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Saltfish (salted cod)
+
+      2. All-purpose flour
+
+      3. Baking powder
+
+      4. Water
+
+      5. Eggs
+
+      6. Scallions (green onions)
+
+      7. Fresh thyme
+
+      8. Scotch bonnet pepper (optional)
+
+      9. Black pepper
+
+      10. Vegetable oil (for frying)'
+    role: assistant
+created: 1709800066
+id: chatcmpl-903OMduTs2aK4JnpqCrlhtdrBwF08
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 66
+  prompt_tokens: 28
+  total_tokens: 94
