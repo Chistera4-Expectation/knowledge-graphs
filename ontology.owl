@@ -6266,10 +6266,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauerkraut</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#jalapenos">
+<Vegetable rdf:about="#jalapenos">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#macaroni_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
