@@ -3841,7 +3841,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#rice_vinegar">
+<Rice rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#bonsai"/>
@@ -3850,7 +3850,7 @@
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#sushi_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
