@@ -6692,14 +6692,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Kidney Beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#scotch_bonnet_pepper">
+<Spice rdf:about="#scotch_bonnet_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fresh_thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
