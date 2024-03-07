@@ -1626,10 +1626,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat Cheese</fancyName>
 </Cheese>
 
-<Animal rdf:about="#gelatin">
+<Pork rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
-</Animal>
+</Pork>
 
 <Breakfast rdf:about="#cheerios">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
