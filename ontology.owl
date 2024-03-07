@@ -5818,7 +5818,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional ingredients</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#vinegar">
+<Seasoning rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
@@ -5826,7 +5826,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#red_chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
