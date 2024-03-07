@@ -4543,11 +4543,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted Chicken Breast</fancyName>
 </Poultry>
 
-<Edible rdf:about="#hard_boiled_egg">
+<Poultry rdf:about="#hard_boiled_egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard-boiled Egg</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#roquefort_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
