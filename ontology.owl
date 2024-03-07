@@ -3213,12 +3213,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#fennel_seeds">
+<Seed rdf:about="#fennel_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#clove">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
