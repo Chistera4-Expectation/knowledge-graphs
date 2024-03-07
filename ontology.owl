@@ -351,9 +351,9 @@
 
 <Dressing rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Dairy"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <rdf:type rdf:resource="#Yogurt"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
 </Dressing>
 
