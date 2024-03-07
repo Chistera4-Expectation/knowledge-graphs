@@ -6872,11 +6872,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grated daikon radish</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#grated_ginger">
+<Seasoning rdf:about="#grated_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grated ginger</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#tempura_dipping_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
