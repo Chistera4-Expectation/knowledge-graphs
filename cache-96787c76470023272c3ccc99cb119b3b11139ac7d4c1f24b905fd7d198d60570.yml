@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for Ma Po Tofu, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Tofu
+
+      2. Ground pork (or beef)
+
+      3. Sichuan peppercorns
+
+      4. Garlic
+
+      5. Ginger
+
+      6. Green onions (scallions)
+
+      7. Chili bean paste (Doubanjiang)
+
+      8. Soy sauce
+
+      9. Fermented black beans (Douchi)
+
+      10. Chicken stock or water
+
+      11. Cornstarch (for slurry)
+
+      12. Vegetable oil or peanut oil
+
+      13. Sesame oil
+
+      14.'
+    role: assistant
+created: 1709800176
+id: chatcmpl-903Q8pikbL4iHqF5hgLMDIIUW4VJ2
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 100
+  prompt_tokens: 28
+  total_tokens: 128
