@@ -4079,10 +4079,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuts</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#seeds">
+<Seed rdf:about="#seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seeds</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#whole_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
