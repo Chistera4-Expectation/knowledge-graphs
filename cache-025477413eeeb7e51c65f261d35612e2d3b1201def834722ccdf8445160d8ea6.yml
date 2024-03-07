@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Creating instances for a class named `Food` essentially involves defining specific food items based on that class' among: 'Animal-derived Food', 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Dairy Product', 'Edible Cereal', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Additive', 'Food Dressing', 'Food Seasoning', 'Food', 'Honey', 'Insect-Derived Food', 'Meat', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Seafood', 'Spice', 'Sweetener', 'Vegetal-derived Food', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Food'''
+    role: assistant
+created: 1709800347
+id: chatcmpl-903Sto5Oeho7yeykgOhcpoiC1BdoW
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 3
+  prompt_tokens: 226
+  total_tokens: 229
