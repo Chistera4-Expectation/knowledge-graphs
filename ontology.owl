@@ -7001,12 +7001,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed salad</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#pickled_vegetables">
+<Vegetable rdf:about="#pickled_vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled vegetables</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fruit_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
