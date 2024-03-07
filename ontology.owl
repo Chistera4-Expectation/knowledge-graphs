@@ -4248,11 +4248,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melted butter</fancyName>
 </Butter>
 
-<Edible rdf:about="#macaroni_pasta">
+<Pasta rdf:about="#macaroni_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni pasta</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#cheddar_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
