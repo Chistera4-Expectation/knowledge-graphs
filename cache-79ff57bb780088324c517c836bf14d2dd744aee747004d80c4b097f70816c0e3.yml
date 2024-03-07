@@ -1,0 +1,56 @@
+# Cache for query: ingredient list for Lasagna, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Lasagna noodles
+
+      2. Ground beef
+
+      3. Italian sausage
+
+      4. Onion
+
+      5. Garlic
+
+      6. Tomato sauce
+
+      7. Tomato paste
+
+      8. Diced tomatoes
+
+      9. Sugar
+
+      10. Water
+
+      11. Basil leaves
+
+      12. Fennel seeds
+
+      13. Italian seasoning
+
+      14. Salt
+
+      15. Pepper
+
+      16. Fresh parsley
+
+      17. Ricotta cheese
+
+      18. Egg
+
+      19. Mozzarella cheese
+
+      20. Parmesan cheese'
+    role: assistant
+created: 1709799828
+id: chatcmpl-903KWnxPL1bwdY77PSpFBCNEEeQxi
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 99
+  prompt_tokens: 25
+  total_tokens: 124
