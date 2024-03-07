@@ -6612,11 +6612,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#optional__rum">
+<Alcoholic rdf:about="#optional__rum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Rum</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#jamaican_red_stripe_beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
