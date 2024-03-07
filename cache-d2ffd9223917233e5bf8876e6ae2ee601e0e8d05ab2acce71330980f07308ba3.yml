@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Enchiladas, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '- Corn tortillas
+
+      - Chicken (cooked and shredded) or preferred protein (beans, beef, etc.)
+
+      - Enchilada sauce
+
+      - Cheese (cheddar, Monterrey Jack, etc.)
+
+      - Onion
+
+      - Garlic
+
+      - Cilantro
+
+      - Cumin (optional)
+
+      - Chili powder (optional)
+
+      - Salt
+
+      - Pepper
+
+      - Oil (for frying tortillas, optional)
+
+      - Sour cream (for serving, optional)
+
+      - Avocado (for serving, optional)
+
+      - Lime'
+    role: assistant
+created: 1709799874
+id: chatcmpl-903LGfgODXpiB1lNp88nIwsB50qRx
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
