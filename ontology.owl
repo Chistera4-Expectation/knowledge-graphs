@@ -2801,11 +2801,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">`flavor_notes`: A list</fancyName>
 </Coffee>
 
-<Coffee rdf:about="#array_of_flavor_notes_associated">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">array of flavor notes associated</fancyName>
-</Coffee>
-
 <Coffee rdf:about="#the_coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the coffee</fancyName>
