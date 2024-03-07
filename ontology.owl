@@ -3990,11 +3990,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#gluten_free_soy_sauce">
+<Sauce rdf:about="#gluten_free_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluten-free soy sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#ground_cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
