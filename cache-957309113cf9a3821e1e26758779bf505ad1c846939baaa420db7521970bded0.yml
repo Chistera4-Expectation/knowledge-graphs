@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Avocado' among: 'Bread', 'Breakfast Cereal', 'Edible Fruit', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Pasta Types', 'Rice'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Edible Fruit'''
+    role: assistant
+created: 1709800339
+id: chatcmpl-903SlBcGViA82zytxXNf35T3eI8s0
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 5
+  prompt_tokens: 82
+  total_tokens: 87
