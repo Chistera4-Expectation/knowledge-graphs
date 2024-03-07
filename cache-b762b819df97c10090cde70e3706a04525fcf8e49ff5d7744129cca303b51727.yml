@@ -1,0 +1,46 @@
+# Cache for query: instances list for class Pork-derived Food, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Bacon
+
+      2. Pork Chops
+
+      3. Ham
+
+      4. Sausage
+
+      5. Pork Belly
+
+      6. Pork Ribs
+
+      7. Pork Tenderloin
+
+      8. Prosciutto
+
+      9. Salami
+
+      10. Chorizo
+
+      11. Pulled Pork
+
+      12. Pork Loin Roast
+
+      13. Pepperoni
+
+      14. Pancetta
+
+      15. Pork Shoulder'
+    role: assistant
+created: 1709799562
+id: chatcmpl-903GEU0wO1rELKQrBwbzSioEDw1ku
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 83
+  prompt_tokens: 27
+  total_tokens: 110
