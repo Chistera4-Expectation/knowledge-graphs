@@ -2797,6 +2797,8 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Fruit>
 
@@ -3440,14 +3442,6 @@
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
 </Seasoning>
-
-<Fruit rdf:about="#pickled_ginger">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sushi"/>
-  <ingredientOf rdf:resource="#sashimi"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled Ginger</fancyName>
-</Fruit>
 
 <Crustaceans rdf:about="#squid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
