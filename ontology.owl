@@ -310,6 +310,7 @@
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -380,6 +381,7 @@
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
 </Dressing>
@@ -405,6 +407,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
 </Dressing>
@@ -478,6 +481,7 @@
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -2371,6 +2375,7 @@
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
   <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2439,6 +2444,7 @@
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -2483,6 +2489,7 @@
   <ingredientOf rdf:resource="#red_curry"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2973,6 +2980,7 @@
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
 </Edible>
 
@@ -4007,6 +4015,54 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#orange_blossom_tea"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange blossom extract</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken drumsticks</fancyName>
+</Edible>
+
+<Edible rdf:about="#tandoori_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tandoori powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#ginger_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#cumin_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#coriander_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_chilli_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chilli powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#dried_mint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried mint</fancyName>
+</Edible>
+
+<Edible rdf:about="#fenugreek_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
