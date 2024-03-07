@@ -2950,6 +2950,7 @@
   <ingredientOf rdf:resource="#naija_stew"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <ingredientOf rdf:resource="#taco_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Seasoning>
 
@@ -3508,12 +3509,6 @@
   <ingredientOf rdf:resource="#taco_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
 </Vegetable>
-
-<Seasoning rdf:about="#taco_seasoning">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#taco_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taco seasoning</fancyName>
-</Seasoning>
 
 <Poultry rdf:about="#chicken_legs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
