@@ -6066,11 +6066,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#bouillon_powder">
+<Seasoning rdf:about="#bouillon_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
