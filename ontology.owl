@@ -3984,11 +3984,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered paprika</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#black_beans">
+<Vegetable rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#gluten_free_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
