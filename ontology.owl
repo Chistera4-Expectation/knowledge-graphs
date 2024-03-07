@@ -3062,11 +3062,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teff flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#berbere_spice_blend">
+<Spice rdf:about="#berbere_spice_blend">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berbere spice blend</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#shiro_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
