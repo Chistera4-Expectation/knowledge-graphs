@@ -5484,11 +5484,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Basil</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#balsamic_vinegar">
+<Seasoning rdf:about="#balsamic_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic Vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#arugula">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
