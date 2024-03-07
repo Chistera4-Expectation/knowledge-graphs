@@ -1,0 +1,48 @@
+# Cache for query: instances list for class Tea, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Here''s a list of hypothetical names for instances of a class named
+      "Tea" which could represent different types of tea:
+
+
+      1. EarlGrey
+
+      2. Chamomile
+
+      3. Matcha
+
+      4. Chai
+
+      5. EnglishBreakfast
+
+      6. Oolong
+
+      7. GreenTea
+
+      8. Peppermint
+
+      9. Jasmine
+
+      10. Rooibos
+
+      11. Darjeeling
+
+      12. Sencha
+
+      13. WhiteTea
+
+      14. Hib'
+    role: assistant
+created: 1709799720
+id: chatcmpl-903ImkrLo4dV4jJNZHpAE1oIgkoik
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125

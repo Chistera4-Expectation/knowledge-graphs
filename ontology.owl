@@ -2150,6 +2150,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flat White</fancyName>
 </Coffee>
 
+<Tea rdf:about="#chamomile">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chamomile</fancyName>
+</Tea>
+
+<Tea rdf:about="#oolong">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oolong</fancyName>
+</Tea>
+
+<Tea rdf:about="#peppermint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppermint</fancyName>
+</Tea>
+
+<Tea rdf:about="#jasmine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine</fancyName>
+</Tea>
+
+<Tea rdf:about="#rooibos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rooibos</fancyName>
+</Tea>
+
+<Tea rdf:about="#darjeeling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darjeeling</fancyName>
+</Tea>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
