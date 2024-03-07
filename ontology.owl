@@ -328,6 +328,7 @@
 
 <Dressing rdf:about="#mayo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayo</fancyName>
 </Dressing>
 
@@ -3471,12 +3472,6 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketchup</fancyName>
 </Sauce>
-
-<Dressing rdf:about="#mayonnaise">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#hot_dog"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
-</Dressing>
 
 <Vegetable rdf:about="#egg_whites">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
