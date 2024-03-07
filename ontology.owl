@@ -4276,11 +4276,11 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
 </Oil>
 
-<Edible rdf:about="#burger_bun">
+<Bread rdf:about="#burger_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burger bun</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
