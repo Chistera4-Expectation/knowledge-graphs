@@ -6244,10 +6244,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
 </Dressing>
 
-<Edible rdf:about="#bun">
+<Bread rdf:about="#bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#relish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
