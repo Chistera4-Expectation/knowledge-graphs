@@ -3582,11 +3582,11 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
 </Edible>
 
-<Edible rdf:about="#cumin_powder">
+<Seasoning rdf:about="#cumin_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#jamaican_allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
