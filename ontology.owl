@@ -6320,11 +6320,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frozen peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#salt_pork">
+<Pork rdf:about="#salt_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salt pork</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#oyster_crackers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
