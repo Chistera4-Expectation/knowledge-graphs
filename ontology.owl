@@ -3966,11 +3966,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szechuan pepper</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#rice_wine_vinegar">
+<Rice rdf:about="#rice_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine vinegar</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#green_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
