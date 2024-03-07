@@ -1102,11 +1102,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey - Like chicken, turkey can come in many forms</fancyName>
 </Poultry>
 
-<Poultry rdf:about="#turkey">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey</fancyName>
-</Poultry>
-
 <Meat rdf:about="#lamb">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
