@@ -3756,11 +3756,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Custard</fancyName>
 </Edible>
 
-<Edible rdf:about="#guava_fruit">
+<Fruit rdf:about="#guava_fruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava fruit</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#pectin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
