@@ -1,0 +1,22 @@
+# Cache for query: instances list for class Sauce, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: "Here is a list of instances, or examples, for a hypothetical class named\
+      \ \"Sauce.\" Note that these are names of various types of sauces commonly found\
+      \ across different cuisines globally:\n\n1. Tomato Sauce\n2. Alfredo Sauce\n\
+      3. B\xE9chamel Sauce\n4. Hollandaise Sauce\n5. Pesto Sauce\n6. Marinara Sauce\n\
+      7. Bernaise Sauce\n8. BBQ Sauce\n9. Teriyaki Sauce\n10. Tartar Sauce\n11."
+    role: assistant
+created: 1709799537
+id: chatcmpl-903FpxcTaboEePbRHUrBwbUYbzWEP
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125

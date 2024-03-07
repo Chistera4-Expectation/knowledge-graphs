@@ -333,6 +333,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian Sesame Dressing</fancyName>
 </Dressing>
 
+<Sauce rdf:about="#tomato_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#alfredo_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfredo Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#bechamel_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Béchamel Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#hollandaise_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hollandaise Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#pesto_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesto Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#marinara_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marinara Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#bernaise_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bernaise Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#bbq_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BBQ Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#teriyaki_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki Sauce</fancyName>
+</Sauce>
+
+<Sauce rdf:about="#tartar_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tartar Sauce</fancyName>
+</Sauce>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
