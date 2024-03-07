@@ -7175,11 +7175,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#optional__wood_ear_mushrooms">
+<Mushroom rdf:about="#optional__wood_ear_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Wood ear mushrooms</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#cloud_ear_fungus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
