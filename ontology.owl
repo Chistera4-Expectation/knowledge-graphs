@@ -3502,12 +3502,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#ground_pork">
+<Pork rdf:about="#ground_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
