@@ -2283,7 +2283,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#tofu">
+<Vegetable rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
@@ -2292,7 +2292,7 @@
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#soy_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
