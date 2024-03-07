@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for Clam Chowder, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Clams
+
+      2. Clam Juice or Fish Stock
+
+      3. Potatoes
+
+      4. Onion
+
+      5. Celery
+
+      6. Butter
+
+      7. Flour
+
+      8. Milk or Heavy Cream
+
+      9. Salt
+
+      10. Black Pepper
+
+      11. Bacon (optional)
+
+      12. Thyme (optional)
+
+      13. Garlic (optional)
+
+      14. Bay Leaf (optional)'
+    role: assistant
+created: 1709799956
+id: chatcmpl-903MaqWNWED5t6srkC2Q0FfZWHgtT
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 78
+  prompt_tokens: 27
+  total_tokens: 105

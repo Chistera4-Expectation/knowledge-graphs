@@ -413,6 +413,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -425,6 +426,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -463,6 +465,7 @@
 <Seasoning rdf:about="#thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -678,6 +681,7 @@
 
 <Pork rdf:about="#bacon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
 </Pork>
 
@@ -1090,6 +1094,7 @@
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1109,6 +1114,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -1343,6 +1349,7 @@
 
 <Seafood rdf:about="#clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
 </Seafood>
 
@@ -2998,6 +3005,7 @@
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -3016,6 +3024,7 @@
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3185,6 +3194,7 @@
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -3193,6 +3203,7 @@
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3201,6 +3212,7 @@
   <ingredientOf rdf:resource="#minestrone"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#harira_soup"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Edible>
 
@@ -3282,7 +3294,9 @@
 <Edible rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heavy cream</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy Cream</fancyName>
 </Edible>
 
 <Edible rdf:about="#diced_pineapple">
@@ -3846,6 +3860,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
+</Edible>
+
+<Edible rdf:about="#clam_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clam Juice</fancyName>
+</Edible>
+
+<Edible rdf:about="#fish_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Stock</fancyName>
+</Edible>
+
+<Edible rdf:about="#bay_leaf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaf</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
