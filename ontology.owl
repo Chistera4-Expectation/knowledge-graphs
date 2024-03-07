@@ -3337,11 +3337,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped cream</fancyName>
 </Cheese>
 
-<Edible rdf:about="#celery_powder">
+<Vegetable rdf:about="#celery_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery Powder</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
