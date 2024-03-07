@@ -1345,6 +1345,17 @@
 <Vegetable rdf:about="#carrot">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sorrel"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
+  <ingredientOf rdf:resource="#curry_shrimp"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot</fancyName>
 </Vegetable>
 
@@ -2764,22 +2775,6 @@
   <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Yogurt>
-
-<Vegetable rdf:about="#carrots">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#west_african_beef_stew"/>
-  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
-  <ingredientOf rdf:resource="#chicken_pot_pie"/>
-  <ingredientOf rdf:resource="#corn_chowder"/>
-  <ingredientOf rdf:resource="#pot_roast"/>
-  <ingredientOf rdf:resource="#curry_shrimp"/>
-  <ingredientOf rdf:resource="#miso_soup"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#red_curry"/>
-  <ingredientOf rdf:resource="#pad_buckwheat"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
-</Vegetable>
 
 <Fruit rdf:about="#ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
