@@ -629,6 +629,8 @@
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -7481,13 +7483,6 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green chili</fancyName>
 </Vegetable>
-
-<Spice rdf:about="#cumin_seeds">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#aloo_gobi"/>
-  <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
-</Spice>
 
 <Spice rdf:about="#asafoetida">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
