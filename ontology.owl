@@ -6854,11 +6854,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#sushi_rolling_mat">
+<Seaweed rdf:about="#sushi_rolling_mat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rolling mat</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#batter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
