@@ -1,0 +1,56 @@
+# Cache for query: instances list for class Edible Fish, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Salmon
+
+      2. Trout
+
+      3. Cod
+
+      4. Tuna
+
+      5. Sardines
+
+      6. Mackerel
+
+      7. Herring
+
+      8. Tilapia
+
+      9. Catfish
+
+      10. Halibut
+
+      11. Mahi Mahi
+
+      12. Grouper
+
+      13. Snapper
+
+      14. Swordfish
+
+      15. Bass
+
+      16. Flounder
+
+      17. Anchovies
+
+      18. Carp
+
+      19. Perch
+
+      20. Barram'
+    role: assistant
+created: 1709799619
+id: chatcmpl-903H97DRfzV8BT14W5NexWvQaHCIs
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
