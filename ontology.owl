@@ -5129,11 +5129,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef flank steak</fancyName>
 </Beef>
 
-<Edible rdf:about="#dry_sherry">
+<Alcoholic rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry sherry</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#chinese_shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
