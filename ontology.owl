@@ -4888,10 +4888,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#seafood">
+<Molluscs rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#daikon_radish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
