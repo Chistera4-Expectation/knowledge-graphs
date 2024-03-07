@@ -2358,11 +2358,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Beans</fancyName>
 </Seed>
 
-<Fruit rdf:about="#blueberries">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueberries</fancyName>
-</Fruit>
-
 <Food rdf:about="#creating_instances_for_a_class_named__food__essentially_involves_defining_specific_food_items_based_on_that_class">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creating instances for a class named `Food` essentially involves defining specific food items based on that class</fancyName>
