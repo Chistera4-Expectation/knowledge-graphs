@@ -5834,11 +5834,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili peppers</fancyName>
 </Spice>
 
-<Edible rdf:about="#flour_tortillas">
+<Bread rdf:about="#flour_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flour tortillas</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#lime">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
