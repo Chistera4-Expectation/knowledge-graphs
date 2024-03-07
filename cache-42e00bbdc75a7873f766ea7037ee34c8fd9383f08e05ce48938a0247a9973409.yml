@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Dumplings, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'Here is a basic ingredient list for making dumplings:
+
+
+      1. Flour
+
+      2. Water
+
+      3. Salt
+
+      4. Egg (optional)
+
+      5. Ground meat (pork, chicken, beef, or lamb)
+
+      6. Cabbage
+
+      7. Green onions or chives
+
+      8. Ginger
+
+      9. Garlic
+
+      10. Soy sauce
+
+      11. Sesame oil
+
+      12. Vegetable oil (for cooking)
+
+
+      Depending on the variation and cuisine, the ingredients may vary.'
+    role: assistant
+created: 1709800142
+id: chatcmpl-903PaPobrpUKks2bmenCCJrAIlkRl
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 96
+  prompt_tokens: 25
+  total_tokens: 121
