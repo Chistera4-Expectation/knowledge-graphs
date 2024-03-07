@@ -7241,11 +7241,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Feet</fancyName>
 </Poultry>
 
-<Edible rdf:about="#lotus_leaf_rice">
+<Vegetable rdf:about="#lotus_leaf_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus Leaf Rice</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#mango_pudding">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
