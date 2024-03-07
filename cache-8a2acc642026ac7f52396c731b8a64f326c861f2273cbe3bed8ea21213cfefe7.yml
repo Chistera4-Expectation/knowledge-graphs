@@ -1,0 +1,30 @@
+# Cache for query: ingredient list for Margherita Pizza, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Pizza dough
+
+      2. Tomato sauce
+
+      3. Mozzarella cheese
+
+      4. Fresh basil
+
+      5. Extra-virgin olive oil
+
+      6. Salt
+
+      7. Freshly ground black pepper'
+    role: assistant
+created: 1709799838
+id: chatcmpl-903KgWXLK8fKOuBmv30Vzfy0jytbC
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 41
+  prompt_tokens: 27
+  total_tokens: 68
