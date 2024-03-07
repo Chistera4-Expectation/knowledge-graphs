@@ -1,0 +1,56 @@
+# Cache for query: instances list for class Animal-derived Food, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Milk
+
+      2. Eggs
+
+      3. Chicken
+
+      4. Beef
+
+      5. Pork
+
+      6. Lamb
+
+      7. Turkey
+
+      8. Fish
+
+      9. Crab
+
+      10. Shrimp
+
+      11. Lobster
+
+      12. Duck
+
+      13. Bison
+
+      14. Venison
+
+      15. Goat Cheese
+
+      16. Yogurt
+
+      17. Butter
+
+      18. Gelatin
+
+      19. Honey
+
+      20. Whey Protein'
+    role: assistant
+created: 1709799642
+id: chatcmpl-903HWAFuhgd8rQlCvtQGIQM4uxZuV
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 87
+  prompt_tokens: 27
+  total_tokens: 114

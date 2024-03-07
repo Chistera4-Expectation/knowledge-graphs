@@ -518,6 +518,7 @@
 
 <Sweetener rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Animal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
@@ -1345,6 +1346,26 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffalo Worm Chocolate</fancyName>
 </Insect>
+
+<Animal rdf:about="#eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
+</Animal>
+
+<Animal rdf:about="#fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
+</Animal>
+
+<Animal rdf:about="#goat_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat Cheese</fancyName>
+</Animal>
+
+<Animal rdf:about="#gelatin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
+</Animal>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
