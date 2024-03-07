@@ -2749,11 +2749,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef stock</fancyName>
 </Beef>
 
-<Edible rdf:about="#fish_broth">
+<Fish rdf:about="#fish_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish broth</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#graham_cracker_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
