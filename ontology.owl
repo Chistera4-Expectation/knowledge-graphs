@@ -6514,11 +6514,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian dressing</fancyName>
 </Dressing>
 
-<Edible rdf:about="#thousand_island_dressing">
+<Dressing rdf:about="#thousand_island_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thousand Island dressing</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#andouille_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
