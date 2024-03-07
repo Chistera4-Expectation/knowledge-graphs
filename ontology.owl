@@ -6910,11 +6910,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#enoki_mushrooms">
+<Mushroom rdf:about="#enoki_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enoki mushrooms</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#napa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
