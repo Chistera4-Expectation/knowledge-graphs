@@ -3367,6 +3367,7 @@
 <Beef rdf:about="#hot_dog_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot dog meat</fancyName>
 </Beef>
 
@@ -3973,12 +3974,6 @@
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel</fancyName>
 </Vegetable>
-
-<Beef rdf:about="#minced_meat">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minced meat</fancyName>
-</Beef>
 
 <Water rdf:about="#rose_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
