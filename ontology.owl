@@ -5362,11 +5362,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#tamarind_paste">
+<Seasoning rdf:about="#tamarind_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamarind paste</fancyName>
-</Edible>
+</Seasoning>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
