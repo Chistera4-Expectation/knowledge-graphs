@@ -831,6 +831,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom</fancyName>
 </Seasoning>
 
@@ -7490,12 +7491,6 @@
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghee for cooking</fancyName>
 </Oil>
-
-<Spice rdf:about="#green_cardamom">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green cardamom</fancyName>
-</Spice>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
