@@ -2947,11 +2947,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
 </Fish>
 
-<Edible rdf:about="#seasoning_cubes">
+<Seasoning rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#naija_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#stock_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
