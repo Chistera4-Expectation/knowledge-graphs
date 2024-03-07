@@ -2972,11 +2972,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couscous grains</fancyName>
 </Edible>
 
-<Edible rdf:about="#vegetable_broth">
+<Vegetable rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
