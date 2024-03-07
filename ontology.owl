@@ -2590,11 +2590,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#olives">
+<Fruit rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
