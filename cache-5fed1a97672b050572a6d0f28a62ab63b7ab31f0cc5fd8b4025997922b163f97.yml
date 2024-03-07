@@ -1,0 +1,34 @@
+# Cache for query: ingredient list for Piri Piri Chicken, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken
+
+      2. Piri Piri sauce or Piri Piri seasoning
+
+      3. Garlic
+
+      4. Lemon juice
+
+      5. Olive oil
+
+      6. Salt
+
+      7. Black pepper
+
+      8. Red bell peppers (optional, for a variation)
+
+      9. Cilantro or parsley (for garnish, optional)'
+    role: assistant
+created: 1709799901
+id: chatcmpl-903LhPg3idePAktXdntjqPRuSvKO0
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 67
+  prompt_tokens: 28
+  total_tokens: 95
