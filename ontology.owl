@@ -1762,11 +1762,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazil Nuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#cashews">
+<Seed rdf:about="#cashews">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bonsai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashews</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
