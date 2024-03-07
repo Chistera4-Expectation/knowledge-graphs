@@ -1154,6 +1154,8 @@
 
 <Cheese rdf:about="#ricotta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta</fancyName>
 </Cheese>
 
@@ -3211,13 +3213,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese Filling</fancyName>
-</Cheese>
-
-<Cheese rdf:about="#ricotta_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#ravioli"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
 </Cheese>
 
 <Poultry rdf:about="#egg">
