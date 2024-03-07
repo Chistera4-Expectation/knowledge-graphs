@@ -3560,12 +3560,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#zucchini">
+<Vegetable rdf:about="#zucchini">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zucchini</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
