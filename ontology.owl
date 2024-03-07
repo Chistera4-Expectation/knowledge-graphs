@@ -5962,11 +5962,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Plantains</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fried_egg">
+<Vegetable rdf:about="#fried_egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Egg</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#red_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
