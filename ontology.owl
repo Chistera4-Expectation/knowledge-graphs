@@ -6765,11 +6765,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban bread</fancyName>
 </Bread>
 
-<Edible rdf:about="#roast_pork">
+<Pork rdf:about="#roast_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roast pork</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#yellow_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
