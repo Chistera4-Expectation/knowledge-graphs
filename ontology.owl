@@ -6977,11 +6977,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed white rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#sushi_rolls">
+<Fish rdf:about="#sushi_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rolls</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#california_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
