@@ -2906,10 +2906,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shellfish</fancyName>
 </Crustaceans>
 
-<Animal rdf:about="#dairy_products">
+<Dairy rdf:about="#dairy_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy products</fancyName>
-</Animal>
+</Dairy>
 
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
