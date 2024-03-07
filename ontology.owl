@@ -3942,11 +3942,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#tiger_s_tooth_powder">
+<Seasoning rdf:about="#tiger_s_tooth_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiger's Tooth Powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#fillings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
