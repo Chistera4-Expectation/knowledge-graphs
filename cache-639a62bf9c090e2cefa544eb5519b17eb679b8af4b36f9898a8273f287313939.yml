@@ -1,0 +1,34 @@
+# Cache for query: ingredient list for Cobb Salad, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Mixed greens (e.g., lettuce, endive, watercress)
+
+      - Tomato
+
+      - Bacon
+
+      - Grilled or Roasted Chicken Breast
+
+      - Hard-boiled Egg
+
+      - Avocado
+
+      - Roquefort cheese (or blue cheese)
+
+      - Chive
+
+      - Red-Wine Vinaigrette (optional for dressing)'
+    role: assistant
+created: 1709799995
+id: chatcmpl-903NDEYYOoHMeZHst0MdymckhDWnN
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 68
+  prompt_tokens: 25
+  total_tokens: 93
