@@ -4136,11 +4136,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Seed>
 
-<Edible rdf:about="#fennel">
+<Vegetable rdf:about="#fennel">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#minced_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
