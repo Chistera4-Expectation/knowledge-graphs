@@ -4825,7 +4825,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#rice_vinegar">
+<Dressing rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#teriyaki"/>
@@ -4834,7 +4834,7 @@
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#raw_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
