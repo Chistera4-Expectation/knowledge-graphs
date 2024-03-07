@@ -2873,10 +2873,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust Flour</fancyName>
 </Insect>
 
-<Insect rdf:about="#bee_larvae">
+<Honey rdf:about="#bee_larvae">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bee Larvae</fancyName>
-</Insect>
+</Honey>
 
 <Insect rdf:about="#cicada_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
