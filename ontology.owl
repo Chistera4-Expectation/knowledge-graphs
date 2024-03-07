@@ -1148,11 +1148,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine Rice</fancyName>
 </Rice>
 
-<Rice rdf:about="#long_grain_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long-Grain Rice</fancyName>
-</Rice>
-
 <Rice rdf:about="#wild_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wild Rice</fancyName>
