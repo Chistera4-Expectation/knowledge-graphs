@@ -3195,7 +3195,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#curry_leaves">
+<Vegetable rdf:about="#curry_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
@@ -3205,7 +3205,7 @@
   <ingredientOf rdf:resource="#samudra_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#tomato_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
