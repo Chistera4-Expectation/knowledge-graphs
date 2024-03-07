@@ -7008,11 +7008,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled vegetables</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#fruit_salad">
+<Fruit rdf:about="#fruit_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit salad</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#steamed_broccoli">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
