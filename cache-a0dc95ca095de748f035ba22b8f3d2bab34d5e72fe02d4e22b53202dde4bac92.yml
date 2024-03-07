@@ -1,0 +1,23 @@
+# Cache for query: instances list for class Yogurt, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: "If you're asking for a list of example instances/names that could belong\
+      \ to a class called `Yogurt` in a computer program or data model, here's how\
+      \ you might think of it. In this context, \"instances\" would refer to specific\
+      \ examples of yogurts. These could be based on various attributes like brand,\
+      \ flavor, fat content, etc. Here's a basic list to illustrate the concept:\n\
+      \n1. Chobani Strawberry Greek Yogurt\n2. Siggi\u2019s"
+    role: assistant
+created: 1709799609
+id: chatcmpl-903GzNtTHDspv4xUIzGlJNsDlJqff
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126

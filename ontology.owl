@@ -996,6 +996,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered</fancyName>
 </Milk>
 
+<Yogurt rdf:about="#chobani_strawberry_greek_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chobani Strawberry Greek Yogurt</fancyName>
+</Yogurt>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
