@@ -2314,10 +2314,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
 </Dairy>
 
-<Dairy rdf:about="#cream_cheese">
+<Cheese rdf:about="#cream_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#ice_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
