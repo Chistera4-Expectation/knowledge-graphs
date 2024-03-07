@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Rye' among: 'Bread', 'Breakfast Cereal', 'Pasta Types', 'Rice'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Bread
+    role: assistant
+created: 1709800330
+id: chatcmpl-903ScDbiyzRI9KW0IyWw3Mvndny6z
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 2
+  prompt_tokens: 47
+  total_tokens: 49
