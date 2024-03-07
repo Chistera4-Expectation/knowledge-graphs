@@ -1,0 +1,30 @@
+# Cache for query: ingredient list for Apple Pie, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Apples
+
+      2. Pie crust (flour, butter, salt, water)
+
+      3. Sugar
+
+      4. Cinnamon
+
+      5. Nutmeg
+
+      6. Lemon Juice
+
+      7. Salt'
+    role: assistant
+created: 1709800012
+id: chatcmpl-903NUpdcDAHDbGD0ZgJK2sS8fkbEV
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 41
+  prompt_tokens: 25
+  total_tokens: 66
