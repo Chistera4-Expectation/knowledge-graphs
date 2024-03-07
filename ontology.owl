@@ -3921,13 +3921,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice noodles</fancyName>
 </Rice>
 
-<Edible rdf:about="#oyster_sauce">
+<Sauce rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_thai"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#thai_curry_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
