@@ -414,6 +414,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -434,6 +435,7 @@
 <Seasoning rdf:about="#garlic_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
@@ -443,6 +445,7 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -769,6 +772,7 @@
 
 <Poultry rdf:about="#chicken_wings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken wings</fancyName>
 </Poultry>
 
@@ -1115,6 +1119,7 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -2978,6 +2983,7 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -3530,6 +3536,7 @@
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
 
@@ -3878,6 +3885,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaf</fancyName>
+</Edible>
+
+<Edible rdf:about="#hot_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

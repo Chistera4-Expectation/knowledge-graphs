@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Buffalo Wings, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken wings
+
+      2. Hot sauce
+
+      3. Butter
+
+      4. Garlic powder
+
+      5. Paprika
+
+      6. Salt
+
+      7. Pepper
+
+      8. Vegetable oil (for frying)'
+    role: assistant
+created: 1709799961
+id: chatcmpl-903Mfgl1c1wNc64M17v5IfyUGIPLV
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 40
+  prompt_tokens: 25
+  total_tokens: 65
