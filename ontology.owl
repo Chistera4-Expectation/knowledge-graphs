@@ -1097,10 +1097,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thickeners</fancyName>
 </Additive>
 
-<Additive rdf:about="#flavor_enhancers">
+<Seasoning rdf:about="#flavor_enhancers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavor enhancers</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#antioxidants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
