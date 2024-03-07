@@ -2701,10 +2701,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Tea</fancyName>
 </Tea>
 
-<Edible rdf:about="#instances_are_the_actual_objects_that_are_created_using_that_blueprint__the_class_you_ve_mentioned___edible___suggests_objects_that_are_safe">
+<Fruit rdf:about="#instances_are_the_actual_objects_that_are_created_using_that_blueprint__the_class_you_ve_mentioned___edible___suggests_objects_that_are_safe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">instances are the actual objects that are created using that blueprint. The class you've mentioned, `Edible`, suggests objects that are safe</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#intended_for_consumption__below_are_examples_of_instances_that_could_belong_to_the__edible__class__divided_into_different_categories_for_clarity__note_that_for_an_actual_programming_implementation__specific_attributes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
