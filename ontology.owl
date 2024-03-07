@@ -938,11 +938,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Milk>
 
-<Dairy rdf:about="#yogurt">
+<Milk rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
-</Dairy>
+</Milk>
 
 <Crustaceans rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
