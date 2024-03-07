@@ -2244,6 +2244,20 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
+  <ingredientOf rdf:resource="#harira_soup"/>
+  <ingredientOf rdf:resource="#couscous_royal"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#goat_water"/>
+  <ingredientOf rdf:resource="#stewed_oxtail"/>
+  <ingredientOf rdf:resource="#pigeon_pea_soup"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot</fancyName>
 </Vegetable>
 
@@ -3593,25 +3607,6 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Seed>
-
-<Vegetable rdf:about="#carrots">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bolognese_sauce"/>
-  <ingredientOf rdf:resource="#bunny_chow"/>
-  <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
-  <ingredientOf rdf:resource="#harira_soup"/>
-  <ingredientOf rdf:resource="#couscous_royal"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#goat_water"/>
-  <ingredientOf rdf:resource="#stewed_oxtail"/>
-  <ingredientOf rdf:resource="#pigeon_pea_soup"/>
-  <ingredientOf rdf:resource="#sukiyaki"/>
-  <ingredientOf rdf:resource="#shabu_shabu"/>
-  <ingredientOf rdf:resource="#katsu_curry"/>
-  <ingredientOf rdf:resource="#egg_fried_rice"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
-</Vegetable>
 
 <Alcoholic rdf:about="#red_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
