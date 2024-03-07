@@ -7223,11 +7223,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef Balls</fancyName>
 </Beef>
 
-<Edible rdf:about="#congee">
+<Rice rdf:about="#congee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congee</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#taro_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
