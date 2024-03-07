@@ -7424,11 +7424,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon stick</fancyName>
 </Spice>
 
-<Edible rdf:about="#red_pepper_flakes_for_heat">
+<Seasoning rdf:about="#red_pepper_flakes_for_heat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Pepper Flakes for heat</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#five_spice_powder_for_additional_flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
