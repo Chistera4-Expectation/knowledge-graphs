@@ -4562,11 +4562,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chive</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_wine_vinaigrette">
+<Dressing rdf:about="#red_wine_vinaigrette">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red-Wine Vinaigrette</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#salt_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
