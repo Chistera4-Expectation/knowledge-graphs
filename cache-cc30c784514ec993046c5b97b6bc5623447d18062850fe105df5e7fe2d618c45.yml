@@ -1,0 +1,23 @@
+# Cache for query: instances list for class Energy Drink, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: "If we were to list instances for a hypothetical class named `Energy\
+      \ Drink`, the names would only give an idea of different types or brands of\
+      \ energy drinks. Since you asked for names only, here's a possible list:\n\n\
+      1. Monster Ultra \n2. Red Bull Sugarfree\n3. Rockstar Punched\n4. Bang Cotton\
+      \ Candy\n5. 5-hour Energy Extra Strength\n6. NOS High Performance\n7. Reign\
+      \ Total Body Fuel\n8. AMP Energy Original\n9."
+    role: assistant
+created: 1709799728
+id: chatcmpl-903IuANYuI1kVHilaOjhDGatxnVfM
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126

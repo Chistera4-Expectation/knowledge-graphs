@@ -2190,6 +2190,41 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber Mint Water</fancyName>
 </Infusion>
 
+<Energy rdf:about="#monster_ultra">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster Ultra</fancyName>
+</Energy>
+
+<Energy rdf:about="#rockstar_punched">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rockstar Punched</fancyName>
+</Energy>
+
+<Energy rdf:about="#bang_cotton_candy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bang Cotton Candy</fancyName>
+</Energy>
+
+<Energy rdf:about="#5_hour_energy_extra_strength">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-hour Energy Extra Strength</fancyName>
+</Energy>
+
+<Energy rdf:about="#nos_high_performance">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOS High Performance</fancyName>
+</Energy>
+
+<Energy rdf:about="#reign_total_body_fuel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reign Total Body Fuel</fancyName>
+</Energy>
+
+<Energy rdf:about="#amp_energy_original">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMP Energy Original</fancyName>
+</Energy>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
