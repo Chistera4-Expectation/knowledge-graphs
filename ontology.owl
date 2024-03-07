@@ -432,6 +432,7 @@
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -1158,6 +1159,7 @@
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
 </Oil>
 
@@ -2177,6 +2179,7 @@
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Soda</fancyName>
 </Edible>
@@ -2663,6 +2666,7 @@
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3016,6 +3020,7 @@
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -3267,6 +3272,7 @@
 <Edible rdf:about="#egg_white">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rainbow_cake"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg white</fancyName>
 </Edible>
 
@@ -3443,6 +3449,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate</fancyName>
+</Edible>
+
+<Edible rdf:about="#granulated_sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#hydrogenated_coconut_oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogenated coconut oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg_yolk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#coconut_drop"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolk</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
