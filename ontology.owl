@@ -1886,10 +1886,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail</fancyName>
 </Poultry>
 
-<Meat rdf:about="#ostrich">
+<Poultry rdf:about="#ostrich">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#crocodile">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
