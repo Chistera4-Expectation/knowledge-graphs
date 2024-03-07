@@ -2781,6 +2781,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Animal>
 
@@ -2820,6 +2821,7 @@
 
 <Animal rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Animal>
 
@@ -3894,6 +3896,7 @@
 
 <Vegetal rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -6517,6 +6520,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rolling mat</fancyName>
+</Edible>
+
+<Edible rdf:about="#batter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Batter</fancyName>
+</Edible>
+
+<Edible rdf:about="#grated_daikon_radish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grated daikon radish</fancyName>
+</Edible>
+
+<Edible rdf:about="#grated_ginger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grated ginger</fancyName>
+</Edible>
+
+<Edible rdf:about="#tempura_dipping_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura Dipping Sauce</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
