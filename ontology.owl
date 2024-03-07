@@ -6220,6 +6220,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#plantains"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#mochi_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -6740,6 +6741,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber salad</fancyName>
+</Edible>
+
+<Edible rdf:about="#mochi_dough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mochi_ice_cream"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mochi dough</fancyName>
+</Edible>
+
+<Edible rdf:about="#ice_cream_filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mochi_ice_cream"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cream filling</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
