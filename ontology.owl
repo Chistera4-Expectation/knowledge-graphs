@@ -4021,11 +4021,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#buckwheat">
+<Vegetable rdf:about="#buckwheat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#spring_roll_wrapper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
