@@ -402,6 +402,7 @@
   <ingredientOf rdf:resource="#gallo_pinto"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -808,6 +809,7 @@
 <Meat rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -1899,7 +1901,9 @@
 
 <Oil rdf:about="#palm_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm Oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm oil</fancyName>
 </Oil>
 
 <Oil rdf:about="#almond_oil">
@@ -1990,6 +1994,7 @@
 
 <Vegetable rdf:about="#spinach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
 </Vegetable>
 
@@ -3312,6 +3317,7 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -3403,12 +3409,14 @@
 <Edible rdf:about="#red_bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell peppers</fancyName>
 </Edible>
 
 <Edible rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Edible>
 
@@ -3452,6 +3460,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star anise</fancyName>
+</Edible>
+
+<Edible rdf:about="#stockfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stockfish</fancyName>
+</Edible>
+
+<Edible rdf:about="#dried_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#crayfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crayfish</fancyName>
+</Edible>
+
+<Edible rdf:about="#locust_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust beans</fancyName>
+</Edible>
+
+<Edible rdf:about="#seasoning_cubes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

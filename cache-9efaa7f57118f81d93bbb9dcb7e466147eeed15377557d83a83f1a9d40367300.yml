@@ -1,0 +1,42 @@
+# Cache for query: ingredient list for Egusi Soup, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Egusi (melon seeds)
+
+      2. Palm oil
+
+      3. Beef
+
+      4. Stockfish
+
+      5. Dried fish
+
+      6. Red bell peppers
+
+      7. Scotch bonnet peppers
+
+      8. Onions
+
+      9. Spinach (or bitter leaves, pumpkin leaves)
+
+      10. Crayfish
+
+      11. Locust beans (Iru)
+
+      12. Seasoning cubes
+
+      13. Salt'
+    role: assistant
+created: 1709799894
+id: chatcmpl-903LaJXWaqEzaIRRwZruVaaF7NfJm
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_c121a3f431
+usage:
+  completion_tokens: 82
+  prompt_tokens: 26
+  total_tokens: 108
