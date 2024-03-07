@@ -1046,10 +1046,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallops</fancyName>
 </Crustaceans>
 
-<Seafood rdf:about="#oysters">
+<Fish rdf:about="#oysters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
-</Seafood>
+</Fish>
 
 <Seafood rdf:about="#sardines">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
