@@ -2329,6 +2329,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -4968,12 +4969,6 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vermicelli noodles</fancyName>
 </Pasta>
-
-<Vegetable rdf:about="#cucumbers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#bean_sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
