@@ -337,6 +337,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
 </Sauce>
@@ -754,6 +755,7 @@
 
 <Pork rdf:about="#pepperoni">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepperoni</fancyName>
 </Pork>
 
@@ -2977,6 +2979,7 @@
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Edible>
 
@@ -3011,6 +3014,7 @@
 <Edible rdf:about="#italian_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian sausage</fancyName>
 </Edible>
 
@@ -3028,6 +3032,7 @@
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -3104,6 +3109,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
 </Edible>
 
@@ -3131,6 +3137,7 @@
 <Edible rdf:about="#pizza_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza dough</fancyName>
 </Edible>
 
@@ -3980,6 +3987,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breakfast sausage</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_bell_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#mushroom">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushroom</fancyName>
+</Edible>
+
+<Edible rdf:about="#black_olives">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black olives</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
