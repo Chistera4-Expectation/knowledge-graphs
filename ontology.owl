@@ -1061,6 +1061,35 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Bran</fancyName>
 </Seed>
 
+<Vegetable rdf:about="#carrot">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#celery">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Vegetable>
+
+<Vegetable rdf:about="#cucumber">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Vegetable>
+
+<Vegetable rdf:about="#lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Vegetable>
+
+<Vegetable rdf:about="#peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Vegetable>
+
+<Vegetable rdf:about="#pumpkin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Vegetable>
+
+<Vegetable rdf:about="#tomato">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Vegetable>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
