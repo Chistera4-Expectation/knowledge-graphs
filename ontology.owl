@@ -1442,10 +1442,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pear</fancyName>
 </Fruit>
 
-<Food rdf:about="#berry">
+<Fruit rdf:about="#berry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berry</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
