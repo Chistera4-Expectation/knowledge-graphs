@@ -3293,12 +3293,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground ginger</fancyName>
 </Edible>
 
-<Edible rdf:about="#apples">
+<Fruit rdf:about="#apples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#apple_cider_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
