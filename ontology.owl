@@ -716,10 +716,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthan Gum</fancyName>
 </Dressing>
 
-<Additive rdf:about="#lecithin">
+<Dressing rdf:about="#lecithin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lecithin</fancyName>
-</Additive>
+</Dressing>
 
 <Additive rdf:about="#sodium_nitrite">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
