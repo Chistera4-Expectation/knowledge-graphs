@@ -5207,11 +5207,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese five-spice powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#maltose">
+<Sweetener rdf:about="#maltose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#pancakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
