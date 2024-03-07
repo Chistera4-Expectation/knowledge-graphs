@@ -2999,6 +2999,8 @@
   <ingredientOf rdf:resource="#green_bean_casserole"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Vegetable>
 
@@ -3466,13 +3468,6 @@
   <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai basil</fancyName>
 </Edible>
-
-<Vegetable rdf:about="#snow_peas">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#red_curry"/>
-  <ingredientOf rdf:resource="#pad_see_ew"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#buckwheat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
