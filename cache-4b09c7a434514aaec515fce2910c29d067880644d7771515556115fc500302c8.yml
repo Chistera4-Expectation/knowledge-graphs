@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Edible Molluscs, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Oyster
+
+      2. Clam
+
+      3. Scallop
+
+      4. Mussel
+
+      5. Squid (Calamari)
+
+      6. Octopus
+
+      7. Snail (Escargot)
+
+      8. Whelk
+
+      9. Cuttlefish
+
+      10. Periwinkle'
+    role: assistant
+created: 1709799623
+id: chatcmpl-903HDLyKk5HVdwJbR4AXIDKMLJGFl
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 60
+  prompt_tokens: 30
+  total_tokens: 90
