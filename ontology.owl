@@ -1490,6 +1490,76 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flan de coco</fancyName>
 </Latin>
 
+<African rdf:about="#jollof_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jollof Rice</fancyName>
+</African>
+
+<African rdf:about="#naija_stew">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naija Stew</fancyName>
+</African>
+
+<African rdf:about="#couscous">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couscous</fancyName>
+</African>
+
+<African rdf:about="#jollof_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jollof Noodles</fancyName>
+</African>
+
+<African rdf:about="#zanzibar_curry_goat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zanzibar Curry Goat</fancyName>
+</African>
+
+<African rdf:about="#congolese_beignets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congolese Beignets</fancyName>
+</African>
+
+<African rdf:about="#sawa_platter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sawa Platter</fancyName>
+</African>
+
+<African rdf:about="#ethiopian_tibs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiopian Tibs</fancyName>
+</African>
+
+<African rdf:about="#west_african_beef_stew">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West African Beef Stew</fancyName>
+</African>
+
+<African rdf:about="#cape_verde_chicken_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cape Verde Chicken Curry</fancyName>
+</African>
+
+<African rdf:about="#senegalese_peanut_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senegalese Peanut Sauce</fancyName>
+</African>
+
+<African rdf:about="#khmer_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khmer Curry</fancyName>
+</African>
+
+<African rdf:about="#zanzibar_fish_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zanzibar Fish Curry</fancyName>
+</African>
+
+<African rdf:about="#kenyan_chicken_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenyan Chicken Curry</fancyName>
+</African>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
