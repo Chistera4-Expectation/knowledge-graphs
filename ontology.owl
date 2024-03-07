@@ -947,6 +947,531 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Cutlet</fancyName>
 </Pork>
 
+<Poultry rdf:about="#chicken_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Eggs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_liver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Liver</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_liver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Liver</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_liver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Liver</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Eggs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Eggs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Eggs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_thighs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Thighs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_thighs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Thighs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_thighs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Thighs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_thighs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Thighs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_thighs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Thighs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_thighs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Thighs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_thighs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Thighs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Drumsticks</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Drumsticks</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Drumsticks</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Drumsticks</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Drumsticks</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Drumsticks</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_drumsticks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Drumsticks</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_tenders">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Tenders</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_tenders">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Tenders</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_tenders">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Tenders</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_tenders">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Tenders</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_tenders">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Tenders</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_tenders">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Tenders</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_tenders">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Tenders</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_gizzards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Gizzards</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_gizzards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Gizzards</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_gizzards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Gizzards</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_gizzards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Gizzards</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_gizzards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Gizzards</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_gizzards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Gizzards</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_gizzards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Gizzards</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Meatballs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Meatballs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Meatballs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Meatballs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Meatballs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Meatballs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_meatballs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Meatballs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Patties</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Patties</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Patties</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Patties</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Patties</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Patties</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_patties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Patties</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Soup</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Stock</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Stock</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Stock</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Stock</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Stock</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Stock</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Stock</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Broth</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Broth</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Broth</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Broth</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Broth</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Broth</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Broth</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Gravy</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Gravy</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Gravy</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Gravy</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#pheasant_gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pheasant Gravy</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#ostrich_gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich Gravy</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#guinea_fowl_gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Gravy</fancyName>
+</Poultry>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
