@@ -5752,11 +5752,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry white wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#fish_stock">
+<Fish rdf:about="#fish_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish stock</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#clam_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
