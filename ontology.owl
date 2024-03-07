@@ -2733,10 +2733,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussels</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#oysters">
+<Molluscs rdf:about="#oysters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
-</Seafood>
+</Molluscs>
 
 <Seafood rdf:about="#scallops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
