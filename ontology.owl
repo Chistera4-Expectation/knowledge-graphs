@@ -6753,11 +6753,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground coriander</fancyName>
 </Spice>
 
-<Edible rdf:about="#water_for_egg_wash">
+<Water rdf:about="#water_for_egg_wash">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water for egg wash</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#cuban_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
