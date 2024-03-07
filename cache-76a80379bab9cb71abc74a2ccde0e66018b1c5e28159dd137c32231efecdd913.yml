@@ -1,0 +1,31 @@
+# Cache for query: instances list for class Butter, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'If you''re looking to create a list of instances for a class named `Butter`
+      in the context of object-oriented programming (likely in a language such as
+      Python, Java, or C++), the names of those instances would typically represent
+      different types or brands of butter. Here is an example list of names that could
+      represent instances of a `Butter` class:
+
+
+      1. KerryGoldUnsalted
+
+      2. LandOLakesSalted
+
+      3. OrganicValleyCultured
+
+      4'
+    role: assistant
+created: 1709799575
+id: chatcmpl-903GRAhJp8ENVkJ8gdWZKzlBGSXGp
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125

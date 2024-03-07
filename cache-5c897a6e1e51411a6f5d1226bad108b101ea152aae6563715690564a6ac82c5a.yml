@@ -1,0 +1,36 @@
+# Cache for query: examples list for Butter, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Unsalted Butter
+
+      2. Salted Butter
+
+      3. Cultured Butter
+
+      4. Whipped Butter
+
+      5. Clarified Butter (Ghee)
+
+      6. European Style Butter
+
+      7. Amish Butter
+
+      8. Compound Butter
+
+      9. Organic Butter
+
+      10. Grass-Fed Butter'
+    role: assistant
+created: 1709799584
+id: chatcmpl-903GaKEfSiyOahVRlUJnIzEIgK8k3
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 62
+  prompt_tokens: 24
+  total_tokens: 86
