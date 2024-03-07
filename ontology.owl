@@ -5219,11 +5219,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancakes</fancyName>
 </Bread>
 
-<Edible rdf:about="#plum_sauce">
+<Sauce rdf:about="#plum_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plum sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
