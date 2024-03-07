@@ -5899,11 +5899,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other chili pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#black_beans">
+<Vegetable rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
