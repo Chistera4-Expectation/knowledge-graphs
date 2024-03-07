@@ -4075,11 +4075,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken drumsticks</fancyName>
 </Poultry>
 
-<Edible rdf:about="#tandoori_powder">
+<Seasoning rdf:about="#tandoori_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tandoori powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#ginger_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
