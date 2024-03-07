@@ -3705,13 +3705,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
 </Spice>
 
-<Edible rdf:about="#cloves">
+<Spice rdf:about="#cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#corn_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
