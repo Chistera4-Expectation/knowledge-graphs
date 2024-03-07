@@ -2601,6 +2601,7 @@
 <Bread rdf:about="#whole_wheat_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Wheat Bread</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole wheat bread</fancyName>
 </Bread>
 
 <Bread rdf:about="#multigrain_bread">
@@ -2706,6 +2707,7 @@
 <Rice rdf:about="#brown_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown Rice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown rice</fancyName>
 </Rice>
 
 <Rice rdf:about="#red_rice">
@@ -4242,6 +4244,21 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nut Milk</fancyName>
 </Liquid>
+
+<Edible rdf:about="#oats">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
+</Edible>
+
+<Edible rdf:about="#almonds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
+</Edible>
+
+<Edible rdf:about="#walnuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walnuts</fancyName>
+</Edible>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
