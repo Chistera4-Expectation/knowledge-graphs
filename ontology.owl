@@ -1374,6 +1374,7 @@
 
 <Vegetable rdf:about="#cucumber">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#salsa"/>
 </Vegetable>
 
 <Vegetable rdf:about="#lettuce">
@@ -2686,12 +2687,6 @@
   <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Bread>
-
-<Vegetable rdf:about="#cucumbers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#salsa"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#red_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
