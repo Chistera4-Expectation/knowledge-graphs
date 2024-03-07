@@ -6238,11 +6238,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketchup</fancyName>
 </Sauce>
 
-<Edible rdf:about="#mayonnaise">
+<Dressing rdf:about="#mayonnaise">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
