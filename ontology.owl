@@ -2542,6 +2542,11 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
@@ -3396,16 +3401,6 @@
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed</fancyName>
 </Seaweed>
-
-<Vegetable rdf:about="#scallions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sashimi"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <ingredientOf rdf:resource="#pad_thai"/>
-  <ingredientOf rdf:resource="#pad_see_ew"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#soy_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
