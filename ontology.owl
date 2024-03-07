@@ -1446,11 +1446,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berry</fancyName>
 </Fruit>
 
-<Rice rdf:about="#grain">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grain</fancyName>
-</Rice>
-
 <Pasta rdf:about="#pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
