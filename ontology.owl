@@ -4842,11 +4842,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#cooked_seafood">
+<Molluscs rdf:about="#cooked_seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked seafood</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
