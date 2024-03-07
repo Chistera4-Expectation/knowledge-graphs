@@ -3676,14 +3676,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#garlic_cloves">
+<Vegetable rdf:about="#garlic_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Cloves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#white_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
