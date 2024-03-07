@@ -2539,11 +2539,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
 </Edible>
 
-<Edible rdf:about="#penne_pasta">
+<Pasta rdf:about="#penne_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penne pasta</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#vodka">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
