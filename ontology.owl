@@ -4482,11 +4482,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauerkraut</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#russian_dressing">
+<Sauce rdf:about="#russian_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian dressing</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#key_lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
