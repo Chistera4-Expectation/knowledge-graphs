@@ -1,0 +1,40 @@
+# Cache for query: ingredient list for Dim Sum, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Dim sum is a broad category of Chinese cuisine that consists of a wide
+      range of small dishes. Since it covers a myriad of dishes, including dumplings,
+      buns, rolls, and more, the ingredient list can vary greatly. Here are ingredients
+      commonly found in various dim sum dishes:
+
+
+      1. Wheat flour
+
+      2. Rice flour
+
+      3. Water chestnut flour
+
+      4. Yeast
+
+      5. Baking powder
+
+      6. Sugar
+
+      7. Salt
+
+      8. Water
+
+      9. Pork'
+    role: assistant
+created: 1709800196
+id: chatcmpl-903QSVtVYqqz9YMzLxYtgW6i8RRid
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125

@@ -447,6 +447,7 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -949,6 +950,7 @@
 <Meat rdf:about="#pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
 </Meat>
 
@@ -2619,6 +2621,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#mongolian_beef"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -3311,6 +3314,7 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3709,6 +3713,7 @@
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#saltfish_fritters"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
@@ -5132,6 +5137,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mongolian_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
+</Edible>
+
+<Edible rdf:about="#wheat_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#water_chestnut_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water chestnut flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#yeast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yeast</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
