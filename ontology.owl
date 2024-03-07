@@ -6777,11 +6777,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow mustard</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#dill_pickles">
+<Vegetable rdf:about="#dill_pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dill pickles</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#flying_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
