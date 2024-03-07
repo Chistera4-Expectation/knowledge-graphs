@@ -1,0 +1,50 @@
+# Cache for query: ingredient list for Bunny Chow, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Loaf of white bread
+
+      2. Chicken pieces or lamb (boneless)
+
+      3. Potatoes
+
+      4. Carrots
+
+      5. Tomatoes
+
+      6. Onions
+
+      7. Garlic cloves
+
+      8. Ginger
+
+      9. Curry powder
+
+      10. Turmeric
+
+      11. Cumin seeds
+
+      12. Fennel seeds
+
+      13. Coriander (leaf and seeds)
+
+      14. Green chillies
+
+      15. Cinnamon stick
+
+      16. Star anise
+
+      17.'
+    role: assistant
+created: 1709799889
+id: chatcmpl-903LVuPCYpcUMyKN18E8ns0dqUjtv
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
