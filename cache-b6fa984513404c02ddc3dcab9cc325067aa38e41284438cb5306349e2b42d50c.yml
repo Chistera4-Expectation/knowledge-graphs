@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Beef, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Ribeye Steak
+
+      2. Ground Beef
+
+      3. Sirloin Tip
+
+      4. Filet Mignon
+
+      5. Brisket
+
+      6. Chuck Roast
+
+      7. T-Bone Steak
+
+      8. Porterhouse Steak
+
+      9. Flank Steak
+
+      10. Skirt Steak'
+    role: assistant
+created: 1709799558
+id: chatcmpl-903GAEIx2jcA6TJcffgHwhnJMecT4
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 61
+  prompt_tokens: 25
+  total_tokens: 86
