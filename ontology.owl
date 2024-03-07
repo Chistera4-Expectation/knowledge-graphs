@@ -3588,11 +3588,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#jamaican_allspice">
+<Spice rdf:about="#jamaican_allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaican allspice</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#dried_marigolds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
