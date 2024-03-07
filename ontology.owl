@@ -555,6 +555,7 @@
   <ingredientOf rdf:resource="#scallion_pancakes"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -746,6 +747,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -927,7 +929,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star anise</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star Anise</fancyName>
 </Spice>
 
 <Spice rdf:about="#mace">
@@ -946,7 +950,9 @@
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#pumpkin_soup"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaf</fancyName>
 </Spice>
 
 <Sweetener rdf:about="#sucrose">
@@ -1154,6 +1160,7 @@
 <Pork rdf:about="#pork_belly">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Belly</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork belly</fancyName>
 </Pork>
@@ -3945,6 +3952,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4727,6 +4735,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5852,6 +5861,7 @@
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
@@ -5944,6 +5954,8 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock</fancyName>
 </Edible>
 
 <Edible rdf:about="#green_peas">
@@ -6053,7 +6065,9 @@
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Oil</fancyName>
 </Edible>
 
 <Edible rdf:about="#coriander_leaves">
@@ -6078,6 +6092,7 @@
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown Sugar</fancyName>
 </Edible>
@@ -6091,7 +6106,9 @@
 <Edible rdf:about="#black_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black peppercorns</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Peppercorns</fancyName>
 </Edible>
 
 <Edible rdf:about="#worcestershire_sauce">
@@ -6497,6 +6514,7 @@
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
@@ -6964,7 +6982,9 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing Wine</fancyName>
 </Edible>
 
 <Edible rdf:about="#chili_paste">
@@ -6981,8 +7001,10 @@
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chili flakes</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili flakes</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Flakes</fancyName>
 </Edible>
 
 <Edible rdf:about="#pineapple_chunks">
@@ -7303,6 +7325,46 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese pancakes</fancyName>
+</Edible>
+
+<Edible rdf:about="#cinnamon_stick">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon Stick</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_pepper_flakes_for_heat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Pepper Flakes for heat</fancyName>
+</Edible>
+
+<Edible rdf:about="#five_spice_powder_for_additional_flavor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five Spice Powder for additional flavor</fancyName>
+</Edible>
+
+<Edible rdf:about="#dark_soy_sauce_for_color">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark Soy Sauce for color</fancyName>
+</Edible>
+
+<Edible rdf:about="#depth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+</Edible>
+
+<Edible rdf:about="#sesame_oil_for_a_nutty_aroma">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil for a nutty aroma</fancyName>
+</Edible>
+
+<Edible rdf:about="#flavor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
 </Edible>
 
 <owl:AllDisjointClasses>
