@@ -1,0 +1,36 @@
+# Cache for query: ingredient list for Fried Chicken, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken pieces
+
+      2. All-purpose flour
+
+      3. Eggs
+
+      4. Milk or buttermilk
+
+      5. Salt
+
+      6. Pepper
+
+      7. Garlic powder
+
+      8. Paprika
+
+      9. Baking powder (optional, for crispiness)
+
+      10. Vegetable oil or shortening (for frying)'
+    role: assistant
+created: 1709799949
+id: chatcmpl-903MTCiOkYkOJdi6Ayatx6BgFBaZo
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 64
+  prompt_tokens: 25
+  total_tokens: 89

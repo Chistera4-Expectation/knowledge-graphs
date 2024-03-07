@@ -411,6 +411,7 @@
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -429,13 +430,16 @@
 
 <Seasoning rdf:about="#garlic_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#paprika">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -1083,6 +1087,7 @@
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1440,6 +1445,7 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2917,6 +2923,7 @@
 <Edible rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Edible>
 
@@ -2957,6 +2964,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -3367,6 +3375,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
@@ -3499,6 +3508,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
 
@@ -3511,6 +3521,7 @@
 <Edible rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pieces</fancyName>
 </Edible>
 
@@ -3788,6 +3799,16 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Bread crumbs for topping</fancyName>
+</Edible>
+
+<Edible rdf:about="#buttermilk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
+</Edible>
+
+<Edible rdf:about="#shortening">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#fried_chicken"/>
 </Edible>
 
 <owl:AllDisjointClasses>
