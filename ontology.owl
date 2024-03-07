@@ -1283,6 +1283,8 @@
 
 <Cheese rdf:about="#cream_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream cheese</fancyName>
 </Cheese>
 
@@ -3887,13 +3889,6 @@
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roasted pork</fancyName>
 </Pork>
-
-<Cheese rdf:about="#swiss_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cuban_sandwich"/>
-  <ingredientOf rdf:resource="#reuben_sandwich"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
-</Cheese>
 
 <Vegetable rdf:about="#pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
