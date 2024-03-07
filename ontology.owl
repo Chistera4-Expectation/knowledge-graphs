@@ -6526,11 +6526,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andouille sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#hot_sauce">
+<Seasoning rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#graham_cracker_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
