@@ -664,10 +664,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium benzoate</fancyName>
 </Dressing>
 
-<Additive rdf:about="#potassium_sorbate">
+<Sauce rdf:about="#potassium_sorbate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potassium sorbate</fancyName>
-</Additive>
+</Sauce>
 
 <Additive rdf:about="#ascorbic_acid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
