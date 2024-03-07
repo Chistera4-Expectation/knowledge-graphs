@@ -3780,11 +3780,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</fancyName>
 </Sauce>
 
-<Edible rdf:about="#mole_sauce">
+<Sauce rdf:about="#mole_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
