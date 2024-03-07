@@ -6771,11 +6771,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roast pork</fancyName>
 </Pork>
 
-<Edible rdf:about="#yellow_mustard">
+<Seasoning rdf:about="#yellow_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow mustard</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#dill_pickles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
