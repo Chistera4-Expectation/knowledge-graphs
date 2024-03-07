@@ -6436,11 +6436,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion slices</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#beef_cubed_steak">
+<Beef rdf:about="#beef_cubed_steak">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_fried_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef cubed steak</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
