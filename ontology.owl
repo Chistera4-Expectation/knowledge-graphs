@@ -701,10 +701,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascorbic Acid</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#sodium_benzoate">
+<Seasoning rdf:about="#sodium_benzoate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Benzoate</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
