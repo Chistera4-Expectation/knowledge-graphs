@@ -1,0 +1,49 @@
+# Cache for query: instances list for class Meat, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Certainly! Here''s a list of instances that could be classified under
+      the class "Meat". These instances represent various types of meat people commonly
+      consume:
+
+
+      1. Chicken
+
+      2. Beef
+
+      3. Pork
+
+      4. Lamb
+
+      5. Turkey
+
+      6. Duck
+
+      7. Goose
+
+      8. Venison (Deer)
+
+      9. Bison
+
+      10. Rabbit
+
+      11. Quail
+
+      12. Pheasant
+
+      13. Veal (Young Cattle)
+
+      14. Mutton (Adult'
+    role: assistant
+created: 1709799571
+id: chatcmpl-903GNmHRDm251DjpKrXNkBPDJUA5p
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
