@@ -7338,11 +7338,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef shank</fancyName>
 </Beef>
 
-<Edible rdf:about="#fresh_noodles">
+<Pasta rdf:about="#fresh_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#chinese_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
