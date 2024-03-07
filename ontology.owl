@@ -7026,11 +7026,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled salmon</fancyName>
 </Fish>
 
-<Edible rdf:about="#assorted_fruit_slices">
+<Fruit rdf:about="#assorted_fruit_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assorted fruit slices</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#mini_spring_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
