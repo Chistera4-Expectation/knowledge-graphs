@@ -3667,14 +3667,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced Pineapple</fancyName>
 </Fruit>
 
-<Edible rdf:about="#chili_powder">
+<Spice rdf:about="#chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#garlic_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
