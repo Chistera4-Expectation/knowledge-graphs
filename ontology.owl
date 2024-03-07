@@ -974,6 +974,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
+  <ingredientOf rdf:resource="#flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swordfish</fancyName>
 </Fish>
 
@@ -3472,12 +3473,6 @@
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
 </Water>
-
-<Fish rdf:about="#flying_fish_fillets">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#flying_fish"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying Fish Fillets</fancyName>
-</Fish>
 
 <Oil rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
