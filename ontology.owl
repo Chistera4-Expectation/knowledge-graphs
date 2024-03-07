@@ -7453,10 +7453,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil for a nutty aroma</fancyName>
 </Oil>
 
-<Edible rdf:about="#flavor">
+<Seasoning rdf:about="#flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#boneless_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
