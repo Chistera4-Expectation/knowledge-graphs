@@ -1115,6 +1115,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
 </Vegetal>
 
+<Food rdf:about="#peach">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach</fancyName>
+</Food>
+
+<Food rdf:about="#pear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pear</fancyName>
+</Food>
+
+<Food rdf:about="#berry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berry</fancyName>
+</Food>
+
+<Food rdf:about="#rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
+</Food>
+
+<Food rdf:about="#bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
+</Food>
+
+<Food rdf:about="#grain">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grain</fancyName>
+</Food>
+
+<Food rdf:about="#breadcrumbs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
+</Food>
+
+<Food rdf:about="#pasta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
+</Food>
+
+<Food rdf:about="#oatmeal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oatmeal</fancyName>
+</Food>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
