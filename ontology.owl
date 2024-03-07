@@ -2478,6 +2478,7 @@
 <Edible rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
 </Edible>
 
@@ -3219,12 +3220,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgur wheat</fancyName>
-</Edible>
-
-<Edible rdf:about="#freshly_chopped_parsley">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tabbouleh"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly chopped parsley</fancyName>
 </Edible>
 
 <Spice rdf:about="#freshly_chopped_mint">
