@@ -5298,11 +5298,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger-garlic paste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#whole_spices">
+<Spice rdf:about="#whole_spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole spices</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ground_spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
