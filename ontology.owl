@@ -696,10 +696,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acetic acid</fancyName>
 </Sauce>
 
-<Additive rdf:about="#sorbic_acid">
+<Sauce rdf:about="#sorbic_acid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorbic acid</fancyName>
-</Additive>
+</Sauce>
 
 <Additive rdf:about="#sodium_acetate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
