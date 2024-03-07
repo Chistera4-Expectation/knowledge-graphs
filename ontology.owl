@@ -908,11 +908,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low Fat Milk</fancyName>
 </Milk>
 
-<Milk rdf:about="#skim_milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skim Milk</fancyName>
-</Milk>
-
 <Yogurt rdf:about="#instances_of_class_yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of class Yogurt</fancyName>
