@@ -3803,11 +3803,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chile_powder">
+<Spice rdf:about="#chile_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chile powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cheeses">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
