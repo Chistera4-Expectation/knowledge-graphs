@@ -1404,6 +1404,7 @@
 
 <Fruit rdf:about="#fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruits</fancyName>
 </Fruit>
 
@@ -3429,12 +3430,6 @@
   <ingredientOf rdf:resource="#banana_pudding"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Custard</fancyName>
 </Edible>
-
-<Fruit rdf:about="#guava_fruit">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#guava_jam"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava fruit</fancyName>
-</Fruit>
 
 <Fruit rdf:about="#pectin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
