@@ -470,6 +470,7 @@
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -508,6 +509,7 @@
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -2458,6 +2460,7 @@
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
   <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2489,6 +2492,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplant</fancyName>
 </Edible>
 
@@ -2516,6 +2520,7 @@
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2662,6 +2667,7 @@
   <ingredientOf rdf:resource="#bonsai"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soybeans</fancyName>
 </Edible>
 
@@ -2803,6 +2809,7 @@
   <ingredientOf rdf:resource="#pad_thai"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2836,6 +2843,7 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -3022,6 +3030,7 @@
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
 </Edible>
@@ -3093,6 +3102,7 @@
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#pad_thai"/>
   <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
 </Edible>
 
@@ -3815,6 +3825,7 @@
 <Edible rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
 </Edible>
 
@@ -3906,6 +3917,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
+</Edible>
+
+<Edible rdf:about="#buckwheat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
