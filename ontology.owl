@@ -3335,10 +3335,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgur</fancyName>
 </Rice>
 
-<Cereal rdf:about="#couscous">
+<Pasta rdf:about="#couscous">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couscous</fancyName>
-</Cereal>
+</Pasta>
 
 <Cereal rdf:about="#spelt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
