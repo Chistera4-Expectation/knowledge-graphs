@@ -1,0 +1,28 @@
+# Cache for query: ingredient list for Guava Cheese, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Guavas
+
+      2. Sugar
+
+      3. Lemon juice
+
+      4. Water
+
+      5. Butter (optional)
+
+      6. Food coloring (optional)'
+    role: assistant
+created: 1709800081
+id: chatcmpl-903Obz3doocp900y6NNQxteVuNfra
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 32
+  prompt_tokens: 26
+  total_tokens: 58
