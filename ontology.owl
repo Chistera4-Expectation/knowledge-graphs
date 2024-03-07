@@ -1256,6 +1256,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haddock</fancyName>
 </Seafood>
 
+<Honey rdf:about="#clover_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clover Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#manuka_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manuka Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#acacia_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acacia Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#orange_blossom_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Blossom Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#wildflower_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wildflower Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#buckwheat_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#sage_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sage Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#eucalyptus_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucalyptus Honey</fancyName>
+</Honey>
+
+<Honey rdf:about="#tupelo_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tupelo Honey</fancyName>
+</Honey>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

@@ -1,0 +1,23 @@
+# Cache for query: instances list for class Honey, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: "Creating a list of instance names for a class named \"Honey\" would\
+      \ involve generating various types of honey, considering their sources, regions,\
+      \ or distinct characteristics. Here\u2019s a simple list based on popular honey\
+      \ varieties:\n\n1. Clover Honey\n2. Manuka Honey\n3. Acacia Honey\n4. Orange\
+      \ Blossom Honey\n5. Wildflower Honey\n6. Buckwheat Honey\n7. Sage Honey\n8.\
+      \ Eucalyptus Honey\n9. Tupelo Honey\n"
+    role: assistant
+created: 1709799632
+id: chatcmpl-903HMpCBHCba6j8uJ0rJgAKc0GrYx
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
