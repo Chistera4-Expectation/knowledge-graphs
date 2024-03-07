@@ -5249,11 +5249,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water chestnut flour</fancyName>
 </Seed>
 
-<Edible rdf:about="#yeast">
+<Seasoning rdf:about="#yeast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yeast</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#broccoli_florets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
