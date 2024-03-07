@@ -6789,11 +6789,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#habanero_peppers">
+<Vegetable rdf:about="#habanero_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habanero peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#unsweetened_shrimp_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
