@@ -1794,6 +1794,106 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macadamia Milk</fancyName>
 </Milk>
 
+<Yogurt rdf:about="#greek_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#plain_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plain Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#skyr_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skyr Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#kefir_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kefir Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#icelandic_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Icelandic Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#bulgarian_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgarian Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#lassi_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lassi Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#australian_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#french_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#probiotic_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probiotic Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#non_dairy_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Dairy Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#whole_milk_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Milk Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#low_fat_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-Fat Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#fat_free_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fat-Free Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#creamy_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creamy Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#drinkable_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drinkable Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#fruit_flavored_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit-Flavored Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#savory_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savory Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#frozen_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frozen Yogurt</fancyName>
+</Yogurt>
+
+<Yogurt rdf:about="#vegan_yogurt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegan Yogurt</fancyName>
+</Yogurt>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
