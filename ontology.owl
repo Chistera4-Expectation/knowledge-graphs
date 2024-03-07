@@ -377,6 +377,7 @@
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -399,6 +400,7 @@
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -1452,6 +1454,7 @@
   <ingredientOf rdf:resource="#naija_stew"/>
   <ingredientOf rdf:resource="#couscous"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2150,6 +2153,7 @@
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2199,6 +2203,7 @@
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2270,6 +2275,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Edible>
 
@@ -2525,6 +2531,7 @@
 <Edible rdf:about="#peanut_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut butter</fancyName>
 </Edible>
 
@@ -2629,6 +2636,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#coconut_milk_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk powder</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
