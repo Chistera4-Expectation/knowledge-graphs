@@ -3732,11 +3732,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate</fancyName>
 </Fruit>
 
-<Edible rdf:about="#granulated_sugar">
+<Sweetener rdf:about="#granulated_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#hydrogenated_coconut_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
