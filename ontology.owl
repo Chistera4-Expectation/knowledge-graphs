@@ -396,6 +396,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -493,7 +494,9 @@
 
 <Seasoning rdf:about="#bay_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaves</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#cardamom">
@@ -587,6 +590,7 @@
 <Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
@@ -1024,6 +1028,7 @@
 
 <Dairy rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1800,6 +1805,7 @@
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#minestrone"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
@@ -2867,6 +2873,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -2887,6 +2894,7 @@
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#minestrone"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2894,12 +2902,14 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#minestrone"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
 <Edible rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Edible>
 
@@ -3059,6 +3069,7 @@
 <Edible rdf:about="#celery">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Edible>
 
@@ -3102,6 +3113,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
+</Edible>
+
+<Edible rdf:about="#carrots">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine</fancyName>
+</Edible>
+
+<Edible rdf:about="#canned_tomatoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned tomatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#beef_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#heavy_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heavy cream</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
