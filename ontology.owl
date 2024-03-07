@@ -5846,6 +5846,7 @@
 <Seasoning rdf:about="#optional_toppings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#bake_and_shark"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional toppings</fancyName>
 </Seasoning>
 
@@ -6704,12 +6705,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bake_and_shark"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#toppings">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bake_and_shark"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toppings</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#additional_seasonings">
