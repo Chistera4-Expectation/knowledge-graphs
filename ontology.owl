@@ -2762,11 +2762,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crumbs</fancyName>
 </Bread>
 
-<Edible rdf:about="#sweet_condensed_milk">
+<Milk rdf:about="#sweet_condensed_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet condensed milk</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
