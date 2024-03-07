@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Barbecue Ribs, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'For a basic recipe of Barbecue Ribs, the list of ingredients typically
+      includes:
+
+
+      1. Ribs (pork or beef)
+
+      2. Barbecue sauce
+
+      3. Brown sugar
+
+      4. Paprika
+
+      5. Garlic powder
+
+      6. Onion powder
+
+      7. Salt
+
+      8. Black pepper
+
+      9. Apple cider vinegar
+
+      10. Worcestershire sauce
+
+      11. Mustard (often Dijon or yellow)
+
+      12. Liquid Smoke (optional for added smoky flavor)
+
+      13'
+    role: assistant
+created: 1709799963
+id: chatcmpl-903Mh4bfgu1BJ2j4xPIwLNMciFV9E
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
