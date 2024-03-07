@@ -4120,12 +4120,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#optional">
+<Alcoholic rdf:about="#optional">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#optional__baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
