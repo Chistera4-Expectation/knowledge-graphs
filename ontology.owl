@@ -7193,11 +7193,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed Buns</fancyName>
 </Bread>
 
-<Edible rdf:about="#dumplings">
+<Pasta rdf:about="#dumplings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dumplings</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#egg_tarts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
