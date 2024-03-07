@@ -5686,11 +5686,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_wine_vinegar">
+<Seasoning rdf:about="#red_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#panzanella_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
