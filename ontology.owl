@@ -5231,11 +5231,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
 </Spice>
 
-<Edible rdf:about="#wheat_flour">
+<Bread rdf:about="#wheat_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#rice_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
