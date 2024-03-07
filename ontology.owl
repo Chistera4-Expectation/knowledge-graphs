@@ -1720,11 +1720,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honeydew</fancyName>
 </Fruit>
 
-<Fruit rdf:about="#pears">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pears</fancyName>
-</Fruit>
-
 <Seed rdf:about="#brazil_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazil Nuts</fancyName>
