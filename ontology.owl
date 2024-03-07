@@ -1140,6 +1140,16 @@
 
 <Rice rdf:about="#basmati_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#risotto_milanese"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#jollof_noodles"/>
+  <ingredientOf rdf:resource="#sawa_platter"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati Rice</fancyName>
 </Rice>
 
@@ -1428,21 +1438,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berry</fancyName>
 </Fruit>
-
-<Rice rdf:about="#rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_milanese"/>
-  <ingredientOf rdf:resource="#paella"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#jollof_noodles"/>
-  <ingredientOf rdf:resource="#sawa_platter"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <ingredientOf rdf:resource="#sushi"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
-</Rice>
 
 <Rice rdf:about="#grain">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
