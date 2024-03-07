@@ -2901,10 +2901,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Fish>
 
-<Animal rdf:about="#shellfish">
+<Crustaceans rdf:about="#shellfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shellfish</fancyName>
-</Animal>
+</Crustaceans>
 
 <Animal rdf:about="#dairy_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
