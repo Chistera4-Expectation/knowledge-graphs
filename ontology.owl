@@ -4913,6 +4913,7 @@
 <Seed rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
 </Seed>
 
@@ -4979,12 +4980,6 @@
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Shaoxing wine</fancyName>
 </Alcoholic>
-
-<Seed rdf:about="#peanut">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut</fancyName>
-</Seed>
 
 <Vegetable rdf:about="#rice_paper_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
