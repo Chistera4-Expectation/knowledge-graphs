@@ -553,6 +553,8 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of the Sauce class</fancyName>
 </Sauce>
 
@@ -3850,13 +3852,6 @@
   <ingredientOf rdf:resource="#bonsai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Flour</fancyName>
 </Vegetable>
-
-<Sauce rdf:about="#hoisin_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
-</Sauce>
 
 <Alcoholic rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
