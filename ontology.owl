@@ -2872,6 +2872,7 @@
 <Vegetable rdf:about="#shiro_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiro powder</fancyName>
 </Vegetable>
 
@@ -2927,12 +2928,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marjoram</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#coconut_milk_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk powder</fancyName>
 </Vegetable>
 
 <Infusion rdf:about="#lemongrass">
