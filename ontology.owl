@@ -3487,7 +3487,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh mozzarella cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#tomatoes">
+<Fruit rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#minestrone"/>
@@ -3504,7 +3504,7 @@
   <ingredientOf rdf:resource="#chicken_biryani"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#fresh_basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
