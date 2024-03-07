@@ -4446,11 +4446,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Bread>
 
-<Edible rdf:about="#dried_parsley">
+<Spice rdf:about="#dried_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried parsley</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#romaine_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
