@@ -920,6 +920,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli</fancyName>
 </Pasta>
 
+<Cereal rdf:about="#cap_n_crunch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cap'n Crunch</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#apple_jacks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Jacks</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#shredded_wheat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded Wheat</fancyName>
+</Cereal>
+
+<Cereal rdf:about="#raisin_bran_crunch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisin Bran Crunch</fancyName>
+</Cereal>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
