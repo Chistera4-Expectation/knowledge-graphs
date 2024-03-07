@@ -3774,11 +3774,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn syrup</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#sorrel_leaves">
+<Vegetable rdf:about="#sorrel_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sorrel"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorrel leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#wasabi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
