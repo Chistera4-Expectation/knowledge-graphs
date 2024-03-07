@@ -5875,11 +5875,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional additions</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#tortillas">
+<Bread rdf:about="#tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortillas</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#other_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
