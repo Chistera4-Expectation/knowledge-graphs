@@ -3859,6 +3859,7 @@
 <Fruit rdf:about="#plantain">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <ingredientOf rdf:resource="#plantain_chips"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
 </Fruit>
 
@@ -4642,12 +4643,6 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
 </Molluscs>
-
-<Fruit rdf:about="#plantains">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#plantain_chips"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantains</fancyName>
-</Fruit>
 
 <Vegetable rdf:about="#peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
