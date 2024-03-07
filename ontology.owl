@@ -4317,6 +4317,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cioppino Soup</fancyName>
 </Italian>
 
+<Latin rdf:about="#tamales">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamales</fancyName>
+</Latin>
+
+<Latin rdf:about="#tacos_al_pastor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tacos al Pastor</fancyName>
+</Latin>
+
+<Latin rdf:about="#guacamole">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guacamole</fancyName>
+</Latin>
+
+<Latin rdf:about="#enchiladas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enchiladas</fancyName>
+</Latin>
+
+<Latin rdf:about="#bandeja_paisa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bandeja Paisa</fancyName>
+</Latin>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
