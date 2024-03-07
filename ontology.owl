@@ -6630,13 +6630,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
 </Poultry>
 
-<Edible rdf:about="#ghee">
+<Oil rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#scotch_bonnet_pepper_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
