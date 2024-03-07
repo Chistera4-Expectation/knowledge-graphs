@@ -1081,7 +1081,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">**Grasshoppers:** Grass</fancyName>
 </Honey>
 
-<Animal rdf:about="#fish">
+<Fish rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
@@ -1089,7 +1089,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
-</Animal>
+</Fish>
 
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
