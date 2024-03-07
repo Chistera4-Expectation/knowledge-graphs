@@ -1,0 +1,42 @@
+# Cache for query: ingredient list for Szechuan Beef, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Beef flank steak
+
+      2. Soy sauce
+
+      3. Dry sherry or Chinese Shaoxing wine
+
+      4. Cornstarch
+
+      5. Peanut or vegetable oil
+
+      6. Dried red chili peppers
+
+      7. Szechuan peppercorns
+
+      8. Garlic
+
+      9. Ginger
+
+      10. Green onions (scallions)
+
+      11. Sesame oil
+
+      12. Sugar
+
+      13. Salt'
+    role: assistant
+created: 1709800167
+id: chatcmpl-903Pz17qz5euh5Pu47VogtnVBJhIw
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 83
+  prompt_tokens: 27
+  total_tokens: 110
