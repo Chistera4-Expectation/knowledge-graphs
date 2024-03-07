@@ -2383,10 +2383,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan Cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#lactose_free_milk">
+<Milk rdf:about="#lactose_free_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactose-free milk</fancyName>
-</Dairy>
+</Milk>
 
 <Crustaceans rdf:about="#shrimp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
