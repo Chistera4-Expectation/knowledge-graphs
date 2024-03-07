@@ -5069,6 +5069,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine vinegar</fancyName>
 </Edible>
 
+<Edible rdf:about="#grains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#minestrone_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grains</fancyName>
+</Edible>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
