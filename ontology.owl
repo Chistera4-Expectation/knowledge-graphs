@@ -1930,10 +1930,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum</fancyName>
 </Rice>
 
-<Cereal rdf:about="#millet">
+<Rice rdf:about="#millet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Millet</fancyName>
-</Cereal>
+</Rice>
 
 <Cereal rdf:about="#rye">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Millet' among: 'Bread', 'Breakfast Cereal', 'Pasta Types', 'Rice'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Rice'''
+    role: assistant
+created: 1709800329
+id: chatcmpl-903SbkQfeFiX1gG8UGoVQo1G4CYZ5
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 3
+  prompt_tokens: 47
+  total_tokens: 50
