@@ -1660,6 +1660,7 @@
 
 <Cereal rdf:about="#amaranth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Seed"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amaranth</fancyName>
 </Cereal>
 
@@ -1862,6 +1863,46 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorella</fancyName>
 </Seaweed>
+
+<Seed rdf:about="#chia_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chia Seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#flaxseeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flaxseeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#hemp_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemp Seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#sesame_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#pumpkin_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin Seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#sunflower_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunflower Seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#pomegranate_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate Seeds</fancyName>
+</Seed>
+
+<Seed rdf:about="#pine_nuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pine Nuts</fancyName>
+</Seed>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
