@@ -6707,11 +6707,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Thyme</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#shark">
+<Fish rdf:about="#shark">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bake_and_shark"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shark</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#condiments">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
