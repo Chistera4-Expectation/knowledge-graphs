@@ -3490,11 +3490,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon zest</fancyName>
 </Fruit>
 
-<Edible rdf:about="#macaroni_noodles">
+<Pasta rdf:about="#macaroni_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#shredded_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
