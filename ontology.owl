@@ -6923,11 +6923,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Napa cabbage</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#leeks">
+<Vegetable rdf:about="#leeks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leeks</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
