@@ -1,0 +1,45 @@
+# Cache for query: instances list for class Spice, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Certainly! When talking about a class name "Spice" in a programming
+      or culinary context, instances would typically be individual spices. Here''s
+      a list of spice names that could serve as instances for a Spice class:
+
+
+      1. Cinnamon
+
+      2. Turmeric
+
+      3. Cumin
+
+      4. Black Pepper
+
+      5. Cardamom
+
+      6. Clove
+
+      7. Nutmeg
+
+      8. Paprika
+
+      9. Saffron
+
+      10. Ginger
+
+      11. Fenugreek
+
+      '
+    role: assistant
+created: 1709799545
+id: chatcmpl-903FxaDgTiZNI2e0EWOovGsfLOlJd
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
