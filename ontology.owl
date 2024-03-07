@@ -3380,6 +3380,7 @@
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
@@ -4484,12 +4485,6 @@
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crumbs</fancyName>
 </Bread>
-
-<Sweetener rdf:about="#granulated_sugar">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#key_lime_pie"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulated sugar</fancyName>
-</Sweetener>
 
 <Seasoning rdf:about="#lime_zest">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
