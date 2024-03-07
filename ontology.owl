@@ -2656,7 +2656,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#tomato_paste">
+<Vegetable rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -2667,7 +2667,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#palm_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
