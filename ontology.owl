@@ -657,6 +657,21 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss</fancyName>
 </Cheese>
 
+<Milk rdf:about="#whole_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#low_fat_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low Fat Milk</fancyName>
+</Milk>
+
+<Milk rdf:about="#skim_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skim Milk</fancyName>
+</Milk>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
