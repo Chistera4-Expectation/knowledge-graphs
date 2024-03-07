@@ -6959,11 +6959,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nori seaweed</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#shredded_egg_crepe">
+<Breakfast rdf:about="#shredded_egg_crepe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded egg crepe</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#soy_sauce_for_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
