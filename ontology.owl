@@ -7551,11 +7551,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghee for cooking</fancyName>
 </Oil>
 
-<Edible rdf:about="#green_cardamom">
+<Spice rdf:about="#green_cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green cardamom</fancyName>
-</Edible>
+</Spice>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
