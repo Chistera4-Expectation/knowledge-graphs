@@ -1,0 +1,30 @@
+# Cache for query: instances list for class Infusion Drink, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Based on my understanding that you''re seeking examples of infusion
+      drinks without further detail, here is a list of names for potential Infusion
+      Drink instances. Keep in mind, an "Infusion Drink" typically refers to a drink
+      created by steeping ingredients in water (hot or cold) to infuse the water with
+      flavors. This list includes a variety of options from herbal and tea infusions
+      to fruit and spice infused waters.
+
+
+      1. Lemon Ginger Infusion
+
+      2. Cucumber Mint Water
+
+      3.'
+    role: assistant
+created: 1709799724
+id: chatcmpl-903IqvO4DijfimQvRzBKnB1czRpNS
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
