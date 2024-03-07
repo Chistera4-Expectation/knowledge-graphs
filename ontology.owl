@@ -593,6 +593,7 @@
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom</fancyName>
 </Spice>
 
@@ -924,6 +925,7 @@
   <ingredientOf rdf:resource="#banana_pudding"/>
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1319,6 +1321,7 @@
 
 <Seed rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
 </Seed>
 
@@ -2881,6 +2884,7 @@
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
+  <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4142,6 +4146,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minced meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#rose_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#raita"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose water</fancyName>
+</Edible>
+
+<Edible rdf:about="#pistachios">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#raita"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pistachios</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
