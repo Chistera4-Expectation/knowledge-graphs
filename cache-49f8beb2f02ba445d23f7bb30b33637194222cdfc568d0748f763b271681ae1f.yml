@@ -1,0 +1,28 @@
+# Cache for query: ingredient list for Sashimi, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Fresh fish or seafood (e.g., salmon, tuna, mackerel, shrimp)
+
+      2. Soy sauce (optional)
+
+      3. Wasabi (optional)
+
+      4. Pickled ginger (optional)
+
+      5. Daikon radish (optional, as garnish)
+
+      6. Shiso leaves (optional, as garnish)'
+    role: assistant
+created: 1709800094
+id: chatcmpl-903Ooy7nKycMXI3nm780F04DLZFRv
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 67
+  prompt_tokens: 26
+  total_tokens: 93
