@@ -5569,11 +5569,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strong coffee</fancyName>
 </Coffee>
 
-<Edible rdf:about="#cocoa_powder">
+<Sweetener rdf:about="#cocoa_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#optional__marsala_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
