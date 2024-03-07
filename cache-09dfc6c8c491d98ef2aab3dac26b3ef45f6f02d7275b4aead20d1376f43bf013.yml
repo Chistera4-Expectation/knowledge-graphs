@@ -1,0 +1,29 @@
+# Cache for query: instances list for class Milk
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'In the context of nutrition and dietetics, if we consider "Milk" as
+      a class, instances of it could refer to various types of milk derived from different
+      sources, both animal and plant-based. Each type of milk has its unique nutritional
+      profile, benefits, and uses. Here''s a list of instances (types) for the class
+      "Milk":
+
+
+      1. **Cow''s Milk**: The most commonly consumed animal milk, rich in calcium,
+      vitamin D, and protein.
+
+
+      2. **Go'
+    role: assistant
+created: 1709799599
+id: chatcmpl-903Gp9x6JNHE10YubqLD7V9h87BzN
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 100
+  prompt_tokens: 22
+  total_tokens: 122

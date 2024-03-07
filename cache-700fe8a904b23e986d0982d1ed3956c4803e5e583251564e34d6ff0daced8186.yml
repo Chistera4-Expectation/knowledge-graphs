@@ -1,0 +1,30 @@
+# Cache for query: instances list for class Milk, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'If you''re asking for an example of how to create instances of a class
+      `Milk` in programming and want examples of instance names, first, let''s quickly
+      define a basic structure for the class `Milk`. Depending on the programming
+      language being used, the syntax will differ. I''ll use Python for simplicity.
+
+
+      Let''s say the class `Milk` has attributes like `brand`, `fat_content`, and
+      `volume`. A quick definition might look like this:
+
+
+      ```python
+
+      class Milk'
+    role: assistant
+created: 1709799594
+id: chatcmpl-903Gk6FJuDcMUW9oBrtlH0NVnnhFg
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125

@@ -1,0 +1,46 @@
+# Cache for query: examples list for Milk, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Whole Milk
+
+      2. Skim Milk
+
+      3. 2% Reduced-Fat Milk
+
+      4. 1% Low-Fat Milk
+
+      5. Goat Milk
+
+      6. Buffalo Milk
+
+      7. Sheep Milk
+
+      8. A2 Milk
+
+      9. Organic Milk
+
+      10. Raw Milk
+
+      11. Lactose-Free Milk
+
+      12. Flavored Milk (e.g., Chocolate, Strawberry)
+
+      13. Condensed Milk
+
+      14. Evaporated Milk
+
+      15. Powdered'
+    role: assistant
+created: 1709799604
+id: chatcmpl-903GuOLKRuzwwxhJmqzhountoAoHv
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 24
+  total_tokens: 124
