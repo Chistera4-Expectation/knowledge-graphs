@@ -667,6 +667,9 @@
 
 <Spice rdf:about="#clove">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clove</fancyName>
 </Spice>
 
@@ -3709,14 +3712,6 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried Oregano</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
-</Spice>
-
-<Spice rdf:about="#cloves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tacos_al_pastor"/>
-  <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
-  <ingredientOf rdf:resource="#goat_water"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Spice>
 
 <Bread rdf:about="#corn_tortillas">
