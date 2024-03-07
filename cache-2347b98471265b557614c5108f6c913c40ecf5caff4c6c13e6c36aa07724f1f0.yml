@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Black Beans' among: 'Bread', 'Breakfast Cereal', 'Edible Fruit', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Pasta Types', 'Rice'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Edible Seeds'''
+    role: assistant
+created: 1709800342
+id: chatcmpl-903So378iFcJQxxtaOokD5r81cYfp
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 5
+  prompt_tokens: 82
+  total_tokens: 87

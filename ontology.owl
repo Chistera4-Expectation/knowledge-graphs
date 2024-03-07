@@ -2330,11 +2330,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet Potato</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#black_beans">
+<Seed rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gallo_pinto"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Beans</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
