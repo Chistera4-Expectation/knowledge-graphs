@@ -4051,11 +4051,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broccoli</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ground_cinnamon">
+<Breakfast rdf:about="#ground_cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#flora_tea_petals">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
