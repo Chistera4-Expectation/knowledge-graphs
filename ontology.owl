@@ -3978,11 +3978,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#powdered_paprika">
+<Seasoning rdf:about="#powdered_paprika">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered paprika</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
