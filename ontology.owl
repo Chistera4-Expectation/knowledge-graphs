@@ -3330,10 +3330,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum</fancyName>
 </Cereal>
 
-<Cereal rdf:about="#bulgur">
+<Rice rdf:about="#bulgur">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgur</fancyName>
-</Cereal>
+</Rice>
 
 <Cereal rdf:about="#couscous">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
