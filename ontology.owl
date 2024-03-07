@@ -2956,12 +2956,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock cubes</fancyName>
 </Dressing>
 
-<Spice rdf:about="#dried_chilli_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#naija_stew"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried Chilli Pepper</fancyName>
-</Spice>
-
 <Edible rdf:about="#couscous_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous"/>
