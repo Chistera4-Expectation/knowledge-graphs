@@ -786,7 +786,6 @@
   <hasForIngredient rdf:resource="#baking_soda"/>
   <hasForIngredient rdf:resource="#paprika"/>
   <hasForIngredient rdf:resource="#dried_oregano"/>
-  <hasForIngredient rdf:resource="#dried_thyme"/>
   <hasForIngredient rdf:resource="#garlic_cloves"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -2315,14 +2314,9 @@
 
 <Edible rdf:about="#dried_oregano">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
-</Edible>
-
-<Edible rdf:about="#dried_thyme">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried thyme</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
 </Edible>
 
 <Vegetable rdf:about="#garlic_cloves">
