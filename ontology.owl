@@ -1660,6 +1660,91 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taco Salad</fancyName>
 </American>
 
+<Carribean rdf:about="#jerk_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jerk Chicken</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#curry_goat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Goat</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#rice_and_peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice and Peas</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#steamed_bakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed Bakes</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#mango_curry_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango Curry Chicken</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#coconut_chicken_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Chicken Curry</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#curry_shrimp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Shrimp</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#flying_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying Fish</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#bajan_flying_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bajan Flying Fish</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#tabbouleh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tabbouleh</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#johnny_cakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnny Cakes</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#coconut_drop">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Drop</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#banana_pudding">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana Pudding</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#bimini_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bimini Bread</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#guava_jam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava Jam</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#sorrel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorrel</fancyName>
+</Carribean>
+
+<Carribean rdf:about="#banana_fritters">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana Fritters</fancyName>
+</Carribean>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
