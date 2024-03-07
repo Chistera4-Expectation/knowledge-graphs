@@ -2274,6 +2274,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Bread>
 
@@ -2752,12 +2753,6 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Juice>
-
-<Bread rdf:about="#flour_tortilla">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#quesadillas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour tortilla</fancyName>
-</Bread>
 
 <Vegetable rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
