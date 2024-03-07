@@ -1,0 +1,43 @@
+# Cache for query: ingredient list for Biscuits and Gravy, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '**For Biscuits:**
+
+
+      - All-purpose flour
+
+      - Baking powder
+
+      - Salt
+
+      - Butter
+
+      - Milk
+
+
+      **For Gravy:**
+
+
+      - Breakfast sausage
+
+      - All-purpose flour
+
+      - Milk
+
+      - Salt
+
+      - Black pepper'
+    role: assistant
+created: 1709799972
+id: chatcmpl-903Mqd3KDpFu68QVeZiGKEXu5qJRw
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 50
+  prompt_tokens: 29
+  total_tokens: 79
