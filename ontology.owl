@@ -7326,11 +7326,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#sriracha_sauce">
+<Sauce rdf:about="#sriracha_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sriracha sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#beef_shank">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
