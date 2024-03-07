@@ -2384,7 +2384,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron</fancyName>
 </Edible>
 
-<Edible rdf:about="#onion">
+<Vegetable rdf:about="#onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
@@ -2406,7 +2406,7 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
