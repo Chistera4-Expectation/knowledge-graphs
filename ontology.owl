@@ -3993,11 +3993,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#crayfish">
+<Crustaceans rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crayfish</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#locust_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
