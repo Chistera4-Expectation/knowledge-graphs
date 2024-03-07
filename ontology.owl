@@ -7044,11 +7044,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber salad</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#mochi_dough">
+<Vegetable rdf:about="#mochi_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mochi_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mochi dough</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ice_cream_filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
