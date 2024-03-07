@@ -3238,12 +3238,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lasagna noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#italian_sausage">
+<Pork rdf:about="#italian_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian sausage</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
