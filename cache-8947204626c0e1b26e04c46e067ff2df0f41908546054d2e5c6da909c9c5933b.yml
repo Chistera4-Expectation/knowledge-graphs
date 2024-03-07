@@ -1,0 +1,40 @@
+# Cache for query: ingredient list for Beef with Broccoli, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Beef (sliced thinly against the grain)
+
+      2. Broccoli florets
+
+      3. Soy sauce
+
+      4. Garlic (minced)
+
+      5. Ginger (minced)
+
+      6. Beef broth
+
+      7. Cornstarch
+
+      8. Vegetable oil
+
+      9. Sesame oil
+
+      10. Oyster sauce (optional)
+
+      11. Sugar (or honey)
+
+      12. Ground black pepper'
+    role: assistant
+created: 1709800208
+id: chatcmpl-903QevSVnrgg7tPB6BfZhLNHI6O8Z
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 79
+  prompt_tokens: 27
+  total_tokens: 106
