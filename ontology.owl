@@ -1431,11 +1431,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
 </Vegetable>
 
-<Food rdf:about="#peach">
+<Fruit rdf:about="#peach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#pear">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
