@@ -4594,11 +4594,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#gumbo_file">
+<Spice rdf:about="#gumbo_file">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gumbo File</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#apples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
