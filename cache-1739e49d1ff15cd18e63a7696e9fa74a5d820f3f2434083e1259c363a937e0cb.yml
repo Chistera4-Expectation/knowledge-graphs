@@ -1,0 +1,48 @@
+# Cache for query: ingredient list for Stewed Oxtail, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Oxtail pieces
+
+      2. Salt
+
+      3. Black pepper
+
+      4. Cooking oil (e.g., canola, vegetable)
+
+      5. Onions
+
+      6. Garlic
+
+      7. Fresh thyme
+
+      8. Scotch bonnet pepper (optional)
+
+      9. Allspice berries/pimento
+
+      10. Soy sauce
+
+      11. Worcestershire sauce
+
+      12. Tomatoes
+
+      13. Bell peppers
+
+      14. Carrots
+
+      15. Beef broth or water
+
+      16. Butter beans'
+    role: assistant
+created: 1709800074
+id: chatcmpl-903OUf1cn30mwXY1XfrYlqDHYORjW
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 28
+  total_tokens: 128
