@@ -4957,7 +4957,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo shoots</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cornstarch">
+<Seasoning rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
@@ -4970,7 +4970,7 @@
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#napa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
