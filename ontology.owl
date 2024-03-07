@@ -7076,13 +7076,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing Wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#chili_paste">
+<Seasoning rdf:about="#chili_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili paste</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chili paste</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
