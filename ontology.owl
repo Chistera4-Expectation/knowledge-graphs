@@ -4871,10 +4871,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</fancyName>
 </Seed>
 
-<Edible rdf:about="#walnuts">
+<Seed rdf:about="#walnuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walnuts</fancyName>
-</Edible>
+</Seed>
 
 <Italian rdf:about="#margherita_pizza">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
