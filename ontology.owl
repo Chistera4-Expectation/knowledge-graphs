@@ -4260,11 +4260,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheddar cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#_optional__bread_crumbs_for_topping">
+<Bread rdf:about="#_optional__bread_crumbs_for_topping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Bread crumbs for topping</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#buttermilk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
