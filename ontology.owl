@@ -2356,10 +2356,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Below is an example list of instances</fancyName>
 </Fish>
 
-<Food rdf:about="#the_nature_of_the_instances_can_vary_depending_on_the_properties">
+<Vegetable rdf:about="#the_nature_of_the_instances_can_vary_depending_on_the_properties">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The nature of the instances can vary depending on the properties</fancyName>
-</Food>
+</Vegetable>
 
 <Food rdf:about="#methods_defined_within_the__food__class">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
