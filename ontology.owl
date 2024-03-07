@@ -7393,10 +7393,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless, skinless chicken breasts</fancyName>
 </Poultry>
 
-<Edible rdf:about="#thighs">
+<Vegetable rdf:about="#thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fish_fillet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
