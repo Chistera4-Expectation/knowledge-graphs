@@ -6302,11 +6302,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Dressing>
 
-<Edible rdf:about="#dijon_mustard">
+<Seasoning rdf:about="#dijon_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dijon mustard</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cooking_spray">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
