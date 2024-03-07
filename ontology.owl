@@ -7211,11 +7211,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Rolls</fancyName>
 </Rice>
 
-<Edible rdf:about="#turnip_cake">
+<Vegetable rdf:about="#turnip_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turnip Cake</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#beef_balls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
