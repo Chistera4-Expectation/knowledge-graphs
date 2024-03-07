@@ -2351,10 +2351,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creating instances for a class named `Food` essentially involves defining specific food items based on that class</fancyName>
 </Food>
 
-<Food rdf:about="#below_is_an_example_list_of_instances">
+<Fish rdf:about="#below_is_an_example_list_of_instances">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Below is an example list of instances</fancyName>
-</Food>
+</Fish>
 
 <Food rdf:about="#the_nature_of_the_instances_can_vary_depending_on_the_properties">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
