@@ -1,0 +1,50 @@
+# Cache for query: ingredient list for Banku with Grilled Tilapia, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'For Banku with Grilled Tilapia, the ingredient list includes:
+
+
+      ### For Banku:
+
+      - Corn dough
+
+      - Cassava dough
+
+      - Water
+
+      - Salt
+
+
+      ### For Grilled Tilapia:
+
+      - Tilapia (whole or fillets)
+
+      - Lemon juice
+
+      - Ginger
+
+      - Garlic
+
+      - Onion
+
+      - Scotch bonnet peppers or any hot pepper
+
+      - Salt
+
+      - Vegetable oil (optional for brushing the fish)
+
+      - Spices (optional, such as paprika, thyme,'
+    role: assistant
+created: 1709799904
+id: chatcmpl-903LkYC0HfFJtt4yMc3TtS7RB42r1
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 30
+  total_tokens: 130
