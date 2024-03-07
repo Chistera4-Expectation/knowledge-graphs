@@ -650,11 +650,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisin Cane</fancyName>
 </Sweetener>
 
-<Sweetener rdf:about="#rice_syrup">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Syrup</fancyName>
-</Sweetener>
-
 <Sweetener rdf:about="#sorghum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum</fancyName>
