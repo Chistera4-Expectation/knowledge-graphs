@@ -1,0 +1,48 @@
+# Cache for query: ingredient list for Fish Curry, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Fish (e.g., salmon, cod, tilapia)
+
+      2. Onions
+
+      3. Tomatoes
+
+      4. Garlic
+
+      5. Ginger
+
+      6. Green chilies
+
+      7. Cumin seeds
+
+      8. Mustard seeds
+
+      9. Turmeric powder
+
+      10. Coriander powder
+
+      11. Cumin powder
+
+      12. Red chili powder
+
+      13. Tamarind paste or lemon juice
+
+      14. Coconut milk
+
+      15. Cilantro (for garnish)
+
+      '
+    role: assistant
+created: 1709800242
+id: chatcmpl-903RCGZOrFS62guhLIQyqdNc03tpr
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
