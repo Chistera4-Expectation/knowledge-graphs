@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for Tamales, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Masa harina (corn dough flour)
+
+      2. Lard or vegetable shortening
+
+      3. Chicken or pork (cooked and shredded)
+
+      4. Chicken or vegetable broth
+
+      5. Dried corn husks
+
+      6. Baking powder
+
+      7. Salt
+
+      8. Salsa or mole sauce
+
+      9. Onions
+
+      10. Garlic
+
+      11. Cumin
+
+      12. Chile powder or fresh/dried chilies
+
+      13. Oregano
+
+      14. Cheeses (optional'
+    role: assistant
+created: 1709799865
+id: chatcmpl-903L7ozr5XoqedsyqEDF19nihj23l
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126
