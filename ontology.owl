@@ -3929,11 +3929,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#thai_curry_powder">
+<Seasoning rdf:about="#thai_curry_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai curry powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#bean_sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
