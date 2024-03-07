@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Green Tea' among: 'Alcoholic Drink', 'Coffee', 'Drinking Water', 'Edible Vegetal Oil', 'Energy Drink', 'Honey', 'Juice', 'Milk', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Tea
+    role: assistant
+created: 1709800372
+id: chatcmpl-903TIwJnsp04Qd8kau6qz02Nnc854
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 2
+  prompt_tokens: 68
+  total_tokens: 70
