@@ -6971,11 +6971,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce for seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#steamed_white_rice">
+<Rice rdf:about="#steamed_white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed white rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#sushi_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
