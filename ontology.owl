@@ -4379,13 +4379,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liquid Smoke</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#andouille_sausage">
+<Pork rdf:about="#andouille_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andouille Sausage</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andouille sausage</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#chicken_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
