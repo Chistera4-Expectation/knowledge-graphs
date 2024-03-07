@@ -3714,11 +3714,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly chopped parsley</fancyName>
 </Edible>
 
-<Edible rdf:about="#freshly_chopped_mint">
+<Spice rdf:about="#freshly_chopped_mint">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly chopped mint</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#grapefruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
