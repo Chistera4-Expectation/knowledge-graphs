@@ -2479,6 +2479,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
 </Edible>
 
@@ -3385,12 +3386,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galangal</fancyName>
-</Edible>
-
-<Edible rdf:about="#thai_basil">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#red_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai basil</fancyName>
 </Edible>
 
 <Vegetable rdf:about="#buckwheat">
