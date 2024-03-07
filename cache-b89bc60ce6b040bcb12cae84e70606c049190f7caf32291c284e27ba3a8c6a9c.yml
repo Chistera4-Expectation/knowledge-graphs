@@ -1,0 +1,23 @@
+# Cache for query: list of 20 famous Chinese Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Kung Pao Chicken\n2. Peking Duck\n3. Mapo Tofu\n4. Dumplings (Jiaozi)\n\
+      5. Sweet and Sour Pork\n6. Hot and Sour Soup\n7. Char Siu (BBQ Pork)\n8. Egg\
+      \ Fried Rice\n9. Wonton Soup\n10. Szechuan Beef\n11. Spring Rolls\n12. Chow\
+      \ Mein\n13. Ma Po Tofu\n14. Beijing Roast Duck\n15. Mongolian Beef\n16. Dim\
+      \ Sum\n17. Sesame Chicken\n18. Beef with Broccoli\n19. Congee (Rice Porridge)\n\
+      20. Xi\u2019an Famous Foods\u2019 Biang Biang Noodles"
+    role: assistant
+created: 1709799810
+id: chatcmpl-903KEiJwtMaiAqgZppRMEspO90LA1
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 147
+  prompt_tokens: 29
+  total_tokens: 176
