@@ -2299,6 +2299,10 @@
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#stewed_oxtail"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
@@ -4583,15 +4587,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">goat meat</fancyName>
 </Poultry>
-
-<Vegetable rdf:about="#bell_peppers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#run_down"/>
-  <ingredientOf rdf:resource="#stewed_oxtail"/>
-  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
-</Vegetable>
 
 <Beef rdf:about="#beef_tripe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
