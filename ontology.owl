@@ -430,6 +430,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#plantain_chips"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1150,6 +1151,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1176,6 +1178,7 @@
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#corn_on_the_cob"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -3052,6 +3055,7 @@
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Edible>
 
@@ -3157,6 +3161,7 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3321,6 +3326,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <ingredientOf rdf:resource="#gumbo"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3378,6 +3384,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Edible>
 
@@ -3524,6 +3531,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#johnny_cakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 

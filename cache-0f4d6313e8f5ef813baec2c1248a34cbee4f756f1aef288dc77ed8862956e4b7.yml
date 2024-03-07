@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Johnny Cakes, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cornmeal
+
+      2. Flour
+
+      3. Sugar
+
+      4. Baking powder
+
+      5. Salt
+
+      6. Milk (or water for some versions)
+
+      7. Butter (or oil)
+
+      8. Egg (optional, depending on the recipe)'
+    role: assistant
+created: 1709800042
+id: chatcmpl-903NyEAWGHMvI4yHinXp1CtqeE2TV
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 51
+  prompt_tokens: 26
+  total_tokens: 77
