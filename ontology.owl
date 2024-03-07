@@ -2911,7 +2911,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy products</fancyName>
 </Dairy>
 
-<Animal rdf:about="#eggs">
+<Poultry rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
@@ -2925,7 +2925,7 @@
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#game_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
