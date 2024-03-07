@@ -1687,11 +1687,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Water</fancyName>
 </Water>
 
-<Water rdf:about="#herbal_infused_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Infused Water</fancyName>
-</Water>
-
 <Juice rdf:about="#juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#salsa"/>
