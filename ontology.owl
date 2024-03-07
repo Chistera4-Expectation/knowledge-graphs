@@ -7545,11 +7545,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asafoetida</fancyName>
 </Spice>
 
-<Edible rdf:about="#ghee_for_cooking">
+<Oil rdf:about="#ghee_for_cooking">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghee for cooking</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#green_cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
