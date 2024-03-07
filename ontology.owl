@@ -6389,11 +6389,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard-boiled eggs</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#crumbled_feta_cheese">
+<Cheese rdf:about="#crumbled_feta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crumbled feta cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#chives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
