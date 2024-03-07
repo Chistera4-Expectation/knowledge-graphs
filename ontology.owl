@@ -1904,6 +1904,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pine Nuts</fancyName>
 </Seed>
 
+<Vegetable rdf:about="#carrot">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrot</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#broccoli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broccoli</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#spinach">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#kale">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kale</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#tomato">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#bell_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#cauliflower">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cauliflower</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#asparagus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asparagus</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
+</Vegetable>
+
+<Vegetable rdf:about="#cucumber">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
+</Vegetable>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

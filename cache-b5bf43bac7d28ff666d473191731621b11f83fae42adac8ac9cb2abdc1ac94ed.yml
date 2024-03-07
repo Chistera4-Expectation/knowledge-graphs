@@ -1,0 +1,42 @@
+# Cache for query: instances list for class Edible Vegetable, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Here''s a list of instances that could be classified under the "Edible
+      Vegetable" class, focusing solely on their names:
+
+
+      1. Carrot
+
+      2. Broccoli
+
+      3. Spinach
+
+      4. Kale
+
+      5. Tomato (botanically a fruit, but commonly used as a vegetable)
+
+      6. Bell Pepper
+
+      7. Cauliflower
+
+      8. Asparagus
+
+      9. Lettuce
+
+      10. Cucumber (botanically a fruit, but commonly used as a vegetable)
+
+      '
+    role: assistant
+created: 1709799698
+id: chatcmpl-903IQwcz6sgfOoeFL0owG9WmKMCMa
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
