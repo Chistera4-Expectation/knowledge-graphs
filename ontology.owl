@@ -2948,10 +2948,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caviar</fancyName>
 </Crustaceans>
 
-<Animal rdf:about="#gelatin">
+<Crustaceans rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
-</Animal>
+</Crustaceans>
 
 <Breakfast rdf:about="#cheerios">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
