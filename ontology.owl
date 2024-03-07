@@ -4223,11 +4223,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamb shoulder</fancyName>
 </Poultry>
 
-<Edible rdf:about="#merguez_sausages">
+<Pork rdf:about="#merguez_sausages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merguez sausages</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#butternut_squash">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
