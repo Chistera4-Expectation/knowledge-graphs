@@ -1,0 +1,12 @@
+# Cache for query: instances list for class Juice, concise names
+# (api: HuggingAiQuery, model: google/gemma-7b-it, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: "Sure, here's an instance list for a class Juice with concise name:\n\n```python\n\
+  class Juice:\n    def __init__(self, name, ingredients, nutritional_info):\n   \
+  \     self.name = name\n        self.ingredients = ingredients\n        self.nutritional_info\
+  \ = nutritional_info\n\n# Some instances\norange_juice = Juice(\"Orange Juice\"\
+  , [\"Orange\", \"Water\"], {\"Calories\": 100, \"Vitamin C\": 100})\napple_juice\
+  \ = Juice(\"Apple Juice\", [\"Apple\", \"Water\"], {\"Calories\": 90, \"Vitamin\
+  \ C\": 80})\ngrapefruit_juice = Juice(\"Grapefruit Juice\", [\"Grapefruit\", \"\
+  Water\"], {\"Calories\": 80, \"Vitamin C\": 90})\n```"

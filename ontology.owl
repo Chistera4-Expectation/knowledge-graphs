@@ -1315,6 +1315,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full throttle</fancyName>
 </Energy>
 
+<Juice rdf:about="#some_instances">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Some instances</fancyName>
+</Juice>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
