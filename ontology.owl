@@ -362,6 +362,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
 </Dressing>
@@ -393,6 +394,7 @@
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
 </Dressing>
@@ -407,6 +409,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#miso_salmon"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion Powder</fancyName>
 </Dressing>
@@ -778,6 +781,7 @@
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <ingredientOf rdf:resource="#chicken_teriyaki"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1045,6 +1049,7 @@
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#banana_pudding"/>
   <ingredientOf rdf:resource="#bimini_bread"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -1341,6 +1346,7 @@
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#naija_stew"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -2753,6 +2759,7 @@
   <ingredientOf rdf:resource="#bonsai"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3035,6 +3042,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
 </Edible>
 
@@ -3698,6 +3706,7 @@
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -3738,6 +3747,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing rice wine</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#oyster_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#thai_curry_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai curry powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#bean_sprouts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
