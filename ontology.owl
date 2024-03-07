@@ -2644,6 +2644,27 @@
   <ingredientOf rdf:resource="#salsa"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
+  <ingredientOf rdf:resource="#mole_sauce"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#naija_stew"/>
+  <ingredientOf rdf:resource="#jollof_noodles"/>
+  <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
+  <ingredientOf rdf:resource="#curry_shrimp"/>
+  <ingredientOf rdf:resource="#bajan_flying_fish"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
 </Seasoning>
 
@@ -2705,33 +2726,6 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek</fancyName>
 </Seed>
-
-<Seasoning rdf:about="#curry_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#mole_sauce"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#naija_stew"/>
-  <ingredientOf rdf:resource="#jollof_noodles"/>
-  <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
-  <ingredientOf rdf:resource="#ethiopian_tibs"/>
-  <ingredientOf rdf:resource="#west_african_beef_stew"/>
-  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
-  <ingredientOf rdf:resource="#khmer_curry"/>
-  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
-  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#mango_curry_chicken"/>
-  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
-  <ingredientOf rdf:resource="#curry_shrimp"/>
-  <ingredientOf rdf:resource="#bajan_flying_fish"/>
-  <ingredientOf rdf:resource="#red_curry"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Powder</fancyName>
-</Seasoning>
 
 <Seed rdf:about="#soybeans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
