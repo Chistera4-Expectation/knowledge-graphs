@@ -4229,11 +4229,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merguez sausages</fancyName>
 </Pork>
 
-<Edible rdf:about="#butternut_squash">
+<Vegetable rdf:about="#butternut_squash">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butternut squash</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
