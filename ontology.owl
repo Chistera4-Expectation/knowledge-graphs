@@ -683,6 +683,7 @@
 
 <Sauce rdf:about="#potassium_sorbate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potassium sorbate</fancyName>
 </Sauce>
 
@@ -695,12 +696,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric acid</fancyName>
-</Sauce>
-
-<Sauce rdf:about="#sodium_bicarbonate">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#hot_dog"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium bicarbonate</fancyName>
 </Sauce>
 
 <Dressing rdf:about="#sodium_glutamate">
