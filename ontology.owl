@@ -5550,11 +5550,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#other_vegetables_for_variation">
+<Vegetable rdf:about="#other_vegetables_for_variation">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other vegetables for variation</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
