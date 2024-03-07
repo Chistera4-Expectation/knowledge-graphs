@@ -5619,11 +5619,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pecorino Romano cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#_optional__fresh_lemon_juice">
+<Fruit rdf:about="#_optional__fresh_lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pesto_genovese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Fresh lemon juice</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
