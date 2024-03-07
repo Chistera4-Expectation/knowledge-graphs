@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Goat Water, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Goat meat
+
+      2. Water
+
+      3. Breadfruit
+
+      4. Green papaya
+
+      5. Flour (for dumplings)
+
+      6. Carrots
+
+      7. Celery
+
+      8. Thyme
+
+      9. Cloves
+
+      10. Scotch bonnet pepper
+
+      11. Onion
+
+      12. Garlic
+
+      13. Salt
+
+      14. Black pepper
+
+      15. Cooking oil'
+    role: assistant
+created: 1709800069
+id: chatcmpl-903OPXn6wMpy7sJBEerN2orWC0CGb
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 76
+  prompt_tokens: 25
+  total_tokens: 101

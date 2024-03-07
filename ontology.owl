@@ -434,6 +434,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -461,6 +462,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#saltfish_fritters"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -511,6 +513,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -2529,6 +2532,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#saltfish_fritters"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -3130,6 +3134,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -3160,6 +3165,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3351,6 +3357,7 @@
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3362,6 +3369,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Edible>
 
@@ -3421,6 +3429,7 @@
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -3500,6 +3509,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Edible>
 
@@ -3849,6 +3859,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#pepper_pot"/>
   <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
 </Edible>
 
@@ -4391,6 +4402,7 @@
 <Edible rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
 </Edible>
 
@@ -4422,6 +4434,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#saltfish_fritters"/>
+  <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Edible>
 
@@ -4465,6 +4478,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning blend</fancyName>
+</Edible>
+
+<Edible rdf:about="#breadfruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#goat_water"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadfruit</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_papaya">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#goat_water"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green papaya</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
