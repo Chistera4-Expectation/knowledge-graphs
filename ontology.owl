@@ -7283,11 +7283,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#black_vinegar">
+<Seasoning rdf:about="#black_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#sesame_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
