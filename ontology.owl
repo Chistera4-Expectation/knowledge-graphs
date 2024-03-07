@@ -6271,11 +6271,11 @@
   <ingredientOf rdf:resource="#hot_dog"/>
 </Vegetable>
 
-<Edible rdf:about="#macaroni_pasta">
+<Pasta rdf:about="#macaroni_pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni pasta</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#optional__additional_cheese_for_topping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
