@@ -4978,7 +4978,9 @@
 
 <Japanese rdf:about="#teriyaki_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki Chicken</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki chicken</fancyName>
 </Japanese>
 
 <Japanese rdf:about="#sukiyaki">
@@ -4988,7 +4990,9 @@
 
 <Japanese rdf:about="#miso_soup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso Soup</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso soup</fancyName>
 </Japanese>
 
 <Japanese rdf:about="#soba_noodles">
@@ -6664,6 +6668,78 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce for seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#steamed_white_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed white rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#sushi_rolls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rolls</fancyName>
+</Edible>
+
+<Edible rdf:about="#california_rolls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California rolls</fancyName>
+</Edible>
+
+<Edible rdf:about="#inari_sushi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inari sushi</fancyName>
+</Edible>
+
+<Edible rdf:about="#seaweed_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed salad</fancyName>
+</Edible>
+
+<Edible rdf:about="#pickled_vegetables">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled vegetables</fancyName>
+</Edible>
+
+<Edible rdf:about="#fruit_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit salad</fancyName>
+</Edible>
+
+<Edible rdf:about="#steamed_broccoli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed broccoli</fancyName>
+</Edible>
+
+<Edible rdf:about="#grilled_salmon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled salmon</fancyName>
+</Edible>
+
+<Edible rdf:about="#assorted_fruit_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assorted fruit slices</fancyName>
+</Edible>
+
+<Edible rdf:about="#mini_spring_rolls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mini spring rolls</fancyName>
+</Edible>
+
+<Edible rdf:about="#cucumber_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber salad</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
