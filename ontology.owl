@@ -959,6 +959,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#miso_salmon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon</fancyName>
 </Fish>
 
@@ -3598,12 +3599,6 @@
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onion</fancyName>
 </Vegetable>
-
-<Fish rdf:about="#salmon_fillets">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#miso_salmon"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmon fillets</fancyName>
-</Fish>
 
 <Alcoholic rdf:about="#sake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
