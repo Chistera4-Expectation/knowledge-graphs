@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Curry Goat, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Goat meat
+
+      2. Curry powder
+
+      3. Salt
+
+      4. Cooking oil
+
+      5. Onions
+
+      6. Garlic
+
+      7. Scotch bonnet peppers (or other chili peppers)
+
+      8. Fresh thyme
+
+      9. Allspice (pimento berries)
+
+      10. Black pepper
+
+      11. Water or stock (chicken or vegetable)
+
+      12. Potatoes (optional)
+
+      13. Carrots (optional)
+
+      14. Bell peppers (optional)
+
+      15. Scallions (optional'
+    role: assistant
+created: 1709800019
+id: chatcmpl-903NbwJhNGGrOHWAvI6ASwtwLaXwm
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
