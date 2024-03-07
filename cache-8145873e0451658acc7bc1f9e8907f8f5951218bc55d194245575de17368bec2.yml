@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'category' among: 'Animal-derived Food', 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Dairy Product', 'Edible Cereal', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Additive', 'Food Dressing', 'Food Seasoning', 'Food', 'Honey', 'Insect-Derived Food', 'Meat', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Seafood', 'Spice', 'Sweetener', 'Vegetal-derived Food', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '"Food"'
+    role: assistant
+created: 1709800359
+id: chatcmpl-903T5M4RxS3MyWtaM3wiKJHkfcJiY
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 3
+  prompt_tokens: 208
+  total_tokens: 211
