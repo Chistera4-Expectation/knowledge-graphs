@@ -440,6 +440,7 @@
   <ingredientOf rdf:resource="#sorrel"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -1600,6 +1601,7 @@
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#sorrel"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2577,6 +2579,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soybeans</fancyName>
 </Edible>
 
@@ -2710,6 +2713,7 @@
   <ingredientOf rdf:resource="#guava_jam"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2739,6 +2743,7 @@
   <ingredientOf rdf:resource="#corn_chowder"/>
   <ingredientOf rdf:resource="#pot_roast"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -3567,6 +3572,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squid</fancyName>
+</Edible>
+
+<Edible rdf:about="#miso_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso Paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#green_onion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onion</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
