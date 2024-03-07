@@ -6326,11 +6326,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salt pork</fancyName>
 </Pork>
 
-<Edible rdf:about="#oyster_crackers">
+<Bread rdf:about="#oyster_crackers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster crackers</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#ground_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
