@@ -4058,10 +4058,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leek</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#fruits">
+<Fruit rdf:about="#fruits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruits</fancyName>
-</Vegetal>
+</Fruit>
 
 <Vegetal rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
