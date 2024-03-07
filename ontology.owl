@@ -7387,11 +7387,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boiling water</fancyName>
 </Water>
 
-<Edible rdf:about="#boneless__skinless_chicken_breasts">
+<Poultry rdf:about="#boneless__skinless_chicken_breasts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless, skinless chicken breasts</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
