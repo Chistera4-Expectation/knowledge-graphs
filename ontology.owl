@@ -5344,11 +5344,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato puree</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cream">
+<Milk rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#cumin_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
