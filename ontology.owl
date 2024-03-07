@@ -3515,11 +3515,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#pie_crust">
+<Bread rdf:about="#pie_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie Crust</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#pastry_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
