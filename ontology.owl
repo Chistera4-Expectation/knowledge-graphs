@@ -1159,6 +1159,8 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati Rice</fancyName>
 </Rice>
 
@@ -3596,13 +3598,6 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing rice wine</fancyName>
 </Alcoholic>
-
-<Rice rdf:about="#rice_noodles">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#pad_thai"/>
-  <ingredientOf rdf:resource="#pad_see_ew"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice noodles</fancyName>
-</Rice>
 
 <Seasoning rdf:about="#thai_curry_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
