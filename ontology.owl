@@ -2715,10 +2715,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squid</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#octopus">
+<Molluscs rdf:about="#octopus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octopus</fancyName>
-</Seafood>
+</Molluscs>
 
 <Seafood rdf:about="#clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
