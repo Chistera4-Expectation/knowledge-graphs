@@ -7483,11 +7483,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken/vegetable stock</fancyName>
 </Poultry>
 
-<Edible rdf:about="#fried_onions">
+<Vegetable rdf:about="#fried_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cashews">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
