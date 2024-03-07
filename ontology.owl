@@ -1893,7 +1893,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortellini</fancyName>
 </Pasta>
 
-<Cereal rdf:about="#rice">
+<Rice rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gallo_pinto"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -1903,7 +1903,7 @@
   <ingredientOf rdf:resource="#egg_fried_rice"/>
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
-</Cereal>
+</Rice>
 
 <Cereal rdf:about="#wheat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
