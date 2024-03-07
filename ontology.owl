@@ -3312,12 +3312,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overripe bananas</fancyName>
 </Fruit>
 
-<Edible rdf:about="#shortening">
+<Water rdf:about="#shortening">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortening</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#powder_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
