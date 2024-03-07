@@ -6686,11 +6686,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil for frying</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_kidney_beans">
+<Vegetable rdf:about="#red_kidney_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Kidney Beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#scotch_bonnet_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
