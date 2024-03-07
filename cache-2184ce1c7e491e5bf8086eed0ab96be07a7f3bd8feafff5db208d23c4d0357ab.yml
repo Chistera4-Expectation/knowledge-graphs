@@ -1,0 +1,49 @@
+# Cache for query: ingredient list for Meatloaf, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Sure, here''s a basic list of ingredients commonly used to make meatloaf:
+
+
+      1. Ground beef
+
+      2. Eggs
+
+      3. Breadcrumbs
+
+      4. Onion
+
+      5. Garlic
+
+      6. Milk
+
+      7. Worcestershire sauce
+
+      8. Ketchup
+
+      9. Salt
+
+      10. Pepper
+
+      11. Dried parsley (optional)
+
+      12. Dried oregano (optional)
+
+      13. Bell pepper (optional)
+
+      14. Mustard (optional)
+
+      15. Brown sugar ('
+    role: assistant
+created: 1709799980
+id: chatcmpl-903MyExBkBQvapUHllSIwYRA8R1P6
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126
