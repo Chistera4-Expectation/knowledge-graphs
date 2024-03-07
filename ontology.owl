@@ -3867,11 +3867,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
 </Fruit>
 
-<Edible rdf:about="#white_rice">
+<Rice rdf:about="#white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#red_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
