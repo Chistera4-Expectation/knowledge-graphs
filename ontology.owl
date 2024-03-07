@@ -4373,11 +4373,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Dressing>
 
-<Edible rdf:about="#liquid_smoke">
+<Seasoning rdf:about="#liquid_smoke">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#barbecue_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liquid Smoke</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#andouille_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
