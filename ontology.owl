@@ -348,6 +348,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of the Sauce class</fancyName>
 </Sauce>
 
+<Seasoning rdf:about="#basic_savory_seasonings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic Savory Seasonings</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#herbs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#spices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#citrus_flavors">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrus Flavors</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#ethnic_seasoning_blends">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnic Seasoning Blends</fancyName>
+</Seasoning>
+
+<Seasoning rdf:about="#culinary_herbs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Culinary Herbs</fancyName>
+</Seasoning>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
