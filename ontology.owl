@@ -1888,11 +1888,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabbit</fancyName>
 </Poultry>
 
-<Poultry rdf:about="#quail">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail</fancyName>
-</Poultry>
-
 <Poultry rdf:about="#crocodile">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crocodile</fancyName>
