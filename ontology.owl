@@ -544,6 +544,7 @@
 
 <Sauce rdf:about="#instances_of_the_sauce_class">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sawa_platter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of the Sauce class</fancyName>
 </Sauce>
 
@@ -3054,12 +3055,6 @@
   <ingredientOf rdf:resource="#sawa_platter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leafy greens</fancyName>
 </Vegetable>
-
-<Sauce rdf:about="#sawa_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sawa_platter"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sawa sauce</fancyName>
-</Sauce>
 
 <Bread rdf:about="#teff_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
