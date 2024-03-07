@@ -303,6 +303,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <ingredientOf rdf:resource="#rainbow_cake"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -414,6 +415,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#pot_roast"/>
   <ingredientOf rdf:resource="#rainbow_cake"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -442,6 +444,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#pot_roast"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -677,6 +680,7 @@
   <rdf:type rdf:resource="#Chinese"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Wings</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken wings</fancyName>
 </Poultry>
@@ -2097,6 +2101,7 @@
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#rainbow_cake"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2111,6 +2116,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Powder</fancyName>
 </Edible>
@@ -2122,6 +2128,7 @@
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#muffin_top"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Soda</fancyName>
 </Edible>
@@ -2659,6 +2666,7 @@
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -2777,6 +2785,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
 </Edible>
 
 <Edible rdf:about="#pungent_pepper">
@@ -2891,6 +2900,7 @@
   <ingredientOf rdf:resource="#hot_dog"/>
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -2999,6 +3009,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#green_bean_casserole"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Edible>
 
