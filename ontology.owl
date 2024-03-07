@@ -1107,10 +1107,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#humectants">
+<Sweetener rdf:about="#humectants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humectants</fancyName>
-</Additive>
+</Sweetener>
 
 <Beef rdf:about="#angus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
