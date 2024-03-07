@@ -1450,6 +1450,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pollo alla Milanese</fancyName>
 </Italian>
 
+<Latin rdf:about="#paella">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paella</fancyName>
+</Latin>
+
+<Latin rdf:about="#enchiladas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enchiladas</fancyName>
+</Latin>
+
+<Latin rdf:about="#mole_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mole sauce</fancyName>
+</Latin>
+
+<Latin rdf:about="#flan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flan</fancyName>
+</Latin>
+
+<Latin rdf:about="#salsa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</fancyName>
+</Latin>
+
+<Latin rdf:about="#quesadillas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quesadillas</fancyName>
+</Latin>
+
+<Latin rdf:about="#mango_salsa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango salsa</fancyName>
+</Latin>
+
+<Latin rdf:about="#flan_de_coco">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flan de coco</fancyName>
+</Latin>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
