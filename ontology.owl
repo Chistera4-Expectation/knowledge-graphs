@@ -1849,10 +1849,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamb</fancyName>
 </Poultry>
 
-<Meat rdf:about="#veal">
+<Pork rdf:about="#veal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veal</fancyName>
-</Meat>
+</Pork>
 
 <Meat rdf:about="#duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
