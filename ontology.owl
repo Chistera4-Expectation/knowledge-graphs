@@ -5704,7 +5704,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Cornmeal</fancyName>
 </Seed>
 
-<Edible rdf:about="#vegetable_broth">
+<Vegetable rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
@@ -5716,7 +5716,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
