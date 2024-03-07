@@ -3002,13 +3002,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#goat_meat">
+<Meat rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat Meat</fancyName>
-</Edible>
+</Meat>
 
 <Edible rdf:about="#peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
