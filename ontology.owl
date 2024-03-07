@@ -3044,11 +3044,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
 </Fruit>
 
-<Edible rdf:about="#leafy_greens">
+<Vegetable rdf:about="#leafy_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leafy greens</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#sawa_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
