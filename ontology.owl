@@ -2937,11 +2937,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ meats</fancyName>
 </Pork>
 
-<Animal rdf:about="#seafood">
+<Crustaceans rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
-</Animal>
+</Crustaceans>
 
 <Animal rdf:about="#caviar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
