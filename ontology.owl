@@ -7111,11 +7111,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#five_spice_powder">
+<Seasoning rdf:about="#five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#maltose_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
