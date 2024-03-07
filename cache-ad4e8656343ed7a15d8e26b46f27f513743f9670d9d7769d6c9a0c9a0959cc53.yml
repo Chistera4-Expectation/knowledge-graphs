@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Sports Drink' among: 'Alcoholic Drink', 'Coffee', 'Drinking Water', 'Edible Vegetal Oil', 'Energy Drink', 'Honey', 'Juice', 'Milk', 'Tea'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Energy Drink'''
+    role: assistant
+created: 1709800377
+id: chatcmpl-903TNRK9eFCYSQTNw8pJqEoJoYCVE
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 4
+  prompt_tokens: 68
+  total_tokens: 72
