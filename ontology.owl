@@ -7117,11 +7117,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#maltose_syrup">
+<Sweetener rdf:about="#maltose_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose syrup</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#red_chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
