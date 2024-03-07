@@ -2991,7 +2991,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poultry seasoning</fancyName>
 </Poultry>
 
-<Edible rdf:about="#oil">
+<Oil rdf:about="#oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
@@ -3000,7 +3000,7 @@
   <ingredientOf rdf:resource="#banana_fritters"/>
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
