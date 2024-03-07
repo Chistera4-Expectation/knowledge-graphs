@@ -6357,13 +6357,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: herbs</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#spices">
+<Seasoning rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#cooking_thermometer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
