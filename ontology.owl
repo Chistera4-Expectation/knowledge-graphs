@@ -2350,10 +2350,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheddar cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#feta_cheese">
+<Cheese rdf:about="#feta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feta cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
