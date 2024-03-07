@@ -7247,11 +7247,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus Leaf Rice</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#mango_pudding">
+<Fruit rdf:about="#mango_pudding">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango Pudding</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#fried_taro_dumplings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
