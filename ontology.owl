@@ -3960,11 +3960,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wrapper</fancyName>
 </Dressing>
 
-<Edible rdf:about="#szechuan_pepper">
+<Seasoning rdf:about="#szechuan_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szechuan pepper</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#rice_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
