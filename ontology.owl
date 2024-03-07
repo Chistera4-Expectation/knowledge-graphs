@@ -5651,11 +5651,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
 </Animal>
 
-<Edible rdf:about="#dried_oregano">
+<Spice rdf:about="#dried_oregano">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#dried_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
