@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Soy Milk' among: 'Bread', 'Breakfast Cereal', 'Edible Fruit', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Pasta Types', 'Rice'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Edible Vegetal Oil'''
+    role: assistant
+created: 1709800334
+id: chatcmpl-903SgTmGsZVPLPeYSWidROcunQ2zs
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 7
+  prompt_tokens: 83
+  total_tokens: 90
