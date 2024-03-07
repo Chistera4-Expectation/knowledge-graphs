@@ -2695,14 +2695,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
 </Vegetable>
 
-<Vegetable rdf:about="#red_bell_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#salsa"/>
-  <ingredientOf rdf:resource="#flying_fish"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Bell Pepper</fancyName>
-</Vegetable>
-
 <Juice rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#salsa"/>
