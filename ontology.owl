@@ -551,6 +551,7 @@
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -571,6 +572,7 @@
   <ingredientOf rdf:resource="#bake_and_shark"/>
   <ingredientOf rdf:resource="#pumpkin_soup"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -736,6 +738,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -1135,7 +1138,9 @@
 
 <Pork rdf:about="#pork_belly">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Belly</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork belly</fancyName>
 </Pork>
 
 <Pork rdf:about="#bacon">
@@ -1157,6 +1162,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Shoulder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork shoulder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pork shoulder</fancyName>
@@ -1624,7 +1630,9 @@
 
 <Poultry rdf:about="#chicken_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Stock</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken stock</fancyName>
 </Poultry>
 
 <Poultry rdf:about="#turkey_stock">
@@ -3535,6 +3543,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
@@ -3908,6 +3917,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -4688,6 +4698,7 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5808,6 +5819,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
@@ -6004,6 +6016,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
 </Edible>
 
@@ -6333,6 +6346,7 @@
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -6440,6 +6454,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
@@ -6901,6 +6916,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Edible>
 
@@ -6990,6 +7006,7 @@
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
 </Edible>
 
@@ -7122,6 +7139,7 @@
 <Edible rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry sherry</fancyName>
 </Edible>
 
@@ -7177,6 +7195,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled mustard greens</fancyName>
+</Edible>
+
+<Edible rdf:about="#dark_soy_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark soy sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#white_sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#vegetables_of_your_choice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables of your choice</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
