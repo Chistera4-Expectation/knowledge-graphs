@@ -3852,11 +3852,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
 </Rice>
 
-<Edible rdf:about="#sushi_rice">
+<Rice rdf:about="#sushi_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi Rice</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#seaweed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
