@@ -4099,11 +4099,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Products</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#mushrooms">
+<Mushroom rdf:about="#mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
-</Vegetal>
+</Mushroom>
 
 <Vegetal rdf:about="#algae">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
