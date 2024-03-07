@@ -3409,11 +3409,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crumbled bacon</fancyName>
 </Pork>
 
-<Edible rdf:about="#ranch_dressing">
+<Dressing rdf:about="#ranch_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranch dressing</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
