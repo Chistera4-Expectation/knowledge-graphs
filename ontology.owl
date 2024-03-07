@@ -2147,6 +2147,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#pepper_pot"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinach</fancyName>
 </Vegetable>
 
@@ -2196,6 +2197,7 @@
 <Vegetal rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
 </Vegetal>
 
@@ -3460,6 +3462,7 @@
   <ingredientOf rdf:resource="#goat_water"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -4414,6 +4417,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -4653,6 +4657,48 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#thinly_sliced_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
+</Edible>
+
+<Edible rdf:about="#sukiyaki_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sukiyaki sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#nappa_cabbage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nappa cabbage</fancyName>
+</Edible>
+
+<Edible rdf:about="#shiitake_mushrooms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake mushrooms</fancyName>
+</Edible>
+
+<Edible rdf:about="#enoki_mushrooms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enoki mushrooms</fancyName>
+</Edible>
+
+<Edible rdf:about="#shirataki_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shirataki noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#bamboo_shoots">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo shoots</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
