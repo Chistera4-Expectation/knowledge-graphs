@@ -4653,6 +4653,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braised Pork Belly</fancyName>
 </Chinese>
 
+<Indian rdf:about="#butter_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter Chicken</fancyName>
+</Indian>
+
+<Indian rdf:about="#biryani">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biryani</fancyName>
+</Indian>
+
+<Indian rdf:about="#tandoori_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tandoori Chicken</fancyName>
+</Indian>
+
+<Indian rdf:about="#rogan_josh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rogan Josh</fancyName>
+</Indian>
+
+<Indian rdf:about="#aloo_gobi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aloo Gobi</fancyName>
+</Indian>
+
+<Indian rdf:about="#samosas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samosas</fancyName>
+</Indian>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
