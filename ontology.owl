@@ -7289,11 +7289,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#sesame_paste">
+<Seed rdf:about="#sesame_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame paste</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#other_leafy_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
