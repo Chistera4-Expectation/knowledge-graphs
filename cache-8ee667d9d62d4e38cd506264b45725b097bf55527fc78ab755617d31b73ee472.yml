@@ -1,0 +1,11 @@
+# Cache for query: instances list for class Sauce, concise names only
+# (api: HuggingAiQuery, model: google/gemma-7b-it, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: "Sure, here is an example of an instances list for class Sauce with concise\
+  \ names:\n\n```python\nclass Sauce:\n    # ...\n\ninstances = {\n    \"Marinara\"\
+  : Sauce(ingredients=[\"tomatoes\", \"garlic\", \"parmesan cheese\"]),\n    \"Tomato\"\
+  : Sauce(ingredients=[\"tomatoes\", \"onions\", \"garlic\"]),\n    \"Chipotle\":\
+  \ Sauce(ingredients=[\"tomatoes\", \"chipotle pepper\", \"soy sauce\"]),\n    \"\
+  Bolognese\": Sauce(ingredients=[\"meatballs\", \"tomatoes\", \"onions\"]),\n}\n\
+  ```"

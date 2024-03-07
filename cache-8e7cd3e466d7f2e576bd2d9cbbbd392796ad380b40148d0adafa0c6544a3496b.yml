@@ -1,0 +1,14 @@
+# Cache for query: instances list for class Sauce, concise names
+# (api: HuggingAiQuery, model: google/gemma-7b-it, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: "Sure, here's an instances list for the class Sauce, with concise names:\n\n\
+  ```python\nclass Sauce:\n    # Class attributes\n    name: str\n    ingredients:\
+  \ list[str]\n    calories: int\n\n    # Constructor\n    def __init__(self, name,\
+  \ ingredients, calories):\n        self.name = name\n        self.ingredients =\
+  \ ingredients\n        self.calories = calories\n\n# Instances of the Sauce class\n\
+  sauce_1 = Sauce(\"Tomato Sauce\", [\"Tomato paste\", \"Tomato sauce\", \"Garlic\"\
+  , \"Oregano\"], 200)\nsauce_2 = Sauce(\"BBQ Sauce\", [\"Ketchup\", \"Brown sugar\"\
+  , \"Smoked paprika\", \"Worcestershire sauce\"], 150)\nsauce_3 = Sauce(\"Chipotle\
+  \ Mayo\", [\"Mayonnaise\", \"Chipotle powder\", \"Cream\", \"Lime juice\"], 120)\n\
+  ```"
