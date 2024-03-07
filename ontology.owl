@@ -3657,11 +3657,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrowroot flour</fancyName>
 </Edible>
 
-<Edible rdf:about="#pineapple">
+<Fruit rdf:about="#pineapple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#cherries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
