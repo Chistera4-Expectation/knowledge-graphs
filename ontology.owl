@@ -7375,11 +7375,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#vegetables_of_your_choice">
+<Vegetable rdf:about="#vegetables_of_your_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables of your choice</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#boiling_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
