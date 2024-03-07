@@ -2711,9 +2711,9 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intended for consumption. Below are examples of instances that could belong to the `Edible` class, divided into different categories for clarity. Note that for an actual programming implementation, specific attributes</fancyName>
 </Edible>
 
-<Edible rdf:about="#methods">
+<Seasoning rdf:about="#methods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Edible>
+</Seasoning>
 
 <Italian rdf:about="#spaghetti_carbonara">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
