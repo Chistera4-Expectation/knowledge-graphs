@@ -295,6 +295,7 @@
   <ingredientOf rdf:resource="#banana_bread"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -691,6 +692,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1172,6 +1174,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
@@ -2042,6 +2045,7 @@
   <ingredientOf rdf:resource="#banana_bread"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2118,6 +2122,7 @@
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2507,6 +2512,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -2761,12 +2767,14 @@
 <Edible rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Edible>
 
 <Edible rdf:about="#potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -2865,6 +2873,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#pastry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry</fancyName>
+</Edible>
+
+<Edible rdf:about="#seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#gravy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gravy</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
