@@ -4523,6 +4523,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin Soup</fancyName>
 </Carribean>
 
+<Japanese rdf:about="#sushi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#tempura">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#teriyaki_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teriyaki Chicken</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#sukiyaki">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sukiyaki</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#miso_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso Soup</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#soba_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soba Noodles</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#chirashi_don">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chirashi Don</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#bento_box">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bento Box</fancyName>
+</Japanese>
+
+<Japanese rdf:about="#mochi_ice_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mochi Ice Cream</fancyName>
+</Japanese>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
