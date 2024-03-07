@@ -300,6 +300,7 @@
   <ingredientOf rdf:resource="#green_bean_casserole"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <ingredientOf rdf:resource="#muffin_top"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -1262,6 +1263,7 @@
 
 <Food rdf:about="#peach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach</fancyName>
 </Food>
 
@@ -2083,6 +2085,7 @@
   <ingredientOf rdf:resource="#green_bean_casserole"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <ingredientOf rdf:resource="#muffin_top"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2096,6 +2099,7 @@
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#muffin_top"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Powder</fancyName>
 </Edible>
@@ -2551,6 +2555,7 @@
   <ingredientOf rdf:resource="#hot_dog"/>
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <ingredientOf rdf:resource="#muffin_top"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2866,6 +2871,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <ingredientOf rdf:resource="#lemon_meringues"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -2971,6 +2977,7 @@
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#green_bean_casserole"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Edible>
 
@@ -3081,6 +3088,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#pie_crust">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie Crust</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
