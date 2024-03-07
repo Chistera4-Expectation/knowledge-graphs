@@ -604,6 +604,7 @@
 
 <Additive rdf:about="#citric_acid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric acid</fancyName>
 </Additive>
 
@@ -2602,6 +2603,7 @@
   <ingredientOf rdf:resource="#banana_bread"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#muffin_top"/>
+  <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Edible>
 
@@ -2683,6 +2685,7 @@
   <ingredientOf rdf:resource="#coconut_drop"/>
   <ingredientOf rdf:resource="#banana_pudding"/>
   <ingredientOf rdf:resource="#bimini_bread"/>
+  <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3489,6 +3492,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#banana_pudding"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Custard</fancyName>
+</Edible>
+
+<Edible rdf:about="#guava_fruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_jam"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guava fruit</fancyName>
+</Edible>
+
+<Edible rdf:about="#pectin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_jam"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pectin</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#guava_jam"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn syrup</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
