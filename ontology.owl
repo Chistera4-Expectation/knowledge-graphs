@@ -2004,6 +2004,52 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueberries</fancyName>
 </Vegetal>
 
+<Food rdf:about="#creating_instances_for_a_class_named__food__essentially_involves_defining_specific_food_items_based_on_that_class">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creating instances for a class named `Food` essentially involves defining specific food items based on that class</fancyName>
+</Food>
+
+<Food rdf:about="#below_is_an_example_list_of_instances">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Below is an example list of instances</fancyName>
+</Food>
+
+<Food rdf:about="#the_nature_of_the_instances_can_vary_depending_on_the_properties">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The nature of the instances can vary depending on the properties</fancyName>
+</Food>
+
+<Food rdf:about="#methods_defined_within_the__food__class">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methods defined within the `Food` class</fancyName>
+</Food>
+
+<Food rdf:about="#assuming_the_class_captures_basic_attributes_like_name">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assuming the class captures basic attributes like name</fancyName>
+</Food>
+
+<Food rdf:about="#category">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#g">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#fruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#vegetable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Food rdf:about="#maybe_nutritional_details">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maybe nutritional details</fancyName>
+</Food>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
