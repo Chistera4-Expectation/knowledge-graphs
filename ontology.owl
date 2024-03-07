@@ -396,6 +396,7 @@
   <ingredientOf rdf:resource="#couscous"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -649,6 +650,7 @@
 <Meat rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -2035,6 +2037,7 @@
 <Edible rdf:about="#dried_thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried thyme</fancyName>
 </Edible>
 
@@ -2067,6 +2070,7 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2141,6 +2145,7 @@
   <ingredientOf rdf:resource="#naija_stew"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2259,6 +2264,7 @@
   <ingredientOf rdf:resource="#mole_sauce"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Edible>
 
@@ -2301,6 +2307,7 @@
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
 </Edible>
 
@@ -2422,6 +2429,7 @@
 <Edible rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -2446,6 +2454,7 @@
 <Edible rdf:about="#stock_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#naija_stew"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock cubes</fancyName>
 </Edible>
 
@@ -2514,6 +2523,7 @@
 <Edible rdf:about="#plantain">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
 </Edible>
 
@@ -2545,6 +2555,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiro powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#tomato_puree">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato puree</fancyName>
+</Edible>
+
+<Edible rdf:about="#dried_rosemary">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried rosemary</fancyName>
+</Edible>
+
+<Edible rdf:about="#bay_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#vegetable_oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#bell_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#musa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musa</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
