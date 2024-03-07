@@ -6345,11 +6345,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Bread>
 
-<Edible rdf:about="#crushed_crackers">
+<Bread rdf:about="#crushed_crackers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crushed crackers</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#optional__herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
