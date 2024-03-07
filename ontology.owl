@@ -3457,11 +3457,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strong brewed coffee</fancyName>
 </Coffee>
 
-<Edible rdf:about="#ladyfinger_biscuits">
+<Bread rdf:about="#ladyfinger_biscuits">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ladyfinger biscuits</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#mascarpone_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
