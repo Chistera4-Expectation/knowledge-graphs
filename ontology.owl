@@ -3897,11 +3897,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn cake</fancyName>
 </Bread>
 
-<Edible rdf:about="#fried_egg">
+<Poultry rdf:about="#fried_egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried egg</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#red_bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
