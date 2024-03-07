@@ -1,0 +1,40 @@
+# Cache for query: ingredient list for Escovitch Fish, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Fish
+
+      2. Vinegar
+
+      3. Onion
+
+      4. Carrot
+
+      5. Bell pepper
+
+      6. Scotch bonnet pepper
+
+      7. Allspice
+
+      8. Thyme
+
+      9. Garlic
+
+      10. Salt
+
+      11. Black pepper
+
+      12. Vegetable or Olive oil'
+    role: assistant
+created: 1709800046
+id: chatcmpl-903O2M4ugCsGvtTstBUm4G2XRon8k
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 60
+  prompt_tokens: 27
+  total_tokens: 87
