@@ -4332,11 +4332,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
 </Spice>
 
-<Edible rdf:about="#hot_sauce">
+<Sauce rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
