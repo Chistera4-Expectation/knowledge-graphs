@@ -3447,11 +3447,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried dill</fancyName>
 </Edible>
 
-<Edible rdf:about="#green_beans">
+<Vegetable rdf:about="#green_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#green_bean_casserole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#hot_dog_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
