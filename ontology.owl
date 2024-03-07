@@ -485,6 +485,7 @@
   <ingredientOf rdf:resource="#goat_water"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -3445,12 +3446,6 @@
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra-virgin olive oil</fancyName>
 </Oil>
-
-<Spice rdf:about="#freshly_ground_black_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#margherita_pizza"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly ground black pepper</fancyName>
-</Spice>
 
 <Coffee rdf:about="#strong_brewed_coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
