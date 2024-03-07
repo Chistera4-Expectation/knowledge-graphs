@@ -5306,7 +5306,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samosas</fancyName>
 </Indian>
 
-<Edible rdf:about="#flour">
+<Bread rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#focaccia_bread"/>
   <ingredientOf rdf:resource="#cornbread"/>
@@ -5321,7 +5321,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#yeast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
