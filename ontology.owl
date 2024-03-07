@@ -1814,7 +1814,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
 </Pork>
 
-<Meat rdf:about="#chicken">
+<Poultry rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
@@ -1834,7 +1834,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#turkey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
