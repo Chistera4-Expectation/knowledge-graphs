@@ -1799,14 +1799,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinea Fowl Gravy</fancyName>
 </Poultry>
 
-<Meat rdf:about="#beef">
+<Beef rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
-</Meat>
+</Beef>
 
 <Meat rdf:about="#pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
