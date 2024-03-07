@@ -1,0 +1,18 @@
+# Cache for query: in the Food Dressing class, should the instances 'Blue Cheese Dressing' and 'Italian Dressing' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709800837
+id: chatcmpl-903anMxShRJPgLjKklqlx93QXiG54
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 1
+  prompt_tokens: 54
+  total_tokens: 55
