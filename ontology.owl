@@ -3874,11 +3874,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#soy_flour">
+<Vegetable rdf:about="#soy_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bonsai"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Flour</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
