@@ -4733,11 +4733,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Fruit>
 
-<Edible rdf:about="#pimento_berries">
+<Spice rdf:about="#pimento_berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepper_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pimento berries</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#conch_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
