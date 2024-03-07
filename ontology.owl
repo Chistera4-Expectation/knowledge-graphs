@@ -4452,11 +4452,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried parsley</fancyName>
 </Spice>
 
-<Edible rdf:about="#romaine_lettuce">
+<Vegetable rdf:about="#romaine_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romaine lettuce</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#croutons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
