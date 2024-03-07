@@ -4033,11 +4033,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Roll wrapper</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#egg_roll_seasoning">
+<Seasoning rdf:about="#egg_roll_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg roll seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#fillings_of_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
