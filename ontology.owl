@@ -3540,12 +3540,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolks</fancyName>
 </Poultry>
 
-<Edible rdf:about="#egg_white">
+<Animal rdf:about="#egg_white">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rainbow_cake"/>
   <ingredientOf rdf:resource="#coconut_drop"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg white</fancyName>
-</Edible>
+</Animal>
 
 <Edible rdf:about="#cream_of_tartar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
