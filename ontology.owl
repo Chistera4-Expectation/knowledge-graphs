@@ -2694,13 +2694,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Spice>
 
-<Edible rdf:about="#fenugreek">
+<Seed rdf:about="#fenugreek">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#curry_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
