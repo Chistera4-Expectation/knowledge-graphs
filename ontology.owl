@@ -7471,11 +7471,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom pods</fancyName>
 </Spice>
 
-<Edible rdf:about="#mint_leaves">
+<Seasoning rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint leaves</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chicken_vegetable_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
