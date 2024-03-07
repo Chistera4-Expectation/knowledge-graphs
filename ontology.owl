@@ -5575,11 +5575,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocoa powder</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#optional__marsala_wine">
+<Alcoholic rdf:about="#optional__marsala_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Marsala wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#coffee_flavored_liqueur">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
