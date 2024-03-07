@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Tacos al Pastor, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Diced Pineapple
+
+      - Chili Powder
+
+      - Garlic Cloves
+
+      - White Vinegar
+
+      - Achiote Paste
+
+      - Dried Oregano
+
+      - Cumin
+
+      - Salt
+
+      - Cloves
+
+      - Cinnamon
+
+      - Pork Shoulder
+
+      - Corn Tortillas
+
+      - White Onion (diced, for garnish)
+
+      - Fresh Cilantro (chopped, for garnish)
+
+      - Lime Wedges (for serving)'
+    role: assistant
+created: 1709799861
+id: chatcmpl-903L3OfJ6IX6Guoj8dAP6IOd0JvzQ
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 89
+  prompt_tokens: 27
+  total_tokens: 116
