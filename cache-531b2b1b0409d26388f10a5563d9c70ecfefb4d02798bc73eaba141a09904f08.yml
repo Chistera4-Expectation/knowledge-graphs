@@ -1,0 +1,45 @@
+# Cache for query: ingredient list for Hot and Sour Soup, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'Sure, here is a basic ingredient list for Hot and Sour Soup:
+
+
+      1. Chicken broth
+
+      2. Soy sauce
+
+      3. Rice vinegar
+
+      4. White pepper
+
+      5. Tofu
+
+      6. Shiitake mushrooms
+
+      7. Bamboo shoots
+
+      8. Eggs
+
+      9. Cornstarch
+
+      10. Scallions
+
+      11. Sesame oil
+
+      12. Ginger
+
+      13. Garlic'
+    role: assistant
+created: 1709800154
+id: chatcmpl-903PmrDLXlIfkYD5wdPBJsPnSvPhf
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 81
+  prompt_tokens: 27
+  total_tokens: 108
