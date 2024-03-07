@@ -3795,11 +3795,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled Ginger</fancyName>
 </Fruit>
 
-<Edible rdf:about="#squid">
+<Crustaceans rdf:about="#squid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squid</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#miso_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
