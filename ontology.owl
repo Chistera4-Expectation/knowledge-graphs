@@ -4324,13 +4324,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Stock</fancyName>
 </Fish>
 
-<Edible rdf:about="#bay_leaf">
+<Spice rdf:about="#bay_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaf</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#hot_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
