@@ -1,0 +1,20 @@
+# Cache for query: most adequate class for 'Termite Cheese' among: 'Honey'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '"Termite Cheese" would not fit into the "Honey" class, as "Honey" is
+      a natural sweet substance made by bees. Termite Cheese does not share this origin
+      or primary characteristic.'
+    role: assistant
+created: 1709800310
+id: chatcmpl-903SIBaKeGCgvFz4qtEUQd5HCvRzM
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 42
+  prompt_tokens: 33
+  total_tokens: 75
