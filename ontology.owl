@@ -292,6 +292,7 @@
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#couscous"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -382,6 +383,7 @@
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -922,6 +924,7 @@
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2025,6 +2028,7 @@
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2033,12 +2037,14 @@
   <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
 <Edible rdf:about="#baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
 </Edible>
 
@@ -2396,6 +2402,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Edible>
 
@@ -2457,6 +2464,7 @@
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2779,6 +2787,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#overripe_bananas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#banana_bread"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overripe bananas</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
