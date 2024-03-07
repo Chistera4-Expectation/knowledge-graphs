@@ -2681,10 +2681,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Water</fancyName>
 </Juice>
 
-<Liquid rdf:about="#smoothie">
+<Juice rdf:about="#smoothie">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothie</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#sports_drink">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
