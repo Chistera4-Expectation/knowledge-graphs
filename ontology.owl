@@ -1271,12 +1271,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cottage Cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#sour_cream">
+<Yogurt rdf:about="#sour_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
-</Dairy>
+</Yogurt>
 
 <Dairy rdf:about="#cream_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
