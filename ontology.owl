@@ -357,6 +357,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
 </Dressing>
@@ -395,6 +396,7 @@
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#banana_bread"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -419,6 +421,7 @@
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -1176,6 +1179,7 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
@@ -2126,6 +2130,7 @@
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2183,6 +2188,7 @@
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -2517,6 +2523,7 @@
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -2772,6 +2779,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Edible>
 
@@ -2779,6 +2787,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -2919,6 +2928,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranch dressing</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn</fancyName>
+</Edible>
+
+<Edible rdf:about="#bouillon_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon broth</fancyName>
+</Edible>
+
+<Edible rdf:about="#cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
+</Edible>
+
+<Edible rdf:about="#bay_leaf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
+</Edible>
+
+<Edible rdf:about="#dried_dill">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried dill</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
