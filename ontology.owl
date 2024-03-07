@@ -2927,10 +2927,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Poultry>
 
-<Animal rdf:about="#game_meat">
+<Fish rdf:about="#game_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game meat</fancyName>
-</Animal>
+</Fish>
 
 <Animal rdf:about="#organ_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
