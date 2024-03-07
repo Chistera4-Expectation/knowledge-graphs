@@ -5787,11 +5787,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#corn_husks">
+<Vegetable rdf:about="#corn_husks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn husks</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
