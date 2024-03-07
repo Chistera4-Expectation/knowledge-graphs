@@ -3713,13 +3713,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Spice>
 
-<Edible rdf:about="#corn_tortillas">
+<Bread rdf:about="#corn_tortillas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Tortillas</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn tortillas</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#white_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
