@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for Jambalaya, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Onion
+
+      2. Bell Pepper
+
+      3. Celery
+
+      4. Garlic
+
+      5. Tomatoes
+
+      6. Chicken
+
+      7. Andouille Sausage
+
+      8. Rice
+
+      9. Chicken Stock
+
+      10. Shrimp
+
+      11. Cajun Seasoning
+
+      12. Bay Leaves
+
+      13. Thyme
+
+      14. Scallions (for garnish)'
+    role: assistant
+created: 1709799968
+id: chatcmpl-903MmytoK7MUDPsZdXZRW5PuZld1o
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 77
+  prompt_tokens: 27
+  total_tokens: 104
