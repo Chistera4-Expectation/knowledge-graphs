@@ -3809,11 +3809,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chile powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#cheeses">
+<Cheese rdf:about="#cheeses">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheeses</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
