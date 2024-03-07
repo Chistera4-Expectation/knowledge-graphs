@@ -402,6 +402,7 @@
 
 <Sauce rdf:about="#barbecue_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbecue sauce</fancyName>
 </Sauce>
 
@@ -516,6 +517,7 @@
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -535,6 +537,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Seasoning>
@@ -543,6 +546,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion powder</fancyName>
 </Seasoning>
@@ -552,6 +556,7 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -578,6 +583,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cayenne pepper</fancyName>
 </Seasoning>
@@ -766,6 +772,7 @@
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#panzanella_salad"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Spice>
@@ -830,6 +837,7 @@
 
 <Sweetener rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
@@ -992,7 +1000,9 @@
 
 <Pork rdf:about="#pork_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Ribs</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork ribs</fancyName>
 </Pork>
 
 <Pork rdf:about="#pork_belly">
@@ -3273,6 +3283,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
@@ -4383,6 +4394,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#pounded_yam"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5596,6 +5608,7 @@
 <Edible rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
 </Edible>
 
@@ -5614,6 +5627,7 @@
 <Edible rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
 </Edible>
 
@@ -5709,6 +5723,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie crust</fancyName>
+</Edible>
+
+<Edible rdf:about="#apple_cider_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#dijon_mustard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dijon mustard</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooking_spray">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking spray</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
