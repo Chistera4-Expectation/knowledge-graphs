@@ -2299,11 +2299,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Milk</fancyName>
 </Oil>
 
-<Vegetal rdf:about="#lentils">
+<Seed rdf:about="#lentils">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentils</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#chickpeas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
