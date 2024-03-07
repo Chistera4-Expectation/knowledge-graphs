@@ -365,6 +365,7 @@
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -1431,6 +1432,7 @@
 
 <Edible rdf:about="#mango">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
 </Edible>
 
@@ -2072,6 +2074,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -2294,12 +2297,14 @@
 <Edible rdf:about="#red_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
 </Edible>
 
 <Edible rdf:about="#green_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
 </Edible>
 
@@ -2312,6 +2317,7 @@
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Edible>
 
@@ -2325,6 +2331,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#quesadillas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
+</Edible>
+
+<Edible rdf:about="#cilantro">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
+</Edible>
+
+<Edible rdf:about="#sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
