@@ -1,0 +1,42 @@
+# Cache for query: ingredient list for Congee, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Congee is a type of rice porridge or gruel popular in many Asian countries.
+      The ingredient list for a basic congee includes:
+
+
+      1. Rice
+
+      2. Water or Chicken broth
+
+
+      Optional ingredients to add for flavor, nutrition, or variation include:
+
+
+      3. Ginger
+
+      4. Salt
+
+      5. Chicken (or other proteins such as pork, beef, fish)
+
+      6. Green onions (scallions)
+
+      7. Garlic
+
+      8. Mushrooms
+
+      9. Vegetables (like spinach'
+    role: assistant
+created: 1709800215
+id: chatcmpl-903QlDti0uUsZpP7SCkMZGIYP4rPQ
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
