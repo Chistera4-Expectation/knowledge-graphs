@@ -5799,11 +5799,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
 </Pasta>
 
-<Edible rdf:about="#seasonings_for_filling">
+<Seasoning rdf:about="#seasonings_for_filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasonings for filling</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
