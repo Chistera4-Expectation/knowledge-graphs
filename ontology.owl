@@ -361,6 +361,7 @@
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
 </Dressing>
@@ -1383,6 +1384,7 @@
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Food>
 
@@ -2414,6 +2416,7 @@
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
   <ingredientOf rdf:resource="#sorrel"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2789,6 +2792,7 @@
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <ingredientOf rdf:resource="#sorrel"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -3069,6 +3073,7 @@
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
 </Edible>
 
@@ -3692,6 +3697,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -3704,6 +3710,7 @@
 <Edible rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
 </Edible>
 
@@ -3719,6 +3726,18 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground black pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#duck">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
+</Edible>
+
+<Edible rdf:about="#shaoxing_rice_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing rice wine</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
