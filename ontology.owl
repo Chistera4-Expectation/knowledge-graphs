@@ -1189,6 +1189,7 @@
 
 <Molluscs rdf:about="#oyster">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Mushroom"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster</fancyName>
 </Molluscs>
 
@@ -1716,6 +1717,51 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ki</fancyName>
 </Fruit>
+
+<Mushroom rdf:about="#shiitake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#white_button">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Button</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#chanterelle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chanterelle</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#morel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morel</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#king_trumpet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">King Trumpet</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#black_trumpet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Trumpet</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#beech">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beech</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#wood_ear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood Ear</fancyName>
+</Mushroom>
+
+<Mushroom rdf:about="#lion_s_mane">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lion's Mane</fancyName>
+</Mushroom>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">

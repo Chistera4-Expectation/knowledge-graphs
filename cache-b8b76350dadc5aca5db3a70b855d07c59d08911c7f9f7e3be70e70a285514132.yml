@@ -1,0 +1,46 @@
+# Cache for query: instances list for class Edible Mushrooms, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Shiitake
+
+      2. Portobello
+
+      3. Cremini (Baby Bella)
+
+      4. White Button
+
+      5. Oyster
+
+      6. Enoki
+
+      7. Chanterelle
+
+      8. Morel
+
+      9. King Trumpet (King Oyster)
+
+      10. Porcini
+
+      11. Black Trumpet
+
+      12. Maitake (Hen of the Woods)
+
+      13. Beech (Shimeji)
+
+      14. Wood Ear
+
+      15. Lion''s Mane'
+    role: assistant
+created: 1709799684
+id: chatcmpl-903ICZlM72TxLG4O27AKcWYbnkEFn
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 98
+  prompt_tokens: 28
+  total_tokens: 126
