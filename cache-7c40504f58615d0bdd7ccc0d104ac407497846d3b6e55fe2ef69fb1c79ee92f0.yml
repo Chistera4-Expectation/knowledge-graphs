@@ -1,0 +1,42 @@
+# Cache for query: ingredient list for Pigeon Pea Soup, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Pigeon peas
+
+      2. Water or vegetable broth
+
+      3. Onion
+
+      4. Garlic
+
+      5. Carrots
+
+      6. Celery
+
+      7. Tomatoes
+
+      8. Green peppers
+
+      9. Thyme
+
+      10. Bay leaves
+
+      11. Salt
+
+      12. Black pepper
+
+      13. Olive oil or vegetable oil'
+    role: assistant
+created: 1709800083
+id: chatcmpl-903OdO33ICT6NWJj67yzoJdYQGVYV
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 68
+  prompt_tokens: 29
+  total_tokens: 97
