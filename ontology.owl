@@ -3687,11 +3687,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
 </Water>
 
-<Edible rdf:about="#flying_fish_fillets">
+<Fish rdf:about="#flying_fish_fillets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying Fish Fillets</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
