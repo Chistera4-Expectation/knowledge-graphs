@@ -6953,11 +6953,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sashimi-grade fish</fancyName>
 </Fish>
 
-<Edible rdf:about="#nori_seaweed">
+<Seaweed rdf:about="#nori_seaweed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nori seaweed</fancyName>
-</Edible>
+</Seaweed>
 
 <Edible rdf:about="#shredded_egg_crepe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
