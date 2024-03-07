@@ -290,6 +290,7 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
+  <ingredientOf rdf:resource="#couscous"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -369,6 +370,7 @@
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#naija_stew"/>
+  <ingredientOf rdf:resource="#couscous"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -386,6 +388,7 @@
   <ingredientOf rdf:resource="#salsa"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#naija_stew"/>
+  <ingredientOf rdf:resource="#couscous"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -401,6 +404,7 @@
 
 <Seasoning rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#couscous"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
 </Seasoning>
 
@@ -1426,6 +1430,7 @@
   <ingredientOf rdf:resource="#mole_sauce"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#naija_stew"/>
+  <ingredientOf rdf:resource="#couscous"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2411,6 +2416,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#naija_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried Chilli Pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#couscous_grains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#couscous"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couscous grains</fancyName>
+</Edible>
+
+<Edible rdf:about="#vegetable_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#couscous"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
