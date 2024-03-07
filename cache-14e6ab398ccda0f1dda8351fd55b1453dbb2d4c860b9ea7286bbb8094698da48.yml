@@ -1,0 +1,43 @@
+# Cache for query: ingredient list for Minestrone, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Here are the ingredients commonly used in Minestrone:
+
+
+      1. Olive oil
+
+      2. Onion
+
+      3. Garlic
+
+      4. Celery
+
+      5. Carrot
+
+      6. Zucchini
+
+      7. Green beans
+
+      8. Tomatoes (canned or fresh)
+
+      9. Vegetable broth
+
+      10. Kidney beans (canned or soaked and cooked)
+
+      11. White beans (canned or soaked and cooked, e.g., cannellini or Great Northern)
+
+      12. Pasta (small shape'
+    role: assistant
+created: 1709799850
+id: chatcmpl-903KseMTthZaWFC4wjjvKq4lxvPxS
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126
