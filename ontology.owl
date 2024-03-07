@@ -3300,10 +3300,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barley</fancyName>
 </Cereal>
 
-<Cereal rdf:about="#rye">
+<Bread rdf:about="#rye">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye</fancyName>
-</Cereal>
+</Bread>
 
 <Cereal rdf:about="#millet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
