@@ -627,6 +627,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John</fancyName>
 </Butter>
 
+<Cheese rdf:about="#cheddar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheddar</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#edam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edam</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#gouda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gouda</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#parmesan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#ricotta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta</fancyName>
+</Cheese>
+
+<Cheese rdf:about="#swiss">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss</fancyName>
+</Cheese>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
