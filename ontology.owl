@@ -4905,11 +4905,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiso leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#miso_paste">
+<Sauce rdf:about="#miso_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#thinly_sliced_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
