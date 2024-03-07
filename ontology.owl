@@ -855,6 +855,7 @@
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
+  <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Seasoning>
 
@@ -6401,12 +6402,6 @@
   <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef brisket</fancyName>
 </Beef>
-
-<Spice rdf:about="#whole_allspice_berries">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole allspice berries</fancyName>
-</Spice>
 
 <Oil rdf:about="#margarine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
