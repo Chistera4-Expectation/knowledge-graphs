@@ -3403,11 +3403,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Fruit>
 
-<Edible rdf:about="#crumbled_bacon">
+<Pork rdf:about="#crumbled_bacon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crumbled bacon</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#ranch_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
