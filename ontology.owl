@@ -1255,6 +1255,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha tea</fancyName>
 </Tea>
 
+<Infusion rdf:about="#orange_hibiscus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Hibiscus</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#lemon_ginger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Ginger</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#turmeric_honey">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric Honey</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#pomegranate_pomegranate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate Pomegranate</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#peach_rose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach Rose</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#apple_cranberry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Cranberry</fancyName>
+</Infusion>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
