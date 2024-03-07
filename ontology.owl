@@ -6442,7 +6442,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef cubed steak</fancyName>
 </Beef>
 
-<Edible rdf:about="#all_purpose_flour">
+<Bread rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_fried_steak"/>
   <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
@@ -6452,7 +6452,7 @@
   <ingredientOf rdf:resource="#plantains"/>
   <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
