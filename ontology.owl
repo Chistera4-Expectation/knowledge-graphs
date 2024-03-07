@@ -6090,11 +6090,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust beans</fancyName>
 </Seed>
 
-<Edible rdf:about="#scent_leaves">
+<Vegetable rdf:about="#scent_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scent leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#piri_piri_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
