@@ -7501,11 +7501,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
 </Fruit>
 
-<Edible rdf:about="#red_food_coloring">
+<Dressing rdf:about="#red_food_coloring">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red food coloring</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#kashmiri_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
