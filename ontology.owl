@@ -726,6 +726,8 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
+  <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
@@ -3423,13 +3425,6 @@
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry dough</fancyName>
 </Bread>
-
-<Beef rdf:about="#beef_broth">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#pot_roast"/>
-  <ingredientOf rdf:resource="#beef_with_green_peppers"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
-</Beef>
 
 <Poultry rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
