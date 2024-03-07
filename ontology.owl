@@ -884,6 +884,8 @@
 <Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#sesame_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
 </Poultry>
 
@@ -4960,13 +4962,6 @@
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Udon noodles</fancyName>
 </Pasta>
-
-<Poultry rdf:about="#chicken_breasts">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#katsu_curry"/>
-  <ingredientOf rdf:resource="#sesame_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breasts</fancyName>
-</Poultry>
 
 <Bread rdf:about="#panko_breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
