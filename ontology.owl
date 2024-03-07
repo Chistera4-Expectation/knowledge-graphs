@@ -4073,11 +4073,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Spice>
 
-<Edible rdf:about="#white_maize_meal">
+<Bread rdf:about="#white_maize_meal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White maize meal</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#green_bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
