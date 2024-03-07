@@ -1,0 +1,37 @@
+# Cache for query: ingredient list for Biltong, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Biltong typically consists of the following ingredients:
+
+
+      1. Beef (or other meats like venison)
+
+      2. Salt
+
+      3. Coriander (seeds or ground)
+
+      4. Black pepper
+
+      5. Vinegar (typically apple cider or malt vinegar)
+
+      6. Optional: Sugar (for balancing flavors)
+
+      7. Optional: Baking soda (used in some recipes for tenderizing)
+
+      8. Optional: Garlic or garlic powder
+
+      9. Optional: Chili flakes or cayenne pepper for'
+    role: assistant
+created: 1709799919
+id: chatcmpl-903LzSmkosUgJtr6PZAbpnBgQRCTW
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126

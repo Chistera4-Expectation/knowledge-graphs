@@ -406,6 +406,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
+  <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -417,6 +418,7 @@
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
+  <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -515,6 +517,7 @@
 <Seasoning rdf:about="#coriander">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Seasoning>
 
@@ -819,6 +822,7 @@
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
+  <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -3588,6 +3592,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
+</Edible>
+
+<Edible rdf:about="#vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biltong"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional__sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biltong"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biltong"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional__baking_soda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#biltong"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Baking soda</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
