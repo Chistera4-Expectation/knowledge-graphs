@@ -1891,10 +1891,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrich</fancyName>
 </Poultry>
 
-<Meat rdf:about="#crocodile">
+<Poultry rdf:about="#crocodile">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crocodile</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#kangaroo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
