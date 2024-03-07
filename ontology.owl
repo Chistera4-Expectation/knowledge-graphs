@@ -2228,6 +2228,7 @@
 <Vegetable rdf:about="#lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
 </Vegetable>
 
@@ -3547,6 +3548,7 @@
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#egg_fried_rice"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -4001,6 +4003,7 @@
 <Edible rdf:about="#fresh_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
 </Edible>
 
@@ -4884,6 +4887,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
 </Edible>
 
@@ -5015,6 +5019,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szechuan peppercorns</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_paper_wrappers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper wrappers</fancyName>
+</Edible>
+
+<Edible rdf:about="#cooked_shrimp">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked shrimp</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_vermicelli_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vermicelli noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#cucumbers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
+</Edible>
+
+<Edible rdf:about="#bean_sprouts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
+</Edible>
+
+<Edible rdf:about="#peanut_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut sauce</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
