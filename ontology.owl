@@ -298,6 +298,7 @@
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#green_bean_casserole"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -796,6 +797,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#green_bean_casserole"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -2072,6 +2074,7 @@
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#green_bean_casserole"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2162,6 +2165,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Edible>
 
@@ -2929,6 +2933,7 @@
 <Edible rdf:about="#seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning</fancyName>
 </Edible>
 
@@ -3034,6 +3039,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon zest</fancyName>
+</Edible>
+
+<Edible rdf:about="#macaroni_noodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#shredded_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded cheese</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
