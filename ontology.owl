@@ -4085,7 +4085,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cooking_oil">
+<Oil rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <ingredientOf rdf:resource="#curry_goat"/>
@@ -4097,7 +4097,7 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#fresh_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
