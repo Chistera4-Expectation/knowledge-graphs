@@ -6210,11 +6210,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#beef_patties">
+<Beef rdf:about="#beef_patties">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beef patties</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#hamburger_buns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
