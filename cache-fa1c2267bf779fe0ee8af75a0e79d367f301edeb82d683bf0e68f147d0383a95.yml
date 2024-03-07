@@ -1,0 +1,40 @@
+# Cache for query: ingredient list for Conch Fritters, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Conch meat
+
+      2. All-purpose flour
+
+      3. Baking powder
+
+      4. Salt
+
+      5. Black pepper
+
+      6. Cayenne pepper
+
+      7. Milk
+
+      8. Egg
+
+      9. Onion
+
+      10. Green bell pepper
+
+      11. Garlic
+
+      12. Vegetable oil (for frying)'
+    role: assistant
+created: 1709800029
+id: chatcmpl-903Nl6a6dzmBOqidz2w63ayDOnsau
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 63
+  prompt_tokens: 28
+  total_tokens: 91
