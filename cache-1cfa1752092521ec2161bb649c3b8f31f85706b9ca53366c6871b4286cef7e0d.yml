@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Cornbread, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cornmeal
+
+      2. Flour
+
+      3. Sugar
+
+      4. Baking powder
+
+      5. Salt
+
+      6. Milk
+
+      7. Eggs
+
+      8. Vegetable oil or melted butter'
+    role: assistant
+created: 1709799944
+id: chatcmpl-903MOWSTZR5kRbn13eRANpjQgMdj6
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 38
+  prompt_tokens: 25
+  total_tokens: 63
