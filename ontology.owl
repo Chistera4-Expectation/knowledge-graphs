@@ -4049,11 +4049,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#corn_dough">
+<Bread rdf:about="#corn_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn dough</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#cassava_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
