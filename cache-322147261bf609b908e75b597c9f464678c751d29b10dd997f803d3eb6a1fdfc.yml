@@ -1,0 +1,11 @@
+# Cache for query: instances list for class Tea, concise names
+# (api: HuggingAiQuery, model: google/gemma-7b-it, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: "Sure, here's an instance list for class Tea with concise names:\n\n```python\n\
+  class Tea:\n    def __init__(self, name, flavor, caffeine_content):\n        self.name\
+  \ = name\n        self.flavor = flavor\n        self.caffeine_content = caffeine_content\n\
+  \ninstances_tea = {\n    \"Earl Grey\": Tea(\"Earl Grey\", \"Bergamot\", 30),\n\
+  \    \"Green Tea\": Tea(\"Green Tea\", \"None\", 20),\n    \"Black Tea\": Tea(\"\
+  Black Tea\", \"None\", 40),\n    \"Rooibos Tea\": Tea(\"Rooibos Tea\", \"None\"\
+  , 0)\n}\n```"

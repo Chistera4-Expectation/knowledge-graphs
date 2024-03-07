@@ -1215,6 +1215,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold Brew</fancyName>
 </Coffee>
 
+<Tea rdf:about="#green_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#white_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#black_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#rooibos_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rooibos tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#jasmine_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasmine tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#earl_grey_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earl Grey tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#pu_erh_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pu-erh tea</fancyName>
+</Tea>
+
+<Tea rdf:about="#matcha_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha tea</fancyName>
+</Tea>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
