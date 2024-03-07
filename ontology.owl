@@ -7038,11 +7038,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mini spring rolls</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#cucumber_salad">
+<Vegetable rdf:about="#cucumber_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber salad</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#mochi_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
