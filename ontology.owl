@@ -6249,10 +6249,10 @@
   <ingredientOf rdf:resource="#hot_dog"/>
 </Bread>
 
-<Edible rdf:about="#relish">
+<Seasoning rdf:about="#relish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chili">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
