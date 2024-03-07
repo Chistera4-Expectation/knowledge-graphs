@@ -1838,6 +1838,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walnut Oil</fancyName>
 </Oil>
 
+<Seaweed rdf:about="#dulse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dulse</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#arame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arame</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#sea_lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Lettuce</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#agar_agar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agar-agar</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#chlorella">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorella</fancyName>
+</Seaweed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
