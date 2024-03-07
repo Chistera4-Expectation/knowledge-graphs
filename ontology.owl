@@ -6259,12 +6259,12 @@
   <ingredientOf rdf:resource="#hot_dog"/>
 </Vegetable>
 
-<Edible rdf:about="#sauerkraut">
+<Vegetable rdf:about="#sauerkraut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauerkraut</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#jalapenos">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
