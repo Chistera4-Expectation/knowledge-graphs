@@ -2650,11 +2650,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortillas</fancyName>
 </Bread>
 
-<Edible rdf:about="#red_sauce">
+<Sauce rdf:about="#red_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
