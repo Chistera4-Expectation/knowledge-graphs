@@ -3885,11 +3885,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried pork belly</fancyName>
 </Pork>
 
-<Edible rdf:about="#plantain">
+<Fruit rdf:about="#plantain">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#corn_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
