@@ -6813,7 +6813,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#rice_vinegar">
+<Seasoning rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
@@ -6824,7 +6824,7 @@
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#sushi_grade_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
