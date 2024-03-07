@@ -439,6 +439,7 @@
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#sorrel"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -1598,6 +1599,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#sorrel"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2173,6 +2175,7 @@
   <ingredientOf rdf:resource="#banana_pudding"/>
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2193,6 +2196,7 @@
   <ingredientOf rdf:resource="#banana_pudding"/>
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Powder</fancyName>
 </Edible>
@@ -2208,6 +2212,7 @@
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#coconut_drop"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Soda</fancyName>
 </Edible>
@@ -2905,6 +2910,7 @@
 <Edible rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
 
@@ -3062,6 +3068,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#coconut_drop"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -3174,6 +3181,7 @@
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Edible>
 
@@ -3413,6 +3421,7 @@
 <Edible rdf:about="#rice_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
+  <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
 </Edible>
 
