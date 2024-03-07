@@ -1041,10 +1041,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geoduck</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#scallops">
+<Crustaceans rdf:about="#scallops">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallops</fancyName>
-</Seafood>
+</Crustaceans>
 
 <Seafood rdf:about="#oysters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
