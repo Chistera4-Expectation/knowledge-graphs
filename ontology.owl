@@ -3176,11 +3176,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#cheese_filling">
+<Cheese rdf:about="#cheese_filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese Filling</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#ricotta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
