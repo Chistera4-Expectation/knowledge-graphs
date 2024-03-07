@@ -1266,6 +1266,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Cheese>
 
@@ -3805,12 +3806,6 @@
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chile powder</fancyName>
 </Spice>
-
-<Cheese rdf:about="#cheeses">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tamales"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheeses</fancyName>
-</Cheese>
 
 <Vegetable rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
