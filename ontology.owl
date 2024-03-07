@@ -1861,10 +1861,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
 </Poultry>
 
-<Meat rdf:about="#goose">
+<Poultry rdf:about="#goose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goose</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#bison">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
