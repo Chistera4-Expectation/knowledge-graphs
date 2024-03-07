@@ -6013,11 +6013,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#bouillon_cube">
+<Seasoning rdf:about="#bouillon_cube">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon cube</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
