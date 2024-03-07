@@ -5255,11 +5255,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yeast</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#broccoli_florets">
+<Vegetable rdf:about="#broccoli_florets">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broccoli florets</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
