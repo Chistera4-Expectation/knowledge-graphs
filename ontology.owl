@@ -706,10 +706,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Benzoate</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#monosodium_glutamate">
+<Seasoning rdf:about="#monosodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium Glutamate</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#xanthan_gum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
