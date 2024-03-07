@@ -4210,12 +4210,38 @@
 <Drink rdf:about="#sports_drink">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports drink</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports Drink</fancyName>
 </Drink>
 
 <Drink rdf:about="#energy_drink">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy drink</fancyName>
 </Drink>
+
+<Liquid rdf:about="#protein_shake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein Shake</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#electrolyte_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte Drink</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#vegetable_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Juice</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#infused_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused Tea</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#nut_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nut Milk</fancyName>
+</Liquid>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
