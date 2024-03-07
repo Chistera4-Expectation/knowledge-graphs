@@ -1150,6 +1150,10 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
+  <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#bonsai"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati Rice</fancyName>
 </Rice>
 
@@ -3366,16 +3370,6 @@
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
-
-<Rice rdf:about="#rice_flour">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#steamed_bakes"/>
-  <ingredientOf rdf:resource="#tempura"/>
-  <ingredientOf rdf:resource="#bonsai"/>
-  <ingredientOf rdf:resource="#dim_sum"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Flour</fancyName>
-</Rice>
 
 <Edible rdf:about="#arrowroot_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
