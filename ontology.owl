@@ -7096,11 +7096,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Flakes</fancyName>
 </Spice>
 
-<Edible rdf:about="#pineapple_chunks">
+<Fruit rdf:about="#pineapple_chunks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple chunks</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
