@@ -349,6 +349,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Dressing>
 
@@ -1144,6 +1145,7 @@
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
 </Oil>
 
@@ -1252,6 +1254,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
@@ -2284,6 +2287,7 @@
   <ingredientOf rdf:resource="#corn_chowder"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -2315,6 +2319,7 @@
   <ingredientOf rdf:resource="#pot_roast"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2369,6 +2374,7 @@
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#pot_roast"/>
   <ingredientOf rdf:resource="#taco_salad"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2443,6 +2449,7 @@
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Edible>
 
@@ -2494,6 +2501,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Powder</fancyName>
 </Edible>
@@ -2633,6 +2641,7 @@
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Milk</fancyName>
 </Edible>
@@ -2652,6 +2661,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Edible>
 
@@ -2736,6 +2746,7 @@
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
 </Edible>
 
@@ -2831,6 +2842,7 @@
 <Edible rdf:about="#chicken_thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken thighs</fancyName>
 </Edible>
 
@@ -2934,6 +2946,7 @@
 <Edible rdf:about="#green_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Edible>
 
@@ -3335,6 +3348,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock</fancyName>
+</Edible>
+
+<Edible rdf:about="#coconut_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
