@@ -1778,10 +1778,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Wheat Bread</fancyName>
 </Bread>
 
-<Edible rdf:about="#brown_rice_flour">
+<Rice rdf:about="#brown_rice_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown Rice Flour</fancyName>
-</Edible>
+</Rice>
 
 <Italian rdf:about="#risotto_milanese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
