@@ -3726,11 +3726,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapefruit</fancyName>
 </Fruit>
 
-<Edible rdf:about="#pomegranate">
+<Fruit rdf:about="#pomegranate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#granulated_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
