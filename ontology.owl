@@ -7513,12 +7513,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri chili powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#coriander_powder">
+<Spice rdf:about="#coriander_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cumin_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
