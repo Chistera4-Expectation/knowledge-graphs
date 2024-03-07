@@ -6795,11 +6795,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habanero peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#unsweetened_shrimp_flakes">
+<Crustaceans rdf:about="#unsweetened_shrimp_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsweetened shrimp flakes</fancyName>
-</Edible>
+</Crustaceans>
 
 <Edible rdf:about="#shredded_coconut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
