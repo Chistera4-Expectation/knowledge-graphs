@@ -1940,11 +1940,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rye</fancyName>
 </Bread>
 
-<Cereal rdf:about="#amaranth">
+<Seed rdf:about="#amaranth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Seed"/>
+  <rdf:type rdf:resource="#Breakfast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amaranth</fancyName>
-</Cereal>
+</Seed>
 
 <Fruit rdf:about="#apple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
