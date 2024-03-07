@@ -3521,11 +3521,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie Crust</fancyName>
 </Bread>
 
-<Edible rdf:about="#pastry_dough">
+<Bread rdf:about="#pastry_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry dough</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
