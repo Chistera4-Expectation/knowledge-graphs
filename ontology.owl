@@ -2389,10 +2389,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable</fancyName>
 </Vegetable>
 
-<Food rdf:about="#maybe_nutritional_details">
+<Vegetable rdf:about="#maybe_nutritional_details">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maybe nutritional details</fancyName>
-</Food>
+</Vegetable>
 
 <Alcoholic rdf:about="#beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

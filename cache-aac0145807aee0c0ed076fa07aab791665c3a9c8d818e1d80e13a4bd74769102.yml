@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'maybe nutritional details' among: 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Dressing', 'Food Seasoning', 'Honey', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Edible Vegetable'''
+    role: assistant
+created: 1709800364
+id: chatcmpl-903TApm7X7xvo6pawmIpQekXWB327
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 5
+  prompt_tokens: 163
+  total_tokens: 168
