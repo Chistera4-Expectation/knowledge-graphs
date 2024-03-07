@@ -1449,6 +1449,7 @@
 <Pasta rdf:about="#pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
 </Pasta>
 
@@ -2474,12 +2475,6 @@
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
 </Edible>
-
-<Pasta rdf:about="#penne_pasta">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#penne_alla_vodka"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penne pasta</fancyName>
-</Pasta>
 
 <Alcoholic rdf:about="#vodka">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
