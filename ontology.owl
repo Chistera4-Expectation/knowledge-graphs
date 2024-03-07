@@ -1367,6 +1367,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelatin</fancyName>
 </Animal>
 
+<Breakfast rdf:about="#cheerios">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheerios</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#frosted_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frosted Flakes</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#corn_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn Flakes</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#froot_loops">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Froot Loops</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#lucky_charms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucky Charms</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#raisin_bran">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisin Bran</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#special_k">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special K</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#coco_pops">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coco Pops</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#shredded_wheat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded Wheat</fancyName>
+</Breakfast>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
