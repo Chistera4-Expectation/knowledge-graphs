@@ -285,7 +285,6 @@
 
 <Dressing rdf:about="#butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
@@ -382,7 +381,6 @@
 
 <Dressing rdf:about="#lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
@@ -395,7 +393,6 @@
 
 <Dressing rdf:about="#garlic_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#enchiladas"/>
@@ -422,7 +419,6 @@
 
 <Dressing rdf:about="#onion_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
@@ -438,7 +434,6 @@
 
 <Dressing rdf:about="#salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
@@ -500,7 +495,6 @@
 <Dressing rdf:about="#pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
@@ -774,18 +768,24 @@
 
 <Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
-</Poultry>
-
-<Poultry rdf:about="#chicken_wings">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Chinese"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Wings</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken wings</fancyName>
+  <hasForIngredient rdf:resource="#butter"/>
+  <hasForIngredient rdf:resource="#lemon_juice"/>
+  <hasForIngredient rdf:resource="#garlic_powder"/>
+  <hasForIngredient rdf:resource="#onion_powder"/>
+  <hasForIngredient rdf:resource="#salt"/>
+  <hasForIngredient rdf:resource="#pepper"/>
+  <hasForIngredient rdf:resource="#chicken_breast"/>
+  <hasForIngredient rdf:resource="#flour"/>
+  <hasForIngredient rdf:resource="#baking_powder"/>
+  <hasForIngredient rdf:resource="#baking_soda"/>
+  <hasForIngredient rdf:resource="#paprika"/>
+  <hasForIngredient rdf:resource="#dried_oregano"/>
+  <hasForIngredient rdf:resource="#dried_thyme"/>
+  <hasForIngredient rdf:resource="#garlic_cloves"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
 </Poultry>
 
 <Poultry rdf:about="#turkey_breast">
@@ -2268,7 +2268,6 @@
 
 <Bread rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
@@ -2297,7 +2296,6 @@
 
 <Bread rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#banana_bread"/>
@@ -2319,7 +2317,6 @@
 
 <Additive rdf:about="#baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#banana_bread"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
@@ -2335,7 +2332,6 @@
 
 <Spice rdf:about="#paprika">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hot_dog"/>
@@ -2344,13 +2340,11 @@
 
 <Edible rdf:about="#dried_oregano">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
 </Edible>
 
 <Edible rdf:about="#dried_thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried thyme</fancyName>
@@ -2358,7 +2352,6 @@
 
 <Vegetable rdf:about="#garlic_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
 </Vegetable>
 
