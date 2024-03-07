@@ -6866,11 +6866,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Batter</fancyName>
 </Bread>
 
-<Edible rdf:about="#grated_daikon_radish">
+<Vegetable rdf:about="#grated_daikon_radish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grated daikon radish</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#grated_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
