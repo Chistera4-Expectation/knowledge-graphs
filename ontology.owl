@@ -3343,13 +3343,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery Powder</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#black_pepper">
+<Spice rdf:about="#black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#wings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
