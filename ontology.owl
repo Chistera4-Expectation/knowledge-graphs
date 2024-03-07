@@ -4063,11 +4063,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruits</fancyName>
 </Fruit>
 
-<Vegetal rdf:about="#vegetables">
+<Vegetable rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#legumes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
