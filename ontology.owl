@@ -4469,10 +4469,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach Thyme Infusion</fancyName>
 </Tea>
 
-<Infusion rdf:about="#raspberry_sage_infusion">
+<Tea rdf:about="#raspberry_sage_infusion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raspberry Sage Infusion</fancyName>
-</Infusion>
+</Tea>
 
 <Infusion rdf:about="#grapefruit_rose_infusion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
