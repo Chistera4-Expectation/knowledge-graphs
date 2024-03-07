@@ -4069,11 +4069,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange blossom extract</fancyName>
 </Edible>
 
-<Edible rdf:about="#chicken_drumsticks">
+<Poultry rdf:about="#chicken_drumsticks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken drumsticks</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#tandoori_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
