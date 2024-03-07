@@ -4322,6 +4322,7 @@
   <ingredientOf rdf:resource="#mongolian_beef"/>
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Vegetable>
 
@@ -4589,12 +4590,6 @@
   <ingredientOf rdf:resource="#egg_fried_rice"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#scallion">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallion</fancyName>
 </Vegetable>
 
 <Fish rdf:about="#flying_fish_fillets">
