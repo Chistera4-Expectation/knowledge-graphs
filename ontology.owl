@@ -3426,12 +3426,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#pizza_dough">
+<Bread rdf:about="#pizza_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza dough</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
