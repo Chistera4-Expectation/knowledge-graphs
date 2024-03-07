@@ -411,6 +411,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -438,6 +439,7 @@
   <ingredientOf rdf:resource="#corn_chowder"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -701,6 +703,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Meat>
 
@@ -1208,6 +1211,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery</fancyName>
 </Vegetable>
 
@@ -2266,6 +2270,7 @@
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2318,6 +2323,7 @@
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -2583,6 +2589,7 @@
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -2849,6 +2856,7 @@
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -3110,6 +3118,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry dough</fancyName>
+</Edible>
+
+<Edible rdf:about="#beef_broth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pot_roast"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
