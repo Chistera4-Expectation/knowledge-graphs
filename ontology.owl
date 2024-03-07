@@ -1390,6 +1390,7 @@
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#kebabs"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
@@ -2547,12 +2548,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced onion</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#diced_green_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#enchiladas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced green pepper</fancyName>
 </Vegetable>
 
 <Seasoning rdf:about="#chili_powder">
