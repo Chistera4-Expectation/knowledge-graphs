@@ -2338,11 +2338,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#mascarpone_cheese">
+<Cheese rdf:about="#mascarpone_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#cheddar_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
