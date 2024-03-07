@@ -711,10 +711,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium Glutamate</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#xanthan_gum">
+<Dressing rdf:about="#xanthan_gum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthan Gum</fancyName>
-</Additive>
+</Dressing>
 
 <Additive rdf:about="#lecithin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
