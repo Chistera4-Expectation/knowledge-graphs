@@ -311,6 +311,7 @@
 <Dressing rdf:about="#blue_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Cheese"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue Cheese</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue cheese</fancyName>
 </Dressing>
@@ -342,6 +343,7 @@
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Dressing>
 
@@ -1033,6 +1035,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
 </Pork>
 
@@ -1082,7 +1085,9 @@
 
 <Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
 </Poultry>
 
 <Poultry rdf:about="#turkey_breast">
@@ -4994,6 +4999,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -5478,7 +5484,9 @@
 <Edible rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
 </Edible>
 
 <Edible rdf:about="#white_rice">
@@ -5855,6 +5863,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking thermometer</fancyName>
+</Edible>
+
+<Edible rdf:about="#romaine_lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romaine lettuce</fancyName>
+</Edible>
+
+<Edible rdf:about="#iceberg_lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iceberg lettuce</fancyName>
+</Edible>
+
+<Edible rdf:about="#hard_boiled_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard-boiled eggs</fancyName>
+</Edible>
+
+<Edible rdf:about="#crumbled_feta_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crumbled feta cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#chives">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chives</fancyName>
+</Edible>
+
+<Edible rdf:about="#dressing">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressing</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
