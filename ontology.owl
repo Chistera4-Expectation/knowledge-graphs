@@ -6807,11 +6807,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shredded coconut</fancyName>
 </Fruit>
 
-<Edible rdf:about="#pumpkin">
+<Vegetable rdf:about="#pumpkin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
