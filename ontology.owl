@@ -4235,12 +4235,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butternut squash</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#stock">
+<Sauce rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#melted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
