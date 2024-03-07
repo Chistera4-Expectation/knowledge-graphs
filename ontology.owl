@@ -3184,7 +3184,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaffir lime leaves</fancyName>
 </Edible>
 
-<Edible rdf:about="#fish_sauce">
+<Sauce rdf:about="#fish_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
@@ -3193,7 +3193,7 @@
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#curry_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
