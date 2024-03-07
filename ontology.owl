@@ -4350,7 +4350,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbecue sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#brown_sugar">
+<Sweetener rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#barbecue_ribs"/>
   <ingredientOf rdf:resource="#meatloaf"/>
@@ -4359,7 +4359,7 @@
   <ingredientOf rdf:resource="#mongolian_beef"/>
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#onion_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
