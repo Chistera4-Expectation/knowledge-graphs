@@ -4154,11 +4154,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose water</fancyName>
 </Water>
 
-<Edible rdf:about="#pistachios">
+<Seed rdf:about="#pistachios">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pistachios</fancyName>
-</Edible>
+</Seed>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
