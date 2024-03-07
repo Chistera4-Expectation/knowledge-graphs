@@ -6496,11 +6496,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#whole_milk">
+<Milk rdf:about="#whole_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole milk</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#corned_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
