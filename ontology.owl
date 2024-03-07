@@ -293,6 +293,7 @@
   <ingredientOf rdf:resource="#couscous"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#banana_bread"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -925,6 +926,7 @@
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#banana_bread"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -2029,6 +2031,7 @@
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#banana_bread"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2038,6 +2041,7 @@
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#banana_bread"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
@@ -2389,6 +2393,7 @@
 <Edible rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Edible>
 
@@ -2403,6 +2408,7 @@
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#banana_bread"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Edible>
 
@@ -2793,6 +2799,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overripe bananas</fancyName>
+</Edible>
+
+<Edible rdf:about="#shortening">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortening</fancyName>
+</Edible>
+
+<Edible rdf:about="#powder_sugar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powder sugar</fancyName>
+</Edible>
+
+<Edible rdf:about="#chocolate_filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate filling</fancyName>
+</Edible>
+
+<Edible rdf:about="#whipped_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped cream</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
