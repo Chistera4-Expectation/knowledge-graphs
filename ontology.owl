@@ -3647,6 +3647,7 @@
 <Fruit rdf:about="#diced_pineapple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced Pineapple</fancyName>
 </Fruit>
 
@@ -4972,12 +4973,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dumplings"/>
 </Vegetable>
-
-<Fruit rdf:about="#pineapple_chunks">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple chunks</fancyName>
-</Fruit>
 
 <Spice rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
