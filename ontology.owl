@@ -3565,11 +3565,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#taco_seasoning">
+<Seasoning rdf:about="#taco_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#taco_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taco seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chicken_legs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
