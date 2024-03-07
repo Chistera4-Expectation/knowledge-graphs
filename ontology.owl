@@ -2948,6 +2948,8 @@
 <Seasoning rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#naija_stew"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Seasoning>
 
@@ -3337,13 +3339,6 @@
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry</fancyName>
 </Bread>
-
-<Seasoning rdf:about="#seasoning">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_pot_pie"/>
-  <ingredientOf rdf:resource="#mac_and_cheese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning</fancyName>
-</Seasoning>
 
 <Sauce rdf:about="#gravy">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

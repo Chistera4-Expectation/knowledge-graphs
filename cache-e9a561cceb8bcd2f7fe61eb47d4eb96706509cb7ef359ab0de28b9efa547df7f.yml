@@ -1,0 +1,9 @@
+# Cache for query: in the Food Seasoning class, should the instances 'Seasoning cubes' and 'Seasoning' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: HuggingAiQuery, model: google/gemma-7b-it, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: 'Yes.
+
+
+  The instances ''Seasoning cubes'' and ''Seasoning'' are semantic and ontologic duplicates,
+  because they refer to the same concept of seasoning.'
