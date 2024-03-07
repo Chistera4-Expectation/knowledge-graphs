@@ -1120,6 +1120,11 @@
 
 <Cheese rdf:about="#parmesan">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ravioli"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#chicago_style_pizza"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan</fancyName>
 </Cheese>
 
@@ -3209,16 +3214,6 @@
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
-</Cheese>
-
-<Cheese rdf:about="#parmesan_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#ravioli"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <ingredientOf rdf:resource="#risotto_alla_milanese"/>
-  <ingredientOf rdf:resource="#chicago_style_pizza"/>
-  <ingredientOf rdf:resource="#caesar_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Cheese>
 
 <Poultry rdf:about="#egg">
