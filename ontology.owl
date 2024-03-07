@@ -3392,13 +3392,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#mozzarella_cheese">
+<Cheese rdf:about="#mozzarella_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#pecorino_romano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
