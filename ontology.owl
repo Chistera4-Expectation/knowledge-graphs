@@ -795,6 +795,7 @@
 
 <Beef rdf:about="#flank_steak">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank Steak</fancyName>
 </Beef>
 
@@ -5085,12 +5086,6 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Wine</fancyName>
 </Alcoholic>
-
-<Beef rdf:about="#beef_flank_steak">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef flank steak</fancyName>
-</Beef>
 
 <Alcoholic rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
