@@ -308,6 +308,7 @@
 <Dressing rdf:about="#sour_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Dairy"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Cream</fancyName>
 </Dressing>
@@ -341,6 +342,7 @@
   <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
 </Dressing>
 
@@ -360,6 +362,7 @@
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -373,6 +376,7 @@
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -413,6 +417,7 @@
 
 <Spice rdf:about="#cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Spice>
 
@@ -723,6 +728,7 @@
 
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
@@ -1516,6 +1522,7 @@
 
 <Latin rdf:about="#salsa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</fancyName>
 </Latin>
 
@@ -1948,6 +1955,7 @@
 <Edible rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2145,6 +2153,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
+</Edible>
+
+<Edible rdf:about="#diced_onion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced onion</fancyName>
+</Edible>
+
+<Edible rdf:about="#diced_green_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced green pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#chili_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#tortillas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tortillas</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red sauce</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
