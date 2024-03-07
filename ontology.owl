@@ -3478,11 +3478,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
 </Dressing>
 
-<Edible rdf:about="#egg_whites">
+<Vegetable rdf:about="#egg_whites">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg whites</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lemon_zest">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
