@@ -341,6 +341,7 @@
   <rdf:type rdf:resource="#Sweetener"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#chicken_teriyaki"/>
+  <ingredientOf rdf:resource="#orange_blossom_tea"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Dressing>
 
@@ -1679,6 +1680,7 @@
   <ingredientOf rdf:resource="#steamed_fish"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
+  <ingredientOf rdf:resource="#orange_blossom_tea"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2559,6 +2561,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#orange_blossom_tea"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon</fancyName>
 </Edible>
 
@@ -3977,6 +3980,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
+</Edible>
+
+<Edible rdf:about="#flora_tea_petals">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#orange_blossom_tea"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora tea petals</fancyName>
+</Edible>
+
+<Edible rdf:about="#orange_blossom_extract">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#orange_blossom_tea"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange blossom extract</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
