@@ -6377,11 +6377,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romaine lettuce</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#iceberg_lettuce">
+<Vegetable rdf:about="#iceberg_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iceberg lettuce</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#hard_boiled_eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
