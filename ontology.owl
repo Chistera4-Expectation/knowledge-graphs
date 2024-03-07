@@ -305,12 +305,15 @@
 
 <Dressing rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sweetener"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#maple_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Sweetener"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maple syrup</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maple Syrup</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#soy_sauce">
@@ -408,6 +411,46 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Spice>
+
+<Sweetener rdf:about="#molasses">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molasses</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#raisin_cane">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisin Cane</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#rice_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Syrup</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#sorghum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#treacle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treacle</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#agave">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agave</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#date_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date Syrup</fancyName>
+</Sweetener>
+
+<Sweetener rdf:about="#fig_jam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fig Jam</fancyName>
+</Sweetener>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
