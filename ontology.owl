@@ -4568,11 +4568,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red-Wine Vinaigrette</fancyName>
 </Dressing>
 
-<Edible rdf:about="#salt_pork">
+<Pork rdf:about="#salt_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salt pork</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#chicken__dark_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
