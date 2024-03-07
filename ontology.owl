@@ -2953,12 +2953,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#stock_cubes">
+<Dressing rdf:about="#stock_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#naija_stew"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock cubes</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#dried_chilli_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
