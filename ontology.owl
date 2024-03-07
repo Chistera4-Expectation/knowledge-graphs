@@ -4318,11 +4318,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clam juice</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#fish_stock">
+<Fish rdf:about="#fish_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Stock</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#bay_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
