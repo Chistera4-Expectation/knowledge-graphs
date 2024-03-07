@@ -3478,6 +3478,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leek</fancyName>
 </Vegetable>
 
+<Vegetal rdf:about="#fruits">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruits</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#vegetables">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#legumes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legumes</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#nuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuts</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seeds</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#whole_grains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Grains</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#tubers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubers</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#soy_products">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Products</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#mushrooms">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
+</Vegetal>
+
+<Vegetal rdf:about="#algae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algae</fancyName>
+</Vegetal>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
