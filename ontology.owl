@@ -1424,12 +1424,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legumes</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#tofu">
+<Vegetable rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Food rdf:about="#peach">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
