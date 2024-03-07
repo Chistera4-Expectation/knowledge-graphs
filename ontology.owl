@@ -4110,14 +4110,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algae</fancyName>
 </Seaweed>
 
-<Food rdf:about="#egg">
+<Fruit rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <ingredientOf rdf:resource="#plantains"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#grapes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
