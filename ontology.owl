@@ -5544,11 +5544,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly ground black pepper</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#_optional__peas">
+<Vegetable rdf:about="#_optional__peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Peas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#other_vegetables_for_variation">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
