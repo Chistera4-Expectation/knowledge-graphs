@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for New England Clam Chowder, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Clams
+
+      - Clam juice or water
+
+      - Bacon or salt pork
+
+      - Onion
+
+      - Celery
+
+      - Potatoes
+
+      - Flour (for thickening)
+
+      - Butter
+
+      - Heavy cream or milk
+
+      - Salt
+
+      - Black pepper
+
+      - Thyme (optional)
+
+      - Bay leaf (optional)
+
+      - Parsley (for garnish, optional)'
+    role: assistant
+created: 1709800000
+id: chatcmpl-903NI40qK5hw2KZI6wwoNbzwopd36
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 73
+  prompt_tokens: 29
+  total_tokens: 102
