@@ -1,0 +1,53 @@
+# Cache for query: ingredient list for Chicken Biryani, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken
+
+      2. Basmati rice
+
+      3. Onions
+
+      4. Tomatoes
+
+      5. Ginger
+
+      6. Garlic
+
+      7. Cilantro (Coriander leaves)
+
+      8. Mint leaves
+
+      9. Yogurt
+
+      10. Lemon juice
+
+      11. Green chilies
+
+      12. Ghee or oil
+
+      13. Saffron
+
+      14. Milk (for saffron milk)
+
+      15. Water
+
+      16. Salt
+
+
+      Spices:
+
+      17. Cumin seeds'
+    role: assistant
+created: 1709800223
+id: chatcmpl-903QtvTWv9qPAvodbUDSorbbK1yvI
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127

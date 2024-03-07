@@ -450,6 +450,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -595,6 +596,7 @@
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -653,6 +655,7 @@
 <Spice rdf:about="#saffron">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron</fancyName>
 </Spice>
 
@@ -940,6 +943,7 @@
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1212,6 +1216,7 @@
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Dairy>
 
@@ -1224,6 +1229,7 @@
 
 <Dairy rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
 </Dairy>
 
@@ -1722,7 +1728,9 @@
 
 <Rice rdf:about="#basmati_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati Rice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basmati rice</fancyName>
 </Rice>
 
 <Rice rdf:about="#jasmine_rice">
@@ -2634,6 +2642,7 @@
   <ingredientOf rdf:resource="#mongolian_beef"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -3295,6 +3304,7 @@
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <ingredientOf rdf:resource="#congee"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3470,6 +3480,7 @@
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -3760,6 +3771,7 @@
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -3780,6 +3792,7 @@
   <ingredientOf rdf:resource="#gallo_pinto"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
 </Edible>
 
@@ -3811,6 +3824,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -3912,6 +3926,7 @@
 <Edible rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
 </Edible>
 
@@ -3985,6 +4000,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#guava_cheese"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lemon juice</fancyName>
@@ -5213,6 +5229,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground black pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#mint_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#ghee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
