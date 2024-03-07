@@ -4819,11 +4819,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigeon peas</fancyName>
 </Seed>
 
-<Edible rdf:about="#green_peppers">
+<Vegetable rdf:about="#green_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
