@@ -321,6 +321,7 @@
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Dressing>
 
@@ -382,6 +383,7 @@
   <ingredientOf rdf:resource="#tabbouleh"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
 </Dressing>
@@ -485,6 +487,7 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -528,6 +531,7 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -1374,6 +1378,7 @@
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
@@ -2391,6 +2396,7 @@
   <ingredientOf rdf:resource="#steamed_fish"/>
   <ingredientOf rdf:resource="#red_curry"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2462,6 +2468,7 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -2508,6 +2515,7 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2582,6 +2590,7 @@
 <Edible rdf:about="#parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
 </Edible>
 
@@ -2923,6 +2932,7 @@
   <ingredientOf rdf:resource="#taco_salad"/>
   <ingredientOf rdf:resource="#bonsai"/>
   <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
 </Edible>
 
@@ -4104,6 +4114,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh tomatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#coriander">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kebabs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
