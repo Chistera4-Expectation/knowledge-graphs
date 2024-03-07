@@ -1,0 +1,50 @@
+# Cache for query: ingredient list for Wonton Soup, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Wonton Wrappers
+
+      2. Ground Pork
+
+      3. Shrimp (optional)
+
+      4. Soy Sauce
+
+      5. Sesame Oil
+
+      6. Green Onions (Scallions)
+
+      7. Ginger
+
+      8. Garlic
+
+      9. Cabbage (Napa or regular, optional)
+
+      10. Mushrooms (optional)
+
+      11. Egg
+
+      12. Chicken Broth
+
+      13. Salt
+
+      14. Pepper
+
+      15. Rice Wine (optional)
+
+      16. Sugar (optional)
+
+      17'
+    role: assistant
+created: 1709800163
+id: chatcmpl-903Pv10ZEgrg7yT2yILdgdmbjntxD
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
