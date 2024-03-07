@@ -2488,7 +2488,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregano</fancyName>
 </Edible>
 
-<Edible rdf:about="#garlic">
+<Vegetable rdf:about="#garlic">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
@@ -2525,7 +2525,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#kebabs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#dried_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
