@@ -3527,12 +3527,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry dough</fancyName>
 </Bread>
 
-<Edible rdf:about="#beef_broth">
+<Beef rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pot_roast"/>
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
