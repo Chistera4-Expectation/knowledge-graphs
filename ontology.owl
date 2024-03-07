@@ -1011,6 +1011,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu oil</fancyName>
 </Oil>
 
+<Seaweed rdf:about="#sargassum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sargassum</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#porphyra">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porphyra</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#laminaria">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laminaria</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#ulva">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulva</fancyName>
+</Seaweed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
