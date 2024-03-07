@@ -304,6 +304,7 @@
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <ingredientOf rdf:resource="#rainbow_cake"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -989,6 +990,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -1100,11 +1102,13 @@
 <Fruit rdf:about="#banana">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banana</fancyName>
 </Fruit>
 
 <Fruit rdf:about="#orange">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange</fancyName>
 </Fruit>
 
@@ -1137,6 +1141,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
 </Oil>
 
@@ -1571,6 +1576,7 @@
 <Edible rdf:about="#mango">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_salsa"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
 </Edible>
 
@@ -2133,6 +2139,7 @@
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Powder</fancyName>
 </Edible>
@@ -2145,6 +2152,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking soda</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking Soda</fancyName>
 </Edible>
@@ -2604,6 +2612,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <ingredientOf rdf:resource="#rainbow_cake"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3278,6 +3287,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#arrowroot_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrowroot flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#pineapple">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
+</Edible>
+
+<Edible rdf:about="#cherries">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherries</fancyName>
+</Edible>
+
+<Edible rdf:about="#raisins">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#steamed_bakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
