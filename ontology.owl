@@ -2932,10 +2932,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game meat</fancyName>
 </Fish>
 
-<Animal rdf:about="#organ_meats">
+<Pork rdf:about="#organ_meats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ meats</fancyName>
-</Animal>
+</Pork>
 
 <Animal rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
