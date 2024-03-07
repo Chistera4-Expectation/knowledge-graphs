@@ -1369,6 +1369,7 @@
 
 <Vegetal rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
 </Vegetal>
 
@@ -1647,6 +1648,7 @@
   <ingredientOf rdf:resource="#bonsai"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2432,6 +2434,7 @@
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
   <ingredientOf rdf:resource="#sorrel"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2540,6 +2543,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili powder</fancyName>
 </Edible>
 
@@ -2631,6 +2635,7 @@
   <ingredientOf rdf:resource="#miso_salmon"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#bonsai"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soybeans</fancyName>
 </Edible>
 
@@ -2770,6 +2775,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3361,6 +3367,7 @@
 <Edible rdf:about="#ground_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
 </Edible>
 
@@ -3464,6 +3471,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
@@ -3741,6 +3749,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Edible>
 
@@ -3803,6 +3812,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wrapper</fancyName>
+</Edible>
+
+<Edible rdf:about="#szechuan_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szechuan pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_wine_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice wine vinegar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
