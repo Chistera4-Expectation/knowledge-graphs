@@ -4306,6 +4306,22 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#shabu_shabu"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#egg_fried_rice"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#mongolian_beef"/>
+  <ingredientOf rdf:resource="#sesame_chicken"/>
+  <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Vegetable>
 
@@ -4503,29 +4519,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
 </Sauce>
-
-<Vegetable rdf:about="#green_onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <ingredientOf rdf:resource="#run_down"/>
-  <ingredientOf rdf:resource="#miso_soup"/>
-  <ingredientOf rdf:resource="#sukiyaki"/>
-  <ingredientOf rdf:resource="#teriyaki"/>
-  <ingredientOf rdf:resource="#shabu_shabu"/>
-  <ingredientOf rdf:resource="#kung_pao_chicken"/>
-  <ingredientOf rdf:resource="#mapo_tofu"/>
-  <ingredientOf rdf:resource="#dumplings"/>
-  <ingredientOf rdf:resource="#egg_fried_rice"/>
-  <ingredientOf rdf:resource="#wonton_soup"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <ingredientOf rdf:resource="#beijing_roast_duck"/>
-  <ingredientOf rdf:resource="#mongolian_beef"/>
-  <ingredientOf rdf:resource="#sesame_chicken"/>
-  <ingredientOf rdf:resource="#congee"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
-</Vegetable>
 
 <Spice rdf:about="#fresh_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
