@@ -366,6 +366,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#red_curry"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
 </Dressing>
@@ -401,6 +402,7 @@
   <ingredientOf rdf:resource="#pad_thai"/>
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Powder</fancyName>
 </Dressing>
@@ -472,6 +474,7 @@
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -511,6 +514,7 @@
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -1373,6 +1377,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#naija_stew"/>
   <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetal>
 
@@ -2819,6 +2824,7 @@
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2926,6 +2932,7 @@
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -3762,6 +3769,7 @@
   <ingredientOf rdf:resource="#bonsai"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Vinegar</fancyName>
 </Edible>
@@ -3963,6 +3971,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broccoli</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_cinnamon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#stir_fried_vegetables"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
