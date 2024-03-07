@@ -2743,11 +2743,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soybeans</fancyName>
 </Seed>
 
-<Edible rdf:about="#beef_stock">
+<Beef rdf:about="#beef_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef stock</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#fish_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
