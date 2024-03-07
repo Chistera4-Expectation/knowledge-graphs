@@ -1,0 +1,31 @@
+# Cache for query: ingredient list for Tempura, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Shrimp or vegetables (like sweet potato, bell pepper, green beans,
+      mushroom)
+
+      2. Tempura batter mix (or all-purpose flour)
+
+      3. Ice cold water
+
+      4. Egg
+
+      5. Baking powder (optional, for homemade batter)
+
+      6. Salt (optional, for seasoning)
+
+      7. Oil (for deep frying, often vegetable or canola)'
+    role: assistant
+created: 1709800090
+id: chatcmpl-903Oki4ua9GDCbmr39qCCzrXykvZl
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 76
+  prompt_tokens: 25
+  total_tokens: 101
