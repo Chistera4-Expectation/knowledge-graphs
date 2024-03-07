@@ -5793,11 +5793,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn husks</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#filling">
+<Pasta rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filling</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#seasonings_for_filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
