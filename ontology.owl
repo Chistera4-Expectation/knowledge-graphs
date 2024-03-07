@@ -6884,11 +6884,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura Dipping Sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#thinly_sliced_beef">
+<Beef rdf:about="#thinly_sliced_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#sliced_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
