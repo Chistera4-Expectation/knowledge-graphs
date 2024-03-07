@@ -3231,6 +3231,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat Germ Oil</fancyName>
 </Oil>
 
+<Seaweed rdf:about="#arame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arame</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#dulse">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dulse</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#irish_moss">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Moss</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#sea_lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea Lettuce</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#agar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agar</fancyName>
+</Seaweed>
+
+<Seaweed rdf:about="#carrageen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrageen</fancyName>
+</Seaweed>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
