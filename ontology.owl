@@ -6746,12 +6746,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
 </Spice>
 
-<Edible rdf:about="#ground_coriander">
+<Spice rdf:about="#ground_coriander">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground coriander</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#water_for_egg_wash">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
