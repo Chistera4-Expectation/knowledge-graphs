@@ -538,6 +538,7 @@
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#bake_and_shark"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -655,6 +656,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -842,6 +844,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Spice>
@@ -2152,6 +2155,7 @@
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -3228,6 +3232,7 @@
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon</fancyName>
 </Fruit>
 
@@ -3756,6 +3761,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3783,6 +3789,7 @@
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -3808,6 +3815,7 @@
 
 <Vegetable rdf:about="#okra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
 </Vegetable>
 
@@ -4546,6 +4554,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5109,6 +5118,7 @@
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -5156,6 +5166,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Edible>
 
@@ -5555,6 +5566,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
 </Edible>
 
@@ -5684,6 +5696,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#chicken_fried_steak"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -5733,6 +5746,7 @@
 <Edible rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
 </Edible>
 
@@ -5852,6 +5866,7 @@
 <Edible rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Edible>
 
@@ -6210,6 +6225,7 @@
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#bake_and_shark"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -6288,6 +6304,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Edible>
@@ -6368,6 +6385,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dill pickles</fancyName>
+</Edible>
+
+<Edible rdf:about="#flying_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying fish</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
