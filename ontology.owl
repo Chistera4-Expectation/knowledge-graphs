@@ -693,6 +693,7 @@
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -1199,6 +1200,8 @@
 
 <Vegetable rdf:about="#tomato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
 <Vegetal rdf:about="#fruits">
@@ -2444,6 +2447,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#salsa"/>
   <ingredientOf rdf:resource="#mango_salsa"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
 </Edible>
 
@@ -2891,6 +2895,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gravy</fancyName>
+</Edible>
+
+<Edible rdf:about="#avocado">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
+</Edible>
+
+<Edible rdf:about="#crumbled_bacon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crumbled bacon</fancyName>
+</Edible>
+
+<Edible rdf:about="#ranch_dressing">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranch dressing</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
