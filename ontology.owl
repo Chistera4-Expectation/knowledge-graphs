@@ -3260,11 +3260,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple filling</fancyName>
 </Fruit>
 
-<Edible rdf:about="#apple_crust">
+<Fruit rdf:about="#apple_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple crust</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
