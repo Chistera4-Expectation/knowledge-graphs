@@ -7436,11 +7436,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five Spice Powder for additional flavor</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#dark_soy_sauce_for_color">
+<Seasoning rdf:about="#dark_soy_sauce_for_color">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark Soy Sauce for color</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#depth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
