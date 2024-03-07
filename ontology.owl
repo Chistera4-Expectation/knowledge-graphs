@@ -5968,7 +5968,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Egg</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_bell_pepper">
+<Vegetable rdf:about="#red_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
@@ -5976,7 +5976,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#scotch_bonnet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
