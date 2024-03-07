@@ -3162,11 +3162,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#coconut_milk_powder">
+<Vegetable rdf:about="#coconut_milk_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk powder</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lemongrass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
