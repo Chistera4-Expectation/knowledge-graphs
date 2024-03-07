@@ -3859,13 +3859,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#lime">
+<Fruit rdf:about="#lime">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
