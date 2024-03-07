@@ -6203,12 +6203,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Fruit>
 
-<Edible rdf:about="#cornmeal">
+<Vegetable rdf:about="#cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#beef_patties">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
