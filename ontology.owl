@@ -3786,7 +3786,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#onions">
+<Vegetable rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -3801,7 +3801,7 @@
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chile_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
