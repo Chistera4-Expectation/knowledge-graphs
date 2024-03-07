@@ -1113,6 +1113,7 @@
 <Pork rdf:about="#pork_ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Ribs</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork ribs</fancyName>
 </Pork>
@@ -3098,6 +3099,7 @@
 
 <Rice rdf:about="#sticky_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sticky Rice</fancyName>
 </Rice>
 
@@ -5096,6 +5098,7 @@
 
 <Chinese rdf:about="#spring_rolls">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Rolls</fancyName>
 </Chinese>
 
@@ -6928,6 +6931,90 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud ear fungus</fancyName>
+</Edible>
+
+<Edible rdf:about="#steamed_buns">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed Buns</fancyName>
+</Edible>
+
+<Edible rdf:about="#dumplings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dumplings</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg_tarts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg Tarts</fancyName>
+</Edible>
+
+<Edible rdf:about="#rice_rolls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Rolls</fancyName>
+</Edible>
+
+<Edible rdf:about="#turnip_cake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turnip Cake</fancyName>
+</Edible>
+
+<Edible rdf:about="#beef_balls">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef Balls</fancyName>
+</Edible>
+
+<Edible rdf:about="#congee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congee</fancyName>
+</Edible>
+
+<Edible rdf:about="#taro_cake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taro Cake</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_feet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Feet</fancyName>
+</Edible>
+
+<Edible rdf:about="#lotus_leaf_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus Leaf Rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#mango_pudding">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango Pudding</fancyName>
+</Edible>
+
+<Edible rdf:about="#fried_taro_dumplings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Taro Dumplings</fancyName>
+</Edible>
+
+<Edible rdf:about="#lotus_leaf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus Leaf</fancyName>
+</Edible>
+
+<Edible rdf:about="#chinese_broccoli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Broccoli</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
