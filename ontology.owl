@@ -1685,6 +1685,7 @@
 <Water rdf:about="#flavored_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
+  <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Water</fancyName>
 </Water>
 
@@ -3485,12 +3486,6 @@
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel</fancyName>
 </Vegetable>
-
-<Water rdf:about="#rose_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#raita"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose water</fancyName>
-</Water>
 
 <Seed rdf:about="#pistachios">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
