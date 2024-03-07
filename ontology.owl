@@ -7458,11 +7458,11 @@
   <ingredientOf rdf:resource="#braised_pork_belly"/>
 </Seasoning>
 
-<Edible rdf:about="#boneless_chicken">
+<Poultry rdf:about="#boneless_chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boneless chicken</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#cardamom_pods">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
