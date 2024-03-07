@@ -3880,12 +3880,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Flour</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#hoisin_sauce">
+<Sauce rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
