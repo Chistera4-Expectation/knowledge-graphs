@@ -7295,11 +7295,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame paste</fancyName>
 </Seed>
 
-<Edible rdf:about="#other_leafy_greens">
+<Vegetable rdf:about="#other_leafy_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other leafy greens</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
