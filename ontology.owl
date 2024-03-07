@@ -1026,10 +1026,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veal</fancyName>
 </Beef>
 
-<Meat rdf:about="#mutton">
+<Beef rdf:about="#mutton">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutton</fancyName>
-</Meat>
+</Beef>
 
 <Butter rdf:about="#unsalted_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
