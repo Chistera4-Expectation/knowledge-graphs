@@ -422,6 +422,7 @@
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
+  <ingredientOf rdf:resource="#corn_on_the_cob"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -439,6 +440,7 @@
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#caesar_salad"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
+  <ingredientOf rdf:resource="#corn_on_the_cob"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -1150,6 +1152,7 @@
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <ingredientOf rdf:resource="#gumbo"/>
+  <ingredientOf rdf:resource="#corn_on_the_cob"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -2475,6 +2478,7 @@
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
+  <ingredientOf rdf:resource="#corn_on_the_cob"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -2734,6 +2738,7 @@
 
 <American rdf:about="#corn_on_the_cob">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#corn_on_the_cob"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn on the Cob</fancyName>
 </American>
 
