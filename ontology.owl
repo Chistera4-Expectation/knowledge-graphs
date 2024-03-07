@@ -3056,11 +3056,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sawa sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#teff_flour">
+<Bread rdf:about="#teff_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teff flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#berbere_spice_blend">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
