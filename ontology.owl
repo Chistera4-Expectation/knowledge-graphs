@@ -797,6 +797,7 @@
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
 </Poultry>
 
@@ -3420,12 +3421,6 @@
   <ingredientOf rdf:resource="#taco_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
 </Vegetable>
-
-<Poultry rdf:about="#chicken_legs">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken legs</fancyName>
-</Poultry>
 
 <Edible rdf:about="#thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
