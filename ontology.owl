@@ -7014,11 +7014,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit salad</fancyName>
 </Fruit>
 
-<Edible rdf:about="#steamed_broccoli">
+<Vegetable rdf:about="#steamed_broccoli">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steamed broccoli</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#grilled_salmon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
