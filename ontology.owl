@@ -7253,11 +7253,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango Pudding</fancyName>
 </Fruit>
 
-<Edible rdf:about="#fried_taro_dumplings">
+<Vegetable rdf:about="#fried_taro_dumplings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Taro Dumplings</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lotus_leaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
