@@ -6618,11 +6618,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Rum</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#jamaican_red_stripe_beer">
+<Alcoholic rdf:about="#jamaican_red_stripe_beer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaican Red Stripe Beer</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
