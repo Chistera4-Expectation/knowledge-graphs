@@ -7308,11 +7308,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry sherry</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#rice_paper_wrappers">
+<Vegetable rdf:about="#rice_paper_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper wrappers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#rice_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
