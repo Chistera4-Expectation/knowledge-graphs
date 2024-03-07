@@ -7368,12 +7368,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark soy sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#white_sugar">
+<Sweetener rdf:about="#white_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#vegetables_of_your_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
