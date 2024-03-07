@@ -4611,6 +4611,7 @@
   <ingredientOf rdf:resource="#plantains"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -5389,6 +5390,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Edible>
 
@@ -5697,6 +5699,7 @@
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
@@ -6370,6 +6373,7 @@
 <Edible rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -6607,7 +6611,14 @@
 <Edible rdf:about="#tofu">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tofu</fancyName>
+</Edible>
+
+<Edible rdf:about="#miso_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
