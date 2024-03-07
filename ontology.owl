@@ -4488,11 +4488,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russian dressing</fancyName>
 </Sauce>
 
-<Edible rdf:about="#key_lime_juice">
+<Juice rdf:about="#key_lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Key lime juice</fancyName>
-</Edible>
+</Juice>
 
 <Edible rdf:about="#sweetened_condensed_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
