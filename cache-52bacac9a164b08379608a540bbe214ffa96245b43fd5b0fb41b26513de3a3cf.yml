@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'fruit' among: 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Food Dressing', 'Food Seasoning', 'Honey', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Edible Fruit'''
+    role: assistant
+created: 1709800361
+id: chatcmpl-903T7B3V2dVH9YeSsPxOftGWiOsWP
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 5
+  prompt_tokens: 161
+  total_tokens: 166
