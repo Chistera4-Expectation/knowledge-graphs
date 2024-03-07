@@ -6945,6 +6945,7 @@
 <Seasoning rdf:about="#soy_sauce_for_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chirashi_don"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce for seasoning</fancyName>
 </Seasoning>
 
@@ -7400,12 +7401,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five Spice Powder for additional flavor</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#dark_soy_sauce_for_color">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#braised_pork_belly"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark Soy Sauce for color</fancyName>
 </Seasoning>
 
 <Vegetable rdf:about="#depth">
