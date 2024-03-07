@@ -5472,11 +5472,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Dairy>
 
-<Edible rdf:about="#fresh_mozzarella">
+<Cheese rdf:about="#fresh_mozzarella">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Mozzarella</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
