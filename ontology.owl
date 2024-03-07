@@ -3649,7 +3649,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef broth</fancyName>
 </Beef>
 
-<Edible rdf:about="#heavy_cream">
+<Milk rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
@@ -3659,7 +3659,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heavy cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy Cream</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#diced_pineapple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
