@@ -1629,11 +1629,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster</fancyName>
 </Energy>
 
-<Energy rdf:about="#monster_zero">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster Zero</fancyName>
-</Energy>
-
 <Energy rdf:about="#xs_energy">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XS Energy</fancyName>
