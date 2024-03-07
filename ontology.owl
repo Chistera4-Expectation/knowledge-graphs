@@ -4067,11 +4067,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any hot pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#spices">
+<Spice rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#white_maize_meal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
