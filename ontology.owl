@@ -3433,11 +3433,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza dough</fancyName>
 </Bread>
 
-<Edible rdf:about="#fresh_basil">
+<Vegetable rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#extra_virgin_olive_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
