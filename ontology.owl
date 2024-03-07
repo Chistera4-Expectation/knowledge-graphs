@@ -731,10 +731,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Fructose Corn Syrup</fancyName>
 </Sweetener>
 
-<Additive rdf:about="#aspartame">
+<Sweetener rdf:about="#aspartame">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspartame</fancyName>
-</Additive>
+</Sweetener>
 
 <Beef rdf:about="#ribeye_steak">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
