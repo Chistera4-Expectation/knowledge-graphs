@@ -4017,11 +4017,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri Piri sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#piri_piri_seasoning">
+<Seasoning rdf:about="#piri_piri_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri Piri seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
