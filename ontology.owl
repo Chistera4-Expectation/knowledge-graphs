@@ -4555,12 +4555,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roquefort cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#chive">
+<Vegetable rdf:about="#chive">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#pepper_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chive</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#red_wine_vinaigrette">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
