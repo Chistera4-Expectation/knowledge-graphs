@@ -2798,14 +2798,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumbers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_onion">
+<Vegetable rdf:about="#red_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#salsa"/>
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
