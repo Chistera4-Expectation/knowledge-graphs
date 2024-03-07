@@ -1,0 +1,32 @@
+# Cache for query: ingredient list for Key Lime Pie, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '- Key lime juice
+
+      - Sweetened condensed milk
+
+      - Egg yolks
+
+      - Graham cracker crumbs
+
+      - Granulated sugar
+
+      - Butter
+
+      - Heavy cream (optional, for whipped cream topping)
+
+      - Lime zest (optional, for garnish)'
+    role: assistant
+created: 1709799993
+id: chatcmpl-903NBBtyLXHNJKtrgSdU9EpAFs508
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 51
+  prompt_tokens: 26
+  total_tokens: 77
