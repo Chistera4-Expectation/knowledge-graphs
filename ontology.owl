@@ -4882,11 +4882,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cold water</fancyName>
 </Water>
 
-<Edible rdf:about="#fresh_fish">
+<Fish rdf:about="#fresh_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#seafood">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
