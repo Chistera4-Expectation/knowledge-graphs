@@ -1138,6 +1138,7 @@
 
 <Cheese rdf:about="#roquefort">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roquefort</fancyName>
 </Cheese>
 
@@ -4505,12 +4506,6 @@
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard-boiled Egg</fancyName>
 </Poultry>
-
-<Cheese rdf:about="#roquefort_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cobb_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roquefort cheese</fancyName>
-</Cheese>
 
 <Vegetable rdf:about="#chive">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
