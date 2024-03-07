@@ -341,6 +341,7 @@
   <rdf:type rdf:resource="#Fruit"/>
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Dressing>
 
@@ -4864,7 +4865,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
 </Edible>
 
 <Edible rdf:about="#italian_sausage">
@@ -5251,6 +5254,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
 </Edible>
 
@@ -5306,6 +5310,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
+</Edible>
+
+<Edible rdf:about="#white_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Beans</fancyName>
+</Edible>
+
+<Edible rdf:about="#chorizo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chorizo</fancyName>
+</Edible>
+
+<Edible rdf:about="#fried_plantains">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Plantains</fancyName>
+</Edible>
+
+<Edible rdf:about="#fried_egg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Egg</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
