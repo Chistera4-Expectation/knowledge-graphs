@@ -2116,6 +2116,7 @@
   <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -5030,6 +5031,7 @@
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -5228,6 +5230,7 @@
 <Edible rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolks</fancyName>
 </Edible>
 
@@ -6077,6 +6080,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#graham_cracker_crumbs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crumbs</fancyName>
+</Edible>
+
+<Edible rdf:about="#sweetened_condensed_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweetened condensed milk</fancyName>
+</Edible>
+
+<Edible rdf:about="#key_lime_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Key lime juice</fancyName>
+</Edible>
+
+<Edible rdf:about="#whipped_cream">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped cream</fancyName>
+</Edible>
+
+<Edible rdf:about="#lime_zest">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#key_lime_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime zest</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
