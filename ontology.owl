@@ -6701,11 +6701,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#fresh_thyme">
+<Vegetable rdf:about="#fresh_thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Thyme</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#shark">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
