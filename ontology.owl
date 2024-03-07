@@ -1091,7 +1091,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Fish>
 
-<Animal rdf:about="#eggs">
+<Milk rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#flan"/>
@@ -1109,7 +1109,7 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
-</Animal>
+</Milk>
 
 <Animal rdf:about="#dairy_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
