@@ -5758,11 +5758,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish stock</fancyName>
 </Fish>
 
-<Edible rdf:about="#clam_juice">
+<Molluscs rdf:about="#clam_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clam juice</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#lard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
