@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous Japanese Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Sushi
+
+      2. Ramen
+
+      3. Tempura
+
+      4. Sashimi
+
+      5. Okonomiyaki
+
+      6. Miso Soup
+
+      7. Yakitori
+
+      8. Tonkatsu
+
+      9. Udon
+
+      10. Takoyaki
+
+      11. Sukiyaki
+
+      12. Teriyaki
+
+      13. Gyoza
+
+      14. Kaiseki
+
+      15. Shabu Shabu
+
+      16. Onigiri
+
+      17. Chawanmushi
+
+      18. Tofu Katsu
+
+      19. Katsu Curry
+
+      20. Matcha Ice Cream'
+    role: assistant
+created: 1709799802
+id: chatcmpl-903K6n3QBSkirQuVEQAT7E1gue5fW
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 122
+  prompt_tokens: 29
+  total_tokens: 151
