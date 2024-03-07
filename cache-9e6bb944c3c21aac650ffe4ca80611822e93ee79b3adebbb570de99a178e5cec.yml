@@ -1,0 +1,36 @@
+# Cache for query: ingredient list for Egg Fried Rice, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Rice
+
+      2. Eggs
+
+      3. Cooking oil
+
+      4. Soy sauce
+
+      5. Green onions (scallions)
+
+      6. Garlic
+
+      7. Salt
+
+      8. Pepper
+
+      9. Peas
+
+      10. Carrots'
+    role: assistant
+created: 1709800159
+id: chatcmpl-903PrXhkaYFxaqZtkNtcrZosPVgqV
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_c121a3f431
+usage:
+  completion_tokens: 48
+  prompt_tokens: 26
+  total_tokens: 74
