@@ -2250,6 +2250,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marlin</fancyName>
 </Fish>
 
+<Molluscs rdf:about="#abalone">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abalone</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#clam">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clam</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#cockle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cockle</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#conch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#escargot">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escargot</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#limpet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limpet</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#mussel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussel</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#oyster">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#scallop">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallop</fancyName>
+</Molluscs>
+
+<Molluscs rdf:about="#whelk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whelk</fancyName>
+</Molluscs>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
