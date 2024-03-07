@@ -4192,12 +4192,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground ginger</fancyName>
 </Spice>
 
-<Edible rdf:about="#beef_stock">
+<Sauce rdf:about="#beef_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#pepper_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beef stock</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#vermicelli_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
