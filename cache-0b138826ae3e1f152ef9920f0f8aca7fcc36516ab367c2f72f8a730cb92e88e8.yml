@@ -1,0 +1,19 @@
+# Cache for query: ingredient list for Macaroni and Cheese, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Macaroni pasta\n2. Cheddar cheese\n3. Butter\n4. Milk\n5. Flour\n\
+      6. Salt\n7. Pepper \n8. (Optional) Bread crumbs for topping"
+    role: assistant
+created: 1709799947
+id: chatcmpl-903MR75cepO81nZbk5vSxcjkmPIcM
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 42
+  prompt_tokens: 28
+  total_tokens: 70
