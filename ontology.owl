@@ -2766,6 +2766,31 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xi’an Famous Foods’ Biang Biang Noodles</fancyName>
 </Chinese>
 
+<Indian rdf:about="#chicken_biryani">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Biryani</fancyName>
+</Indian>
+
+<Indian rdf:about="#rogan_josh">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rogan Josh</fancyName>
+</Indian>
+
+<Indian rdf:about="#samosa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samosa</fancyName>
+</Indian>
+
+<Indian rdf:about="#butter_chicken">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter Chicken</fancyName>
+</Indian>
+
+<Indian rdf:about="#fish_curry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Curry</fancyName>
+</Indian>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

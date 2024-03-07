@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous Indian Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken Biryani
+
+      2. Paneer Butter Masala
+
+      3. Masala Dosa
+
+      4. Rogan Josh
+
+      5. Palak Paneer
+
+      6. Chole Bhature
+
+      7. Pani Puri
+
+      8. Aloo Paratha
+
+      9. Dal Makhani
+
+      10. Samosa
+
+      11. Pav Bhaji
+
+      12. Rajma Chawal
+
+      13. Butter Chicken
+
+      14. Vada Pav
+
+      15. Fish Curry
+
+      16. Baingan Bharta
+
+      17. Rasmalai
+
+      18. Gulab Jamun
+
+      19. Jalebi
+
+      20. Matar Paneer'
+    role: assistant
+created: 1709799815
+id: chatcmpl-903KJTgs6Hz2JrlaZZ1v388MRSLTU
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 132
+  prompt_tokens: 29
+  total_tokens: 161
