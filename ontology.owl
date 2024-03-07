@@ -4165,6 +4165,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
 </Spice>
 
@@ -5305,12 +5306,6 @@
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
 </Milk>
-
-<Spice rdf:about="#cumin_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fish_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin powder</fancyName>
-</Spice>
 
 <Seasoning rdf:about="#tamarind_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
