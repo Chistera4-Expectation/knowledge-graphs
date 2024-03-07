@@ -886,6 +886,7 @@
   <ingredientOf rdf:resource="#raita"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
+  <ingredientOf rdf:resource="#flan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Milk</fancyName>
 </Milk>
 
@@ -2701,12 +2702,6 @@
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crumbs</fancyName>
 </Bread>
-
-<Milk rdf:about="#sweet_condensed_milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#flan"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet condensed milk</fancyName>
-</Milk>
 
 <Fruit rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
