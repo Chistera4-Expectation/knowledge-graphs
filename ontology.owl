@@ -1212,6 +1212,7 @@
 
 <Coffee rdf:about="#espresso">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espresso</fancyName>
 </Coffee>
 
@@ -1986,6 +1987,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#ladyfingers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tiramisu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ladyfingers</fancyName>
+</Edible>
+
+<Edible rdf:about="#mascarpone_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tiramisu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#coffee_liqueur">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tiramisu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee liqueur</fancyName>
+</Edible>
+
+<Edible rdf:about="#sweetened_condensed_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tiramisu"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweetened condensed milk</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
