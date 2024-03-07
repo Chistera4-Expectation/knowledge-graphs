@@ -5420,11 +5420,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#diced_tomatoes">
+<Vegetable rdf:about="#diced_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced tomatoes</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
