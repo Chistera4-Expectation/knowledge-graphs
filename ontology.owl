@@ -386,7 +386,9 @@
 <Sauce rdf:about="#tomato_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Sauce</fancyName>
 </Sauce>
 
 <Sauce rdf:about="#alfredo_sauce">
@@ -488,12 +490,14 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#focaccia_bread"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -545,6 +549,7 @@
 <Seasoning rdf:about="#basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil</fancyName>
 </Seasoning>
 
@@ -4779,6 +4784,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#pizza_dough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza Dough</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_mozzarella_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Mozzarella Cheese</fancyName>
+</Edible>
+
+<Edible rdf:about="#extra_virgin_olive_oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra Virgin Olive Oil</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
