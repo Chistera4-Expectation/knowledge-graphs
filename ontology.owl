@@ -6395,6 +6395,7 @@
 <Beef rdf:about="#corned_beef_brisket">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
+  <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef brisket</fancyName>
 </Beef>
 
@@ -6480,12 +6481,6 @@
   <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole milk</fancyName>
 </Milk>
-
-<Beef rdf:about="#corned_beef">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#reuben_sandwich"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef</fancyName>
-</Beef>
 
 <Dressing rdf:about="#russian_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
