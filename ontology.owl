@@ -4638,7 +4638,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#green_onions">
+<Vegetable rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#run_down"/>
@@ -4659,7 +4659,7 @@
   <ingredientOf rdf:resource="#congee"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fresh_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
