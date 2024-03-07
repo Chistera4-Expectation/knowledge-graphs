@@ -3382,12 +3382,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gravy</fancyName>
 </Sauce>
 
-<Edible rdf:about="#avocado">
+<Fruit rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#taco_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
