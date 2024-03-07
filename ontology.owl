@@ -1523,11 +1523,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periwinkle</fancyName>
 </Molluscs>
 
-<Molluscs rdf:about="#mussels">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussels</fancyName>
-</Molluscs>
-
 <Fish rdf:about="#haddock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haddock</fancyName>
