@@ -301,6 +301,7 @@
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -510,6 +511,7 @@
 <Spice rdf:about="#cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Spice>
 
@@ -967,6 +969,7 @@
   <ingredientOf rdf:resource="#boston_cream_pie"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#muffin_top"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -1521,6 +1524,7 @@
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2460,6 +2464,7 @@
 <Edible rdf:about="#graham_cracker_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crumbs</fancyName>
 </Edible>
 
@@ -2556,6 +2561,7 @@
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2855,6 +2861,7 @@
 <Edible rdf:about="#apple_filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple filling</fancyName>
 </Edible>
 
@@ -2884,6 +2891,7 @@
 <Edible rdf:about="#apples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
 </Edible>
 
@@ -2902,6 +2910,7 @@
 <Edible rdf:about="#shortening">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#boston_cream_pie"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortening</fancyName>
 </Edible>
 
@@ -3008,6 +3017,7 @@
 <Edible rdf:about="#cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</fancyName>
 </Edible>
 
@@ -3094,6 +3104,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie Crust</fancyName>
+</Edible>
+
+<Edible rdf:about="#pastry_dough">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry dough</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
