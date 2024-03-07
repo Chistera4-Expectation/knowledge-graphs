@@ -3123,11 +3123,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#musa">
+<Fruit rdf:about="#musa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musa</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#chicken_thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
