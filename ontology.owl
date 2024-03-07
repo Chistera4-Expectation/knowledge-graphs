@@ -1070,6 +1070,7 @@
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#pad_thai"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -1667,6 +1668,7 @@
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -2244,6 +2246,7 @@
   <ingredientOf rdf:resource="#bimini_bread"/>
   <ingredientOf rdf:resource="#banana_fritters"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3018,6 +3021,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
 </Edible>
 
@@ -3923,6 +3927,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat</fancyName>
+</Edible>
+
+<Edible rdf:about="#spring_roll_wrapper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Roll wrapper</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg_roll_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg roll seasoning</fancyName>
+</Edible>
+
+<Edible rdf:about="#fillings_of_choice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillings of choice</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
