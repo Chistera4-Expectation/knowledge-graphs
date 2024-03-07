@@ -755,6 +755,8 @@
 
 <Pork rdf:about="#pork_roast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#genovese_sausage"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Roast</fancyName>
 </Pork>
 
@@ -812,13 +814,6 @@
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
 </Poultry>
-
-<Pork rdf:about="#pork">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#genovese_sausage"/>
-  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork</fancyName>
-</Pork>
 
 <Poultry rdf:about="#chicken">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
