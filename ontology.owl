@@ -3226,7 +3226,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clove</fancyName>
 </Fruit>
 
-<Edible rdf:about="#chicken_broth">
+<Animal rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
@@ -3234,7 +3234,7 @@
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken broth</fancyName>
-</Edible>
+</Animal>
 
 <Edible rdf:about="#potatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
