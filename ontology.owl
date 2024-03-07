@@ -2954,6 +2954,7 @@
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
+  <ingredientOf rdf:resource="#sorrel"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Leaves</fancyName>
 </Vegetable>
@@ -3338,12 +3339,6 @@
   <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn syrup</fancyName>
 </Sweetener>
-
-<Vegetable rdf:about="#sorrel_leaves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sorrel"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorrel leaves</fancyName>
-</Vegetable>
 
 <Seasoning rdf:about="#wasabi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
