@@ -5607,11 +5607,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pine_nuts">
+<Seed rdf:about="#pine_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pesto_genovese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pine nuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#pecorino_romano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
