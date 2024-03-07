@@ -812,11 +812,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Meat</fancyName>
 </Poultry>
 
-<Poultry rdf:about="#duck_meat">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Meat</fancyName>
-</Poultry>
-
 <Poultry rdf:about="#beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
