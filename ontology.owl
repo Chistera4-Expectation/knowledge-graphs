@@ -877,6 +877,76 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devon</fancyName>
 </Beef>
 
+<Pork rdf:about="#pork_chop">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Chop</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_loin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Loin</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_tenderloin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Tenderloin</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_ribs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Ribs</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_belly">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Belly</fancyName>
+</Pork>
+
+<Pork rdf:about="#bacon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
+</Pork>
+
+<Pork rdf:about="#ham">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ham</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_shoulder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Shoulder</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_roast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Roast</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Sausage</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_schnitzel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Schnitzel</fancyName>
+</Pork>
+
+<Pork rdf:about="#ground_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Pork</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_shank">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Shank</fancyName>
+</Pork>
+
+<Pork rdf:about="#pork_cutlet">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Cutlet</fancyName>
+</Pork>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
