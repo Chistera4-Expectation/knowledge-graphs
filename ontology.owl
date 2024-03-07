@@ -6308,11 +6308,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dijon mustard</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cooking_spray">
+<Oil rdf:about="#cooking_spray">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking spray</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#frozen_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
