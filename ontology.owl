@@ -4612,7 +4612,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie crust</fancyName>
 </Bread>
 
-<Edible rdf:about="#soy_sauce">
+<Sauce rdf:about="#soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
@@ -4636,7 +4636,7 @@
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#green_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
