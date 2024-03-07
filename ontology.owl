@@ -3693,14 +3693,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flying Fish Fillets</fancyName>
 </Fish>
 
-<Edible rdf:about="#cooking_oil">
+<Oil rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#miso_salmon"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#bulgur_wheat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
