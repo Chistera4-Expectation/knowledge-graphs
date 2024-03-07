@@ -1881,6 +1881,7 @@
 
 <Rice rdf:about="#white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
 </Rice>
 
@@ -4820,12 +4821,6 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Sauce>
-
-<Rice rdf:about="#long_grain_white_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long grain white rice</fancyName>
-</Rice>
 
 <Vegetable rdf:about="#black_eyed_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
