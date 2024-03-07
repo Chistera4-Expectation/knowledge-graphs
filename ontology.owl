@@ -2676,10 +2676,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond Milk</fancyName>
 </Milk>
 
-<Liquid rdf:about="#coconut_water">
+<Juice rdf:about="#coconut_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Water</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#smoothie">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
