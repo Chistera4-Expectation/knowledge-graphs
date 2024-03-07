@@ -4688,14 +4688,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#goat_meat">
+<Poultry rdf:about="#goat_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#goat_water"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">goat meat</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
