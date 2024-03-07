@@ -6254,10 +6254,10 @@
   <ingredientOf rdf:resource="#hot_dog"/>
 </Seasoning>
 
-<Edible rdf:about="#chili">
+<Vegetable rdf:about="#chili">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#sauerkraut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
