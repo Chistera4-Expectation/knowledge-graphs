@@ -1,0 +1,40 @@
+# Cache for query: ingredient list for Shabu Shabu, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Shabu Shabu ingredients can vary by personal preference or regional
+      variations, but a common list includes:
+
+
+      1. Thinly sliced beef
+
+      2. Napa cabbage
+
+      3. Carrots
+
+      4. Mushrooms (such as shiitake or enoki)
+
+      5. Tofu
+
+      6. Udon noodles or Shirataki noodles
+
+      7. Green onions (scallions)
+
+      8. Spinach
+
+      9. Bok choy
+
+      10. Kombu (d'
+    role: assistant
+created: 1709800113
+id: chatcmpl-903P7O9fQU3Ro2kEeoElF06DlvEWC
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 29
+  total_tokens: 129
