@@ -552,6 +552,7 @@
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of the Sauce class</fancyName>
 </Sauce>
 
@@ -3484,12 +3485,6 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
 </Pork>
-
-<Sauce rdf:about="#worcestershire_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worcestershire sauce</fancyName>
-</Sauce>
 
 <Bread rdf:about="#pie_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
