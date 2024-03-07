@@ -4855,10 +4855,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused Tea</fancyName>
 </Tea>
 
-<Liquid rdf:about="#nut_milk">
+<Milk rdf:about="#nut_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nut Milk</fancyName>
-</Liquid>
+</Milk>
 
 <Edible rdf:about="#oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
