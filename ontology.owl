@@ -2409,6 +2409,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
   <ingredientOf rdf:resource="#kebabs"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Fruit>
 
@@ -2484,12 +2485,6 @@
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplant</fancyName>
 </Vegetable>
-
-<Fruit rdf:about="#cherry_tomatoes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#penne_alla_vodka"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry tomatoes</fancyName>
-</Fruit>
 
 <Vegetable rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
