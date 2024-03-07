@@ -6664,11 +6664,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
 </Molluscs>
 
-<Edible rdf:about="#yellow_bell_pepper">
+<Vegetable rdf:about="#yellow_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow bell pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
