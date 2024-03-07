@@ -3889,6 +3889,13 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#pepper_pot"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#escovitch_fish"/>
+  <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#saltfish_fritters"/>
+  <ingredientOf rdf:resource="#goat_water"/>
+  <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet peppers</fancyName>
 </Fruit>
 
@@ -4619,18 +4626,6 @@
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
 </Milk>
-
-<Fruit rdf:about="#scotch_bonnet_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#pepper_pot"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <ingredientOf rdf:resource="#escovitch_fish"/>
-  <ingredientOf rdf:resource="#run_down"/>
-  <ingredientOf rdf:resource="#saltfish_fritters"/>
-  <ingredientOf rdf:resource="#goat_water"/>
-  <ingredientOf rdf:resource="#stewed_oxtail"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
-</Fruit>
 
 <Spice rdf:about="#pimento_berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
