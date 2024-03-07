@@ -1752,10 +1752,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honeydew</fancyName>
 </Fruit>
 
-<Edible rdf:about="#pears">
+<Fruit rdf:about="#pears">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pears</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#brazil_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
