@@ -2305,12 +2305,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentils</fancyName>
 </Seed>
 
-<Vegetal rdf:about="#chickpeas">
+<Seed rdf:about="#chickpeas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chickpeas</fancyName>
-</Vegetal>
+</Seed>
 
 <Vegetal rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
