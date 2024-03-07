@@ -2269,7 +2269,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raita</fancyName>
 </Indian>
 
-<Edible rdf:about="#flour">
+<Bread rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#enchiladas"/>
@@ -2296,7 +2296,7 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
