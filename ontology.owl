@@ -3300,11 +3300,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
 </Fruit>
 
-<Edible rdf:about="#apple_cider_vinegar">
+<Drink rdf:about="#apple_cider_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
-</Edible>
+</Drink>
 
 <Edible rdf:about="#overripe_bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
