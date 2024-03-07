@@ -6658,11 +6658,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#conch_meat">
+<Molluscs rdf:about="#conch_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
-</Edible>
+</Molluscs>
 
 <Edible rdf:about="#yellow_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
