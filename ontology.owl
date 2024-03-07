@@ -1684,6 +1684,7 @@
 
 <Water rdf:about="#flavored_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Water</fancyName>
 </Water>
 
@@ -3240,12 +3241,6 @@
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock</fancyName>
 </Fruit>
-
-<Water rdf:about="#coconut_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
-</Water>
 
 <Edible rdf:about="#bulgur_wheat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
