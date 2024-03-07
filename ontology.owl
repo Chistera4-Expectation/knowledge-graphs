@@ -5556,12 +5556,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other vegetables for variation</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#egg_yolks">
+<Poultry rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg yolks</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#strong_coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
