@@ -1906,10 +1906,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emu</fancyName>
 </Poultry>
 
-<Meat rdf:about="#alligator">
+<Poultry rdf:about="#alligator">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alligator</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#buffalo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
