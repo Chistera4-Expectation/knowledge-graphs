@@ -4099,12 +4099,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#fresh_herbs">
+<Seasoning rdf:about="#fresh_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
