@@ -5944,11 +5944,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
 </Rice>
 
-<Edible rdf:about="#red_beans">
+<Vegetable rdf:about="#red_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chorizo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
