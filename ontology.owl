@@ -502,6 +502,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphoric acid</fancyName>
 </Additive>
 
+<Beef rdf:about="#sirloin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sirloin</fancyName>
+</Beef>
+
+<Beef rdf:about="#strip">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strip</fancyName>
+</Beef>
+
+<Beef rdf:about="#flank">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flank</fancyName>
+</Beef>
+
+<Beef rdf:about="#ground_beef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
+</Beef>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
