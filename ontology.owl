@@ -3415,11 +3415,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranch dressing</fancyName>
 </Dressing>
 
-<Edible rdf:about="#corn">
+<Vegetable rdf:about="#corn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#bouillon_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
