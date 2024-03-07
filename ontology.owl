@@ -1447,7 +1447,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berry</fancyName>
 </Fruit>
 
-<Food rdf:about="#rice">
+<Rice rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#paella"/>
@@ -1460,7 +1460,7 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
-</Food>
+</Rice>
 
 <Food rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
