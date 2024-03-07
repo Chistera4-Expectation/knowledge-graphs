@@ -2781,7 +2781,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condensed milk</fancyName>
 </Cheese>
 
-<Edible rdf:about="#vanilla_extract">
+<Bread rdf:about="#vanilla_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
@@ -2790,7 +2790,7 @@
   <ingredientOf rdf:resource="#muffin_top"/>
   <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#cucumbers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
