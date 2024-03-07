@@ -4580,11 +4580,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken, dark meat</fancyName>
 </Poultry>
 
-<Edible rdf:about="#holy_trinity">
+<Vegetable rdf:about="#holy_trinity">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holy Trinity</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#okra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
