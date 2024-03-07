@@ -7477,11 +7477,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint leaves</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chicken_vegetable_stock">
+<Poultry rdf:about="#chicken_vegetable_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken/vegetable stock</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#fried_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
