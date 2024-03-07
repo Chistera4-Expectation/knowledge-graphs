@@ -2713,6 +2713,7 @@
 <Spice rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Spice>
 
@@ -3047,12 +3048,6 @@
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teff flour</fancyName>
 </Bread>
-
-<Spice rdf:about="#berbere_spice_blend">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#ethiopian_tibs"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berbere spice blend</fancyName>
-</Spice>
 
 <Vegetable rdf:about="#shiro_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
