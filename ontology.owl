@@ -6314,11 +6314,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking spray</fancyName>
 </Oil>
 
-<Edible rdf:about="#frozen_peas">
+<Vegetable rdf:about="#frozen_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frozen peas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#salt_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
