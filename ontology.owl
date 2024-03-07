@@ -344,6 +344,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Dressing>
 
@@ -1040,6 +1041,7 @@
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacon</fancyName>
 </Pork>
 
@@ -2072,6 +2074,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
 </Dairy>
 
@@ -2083,6 +2086,7 @@
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -5285,6 +5289,7 @@
 <Edible rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#panzanella_salad"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread</fancyName>
 </Edible>
 
@@ -5324,6 +5329,7 @@
 <Edible rdf:about="#herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbs</fancyName>
 </Edible>
 
@@ -5866,6 +5872,7 @@
 <Edible rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
 </Edible>
 
 <Edible rdf:about="#cooking_thermometer">
@@ -5920,6 +5927,23 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole allspice berries</fancyName>
+</Edible>
+
+<Edible rdf:about="#margarine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
+</Edible>
+
+<Edible rdf:about="#tomato_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato slices</fancyName>
+</Edible>
+
+<Edible rdf:about="#onion_slices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion slices</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
