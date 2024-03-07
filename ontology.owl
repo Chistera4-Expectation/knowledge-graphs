@@ -2688,11 +2688,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#allspice">
+<Spice rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fenugreek">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
