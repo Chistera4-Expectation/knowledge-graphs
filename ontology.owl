@@ -6989,11 +6989,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California rolls</fancyName>
 </Seaweed>
 
-<Edible rdf:about="#inari_sushi">
+<Fish rdf:about="#inari_sushi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inari sushi</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#seaweed_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
