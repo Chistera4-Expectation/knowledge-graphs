@@ -3524,6 +3524,7 @@
 <Seasoning rdf:about="#cumin_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin powder</fancyName>
 </Seasoning>
 
@@ -3895,12 +3896,6 @@
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peppers</fancyName>
 </Vegetable>
-
-<Seasoning rdf:about="#powdered_paprika">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#beef_with_green_peppers"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powdered paprika</fancyName>
-</Seasoning>
 
 <Vegetable rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
