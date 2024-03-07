@@ -5663,12 +5663,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried basil</fancyName>
 </Spice>
 
-<Edible rdf:about="#fresh_parsley">
+<Vegetable rdf:about="#fresh_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh parsley</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
