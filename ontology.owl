@@ -1072,10 +1072,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucuma powder</fancyName>
 </Sweetener>
 
-<Additive rdf:about="#artificial_sweeteners">
+<Sweetener rdf:about="#artificial_sweeteners">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial sweeteners</fancyName>
-</Additive>
+</Sweetener>
 
 <Additive rdf:about="#preservatives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
