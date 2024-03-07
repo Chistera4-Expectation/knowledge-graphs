@@ -2529,6 +2529,7 @@
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#paella"/>
   <ingredientOf rdf:resource="#orange_blossom_tea"/>
+  <ingredientOf rdf:resource="#lemon_meringues"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon</fancyName>
 </Fruit>
 
@@ -3230,12 +3231,6 @@
   <ingredientOf rdf:resource="#lemon_meringues"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg whites</fancyName>
 </Vegetable>
-
-<Fruit rdf:about="#lemon_zest">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lemon_meringues"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon zest</fancyName>
-</Fruit>
 
 <Pasta rdf:about="#macaroni_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
