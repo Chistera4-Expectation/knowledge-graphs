@@ -1486,10 +1486,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periwinkle</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#mussels">
+<Molluscs rdf:about="#mussels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussels</fancyName>
-</Seafood>
+</Molluscs>
 
 <Seafood rdf:about="#oysters">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

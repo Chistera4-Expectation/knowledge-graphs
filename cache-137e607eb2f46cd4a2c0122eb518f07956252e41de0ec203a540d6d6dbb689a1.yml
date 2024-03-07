@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Mussels' among: 'Edible Crustaceans', 'Edible Fish', 'Edible Molluscs'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Edible Molluscs'''
+    role: assistant
+created: 1709800288
+id: chatcmpl-903RwXcheAQzNgtCIu8QqZE9NCmTW
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 8
+  prompt_tokens: 49
+  total_tokens: 57
