@@ -2696,10 +2696,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
 </Energy>
 
-<Liquid rdf:about="#herbal_tea">
+<Tea rdf:about="#herbal_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Tea</fancyName>
-</Liquid>
+</Tea>
 
 <Edible rdf:about="#instances_are_the_actual_objects_that_are_created_using_that_blueprint__the_class_you_ve_mentioned___edible___suggests_objects_that_are_safe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
