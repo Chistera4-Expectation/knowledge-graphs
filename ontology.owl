@@ -327,6 +327,7 @@
 
 <Dressing rdf:about="#balsamic_glaze">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic Glaze</fancyName>
 </Dressing>
 
@@ -492,6 +493,7 @@
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -694,7 +696,9 @@
 <Spice rdf:about="#black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Spice>
 
 <Spice rdf:about="#white_pepper">
@@ -3144,6 +3148,7 @@
   <ingredientOf rdf:resource="#focaccia_bread"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
@@ -4752,6 +4757,7 @@
 <Edible rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#focaccia_bread"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Edible>
 
@@ -4819,6 +4825,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_mozzarella">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Mozzarella</fancyName>
+</Edible>
+
+<Edible rdf:about="#fresh_basil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Basil</fancyName>
+</Edible>
+
+<Edible rdf:about="#balsamic_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic Vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#arugula">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arugula</fancyName>
+</Edible>
+
+<Edible rdf:about="#pesto">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesto</fancyName>
+</Edible>
+
+<Edible rdf:about="#grilled_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled Bread</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
