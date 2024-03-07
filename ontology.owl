@@ -1854,12 +1854,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veal</fancyName>
 </Pork>
 
-<Meat rdf:about="#duck">
+<Poultry rdf:about="#duck">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
-</Meat>
+</Poultry>
 
 <Meat rdf:about="#goose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
