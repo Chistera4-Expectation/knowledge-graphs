@@ -2661,10 +2661,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Water>
 
-<Liquid rdf:about="#orange_juice">
+<Juice rdf:about="#orange_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Juice</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#green_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
