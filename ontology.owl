@@ -7447,11 +7447,11 @@
   <ingredientOf rdf:resource="#braised_pork_belly"/>
 </Vegetable>
 
-<Edible rdf:about="#sesame_oil_for_a_nutty_aroma">
+<Oil rdf:about="#sesame_oil_for_a_nutty_aroma">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil for a nutty aroma</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
