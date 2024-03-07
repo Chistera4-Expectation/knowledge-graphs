@@ -5490,11 +5490,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic Vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#arugula">
+<Vegetable rdf:about="#arugula">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arugula</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pesto">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
