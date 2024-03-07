@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Sushi, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Sushi rice (short-grain rice)
+
+      2. Rice vinegar
+
+      3. Sugar
+
+      4. Salt
+
+      5. Nori (seaweed sheets)
+
+      6. Raw fish (e.g., salmon, tuna)
+
+      7. Cooked seafood (e.g., shrimp, crab)
+
+      8. Vegetables (e.g., cucumber, avocado, asparagus)
+
+      9. Wasabi
+
+      10. Soy sauce
+
+      11. Pickled ginger'
+    role: assistant
+created: 1709800086
+id: chatcmpl-903OgC9AvNdukBkUPF0K7atOAkShB
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 89
+  prompt_tokens: 25
+  total_tokens: 114
