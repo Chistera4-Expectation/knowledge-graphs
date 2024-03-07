@@ -1503,10 +1503,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#haddock">
+<Fish rdf:about="#haddock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haddock</fancyName>
-</Seafood>
+</Fish>
 
 <Honey rdf:about="#clover_honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
