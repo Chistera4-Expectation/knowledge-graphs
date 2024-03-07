@@ -2392,6 +2392,7 @@
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3368,12 +3369,6 @@
   <ingredientOf rdf:resource="#miso_salmon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso Paste</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#green_onion">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#miso_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onion</fancyName>
 </Vegetable>
 
 <Alcoholic rdf:about="#sake">
