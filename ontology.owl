@@ -5538,11 +5538,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmigiano-Reggiano cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#freshly_ground_black_pepper">
+<Seasoning rdf:about="#freshly_ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly ground black pepper</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#_optional__peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
