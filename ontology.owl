@@ -6826,11 +6826,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#sushi_grade_fish">
+<Fish rdf:about="#sushi_grade_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi-grade fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#crab_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
