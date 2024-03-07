@@ -3641,7 +3641,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#rice_flour">
+<Rice rdf:about="#rice_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#tempura"/>
@@ -3649,7 +3649,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Flour</fancyName>
-</Edible>
+</Rice>
 
 <Edible rdf:about="#arrowroot_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
