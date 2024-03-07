@@ -4055,7 +4055,9 @@
 
 <Juice rdf:about="#coconut_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut water</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Water</fancyName>
 </Juice>
 
 <Juice rdf:about="#blueberry_juice">
@@ -4072,6 +4074,101 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry juice</fancyName>
 </Juice>
+
+<Water rdf:about="#spring_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Water</fancyName>
+</Water>
+
+<Water rdf:about="#distilled_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distilled Water</fancyName>
+</Water>
+
+<Water rdf:about="#mineral_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mineral Water</fancyName>
+</Water>
+
+<Water rdf:about="#purified_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purified Water</fancyName>
+</Water>
+
+<Water rdf:about="#sparkling_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling Water</fancyName>
+</Water>
+
+<Water rdf:about="#alkaline_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alkaline Water</fancyName>
+</Water>
+
+<Water rdf:about="#flavored_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Water</fancyName>
+</Water>
+
+<Water rdf:about="#electrolyte_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte Water</fancyName>
+</Water>
+
+<Water rdf:about="#glacier_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glacier Water</fancyName>
+</Water>
+
+<Water rdf:about="#artisanal_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artisanal Water</fancyName>
+</Water>
+
+<Water rdf:about="#rain_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rain Water</fancyName>
+</Water>
+
+<Water rdf:about="#tap_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tap Water</fancyName>
+</Water>
+
+<Water rdf:about="#well_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Well Water</fancyName>
+</Water>
+
+<Water rdf:about="#spring_fed_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring-fed Water</fancyName>
+</Water>
+
+<Water rdf:about="#oxygenated_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxygenated Water</fancyName>
+</Water>
+
+<Water rdf:about="#infused_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused Water</fancyName>
+</Water>
+
+<Water rdf:about="#hydrogen_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogen Water</fancyName>
+</Water>
+
+<Water rdf:about="#hard_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard Water</fancyName>
+</Water>
+
+<Water rdf:about="#soft_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft Water</fancyName>
+</Water>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
