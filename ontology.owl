@@ -5310,12 +5310,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground spices</fancyName>
 </Spice>
 
-<Edible rdf:about="#mustard_seeds">
+<Spice rdf:about="#mustard_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samosa"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seeds</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#turmeric_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
