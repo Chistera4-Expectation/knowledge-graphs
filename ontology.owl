@@ -4999,11 +4999,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breasts</fancyName>
 </Poultry>
 
-<Edible rdf:about="#panko_breadcrumbs">
+<Bread rdf:about="#panko_breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panko breadcrumbs</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#matcha_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
