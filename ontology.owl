@@ -3199,7 +3199,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#egg">
+<Poultry rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
@@ -3209,7 +3209,7 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
