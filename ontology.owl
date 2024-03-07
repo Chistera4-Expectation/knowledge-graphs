@@ -3306,11 +3306,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Drink>
 
-<Edible rdf:about="#overripe_bananas">
+<Fruit rdf:about="#overripe_bananas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#banana_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overripe bananas</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#shortening">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
