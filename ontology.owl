@@ -2806,6 +2806,7 @@
 <Vegetable rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
 </Vegetable>
 
@@ -3117,12 +3118,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#bouillon_broth">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#corn_chowder"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon broth</fancyName>
 </Vegetable>
 
 <Edible rdf:about="#bay_leaf">
