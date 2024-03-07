@@ -557,6 +557,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shank</fancyName>
 </Pork>
 
+<Poultry rdf:about="#chicken_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_leg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey Leg</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail Meat</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck Meat</fancyName>
+</Poultry>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
