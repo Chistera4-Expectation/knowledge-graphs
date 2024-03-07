@@ -6102,10 +6102,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri Piri sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#seasoning">
+<Seasoning rdf:about="#seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#fresh_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
