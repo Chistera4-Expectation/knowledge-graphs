@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Teff flour' among: 'Alcoholic Drink', 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Coffee', 'Drinking Water', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Energy Drink', 'Food Dressing', 'Food Seasoning', 'Honey', 'Juice', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Spice', 'Sweetener', 'Tea', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Bread'''
+    role: assistant
+created: 1709800557
+id: chatcmpl-903WHnGRX9UE0svHLHzv68eUCWKba
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 3
+  prompt_tokens: 188
+  total_tokens: 191

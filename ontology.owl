@@ -4133,11 +4133,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Baking soda</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#teff_flour">
+<Bread rdf:about="#teff_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teff flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
