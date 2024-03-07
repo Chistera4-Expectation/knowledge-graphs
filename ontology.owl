@@ -6759,11 +6759,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water for egg wash</fancyName>
 </Water>
 
-<Edible rdf:about="#cuban_bread">
+<Bread rdf:about="#cuban_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban bread</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#roast_pork">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
