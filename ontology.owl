@@ -1868,6 +1868,7 @@
 
 <Pasta rdf:about="#macaroni">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni</fancyName>
 </Pasta>
 
@@ -4193,12 +4194,6 @@
   <ingredientOf rdf:resource="#cornbread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melted butter</fancyName>
 </Butter>
-
-<Pasta rdf:about="#macaroni_pasta">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni pasta</fancyName>
-</Pasta>
 
 <Bread rdf:about="#_optional__bread_crumbs_for_topping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
