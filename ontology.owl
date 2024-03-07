@@ -973,6 +973,7 @@
 <Fish rdf:about="#swordfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#mole_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swordfish</fancyName>
 </Fish>
 
@@ -2698,12 +2699,6 @@
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soybeans</fancyName>
 </Seed>
-
-<Fish rdf:about="#fish_broth">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#mole_sauce"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish broth</fancyName>
-</Fish>
 
 <Bread rdf:about="#graham_cracker_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
