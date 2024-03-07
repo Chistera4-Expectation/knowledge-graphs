@@ -6010,6 +6010,8 @@
 <Seasoning rdf:about="#bouillon_cube">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon cube</fancyName>
 </Seasoning>
 
@@ -6052,13 +6054,6 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterleaf</fancyName>
 </Vegetable>
-
-<Seasoning rdf:about="#seasoning_cubes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
-</Seasoning>
 
 <Seasoning rdf:about="#bouillon_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
