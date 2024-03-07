@@ -5225,11 +5225,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plum sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#red_pepper_flakes">
+<Spice rdf:about="#red_pepper_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mongolian_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#wheat_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
