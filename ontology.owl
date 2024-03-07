@@ -3891,11 +3891,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
 </Fruit>
 
-<Edible rdf:about="#corn_cake">
+<Bread rdf:about="#corn_cake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn cake</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#fried_egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
