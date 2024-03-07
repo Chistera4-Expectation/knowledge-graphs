@@ -3691,11 +3691,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#achiote_paste">
+<Seasoning rdf:about="#achiote_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achiote Paste</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#dried_oregano">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
