@@ -1,0 +1,18 @@
+# Cache for query: in the Sauce class, should the instances 'Bernaise Sauce' and 'Soy sauce' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709801005
+id: chatcmpl-903dVNWmbPsevflkViCmUDejBgIcL
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 1
+  prompt_tokens: 51
+  total_tokens: 52
