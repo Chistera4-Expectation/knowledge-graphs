@@ -820,6 +820,16 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances</fancyName>
 </Honey>
 
+<Insect rdf:about="#__crickets____crick">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">**Crickets:** Crick</fancyName>
+</Insect>
+
+<Insect rdf:about="#__grasshoppers____grass">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">**Grasshoppers:** Grass</fancyName>
+</Insect>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
