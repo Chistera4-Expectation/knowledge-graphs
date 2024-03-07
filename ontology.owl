@@ -4145,11 +4145,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili peppers</fancyName>
 </Spice>
 
-<Edible rdf:about="#ethiopian_cardamom">
+<Spice rdf:about="#ethiopian_cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiopian cardamom</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#fenugreek_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
