@@ -6395,11 +6395,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crumbled feta cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#chives">
+<Vegetable rdf:about="#chives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chives</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
