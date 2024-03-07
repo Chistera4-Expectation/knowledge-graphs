@@ -4203,6 +4203,7 @@
 <Bread rdf:about="#_optional__bread_crumbs_for_topping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Bread crumbs for topping</fancyName>
 </Bread>
 
@@ -4373,12 +4374,6 @@
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black olives</fancyName>
 </Fruit>
-
-<Bread rdf:about="#breadcrumbs">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
-</Bread>
 
 <Spice rdf:about="#dried_parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
