@@ -3400,11 +3400,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#pecorino_romano_cheese">
+<Cheese rdf:about="#pecorino_romano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pecorino Romano cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#chicken_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
