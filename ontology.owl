@@ -5613,11 +5613,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pine nuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#pecorino_romano_cheese">
+<Cheese rdf:about="#pecorino_romano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pesto_genovese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pecorino Romano cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#_optional__fresh_lemon_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
