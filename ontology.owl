@@ -552,6 +552,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -893,6 +894,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black pepper</fancyName>
@@ -3544,6 +3546,7 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
@@ -5896,6 +5899,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Edible>
@@ -6319,6 +6323,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <ingredientOf rdf:resource="#plantains"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
 </Edible>
 
@@ -6530,6 +6535,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
 </Edible>
 
@@ -7213,6 +7219,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables of your choice</fancyName>
+</Edible>
+
+<Edible rdf:about="#boiling_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boiling water</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
