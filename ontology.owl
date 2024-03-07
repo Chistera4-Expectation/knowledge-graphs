@@ -6351,11 +6351,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crushed crackers</fancyName>
 </Bread>
 
-<Edible rdf:about="#optional__herbs">
+<Seasoning rdf:about="#optional__herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: herbs</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
