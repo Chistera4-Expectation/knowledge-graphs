@@ -6550,11 +6550,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Key lime juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#whipped_cream">
+<Dressing rdf:about="#whipped_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped cream</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#lime_zest">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
