@@ -4157,11 +4157,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
 </Spice>
 
-<Edible rdf:about="#coriander_seeds">
+<Spice rdf:about="#coriander_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander seeds</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
