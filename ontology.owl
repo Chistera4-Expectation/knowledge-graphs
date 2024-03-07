@@ -887,6 +887,19 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#flan"/>
+  <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
+  <ingredientOf rdf:resource="#curry_shrimp"/>
+  <ingredientOf rdf:resource="#bajan_flying_fish"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#samudra_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Milk</fancyName>
 </Milk>
 
@@ -2822,26 +2835,6 @@
   <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Yogurt>
-
-<Milk rdf:about="#coconut_milk">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#flan_de_coco"/>
-  <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
-  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
-  <ingredientOf rdf:resource="#khmer_curry"/>
-  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
-  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#mango_curry_chicken"/>
-  <ingredientOf rdf:resource="#coconut_chicken_curry"/>
-  <ingredientOf rdf:resource="#curry_shrimp"/>
-  <ingredientOf rdf:resource="#bajan_flying_fish"/>
-  <ingredientOf rdf:resource="#red_curry"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#samudra_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Milk</fancyName>
-</Milk>
 
 <Vegetable rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
