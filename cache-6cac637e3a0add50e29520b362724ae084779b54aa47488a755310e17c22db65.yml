@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Edible Crustaceans, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Lobster
+
+      2. Shrimp
+
+      3. Crab
+
+      4. Crawfish
+
+      5. Prawn
+
+      6. Langoustine
+
+      7. Dungeness Crab
+
+      8. Blue Crab
+
+      9. Snow Crab
+
+      10. King Crab'
+    role: assistant
+created: 1709799615
+id: chatcmpl-903H5HvNBiwEaN15dADwrYtdNsoDo
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 51
+  prompt_tokens: 30
+  total_tokens: 81
