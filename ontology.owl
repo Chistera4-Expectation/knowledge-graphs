@@ -2996,6 +2996,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
+  <ingredientOf rdf:resource="#green_bean_casserole"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Vegetable>
 
@@ -3127,12 +3128,6 @@
   <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried dill</fancyName>
 </Edible>
-
-<Vegetable rdf:about="#green_beans">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#green_bean_casserole"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
-</Vegetable>
 
 <Beef rdf:about="#hot_dog_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
