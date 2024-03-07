@@ -3016,7 +3016,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppercorns</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#turmeric">
+<Vegetable rdf:about="#turmeric">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
@@ -3028,7 +3028,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#peanut_butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
