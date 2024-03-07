@@ -1414,10 +1414,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetable>
 
-<Vegetal rdf:about="#whole_grains">
+<Rice rdf:about="#whole_grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole grains</fancyName>
-</Vegetal>
+</Rice>
 
 <Vegetal rdf:about="#legumes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
