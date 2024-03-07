@@ -4061,11 +4061,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassava dough</fancyName>
 </Bread>
 
-<Edible rdf:about="#any_hot_pepper">
+<Vegetable rdf:about="#any_hot_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any hot pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#spices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
