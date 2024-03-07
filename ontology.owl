@@ -2943,10 +2943,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Crustaceans>
 
-<Animal rdf:about="#caviar">
+<Crustaceans rdf:about="#caviar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caviar</fancyName>
-</Animal>
+</Crustaceans>
 
 <Animal rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
