@@ -2387,6 +2387,7 @@
   <ingredientOf rdf:resource="#red_curry"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#kebabs"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -2566,12 +2567,6 @@
   <ingredientOf rdf:resource="#paella"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</fancyName>
 </Fish>
-
-<Vegetable rdf:about="#diced_onion">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#enchiladas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced onion</fancyName>
-</Vegetable>
 
 <Seasoning rdf:about="#chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
