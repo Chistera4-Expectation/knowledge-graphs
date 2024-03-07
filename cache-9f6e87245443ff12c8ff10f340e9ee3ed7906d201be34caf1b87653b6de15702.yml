@@ -1,0 +1,50 @@
+# Cache for query: instances list for class Seafood, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Certainly! Below are names that could be instances of a class labeled
+      "Seafood" in a programming or dietary context:
+
+
+      1. Salmon
+
+      2. Cod
+
+      3. Tilapia
+
+      4. Shrimp
+
+      5. Lobster
+
+      6. Crab
+
+      7. Mussels
+
+      8. Oysters
+
+      9. Clams
+
+      10. Tuna
+
+      11. Sardines
+
+      12. Haddock
+
+      13. Squid (Calamari)
+
+      14. Octopus
+
+      15. Scallo'
+    role: assistant
+created: 1709799626
+id: chatcmpl-903HGgUd5sWTAFILP0RPny3MG4wIg
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126

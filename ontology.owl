@@ -1236,6 +1236,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periwinkle</fancyName>
 </Molluscs>
 
+<Seafood rdf:about="#mussels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mussels</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#oysters">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#clams">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
+</Seafood>
+
+<Seafood rdf:about="#haddock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haddock</fancyName>
+</Seafood>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
