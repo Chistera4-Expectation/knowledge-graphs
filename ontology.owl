@@ -7520,11 +7520,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#cumin_powder">
+<Spice rdf:about="#cumin_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#green_chili">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
