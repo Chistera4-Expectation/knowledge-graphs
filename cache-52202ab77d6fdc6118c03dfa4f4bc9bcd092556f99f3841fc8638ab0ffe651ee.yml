@@ -1,0 +1,46 @@
+# Cache for query: instances list for class Vegetal-derived Food, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Tofu
+
+      2. Soy Milk
+
+      3. Quinoa
+
+      4. Lentils
+
+      5. Chickpeas
+
+      6. Almonds
+
+      7. Spinach
+
+      8. Broccoli
+
+      9. Avocado
+
+      10. Sweet Potato
+
+      11. Brown Rice
+
+      12. Oats
+
+      13. Black Beans
+
+      14. Bananas
+
+      15. Blueberries'
+    role: assistant
+created: 1709799702
+id: chatcmpl-903IUyAeykInlqkUQ4KZfkSAWeF3Z
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 76
+  prompt_tokens: 28
+  total_tokens: 104
