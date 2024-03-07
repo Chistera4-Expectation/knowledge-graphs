@@ -347,6 +347,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#lemon_meringues"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
 </Dressing>
@@ -2528,6 +2529,7 @@
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#banana_bread"/>
   <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#lemon_meringues"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2842,6 +2844,7 @@
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#lemon_meringues"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -3019,6 +3022,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayonnaise</fancyName>
+</Edible>
+
+<Edible rdf:about="#egg_whites">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lemon_meringues"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg whites</fancyName>
+</Edible>
+
+<Edible rdf:about="#lemon_zest">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lemon_meringues"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon zest</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
