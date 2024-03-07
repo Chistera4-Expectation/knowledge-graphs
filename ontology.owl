@@ -5434,11 +5434,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#italian_seasoning">
+<Seasoning rdf:about="#italian_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#pizza_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
