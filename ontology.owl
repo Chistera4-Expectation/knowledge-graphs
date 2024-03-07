@@ -4119,10 +4119,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</fancyName>
 </Fruit>
 
-<Food rdf:about="#grapes">
+<Fruit rdf:about="#grapes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapes</fancyName>
-</Food>
+</Fruit>
 
 <Food rdf:about="#peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
