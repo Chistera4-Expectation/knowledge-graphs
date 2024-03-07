@@ -6965,11 +6965,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded egg crepe</fancyName>
 </Breakfast>
 
-<Edible rdf:about="#soy_sauce_for_seasoning">
+<Seasoning rdf:about="#soy_sauce_for_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce for seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#steamed_white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
