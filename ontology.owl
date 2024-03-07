@@ -1473,11 +1473,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grain</fancyName>
 </Rice>
 
-<Food rdf:about="#breadcrumbs">
+<Bread rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
-</Food>
+</Bread>
 
 <Food rdf:about="#pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
