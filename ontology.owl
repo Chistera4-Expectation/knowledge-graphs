@@ -295,7 +295,9 @@
 
 <Dressing rdf:about="#caesar_dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caesar Dressing</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caesar dressing</fancyName>
 </Dressing>
 
 <Dressing rdf:about="#french_dressing">
@@ -434,6 +436,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#barbecue_ribs"/>
   <ingredientOf rdf:resource="#biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -1295,6 +1298,7 @@
 
 <Fish rdf:about="#anchovies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anchovies</fancyName>
 </Fish>
 
@@ -2986,6 +2990,7 @@
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Edible>
 
@@ -3062,6 +3067,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3665,6 +3671,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <ingredientOf rdf:resource="#harira_soup"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
 </Edible>
 
@@ -4032,6 +4039,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried parsley</fancyName>
+</Edible>
+
+<Edible rdf:about="#romaine_lettuce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romaine lettuce</fancyName>
+</Edible>
+
+<Edible rdf:about="#croutons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#caesar_salad"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croutons</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
