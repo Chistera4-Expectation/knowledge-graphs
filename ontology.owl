@@ -4205,11 +4205,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermicelli noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#couscous">
+<Pasta rdf:about="#couscous">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couscous</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#chicken_thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
