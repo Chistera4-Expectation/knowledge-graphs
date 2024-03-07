@@ -5746,11 +5746,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crushed tomatoes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#dry_white_wine">
+<Alcoholic rdf:about="#dry_white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry white wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#fish_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
