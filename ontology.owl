@@ -5685,6 +5685,11 @@
 <Seasoning rdf:about="#red_wine_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#panzanella_salad"/>
+  <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine vinegar</fancyName>
 </Seasoning>
 
@@ -5813,16 +5818,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional ingredients</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#vinegar">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tacos_al_pastor"/>
-  <ingredientOf rdf:resource="#cape_malay_curry"/>
-  <ingredientOf rdf:resource="#biltong"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Seasoning>
 
 <Spice rdf:about="#red_chili_peppers">
