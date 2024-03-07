@@ -1,0 +1,21 @@
+# Cache for query: ingredient list for Beijing Roast Duck, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Duck\n2. Salt\n3. Sugar\n4. Soy sauce\n5. Hoisin sauce\n6. Garlic\n\
+      7. Scallions\n8. Ginger\n9. Chinese five-spice powder  \n10. Maltose or Honey\n\
+      11. Rice vinegar\n12. Cucumber (for serving)\n13. Green onions (for serving)\n\
+      14. Pancakes (for serving)\n15. Plum sauce (for serving)"
+    role: assistant
+created: 1709800180
+id: chatcmpl-903QCyw7kH2GTiZZxm8CeSgrfvHyj
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 90
+  prompt_tokens: 27
+  total_tokens: 117
