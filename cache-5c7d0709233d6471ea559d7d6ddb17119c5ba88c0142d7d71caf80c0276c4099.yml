@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for Run Down, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Mackerel (or other firm fish like cod)
+
+      2. Coconut milk
+
+      3. Onions
+
+      4. Garlic
+
+      5. Thyme
+
+      6. Scotch bonnet pepper
+
+      7. Tomatoes
+
+      8. Bell peppers
+
+      9. Allspice (Pimento)
+
+      10. Salt
+
+      11. Black pepper
+
+      12. Cooking oil (optional, for frying fish)
+
+      13. Green onions (scallions)
+
+      14. Lime or lemon juice (optional, for washing the fish'
+    role: assistant
+created: 1709800056
+id: chatcmpl-903OC06QDlRE2hc2KYSwpgLlwPnZE
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
