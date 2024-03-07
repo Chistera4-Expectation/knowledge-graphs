@@ -2686,6 +2686,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crumbs</fancyName>
 </Bread>
 
@@ -3293,12 +3294,6 @@
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni noodles</fancyName>
 </Pasta>
-
-<Bread rdf:about="#pie_crust">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#peach_cobbler"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie Crust</fancyName>
-</Bread>
 
 <Bread rdf:about="#pastry_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
