@@ -4057,11 +4057,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
 </Breakfast>
 
-<Edible rdf:about="#flora_tea_petals">
+<Tea rdf:about="#flora_tea_petals">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#orange_blossom_tea"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora tea petals</fancyName>
-</Edible>
+</Tea>
 
 <Edible rdf:about="#orange_blossom_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
