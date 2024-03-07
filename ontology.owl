@@ -4338,11 +4338,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#ribs">
+<Pork rdf:about="#ribs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#barbecue_ribs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ribs</fancyName>
-</Edible>
+</Pork>
 
 <Edible rdf:about="#barbecue_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
