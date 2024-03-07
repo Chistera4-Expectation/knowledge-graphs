@@ -785,6 +785,17 @@
   <hasForIngredient rdf:resource="#dried_oregano"/>
   <hasForIngredient rdf:resource="#dried_thyme"/>
   <hasForIngredient rdf:resource="#garlic_cloves"/>
+  <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#sawa_platter"/>
+  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#mango_curry_chicken"/>
+  <ingredientOf rdf:resource="#chicken_teriyaki"/>
+  <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#pad_see_ew"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Breast</fancyName>
 </Poultry>
 
@@ -810,22 +821,6 @@
   <ingredientOf rdf:resource="#pot_roast"/>
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef</fancyName>
-</Poultry>
-
-<Poultry rdf:about="#chicken">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#paella"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#sawa_platter"/>
-  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
-  <ingredientOf rdf:resource="#chicken_pot_pie"/>
-  <ingredientOf rdf:resource="#cobb_salad"/>
-  <ingredientOf rdf:resource="#mango_curry_chicken"/>
-  <ingredientOf rdf:resource="#chicken_teriyaki"/>
-  <ingredientOf rdf:resource="#pad_thai"/>
-  <ingredientOf rdf:resource="#pad_see_ew"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Poultry>
 
 <Poultry rdf:about="#lamb">
