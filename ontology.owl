@@ -3801,13 +3801,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squid</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#miso_paste">
+<Vegetable rdf:about="#miso_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#miso_salmon"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso Paste</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
