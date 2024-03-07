@@ -6365,11 +6365,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spices</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#cooking_thermometer">
+<Seasoning rdf:about="#cooking_thermometer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking thermometer</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#romaine_lettuce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
