@@ -4801,11 +4801,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter beans</fancyName>
 </Seed>
 
-<Edible rdf:about="#guavas">
+<Fruit rdf:about="#guavas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guava_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guavas</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#food_coloring">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
