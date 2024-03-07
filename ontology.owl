@@ -4918,11 +4918,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
 </Beef>
 
-<Edible rdf:about="#sukiyaki_sauce">
+<Sauce rdf:about="#sukiyaki_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sukiyaki sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#nappa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
