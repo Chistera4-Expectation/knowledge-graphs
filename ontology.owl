@@ -2755,12 +2755,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish broth</fancyName>
 </Fish>
 
-<Edible rdf:about="#graham_cracker_crumbs">
+<Bread rdf:about="#graham_cracker_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham cracker crumbs</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#sweet_condensed_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
