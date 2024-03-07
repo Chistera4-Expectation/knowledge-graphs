@@ -7332,11 +7332,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sriracha sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#beef_shank">
+<Beef rdf:about="#beef_shank">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef shank</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#fresh_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
