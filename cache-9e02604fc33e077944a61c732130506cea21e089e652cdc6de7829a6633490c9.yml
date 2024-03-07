@@ -1,0 +1,50 @@
+# Cache for query: ingredient list for Samosa, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Potatoes
+
+      2. Peas
+
+      3. Onions
+
+      4. Green chilies
+
+      5. Ginger
+
+      6. Garlic
+
+      7. Cumin seeds
+
+      8. Mustard seeds
+
+      9. Turmeric powder
+
+      10. Garam masala
+
+      11. Coriander powder
+
+      12. Lemon juice
+
+      13. Salt
+
+      14. Oil
+
+      15. Flour (for the dough)
+
+      16. Water (for the dough)
+
+      17. Coriander leaves'
+    role: assistant
+created: 1709800232
+id: chatcmpl-903R2hlk1GGvpdFpusQDndPp53cjy
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 96
+  prompt_tokens: 25
+  total_tokens: 121

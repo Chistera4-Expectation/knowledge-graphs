@@ -452,6 +452,7 @@
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -598,6 +599,7 @@
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -2648,6 +2650,7 @@
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -3311,6 +3314,7 @@
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3511,6 +3515,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Edible>
 
@@ -3526,6 +3531,7 @@
   <ingredientOf rdf:resource="#goat_water"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#dumplings"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3778,6 +3784,7 @@
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -3832,6 +3839,7 @@
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -3934,6 +3942,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
 </Edible>
 
@@ -4008,6 +4017,7 @@
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#guava_cheese"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lemon juice</fancyName>
@@ -4724,6 +4734,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
   <ingredientOf rdf:resource="#egg_fried_rice"/>
+  <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Edible>
 
@@ -5276,6 +5287,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground spices</fancyName>
+</Edible>
+
+<Edible rdf:about="#mustard_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#turmeric_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#coriander_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#coriander_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander leaves</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
