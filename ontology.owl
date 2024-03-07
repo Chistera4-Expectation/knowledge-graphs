@@ -5452,7 +5452,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Mozzarella Cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#extra_virgin_olive_oil">
+<Oil rdf:about="#extra_virgin_olive_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
@@ -5460,7 +5460,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra Virgin Olive Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra virgin olive oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra-virgin olive oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
