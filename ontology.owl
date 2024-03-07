@@ -5267,11 +5267,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#ground_black_pepper">
+<Spice rdf:about="#ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground black pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
