@@ -3609,7 +3609,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Seed>
 
-<Edible rdf:about="#carrots">
+<Vegetable rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
@@ -3626,7 +3626,7 @@
   <ingredientOf rdf:resource="#egg_fried_rice"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#red_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
