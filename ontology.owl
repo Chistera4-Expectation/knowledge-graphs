@@ -1920,10 +1920,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
 </Breakfast>
 
-<Cereal rdf:about="#barley">
+<Bread rdf:about="#barley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barley</fancyName>
-</Cereal>
+</Bread>
 
 <Cereal rdf:about="#sorghum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
