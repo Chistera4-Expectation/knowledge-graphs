@@ -3571,11 +3571,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taco seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chicken_legs">
+<Poultry rdf:about="#chicken_legs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken legs</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
