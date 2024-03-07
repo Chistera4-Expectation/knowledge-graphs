@@ -4860,10 +4860,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nut Milk</fancyName>
 </Milk>
 
-<Edible rdf:about="#oats">
+<Breakfast rdf:about="#oats">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oats</fancyName>
-</Edible>
+</Breakfast>
 
 <Edible rdf:about="#almonds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
