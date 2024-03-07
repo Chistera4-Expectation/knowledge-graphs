@@ -787,6 +787,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucuma powder</fancyName>
 </Sweetener>
 
+<Additive rdf:about="#artificial_sweeteners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial sweeteners</fancyName>
+</Additive>
+
+<Additive rdf:about="#preservatives">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
+</Additive>
+
+<Additive rdf:about="#emulsifiers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emulsifiers</fancyName>
+</Additive>
+
+<Additive rdf:about="#stabilizers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stabilizers</fancyName>
+</Additive>
+
+<Additive rdf:about="#thickeners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thickeners</fancyName>
+</Additive>
+
+<Additive rdf:about="#flavor_enhancers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavor enhancers</fancyName>
+</Additive>
+
+<Additive rdf:about="#antioxidants">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
+</Additive>
+
+<Additive rdf:about="#humectants">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humectants</fancyName>
+</Additive>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
