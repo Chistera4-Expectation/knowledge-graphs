@@ -7102,14 +7102,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple chunks</fancyName>
 </Fruit>
 
-<Edible rdf:about="#hoisin_sauce">
+<Sauce rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
