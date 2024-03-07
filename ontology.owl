@@ -6651,12 +6651,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#white_vinegar">
+<Seasoning rdf:about="#white_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jamaican_curry_goat"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White vinegar</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#conch_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
