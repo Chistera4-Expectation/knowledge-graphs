@@ -4845,10 +4845,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrolyte Drink</fancyName>
 </Drink>
 
-<Liquid rdf:about="#vegetable_juice">
+<Juice rdf:about="#vegetable_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Juice</fancyName>
-</Liquid>
+</Juice>
 
 <Liquid rdf:about="#infused_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
