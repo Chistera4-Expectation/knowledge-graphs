@@ -507,6 +507,7 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2572,6 +2573,7 @@
 <Animal rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Animal>
 
@@ -3283,6 +3285,7 @@
 
 <Oil rdf:about="#palm_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm Oil</fancyName>
 </Oil>
 
@@ -4867,6 +4870,7 @@
 <Edible rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#focaccia_bread"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -4900,6 +4904,7 @@
 <Edible rdf:about="#bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Edible>
 
@@ -5374,7 +5379,9 @@
 <Edible rdf:about="#habanero_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habanero pepper</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habanero pepper</fancyName>
 </Edible>
 
 <Edible rdf:about="#vegetable_oil">
@@ -5404,6 +5411,60 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#meat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</fancyName>
+</Edible>
+
+<Edible rdf:about="#stockfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stockfish</fancyName>
+</Edible>
+
+<Edible rdf:about="#waterleaf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterleaf</fancyName>
+</Edible>
+
+<Edible rdf:about="#seasoning_cubes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
+</Edible>
+
+<Edible rdf:about="#bouillon_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#crayfish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crayfish</fancyName>
+</Edible>
+
+<Edible rdf:about="#dried_cameroon_pepper">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried Cameroon Pepper</fancyName>
+</Edible>
+
+<Edible rdf:about="#locust_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust beans</fancyName>
+</Edible>
+
+<Edible rdf:about="#scent_leaves">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scent leaves</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
