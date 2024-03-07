@@ -6890,11 +6890,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinly sliced beef</fancyName>
 </Beef>
 
-<Edible rdf:about="#sliced_onions">
+<Vegetable rdf:about="#sliced_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sliced onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#shirataki_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
