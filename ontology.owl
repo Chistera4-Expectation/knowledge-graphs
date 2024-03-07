@@ -4127,11 +4127,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#optional__baking_soda">
+<Seasoning rdf:about="#optional__baking_soda">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Baking soda</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#teff_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
