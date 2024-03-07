@@ -1651,35 +1651,6 @@
 
 <Water rdf:about="#plain_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plain Water</fancyName>
-</Water>
-
-<Water rdf:about="#flavored_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Water</fancyName>
-</Water>
-
-<Water rdf:about="#herbal_infused_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Infused Water</fancyName>
-</Water>
-
-<Juice rdf:about="#juice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#salsa"/>
-  <ingredientOf rdf:resource="#mango_salsa"/>
-  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice</fancyName>
-</Juice>
-
-<Alcoholic rdf:about="#soda">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
-</Alcoholic>
-
-<Water rdf:about="#water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#naija_stew"/>
@@ -1708,8 +1679,32 @@
   <ingredientOf rdf:resource="#orange_blossom_tea"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
   <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plain Water</fancyName>
 </Water>
+
+<Water rdf:about="#flavored_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Water</fancyName>
+</Water>
+
+<Water rdf:about="#herbal_infused_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Infused Water</fancyName>
+</Water>
+
+<Juice rdf:about="#juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
+  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice</fancyName>
+</Juice>
+
+<Alcoholic rdf:about="#soda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
+</Alcoholic>
 
 <Coffee rdf:about="#coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
