@@ -5286,11 +5286,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
 </Butter>
 
-<Edible rdf:about="#kashmiri_red_chili_powder">
+<Spice rdf:about="#kashmiri_red_chili_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri red chili powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ginger_garlic_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
