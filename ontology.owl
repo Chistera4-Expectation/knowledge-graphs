@@ -1596,10 +1596,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Ginger</fancyName>
 </Tea>
 
-<Infusion rdf:about="#turmeric_honey">
+<Tea rdf:about="#turmeric_honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric Honey</fancyName>
-</Infusion>
+</Tea>
 
 <Infusion rdf:about="#pomegranate_pomegranate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
