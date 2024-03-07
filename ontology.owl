@@ -4863,12 +4863,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pickled_ginger">
+<Vegetable rdf:about="#pickled_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#tempura_batter_mix">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
