@@ -3166,7 +3166,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish Curry</fancyName>
 </Indian>
 
-<Edible rdf:about="#all_purpose_flour">
+<Bread rdf:about="#all_purpose_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
@@ -3174,7 +3174,7 @@
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#saltfish_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#cheese_filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
