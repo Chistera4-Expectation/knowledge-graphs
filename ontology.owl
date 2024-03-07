@@ -3074,12 +3074,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiro powder</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#tomato_puree">
+<Vegetable rdf:about="#tomato_puree">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato puree</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#dried_rosemary">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
