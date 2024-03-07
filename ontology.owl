@@ -1051,10 +1051,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oysters</fancyName>
 </Fish>
 
-<Seafood rdf:about="#sardines">
+<Fish rdf:about="#sardines">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sardines</fancyName>
-</Seafood>
+</Fish>
 
 <Seafood rdf:about="#crab">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
