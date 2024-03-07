@@ -7416,13 +7416,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese pancakes</fancyName>
 </Bread>
 
-<Edible rdf:about="#cinnamon_stick">
+<Spice rdf:about="#cinnamon_stick">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon Stick</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon stick</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#red_pepper_flakes_for_heat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
