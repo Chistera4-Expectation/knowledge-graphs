@@ -6401,11 +6401,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chives</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#dressing">
+<Dressing rdf:about="#dressing">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressing</fancyName>
-</Edible>
+</Dressing>
 
 <Edible rdf:about="#corned_beef_brisket">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
