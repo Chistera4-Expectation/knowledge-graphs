@@ -4421,12 +4421,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breakfast sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#green_bell_pepper">
+<Vegetable rdf:about="#green_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#mushroom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
