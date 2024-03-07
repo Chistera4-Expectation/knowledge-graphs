@@ -3048,6 +3048,7 @@
 <Rice rdf:about="#sushi_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi Rice</fancyName>
 </Rice>
 
@@ -3637,6 +3638,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Seeds</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame seeds</fancyName>
 </Seed>
@@ -3744,6 +3746,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#panzanella_salad"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber</fancyName>
 </Vegetable>
 
@@ -6539,6 +6542,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Edible>
 
@@ -6546,6 +6550,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
 </Edible>
 
@@ -6601,6 +6606,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiitake mushrooms</fancyName>
 </Edible>
 
@@ -6634,6 +6640,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miso paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#sashimi_grade_fish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sashimi-grade fish</fancyName>
+</Edible>
+
+<Edible rdf:about="#nori_seaweed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nori seaweed</fancyName>
+</Edible>
+
+<Edible rdf:about="#shredded_egg_crepe">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded egg crepe</fancyName>
+</Edible>
+
+<Edible rdf:about="#soy_sauce_for_seasoning">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#chirashi_don"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce for seasoning</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
