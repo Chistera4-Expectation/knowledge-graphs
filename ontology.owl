@@ -4087,6 +4087,7 @@
 <Rice rdf:about="#short_grain_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#chirashi_sushi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-grain rice</fancyName>
 </Rice>
 
@@ -5009,12 +5010,6 @@
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daikon radish</fancyName>
 </Vegetable>
-
-<Rice rdf:about="#sushi_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chirashi_sushi"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sushi rice</fancyName>
-</Rice>
 
 <Fish rdf:about="#sashimi_grade_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
