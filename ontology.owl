@@ -4089,10 +4089,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Grains</fancyName>
 </Vegetal>
 
-<Vegetal rdf:about="#tubers">
+<Vegetable rdf:about="#tubers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubers</fancyName>
-</Vegetal>
+</Vegetable>
 
 <Vegetal rdf:about="#soy_products">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
