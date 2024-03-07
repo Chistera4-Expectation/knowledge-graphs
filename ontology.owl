@@ -2435,12 +2435,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee liqueur</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#sweetened_condensed_milk">
+<Milk rdf:about="#sweetened_condensed_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweetened condensed milk</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#dried_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
