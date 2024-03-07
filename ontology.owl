@@ -7092,6 +7092,7 @@
 <Seasoning rdf:about="#five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
 </Seasoning>
 
@@ -7395,12 +7396,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Pepper Flakes for heat</fancyName>
-</Seasoning>
-
-<Seasoning rdf:about="#five_spice_powder_for_additional_flavor">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#braised_pork_belly"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five Spice Powder for additional flavor</fancyName>
 </Seasoning>
 
 <Vegetable rdf:about="#depth">
