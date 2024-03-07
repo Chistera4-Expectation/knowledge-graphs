@@ -1201,10 +1201,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Jacks</fancyName>
 </Breakfast>
 
-<Cereal rdf:about="#shredded_wheat">
+<Breakfast rdf:about="#shredded_wheat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded Wheat</fancyName>
-</Cereal>
+</Breakfast>
 
 <Cereal rdf:about="#raisin_bran_crunch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
