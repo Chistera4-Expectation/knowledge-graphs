@@ -5350,11 +5350,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Sweetener>
 
-<Edible rdf:about="#sea_salt">
+<Seasoning rdf:about="#sea_salt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#focaccia_bread"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea salt</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
