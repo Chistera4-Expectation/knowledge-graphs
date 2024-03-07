@@ -4005,11 +4005,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust beans</fancyName>
 </Seed>
 
-<Edible rdf:about="#seasoning_cubes">
+<Seasoning rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning cubes</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#piri_piri_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
