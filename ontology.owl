@@ -7404,11 +7404,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish fillet</fancyName>
 </Fish>
 
-<Edible rdf:about="#chinese_five_spice_powder">
+<Spice rdf:about="#chinese_five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese five-spice powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#chinese_pancakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
