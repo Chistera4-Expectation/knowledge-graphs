@@ -5123,11 +5123,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice Wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#beef_flank_steak">
+<Beef rdf:about="#beef_flank_steak">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef flank steak</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
