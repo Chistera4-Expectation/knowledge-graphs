@@ -3037,12 +3037,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut butter</fancyName>
 </Seed>
 
-<Edible rdf:about="#plantain">
+<Fruit rdf:about="#plantain">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#leafy_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
