@@ -680,11 +680,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citric acid</fancyName>
 </Sauce>
 
-<Additive rdf:about="#sodium_bicarbonate">
+<Sauce rdf:about="#sodium_bicarbonate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium bicarbonate</fancyName>
-</Additive>
+</Sauce>
 
 <Additive rdf:about="#sodium_glutamate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
