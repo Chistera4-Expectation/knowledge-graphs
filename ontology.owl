@@ -572,6 +572,7 @@
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -830,6 +831,7 @@
 
 <Poultry rdf:about="#chicken_breast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
 </Poultry>
 
@@ -2031,12 +2033,15 @@
 
 <Oil rdf:about="#peanut_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut Oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut oil</fancyName>
 </Oil>
 
 <Oil rdf:about="#sesame_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
@@ -3210,6 +3215,7 @@
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3239,6 +3245,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -3384,6 +3391,7 @@
 <Edible rdf:about="#balsamic_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
 </Edible>
 
@@ -4442,6 +4450,7 @@
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -4453,6 +4462,7 @@
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#teriyaki"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -4742,6 +4752,7 @@
 <Edible rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
@@ -4779,6 +4790,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#matcha_ice_cream"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#hoisin_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#shaoxing_wine">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
+</Edible>
+
+<Edible rdf:about="#dried_red_chili_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried red chili peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#sichuan_peppercorns">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
+</Edible>
+
+<Edible rdf:about="#peanuts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

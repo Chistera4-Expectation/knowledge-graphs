@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Kung Pao Chicken, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken breast
+
+      2. Soy sauce
+
+      3. Hoisin sauce
+
+      4. Cornstarch
+
+      5. Shaoxing wine (or dry sherry)
+
+      6. Sugar
+
+      7. Balsamic vinegar
+
+      8. Sesame oil
+
+      9. Peanut oil (or vegetable oil)
+
+      10. Dried red chili peppers
+
+      11. Sichuan peppercorns
+
+      12. Garlic
+
+      13. Ginger
+
+      14. Green onions (scallions)
+
+      15. Peanuts'
+    role: assistant
+created: 1709800128
+id: chatcmpl-903PMSHtP6gJJW6IvtEKBh308Ub6s
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 98
+  prompt_tokens: 28
+  total_tokens: 126
