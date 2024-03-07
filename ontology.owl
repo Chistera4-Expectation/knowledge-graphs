@@ -2908,7 +2908,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Milk</fancyName>
 </Milk>
 
-<Edible rdf:about="#carrots">
+<Vegetable rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
@@ -2922,7 +2922,7 @@
   <ingredientOf rdf:resource="#red_curry"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
