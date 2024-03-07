@@ -4525,11 +4525,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime zest</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#mixed_greens">
+<Vegetable rdf:about="#mixed_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed greens</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#grilled">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
