@@ -5514,11 +5514,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow onion</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#vegetable">
+<Vegetable rdf:about="#vegetable">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
