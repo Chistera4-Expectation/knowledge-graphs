@@ -568,6 +568,7 @@
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -651,6 +652,7 @@
 <Sweetener rdf:about="#honey">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Animal"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
@@ -2026,7 +2028,9 @@
 
 <Oil rdf:about="#sesame_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
 
 <Oil rdf:about="#grapeseed_oil">
@@ -2108,7 +2112,9 @@
 
 <Seed rdf:about="#sesame_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Seeds</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sesame seeds</fancyName>
 </Seed>
 
 <Seed rdf:about="#pumpkin_seeds">
@@ -2344,6 +2350,7 @@
 
 <Alcoholic rdf:about="#sake">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sake</fancyName>
 </Alcoholic>
 
@@ -2553,6 +2560,7 @@
   <ingredientOf rdf:resource="#guava_cheese"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -3190,6 +3198,7 @@
   <ingredientOf rdf:resource="#goat_water"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -3217,6 +3226,7 @@
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#guava_cheese"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -4409,6 +4419,7 @@
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -4418,6 +4429,7 @@
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
 </Edible>
 
@@ -4582,6 +4594,7 @@
 <Edible rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice vinegar</fancyName>
 </Edible>
 
@@ -4699,6 +4712,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo shoots</fancyName>
+</Edible>
+
+<Edible rdf:about="#cornstarch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#teriyaki"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

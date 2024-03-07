@@ -1,0 +1,38 @@
+# Cache for query: ingredient list for Teriyaki, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Soy sauce
+
+      2. Water
+
+      3. Sugar (often brown sugar)
+
+      4. Honey or Mirin (Japanese sweet rice wine)
+
+      5. Sake (optional)
+
+      6. Ginger
+
+      7. Garlic
+
+      8. Cornstarch (for thickening, optional)
+
+      9. Sesame oil (optional)
+
+      10. Rice vinegar (optional)
+
+      11. Green onions or sesame seeds (for garnish, optional)'
+    role: assistant
+created: 1709800105
+id: chatcmpl-903OzO3vqEu3BYAbACDoC51cBO8l3
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 85
+  prompt_tokens: 26
+  total_tokens: 111
