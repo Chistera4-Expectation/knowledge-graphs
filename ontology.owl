@@ -877,6 +877,7 @@
 <Seasoning rdf:about="#mint">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
+  <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint</fancyName>
 </Seasoning>
 
@@ -7455,12 +7456,6 @@
   <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom pods</fancyName>
 </Spice>
-
-<Seasoning rdf:about="#mint_leaves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mint leaves</fancyName>
-</Seasoning>
 
 <Poultry rdf:about="#chicken_vegetable_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
