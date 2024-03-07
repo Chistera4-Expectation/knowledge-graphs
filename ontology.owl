@@ -2775,11 +2775,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Fruit>
 
-<Edible rdf:about="#condensed_milk">
+<Cheese rdf:about="#condensed_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condensed milk</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#vanilla_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
