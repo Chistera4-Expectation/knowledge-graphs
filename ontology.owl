@@ -6053,11 +6053,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stockfish</fancyName>
 </Fish>
 
-<Edible rdf:about="#waterleaf">
+<Vegetable rdf:about="#waterleaf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterleaf</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#seasoning_cubes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
