@@ -721,10 +721,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lecithin</fancyName>
 </Dressing>
 
-<Additive rdf:about="#sodium_nitrite">
+<Seasoning rdf:about="#sodium_nitrite">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Nitrite</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#high_fructose_corn_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
