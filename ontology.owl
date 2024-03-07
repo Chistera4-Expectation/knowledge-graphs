@@ -6084,11 +6084,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried Cameroon Pepper</fancyName>
 </Spice>
 
-<Edible rdf:about="#locust_beans">
+<Seed rdf:about="#locust_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust beans</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#scent_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
