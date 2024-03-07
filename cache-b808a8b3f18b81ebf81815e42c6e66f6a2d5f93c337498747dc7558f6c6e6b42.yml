@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Ice Cream' among: 'Butter', 'Cheese', 'Milk', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Milk.
+    role: assistant
+created: 1709800282
+id: chatcmpl-903RqQBwqVtTRa7vBXiYVT57D4eEj
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 3
+  prompt_tokens: 45
+  total_tokens: 48
