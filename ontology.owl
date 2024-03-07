@@ -676,6 +676,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Shoulder</fancyName>
 </Pork>
 
+<Poultry rdf:about="#chicken_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_leg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey leg</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_confit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck confit</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_wings">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken wings</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_bacon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey bacon</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_liver_pate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken liver pate</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#quail_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quail eggs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_sausage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken sausage</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#turkey_breast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey breast</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_nuggets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken nuggets</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#goose_liver">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goose liver</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#chicken_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken eggs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#duck_eggs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck eggs</fancyName>
+</Poultry>
+
+<Poultry rdf:about="#cornish_hen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornish hen</fancyName>
+</Poultry>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

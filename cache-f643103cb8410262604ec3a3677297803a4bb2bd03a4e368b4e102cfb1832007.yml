@@ -1,0 +1,53 @@
+# Cache for query: instances list for class Poultry-derived Food, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Sure, here are names of instances commonly found within the class "Poultry-derived
+      Food":
+
+
+      1. Chicken breast
+
+      2. Turkey leg
+
+      3. Duck confit
+
+      4. Chicken wings
+
+      5. Turkey bacon
+
+      6. Chicken liver pate
+
+      7. Quail eggs
+
+      8. Duck breast
+
+      9. Chicken sausage
+
+      10. Turkey breast
+
+      11. Chicken nuggets
+
+      12. Goose liver
+
+      13. Chicken eggs
+
+      14. Duck eggs
+
+      15. Cornish hen
+
+
+      These'
+    role: assistant
+created: 1709799566
+id: chatcmpl-903GI2c3TqAfO2FYdQNWeqiH9B3SA
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 28
+  total_tokens: 128
