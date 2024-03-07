@@ -1,0 +1,48 @@
+# Cache for query: instances list for class Cheese, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Certainly! Here''s a list of cheese names which could be considered
+      as instances in a hypothetical "Cheese" class:
+
+
+      1. Cheddar
+
+      2. Brie
+
+      3. Gouda
+
+      4. Parmesan
+
+      5. Mozzarella
+
+      6. Roquefort
+
+      7. Camembert
+
+      8. Feta
+
+      9. Gorgonzola
+
+      10. Havarti
+
+      11. Manchego
+
+      12. Provolone
+
+      13. Ricotta
+
+      14. Stilton'
+    role: assistant
+created: 1709799589
+id: chatcmpl-903Gf9ahstntRdwsz7eoJwh20O0Cx
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125
