@@ -5850,11 +5850,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
 </Fruit>
 
-<Edible rdf:about="#optional_toppings">
+<Seasoning rdf:about="#optional_toppings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional toppings</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
