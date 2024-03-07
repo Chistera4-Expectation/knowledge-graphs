@@ -6407,11 +6407,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressing</fancyName>
 </Dressing>
 
-<Edible rdf:about="#corned_beef_brisket">
+<Beef rdf:about="#corned_beef_brisket">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef brisket</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#whole_allspice_berries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
