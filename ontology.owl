@@ -3133,13 +3133,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marjoram</fancyName>
 </Vegetable>
 
-<Spice rdf:about="#scotch_bonnet_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
-</Spice>
-
 <Vegetable rdf:about="#coconut_milk_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
