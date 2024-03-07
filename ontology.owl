@@ -4434,11 +4434,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushroom</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#black_olives">
+<Fruit rdf:about="#black_olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black olives</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
