@@ -4087,11 +4087,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger powder</fancyName>
 </Spice>
 
-<Edible rdf:about="#cumin_seeds">
+<Seed rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#coriander_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
