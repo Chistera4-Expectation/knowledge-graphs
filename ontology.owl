@@ -1301,6 +1301,51 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tupelo Honey</fancyName>
 </Honey>
 
+<Insect rdf:about="#cricket_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cricket Flour</fancyName>
+</Insect>
+
+<Insect rdf:about="#mealworm_protein_bars">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mealworm Protein Bars</fancyName>
+</Insect>
+
+<Insect rdf:about="#silkworm_pupa_snacks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silkworm Pupa Snacks</fancyName>
+</Insect>
+
+<Insect rdf:about="#bee_larvae_honeycomb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bee Larvae Honeycomb</fancyName>
+</Insect>
+
+<Insect rdf:about="#giant_water_bug_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giant Water Bug Paste</fancyName>
+</Insect>
+
+<Insect rdf:about="#ant_egg_caviar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ant Egg Caviar</fancyName>
+</Insect>
+
+<Insect rdf:about="#wasp_crackers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasp Crackers</fancyName>
+</Insect>
+
+<Insect rdf:about="#termite_cheese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Termite Cheese</fancyName>
+</Insect>
+
+<Insect rdf:about="#buffalo_worm_chocolate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffalo Worm Chocolate</fancyName>
+</Insect>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>

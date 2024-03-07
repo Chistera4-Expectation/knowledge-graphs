@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Insect-Derived Food, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Cricket Flour
+
+      2. Mealworm Protein Bars
+
+      3. Chapulines (Grasshoppers)
+
+      4. Silkworm Pupa Snacks
+
+      5. Bee Larvae Honeycomb
+
+      6. Giant Water Bug Paste
+
+      7. Ant Egg Caviar
+
+      8. Wasp Crackers
+
+      9. Termite Cheese
+
+      10. Buffalo Worm Chocolate'
+    role: assistant
+created: 1709799638
+id: chatcmpl-903HSmaf9R20klAQhIUb8UzKRW17z
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 74
+  prompt_tokens: 30
+  total_tokens: 104
