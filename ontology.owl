@@ -295,6 +295,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Oil"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Dressing>
 
@@ -356,6 +357,7 @@
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -367,6 +369,7 @@
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -861,6 +864,7 @@
 
 <Animal rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -1174,6 +1178,7 @@
 
 <Food rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Food>
 
@@ -2001,6 +2006,7 @@
 <Edible rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
 </Edible>
 
@@ -2111,6 +2117,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_breasts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breasts</fancyName>
+</Edible>
+
+<Edible rdf:about="#lemon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pollo_alla_milanese"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
