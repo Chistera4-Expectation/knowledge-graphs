@@ -3941,11 +3941,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#loaf_of_white_bread">
+<Bread rdf:about="#loaf_of_white_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loaf of white bread</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
