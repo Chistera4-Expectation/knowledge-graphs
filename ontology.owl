@@ -3168,7 +3168,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk powder</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lemongrass">
+<Infusion rdf:about="#lemongrass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
@@ -3176,7 +3176,7 @@
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemongrass</fancyName>
-</Edible>
+</Infusion>
 
 <Edible rdf:about="#kaffir_lime_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
