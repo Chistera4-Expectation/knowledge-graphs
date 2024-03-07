@@ -5893,11 +5893,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enchilada sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#other_chili_pepper">
+<Vegetable rdf:about="#other_chili_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other chili pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#black_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
