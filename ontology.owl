@@ -942,6 +942,8 @@
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <ingredientOf rdf:resource="#scallion_pancakes"/>
+  <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black pepper</fancyName>
@@ -6170,14 +6172,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander seeds</fancyName>
-</Spice>
-
-<Spice rdf:about="#black_peppercorns">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#biltong"/>
-  <ingredientOf rdf:resource="#braised_pork_belly"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black peppercorns</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Peppercorns</fancyName>
 </Spice>
 
 <Seasoning rdf:about="#worcestershire_sauce">
