@@ -1061,10 +1061,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crab</fancyName>
 </Crustaceans>
 
-<Seafood rdf:about="#lobster">
+<Fish rdf:about="#lobster">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lobster</fancyName>
-</Seafood>
+</Fish>
 
 <Honey rdf:about="#instances">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
