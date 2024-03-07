@@ -7539,11 +7539,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
 </Spice>
 
-<Edible rdf:about="#asafoetida">
+<Spice rdf:about="#asafoetida">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asafoetida</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ghee_for_cooking">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
