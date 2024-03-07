@@ -4079,11 +4079,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White maize meal</fancyName>
 </Bread>
 
-<Edible rdf:about="#green_bell_peppers">
+<Vegetable rdf:about="#green_bell_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#cooking_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
