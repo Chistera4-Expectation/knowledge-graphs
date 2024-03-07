@@ -1,0 +1,40 @@
+# Cache for query: instances list for class Drink, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Certainly! If we''re creating instances for a class named `Drink` in
+      a programming context, these instances would represent objects or items that
+      belong to that class. Below are examples of instance names you might have for
+      the `Drink` class, focusing on a variety of beverages:
+
+
+      1. coffee
+
+      2. greenTea
+
+      3. orangeJuice
+
+      4. sparklingWater
+
+      5. almondMilk
+
+      6. proteinShake
+
+      7. cola
+
+      8. chaiLatte
+
+      9.'
+    role: assistant
+created: 1709799750
+id: chatcmpl-903JGwVRJ2V2kwVhBGw6w9vJhh2VP
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 25
+  total_tokens: 125

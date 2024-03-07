@@ -2270,6 +2270,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Well</fancyName>
 </Water>
 
+<Drink rdf:about="#coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Drink>
+
+<Drink rdf:about="#cola">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Drink>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
