@@ -5243,11 +5243,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice flour</fancyName>
 </Rice>
 
-<Edible rdf:about="#water_chestnut_flour">
+<Seed rdf:about="#water_chestnut_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water chestnut flour</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#yeast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
