@@ -3369,12 +3369,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry</fancyName>
 </Bread>
 
-<Edible rdf:about="#seasoning">
+<Seasoning rdf:about="#seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#gravy">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
