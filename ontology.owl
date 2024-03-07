@@ -683,6 +683,7 @@
 
 <Spice rdf:about="#fenugreek">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek</fancyName>
 </Spice>
 
@@ -4141,12 +4142,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiopian cardamom</fancyName>
-</Spice>
-
-<Spice rdf:about="#fenugreek_seeds">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
 </Spice>
 
 <Spice rdf:about="#coriander_seeds">
