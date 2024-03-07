@@ -5581,11 +5581,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Marsala wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#coffee_flavored_liqueur">
+<Alcoholic rdf:about="#coffee_flavored_liqueur">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coffee-flavored liqueur</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#optional">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
