@@ -4211,11 +4211,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couscous</fancyName>
 </Pasta>
 
-<Edible rdf:about="#chicken_thighs">
+<Poultry rdf:about="#chicken_thighs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken thighs</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#lamb_shoulder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
