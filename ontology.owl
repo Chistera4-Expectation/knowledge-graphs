@@ -4081,11 +4081,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tandoori powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#ginger_powder">
+<Spice rdf:about="#ginger_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger powder</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
