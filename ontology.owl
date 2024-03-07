@@ -4777,11 +4777,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning blend</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#breadfruit">
+<Fruit rdf:about="#breadfruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#goat_water"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadfruit</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#green_papaya">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
