@@ -4706,11 +4706,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#beef_tripe">
+<Beef rdf:about="#beef_tripe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pepper_pot"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef tripe</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#coconut_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
