@@ -6801,11 +6801,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsweetened shrimp flakes</fancyName>
 </Crustaceans>
 
-<Edible rdf:about="#shredded_coconut">
+<Fruit rdf:about="#shredded_coconut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shredded coconut</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#pumpkin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
