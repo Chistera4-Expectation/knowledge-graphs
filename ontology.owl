@@ -5416,6 +5416,7 @@
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
 </Beef>
@@ -6327,12 +6328,6 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster crackers</fancyName>
 </Bread>
-
-<Beef rdf:about="#ground_meat">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground meat</fancyName>
-</Beef>
 
 <Bread rdf:about="#breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
