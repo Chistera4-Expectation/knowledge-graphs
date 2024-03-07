@@ -7128,6 +7128,7 @@
 <Sauce rdf:about="#chili_bean_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili bean sauce</fancyName>
 </Sauce>
 
@@ -7339,12 +7340,6 @@
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese cabbage</fancyName>
 </Vegetable>
-
-<Sauce rdf:about="#chili_sauce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili sauce</fancyName>
-</Sauce>
 
 <Vegetable rdf:about="#pickled_mustard_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
