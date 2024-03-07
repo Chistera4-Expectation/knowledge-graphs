@@ -3720,11 +3720,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly chopped mint</fancyName>
 </Spice>
 
-<Edible rdf:about="#grapefruit">
+<Fruit rdf:about="#grapefruit">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapefruit</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#pomegranate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
