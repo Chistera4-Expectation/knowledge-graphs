@@ -1,0 +1,42 @@
+# Cache for query: instances list for class Food Dressing, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Sure, here''s a list of common types of food dressings, often used to
+      enhance the flavor of salads, sandwiches, and other dishes:
+
+
+      1. Ranch Dressing
+
+      2. Italian Dressing
+
+      3. Caesar Dressing
+
+      4. French Dressing
+
+      5. Blue Cheese Dressing
+
+      6. Thousand Island Dressing
+
+      7. Balsamic Vinaigrette
+
+      8. Greek Dressing
+
+      9. Honey Mustard Dressing
+
+      10. Asian Sesame Dressing
+
+      11'
+    role: assistant
+created: 1709799526
+id: chatcmpl-903Fe81p9kEVC81bk3axByt5jMiSu
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
