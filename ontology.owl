@@ -1734,13 +1734,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothies</fancyName>
 </Juice>
 
-<Edible rdf:about="#mango">
+<Fruit rdf:about="#mango">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#watermelons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
