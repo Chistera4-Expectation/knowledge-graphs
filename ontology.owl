@@ -2545,11 +2545,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penne pasta</fancyName>
 </Pasta>
 
-<Edible rdf:about="#vodka">
+<Alcoholic rdf:about="#vodka">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vodka</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#eggplant">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
