@@ -7056,13 +7056,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cream filling</fancyName>
 </Milk>
 
-<Edible rdf:about="#peanuts">
+<Seed rdf:about="#peanuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
