@@ -1082,10 +1082,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preservatives</fancyName>
 </Additive>
 
-<Additive rdf:about="#emulsifiers">
+<Dressing rdf:about="#emulsifiers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emulsifiers</fancyName>
-</Additive>
+</Dressing>
 
 <Additive rdf:about="#stabilizers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
