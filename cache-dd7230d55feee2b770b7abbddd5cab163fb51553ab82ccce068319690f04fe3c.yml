@@ -1,0 +1,44 @@
+# Cache for query: ingredient list for Peking Duck, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Whole duck
+
+      2. Soy sauce
+
+      3. Honey
+
+      4. Hoisin sauce
+
+      5. Five-spice powder
+
+      6. Black peppercorns
+
+      7. Ginger
+
+      8. Garlic
+
+      9. Scallions
+
+      10. Cucumber
+
+      11. Sugar
+
+      12. Vinegar (usually rice vinegar)
+
+      13. Water
+
+      14. Cooking oil (for frying and brushing)'
+    role: assistant
+created: 1709800133
+id: chatcmpl-903PRoCTN1FAKtyXaKdEyUMF0B00R
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 80
+  prompt_tokens: 26
+  total_tokens: 106
