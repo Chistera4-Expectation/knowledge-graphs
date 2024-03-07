@@ -1,0 +1,63 @@
+# Cache for query: ingredient list for Harira Soup, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Harira Soup typically includes the following ingredients:
+
+
+      - Olive oil
+
+      - Onion
+
+      - Celery
+
+      - Carrots
+
+      - Garlic
+
+      - Ground cumin
+
+      - Ground cinnamon
+
+      - Ground ginger
+
+      - Turmeric
+
+      - Salt
+
+      - Pepper
+
+      - Tomatoes
+
+      - Tomato paste
+
+      - Lentils
+
+      - Chickpeas
+
+      - Chicken or beef stock
+
+      - Water
+
+      - Fresh cilantro
+
+      - Fresh parsley
+
+      - Lemon juice
+
+      - Vermicelli noodles or rice (optional)
+
+      -'
+    role: assistant
+created: 1709799931
+id: chatcmpl-903MBSmm0JDEvo1YvJ1d1iawYNh2B
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126
