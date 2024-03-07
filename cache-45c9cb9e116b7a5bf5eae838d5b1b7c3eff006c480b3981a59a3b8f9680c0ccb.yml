@@ -1,0 +1,18 @@
+# Cache for query: in the Rice class, should the instances 'Valencia Rice' and 'Vialone Nano Rice' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709802472
+id: chatcmpl-9041AdayK92Pn6q453pqlRFKxfFOn
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 1
+  prompt_tokens: 53
+  total_tokens: 54
