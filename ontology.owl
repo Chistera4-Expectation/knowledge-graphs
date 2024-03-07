@@ -355,6 +355,7 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -365,6 +366,7 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -1464,7 +1466,9 @@
 
 <Italian rdf:about="#marinara_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marinara Sauce</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marinara sauce</fancyName>
 </Italian>
 
 <Italian rdf:about="#penne_alla_vodka">
@@ -2051,6 +2055,7 @@
 <Edible rdf:about="#garlic">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2064,6 +2069,48 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh basil</fancyName>
+</Edible>
+
+<Edible rdf:about="#penne_pasta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penne pasta</fancyName>
+</Edible>
+
+<Edible rdf:about="#vodka">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vodka</fancyName>
+</Edible>
+
+<Edible rdf:about="#eggplant">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggplant</fancyName>
+</Edible>
+
+<Edible rdf:about="#cherry_tomatoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry tomatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#onions">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
+</Edible>
+
+<Edible rdf:about="#olives">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
+</Edible>
+
+<Edible rdf:about="#parsley">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#penne_alla_vodka"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
