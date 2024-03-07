@@ -3270,10 +3270,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli</fancyName>
 </Pasta>
 
-<Cereal rdf:about="#oatmeal">
+<Breakfast rdf:about="#oatmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oatmeal</fancyName>
-</Cereal>
+</Breakfast>
 
 <Cereal rdf:about="#rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
