@@ -291,6 +291,7 @@
   <ingredientOf rdf:resource="#flan"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#couscous"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dressing>
 
@@ -380,6 +381,7 @@
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -476,6 +478,7 @@
 
 <Spice rdf:about="#cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Spice>
 
@@ -2021,6 +2024,7 @@
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2452,6 +2456,7 @@
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Edible>
 
@@ -2738,6 +2743,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
+</Edible>
+
+<Edible rdf:about="#apple_filling">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple filling</fancyName>
+</Edible>
+
+<Edible rdf:about="#apple_crust">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple crust</fancyName>
+</Edible>
+
+<Edible rdf:about="#cornstarch">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_ginger">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground ginger</fancyName>
+</Edible>
+
+<Edible rdf:about="#apples">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
+</Edible>
+
+<Edible rdf:about="#apple_cider_vinegar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple cider vinegar</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
