@@ -1,0 +1,27 @@
+# Cache for query: instances list for class Edible, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Sure, assuming you''re looking for examples of instances that could
+      belong to a class named "Edible" within the context of programming or data modeling,
+      especially focused on diet and nutrition. The class "Edible" refers to any item
+      that is safe and intended to be eaten. This class could theoretically include
+      a wide variety of foods, spanning across different food groups, types, and culinary
+      traditions. Here''s a list of names that could serve as instances for the "Edible"
+      class:
+
+
+      1.'
+    role: assistant
+created: 1709799758
+id: chatcmpl-903JOGcCUcBeR7E64QVt0Thl014gA
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_c121a3f431
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126
