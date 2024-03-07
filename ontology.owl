@@ -6096,11 +6096,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scent leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#piri_piri_sauce">
+<Sauce rdf:about="#piri_piri_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piri Piri sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
