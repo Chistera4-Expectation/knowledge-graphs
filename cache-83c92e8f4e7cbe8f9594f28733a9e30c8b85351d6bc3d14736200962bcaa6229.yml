@@ -1,0 +1,50 @@
+# Cache for query: examples list for Rice, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Basmati Rice
+
+      2. Jasmine Rice
+
+      3. Arborio Rice
+
+      4. Black Rice
+
+      5. Brown Rice
+
+      6. Red Cargo Rice
+
+      7. Sticky Rice (Glutinous Rice)
+
+      8. Wild Rice
+
+      9. Sushi Rice
+
+      10. Parboiled Rice
+
+      11. Calrose Rice
+
+      12. Valencia Rice
+
+      13. Carolina Rice
+
+      14. Carnaroli Rice
+
+      15. Bomba Rice
+
+      16. Vialone Nano Rice
+
+      17'
+    role: assistant
+created: 1709799669
+id: chatcmpl-903HxTIElZb2Tble3tc0Vzn02JpbX
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 24
+  total_tokens: 124

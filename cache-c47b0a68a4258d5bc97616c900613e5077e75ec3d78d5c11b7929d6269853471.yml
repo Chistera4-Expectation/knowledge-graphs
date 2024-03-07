@@ -1,0 +1,23 @@
+# Cache for query: instances list for class Rice
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: "Creating a list of instances for a class named `Rice` depends on the\
+      \ aspects we are focusing on. For a simple example, I'll consider some basic\
+      \ properties a `Rice` class might have, such as `name`, `type` (e.g., long grain,\
+      \ short grain, basmati, jasmine, etc.), and `cookingTime`. \n\nSince I'm programming\
+      \ language-agnostic at this moment, I'll show you how you could define such\
+      \ a class in Python,"
+    role: assistant
+created: 1709799664
+id: chatcmpl-903Hs9IWfboI0ABYlo5S3jGLCkL6E
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 22
+  total_tokens: 122
