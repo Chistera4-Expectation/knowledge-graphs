@@ -4789,11 +4789,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green papaya</fancyName>
 </Fruit>
 
-<Edible rdf:about="#oxtail_pieces">
+<Beef rdf:about="#oxtail_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtail pieces</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#butter_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
