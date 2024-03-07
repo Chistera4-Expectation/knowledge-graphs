@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous American Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Macaroni and Cheese
+
+      2. Fried Chicken
+
+      3. Hamburger
+
+      4. Clam Chowder
+
+      5. Buffalo Wings
+
+      6. Barbecue Ribs
+
+      7. Cornbread
+
+      8. Jambalaya
+
+      9. Biscuits and Gravy
+
+      10. Chicago-Style Pizza
+
+      11. Meatloaf
+
+      12. Caesar Salad
+
+      13. Reuben Sandwich
+
+      14. Key Lime Pie
+
+      15. Cobb Salad
+
+      16. Philly Cheesesteak
+
+      17. New England Clam Chowder
+
+      18. Gumbo
+
+      19. Corn on the Cob
+
+      20. Apple Pie'
+    role: assistant
+created: 1709799788
+id: chatcmpl-903Js4nrJv06SLushApyGg9itfdIX
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 126
+  prompt_tokens: 29
+  total_tokens: 155
