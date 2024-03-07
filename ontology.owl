@@ -6846,13 +6846,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled ginger</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#wasabi">
+<Seasoning rdf:about="#wasabi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#soba_noodles"/>
   <ingredientOf rdf:resource="#chirashi_don"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#sushi_rolling_mat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
