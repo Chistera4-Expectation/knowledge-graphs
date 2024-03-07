@@ -7381,11 +7381,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables of your choice</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#boiling_water">
+<Water rdf:about="#boiling_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boiling water</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#boneless__skinless_chicken_breasts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
