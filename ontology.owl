@@ -1290,11 +1290,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Safflower oil</fancyName>
 </Oil>
 
-<Oil rdf:about="#sunflower_seed_oil">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunflower seed oil</fancyName>
-</Oil>
-
 <Seaweed rdf:about="#sargassum">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sargassum</fancyName>
