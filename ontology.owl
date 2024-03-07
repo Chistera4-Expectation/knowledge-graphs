@@ -1555,6 +1555,7 @@
 
 <Tea rdf:about="#white_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#orange_blossom_tea"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White tea</fancyName>
 </Tea>
 
@@ -3482,12 +3483,6 @@
   <ingredientOf rdf:resource="#stir_fried_vegetables"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cinnamon</fancyName>
 </Breakfast>
-
-<Tea rdf:about="#flora_tea_petals">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#orange_blossom_tea"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora tea petals</fancyName>
-</Tea>
 
 <Edible rdf:about="#orange_blossom_extract">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
