@@ -4986,11 +4986,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#udon_noodles">
+<Pasta rdf:about="#udon_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Udon noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#chicken_breasts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
