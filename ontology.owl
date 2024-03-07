@@ -3669,11 +3669,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherries</fancyName>
 </Fruit>
 
-<Edible rdf:about="#raisins">
+<Fruit rdf:about="#raisins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisins</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
