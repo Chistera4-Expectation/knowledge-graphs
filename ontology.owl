@@ -4470,11 +4470,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corned beef</fancyName>
 </Beef>
 
-<Edible rdf:about="#swiss_cheese">
+<Cheese rdf:about="#swiss_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#sauerkraut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
