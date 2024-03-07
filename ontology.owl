@@ -5141,11 +5141,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Shaoxing wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#peanut">
+<Seed rdf:about="#peanut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#szechuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
