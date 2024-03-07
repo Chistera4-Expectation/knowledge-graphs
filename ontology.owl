@@ -1212,6 +1212,8 @@
 
 <Fruit rdf:about="#apple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple</fancyName>
 </Fruit>
 
@@ -3067,13 +3069,6 @@
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Vegetable>
-
-<Fruit rdf:about="#apple_filling">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#apple_pie"/>
-  <ingredientOf rdf:resource="#pie_a_la_mode"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple filling</fancyName>
-</Fruit>
 
 <Fruit rdf:about="#apple_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
