@@ -3127,12 +3127,6 @@
   <ingredientOf rdf:resource="#southern_fried_chicken"/>
 </Fish>
 
-<Spice rdf:about="#pungent_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pungent pepper</fancyName>
-</Spice>
-
 <Vegetable rdf:about="#marjoram">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
