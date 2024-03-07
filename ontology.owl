@@ -1403,6 +1403,8 @@
   <ingredientOf rdf:resource="#fried_rice"/>
   <ingredientOf rdf:resource="#red_curry"/>
   <ingredientOf rdf:resource="#pad_buckwheat"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#curry_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
@@ -3244,14 +3246,6 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Peppers</fancyName>
 </Fruit>
-
-<Vegetable rdf:about="#green_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#curry_shrimp"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Pepper</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green pepper</fancyName>
-</Vegetable>
 
 <Seed rdf:about="#coconut_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
