@@ -379,6 +379,7 @@
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -402,6 +403,7 @@
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -456,6 +458,7 @@
 <Spice rdf:about="#cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardamom</fancyName>
 </Spice>
 
@@ -904,6 +907,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Animal>
 
@@ -2080,6 +2084,7 @@
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2160,6 +2165,7 @@
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2283,6 +2289,7 @@
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#senegalese_peanut_sauce"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Edible>
 
@@ -2328,6 +2335,7 @@
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
 </Edible>
 
@@ -2446,6 +2454,7 @@
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
 </Edible>
 
@@ -2598,6 +2607,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
 </Edible>
 
@@ -2658,6 +2668,7 @@
 <Edible rdf:about="#lemongrass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemongrass</fancyName>
 </Edible>
 
@@ -2676,7 +2687,26 @@
 <Edible rdf:about="#curry_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry leaves</fancyName>
+</Edible>
+
+<Edible rdf:about="#tomato_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#fennel_seeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fennel seeds</fancyName>
+</Edible>
+
+<Edible rdf:about="#clove">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clove</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
