@@ -1,0 +1,18 @@
+# Cache for query: in the Insect-Derived Food class, should the instances 'Buffalo Worm Chocolate' and 'Silkworm Pupa Snacks' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: 'No'
+    role: assistant
+created: 1709802224
+id: chatcmpl-903xAj1vgO1LfMCuVPFJ4ptKaEAuA
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 1
+  prompt_tokens: 61
+  total_tokens: 62
