@@ -3363,11 +3363,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot Sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#pastry">
+<Bread rdf:about="#pastry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
