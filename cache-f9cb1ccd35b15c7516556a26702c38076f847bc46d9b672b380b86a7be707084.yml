@@ -1,0 +1,48 @@
+# Cache for query: ingredient list for Butter Chicken, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken
+
+      2. Yogurt
+
+      3. Lemon juice
+
+      4. Turmeric powder
+
+      5. Garam masala
+
+      6. Chili powder
+
+      7. Ground cumin
+
+      8. Ginger
+
+      9. Garlic
+
+      10. Butter
+
+      11. Onion
+
+      12. Tomato puree
+
+      13. Cream
+
+      14. Salt
+
+      15. Sugar (optional)
+
+      16. Fresh cilantro (for garnish)'
+    role: assistant
+created: 1709800238
+id: chatcmpl-903R8N7n39v8YuWl6DENv3N443jLM
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 84
+  prompt_tokens: 25
+  total_tokens: 109
