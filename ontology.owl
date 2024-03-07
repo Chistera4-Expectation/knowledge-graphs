@@ -375,6 +375,7 @@
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -2001,6 +2002,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -2008,6 +2010,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Edible>
 
@@ -2063,6 +2066,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2136,6 +2140,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#naija_stew"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2295,6 +2300,7 @@
   <ingredientOf rdf:resource="#naija_stew"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
 </Edible>
 
@@ -2477,6 +2483,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#congolese_beignets"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -2520,6 +2527,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sawa sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#teff_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teff flour</fancyName>
+</Edible>
+
+<Edible rdf:about="#berbere_spice_blend">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berbere spice blend</fancyName>
+</Edible>
+
+<Edible rdf:about="#shiro_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#ethiopian_tibs"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiro powder</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
