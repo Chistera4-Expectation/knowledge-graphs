@@ -1274,11 +1274,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
 </Oil>
 
-<Oil rdf:about="#peanut_oil">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut oil</fancyName>
-</Oil>
-
 <Oil rdf:about="#sesame_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
