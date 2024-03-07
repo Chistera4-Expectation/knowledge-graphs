@@ -1395,6 +1395,14 @@
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
+  <ingredientOf rdf:resource="#west_african_beef_stew"/>
+  <ingredientOf rdf:resource="#khmer_curry"/>
+  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
+  <ingredientOf rdf:resource="#taco_salad"/>
+  <ingredientOf rdf:resource="#bajan_flying_fish"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <ingredientOf rdf:resource="#pad_buckwheat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
@@ -2905,20 +2913,6 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#bell_peppers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#west_african_beef_stew"/>
-  <ingredientOf rdf:resource="#khmer_curry"/>
-  <ingredientOf rdf:resource="#kenyan_chicken_curry"/>
-  <ingredientOf rdf:resource="#taco_salad"/>
-  <ingredientOf rdf:resource="#bajan_flying_fish"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <ingredientOf rdf:resource="#red_curry"/>
-  <ingredientOf rdf:resource="#pad_buckwheat"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
 </Vegetable>
 
 <Fruit rdf:about="#musa">
