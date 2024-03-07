@@ -865,6 +865,7 @@
 
 <Pork rdf:about="#pork_loin_roast">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Loin Roast</fancyName>
 </Pork>
 
@@ -5056,12 +5057,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dumplings"/>
 </Vegetable>
-
-<Pork rdf:about="#pork_loin">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork loin</fancyName>
-</Pork>
 
 <Fruit rdf:about="#pineapple_chunks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
