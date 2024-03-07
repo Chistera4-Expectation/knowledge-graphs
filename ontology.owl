@@ -3189,7 +3189,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
 </Cheese>
 
-<Edible rdf:about="#parmesan_cheese">
+<Cheese rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
@@ -3197,7 +3197,7 @@
   <ingredientOf rdf:resource="#chicago_style_pizza"/>
   <ingredientOf rdf:resource="#caesar_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
