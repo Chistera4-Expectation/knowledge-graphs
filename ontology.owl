@@ -3720,6 +3720,11 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#harira_soup"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#gallo_pinto"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#piri_piri_chicken"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Cilantro</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
 </Vegetable>
@@ -3780,16 +3785,6 @@
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chile powder</fancyName>
 </Spice>
-
-<Vegetable rdf:about="#cilantro">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#gallo_pinto"/>
-  <ingredientOf rdf:resource="#enchiladas"/>
-  <ingredientOf rdf:resource="#piri_piri_chicken"/>
-  <ingredientOf rdf:resource="#chicken_biryani"/>
-  <ingredientOf rdf:resource="#fish_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
-</Vegetable>
 
 <Sauce rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
