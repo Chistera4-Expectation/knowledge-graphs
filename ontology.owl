@@ -1213,7 +1213,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chobani Strawberry Greek Yogurt</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#milk">
+<Milk rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#cornbread"/>
@@ -1227,7 +1227,7 @@
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
