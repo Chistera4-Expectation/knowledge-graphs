@@ -6142,12 +6142,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#coriander_leaves">
+<Vegetable rdf:about="#coriander_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#yam">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
