@@ -5508,11 +5508,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled Bread</fancyName>
 </Bread>
 
-<Edible rdf:about="#yellow_onion">
+<Vegetable rdf:about="#yellow_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow onion</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#vegetable">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
