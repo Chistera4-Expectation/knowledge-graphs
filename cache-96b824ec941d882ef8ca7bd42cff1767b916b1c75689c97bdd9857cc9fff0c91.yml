@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Jerk Chicken, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Chicken
+
+      2. Soy sauce
+
+      3. Onion
+
+      4. Green onions (scallions)
+
+      5. Garlic
+
+      6. Fresh ginger
+
+      7. Fresh thyme
+
+      8. Habanero peppers (or Scotch bonnet peppers)
+
+      9. Lime juice
+
+      10. Brown sugar
+
+      11. Allspice (ground pimento)
+
+      12. Cinnamon
+
+      13. Nutmeg
+
+      14. Black pepper
+
+      15. Salt'
+    role: assistant
+created: 1709800015
+id: chatcmpl-903NXjYee27DSKLpNF4554peQxzWu
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_31c0f205d1
+usage:
+  completion_tokens: 88
+  prompt_tokens: 26
+  total_tokens: 114
