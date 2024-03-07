@@ -1686,7 +1686,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
 </Alcoholic>
 
-<Drink rdf:about="#water">
+<Water rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
@@ -1717,7 +1717,7 @@
   <ingredientOf rdf:resource="#samudra_soup"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
-</Drink>
+</Water>
 
 <Drink rdf:about="#coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
