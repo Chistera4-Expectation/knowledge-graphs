@@ -2442,11 +2442,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweetened condensed milk</fancyName>
 </Milk>
 
-<Edible rdf:about="#dried_herbs">
+<Spice rdf:about="#dried_herbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried herbs</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#bread_crumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
