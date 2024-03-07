@@ -1391,6 +1391,9 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#kebabs"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
+  <ingredientOf rdf:resource="#flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
@@ -2690,15 +2693,6 @@
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#green_bell_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#salsa"/>
-  <ingredientOf rdf:resource="#mango_salsa"/>
-  <ingredientOf rdf:resource="#flying_fish"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Bell Pepper</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#red_bell_pepper">
