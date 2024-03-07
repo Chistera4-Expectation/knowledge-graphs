@@ -3760,7 +3760,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried corn husks</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#baking_powder">
+<Seasoning rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#cornbread"/>
@@ -3772,7 +3772,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#salsa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
