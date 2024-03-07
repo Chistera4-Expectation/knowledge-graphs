@@ -1,0 +1,16 @@
+# Cache for query: instances list for class Edible Vegetal Oil, concise names
+# (api: HuggingAiQuery, model: google/gemma-7b-it, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: "Sure, here's an instance list for class `EdibleVegetalOil` with concise names:\n\
+  \n```python\ninstances_list_EdibleVegetalOil = {\n    \"Olive Oil\": {\"type\":\
+  \ \"Olive Oil\", \"composition\": {\"oleic acid\": 0.85, \"linoleic acid\": 0.1,\
+  \ \"palmitic acid\": 0.05, \"stearic acid\": 0.02}, \"flavor\": \"Mild, buttery\"\
+  },\n    \"Coconut Oil\": {\"type\": \"Coconut Oil\", \"composition\": {\"saturated\
+  \ fat\": 92, \"lauric acid\": 54, \"myristic acid\": 24, \"palmitic acid\": 12},\
+  \ \"flavor\": \"Sweet, slightly oily\"},\n    \"Soybean Oil\": {\"type\": \"Soybean\
+  \ Oil\", \"composition\": {\"oleic acid\": 66, \"linoleic acid\": 22, \"palmitic\
+  \ acid\": 8, \"stearic acid\": 2}, \"flavor\": \"Neutral, slightly sweet\"},\n \
+  \   \"Sunflower Oil\": {\"type\": \"Sunflower Oil\", \"composition\": {\"oleic acid\"\
+  : 90, \"linoleic acid\": 10, \"palmitic acid\": 0.5, \"stearic acid\": 0.2}, \"\
+  flavor\": \"Mild, nutty\"}\n}\n```"
