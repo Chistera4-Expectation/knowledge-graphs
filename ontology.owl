@@ -6419,10 +6419,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole allspice berries</fancyName>
 </Spice>
 
-<Edible rdf:about="#margarine">
+<Oil rdf:about="#margarine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#tomato_slices">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
