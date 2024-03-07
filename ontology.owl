@@ -4055,11 +4055,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn dough</fancyName>
 </Bread>
 
-<Edible rdf:about="#cassava_dough">
+<Bread rdf:about="#cassava_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cassava dough</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#any_hot_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
