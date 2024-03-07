@@ -1394,6 +1394,7 @@
   <ingredientOf rdf:resource="#salsa"/>
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#flying_fish"/>
+  <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppers</fancyName>
 </Vegetable>
 
@@ -2837,12 +2838,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat Meat</fancyName>
 </Meat>
-
-<Vegetable rdf:about="#peppercorns">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peppercorns</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#turmeric">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
