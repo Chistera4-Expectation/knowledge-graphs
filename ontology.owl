@@ -3182,12 +3182,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese Filling</fancyName>
 </Cheese>
 
-<Edible rdf:about="#ricotta_cheese">
+<Cheese rdf:about="#ricotta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricotta cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
