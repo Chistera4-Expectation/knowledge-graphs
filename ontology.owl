@@ -3549,6 +3549,7 @@
 <Fruit rdf:about="#fillings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillings</fancyName>
 </Fruit>
 
@@ -3612,12 +3613,6 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Roll wrapper</fancyName>
 </Crustaceans>
-
-<Fruit rdf:about="#fillings_of_choice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillings of choice</fancyName>
-</Fruit>
 
 <Vegetable rdf:about="#broccoli">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
