@@ -2258,9 +2258,8 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegan Yogurt</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#milk">
+<Milk rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Drink"/>
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#cornbread"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
@@ -2272,7 +2271,7 @@
   <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
