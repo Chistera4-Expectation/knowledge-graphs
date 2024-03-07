@@ -439,6 +439,7 @@
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -569,6 +570,7 @@
   <ingredientOf rdf:resource="#banku_with_grilled_tilapia"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -578,6 +580,7 @@
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
 </Seasoning>
@@ -653,6 +656,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Animal"/>
   <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
@@ -1551,6 +1555,7 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#saltfish_fritters"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3127,6 +3132,7 @@
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Edible>
 
@@ -3398,6 +3404,7 @@
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#johnny_cakes"/>
   <ingredientOf rdf:resource="#goat_water"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
@@ -3476,6 +3483,7 @@
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -3528,6 +3536,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic Cloves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
 </Edible>
@@ -3641,6 +3650,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Edible>
 
@@ -3691,6 +3701,7 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -4202,6 +4213,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#gumbo"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Stock</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken stock</fancyName>
 </Edible>
@@ -4423,6 +4435,7 @@
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <ingredientOf rdf:resource="#teriyaki"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
 </Edible>
 
@@ -4742,6 +4755,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#shabu_shabu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Udon noodles</fancyName>
+</Edible>
+
+<Edible rdf:about="#chicken_breasts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breasts</fancyName>
+</Edible>
+
+<Edible rdf:about="#panko_breadcrumbs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panko breadcrumbs</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>

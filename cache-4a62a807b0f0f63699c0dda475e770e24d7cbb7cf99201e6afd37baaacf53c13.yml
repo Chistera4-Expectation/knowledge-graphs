@@ -1,0 +1,49 @@
+# Cache for query: ingredient list for Katsu Curry, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'For a basic Katsu Curry, you''ll need these ingredients:
+
+
+      1. Chicken breasts (or pork cutlets, for variation)
+
+      2. Salt
+
+      3. Pepper
+
+      4. Flour
+
+      5. Eggs
+
+      6. Panko breadcrumbs
+
+      7. Oil (for frying)
+
+      8. Onions
+
+      9. Carrots
+
+      10. Garlic cloves
+
+      11. Ginger
+
+      12. Curry powder
+
+      13. Chicken stock (or vegetable stock for a vegetarian option)
+
+      14. Honey
+
+      15. Soy sauce'
+    role: assistant
+created: 1709800119
+id: chatcmpl-903PD2RZLM4DQWF7tpshA90mgl3b1
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126
