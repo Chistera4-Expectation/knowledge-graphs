@@ -6670,7 +6670,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow bell pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#scallions">
+<Vegetable rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <ingredientOf rdf:resource="#miso_soup"/>
@@ -6678,7 +6678,7 @@
   <ingredientOf rdf:resource="#scallion_pancakes"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#vegetable_oil_for_frying">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
