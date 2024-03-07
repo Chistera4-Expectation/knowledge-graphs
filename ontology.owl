@@ -4876,11 +4876,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempura batter mix</fancyName>
 </Bread>
 
-<Edible rdf:about="#ice_cold_water">
+<Water rdf:about="#ice_cold_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice cold water</fancyName>
-</Edible>
+</Water>
 
 <Edible rdf:about="#fresh_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
