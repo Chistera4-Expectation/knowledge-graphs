@@ -4924,11 +4924,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sukiyaki sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#nappa_cabbage">
+<Vegetable rdf:about="#nappa_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nappa cabbage</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#shiitake_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
