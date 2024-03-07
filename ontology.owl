@@ -2366,10 +2366,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methods defined within the `Food` class</fancyName>
 </Food>
 
-<Food rdf:about="#assuming_the_class_captures_basic_attributes_like_name">
+<Vegetable rdf:about="#assuming_the_class_captures_basic_attributes_like_name">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assuming the class captures basic attributes like name</fancyName>
-</Food>
+</Vegetable>
 
 <Food rdf:about="#category">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
