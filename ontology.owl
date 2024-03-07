@@ -6713,11 +6713,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shark</fancyName>
 </Fish>
 
-<Edible rdf:about="#condiments">
+<Seasoning rdf:about="#condiments">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bake_and_shark"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condiments</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#toppings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
