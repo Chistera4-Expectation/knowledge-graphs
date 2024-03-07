@@ -5462,7 +5462,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra-virgin olive oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#heavy_cream">
+<Dairy rdf:about="#heavy_cream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#tiramisu"/>
@@ -5470,7 +5470,7 @@
   <ingredientOf rdf:resource="#pumpkin_soup"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
-</Edible>
+</Dairy>
 
 <Edible rdf:about="#fresh_mozzarella">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
