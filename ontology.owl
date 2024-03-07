@@ -1572,6 +1572,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elk</fancyName>
 </Meat>
 
+<Butter rdf:about="#salted_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salted Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#unsalted_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsalted Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#whipped_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#european_style_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European-style Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#cultured_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cultured Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#grass_fed_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grass-fed Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#organic_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#light_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#plant_based_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant-based Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#spreadable_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spreadable Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#flavored_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#clarified_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clarified Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#a2_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2 Butter</fancyName>
+</Butter>
+
+<Butter rdf:about="#butter_blend">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter Blend</fancyName>
+</Butter>
+
+<Butter rdf:about="#lactose_free_butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactose-free Butter</fancyName>
+</Butter>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
