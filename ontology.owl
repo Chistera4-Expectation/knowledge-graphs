@@ -5099,11 +5099,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork loin</fancyName>
 </Pork>
 
-<Edible rdf:about="#pineapple_chunks">
+<Fruit rdf:about="#pineapple_chunks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple chunks</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
