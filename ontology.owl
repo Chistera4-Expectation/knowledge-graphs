@@ -7344,11 +7344,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#chinese_cabbage">
+<Vegetable rdf:about="#chinese_cabbage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese cabbage</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#chili_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
