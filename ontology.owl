@@ -3376,11 +3376,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#gravy">
+<Sauce rdf:about="#gravy">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gravy</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
