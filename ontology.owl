@@ -4387,7 +4387,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andouille sausage</fancyName>
 </Pork>
 
-<Edible rdf:about="#chicken_stock">
+<Poultry rdf:about="#chicken_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#gumbo"/>
@@ -4396,7 +4396,7 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Stock</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken stock</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#cajun_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
