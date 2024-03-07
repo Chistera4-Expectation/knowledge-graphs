@@ -1,0 +1,44 @@
+# Cache for query: instances list for class Edible Fruit, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Sure, here''s a list of names of edible fruits, which falls under the
+      class *Edible Fruit*. Note that this list is by no means exhaustive, as there
+      are thousands of types of fruits worldwide. This list contains some common and
+      a few exotic examples:
+
+
+      1. Apple
+
+      2. Banana
+
+      3. Orange
+
+      4. Mango
+
+      5. Strawberry
+
+      6. Blueberry
+
+      7. Raspberry
+
+      8. Watermelon
+
+      9. Pineapple
+
+      10. Papaya
+
+      11. Ki'
+    role: assistant
+created: 1709799680
+id: chatcmpl-903I8x3g654dE9AAEnTdvERnxKH0p
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
