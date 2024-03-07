@@ -4586,13 +4586,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holy Trinity</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#okra">
+<Vegetable rdf:about="#okra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <ingredientOf rdf:resource="#pepper_pot"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okra</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#gumbo_file">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
