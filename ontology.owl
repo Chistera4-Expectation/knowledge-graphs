@@ -394,6 +394,7 @@
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -1372,6 +1373,7 @@
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
 </Animal>
 
@@ -3033,6 +3035,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balsamic vinegar</fancyName>
+</Edible>
+
+<Edible rdf:about="#potatoes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
+</Edible>
+
+<Edible rdf:about="#flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#gnocchi"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
