@@ -3340,10 +3340,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couscous</fancyName>
 </Pasta>
 
-<Cereal rdf:about="#spelt">
+<Pasta rdf:about="#spelt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spelt</fancyName>
-</Cereal>
+</Pasta>
 
 <Cereal rdf:about="#canary_seed">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
