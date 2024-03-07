@@ -542,6 +542,7 @@
   <ingredientOf rdf:resource="#plantains"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -560,6 +561,7 @@
   <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
   <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#bake_and_shark"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Seasoning>
 
@@ -663,6 +665,7 @@
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -688,6 +691,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutmeg</fancyName>
 </Seasoning>
 
@@ -701,6 +705,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#plantains"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Seasoning>
 
@@ -898,6 +903,7 @@
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
 </Spice>
 
@@ -3439,6 +3445,7 @@
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Oil>
@@ -3787,6 +3794,7 @@
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#plantains"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3817,6 +3825,7 @@
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <ingredientOf rdf:resource="#plantains"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -5235,6 +5244,7 @@
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heavy cream</fancyName>
 </Edible>
 
@@ -5472,8 +5482,10 @@
   <ingredientOf rdf:resource="#polenta"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
 </Edible>
 
 <Edible rdf:about="#herbs">
@@ -6455,6 +6467,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shredded coconut</fancyName>
+</Edible>
+
+<Edible rdf:about="#pumpkin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#pumpkin_soup"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pumpkin</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
