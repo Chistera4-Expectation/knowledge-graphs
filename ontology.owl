@@ -2893,13 +2893,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Soldier Fly Larvae</fancyName>
 </Insect>
 
-<Animal rdf:about="#fish">
+<Fish rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#tempura"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
-</Animal>
+</Fish>
 
 <Animal rdf:about="#shellfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
