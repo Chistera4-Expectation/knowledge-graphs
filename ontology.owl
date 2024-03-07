@@ -1676,6 +1676,10 @@
 
 <Juice rdf:about="#juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
+  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juice</fancyName>
 </Juice>
 
@@ -2696,15 +2700,6 @@
   <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Bread>
-
-<Juice rdf:about="#lime_juice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#salsa"/>
-  <ingredientOf rdf:resource="#mango_salsa"/>
-  <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
-  <ingredientOf rdf:resource="#jerk_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
-</Juice>
 
 <Vegetable rdf:about="#filling">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
