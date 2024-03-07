@@ -706,10 +706,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium acetate</fancyName>
 </Sauce>
 
-<Additive rdf:about="#phosphoric_acid">
+<Sauce rdf:about="#phosphoric_acid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphoric acid</fancyName>
-</Additive>
+</Sauce>
 
 <Beef rdf:about="#sirloin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
