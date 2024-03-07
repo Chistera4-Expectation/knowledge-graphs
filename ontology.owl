@@ -3947,12 +3947,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loaf of white bread</fancyName>
 </Bread>
 
-<Edible rdf:about="#chicken_pieces">
+<Poultry rdf:about="#chicken_pieces">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pieces</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#cumin_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
