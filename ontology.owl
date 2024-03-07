@@ -5956,11 +5956,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chorizo</fancyName>
 </Pork>
 
-<Edible rdf:about="#fried_plantains">
+<Vegetable rdf:about="#fried_plantains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Plantains</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#fried_egg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
