@@ -3987,11 +3987,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stockfish</fancyName>
 </Fish>
 
-<Edible rdf:about="#dried_fish">
+<Fish rdf:about="#dried_fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried fish</fancyName>
-</Edible>
+</Fish>
 
 <Edible rdf:about="#crayfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
