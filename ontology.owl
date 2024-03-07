@@ -4163,7 +4163,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander seeds</fancyName>
 </Spice>
 
-<Edible rdf:about="#allspice">
+<Spice rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
@@ -4171,7 +4171,7 @@
   <ingredientOf rdf:resource="#escovitch_fish"/>
   <ingredientOf rdf:resource="#run_down"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ground_cumin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
