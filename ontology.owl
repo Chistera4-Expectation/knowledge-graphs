@@ -1611,10 +1611,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach Rose</fancyName>
 </Tea>
 
-<Infusion rdf:about="#apple_cranberry">
+<Tea rdf:about="#apple_cranberry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Cranberry</fancyName>
-</Infusion>
+</Tea>
 
 <Energy rdf:about="#red_bull">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
