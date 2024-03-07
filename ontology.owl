@@ -4763,7 +4763,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft Water</fancyName>
 </Water>
 
-<Drink rdf:about="#water">
+<Water rdf:about="#water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#focaccia_bread"/>
   <ingredientOf rdf:resource="#polenta"/>
@@ -4792,7 +4792,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
-</Drink>
+</Water>
 
 <Drink rdf:about="#coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
