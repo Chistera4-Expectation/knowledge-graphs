@@ -540,6 +540,8 @@
   <ingredientOf rdf:resource="#kebabs"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
+  <ingredientOf rdf:resource="#buffalo_wings"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -3296,14 +3298,6 @@
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celery Powder</fancyName>
 </Vegetable>
-
-<Spice rdf:about="#black_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#buffalo_wings"/>
-  <ingredientOf rdf:resource="#teriyaki_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
-</Spice>
 
 <Fish rdf:about="#wings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
