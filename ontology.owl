@@ -3559,11 +3559,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food coloring</fancyName>
 </Dressing>
 
-<Edible rdf:about="#beans">
+<Vegetable rdf:about="#beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#taco_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#taco_seasoning">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
