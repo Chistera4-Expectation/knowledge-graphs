@@ -757,6 +757,8 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#genovese_sausage"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pork Roast</fancyName>
 </Pork>
 
@@ -3397,13 +3399,6 @@
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shredded cheese</fancyName>
 </Cheese>
-
-<Pork rdf:about="#ground_pork">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <ingredientOf rdf:resource="#mapo_tofu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground pork</fancyName>
-</Pork>
 
 <Bread rdf:about="#pie_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
