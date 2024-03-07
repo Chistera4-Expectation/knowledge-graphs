@@ -4271,10 +4271,10 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
 </Milk>
 
-<Edible rdf:about="#shortening">
+<Oil rdf:about="#shortening">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#burger_bun">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
