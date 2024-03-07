@@ -7314,11 +7314,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice paper wrappers</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#rice_noodles">
+<Pasta rdf:about="#rice_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice noodles</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#bean_sprouts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
