@@ -582,6 +582,7 @@
 
 <Seasoning rdf:about="#ethnic_seasoning_blends">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnic Seasoning Blends</fancyName>
 </Seasoning>
 
@@ -3965,12 +3966,6 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring Roll wrapper</fancyName>
 </Crustaceans>
-
-<Seasoning rdf:about="#egg_roll_seasoning">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#spring_rolls"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg roll seasoning</fancyName>
-</Seasoning>
 
 <Fruit rdf:about="#fillings_of_choice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
