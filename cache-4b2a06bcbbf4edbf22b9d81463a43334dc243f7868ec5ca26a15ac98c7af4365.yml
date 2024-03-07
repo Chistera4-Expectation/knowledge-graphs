@@ -1,0 +1,22 @@
+# Cache for query: ingredient list for Plantain Chips, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Plantains
+
+      2. Vegetable oil (such as palm oil, coconut oil, or sunflower oil)
+
+      3. Salt'
+    role: assistant
+created: 1709800033
+id: chatcmpl-903NpVZUInHE0gKiTbkI1iumHIXH2
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 26
+  prompt_tokens: 26
+  total_tokens: 52
