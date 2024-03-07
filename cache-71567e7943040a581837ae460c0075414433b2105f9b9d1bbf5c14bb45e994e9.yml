@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous African Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Jollof Rice
+
+      2. Bunny Chow
+
+      3. Moorish Tagine
+
+      4. Egusi Soup
+
+      5. Doro Wot
+
+      6. Bobotie
+
+      7. Fufu
+
+      8. Maafe
+
+      9. Piri Piri Chicken
+
+      10. Muamba de Galinha
+
+      11. Suya
+
+      12. Banku with Grilled Tilapia
+
+      13. Poulet Yassa
+
+      14. Sadza with Beef Stew
+
+      15. Biltong
+
+      16. Injera with Berbere Sauce
+
+      17. Koshari
+
+      18. Harira Soup
+
+      19. Couscous Royal
+
+      20. Shakshouka'
+    role: assistant
+created: 1709799781
+id: chatcmpl-903Jlm8gZjUDHYagajIY24p5aOdk0
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 138
+  prompt_tokens: 29
+  total_tokens: 167
