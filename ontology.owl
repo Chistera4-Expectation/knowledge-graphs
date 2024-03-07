@@ -2720,12 +2720,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Octopus</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#clams">
+<Molluscs rdf:about="#clams">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cioppino_soup"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clams</fancyName>
-</Seafood>
+</Molluscs>
 
 <Seafood rdf:about="#mussels">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
