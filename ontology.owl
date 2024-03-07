@@ -1586,10 +1586,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha tea</fancyName>
 </Tea>
 
-<Infusion rdf:about="#orange_hibiscus">
+<Tea rdf:about="#orange_hibiscus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Hibiscus</fancyName>
-</Infusion>
+</Tea>
 
 <Infusion rdf:about="#lemon_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
