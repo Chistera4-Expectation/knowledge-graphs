@@ -2430,6 +2430,56 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dandelion Honey</fancyName>
 </Honey>
 
+<Insect rdf:about="#cricket_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cricket Flour</fancyName>
+</Insect>
+
+<Insect rdf:about="#mealworm_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mealworm Powder</fancyName>
+</Insect>
+
+<Insect rdf:about="#grasshopper_protein">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grasshopper Protein</fancyName>
+</Insect>
+
+<Insect rdf:about="#silkworm_pupae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silkworm Pupae</fancyName>
+</Insect>
+
+<Insect rdf:about="#ant_larvae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ant Larvae</fancyName>
+</Insect>
+
+<Insect rdf:about="#locust_flour">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locust Flour</fancyName>
+</Insect>
+
+<Insect rdf:about="#bee_larvae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bee Larvae</fancyName>
+</Insect>
+
+<Insect rdf:about="#cicada_protein">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cicada Protein</fancyName>
+</Insect>
+
+<Insect rdf:about="#wasp_pupae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasp Pupae</fancyName>
+</Insect>
+
+<Insect rdf:about="#black_soldier_fly_larvae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Soldier Fly Larvae</fancyName>
+</Insect>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
