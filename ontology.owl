@@ -3588,11 +3588,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney beans</fancyName>
 </Seed>
 
-<Edible rdf:about="#white_beans">
+<Vegetable rdf:about="#white_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White beans</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pasta">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
