@@ -7129,11 +7129,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili flakes</fancyName>
 </Spice>
 
-<Edible rdf:about="#chili_bean_sauce">
+<Sauce rdf:about="#chili_bean_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili bean sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
