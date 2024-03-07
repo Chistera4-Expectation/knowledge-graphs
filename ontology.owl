@@ -4811,6 +4811,7 @@
 <Alcoholic rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
+  <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing wine</fancyName>
 </Alcoholic>
 
@@ -4888,12 +4889,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#szechuan_beef"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry sherry</fancyName>
-</Alcoholic>
-
-<Alcoholic rdf:about="#chinese_shaoxing_wine">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#szechuan_beef"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Shaoxing wine</fancyName>
 </Alcoholic>
 
 <Vegetable rdf:about="#rice_paper_wrappers">
