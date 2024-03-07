@@ -4118,11 +4118,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenugreek seeds</fancyName>
 </Seed>
 
-<Edible rdf:about="#asafoetida">
+<Seasoning rdf:about="#asafoetida">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asafoetida</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#fresh_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
