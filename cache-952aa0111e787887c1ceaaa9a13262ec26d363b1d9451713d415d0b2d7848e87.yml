@@ -1,0 +1,23 @@
+# Cache for query: ingredient list for Bandeja Paisa, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: "Bandeja Paisa is a traditional Colombian dish known for its variety\
+      \ and richness. The ingredient list typically includes:\n\n1. White rice\n2.\
+      \ Red beans (cooked with garlic, onion, and spices)\n3. Ground beef (usually\
+      \ seasoned)\n4. Chorizo (a type of sausage)\n5. Fried pork belly (chicharr\xF3\
+      n)\n6. Plantain (ripe, and fried)\n7. Avocado\n8. Corn cake (arepa)\n9. Fried\
+      \ egg\n"
+    role: assistant
+created: 1709799879
+id: chatcmpl-903LLrshALmy2rljQgqupzihWvSoT
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 28
+  total_tokens: 128

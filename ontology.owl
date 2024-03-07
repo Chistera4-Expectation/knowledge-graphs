@@ -600,6 +600,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground Beef</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground beef</fancyName>
 </Beef>
@@ -686,6 +687,7 @@
 
 <Pork rdf:about="#chorizo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chorizo</fancyName>
 </Pork>
 
@@ -2042,6 +2044,7 @@
 <Vegetal rdf:about="#avocado">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avocado</fancyName>
 </Vegetal>
 
@@ -3333,6 +3336,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</fancyName>
+</Edible>
+
+<Edible rdf:about="#white_rice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
+</Edible>
+
+<Edible rdf:about="#red_beans">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red beans</fancyName>
+</Edible>
+
+<Edible rdf:about="#fried_pork_belly">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried pork belly</fancyName>
+</Edible>
+
+<Edible rdf:about="#plantain">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantain</fancyName>
+</Edible>
+
+<Edible rdf:about="#corn_cake">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn cake</fancyName>
+</Edible>
+
+<Edible rdf:about="#fried_egg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried egg</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
