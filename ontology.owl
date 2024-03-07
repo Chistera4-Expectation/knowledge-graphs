@@ -4042,12 +4042,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lemon juice</fancyName>
 </Juice>
 
-<Edible rdf:about="#parsley">
+<Vegetable rdf:about="#parsley">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <ingredientOf rdf:resource="#new_england_clam_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsley</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#corn_dough">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
