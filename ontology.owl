@@ -2636,6 +2636,7 @@
 
 <Bread rdf:about="#focaccia_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Italian"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Focaccia Bread</fancyName>
 </Bread>
 
@@ -2817,6 +2818,7 @@
 
 <Pasta rdf:about="#lasagna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Italian"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lasagna</fancyName>
 </Pasta>
 
@@ -4259,6 +4261,61 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walnuts</fancyName>
 </Edible>
+
+<Italian rdf:about="#margherita_pizza">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Margherita Pizza</fancyName>
+</Italian>
+
+<Italian rdf:about="#spaghetti_carbonara">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spaghetti Carbonara</fancyName>
+</Italian>
+
+<Italian rdf:about="#caprese_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caprese Salad</fancyName>
+</Italian>
+
+<Italian rdf:about="#risotto_milanese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risotto Milanese</fancyName>
+</Italian>
+
+<Italian rdf:about="#tiramisu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiramisu</fancyName>
+</Italian>
+
+<Italian rdf:about="#pesto_genovese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesto Genovese</fancyName>
+</Italian>
+
+<Italian rdf:about="#bolognese_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolognese Sauce</fancyName>
+</Italian>
+
+<Italian rdf:about="#panzanella_salad">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panzanella Salad</fancyName>
+</Italian>
+
+<Italian rdf:about="#minestrone_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minestrone Soup</fancyName>
+</Italian>
+
+<Italian rdf:about="#polenta">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polenta</fancyName>
+</Italian>
+
+<Italian rdf:about="#cioppino_soup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cioppino Soup</fancyName>
+</Italian>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
