@@ -5520,11 +5520,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#white_wine">
+<Alcoholic rdf:about="#white_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#saffron_threads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
