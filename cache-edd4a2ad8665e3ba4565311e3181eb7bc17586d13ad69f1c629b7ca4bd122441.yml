@@ -1,0 +1,56 @@
+# Cache for query: list of 20 famous Italian Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Spaghetti Carbonara
+
+      2. Lasagna
+
+      3. Risotto alla Milanese
+
+      4. Margherita Pizza
+
+      5. Tiramisu
+
+      6. Focaccia
+
+      7. Osso Buco
+
+      8. Caprese Salad
+
+      9. Gnocchi
+
+      10. Minestrone
+
+      11. Arancini
+
+      12. Panzanella
+
+      13. Panna Cotta
+
+      14. Bruschetta
+
+      15. Saltimbocca
+
+      16. Ravioli
+
+      17. Polenta
+
+      18. Cannoli
+
+      19. Bolognese Sauce
+
+      20. Gelato'
+    role: assistant
+created: 1709799768
+id: chatcmpl-903JYJ7OS3QUFAt00KSFN14Hgb99E
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 125
+  prompt_tokens: 29
+  total_tokens: 154
