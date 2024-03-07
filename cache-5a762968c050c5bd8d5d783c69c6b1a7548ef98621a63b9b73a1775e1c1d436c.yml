@@ -1,0 +1,21 @@
+# Cache for query: ingredient list for Sesame Chicken, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Chicken breasts \n2. Sesame seeds \n3. Soy sauce \n4. Brown sugar\
+      \ \n5. Cornstarch \n6. Garlic \n7. Ginger \n8. Vegetable oil \n9. Rice vinegar\
+      \ \n10. Chicken broth \n11. Hoisin sauce \n12. Green onions \n13. Salt \n14.\
+      \ Pepper"
+    role: assistant
+created: 1709800202
+id: chatcmpl-903QYPqocKEf6dZRv5tfaiYD4s3Jf
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 68
+  prompt_tokens: 26
+  total_tokens: 94
