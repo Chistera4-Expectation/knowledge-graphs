@@ -1,0 +1,22 @@
+# Cache for query: list of 20 famous Latin Cuisine Recipes, concise names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 1000)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Tacos al Pastor\n2. Empanadas\n3. Ceviche\n4. Arepas\n5. Feijoada\n\
+      6. Tamales\n7. Ropa Vieja\n8. P\xE3o de Queijo\n9. Mole Poblano\n10. Lomo Saltado\n\
+      11. Arroz con Pollo\n12. Pupusas\n13. Churrasco\n14. Gallo Pinto\n15. Cochinita\
+      \ Pibil\n16. Enchiladas\n17. Bandeja Paisa\n18. Huevos Rancheros\n19. Pastel\
+      \ de Choclo\n20. Asado"
+    role: assistant
+created: 1709799775
+id: chatcmpl-903JfyZt5He5ZtfhznMOmNmG6tUC6
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 137
+  prompt_tokens: 29
+  total_tokens: 166
