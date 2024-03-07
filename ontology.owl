@@ -3453,11 +3453,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#hot_dog_meat">
+<Beef rdf:about="#hot_dog_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hot dog meat</fancyName>
-</Edible>
+</Beef>
 
 <Edible rdf:about="#mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
