@@ -5978,12 +5978,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red bell pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#scotch_bonnet">
+<Spice rdf:about="#scotch_bonnet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#caribbean_jerk_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#habanero_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
