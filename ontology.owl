@@ -1714,11 +1714,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
 </Fruit>
 
-<Fruit rdf:about="#watermelons">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watermelons</fancyName>
-</Fruit>
-
 <Fruit rdf:about="#honeydew">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honeydew</fancyName>
