@@ -1,0 +1,23 @@
+# Cache for query: instances list for class Food Additive, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: "Certainly! Here are several names of common food additives that are\
+      \ used in the food industry. Each of these serves specific purposes such as\
+      \ preservation, flavor enhancement, color improvement, or texture modification.\
+      \ \n\n1. Ascorbic Acid\n2. Sodium Benzoate\n3. Monosodium Glutamate (MSG)\n\
+      4. Xanthan Gum\n5. Lecithin\n6. Sodium Nitrite\n7. High Fructose Corn Syrup\n\
+      8. Aspartame\n9"
+    role: assistant
+created: 1709799554
+id: chatcmpl-903G6a1jWgZYKhkvT30VplByK3UyG
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127

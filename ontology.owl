@@ -521,6 +521,46 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey</fancyName>
 </Sweetener>
 
+<Additive rdf:about="#ascorbic_acid">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascorbic Acid</fancyName>
+</Additive>
+
+<Additive rdf:about="#sodium_benzoate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Benzoate</fancyName>
+</Additive>
+
+<Additive rdf:about="#monosodium_glutamate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monosodium Glutamate</fancyName>
+</Additive>
+
+<Additive rdf:about="#xanthan_gum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthan Gum</fancyName>
+</Additive>
+
+<Additive rdf:about="#lecithin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lecithin</fancyName>
+</Additive>
+
+<Additive rdf:about="#sodium_nitrite">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Nitrite</fancyName>
+</Additive>
+
+<Additive rdf:about="#high_fructose_corn_syrup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Fructose Corn Syrup</fancyName>
+</Additive>
+
+<Additive rdf:about="#aspartame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspartame</fancyName>
+</Additive>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
