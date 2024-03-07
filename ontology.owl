@@ -2359,11 +2359,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried thyme</fancyName>
 </Edible>
 
-<Edible rdf:about="#garlic_cloves">
+<Vegetable rdf:about="#garlic_cloves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_wings"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic cloves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
