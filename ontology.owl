@@ -1882,6 +1882,7 @@
 <Rice rdf:about="#white_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
 </Rice>
 
@@ -5202,12 +5203,6 @@
   <ingredientOf rdf:resource="#spring_rolls"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional dipping sauce</fancyName>
 </Sauce>
-
-<Rice rdf:about="#cooked_white_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#fried_rice"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooked white rice</fancyName>
-</Rice>
 
 <Beef rdf:about="#optional_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
