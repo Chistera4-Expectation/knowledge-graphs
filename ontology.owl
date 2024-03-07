@@ -3833,6 +3833,81 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chai Tea</fancyName>
 </Tea>
 
+<Infusion rdf:about="#lemon_ginger_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Ginger Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#cucumber_mint_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cucumber Mint Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#strawberry_basil_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strawberry Basil Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#blueberry_lavender_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueberry Lavender Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#pineapple_cilantro_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple Cilantro Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#watermelon_rosemary_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watermelon Rosemary Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#orange_cinnamon_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Cinnamon Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#apple_clove_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Clove Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#peach_thyme_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peach Thyme Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#raspberry_sage_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raspberry Sage Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#grapefruit_rose_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapefruit Rose Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#mango_jalapeno_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango Jalapeño Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#pear_cinnamon_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pear Cinnamon Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#cherry_vanilla_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry Vanilla Infusion</fancyName>
+</Infusion>
+
+<Infusion rdf:about="#kiwi_lime_infusion">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kiwi Lime Infusion</fancyName>
+</Infusion>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
