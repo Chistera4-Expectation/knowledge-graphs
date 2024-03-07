@@ -4574,11 +4574,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salt pork</fancyName>
 </Pork>
 
-<Edible rdf:about="#chicken__dark_meat">
+<Poultry rdf:about="#chicken__dark_meat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gumbo"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken, dark meat</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#holy_trinity">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
