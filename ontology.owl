@@ -3948,11 +3948,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiger's Tooth Powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#fillings">
+<Fruit rdf:about="#fillings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillings</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#wrapper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
