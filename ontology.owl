@@ -1102,10 +1102,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavor enhancers</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#antioxidants">
+<Seasoning rdf:about="#antioxidants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antioxidants</fancyName>
-</Additive>
+</Seasoning>
 
 <Additive rdf:about="#humectants">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
