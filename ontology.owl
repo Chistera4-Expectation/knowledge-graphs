@@ -4139,11 +4139,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teff flour</fancyName>
 </Bread>
 
-<Edible rdf:about="#chili_peppers">
+<Spice rdf:about="#chili_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili peppers</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#ethiopian_cardamom">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
