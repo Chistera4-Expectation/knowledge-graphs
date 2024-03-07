@@ -5692,11 +5692,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine vinegar</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#grains">
+<Pasta rdf:about="#grains">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grains</fancyName>
-</Edible>
+</Pasta>
 
 <Edible rdf:about="#yellow_cornmeal">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
