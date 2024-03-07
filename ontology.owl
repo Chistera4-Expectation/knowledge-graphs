@@ -6027,11 +6027,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#green_peas">
+<Vegetable rdf:about="#green_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
