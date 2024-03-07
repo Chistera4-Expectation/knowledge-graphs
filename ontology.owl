@@ -3736,11 +3736,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh cilantro</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#lime_wedges">
+<Fruit rdf:about="#lime_wedges">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime Wedges</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#lard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
