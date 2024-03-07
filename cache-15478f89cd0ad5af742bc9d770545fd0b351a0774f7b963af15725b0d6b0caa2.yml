@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Sweet and Sour Pork, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Pork loin
+
+      2. Salt
+
+      3. Pepper
+
+      4. Cornstarch
+
+      5. Cooking oil
+
+      6. Garlic
+
+      7. Ginger
+
+      8. Bell peppers (green and red)
+
+      9. Onion
+
+      10. Pineapple chunks
+
+      11. Rice vinegar
+
+      12. Ketchup
+
+      13. Brown sugar
+
+      14. Soy sauce
+
+      15. Water'
+    role: assistant
+created: 1709800150
+id: chatcmpl-903PiMQfPC5NgtAWquxEYODrN6QCP
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 74
+  prompt_tokens: 27
+  total_tokens: 101
