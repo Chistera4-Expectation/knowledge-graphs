@@ -5011,7 +5011,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matcha powder</fancyName>
 </Tea>
 
-<Edible rdf:about="#hoisin_sauce">
+<Sauce rdf:about="#hoisin_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#peking_duck"/>
@@ -5019,7 +5019,7 @@
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoisin sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#shaoxing_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
