@@ -1,0 +1,21 @@
+# Cache for query: ingredient list for Pepper Pot, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: "1. Beef tripe\n2. Spinach (or callaloo/collard greens)\n3. Okra\n4.\
+      \ Coconut milk\n5. Scotch bonnet pepper\n6. Thyme\n7. Garlic\n8. Onion\n9. Chive\n\
+      10. Pimento berries (allspice)\n11. Salt\n12. Black pepper\n13. Cooking oil\
+      \ (optional for saut\xE9ing)\n14. Water or beef stock"
+    role: assistant
+created: 1709800023
+id: chatcmpl-903NfC1Xq29qgZuBLi8OCEAtBNVPH
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 92
+  prompt_tokens: 25
+  total_tokens: 117
