@@ -7301,12 +7301,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other leafy greens</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#dry_sherry">
+<Alcoholic rdf:about="#dry_sherry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry sherry</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#rice_paper_wrappers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
