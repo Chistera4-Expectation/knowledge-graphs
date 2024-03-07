@@ -2316,6 +2316,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
+  <ingredientOf rdf:resource="#marinara_sauce"/>
+  <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
 </Edible>
 
@@ -2425,14 +2428,6 @@
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
 </Fruit>
-
-<Edible rdf:about="#oregano">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#marinara_sauce"/>
-  <ingredientOf rdf:resource="#meatloaf"/>
-  <ingredientOf rdf:resource="#beef_with_green_peppers"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregano</fancyName>
-</Edible>
 
 <Vegetable rdf:about="#garlic">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
