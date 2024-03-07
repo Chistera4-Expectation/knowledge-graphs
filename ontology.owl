@@ -1283,10 +1283,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream Cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#whey_protein">
+<Milk rdf:about="#whey_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whey Protein</fancyName>
-</Dairy>
+</Milk>
 
 <Crustaceans rdf:about="#lobster">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
