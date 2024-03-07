@@ -3155,12 +3155,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marjoram</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#scotch_bonnet_pepper">
+<Spice rdf:about="#scotch_bonnet_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#coconut_milk_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
