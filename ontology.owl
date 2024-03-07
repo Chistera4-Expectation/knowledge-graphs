@@ -4404,7 +4404,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cajun Seasoning</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#scallions">
+<Vegetable rdf:about="#scallions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jambalaya"/>
   <ingredientOf rdf:resource="#curry_goat"/>
@@ -4413,7 +4413,7 @@
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scallions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#breakfast_sausage">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
