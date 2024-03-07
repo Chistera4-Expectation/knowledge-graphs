@@ -5526,11 +5526,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White wine</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#saffron_threads">
+<Spice rdf:about="#saffron_threads">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron threads</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#parmigiano_reggiano_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
