@@ -5496,11 +5496,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arugula</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#pesto">
+<Seasoning rdf:about="#pesto">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesto</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#grilled_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
