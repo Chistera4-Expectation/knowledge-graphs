@@ -1278,10 +1278,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour cream</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#cream_cheese">
+<Cheese rdf:about="#cream_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream Cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#whey_protein">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
