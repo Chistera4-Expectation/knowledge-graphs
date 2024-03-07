@@ -5625,12 +5625,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Fresh lemon juice</fancyName>
 </Fruit>
 
-<Edible rdf:about="#tomato_paste">
+<Vegetable rdf:about="#tomato_paste">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#canned_crushed_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
