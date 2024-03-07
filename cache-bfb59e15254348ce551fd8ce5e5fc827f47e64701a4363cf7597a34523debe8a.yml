@@ -1,0 +1,56 @@
+# Cache for query: instances list for class Food Seasoning, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Salt
+
+      2. Black Pepper
+
+      3. Garlic Powder
+
+      4. Paprika
+
+      5. Cumin
+
+      6. Oregano
+
+      7. Thyme
+
+      8. Rosemary
+
+      9. Basil
+
+      10. Cinnamon
+
+      11. Nutmeg
+
+      12. Turmeric
+
+      13. Ginger
+
+      14. Curry Powder
+
+      15. Cayenne Pepper
+
+      16. Dill
+
+      17. Coriander
+
+      18. Bay Leaves
+
+      19. Cardamom
+
+      20. Saff'
+    role: assistant
+created: 1709799541
+id: chatcmpl-903FtnFKDtzzuslulvox7gfgnPJcd
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
