@@ -4813,11 +4813,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food coloring</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#pigeon_peas">
+<Seed rdf:about="#pigeon_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigeon peas</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#green_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
