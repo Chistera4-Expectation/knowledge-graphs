@@ -1598,7 +1598,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffalo Worm Chocolate</fancyName>
 </Insect>
 
-<Animal rdf:about="#eggs">
+<Poultry rdf:about="#eggs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
@@ -1612,7 +1612,7 @@
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <ingredientOf rdf:resource="#egg_fried_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</fancyName>
-</Animal>
+</Poultry>
 
 <Animal rdf:about="#fish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
