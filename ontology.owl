@@ -7084,7 +7084,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chili paste</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chili_flakes">
+<Spice rdf:about="#chili_flakes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#kung_pao_chicken"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
@@ -7094,7 +7094,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chili flakes</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili flakes</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili Flakes</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#pineapple_chunks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
