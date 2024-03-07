@@ -3628,11 +3628,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#coconut_powder">
+<Seed rdf:about="#coconut_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Powder</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
