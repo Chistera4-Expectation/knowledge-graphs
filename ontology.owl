@@ -4045,11 +4045,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillings of choice</fancyName>
 </Fruit>
 
-<Edible rdf:about="#broccoli">
+<Vegetable rdf:about="#broccoli">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broccoli</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ground_cinnamon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
