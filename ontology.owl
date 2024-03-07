@@ -5638,11 +5638,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned crushed tomatoes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#red_wine">
+<Alcoholic rdf:about="#red_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
