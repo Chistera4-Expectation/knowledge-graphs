@@ -7181,11 +7181,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Wood ear mushrooms</fancyName>
 </Mushroom>
 
-<Edible rdf:about="#cloud_ear_fungus">
+<Mushroom rdf:about="#cloud_ear_fungus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud ear fungus</fancyName>
-</Edible>
+</Mushroom>
 
 <Edible rdf:about="#steamed_buns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
