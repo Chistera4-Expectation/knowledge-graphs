@@ -486,6 +486,7 @@
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -5048,12 +5049,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
-</Spice>
-
-<Spice rdf:about="#black_peppercorns">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black peppercorns</fancyName>
 </Spice>
 
 <Pork rdf:about="#ground_pork">
