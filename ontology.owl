@@ -2682,11 +2682,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shallots</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#dried_pepper">
+<Spice rdf:about="#dried_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
