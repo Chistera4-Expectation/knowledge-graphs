@@ -3663,11 +3663,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pineapple</fancyName>
 </Fruit>
 
-<Edible rdf:about="#cherries">
+<Fruit rdf:about="#cherries">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#steamed_bakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherries</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#raisins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
