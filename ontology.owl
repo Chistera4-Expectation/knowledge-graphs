@@ -5780,12 +5780,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#broth">
+<Vegetable rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broth</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#corn_husks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
