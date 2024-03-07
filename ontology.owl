@@ -7135,7 +7135,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili bean sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#sichuan_peppercorns">
+<Spice rdf:about="#sichuan_peppercorns">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
@@ -7144,7 +7144,7 @@
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sichuan peppercorns</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#vegetable_stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
