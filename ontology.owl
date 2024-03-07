@@ -3908,11 +3908,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duck</fancyName>
 </Edible>
 
-<Edible rdf:about="#shaoxing_rice_wine">
+<Alcoholic rdf:about="#shaoxing_rice_wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaoxing rice wine</fancyName>
-</Edible>
+</Alcoholic>
 
 <Edible rdf:about="#rice_noodles">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
