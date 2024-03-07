@@ -3445,11 +3445,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra-virgin olive oil</fancyName>
 </Oil>
 
-<Edible rdf:about="#freshly_ground_black_pepper">
+<Spice rdf:about="#freshly_ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly ground black pepper</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#strong_brewed_coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
