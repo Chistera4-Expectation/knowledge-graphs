@@ -5805,12 +5805,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seasonings for filling</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#sauce">
+<Sauce rdf:about="#sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#general_tso_s_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#optional_ingredients">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
