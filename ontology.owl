@@ -487,6 +487,7 @@
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
 </Seasoning>
@@ -5251,12 +5252,6 @@
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
 </Sauce>
-
-<Spice rdf:about="#ground_black_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#beef_with_broccoli"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground black pepper</fancyName>
-</Spice>
 
 <Vegetable rdf:about="#mint_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
