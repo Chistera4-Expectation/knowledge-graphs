@@ -5600,12 +5600,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Edible>
 
-<Edible rdf:about="#basil_leaves">
+<Vegetable rdf:about="#basil_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pesto_genovese"/>
   <ingredientOf rdf:resource="#panzanella_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil leaves</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#pine_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
