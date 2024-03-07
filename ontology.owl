@@ -1092,6 +1092,7 @@
 
 <Pork rdf:about="#ham">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ham</fancyName>
 </Pork>
 
@@ -2150,6 +2151,7 @@
   <ingredientOf rdf:resource="#reuben_sandwich"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</fancyName>
 </Dairy>
 
@@ -2220,6 +2222,7 @@
 <Dairy rdf:about="#swiss_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
 </Dairy>
 
@@ -6341,6 +6344,30 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water for egg wash</fancyName>
+</Edible>
+
+<Edible rdf:about="#cuban_bread">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban bread</fancyName>
+</Edible>
+
+<Edible rdf:about="#roast_pork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roast pork</fancyName>
+</Edible>
+
+<Edible rdf:about="#yellow_mustard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow mustard</fancyName>
+</Edible>
+
+<Edible rdf:about="#dill_pickles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dill pickles</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
