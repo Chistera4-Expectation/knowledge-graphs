@@ -960,6 +960,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#plantains"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red pepper flakes</fancyName>
 </Spice>
 
@@ -7088,12 +7089,6 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltose syrup</fancyName>
 </Sweetener>
-
-<Spice rdf:about="#red_chili_flakes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chili flakes</fancyName>
-</Spice>
 
 <Sauce rdf:about="#chili_bean_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
