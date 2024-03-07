@@ -6277,11 +6277,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni pasta</fancyName>
 </Pasta>
 
-<Edible rdf:about="#optional__additional_cheese_for_topping">
+<Cheese rdf:about="#optional__additional_cheese_for_topping">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: additional cheese for topping</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#apples">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
