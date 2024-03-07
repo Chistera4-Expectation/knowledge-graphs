@@ -1310,6 +1310,7 @@
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#jollof_noodles"/>
   <ingredientOf rdf:resource="#sawa_platter"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice</fancyName>
 </Food>
 
@@ -1548,6 +1549,7 @@
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#hot_dog"/>
   <ingredientOf rdf:resource="#pie_a_la_mode"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Drink>
 
@@ -3270,6 +3272,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
