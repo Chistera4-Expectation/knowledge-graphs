@@ -2319,6 +2319,7 @@
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
+  <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried oregano</fancyName>
 </Edible>
 
@@ -3084,12 +3085,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#corn_chowder"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaf</fancyName>
-</Edible>
-
-<Edible rdf:about="#dried_dill">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#corn_chowder"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried dill</fancyName>
 </Edible>
 
 <Beef rdf:about="#hot_dog_meat">
