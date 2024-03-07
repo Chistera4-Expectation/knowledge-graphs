@@ -3878,6 +3878,7 @@
 <Vegetable rdf:about="#diced_onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
+  <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced onions</fancyName>
 </Vegetable>
 
@@ -4658,12 +4659,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tuna_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced celery</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#diced_onion">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tuna_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced onion</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#diced_hard_boiled_egg">
