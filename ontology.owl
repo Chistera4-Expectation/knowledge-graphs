@@ -1229,12 +1229,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
 </Milk>
 
-<Dairy rdf:about="#cheese">
+<Cheese rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
