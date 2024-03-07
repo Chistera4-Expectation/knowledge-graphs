@@ -7235,11 +7235,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taro Cake</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#chicken_feet">
+<Poultry rdf:about="#chicken_feet">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Feet</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#lotus_leaf_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
