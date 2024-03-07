@@ -6019,13 +6019,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon cube</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#stock">
+<Vegetable rdf:about="#stock">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#green_peas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
