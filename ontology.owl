@@ -2388,6 +2388,10 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <ingredientOf rdf:resource="#kebabs"/>
   <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#salsa"/>
+  <ingredientOf rdf:resource="#mango_salsa"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -2687,15 +2691,6 @@
   <ingredientOf rdf:resource="#guava_jam"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanilla extract</fancyName>
 </Bread>
-
-<Vegetable rdf:about="#red_onion">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#salsa"/>
-  <ingredientOf rdf:resource="#mango_salsa"/>
-  <ingredientOf rdf:resource="#cobb_salad"/>
-  <ingredientOf rdf:resource="#tabbouleh"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
-</Vegetable>
 
 <Juice rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
