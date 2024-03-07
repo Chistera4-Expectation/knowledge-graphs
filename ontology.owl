@@ -3191,6 +3191,7 @@
 <Bread rdf:about="#pastry">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
+  <ingredientOf rdf:resource="#pie_a_la_mode"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry</fancyName>
 </Bread>
 
@@ -3294,12 +3295,6 @@
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaroni noodles</fancyName>
 </Pasta>
-
-<Bread rdf:about="#pastry_dough">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#pie_a_la_mode"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pastry dough</fancyName>
-</Bread>
 
 <Poultry rdf:about="#egg_yolks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
