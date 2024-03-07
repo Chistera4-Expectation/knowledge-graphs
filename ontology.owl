@@ -5985,14 +5985,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch bonnet</fancyName>
 </Spice>
 
-<Edible rdf:about="#habanero_pepper">
+<Vegetable rdf:about="#habanero_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habanero pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habanero pepper</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
