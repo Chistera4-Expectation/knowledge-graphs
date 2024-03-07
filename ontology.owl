@@ -4795,11 +4795,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxtail pieces</fancyName>
 </Beef>
 
-<Edible rdf:about="#butter_beans">
+<Seed rdf:about="#butter_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter beans</fancyName>
-</Edible>
+</Seed>
 
 <Edible rdf:about="#guavas">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
