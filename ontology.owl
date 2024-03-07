@@ -1742,10 +1742,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mango</fancyName>
 </Fruit>
 
-<Edible rdf:about="#watermelons">
+<Fruit rdf:about="#watermelons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watermelons</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#honeydew">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
