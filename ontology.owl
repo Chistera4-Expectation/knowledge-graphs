@@ -395,6 +395,7 @@
   <ingredientOf rdf:resource="#tiramisu"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
   <ingredientOf rdf:resource="#gnocchi"/>
+  <ingredientOf rdf:resource="#polenta"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -2320,6 +2321,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ravioli"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#polenta"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -3094,6 +3096,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasta</fancyName>
+</Edible>
+
+<Edible rdf:about="#cornmeal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornmeal</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
