@@ -532,6 +532,7 @@
   <ingredientOf rdf:resource="#peach_cobbler"/>
   <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -582,6 +583,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</fancyName>
 </Seasoning>
 
@@ -590,6 +592,7 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -641,6 +644,7 @@
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyme</fancyName>
 </Seasoning>
 
@@ -664,6 +668,7 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutmeg</fancyName>
 </Seasoning>
 
@@ -674,6 +679,7 @@
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinnamon</fancyName>
 </Seasoning>
 
@@ -682,6 +688,7 @@
   <rdf:type rdf:resource="#Spice"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger</fancyName>
 </Seasoning>
 
@@ -738,12 +745,14 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloves</fancyName>
 </Seasoning>
 
 <Seasoning rdf:about="#allspice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Spice"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allspice</fancyName>
 </Seasoning>
 
@@ -814,6 +823,7 @@
   <ingredientOf rdf:resource="#bbq_ribs"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Pepper</fancyName>
 </Spice>
@@ -1662,6 +1672,7 @@
   <ingredientOf rdf:resource="#clam_chowder"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</fancyName>
 </Meat>
 
@@ -3715,6 +3726,7 @@
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3738,6 +3750,7 @@
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Vegetable>
 
@@ -5264,6 +5277,7 @@
   <ingredientOf rdf:resource="#panzanella_salad"/>
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <ingredientOf rdf:resource="#meatloaf"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Edible>
 
@@ -5474,6 +5488,7 @@
   <ingredientOf rdf:resource="#tacos_al_pastor"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#biltong"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vinegar</fancyName>
 </Edible>
 
@@ -5507,7 +5522,9 @@
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#guacamole"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime juice</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime Juice</fancyName>
 </Edible>
 
 <Edible rdf:about="#optional_additions">
@@ -5551,8 +5568,10 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Edible>
 
 <Edible rdf:about="#white_rice">
@@ -5744,7 +5763,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#biltong"/>
   <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown Sugar</fancyName>
 </Edible>
 
 <Edible rdf:about="#coriander_seeds">
@@ -6110,6 +6131,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime zest</fancyName>
+</Edible>
+
+<Edible rdf:about="#scotch_bonnet_peppers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scotch Bonnet Peppers</fancyName>
+</Edible>
+
+<Edible rdf:about="#soy_sauce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
+</Edible>
+
+<Edible rdf:about="#oil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#optional__rum">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: Rum</fancyName>
+</Edible>
+
+<Edible rdf:about="#jamaican_red_stripe_beer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#jerk_chicken"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamaican Red Stripe Beer</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
