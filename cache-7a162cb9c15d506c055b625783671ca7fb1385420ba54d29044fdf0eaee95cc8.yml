@@ -1,0 +1,46 @@
+# Cache for query: ingredient list for Couscous Royal, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Couscous Royal is a luxurious and flavorful dish that combines a variety
+      of ingredients. Here is a list of ingredients typically found in Couscous Royal:
+
+
+      1. Couscous
+
+      2. Chicken thighs
+
+      3. Lamb shoulder
+
+      4. Merguez sausages
+
+      5. Chickpeas
+
+      6. Carrots
+
+      7. Zucchini
+
+      8. Butternut squash
+
+      9. Tomatoes
+
+      10. Onion
+
+      11. Garlic
+
+      12. Chicken broth or stock
+
+      '
+    role: assistant
+created: 1709799936
+id: chatcmpl-903MG9iLJC1xlGKAGBkPnqsQbLnBG
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 100
+  prompt_tokens: 27
+  total_tokens: 127
