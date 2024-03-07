@@ -5261,11 +5261,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broccoli florets</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#oyster_sauce">
+<Sauce rdf:about="#oyster_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#beef_with_broccoli"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oyster sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
