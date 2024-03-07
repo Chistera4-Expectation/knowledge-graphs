@@ -5356,12 +5356,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sea salt</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#olives">
+<Fruit rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#focaccia_bread"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
