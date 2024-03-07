@@ -3531,7 +3531,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#flour">
+<Bread rdf:about="#flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gnocchi"/>
   <ingredientOf rdf:resource="#cornbread"/>
@@ -3545,7 +3545,7 @@
   <ingredientOf rdf:resource="#dumplings"/>
   <ingredientOf rdf:resource="#samosa"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#celery">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
