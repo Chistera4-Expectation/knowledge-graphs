@@ -1,0 +1,19 @@
+# Cache for query: most adequate class for 'Mealworm Protein Bars' among: 'Honey'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '"Mealworm Protein Bars" would be most adequately classified under "Protein
+      Bars."'
+    role: assistant
+created: 1709800294
+id: chatcmpl-903S2pl2jcgwwkkgWVwpFKfbsG8NQ
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 17
+  prompt_tokens: 34
+  total_tokens: 51
