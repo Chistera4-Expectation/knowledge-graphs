@@ -3087,7 +3087,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dried rosemary</fancyName>
 </Edible>
 
-<Edible rdf:about="#bay_leaves">
+<Spice rdf:about="#bay_leaves">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#west_african_beef_stew"/>
   <ingredientOf rdf:resource="#cape_verde_chicken_curry"/>
@@ -3099,7 +3099,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay leaves</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay Leaves</fancyName>
-</Edible>
+</Spice>
 
 <Edible rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
