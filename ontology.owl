@@ -364,6 +364,7 @@
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#pad_thai"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy sauce</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy Sauce</fancyName>
 </Dressing>
@@ -1223,6 +1224,7 @@
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <ingredientOf rdf:resource="#coconut_drop"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut oil</fancyName>
 </Oil>
 
@@ -2346,6 +2348,7 @@
   <ingredientOf rdf:resource="#sorrel"/>
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -2454,6 +2457,7 @@
   <ingredientOf rdf:resource="#mapo_tofu"/>
   <ingredientOf rdf:resource="#beef_with_green_peppers"/>
   <ingredientOf rdf:resource="#steamed_fish"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</fancyName>
 </Edible>
 
@@ -2643,6 +2647,7 @@
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry powder</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Powder</fancyName>
 </Edible>
@@ -2814,6 +2819,7 @@
   <ingredientOf rdf:resource="#coconut_chicken_curry"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Milk</fancyName>
 </Edible>
@@ -2829,6 +2835,7 @@
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#miso_soup"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrots</fancyName>
 </Edible>
 
@@ -3014,6 +3021,7 @@
   <ingredientOf rdf:resource="#taco_salad"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
   <ingredientOf rdf:resource="#fried_rice"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Peppers</fancyName>
 </Edible>
@@ -3069,6 +3077,7 @@
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <ingredientOf rdf:resource="#mango_curry_chicken"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemongrass</fancyName>
 </Edible>
 
@@ -3083,6 +3092,7 @@
   <ingredientOf rdf:resource="#khmer_curry"/>
   <ingredientOf rdf:resource="#curry_shrimp"/>
   <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#red_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish sauce</fancyName>
 </Edible>
 
@@ -3878,6 +3888,24 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground cumin</fancyName>
+</Edible>
+
+<Edible rdf:about="#galangal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galangal</fancyName>
+</Edible>
+
+<Edible rdf:about="#thai_basil">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai basil</fancyName>
+</Edible>
+
+<Edible rdf:about="#snow_peas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#red_curry"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow peas</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
