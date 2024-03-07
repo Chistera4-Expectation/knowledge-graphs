@@ -3266,7 +3266,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple crust</fancyName>
 </Fruit>
 
-<Edible rdf:about="#cornstarch">
+<Vegetable rdf:about="#cornstarch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
@@ -3284,7 +3284,7 @@
   <ingredientOf rdf:resource="#black_bean_sauce"/>
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornstarch</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#ground_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
