@@ -1191,10 +1191,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravioli</fancyName>
 </Pasta>
 
-<Cereal rdf:about="#cap_n_crunch">
+<Breakfast rdf:about="#cap_n_crunch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cap'n Crunch</fancyName>
-</Cereal>
+</Breakfast>
 
 <Cereal rdf:about="#apple_jacks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
