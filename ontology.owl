@@ -3573,14 +3573,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green beans</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#vegetable_broth">
+<Vegetable rdf:about="#vegetable_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#minestrone"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable broth</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable broth</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#kidney_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
