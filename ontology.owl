@@ -518,6 +518,10 @@
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#injera_with_berbere_sauce"/>
+  <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</fancyName>
 </Seasoning>
 
@@ -3951,15 +3955,6 @@
   <ingredientOf rdf:resource="#fried_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken pieces</fancyName>
 </Poultry>
-
-<Spice rdf:about="#cumin_seeds">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bunny_chow"/>
-  <ingredientOf rdf:resource="#chicken_biryani"/>
-  <ingredientOf rdf:resource="#samosa"/>
-  <ingredientOf rdf:resource="#fish_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin seeds</fancyName>
-</Spice>
 
 <Vegetable rdf:about="#green_chillies">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
