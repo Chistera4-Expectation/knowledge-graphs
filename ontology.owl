@@ -2671,10 +2671,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Tea</fancyName>
 </Tea>
 
-<Liquid rdf:about="#almond_milk">
+<Milk rdf:about="#almond_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond Milk</fancyName>
-</Liquid>
+</Milk>
 
 <Liquid rdf:about="#coconut_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
