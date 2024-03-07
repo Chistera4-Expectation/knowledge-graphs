@@ -6289,12 +6289,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
 </Fruit>
 
-<Edible rdf:about="#pie_crust">
+<Bread rdf:about="#pie_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#apple_pie"/>
   <ingredientOf rdf:resource="#chicken_pot_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pie crust</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#apple_cider_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
