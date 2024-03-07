@@ -3858,6 +3858,7 @@
 <Seasoning rdf:about="#thai_curry_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#pad_thai"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai curry powder</fancyName>
 </Seasoning>
 
@@ -3867,12 +3868,6 @@
   <ingredientOf rdf:resource="#pad_see_ew"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bean sprouts</fancyName>
 </Vegetable>
-
-<Seasoning rdf:about="#tiger_s_tooth_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#dim_sum"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiger's Tooth Powder</fancyName>
-</Seasoning>
 
 <Fruit rdf:about="#fillings">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
