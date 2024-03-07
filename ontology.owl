@@ -451,6 +451,7 @@
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Seasoning>
 
@@ -656,6 +657,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_alla_milanese"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffron</fancyName>
 </Spice>
 
@@ -968,6 +970,7 @@
 <Meat rdf:about="#lamb">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamb</fancyName>
 </Meat>
 
@@ -1230,6 +1233,7 @@
 <Dairy rdf:about="#yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogurt</fancyName>
 </Dairy>
 
@@ -2643,6 +2647,7 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <ingredientOf rdf:resource="#congee"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Liquid>
 
@@ -3255,6 +3260,7 @@
   <ingredientOf rdf:resource="#goat_water"/>
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Edible>
 
@@ -3825,6 +3831,7 @@
   <ingredientOf rdf:resource="#tempura"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil</fancyName>
 </Edible>
 
@@ -4202,6 +4209,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#couscous_royal"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
 </Edible>
 
 <Edible rdf:about="#melted_butter">
@@ -4654,7 +4662,9 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#goat_water"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat meat</fancyName>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">goat meat</fancyName>
 </Edible>
 
 <Edible rdf:about="#bell_peppers">
@@ -5240,7 +5250,32 @@
 <Edible rdf:about="#ghee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghee</fancyName>
+</Edible>
+
+<Edible rdf:about="#kashmiri_red_chili_powder">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri red chili powder</fancyName>
+</Edible>
+
+<Edible rdf:about="#ginger_garlic_paste">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger-garlic paste</fancyName>
+</Edible>
+
+<Edible rdf:about="#whole_spices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole spices</fancyName>
+</Edible>
+
+<Edible rdf:about="#ground_spices">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground spices</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
