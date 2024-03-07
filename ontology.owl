@@ -845,6 +845,26 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dairy products</fancyName>
 </Animal>
 
+<Breakfast rdf:about="#frosted_flakes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frosted Flakes</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#raisin_bran">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raisin Bran</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#honey_nut_cheerios">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey Nut Cheerios</fancyName>
+</Breakfast>
+
+<Breakfast rdf:about="#fruit_loops">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit Loops</fancyName>
+</Breakfast>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
