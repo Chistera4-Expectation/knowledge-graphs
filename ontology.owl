@@ -5035,6 +5035,7 @@
 <Spice rdf:about="#five_spice_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#beijing_roast_duck"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-spice powder</fancyName>
 </Spice>
 
@@ -5166,12 +5167,6 @@
   <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fermented black beans</fancyName>
 </Seasoning>
-
-<Spice rdf:about="#chinese_five_spice_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#beijing_roast_duck"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese five-spice powder</fancyName>
-</Spice>
 
 <Sweetener rdf:about="#maltose">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
