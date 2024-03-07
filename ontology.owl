@@ -3337,11 +3337,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato paste</fancyName>
 </Sauce>
 
-<Edible rdf:about="#diced_tomatoes">
+<Fruit rdf:about="#diced_tomatoes">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced tomatoes</fancyName>
-</Edible>
+</Fruit>
 
 <Edible rdf:about="#sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
