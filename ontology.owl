@@ -314,6 +314,7 @@
   <ingredientOf rdf:resource="#marinara_sauce"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#paella"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olive oil</fancyName>
 </Dressing>
 
@@ -360,6 +361,7 @@
   <ingredientOf rdf:resource="#chicken_wings"/>
   <ingredientOf rdf:resource="#buffalo_wings"/>
   <ingredientOf rdf:resource="#lemon_meringues"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon juice</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Juice</fancyName>
 </Dressing>
@@ -428,6 +430,7 @@
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt</fancyName>
 </Dressing>
 
@@ -460,6 +463,7 @@
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#bajan_flying_fish"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -2590,6 +2594,7 @@
   <ingredientOf rdf:resource="#salsa"/>
   <ingredientOf rdf:resource="#mango_salsa"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red onion</fancyName>
 </Edible>
 
@@ -3401,6 +3406,36 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking Oil</fancyName>
+</Edible>
+
+<Edible rdf:about="#bulgur_wheat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgur wheat</fancyName>
+</Edible>
+
+<Edible rdf:about="#freshly_chopped_parsley">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly chopped parsley</fancyName>
+</Edible>
+
+<Edible rdf:about="#freshly_chopped_mint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly chopped mint</fancyName>
+</Edible>
+
+<Edible rdf:about="#grapefruit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grapefruit</fancyName>
+</Edible>
+
+<Edible rdf:about="#pomegranate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#tabbouleh"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomegranate</fancyName>
 </Edible>
 
 <owl:AllDisjointClasses>
