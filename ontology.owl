@@ -2821,11 +2821,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not sweetener is added</fancyName>
 </Coffee>
 
-<Coffee rdf:about="#if_so_what_type">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if so what type</fancyName>
-</Coffee>
-
 <Tea rdf:about="#caffeine__content__a_float_representing_the_amount_of_caffeine_in_milligrams_per_serving__different_types_of_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caffeine\_content: A float representing the amount of caffeine in milligrams per serving. Different types of tea</fancyName>
