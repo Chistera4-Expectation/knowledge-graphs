@@ -2373,7 +2373,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss cheese</fancyName>
 </Cheese>
 
-<Dairy rdf:about="#parmesan_cheese">
+<Cheese rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
@@ -2381,7 +2381,7 @@
   <ingredientOf rdf:resource="#polenta"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan Cheese</fancyName>
-</Dairy>
+</Cheese>
 
 <Dairy rdf:about="#lactose_free_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
