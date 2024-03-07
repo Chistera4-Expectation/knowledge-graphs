@@ -2710,10 +2710,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whelk</fancyName>
 </Molluscs>
 
-<Seafood rdf:about="#squid">
+<Molluscs rdf:about="#squid">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squid</fancyName>
-</Seafood>
+</Molluscs>
 
 <Seafood rdf:about="#octopus">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
