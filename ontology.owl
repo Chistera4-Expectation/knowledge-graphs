@@ -7158,11 +7158,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bamboo shoots</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#ground_white_pepper">
+<Seasoning rdf:about="#ground_white_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground white pepper</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#chili_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
