@@ -916,7 +916,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concise names</fancyName>
 </Yogurt>
 
-<Dairy rdf:about="#milk">
+<Milk rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#fried_chicken"/>
   <ingredientOf rdf:resource="#green_bean_casserole"/>
@@ -927,7 +927,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#raita"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</fancyName>
-</Dairy>
+</Milk>
 
 <Dairy rdf:about="#cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
