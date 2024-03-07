@@ -2942,12 +2942,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leafy greens</fancyName>
 </Vegetable>
 
-<Bread rdf:about="#teff_flour">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#ethiopian_tibs"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teff flour</fancyName>
-</Bread>
-
 <Vegetable rdf:about="#shiro_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#ethiopian_tibs"/>
