@@ -2303,6 +2303,7 @@
   <ingredientOf rdf:resource="#run_down"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell Pepper</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
@@ -4682,12 +4683,6 @@
   <ingredientOf rdf:resource="#pigeon_pea_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigeon peas</fancyName>
 </Seed>
-
-<Vegetable rdf:about="#green_peppers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#pigeon_pea_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peppers</fancyName>
-</Vegetable>
 
 <Dressing rdf:about="#rice_vinegar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
