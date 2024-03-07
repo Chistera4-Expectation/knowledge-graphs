@@ -4676,11 +4676,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh thyme</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#habanero_peppers">
+<Vegetable rdf:about="#habanero_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habanero peppers</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#lime_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
