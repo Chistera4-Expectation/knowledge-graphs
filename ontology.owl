@@ -726,10 +726,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Nitrite</fancyName>
 </Seasoning>
 
-<Additive rdf:about="#high_fructose_corn_syrup">
+<Sweetener rdf:about="#high_fructose_corn_syrup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Fructose Corn Syrup</fancyName>
-</Additive>
+</Sweetener>
 
 <Additive rdf:about="#aspartame">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
