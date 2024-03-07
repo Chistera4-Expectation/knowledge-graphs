@@ -1773,10 +1773,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanuts</fancyName>
 </Seed>
 
-<Edible rdf:about="#whole_wheat_bread">
+<Bread rdf:about="#whole_wheat_bread">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole Wheat Bread</fancyName>
-</Edible>
+</Bread>
 
 <Edible rdf:about="#brown_rice_flour">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
