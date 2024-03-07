@@ -3815,7 +3815,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheeses</fancyName>
 </Cheese>
 
-<Edible rdf:about="#cilantro">
+<Vegetable rdf:about="#cilantro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#gallo_pinto"/>
   <ingredientOf rdf:resource="#enchiladas"/>
@@ -3823,7 +3823,7 @@
   <ingredientOf rdf:resource="#chicken_biryani"/>
   <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#worcestershire_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
