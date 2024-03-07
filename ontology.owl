@@ -2888,7 +2888,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</fancyName>
 </Yogurt>
 
-<Edible rdf:about="#coconut_milk">
+<Milk rdf:about="#coconut_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#flan_de_coco"/>
   <ingredientOf rdf:resource="#zanzibar_curry_goat"/>
@@ -2906,7 +2906,7 @@
   <ingredientOf rdf:resource="#samudra_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut milk</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Milk</fancyName>
-</Edible>
+</Milk>
 
 <Edible rdf:about="#carrots">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
