@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Turkey' among: 'Beef', 'Pork-derived Food', 'Poultry-derived Food'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: Poultry-derived Food
+    role: assistant
+created: 1709800266
+id: chatcmpl-903RaqVNphkW5QH6CFti5tp2Z8RMH
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_32a098fbf7
+usage:
+  completion_tokens: 4
+  prompt_tokens: 43
+  total_tokens: 47
