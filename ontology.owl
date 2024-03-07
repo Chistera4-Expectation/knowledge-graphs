@@ -4667,14 +4667,14 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh ginger</fancyName>
 </Spice>
 
-<Edible rdf:about="#fresh_thyme">
+<Vegetable rdf:about="#fresh_thyme">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jerk_chicken"/>
   <ingredientOf rdf:resource="#curry_goat"/>
   <ingredientOf rdf:resource="#saltfish_fritters"/>
   <ingredientOf rdf:resource="#stewed_oxtail"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh thyme</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#habanero_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
