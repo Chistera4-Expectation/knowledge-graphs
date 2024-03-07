@@ -1285,6 +1285,36 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple Cranberry</fancyName>
 </Infusion>
 
+<Energy rdf:about="#red_bull">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Bull</fancyName>
+</Energy>
+
+<Energy rdf:about="#monster">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster</fancyName>
+</Energy>
+
+<Energy rdf:about="#monster_zero">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster Zero</fancyName>
+</Energy>
+
+<Energy rdf:about="#xs_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XS Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#reign">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reign</fancyName>
+</Energy>
+
+<Energy rdf:about="#full_throttle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full throttle</fancyName>
+</Energy>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
