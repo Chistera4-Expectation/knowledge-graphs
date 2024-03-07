@@ -3207,11 +3207,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curry Leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#tomato_sauce">
+<Sauce rdf:about="#tomato_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#zanzibar_fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato sauce</fancyName>
-</Edible>
+</Sauce>
 
 <Edible rdf:about="#fennel_seeds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
