@@ -1621,10 +1621,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</fancyName>
 </Fish>
 
-<Animal rdf:about="#goat_cheese">
+<Cheese rdf:about="#goat_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goat Cheese</fancyName>
-</Animal>
+</Cheese>
 
 <Animal rdf:about="#gelatin">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>

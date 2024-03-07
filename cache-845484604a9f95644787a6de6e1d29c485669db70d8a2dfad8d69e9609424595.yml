@@ -1,0 +1,18 @@
+# Cache for query: most adequate class for 'Goat Cheese' among: 'Beef', 'Butter', 'Cheese', 'Edible Crustaceans', 'Edible Fish', 'Edible Molluscs', 'Honey', 'Milk', 'Pork-derived Food', 'Poultry-derived Food', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '''Cheese'''
+    role: assistant
+created: 1709800321
+id: chatcmpl-903STmsOzqonQtY7sxIvRbxrczriU
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 4
+  prompt_tokens: 87
+  total_tokens: 91
