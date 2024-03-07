@@ -5770,7 +5770,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lard</fancyName>
 </Oil>
 
-<Edible rdf:about="#baking_powder">
+<Seasoning rdf:about="#baking_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tamales"/>
   <ingredientOf rdf:resource="#cornbread"/>
@@ -5778,7 +5778,7 @@
   <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
   <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baking powder</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
