@@ -2408,13 +2408,13 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#parmesan_cheese">
+<Cheese rdf:about="#parmesan_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <ingredientOf rdf:resource="#pollo_alla_milanese"/>
   <ingredientOf rdf:resource="#mac_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmesan cheese</fancyName>
-</Edible>
+</Cheese>
 
 <Edible rdf:about="#ladyfingers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
