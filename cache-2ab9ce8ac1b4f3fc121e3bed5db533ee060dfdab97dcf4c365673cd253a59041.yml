@@ -1,0 +1,47 @@
+# Cache for query: ingredient list for Ravioli, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'Here''s a basic ingredient list for making ravioli. Note that the specific
+      ingredients can vary widely depending on the ravioli filling and sauce chosen.
+
+
+      ### Pasta Dough:
+
+      1. All-purpose flour
+
+      2. Eggs
+
+      3. Olive oil
+
+      4. Salt
+
+      5. Water (as needed)
+
+
+      ### Cheese Filling (one common option):
+
+      1. Ricotta cheese
+
+      2. Parmesan cheese
+
+      3. Egg
+
+      4. Salt
+
+      5. Pepper
+
+      6. Nutmeg (optional'
+    role: assistant
+created: 1709799821
+id: chatcmpl-903KP51tBf5HX48vtWnA5hxMG5S51
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 100
+  prompt_tokens: 26
+  total_tokens: 126
