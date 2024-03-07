@@ -7164,7 +7164,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground white pepper</fancyName>
 </Seasoning>
 
-<Edible rdf:about="#chili_oil">
+<Oil rdf:about="#chili_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
@@ -7173,7 +7173,7 @@
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili oil</fancyName>
-</Edible>
+</Oil>
 
 <Edible rdf:about="#optional__wood_ear_mushrooms">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
