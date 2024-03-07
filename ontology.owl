@@ -4992,12 +4992,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Udon noodles</fancyName>
 </Pasta>
 
-<Edible rdf:about="#chicken_breasts">
+<Poultry rdf:about="#chicken_breasts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#katsu_curry"/>
   <ingredientOf rdf:resource="#sesame_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken breasts</fancyName>
-</Edible>
+</Poultry>
 
 <Edible rdf:about="#panko_breadcrumbs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
