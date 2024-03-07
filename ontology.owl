@@ -6556,11 +6556,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whipped cream</fancyName>
 </Dressing>
 
-<Edible rdf:about="#lime_zest">
+<Seasoning rdf:about="#lime_zest">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#key_lime_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime zest</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#scotch_bonnet_peppers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
