@@ -7356,11 +7356,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chili sauce</fancyName>
 </Sauce>
 
-<Edible rdf:about="#pickled_mustard_greens">
+<Vegetable rdf:about="#pickled_mustard_greens">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lanzhou_beef_noodle_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled mustard greens</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#dark_soy_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
