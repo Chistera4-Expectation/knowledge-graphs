@@ -865,6 +865,11 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fruit Loops</fancyName>
 </Breakfast>
 
+<Bread rdf:about="#instances_of_the_bread_class">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of the Bread class</fancyName>
+</Bread>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
