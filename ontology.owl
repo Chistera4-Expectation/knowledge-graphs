@@ -5994,7 +5994,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habanero pepper</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#vegetable_oil">
+<Vegetable rdf:about="#vegetable_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <ingredientOf rdf:resource="#pounded_yam"/>
@@ -6011,7 +6011,7 @@
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetable oil</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#bouillon_cube">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
