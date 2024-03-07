@@ -1,0 +1,29 @@
+# Cache for query: most adequate class for 'intended for consumption. Below are examples of instances that could belong to the `Edible` class, divided into different categories for clarity. Note that for an actual programming implementation, specific attributes' among: 'Alcoholic Drink', 'Animal-derived Food', 'Beef', 'Bread', 'Breakfast Cereal', 'Butter', 'Cheese', 'Coffee', 'Dairy Product', 'Drink', 'Drinkable Liquid', 'Drinking Water', 'Edible Cereal', 'Edible Crustaceans', 'Edible Fish', 'Edible Fruit', 'Edible Molluscs', 'Edible Mushrooms', 'Edible Seaweed', 'Edible Seeds', 'Edible Vegetable', 'Edible Vegetal Oil', 'Edible', 'Energy Drink', 'Food Additive', 'Food Dressing', 'Food Seasoning', 'Food', 'Honey', 'Infusion Drink', 'Insect-Derived Food', 'Juice', 'Meat', 'Milk', 'Pasta Types', 'Pork-derived Food', 'Poultry-derived Food', 'Rice', 'Sauce', 'Seafood', 'Spice', 'Sweetener', 'Tea', 'Vegetal-derived Food', 'Yogurt'. concise
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: length
+  index: 0
+  logprobs: null
+  message:
+    content: 'The class `Edible` is an encompassing category intended for items that
+      are suitable for consumption. This class could serve as a parent class in a
+      program dealing with nutritional information, inventory management for groceries,
+      or meal planning, among other applications. The various instances and subcategories
+      that can belong to the `Edible` class highlight the diverse range of consumable
+      items. Here is a concise summary of potential subclasses and instances that
+      could be categorized under `Edible`:
+
+
+      ### Beverages
+
+      - Al'
+    role: assistant
+created: 1709800388
+id: chatcmpl-903TYxwgkp0GAFJdAVme20kG8eZGb
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 100
+  prompt_tokens: 287
+  total_tokens: 387
