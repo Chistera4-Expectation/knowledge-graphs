@@ -1,0 +1,30 @@
+# Cache for query: ingredient list for Miso Soup, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Miso paste
+
+      2. Water
+
+      3. Dashi (Japanese stock)
+
+      4. Tofu
+
+      5. Wakame (seaweed)
+
+      6. Green onions
+
+      7. Optional: Mushrooms, daikon, carrots'
+    role: assistant
+created: 1709800098
+id: chatcmpl-903OscG9wINrvwCfgSQ0h4fd08O3I
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_70b2088885
+usage:
+  completion_tokens: 49
+  prompt_tokens: 26
+  total_tokens: 75
