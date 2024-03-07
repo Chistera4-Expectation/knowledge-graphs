@@ -3908,6 +3908,71 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kiwi Lime Infusion</fancyName>
 </Infusion>
 
+<Energy rdf:about="#monster_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monster Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#red_bull">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Bull</fancyName>
+</Energy>
+
+<Energy rdf:about="#bang_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bang Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#nos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOS</fancyName>
+</Energy>
+
+<Energy rdf:about="#amp_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amp Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#celsius">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celsius</fancyName>
+</Energy>
+
+<Energy rdf:about="#full_throttle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full Throttle</fancyName>
+</Energy>
+
+<Energy rdf:about="#xs_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XS Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#reign_total_body_fuel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reign Total Body Fuel</fancyName>
+</Energy>
+
+<Energy rdf:about="#guru">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guru</fancyName>
+</Energy>
+
+<Energy rdf:about="#c4_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4 Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#hype_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hype Energy</fancyName>
+</Energy>
+
+<Energy rdf:about="#nitro_xtreme_energy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitro XTreme Energy</fancyName>
+</Energy>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#African"/>
