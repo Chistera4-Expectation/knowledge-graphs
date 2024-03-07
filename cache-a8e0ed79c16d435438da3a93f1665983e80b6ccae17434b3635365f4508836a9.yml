@@ -1,0 +1,11 @@
+# Cache for query: in the Edible Fruit class, should the instances 'Apple crust' and 'Apple' be merged together as semantic and ontologic duplicates? yes or no answer only
+# (api: HuggingAiQuery, model: google/gemma-7b-it, background: 'You're a dietician', limit: 100)
+error: null
+msg_status: 1
+text: 'No.
+
+
+  The instances ''Apple crust'' and ''Apple'' are not semantic and ontologic duplicates.
+  Although they share the same semantic meaning, they differ ontologically. ''Apple
+  crust'' is a compound entity, consisting of the apple and the crust. ''Apple'' is
+  a simple entity.'
