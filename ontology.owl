@@ -3301,6 +3301,7 @@
 <Seed rdf:about="#coconut_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Powder</fancyName>
 </Seed>
 
@@ -3625,12 +3626,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tandoori_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander seeds</fancyName>
-</Seed>
-
-<Seed rdf:about="#red_chilli_powder">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tandoori_chicken"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red chilli powder</fancyName>
 </Seed>
 
 <Edible rdf:about="#dried_mint">
