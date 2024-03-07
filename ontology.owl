@@ -538,6 +538,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samudra_soup"/>
   <ingredientOf rdf:resource="#kebabs"/>
+  <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepper</fancyName>
 </Dressing>
 
@@ -3943,12 +3944,6 @@
   <ingredientOf rdf:resource="#dim_sum"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fillings</fancyName>
 </Fruit>
-
-<Dressing rdf:about="#wrapper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#dim_sum"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wrapper</fancyName>
-</Dressing>
 
 <Seasoning rdf:about="#szechuan_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
