@@ -1,0 +1,36 @@
+# Cache for query: instances list for class Drinkable Liquid, names only
+# (api: OpenAiQuery, model: gpt-4-turbo-preview, background: 'You're a dietician', limit: 100)
+choices:
+- finish_reason: stop
+  index: 0
+  logprobs: null
+  message:
+    content: '1. Water
+
+      2. Orange Juice
+
+      3. Green Tea
+
+      4. Coffee
+
+      5. Almond Milk
+
+      6. Coconut Water
+
+      7. Smoothie
+
+      8. Sports Drink
+
+      9. Soda
+
+      10. Herbal Tea'
+    role: assistant
+created: 1709799755
+id: chatcmpl-903JLks2uyyPuKhAF5nOZucTcnMBL
+model: gpt-4-0125-preview
+object: chat.completion
+system_fingerprint: fp_00ceb2df5b
+usage:
+  completion_tokens: 47
+  prompt_tokens: 27
+  total_tokens: 74

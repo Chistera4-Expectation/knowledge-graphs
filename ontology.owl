@@ -2272,11 +2272,57 @@
 
 <Drink rdf:about="#coffee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coffee</fancyName>
 </Drink>
 
 <Drink rdf:about="#cola">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Drink>
+
+<Liquid rdf:about="#water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#orange_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Juice</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#green_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Tea</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#almond_milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almond Milk</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#coconut_water">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coconut Water</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#smoothie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothie</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#sports_drink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports Drink</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#soda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soda</fancyName>
+</Liquid>
+
+<Liquid rdf:about="#herbal_tea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herbal Tea</fancyName>
+</Liquid>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
