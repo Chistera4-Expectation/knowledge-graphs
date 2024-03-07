@@ -3828,12 +3828,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sake</fancyName>
 </Alcoholic>
 
-<Edible rdf:about="#brown_sugar">
+<Sweetener rdf:about="#brown_sugar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#chicken_teriyaki"/>
   <ingredientOf rdf:resource="#teriyaki_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown sugar</fancyName>
-</Edible>
+</Sweetener>
 
 <Edible rdf:about="#teriyaki_sauce">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
