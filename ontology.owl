@@ -3310,10 +3310,10 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Millet</fancyName>
 </Cereal>
 
-<Cereal rdf:about="#buckwheat">
+<Pasta rdf:about="#buckwheat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buckwheat</fancyName>
-</Cereal>
+</Pasta>
 
 <Cereal rdf:about="#amaranth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
