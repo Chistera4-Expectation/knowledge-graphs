@@ -2565,7 +2565,7 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cherry tomatoes</fancyName>
 </Fruit>
 
-<Edible rdf:about="#onions">
+<Vegetable rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#penne_alla_vodka"/>
   <ingredientOf rdf:resource="#mole_sauce"/>
@@ -2588,7 +2588,7 @@
   <ingredientOf rdf:resource="#biryani"/>
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
-</Edible>
+</Vegetable>
 
 <Edible rdf:about="#olives">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
