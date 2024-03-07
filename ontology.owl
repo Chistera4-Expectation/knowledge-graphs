@@ -1654,11 +1654,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plain Water</fancyName>
 </Water>
 
-<Water rdf:about="#sparkling_water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkling Water</fancyName>
-</Water>
-
 <Water rdf:about="#flavored_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavored Water</fancyName>
