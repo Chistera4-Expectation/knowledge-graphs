@@ -3293,6 +3293,18 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#rogan_josh"/>
   <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#tamales"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#bunny_chow"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
+  <ingredientOf rdf:resource="#curry_goat"/>
+  <ingredientOf rdf:resource="#run_down"/>
+  <ingredientOf rdf:resource="#stewed_oxtail"/>
+  <ingredientOf rdf:resource="#katsu_curry"/>
+  <ingredientOf rdf:resource="#chicken_biryani"/>
+  <ingredientOf rdf:resource="#samosa"/>
+  <ingredientOf rdf:resource="#fish_curry"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -3770,23 +3782,6 @@
   <ingredientOf rdf:resource="#tamales"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole sauce</fancyName>
 </Sauce>
-
-<Vegetable rdf:about="#onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#tamales"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#bunny_chow"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <ingredientOf rdf:resource="#sadza_with_beef_stew"/>
-  <ingredientOf rdf:resource="#curry_goat"/>
-  <ingredientOf rdf:resource="#run_down"/>
-  <ingredientOf rdf:resource="#stewed_oxtail"/>
-  <ingredientOf rdf:resource="#katsu_curry"/>
-  <ingredientOf rdf:resource="#chicken_biryani"/>
-  <ingredientOf rdf:resource="#samosa"/>
-  <ingredientOf rdf:resource="#fish_curry"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
-</Vegetable>
 
 <Spice rdf:about="#chile_powder">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
