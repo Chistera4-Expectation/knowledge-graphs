@@ -3780,12 +3780,12 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorrel leaves</fancyName>
 </Vegetable>
 
-<Edible rdf:about="#wasabi">
+<Seasoning rdf:about="#wasabi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#sushi"/>
   <ingredientOf rdf:resource="#sashimi"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasabi</fancyName>
-</Edible>
+</Seasoning>
 
 <Edible rdf:about="#pickled_ginger">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
