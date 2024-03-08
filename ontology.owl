@@ -2198,11 +2198,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian Yogurt</fancyName>
 </Yogurt>
 
-<Yogurt rdf:about="#french_yogurt">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French Yogurt</fancyName>
-</Yogurt>
-
 <Yogurt rdf:about="#probiotic_yogurt">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probiotic Yogurt</fancyName>
