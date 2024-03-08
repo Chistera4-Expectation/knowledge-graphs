@@ -3570,6 +3570,7 @@
   <ingredientOf rdf:resource="#twice_cooked_pork"/>
   <ingredientOf rdf:resource="#scallion_pancakes"/>
   <ingredientOf rdf:resource="#beijing_roast_duck"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame oil</fancyName>
 </Oil>
@@ -7231,12 +7232,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
 </Vegetable>
-
-<Oil rdf:about="#sesame_oil_for_a_nutty_aroma">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#braised_pork_belly"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesame Oil for a nutty aroma</fancyName>
-</Oil>
 
 <Seasoning rdf:about="#flavor">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
