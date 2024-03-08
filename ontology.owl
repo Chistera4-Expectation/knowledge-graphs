@@ -3785,6 +3785,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#hamburger"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lettuce</fancyName>
 </Vegetable>
 
@@ -6280,12 +6281,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#cobb_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romaine lettuce</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#iceberg_lettuce">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cobb_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iceberg lettuce</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#hard_boiled_eggs">
