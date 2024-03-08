@@ -3937,6 +3937,16 @@
   <ingredientOf rdf:resource="#pumpkin_soup"/>
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#focaccia_bread"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
+  <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion</fancyName>
 </Vegetable>
 
@@ -5353,21 +5363,6 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
 </Fruit>
-
-<Vegetable rdf:about="#onions">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#focaccia_bread"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <ingredientOf rdf:resource="#cape_malay_curry"/>
-  <ingredientOf rdf:resource="#hot_dog"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <ingredientOf rdf:resource="#rogan_josh"/>
-  <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
-</Vegetable>
 
 <Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
