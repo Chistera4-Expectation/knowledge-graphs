@@ -6273,6 +6273,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#bake_and_shark"/>
+  <ingredientOf rdf:resource="#cuban_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breadcrumbs</fancyName>
 </Bread>
 
@@ -6623,12 +6624,6 @@
   <ingredientOf rdf:resource="#jamaican_beef_patties"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water for egg wash</fancyName>
 </Water>
-
-<Bread rdf:about="#cuban_bread">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cuban_sandwich"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban bread</fancyName>
-</Bread>
 
 <Seasoning rdf:about="#yellow_mustard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
