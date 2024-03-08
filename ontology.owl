@@ -4125,6 +4125,7 @@
   <ingredientOf rdf:resource="#spaghetti_carbonara"/>
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
@@ -5487,12 +5488,6 @@
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Freshly ground black pepper</fancyName>
 </Seasoning>
-
-<Vegetable rdf:about="#_optional__peas">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_milanese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Optional) Peas</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#other_vegetables_for_variation">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
