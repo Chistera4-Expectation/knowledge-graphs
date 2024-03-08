@@ -2345,11 +2345,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feta cheese</fancyName>
 </Cheese>
 
-<Cheese rdf:about="#gouda_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gouda cheese</fancyName>
-</Cheese>
-
 <Cheese rdf:about="#swiss_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#reuben_sandwich"/>
