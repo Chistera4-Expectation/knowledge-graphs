@@ -6117,6 +6117,8 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#bento_box"/>
+  <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickles</fancyName>
 </Vegetable>
 
@@ -6737,13 +6739,6 @@
   <ingredientOf rdf:resource="#bento_box"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seaweed salad</fancyName>
 </Seaweed>
-
-<Vegetable rdf:about="#pickled_vegetables">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bento_box"/>
-  <ingredientOf rdf:resource="#sichuanese_dan_dan_noodles"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pickled vegetables</fancyName>
-</Vegetable>
 
 <Fruit rdf:about="#fruit_salad">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
