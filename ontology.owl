@@ -2000,6 +2000,7 @@
 
 <Cheese rdf:about="#cheddar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheddar</fancyName>
 </Cheese>
 
@@ -2335,12 +2336,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mascarpone cheese</fancyName>
-</Cheese>
-
-<Cheese rdf:about="#cheddar_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#macaroni_and_cheese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheddar cheese</fancyName>
 </Cheese>
 
 <Cheese rdf:about="#feta_cheese">
