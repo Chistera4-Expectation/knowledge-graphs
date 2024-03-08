@@ -4851,11 +4851,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Juice</fancyName>
 </Juice>
 
-<Tea rdf:about="#infused_tea">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infused Tea</fancyName>
-</Tea>
-
 <Milk rdf:about="#nut_milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nut Milk</fancyName>
