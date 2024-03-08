@@ -2381,6 +2381,7 @@
 
 <Crustaceans rdf:about="#crawfish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crawfish</fancyName>
 </Crustaceans>
 
@@ -6028,12 +6029,6 @@
   <ingredientOf rdf:resource="#egusi_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouillon powder</fancyName>
 </Seasoning>
-
-<Crustaceans rdf:about="#crayfish">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crayfish</fancyName>
-</Crustaceans>
 
 <Spice rdf:about="#dried_cameroon_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
