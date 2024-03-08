@@ -4126,6 +4126,7 @@
   <ingredientOf rdf:resource="#cape_malay_curry"/>
   <ingredientOf rdf:resource="#samosas"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peas</fancyName>
 </Vegetable>
 
@@ -5960,12 +5961,6 @@
   <ingredientOf rdf:resource="#wonton_soup"/>
   <ingredientOf rdf:resource="#braised_pork_belly"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stock</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#green_peas">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
 </Vegetable>
 
 <Animal rdf:about="#meat">
