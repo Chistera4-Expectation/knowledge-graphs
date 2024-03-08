@@ -5434,6 +5434,8 @@
 <Vegetable rdf:about="#fresh_basil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#pesto_genovese"/>
+  <ingredientOf rdf:resource="#panzanella_salad"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Basil</fancyName>
 </Vegetable>
 
@@ -5540,13 +5542,6 @@
   <ingredientOf rdf:resource="#hot_and_sour_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional</fancyName>
 </Edible>
-
-<Vegetable rdf:about="#basil_leaves">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#pesto_genovese"/>
-  <ingredientOf rdf:resource="#panzanella_salad"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basil leaves</fancyName>
-</Vegetable>
 
 <Seed rdf:about="#pine_nuts">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
