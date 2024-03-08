@@ -5271,6 +5271,13 @@
   <ingredientOf rdf:resource="#coconut_shrimp"/>
   <ingredientOf rdf:resource="#peking_duck"/>
   <ingredientOf rdf:resource="#samosas"/>
+  <ingredientOf rdf:resource="#chicken_fried_steak"/>
+  <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
+  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#plantains"/>
+  <ingredientOf rdf:resource="#scallion_pancakes"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flour</fancyName>
 </Bread>
 
@@ -6354,18 +6361,6 @@
   <ingredientOf rdf:resource="#chicken_fried_steak"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beef cubed steak</fancyName>
 </Beef>
-
-<Bread rdf:about="#all_purpose_flour">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#chicken_fried_steak"/>
-  <ingredientOf rdf:resource="#southern_biscuits_and_gravy"/>
-  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
-  <ingredientOf rdf:resource="#conch_fritters"/>
-  <ingredientOf rdf:resource="#jamaican_beef_patties"/>
-  <ingredientOf rdf:resource="#plantains"/>
-  <ingredientOf rdf:resource="#scallion_pancakes"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All-purpose flour</fancyName>
-</Bread>
 
 <Spice rdf:about="#ground_black_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
