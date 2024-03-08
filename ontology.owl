@@ -4049,6 +4049,7 @@
 
 <Vegetable rdf:about="#leek">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leek</fancyName>
 </Vegetable>
 
@@ -6704,12 +6705,6 @@
   <ingredientOf rdf:resource="#sukiyaki"/>
   <ingredientOf rdf:resource="#wonton_soup"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Napa cabbage</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#leeks">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#sukiyaki"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leeks</fancyName>
 </Vegetable>
 
 <Vegetable rdf:about="#tofu">
