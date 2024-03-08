@@ -3318,6 +3318,7 @@
 
 <Fruit rdf:about="#apple">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apple</fancyName>
 </Fruit>
 
@@ -6203,12 +6204,6 @@
   <ingredientOf rdf:resource="#macaroni_and_cheese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optional: additional cheese for topping</fancyName>
 </Cheese>
-
-<Fruit rdf:about="#apples">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#apple_pie"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apples</fancyName>
-</Fruit>
 
 <Bread rdf:about="#pie_crust">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
