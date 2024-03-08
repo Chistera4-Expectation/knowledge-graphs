@@ -4410,11 +4410,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginger Tea</fancyName>
 </Tea>
 
-<Tea rdf:about="#hibiscus_tea">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hibiscus Tea</fancyName>
-</Tea>
-
 <Tea rdf:about="#lemon_tea">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemon Tea</fancyName>
