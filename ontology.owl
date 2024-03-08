@@ -2007,6 +2007,7 @@
 <Cheese rdf:about="#mozzarella">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella</fancyName>
 </Cheese>
 
@@ -5429,12 +5430,6 @@
   <ingredientOf rdf:resource="#margherita_pizza"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza Dough</fancyName>
 </Bread>
-
-<Cheese rdf:about="#fresh_mozzarella_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#margherita_pizza"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh Mozzarella Cheese</fancyName>
-</Cheese>
 
 <Oil rdf:about="#extra_virgin_olive_oil">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
