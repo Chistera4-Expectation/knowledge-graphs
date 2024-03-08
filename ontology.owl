@@ -4061,6 +4061,7 @@
 <Vegetable rdf:about="#vegetables">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tempura"/>
+  <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetables</fancyName>
 </Vegetable>
 
@@ -5461,12 +5462,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow onion</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#vegetable">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#risotto_milanese"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable</fancyName>
 </Vegetable>
 
 <Alcoholic rdf:about="#white_wine">
