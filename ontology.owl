@@ -3864,6 +3864,9 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <ingredientOf rdf:resource="#meatloaf"/>
   <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#lasagna"/>
+  <ingredientOf rdf:resource="#egusi_soup"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
 
@@ -5379,14 +5382,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diced tomatoes</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#bell_peppers">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <ingredientOf rdf:resource="#egusi_soup"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell peppers</fancyName>
 </Vegetable>
 
 <Seasoning rdf:about="#italian_seasoning">
