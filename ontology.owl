@@ -3832,6 +3832,20 @@
   <ingredientOf rdf:resource="#guacamole"/>
   <ingredientOf rdf:resource="#hamburger"/>
   <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#focaccia_bread"/>
+  <ingredientOf rdf:resource="#caprese_salad"/>
+  <ingredientOf rdf:resource="#panzanella_salad"/>
+  <ingredientOf rdf:resource="#enchiladas"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#hot_dog"/>
+  <ingredientOf rdf:resource="#cobb_salad"/>
+  <ingredientOf rdf:resource="#jambalaya"/>
+  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#rogan_josh"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato</fancyName>
 </Vegetable>
 
@@ -5327,25 +5341,6 @@
   <ingredientOf rdf:resource="#enchiladas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olives</fancyName>
 </Fruit>
-
-<Vegetable rdf:about="#tomatoes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#focaccia_bread"/>
-  <ingredientOf rdf:resource="#caprese_salad"/>
-  <ingredientOf rdf:resource="#panzanella_salad"/>
-  <ingredientOf rdf:resource="#enchiladas"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#cape_malay_curry"/>
-  <ingredientOf rdf:resource="#hot_dog"/>
-  <ingredientOf rdf:resource="#cobb_salad"/>
-  <ingredientOf rdf:resource="#jambalaya"/>
-  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <ingredientOf rdf:resource="#rogan_josh"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</fancyName>
-</Vegetable>
 
 <Vegetable rdf:about="#onions">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
