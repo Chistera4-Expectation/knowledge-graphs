@@ -3867,6 +3867,9 @@
   <ingredientOf rdf:resource="#lasagna"/>
   <ingredientOf rdf:resource="#egusi_soup"/>
   <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bell pepper</fancyName>
 </Vegetable>
 
@@ -5971,14 +5974,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#jollof_rice"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green peas</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#green_bell_pepper">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#conch_fritters"/>
-  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green bell pepper</fancyName>
 </Vegetable>
 
 <Animal rdf:about="#meat">
