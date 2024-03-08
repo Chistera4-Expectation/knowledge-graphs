@@ -4670,6 +4670,32 @@
 
 <Water rdf:about="#distilled_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#focaccia_bread"/>
+  <ingredientOf rdf:resource="#polenta"/>
+  <ingredientOf rdf:resource="#jollof_rice"/>
+  <ingredientOf rdf:resource="#pounded_yam"/>
+  <ingredientOf rdf:resource="#apple_pie"/>
+  <ingredientOf rdf:resource="#bbq_ribs"/>
+  <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
+  <ingredientOf rdf:resource="#peach_cobbler"/>
+  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
+  <ingredientOf rdf:resource="#jamaican_beef_patties"/>
+  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
+  <ingredientOf rdf:resource="#plantains"/>
+  <ingredientOf rdf:resource="#teriyaki_chicken"/>
+  <ingredientOf rdf:resource="#sukiyaki"/>
+  <ingredientOf rdf:resource="#miso_soup"/>
+  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
+  <ingredientOf rdf:resource="#peking_duck"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
+  <ingredientOf rdf:resource="#wonton_soup"/>
+  <ingredientOf rdf:resource="#mapo_tofu"/>
+  <ingredientOf rdf:resource="#twice_cooked_pork"/>
+  <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
+  <ingredientOf rdf:resource="#braised_pork_belly"/>
+  <ingredientOf rdf:resource="#butter_chicken"/>
+  <ingredientOf rdf:resource="#biryani"/>
+  <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distilled Water</fancyName>
 </Water>
 
@@ -4757,37 +4783,6 @@
 <Water rdf:about="#soft_water">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft Water</fancyName>
-</Water>
-
-<Water rdf:about="#water">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#focaccia_bread"/>
-  <ingredientOf rdf:resource="#polenta"/>
-  <ingredientOf rdf:resource="#jollof_rice"/>
-  <ingredientOf rdf:resource="#pounded_yam"/>
-  <ingredientOf rdf:resource="#apple_pie"/>
-  <ingredientOf rdf:resource="#bbq_ribs"/>
-  <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
-  <ingredientOf rdf:resource="#peach_cobbler"/>
-  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
-  <ingredientOf rdf:resource="#jamaican_beef_patties"/>
-  <ingredientOf rdf:resource="#cou_cou_and_flying_fish"/>
-  <ingredientOf rdf:resource="#plantains"/>
-  <ingredientOf rdf:resource="#teriyaki_chicken"/>
-  <ingredientOf rdf:resource="#sukiyaki"/>
-  <ingredientOf rdf:resource="#miso_soup"/>
-  <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
-  <ingredientOf rdf:resource="#peking_duck"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <ingredientOf rdf:resource="#wonton_soup"/>
-  <ingredientOf rdf:resource="#mapo_tofu"/>
-  <ingredientOf rdf:resource="#twice_cooked_pork"/>
-  <ingredientOf rdf:resource="#sichuanese_spicy_fish_fillet"/>
-  <ingredientOf rdf:resource="#braised_pork_belly"/>
-  <ingredientOf rdf:resource="#butter_chicken"/>
-  <ingredientOf rdf:resource="#biryani"/>
-  <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</fancyName>
 </Water>
 
 <Coffee rdf:about="#coffee">
