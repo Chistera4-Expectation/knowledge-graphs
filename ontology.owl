@@ -3212,6 +3212,7 @@
 <Pasta rdf:about="#lasagna">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#Italian"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lasagna</fancyName>
 </Pasta>
 
@@ -5358,12 +5359,6 @@
   <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</fancyName>
 </Vegetable>
-
-<Pasta rdf:about="#lasagna_noodles">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lasagna noodles</fancyName>
-</Pasta>
 
 <Beef rdf:about="#ground_beef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
