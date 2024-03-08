@@ -3906,6 +3906,12 @@
 
 <Vegetable rdf:about="#potato">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#cape_malay_curry"/>
+  <ingredientOf rdf:resource="#clam_chowder"/>
+  <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
+  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
+  <ingredientOf rdf:resource="#aloo_gobi"/>
+  <ingredientOf rdf:resource="#samosas"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potato</fancyName>
 </Vegetable>
 
@@ -6033,17 +6039,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#piri_piri_chicken"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresh herbs</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#potatoes">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#cape_malay_curry"/>
-  <ingredientOf rdf:resource="#clam_chowder"/>
-  <ingredientOf rdf:resource="#new_england_boiled_dinner"/>
-  <ingredientOf rdf:resource="#jamaican_curry_goat"/>
-  <ingredientOf rdf:resource="#aloo_gobi"/>
-  <ingredientOf rdf:resource="#samosas"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potatoes</fancyName>
 </Vegetable>
 
 <Oil rdf:about="#cooking_oil">
