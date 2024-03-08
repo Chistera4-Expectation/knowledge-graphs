@@ -2642,6 +2642,7 @@
 
 <Molluscs rdf:about="#conch">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#conch_fritters"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch</fancyName>
 </Molluscs>
 
@@ -6570,12 +6571,6 @@
   <ingredientOf rdf:resource="#sweet_and_sour_pork"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White vinegar</fancyName>
 </Seasoning>
-
-<Molluscs rdf:about="#conch_meat">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#conch_fritters"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conch meat</fancyName>
-</Molluscs>
 
 <Vegetable rdf:about="#yellow_bell_pepper">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
