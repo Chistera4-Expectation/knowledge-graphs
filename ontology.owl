@@ -2006,6 +2006,7 @@
 
 <Cheese rdf:about="#mozzarella">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#lasagna"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella</fancyName>
 </Cheese>
 
@@ -2341,12 +2342,6 @@
 <Cheese rdf:about="#feta_cheese">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feta cheese</fancyName>
-</Cheese>
-
-<Cheese rdf:about="#mozzarella_cheese">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#lasagna"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mozzarella cheese</fancyName>
 </Cheese>
 
 <Cheese rdf:about="#gouda_cheese">
