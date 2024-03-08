@@ -5466,6 +5466,7 @@
 <Vegetable rdf:about="#yellow_onion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#risotto_milanese"/>
+  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow onion</fancyName>
 </Vegetable>
 
@@ -6274,12 +6275,6 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato slices</fancyName>
-</Vegetable>
-
-<Vegetable rdf:about="#onion_slices">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#grilled_cheese_sandwich"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onion slices</fancyName>
 </Vegetable>
 
 <Beef rdf:about="#beef_cubed_steak">
