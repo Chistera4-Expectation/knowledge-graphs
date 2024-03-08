@@ -4139,6 +4139,7 @@
 <Alcoholic rdf:about="#wine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ingredientOf rdf:resource="#tiramisu"/>
+  <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wine</fancyName>
 </Alcoholic>
 
@@ -5569,12 +5570,6 @@
   <ingredientOf rdf:resource="#bolognese_sauce"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canned crushed tomatoes</fancyName>
 </Vegetable>
-
-<Alcoholic rdf:about="#red_wine">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bolognese_sauce"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red wine</fancyName>
-</Alcoholic>
 
 <Animal rdf:about="#beef_broth">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
