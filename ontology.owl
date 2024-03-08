@@ -3156,6 +3156,9 @@
 
 <Rice rdf:about="#japonica_rice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ingredientOf rdf:resource="#bandeja_paisa"/>
+  <ingredientOf rdf:resource="#rice_and_peas"/>
+  <ingredientOf rdf:resource="#ma_po_tofu"/>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japonica Rice</fancyName>
 </Rice>
 
@@ -5885,15 +5888,6 @@
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green onions</fancyName>
   <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Onions</fancyName>
 </Vegetable>
-
-<Rice rdf:about="#white_rice">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ingredientOf rdf:resource="#bandeja_paisa"/>
-  <ingredientOf rdf:resource="#rice_and_peas"/>
-  <ingredientOf rdf:resource="#ma_po_tofu"/>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Rice</fancyName>
-  <fancyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White rice</fancyName>
-</Rice>
 
 <Vegetable rdf:about="#red_beans">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
